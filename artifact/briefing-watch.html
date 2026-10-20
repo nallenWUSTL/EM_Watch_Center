@@ -216,7 +216,7 @@
     </div>
     <h1>Daily Intelligence Briefing</h1>
   </div>
-  <p class="hdr-note">Filed each morning by the scheduled briefing task. This page is the at-a-glance view and archive; the linked briefing is the full record.</p>
+  <p class="hdr-note">Filed each morning at 5:52 AM Central. Open the full briefing for sources and detail.</p>
 </header>
 
 <div id="latest" class="bw-latest bw-band" hidden></div>
@@ -226,7 +226,7 @@
 <section id="archive" class="bw-sec bw-band" hidden></section>
 
 <footer class="ftr bw-band">
-  <span>Read-only view · Written by the briefing task, never by this page</span>
+  <span>Read-only · filed by the briefing task</span>
   <span id="stamp"></span>
 </footer>
 </div>
@@ -277,14 +277,14 @@
 
   /* Inner markup of the empty state. kind: pending | none | absent | error. */
   function emptyState(kind, detail) {
-    if (kind === "absent") return '<div class="bw-empty-title">The briefing feed needs a signed-in viewer.</div>' +
-      '<p class="bw-empty-body">This page reads the briefing store through your claude.ai sign-in. Open it while signed in to see the posture, the top item and the day’s decisions.</p>';
+    if (kind === "absent") return '<div class="bw-empty-title">Sign in to claude.ai to read the briefing.</div>' +
+      '<p class="bw-empty-body">The briefing is stored on claude.ai and needs your sign-in.</p>';
     if (kind === "error") return '<div class="bw-empty-title">The briefing could not be read.</div>' +
-      '<p class="bw-empty-body">' + esc(detail || "The briefing files did not answer.") + " The last briefing that did load, if any, stays below.</p>";
+      '<p class="bw-empty-body">' + esc(detail || "The briefing did not answer.") + " Try again in a few minutes.</p>";
     if (kind === "pending") return '<div class="bw-empty-title">Reading the briefing…</div>' +
-      '<p class="bw-empty-body">No briefing filed yet. The first run files at 5:52 AM Central.</p>';
+      '<p class="bw-empty-body">The briefing is filed each morning at 5:52 AM Central.</p>';
     return '<div class="bw-empty-title">No briefing filed yet.</div>' +
-      '<p class="bw-empty-body">The first run files at 5:52 AM Central. When it does, the posture, the top item and the day’s decisions appear here.</p>';
+      '<p class="bw-empty-body">The first briefing is filed at 5:52 AM Central.</p>';
   }
 
   /* The body of one briefing: BLUF, decisions, PIRs, lookahead, method. */
@@ -305,7 +305,7 @@
       "</section>" +
 
       '<section class="bw-sec bw-band">' +
-        '<div class="bw-sec-head"><span class="bw-eyebrow">Decisions today · ' + items.length + (items.length === 1 ? " item" : " items") + '</span><span class="bw-sub">Ranked by the briefing task. Sev is 1–5; TTD is the time to decide.</span></div>' +
+        '<div class="bw-sec-head"><span class="bw-eyebrow">Decisions today · ' + items.length + (items.length === 1 ? " item" : " items") + '</span><span class="bw-sub">Ranked by urgency. Sev 1 to 5. Now or Today is when to decide.</span></div>' +
         (items.length ? '<div class="bw-dec" role="table" aria-label="Decisions today">' +
           '<div class="bw-dec-h" role="row"><span>#</span><span>Item</span><span>Sev</span><span>Likelihood</span><span>Confidence</span><span>Action</span><span>Owner</span></div>' +
           items.map(it => '<div class="bw-dec-r" role="row">' +
@@ -322,7 +322,7 @@
       "</section>" +
 
       '<section class="bw-sec bw-band">' +
-        '<div class="bw-sec-head"><span class="bw-eyebrow">Priority intelligence requirements</span><span class="bw-sub">' + (quiet.length ? "Lanes " + quiet.map(esc).join(", ") + " reported nothing above threshold" : "") + "</span></div>" +
+        '<div class="bw-sec-head"><span class="bw-eyebrow">Priority intelligence requirements</span><span class="bw-sub">' + (quiet.length ? "Lanes " + quiet.map(esc).join(", ") + ": nothing to report" : "") + "</span></div>" +
         '<div class="bw-pirs">' + pirs.map(p => '<div class="bw-pir">' +
           '<span class="bw-pir-n">PIR ' + esc(p.pir) + "</span>" +
           '<span class="bw-pir-name">' + esc(p.name) + "</span>" +
@@ -339,10 +339,10 @@
           '<div class="bw-day-loads">' + esc(x.loads || "") + "</div>" +
           (x.stacked ? '<div class="bw-day-flag">Stacked</div>' : "") +
         "</div>").join("") + "</div>" +
-        '<div class="bw-days-legend"><span><span class="bw-sw"></span>Stacked: several loads land on the same day</span></div>' +
+        '<div class="bw-days-legend"><span><span class="bw-sw"></span>Stacked: several events on the same day</span></div>' +
       "</section>" +
 
-      '<details class="bw-method bw-band"><summary><span class="bw-sum-mark"></span><span class="bw-eyebrow bw-caps--ink">Method · dissents, quiet lanes and unreachable sources</span></summary>' +
+      '<details class="bw-method bw-band"><summary><span class="bw-sum-mark"></span><span class="bw-eyebrow bw-caps--ink">How this was judged · dissents, quiet lanes, unreachable sources</span></summary>' +
         '<div class="bw-method-body">' +
           '<div><div class="bw-mh">Dissents · ' + dissents.length + "</div>" +
             (dissents.length ? dissents.map(x => '<div class="bw-dis"><span class="bw-dis-title">' + esc(x.title) + '</span><span class="bw-dis-verdict">' + esc(x.verdict) + '</span><span class="bw-dis-note">' + esc(x.note) + "</span></div>").join("") : '<div class="bw-plain bw-plain--muted">No dissents recorded.</div>') +
@@ -366,7 +366,7 @@
   /* Inner markup of the archive section. */
   function archive(docs, currentDate) {
     if (!docs || !docs.length) return "";
-    return '<div class="bw-sec-head"><span class="bw-eyebrow">Archive · ' + docs.length + (docs.length === 1 ? " briefing" : " briefings") + '</span><span class="bw-sub">Select a day to read it above. Newest 30 are listed.</span></div>' +
+    return '<div class="bw-sec-head"><span class="bw-eyebrow">Archive · ' + docs.length + (docs.length === 1 ? " briefing" : " briefings") + '</span><span class="bw-sub">Select a day to read it. Newest 30 shown.</span></div>' +
       '<div class="bw-arch">' + docs.map(d => '<button type="button" class="bw-arch-row" data-select="' + esc(d.date) + '"' + (d.date === currentDate ? ' aria-current="true"' : "") + ">" +
         '<span class="bw-arch-date bw-tnum">' + esc(dayShort(d.date)) + "</span>" +
         "<span>" + postureChip(d.posture) + "</span>" +

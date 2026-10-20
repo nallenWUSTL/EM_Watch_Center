@@ -65,7 +65,7 @@
      probability that a vulnerability will be exploited in the next 30 days. Bands
      follow FIRST's own guidance rather than round numbers. */
   const EPSS_BANDS = [
-    { min: 0.5, label: "Very high", color: RED, note: "≥50% chance of exploitation activity in 30 days" },
+    { min: 0.5, label: "Very high", color: RED, note: "≥50% chance of exploitation in 30 days" },
     { min: 0.1, label: "High", color: "#e0700b", note: "10–50%" },
     { min: 0.01, label: "Moderate", color: "#8f6b12", note: "1–10%" },
     { min: 0, label: "Low", color: MUTED, note: "<1%" }
@@ -196,7 +196,7 @@
   // is worst", with the value printed rather than left to the eye.
   const barList = (rows, opts) => {
     const o = opts || {};
-    if (!rows.length) return '<div style="' + label() + '">Nothing in scope.</div>';
+    if (!rows.length) return '<div style="' + label() + '">Nothing to show.</div>';
     const max = Math.max(...rows.map(r => r.v)) || 1;
     return rows.map(r => {
       const text = r.l != null ? r.l : r.label;
@@ -237,14 +237,14 @@
   const TEMPLATE = `
     <div style="display:flex;align-items:center;gap:14px;padding:10px 32px;background:${INK};color:${GROUND};border-bottom:2px solid ${INK};">
       <span style="font-size:10px;font-weight:800;letter-spacing:0.16em;text-transform:uppercase;padding:4px 8px;background:${GROUND};color:${INK};">Live Cyber Feeds</span>
-      <span style="font-size:12px;font-weight:600;">Exposure reporting, not detection. Nothing here sees WashU's own network &mdash; these are public advisories, vulnerability catalogues and adversary claims, read for what they imply about the technology this sector runs.</span>
+      <span style="font-size:12px;font-weight:600;">Public reporting only. Nothing here watches WashU's own network. These are public advisories, vulnerability lists and ransomware group claims about the technology this sector runs.</span>
     </div>
 
     <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:20px;padding:22px 32px 18px;border-bottom:2px solid ${RULE};">
       <div>
         <div style="${label("margin-bottom:6px;")}">Healthcare &middot; Medical Research &middot; Higher Education</div>
         <div style="font-family:Archivo,system-ui,sans-serif;font-weight:800;font-size:30px;line-height:1.05;letter-spacing:-0.025em;">Cyber Watch</div>
-        <div data-status style="font-size:12px;color:${MUTED};margin-top:7px;max-width:920px;line-height:1.5;">Querying the CISA exploited-vulnerability catalogue, EPSS, NVD, openFDA and the advisory feeds&hellip;</div>
+        <div data-status style="font-size:12px;color:${MUTED};margin-top:7px;max-width:920px;line-height:1.5;">Loading CISA's exploited-vulnerability list, EPSS, NVD, openFDA and the advisory feeds&hellip;</div>
       </div>
       <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px;">
         <div data-updated style="${label()}"></div>
@@ -255,7 +255,7 @@
     <div data-kpis style="display:grid;grid-template-columns:repeat(6,minmax(0,1fr));border-bottom:2px solid ${RULE};"></div>
 
     <div style="padding:18px 32px;border-bottom:2px solid ${RULE};background:${SURFACE};">
-      <div style="${label("margin-bottom:6px;")}">Situation note &middot; composed from the live feeds</div>
+      <div style="${label("margin-bottom:6px;")}">Situation note &middot; from the live feeds</div>
       <div data-note style="font-size:14px;font-weight:600;line-height:1.55;max-width:1180px;text-wrap:pretty;">Reading the feeds&hellip;</div>
     </div>
 
@@ -263,7 +263,7 @@
       <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:16px;padding:20px 32px 14px;">
         <div>
           <div style="${label("margin-bottom:4px;")}">Sector exposure &middot; CISA known exploited vulnerabilities</div>
-          <div style="font-size:11px;color:${MUTED};max-width:760px;line-height:1.5;">Catalogue entries naming technology each environment runs, ranked by EPSS &mdash; the model's estimated probability of exploitation activity in the next 30 days. Shared infrastructure counts for all three sectors.</div>
+          <div style="font-size:11px;color:${MUTED};max-width:760px;line-height:1.5;">KEV is CISA's list of vulnerabilities being exploited. Shown here: KEV entries naming technology each sector runs, ranked by EPSS. EPSS is the chance of exploitation in the next 30 days. Shared infrastructure counts for all three sectors.</div>
         </div>
         <div data-kev-window-seg style="display:flex;border:2px solid ${RULE};">
           ${KEV_WINDOWS.map((d, i) => '<button data-kev-window="' + d + '" style="font-family:Archivo,system-ui,sans-serif;font-size:10px;font-weight:800;letter-spacing:0.08em;text-transform:uppercase;padding:5px 9px;border:none;' + (i ? "border-left:2px solid " + RULE + ";" : "") + "background:" + (d === 90 ? INK : "transparent") + ";color:" + (d === 90 ? GROUND : INK) + ';cursor:pointer;">' + (d < 365 ? d + " D" : "1 YR") + "</button>").join("")}
@@ -277,7 +277,7 @@
         <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:16px;padding:20px 20px 14px 32px;">
           <div>
             <div style="${label("margin-bottom:4px;")}">Exploited vulnerability queue</div>
-            <div data-kev-note style="font-size:11px;color:${MUTED};line-height:1.5;">Reading the catalogue&hellip;</div>
+            <div data-kev-note style="font-size:11px;color:${MUTED};line-height:1.5;">Reading the KEV list&hellip;</div>
           </div>
           <div data-kev-sort-seg style="display:flex;border:2px solid ${RULE};">
             <button data-kev-sort="epss" style="font-family:Archivo,system-ui,sans-serif;font-size:10px;font-weight:800;letter-spacing:0.08em;text-transform:uppercase;padding:5px 9px;border:none;background:${INK};color:${GROUND};cursor:pointer;">By EPSS</button>
@@ -291,8 +291,8 @@
 
       <aside>
         <div style="padding:20px 32px 20px 20px;border-bottom:2px solid ${RULE};">
-          <div style="${label("margin-bottom:4px;")}">Additions to the catalogue</div>
-          <div style="font-size:11px;color:${MUTED};margin-bottom:12px;line-height:1.5;">Entries added per week over the last year. CISA adds on evidence of exploitation, so a tall column is a busy exploitation week, not a busy disclosure week.</div>
+          <div style="${label("margin-bottom:4px;")}">New KEV entries by week</div>
+          <div style="font-size:11px;color:${MUTED};margin-bottom:12px;line-height:1.5;">Entries CISA added each week over the last year. CISA adds an entry only when it sees exploitation. A tall column means a busy week for attackers.</div>
           <div data-kev-chart></div>
         </div>
         <div style="padding:20px 32px 20px 20px;border-bottom:2px solid ${RULE};">
@@ -306,8 +306,8 @@
       <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:20px;padding:20px 32px 16px;border-bottom:2px solid ${RULE};">
         <div>
           <div style="${label("margin-bottom:4px;")}">Ransomware victim map &middot; leak-site claims</div>
-          <div style="font-family:Archivo,system-ui,sans-serif;font-weight:800;font-size:22px;line-height:1.1;letter-spacing:-0.02em;">Every organisation named on a leak site</div>
-          <div style="font-size:12px;color:${MUTED};margin-top:6px;max-width:820px;line-height:1.55;">Framed on the United States by default; the data is worldwide. Healthcare, medical research and higher education are marked in red.</div>
+          <div style="font-family:Archivo,system-ui,sans-serif;font-weight:800;font-size:22px;line-height:1.1;letter-spacing:-0.02em;">Organisations named on ransomware leak sites</div>
+          <div style="font-size:12px;color:${MUTED};margin-top:6px;max-width:820px;line-height:1.55;">The map opens on the United States. The data is worldwide. Healthcare, medical research and higher education are in red.</div>
         </div>
         <div style="display:flex;align-items:center;gap:14px;">
           <div data-rw-window-seg style="display:flex;border:2px solid ${RULE};">
@@ -349,7 +349,7 @@
       <div data-rw-panel style="min-height:280px;max-height:400px;overflow-y:auto;"></div>
 
       <div style="padding:14px 32px 18px;border-top:2px solid ${RULE};font-size:11px;color:${MUTED};line-height:1.6;">
-        A listing is the group&rsquo;s own <b style="color:${INK};">claim</b>, published to its leak site after the intrusion &mdash; not a confirmed breach, and not a live intrusion feed. Position is the victim&rsquo;s country, scattered within it: the feed carries no city. Rows for healthcare, medical research and higher education are marked, since those are this desk&rsquo;s sectors. Data from <a href="https://www.ransomware.live/" target="_blank" rel="noopener" style="color:${RED};">ransomware.live</a>; map after its own victims map by Julien Mousqueton.
+        A listing is the ransomware group&rsquo;s own <b style="color:${INK};">claim</b>, posted on its leak site after the intrusion. It is not a confirmed breach. Dots are placed within the victim&rsquo;s country, not at an address. The feed gives no city. Rows for healthcare, medical research and higher education are marked, since those are this desk&rsquo;s sectors. Data from <a href="https://www.ransomware.live/" target="_blank" rel="noopener" style="color:${RED};">ransomware.live</a>. Map after its own victims map by Julien Mousqueton.
       </div>
     </div>
 
@@ -397,9 +397,9 @@
     </div>
 
     <div style="padding:18px 32px 28px;">
-      <div style="${label("margin-bottom:8px;")}">What this view is and is not</div>
-      <div style="font-size:12px;color:${MUTED};line-height:1.65;max-width:1180px;">This is an external exposure picture. It has no visibility into WashU networks, endpoints or accounts &mdash; a quiet page is not evidence that nothing is happening here, and an alarming page is not evidence that anything is. Use it to decide what to go and check. Internal detection lives with IT Security; incident reporting lives with them too.
-      <br><br>Sources: CISA Known Exploited Vulnerabilities catalogue, read from CISA's own published JSON &middot; FIRST EPSS v4 exploitation-probability model &middot; NVD CVE API 2.0 &middot; openFDA device recall enforcement, narrowed to software and firmware root causes &middot; CISA advisories and ICS/medical advisories, HHS HC3, and the security trade press through the dashboard Worker &middot; ransomware.live public leak-site listings. Sector matching, threat tags and stack profiles are this dashboard's own keyword rules, shown on each item so they can be judged rather than trusted.</div>
+      <div style="${label("margin-bottom:8px;")}">What this page shows</div>
+      <div style="font-size:12px;color:${MUTED};line-height:1.65;max-width:1180px;">This page shows outside reporting only. It cannot see WashU networks, devices or accounts. A quiet page is not evidence that nothing is happening here. An alarming page is not evidence that anything is. Use it to decide what to go and check. IT Security handles internal detection and incident reporting.
+      <br><br>Sources: CISA Known Exploited Vulnerabilities catalogue, read from CISA's own published file &middot; FIRST EPSS v4, the chance of exploitation in 30 days &middot; NVD, the National Vulnerability Database &middot; openFDA device recalls, limited to software and firmware causes &middot; CISA advisories and ICS/medical advisories, HHS HC3, and the security trade press, through the dashboard Worker &middot; ransomware.live public leak-site listings. Sector matches, threat tags and stack profiles are this dashboard's own keyword rules. They are shown on each item so you can judge them.</div>
     </div>
   `;
 
@@ -546,7 +546,7 @@
 
     async load() {
       if (this.rwMap) this.armRwFit();
-      this.status("Querying the CISA exploited-vulnerability catalogue, EPSS, NVD, openFDA and the advisory feeds…");
+      this.status("Loading CISA's exploited-vulnerability list, EPSS, NVD, openFDA and the advisory feeds…");
       const results = await Promise.allSettled([
         this.loadKev(), this.loadNvd(), this.loadDevices(), this.loadNews(), this.loadRansomware()
       ]);
@@ -561,11 +561,11 @@
       if (this.failures.includes("ransomware listings")) this.renderRansom();
       this.q("[data-updated]").textContent = "Retrieved " + new Date().toLocaleString("en-US", { timeZone: "America/Chicago", hour: "numeric", minute: "2-digit" }) + " CT";
       this.status(this.failures.length
-        ? "Six public feeds, " + (6 - this.failures.length) + " answering. Unavailable: " + this.failures.join(", ") + "."
+        ? "Six public feeds. " + (6 - this.failures.length) + " answering. Not answering: " + this.failures.join(", ") + "."
           + (/\.workers\.dev$/.test(proxyOrigin()) && (this.failures.includes("advisory feeds") || this.failures.includes("ransomware listings"))
-              ? " Managed WashU devices block *.workers.dev — set an allowed proxy origin in the Outages tab." : "")
-          + " Panels for those feeds say so rather than showing stale numbers."
-        : "Six public feeds answering: CISA's exploited-vulnerability catalogue, FIRST EPSS, the NVD CVE API, openFDA device recalls, the CISA and HC3 advisory feeds, and the ransomware leak-site listings.");
+              ? " Managed WashU devices block *.workers.dev. Set an allowed Worker address on the Outages tab." : "")
+          + " Panels for those feeds say so. They do not show stale numbers."
+        : "All six public feeds answering: CISA's exploited-vulnerability list, FIRST EPSS, NVD, openFDA device recalls, CISA and HC3 advisories, and ransomware leak-site listings.");
       this.renderKpis();
       this.renderNote();
       this.publish();
@@ -1013,9 +1013,9 @@
         box.innerHTML = '<div style="padding:26px 24px;font-size:12px;line-height:1.6;color:'
           + (this.failures.includes("ransomware listings") ? RED : DARK_MUTED) + ';">'
           + (this.failures.includes("ransomware listings")
-              ? "The leak-site feed is unavailable through " + esc(new URL(proxyOrigin()).hostname)
-                + ". On a managed WashU device that host is blocked \u2014 set an allowed proxy origin in the Outages tab."
-              : "No claims published in this window.") + "</div>";
+              ? "The leak-site feed did not answer through " + esc(new URL(proxyOrigin()).hostname)
+                + ". Managed WashU devices block that address. Set an allowed Worker address on the Outages tab."
+              : "No claims posted in this window.") + "</div>";
         return;
       }
       const tab = this.rwTab || "feed";
@@ -1052,7 +1052,7 @@
           "<tr>"
           + this.rwCell(String(i + 1), { tone: DARK_MUTED, mono: true })
           + this.rwCell('<span style="color:' + (e.sector ? RED : DARK_TEXT) + ';">' + esc(g) + "</span>", { bold: true, nowrap: true })
-          + this.rwCell(String(e.n) + (e.sector ? '<span style="color:' + RED + ';font-size:9px;font-weight:800;letter-spacing:0.08em;"> \u00b7 ' + e.sector + " SEC</span>" : ""), { right: true, bold: true, mono: true, nowrap: true })
+          + this.rwCell(String(e.n) + (e.sector ? '<span style="color:' + RED + ';font-size:9px;font-weight:800;letter-spacing:0.08em;"> \u00b7 ' + e.sector + " OURS</span>" : ""), { right: true, bold: true, mono: true, nowrap: true })
           + this.rwCell(esc(e.lastVictim || "\u2014"))
           + this.rwCell(esc(relHours((Date.now() - Date.parse(e.last)) / 3600000)), { tone: DARK_MUTED, nowrap: true, mono: true })
           + "</tr>").join("")
@@ -1069,7 +1069,7 @@
           return '<tr data-rw-country="' + esc(c) + '" title="Centre the map here" style="cursor:pointer;">'
             + this.rwCell(String(i + 1), { tone: DARK_MUTED, mono: true })
             + this.rwCell(esc((RW_GEO[c] || ["", c])[1]), { bold: true, nowrap: true })
-            + this.rwCell(String(e.n) + (e.sector ? '<span style="color:' + RED + ';font-size:9px;font-weight:800;letter-spacing:0.08em;"> \u00b7 ' + e.sector + " SEC</span>" : ""), { right: true, bold: true, mono: true, nowrap: true })
+            + this.rwCell(String(e.n) + (e.sector ? '<span style="color:' + RED + ';font-size:9px;font-weight:800;letter-spacing:0.08em;"> \u00b7 ' + e.sector + " OURS</span>" : ""), { right: true, bold: true, mono: true, nowrap: true })
             + this.rwCell(esc(topGroup ? topGroup[0] + " (" + topGroup[1] + ")" : "\u2014"), { tone: DARK_MUTED })
             + this.rwCell(esc(relHours((Date.now() - Date.parse(e.last)) / 3600000)), { tone: DARK_MUTED, nowrap: true, mono: true })
             + "</tr>";
@@ -1100,8 +1100,8 @@
               + "</div>"
               + '<div style="display:flex;justify-content:space-between;margin-top:7px;font-size:9px;font-weight:700;color:' + DARK_MUTED + ';">'
               + "<span>" + esc(fmtDate(daily[0].date)) + "</span><span>" + esc(fmtDate(daily[daily.length - 1].date)) + "</span></div>"
-              + '<div style="font-size:10px;color:' + DARK_MUTED + ';margin-top:9px;line-height:1.5;">Red is the share of that day\u2019s claims naming healthcare, medical research or higher education. Peak day ' + maxDay + " claims.</div>"
-            : '<div style="font-size:11px;color:' + DARK_MUTED + ';">No daily volume in this window.</div>')
+              + '<div style="font-size:10px;color:' + DARK_MUTED + ';margin-top:9px;line-height:1.5;">Red is the share of each day\u2019s claims in healthcare, medical research or higher education. Busiest day: ' + maxDay + " claims.</div>"
+            : '<div style="font-size:11px;color:' + DARK_MUTED + ';">No daily counts in this window.</div>')
         + "</div>"
         + '<div style="padding:16px 24px 18px 20px;">'
         + '<div style="font-size:9px;font-weight:800;letter-spacing:0.12em;text-transform:uppercase;color:' + DARK_MUTED + ';margin-bottom:12px;">Top sectors</div>'
@@ -1174,7 +1174,7 @@
           + "</div>"
           + '<div style="font-family:Archivo,system-ui,sans-serif;font-weight:800;font-size:34px;line-height:1;letter-spacing:-0.03em;font-variant-numeric:tabular-nums;">' + mine.length + "</div>"
           + '<div style="font-size:11px;color:' + MUTED + ';margin-top:5px;line-height:1.45;">'
-          + "exploited vulnerabilities in scope &middot; " + specific + " name sector-specific products"
+          + "exploited vulnerabilities in scope &middot; " + specific + " name products specific to this sector"
           + (ransom ? " &middot; " + ransom + " ransomware-linked" : "")
           + (overdue ? ' &middot; <span style="color:' + DEEPRED + ';font-weight:700;">' + overdue + " past CISA due date</span>" : "")
           + "</div>"
@@ -1204,8 +1204,8 @@
       const total = bins.reduce((n, b) => n + b.v, 0);
       this.q("[data-kev-chart]").innerHTML = columnChart(bins, { w: 320, h: 110 })
         + '<div style="font-size:11px;color:' + MUTED + ';margin-top:8px;line-height:1.5;">'
-        + total + " entries added in 52 weeks &middot; busiest week " + peak
-        + " &middot; catalogue holds " + (this.kevCount || 0).toLocaleString("en-US") + " total, version "
+        + total + " added in 52 weeks &middot; busiest week " + peak
+        + " &middot; " + (this.kevCount || 0).toLocaleString("en-US") + " in the full list &middot; version "
         + esc(this.kevVersion || "—") + "</div>";
     }
 
@@ -1217,8 +1217,8 @@
         .map(([vendor, n]) => ({ l: vendor, v: n }));
       this.q("[data-kev-vendors]").innerHTML = top.length
         ? barList(top, { labelWidth: "1fr", valWidth: "34px" })
-          + '<div style="' + label("margin-top:10px;line-height:1.5;") + '">Counted across the selected window, sector-relevant entries only</div>'
-        : '<div style="' + label() + '">No sector-relevant entries in this window.</div>';
+          + '<div style="' + label("margin-top:10px;line-height:1.5;") + '">Selected window only. Entries that touch our sectors only.</div>'
+        : '<div style="' + label() + '">No entries touch our sectors in this window.</div>';
     }
 
     renderKevFilters() {
@@ -1241,24 +1241,24 @@
       const note = this.q("[data-kev-note]");
       const all = this.kevAll || [];
       if (!all.length) {
-        note.textContent = "The CISA catalogue did not load. This is a feed failure, not an empty catalogue.";
+        note.textContent = "The CISA KEV list did not load. This is a feed problem. The list itself is not empty. Try Refresh feeds.";
         box.innerHTML = "";
         return;
       }
       const inWindow = this.kevWindowRows();
       note.innerHTML = rows.length + " of " + inWindow.length + " entries added in the last "
         + (this.kevWindow < 365 ? this.kevWindow + " days" : "year") + " touch sector technology"
-        + (this.kevSector ? " &middot; filtered to " + esc((SECTORS.find(s => s.key === this.kevSector) || {}).label || "") : "")
-        + ". CISA lists a vulnerability only on evidence of active exploitation, and sets a federal remediation due date; the date is shown because it is a useful clock even for a private institution.";
+        + (this.kevSector ? " &middot; showing " + esc((SECTORS.find(s => s.key === this.kevSector) || {}).label || "") + " only" : "")
+        + ". CISA lists a vulnerability only when it is being exploited. CISA also sets a fix-by date for federal agencies. That date is a useful clock for WashU too.";
 
       this.kevRows = rows;
-      if (!rows.length) { box.innerHTML = '<div style="padding:20px 32px;font-size:12px;color:' + MUTED + ';">No sector-relevant entries in this window.</div>'; return; }
+      if (!rows.length) { box.innerHTML = '<div style="padding:20px 32px;font-size:12px;color:' + MUTED + ';">No entries touch our sectors in this window. Try a wider window above.</div>'; return; }
 
       box.innerHTML = rows.map((v, i) => {
         const band = epssBand(v.epss);
         const due = daysUntil(v.due);
         const overdue = due != null && due < 0;
-        return '<div data-kev-idx="' + i + '" title="Open the catalogue entry" style="display:grid;grid-template-columns:96px minmax(0,1fr) 96px;gap:12px;align-items:center;padding:12px 20px 12px 32px;border-bottom:1px solid ' + HAIR + ';cursor:pointer;'
+        return '<div data-kev-idx="' + i + '" title="Open the KEV entry" style="display:grid;grid-template-columns:96px minmax(0,1fr) 96px;gap:12px;align-items:center;padding:12px 20px 12px 32px;border-bottom:1px solid ' + HAIR + ';cursor:pointer;'
           + (v.epss != null && v.epss >= 0.5 ? "background:rgba(236,48,19,0.05);" : "") + '">'
           + '<div><div style="font-size:11px;font-weight:800;font-variant-numeric:tabular-nums;letter-spacing:-0.01em;">' + esc(v.cve) + "</div>"
           + '<div style="' + label("margin-top:3px;") + '">' + esc(fmtDate(v.added).replace(/,.*/, "")) + "</div></div>"
@@ -1312,8 +1312,8 @@
 
       if (!all.length) {
         note.innerHTML = this.failures.includes("advisory feeds")
-          ? 'Advisory feeds unavailable via <b>' + esc(new URL(proxyOrigin()).hostname) + "</b>. CISA, HC3 and the trade press all refuse cross-origin reads, so this panel needs the dashboard Worker."
-          : "No advisories or sector reporting matched in the " + win + ". Widen the window above.";
+          ? 'Advisory feeds did not answer through <b>' + esc(new URL(proxyOrigin()).hostname) + "</b>. This panel needs the dashboard Worker. Managed WashU devices may block that address. Set an allowed Worker address on the Outages tab."
+          : "No advisories or reports in the " + win + ". Try a wider window above.";
         box.innerHTML = "";
         this.q("[data-news-counts]").textContent = "";
         return;
@@ -1323,7 +1323,7 @@
       note.innerHTML = all.length + " items in the " + win + " &middot; " + official + " official advisor" + (official === 1 ? "y" : "ies")
         + ", " + (all.length - official) + " press report" + ((all.length - official) === 1 ? "" : "s")
         + (meta.sourcesAnswering ? " &middot; " + meta.sourcesAnswering + " of " + meta.sourcesTotal + " sources answering" : "")
-        + '. <span style="color:' + MUTED + ';">Sector and threat tags are keyword-based. Press items are reporting, not notification.</span>';
+        + '. <span style="color:' + MUTED + ';">Sector and threat tags come from keyword rules. Press items are news reports, not official notices.</span>';
       const fresh = all.filter(i => i.ageHours != null && i.ageHours <= 6).length;
       const stack = all.filter(i => i.stack).length;
       this.q("[data-news-counts]").textContent = fresh + " in the last 6 h" + (stack ? " · " + stack + " name sector infrastructure" : "");
@@ -1335,7 +1335,7 @@
       this.newsRows = rows.slice(0, 40);
 
       if (!this.newsRows.length) {
-        box.innerHTML = '<div style="padding:20px 32px;font-size:12px;color:' + MUTED + ';">Nothing in this class for the selected window.</div>';
+        box.innerHTML = '<div style="padding:20px 32px;font-size:12px;color:' + MUTED + ';">Nothing in this group for the selected window.</div>';
         return;
       }
 
@@ -1346,7 +1346,7 @@
         const secs = (it.sectors || []).map(k =>
           '<span style="font-size:9px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;padding:2px 5px;background:' + SURFACE + ';">'
           + esc(((meta.sectors || []).find(s => s.key === k) || {}).label || k) + "</span>").join("");
-        return '<div data-news-idx="' + i + '" title="Open the item details" style="padding:14px 20px 14px ' + (i % 2 === 0 ? "32px" : "20px")
+        return '<div data-news-idx="' + i + '" title="Open the item" style="padding:14px 20px 14px ' + (i % 2 === 0 ? "32px" : "20px")
           + ';border-right:' + (i % 2 === 0 ? "2px solid " + RULE : "none") + ';border-bottom:1px solid ' + HAIR + ';cursor:pointer;'
           + (it.official ? "background:" + SURFACE + ";" : "") + '">'
           + '<div style="display:flex;flex-wrap:wrap;align-items:center;gap:7px;margin-bottom:6px;">'
@@ -1366,17 +1366,17 @@
       const box = this.q("[data-nvd]");
       const note = this.q("[data-nvd-note]");
       if (!rows.length) {
-        note.textContent = "No critical CVEs published in the last seven days, or the NVD API did not answer.";
+        note.textContent = "No critical CVEs published in the last seven days, or NVD did not answer. Try Refresh feeds.";
         box.innerHTML = "";
         return;
       }
       const relevant = rows.filter(r => r.sectors.length);
       const kev = rows.filter(r => r.kevListed);
-      note.innerHTML = rows.length + " CVSS-critical vulnerabilities published in the last seven days"
-        + (this.nvdTotal && this.nvdTotal > rows.length ? " (of " + this.nvdTotal.toLocaleString("en-US") + " NVD reports for the window)" : "")
+      note.innerHTML = rows.length + " critical vulnerabilities published in the last seven days"
+        + (this.nvdTotal && this.nvdTotal > rows.length ? " (of " + this.nvdTotal.toLocaleString("en-US") + " in NVD for the window)" : "")
         + " &middot; " + relevant.length + " name sector technology"
-        + (kev.length ? " &middot; " + kev.length + " already in the CISA exploited catalogue" : "")
-        + '. <span style="color:' + MUTED + ';">Critical severity describes potential impact, not whether anyone is exploiting it — the EPSS figure is the exploitation question.</span>';
+        + (kev.length ? " &middot; " + kev.length + " already on CISA's exploited list" : "")
+        + '. <span style="color:' + MUTED + ';">CVSS says how bad it would be if exploited. EPSS says how likely exploitation is in 30 days. Read both.</span>';
       this.nvdRows = rows.slice(0, 40);
       box.innerHTML = this.nvdRows.map((r, i) => {
         const band = epssBand(r.epss);
@@ -1402,12 +1402,12 @@
       const rows = this.devices || [];
       const box = this.q("[data-devices]");
       const note = this.q("[data-device-note]");
-      if (!rows.length) { note.textContent = "Device recall feed unavailable."; box.innerHTML = ""; return; }
+      if (!rows.length) { note.textContent = "The device recall feed did not answer. Try Refresh feeds."; box.innerHTML = ""; return; }
       const cyber = rows.filter(r => r.cyber).length;
-      note.innerHTML = "The " + rows.length + " most recent recalls attributed to a software or firmware root cause"
+      note.innerHTML = "The " + rows.length + " most recent recalls caused by software or firmware"
         + (this.deviceTotal ? ", of " + this.deviceTotal.toLocaleString("en-US") + " on record" : "")
         + (cyber ? " &middot; " + cyber + " mention access, authentication, encryption or network behaviour" : "")
-        + '. <span style="color:' + MUTED + ';">Safety recalls, not security advisories — but for a health system they land in the same triage.</span>';
+        + '. <span style="color:' + MUTED + ';">These are safety recalls. They are not security advisories. For a hospital they need the same triage.</span>';
       this.deviceRows = rows;
       box.innerHTML = rows.map((r, i) =>
         '<div data-device-idx="' + i + '" title="Open the recall record" style="display:grid;grid-template-columns:auto 1fr;gap:10px;padding:11px 0;border-bottom:1px solid ' + HAIR + ';cursor:pointer;">'
@@ -1462,21 +1462,21 @@
         + this.modalRow("CVE", v.cve)
         + this.modalRow("Vendor and product", v.vendor + " " + v.product)
         + this.modalRow("Vulnerability", v.name)
-        + this.modalRow("EPSS score", v.epss == null ? "not scored" : (v.epss * 100).toFixed(2) + "% chance of exploitation activity within 30 days")
+        + this.modalRow("EPSS score", v.epss == null ? "not scored" : (v.epss * 100).toFixed(2) + "% chance of exploitation in 30 days")
         + this.modalRow("EPSS percentile", v.epssPct == null ? null : (v.epssPct * 100).toFixed(1) + "% of all scored CVEs rank lower")
-        + this.modalRow("Added to catalogue", fmtDate(v.added))
-        + this.modalRow("CISA due date", v.due ? fmtDate(v.due) + (due != null ? (due < 0 ? " · " + Math.abs(due) + " days past" : " · " + due + " days out") : "") : null, due != null && due < 0 ? DEEPRED : INK)
-        + this.modalRow("Ransomware campaign use", v.ransomware ? "Known" : "Unknown to CISA")
-        + this.modalRow("Weakness classes", (v.cwes || []).join(", "))
+        + this.modalRow("Added to KEV list", fmtDate(v.added))
+        + this.modalRow("CISA due date", v.due ? fmtDate(v.due) + (due != null ? (due < 0 ? " · " + Math.abs(due) + " days overdue" : " · " + due + " days left") : "") : null, due != null && due < 0 ? DEEPRED : INK)
+        + this.modalRow("Ransomware use", v.ransomware ? "Known" : "Not known to CISA")
+        + this.modalRow("Weakness types", (v.cwes || []).join(", "))
         + this.modalRow("Sectors matched", v.sectors.map(k => (SECTORS.find(s => s.key === k) || {}).label).filter(Boolean).join(", "))
-        + this.modalRow("Match basis", v.shared ? "shared infrastructure — counted for all three sectors" : "sector-specific product")
+        + this.modalRow("Match basis", v.shared ? "shared infrastructure, counted for all three sectors" : "product specific to this sector")
         + "</div>"
         + '<div style="' + label("margin:16px 0 6px;") + '">Required action, as published by CISA</div>'
         + '<div style="font-size:12px;line-height:1.55;">' + esc(v.action) + "</div>"
-        + '<div style="font-size:11px;color:' + MUTED + ';margin-top:14px;line-height:1.5;">The due date is a federal civilian requirement under CISA&rsquo;s binding operational directive. WashU is not bound by it, but it is the clock the rest of the sector works to, and a useful one for prioritising.</div>'
+        + '<div style="font-size:11px;color:' + MUTED + ';margin-top:14px;line-height:1.5;">The due date is CISA&rsquo;s deadline for federal civilian agencies. WashU is not bound by it. The rest of the sector works to it, so it is a useful clock for setting priorities.</div>'
         + this.modalActions([
           { text: "NVD record", href: "https://nvd.nist.gov/vuln/detail/" + v.cve },
-          { text: "CISA catalogue", href: "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=" + encodeURIComponent(v.cve) },
+          { text: "CISA KEV entry", href: "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=" + encodeURIComponent(v.cve) },
           notes[0] ? { text: "Vendor advisory", href: notes[0] } : null
         ]);
       this.openModal("CISA known exploited vulnerability", v.vendor + " " + v.product, body);
@@ -1491,7 +1491,7 @@
         + '<span style="font-size:10px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;background:' + (SEV_COLOR[r.severity] || MUTED) + ";color:" + GROUND + ';padding:3px 6px;">'
         + esc(r.severity || "unscored") + " &middot; CVSS " + (r.score == null ? "—" : r.score.toFixed(1)) + "</span>"
         + (band ? '<span style="display:flex;align-items:center;gap:6px;font-size:11px;font-weight:700;"><span style="width:10px;height:10px;background:' + band.color + ';"></span>' + esc(band.label) + " EPSS</span>" : "")
-        + (r.kevListed ? '<span style="font-size:9px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;background:' + RED + ";color:" + GROUND + ';padding:2px 5px;">In the exploited catalogue</span>' : "")
+        + (r.kevListed ? '<span style="font-size:9px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;background:' + RED + ";color:" + GROUND + ';padding:2px 5px;">On CISA\'s exploited list</span>' : "")
         + "</div>"
         + '<div style="font-size:13px;font-weight:600;line-height:1.55;padding-bottom:14px;border-bottom:2px solid ' + INK + ';">' + esc(r.description) + "</div>"
         + '<div style="margin-top:6px;">'
@@ -1501,12 +1501,12 @@
         + this.modalRow("Attack vector", r.attackVector)
         + this.modalRow("Privileges required", r.privileges)
         + this.modalRow("User interaction", r.userInteraction)
-        + this.modalRow("EPSS score", r.epss == null ? "not scored" : (r.epss * 100).toFixed(2) + "% within 30 days")
-        + this.modalRow("Exploited in the wild", r.kevListed ? "yes — CISA added it " + fmtDate(r.kevAdded) : "no CISA exploitation evidence")
+        + this.modalRow("EPSS score", r.epss == null ? "not scored" : (r.epss * 100).toFixed(2) + "% chance of exploitation in 30 days")
+        + this.modalRow("Exploited in the wild", r.kevListed ? "Yes. CISA listed it " + fmtDate(r.kevAdded) : "No. CISA has not listed it")
         + this.modalRow("Sectors matched", r.sectors.map(k => (SECTORS.find(s => s.key === k) || {}).label).filter(Boolean).join(", "))
         + this.modalRow("Reported by", r.source)
         + "</div>"
-        + '<div style="font-size:11px;color:' + MUTED + ';margin-top:14px;line-height:1.5;">CVSS describes how bad exploitation would be; EPSS estimates whether it will happen. A critical CVSS with a low EPSS is a patch-on-schedule item, and a moderate CVSS with a high EPSS often is not.</div>'
+        + '<div style="font-size:11px;color:' + MUTED + ';margin-top:14px;line-height:1.5;">CVSS says how bad it would be if exploited. EPSS says how likely exploitation is in 30 days. Critical CVSS with low EPSS can usually be patched on schedule. Moderate CVSS with high EPSS often cannot.</div>'
         + this.modalActions([
           { text: "NVD record", href: "https://nvd.nist.gov/vuln/detail/" + r.cve },
           { text: "EPSS detail", href: "https://api.first.org/data/v1/epss?cve=" + r.cve }
@@ -1529,16 +1529,16 @@
         + this.modalRow("Recalling firm", titleCase(r.firm || ""))
         + this.modalRow("Firm location", [titleCase(r.city || ""), r.state].filter(Boolean).join(", "))
         + this.modalRow("Status", r.status)
-        + this.modalRow("Initiated", fmtFdaDate(r.initiated))
+        + this.modalRow("Recall started", fmtFdaDate(r.initiated))
         + this.modalRow("Posted", fmtFdaDate(r.posted))
         + this.modalRow("Root cause", r.cause)
-        + this.modalRow("Units in commerce", r.quantity)
+        + this.modalRow("Units on the market", r.quantity)
         + this.modalRow("Distribution", r.distribution ? String(r.distribution).slice(0, 220) : null)
         + "</div>"
         + '<div style="' + label("margin:16px 0 6px;") + '">Product</div>'
         + '<div style="font-size:12px;line-height:1.55;">' + esc(r.product || "Not published") + "</div>"
         + (r.action ? '<div style="' + label("margin:16px 0 6px;") + '">Firm action</div><div style="font-size:12px;line-height:1.55;">' + esc(String(r.action).slice(0, 600)) + "</div>" : "")
-        + '<div style="font-size:11px;color:' + MUTED + ';margin-top:14px;line-height:1.5;">openFDA device recall record. FDA&rsquo;s own database is authoritative and carries any related safety communication.</div>'
+        + '<div style="font-size:11px;color:' + MUTED + ';margin-top:14px;line-height:1.5;">This is the openFDA recall record. FDA&rsquo;s own database is the official source. It also carries any related safety notice.</div>'
         + this.modalActions([
           { text: "FDA recall database", href: "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?start_search=1&productdescriptiontxt=&productcode=&IVDProducts=&rootCauseText=&recallnumber=" + encodeURIComponent(r.id || "") },
           { text: "openFDA record", href: FDA_DEVICE + '?search=product_res_number:"' + encodeURIComponent(r.id || "") + '"' }
@@ -1551,7 +1551,7 @@
       if (!r) return;
       const body =
         '<div style="display:flex;flex-wrap:wrap;align-items:center;gap:9px;margin-bottom:14px;">'
-        + '<span style="font-size:10px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;border:2px solid ' + MUTED + ";color:" + MUTED + ';padding:2px 5px;">Adversary claim &middot; unconfirmed</span>'
+        + '<span style="font-size:10px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;border:2px solid ' + MUTED + ";color:" + MUTED + ';padding:2px 5px;">Ransomware group claim &middot; unconfirmed</span>'
         + r.sectors.map(k => '<span style="font-size:9px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;padding:3px 6px;background:' + SURFACE + ';">' + esc((RW_SECTOR_META[k] || {}).label || k) + "</span>").join("")
         + "</div>"
         + (r.description ? '<div style="font-size:13px;font-weight:600;line-height:1.55;padding-bottom:14px;border-bottom:2px solid ' + INK + ';">' + esc(r.description) + "</div>" : "")
@@ -1560,11 +1560,11 @@
         + this.modalRow("Group", r.group)
         + this.modalRow("Country", r.country ? (RW_GEO[r.country] || ["", r.country])[1] + " (" + r.country + ")" : "not given")
         + this.modalRow("Activity as listed", r.activity || "not given")
-        + this.modalRow("Sector classified from", r.sectorSource === "activity" ? "the feed’s own activity label" : r.sectorSource === "description" ? "the victim description (weaker signal)" : "not classified into a sector")
+        + this.modalRow("Sector based on", r.sectorSource === "activity" ? "the feed’s own activity label" : r.sectorSource === "description" ? "the victim description, a weaker signal" : "no sector match")
         + this.modalRow("Claimed", new Date(r.claimedAt).toLocaleString("en-US", { timeZone: "America/Chicago", dateStyle: "medium", timeStyle: "short" }) + " CT")
         + this.modalRow("Age of claim", Math.round(r.ageDays) + " days")
         + "</div>"
-        + '<div style="font-size:11px;color:' + MUTED + ';margin-top:14px;line-height:1.5;">Sourced from the group&rsquo;s own leak site. A listing means the group claims the victim; it is not confirmation that a breach occurred, and posting typically follows the intrusion by weeks. Country is the feed&rsquo;s own field. Treat as sector trend intelligence, not as a report about any named organisation.</div>'
+        + '<div style="font-size:11px;color:' + MUTED + ';margin-top:14px;line-height:1.5;">Taken from the group&rsquo;s own leak site. A listing means the group claims this victim. It does not confirm a breach. Groups usually post weeks after the intrusion. Country comes from the feed. Use this for sector trends. Do not treat it as a report about any named organisation.</div>'
         + this.modalActions([{ text: "ransomware.live", href: "https://www.ransomware.live/" }]
           .concat(r.url ? [{ text: "Listing as posted", href: r.url }] : []));
       this.openModal("Ransomware leak-site listing", r.victim, body);
@@ -1585,23 +1585,23 @@
         + (it.summary ? '<div style="font-size:13px;font-weight:600;line-height:1.55;padding-bottom:14px;border-bottom:2px solid ' + INK + ';">' + esc(it.summary) + "</div>" : "")
         + '<div style="margin-top:6px;">'
         + this.modalRow("Source", it.outlet)
-        + this.modalRow("Retrieved via", it.via || "dashboard Worker")
+        + this.modalRow("Received through", it.via || "dashboard Worker")
         + this.modalRow("Published", it.published ? new Date(it.published).toLocaleString("en-US", { timeZone: "America/Chicago", dateStyle: "medium", timeStyle: "short" }) + " CT" : "not stated")
         + this.modalRow("Age", relHours(it.ageHours))
         + this.modalRow("Sectors matched", (it.sectors || []).map(k => ((meta.sectors || []).find(s => s.key === k) || {}).label).filter(Boolean).join(", "))
-        + this.modalRow("Names sector infrastructure", it.stack ? "yes — matched the shared stack profile" : null, DEEPRED)
+        + this.modalRow("Names sector infrastructure", it.stack ? "Yes. It names shared infrastructure our sectors run" : null, DEEPRED)
         + this.modalRow("CVEs named", it.cves ? it.cves.join(", ") : null)
         + "</div>"
         + '<div style="font-size:11px;color:' + MUTED + ';margin-top:14px;line-height:1.5;">'
         + (it.official
-            ? "Published by the agency itself. Sector and threat tags are this dashboard&rsquo;s keyword rules, not the agency&rsquo;s classification."
-            : "Trade press reporting. Useful early warning, but confirm against a CISA, HC3, vendor or Health-ISAC source before acting on it.")
+            ? "Published by the agency itself. Sector and threat tags come from this dashboard&rsquo;s keyword rules. The agency did not assign them."
+            : "Trade press report. Useful early warning. Confirm with CISA, HC3, the vendor or Health-ISAC before acting on it.")
         + "</div>"
         + this.modalActions([
           { text: "Open the source", href: it.url },
           it.cves && it.cves[0] ? { text: "NVD · " + it.cves[0], href: "https://nvd.nist.gov/vuln/detail/" + it.cves[0] } : null
         ]);
-      this.openModal(it.official ? "Official cybersecurity advisory" : "Sector cybersecurity reporting", it.title, body);
+      this.openModal(it.official ? "Official cybersecurity advisory" : "Sector cyber news report", it.title, body);
     }
 
     /* ---------- headline numbers and the composed note ------------------- */
@@ -1617,20 +1617,20 @@
       const rw = this.ransom || [];
 
       const cells = [
-        { l: "Exploited vulns · in scope", v: relevant.length ? String(relevant.length) : this.kevAll ? "0" : "—",
+        { l: "Exploited vulns in scope", v: relevant.length ? String(relevant.length) : this.kevAll ? "0" : "—",
           s: this.kevWindow < 365 ? "added in " + this.kevWindow + " days" : "added in the last year",
-          d: this.kevAll ? win.length + " total added in window" : "catalogue unavailable", tone: MUTED },
+          d: this.kevAll ? win.length + " total added in window" : "list unavailable", tone: MUTED },
         { l: "EPSS very high", v: this.kevAll ? String(veryHigh.length) : "—",
-          s: "≥50% exploitation probability", d: veryHigh.length ? "act on these first" : "none in scope", tone: veryHigh.length ? DEEPRED : MUTED },
+          s: "≥50% chance of exploitation in 30 days", d: veryHigh.length ? "act on these first" : "none in scope", tone: veryHigh.length ? DEEPRED : MUTED },
         { l: "Ransomware-linked", v: this.kevAll ? String(ransom.length) : "—",
-          s: "CISA confirms campaign use", d: "of " + relevant.length + " in scope", tone: ransom.length ? DEEPRED : MUTED },
+          s: "CISA confirms ransomware use", d: "of " + relevant.length + " in scope", tone: ransom.length ? DEEPRED : MUTED },
         { l: "Past CISA due date", v: this.kevAll ? String(overdue.length) : "—",
-          s: "federal remediation clock", d: "a sector-wide yardstick", tone: overdue.length ? DEEPRED : MUTED },
+          s: "CISA's fix-by date for federal agencies", d: "a sector-wide clock", tone: overdue.length ? DEEPRED : MUTED },
         { l: "Official advisories", v: advisories.length ? String(advisories.length) : news.length ? "0" : "—",
           s: "CISA and HC3, " + (this.newsHours < 100 ? this.newsHours + " h" : this.newsHours / 24 + " d"),
-          d: news.length ? news.length - advisories.length + " press reports alongside" : "feed unavailable", tone: MUTED },
+          d: news.length ? "plus " + (news.length - advisories.length) + " press reports" : "feed unavailable", tone: MUTED },
         { l: "Sector ransomware claims", v: rw.length ? String(rw.length) : this.ransomMeta ? "0" : "—",
-          s: "leak-site listings, 30 days", d: rw.length ? "unconfirmed adversary claims" : "feed unavailable", tone: MUTED }
+          s: "leak-site listings, 30 days", d: rw.length ? "unconfirmed group claims" : "feed unavailable", tone: MUTED }
       ];
 
       this.q("[data-kpis]").innerHTML = cells.map((c, i) =>
@@ -1650,19 +1650,19 @@
 
       if (this.kevAll) {
         const veryHigh = relevant.filter(v => v.epss != null && v.epss >= 0.5).sort((a, b) => b.epss - a.epss);
-        bits.push("CISA's exploited-vulnerability catalogue (version " + this.kevVersion + ") added " + win.length
-          + " entries in the last " + winLabel + "; " + relevant.length + " name technology this sector runs.");
+        bits.push("CISA's exploited-vulnerability list (version " + this.kevVersion + ") added " + win.length
+          + " entries in the last " + winLabel + ". " + relevant.length + " name technology this sector runs.");
         if (veryHigh.length) {
           const top = veryHigh[0];
-          bits.push(veryHigh.length + " carr" + (veryHigh.length === 1 ? "ies" : "y") + " an EPSS above 50%, led by "
+          bits.push(veryHigh.length + " ha" + (veryHigh.length === 1 ? "s" : "ve") + " an EPSS above 50%. The highest is "
             + top.cve + " in " + top.vendor + " " + top.product + " at " + (top.epss * 100).toFixed(0) + "%.");
         } else if (relevant.length) {
-          bits.push("None currently score above 50% on EPSS, which puts the queue on a patch-on-schedule footing rather than an emergency one.");
+          bits.push("None score above 50% on EPSS. The queue can be patched on schedule. This is not an emergency.");
         }
         const overdue = relevant.filter(v => { const d = daysUntil(v.due); return d != null && d < 0; });
-        if (overdue.length) bits.push(overdue.length + " sit past the federal remediation due date CISA set for them.");
+        if (overdue.length) bits.push(overdue.length + " are past the fix-by date CISA set.");
       } else {
-        bits.push("The CISA exploited-vulnerability catalogue did not load, so the exposure queue is unavailable — a feed failure, not an empty catalogue.");
+        bits.push("The CISA exploited-vulnerability list did not load, so the exposure queue is unavailable. This is a feed problem. The list itself is not empty.");
       }
 
       const byS = SECTORS.map(s => ({ label: s.label.toLowerCase(), n: relevant.filter(v => v.sectors.includes(s.key)).length }))
@@ -1673,20 +1673,20 @@
       if (news.length) {
         const official = news.filter(i => i.official).length;
         const stack = news.filter(i => i.stack).length;
-        bits.push(news.length + " advisories and reports in the news window, " + official + " of them official"
-          + (stack ? "; " + stack + " name infrastructure in the sector stack profile" : "") + ".");
+        bits.push(news.length + " advisories and reports in the news window. " + official + " are official."
+          + (stack ? " " + stack + " name infrastructure our sectors run." : ""));
       }
       const rw = this.ransom || [];
       if (rw.length) {
         const c = (this.ransomMeta || {}).counts || {};
-        bits.push(rw.length + " sector organisations were claimed on ransomware leak sites in the last 30 days"
+        bits.push(rw.length + " sector organisations were named on ransomware leak sites in the last 30 days"
           + (c.health ? " (" + c.health + " healthcare" + (c.education ? ", " + c.education + " education" : "") + ")" : "")
-          + " — claims, not confirmed breaches.");
+          + ". These are claims. None is a confirmed breach.");
       }
       const dev = (this.devices || []).filter(d => d.cyber);
-      if (dev.length) bits.push(dev.length + " recent medical device recalls with a software root cause mention access, authentication, encryption or network behaviour.");
+      if (dev.length) bits.push(dev.length + " recent medical device recalls caused by software mention access, authentication, encryption or network behaviour.");
 
-      bits.push("Nothing on this page observes WashU's own network.");
+      bits.push("Nothing on this page watches WashU's own network.");
       this.q("[data-note]").textContent = bits.join(" ");
     }
 

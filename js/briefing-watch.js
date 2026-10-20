@@ -53,9 +53,8 @@
 
     const link = R.safeUrl(CFG.briefingUrl);
     const parts = [];
-    parts.push("Read from <code>data/latest.json</code>" + (doc ? " and <code>data/briefings/" + R.esc(doc.date) + ".json</code>" : "") + " in this site");
-    if (lastChecked) parts.push("checked " + R.esc(clock(lastChecked)) + " · rechecks every 5 min while open");
-    if (lastError && doc) parts.push('<span style="color: var(--bw-red-ink);">Last check failed (' + R.esc(lastError) + "); showing the briefing from " + R.esc(R.dayShort(doc.date)) + "</span>");
+    if (lastChecked) parts.push("Checked " + R.esc(clock(lastChecked)) + " · rechecks every 5 minutes");
+    if (lastError && doc) parts.push('<span style="color: var(--bw-red-ink);">Last check failed. Showing the briefing from ' + R.esc(R.dayShort(doc.date)) + ".</span>");
     els.source.innerHTML = "<span>" + parts.join(" · ") + "</span>" +
       (link ? '<a class="bw-btn bw-btn--link" href="' + R.esc(link) + '" target="_blank" rel="noopener noreferrer">Archive and full briefings on claude.ai ↗</a>' : "");
   }

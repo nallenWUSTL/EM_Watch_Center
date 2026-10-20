@@ -75,7 +75,7 @@
   const US_CENTER = [37.8, -96.0], US_ZOOM = 4.35;
 
   const METRICS = [
-    { key: "ili", label: "Weighted ILI", short: "ILI %", unit: "%", dec: 2,
+    { key: "ili", label: "Flu-like illness", short: "ILI %", unit: "%", dec: 2,
       note: "Share of outpatient visits for influenza-like illness · CDC ILINet, by reporting week" },
     { key: "flu", label: "Influenza admissions", short: "Flu adm.", unit: "", dec: 0, rate: true,
       note: "New laboratory-confirmed influenza inpatient admissions in the reporting week" },
@@ -267,14 +267,14 @@
   const TEMPLATE = `
     <div style="display:flex;align-items:center;gap:14px;padding:10px 32px;background:${INK};color:${GROUND};border-bottom:2px solid ${INK};">
       <span style="font-size:10px;font-weight:800;letter-spacing:0.16em;text-transform:uppercase;padding:4px 8px;background:${GROUND};color:${INK};">Live Public Health Feeds</span>
-      <span style="font-size:12px;font-weight:600;">Surveillance data, not notification. CDC outpatient and hospital reporting run a week or more behind; openFDA recalls and shortages update daily. Every panel states its own reporting week.</span>
+      <span style="font-size:12px;font-weight:600;">Surveillance data only. This is not a health department notification. CDC reporting lags a week or more. openFDA recalls and shortages update daily. Each panel shows its reporting week.</span>
     </div>
 
     <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:20px;padding:22px 32px 18px;border-bottom:2px solid ${RULE};">
       <div>
         <div style="${label("margin-bottom:6px;")}">National Public Health Picture</div>
         <div style="font-family:Archivo,system-ui,sans-serif;font-weight:800;font-size:30px;line-height:1.05;letter-spacing:-0.025em;">Health Watch</div>
-        <div data-status style="font-size:12px;color:${MUTED};margin-top:7px;max-width:920px;line-height:1.5;">Querying CDC ILINet, CDC hospital respiratory reporting, openFDA and air quality&hellip;</div>
+        <div data-status style="font-size:12px;color:${MUTED};margin-top:7px;max-width:920px;line-height:1.5;">Loading CDC flu-like illness (ILINet), CDC hospital reporting, openFDA and air quality&hellip;</div>
       </div>
       <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px;">
         <div data-updated style="${label()}"></div>
@@ -285,14 +285,14 @@
     <div data-kpis style="display:grid;grid-template-columns:repeat(6,minmax(0,1fr));border-bottom:2px solid ${RULE};"></div>
 
     <div style="padding:18px 32px;border-bottom:2px solid ${RULE};background:${SURFACE};">
-      <div style="${label("margin-bottom:6px;")}">Situation note &middot; composed from the live feeds</div>
-      <div data-note style="font-size:14px;font-weight:600;line-height:1.55;max-width:1180px;text-wrap:pretty;">Reading the feeds&hellip;</div>
+      <div style="${label("margin-bottom:6px;")}">Situation note &middot; from live feeds</div>
+      <div data-note style="font-size:14px;font-weight:600;line-height:1.55;max-width:1180px;text-wrap:pretty;">Loading feeds&hellip;</div>
     </div>
 
     <div style="display:grid;grid-template-columns:minmax(0,1fr) 400px;align-items:start;border-bottom:2px solid ${RULE};">
       <div style="border-right:2px solid ${RULE};">
         <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 20px 14px 32px;border-bottom:2px solid ${RULE};">
-          <div style="${label()}">State choropleth &middot; pick a measure</div>
+          <div style="${label()}">State map &middot; pick a measure</div>
           <div style="display:flex;align-items:center;gap:14px;">
             <div data-scale-seg style="display:flex;border:2px solid ${RULE};">
               <button data-scale="count" style="font-family:Archivo,system-ui,sans-serif;font-size:10px;font-weight:800;letter-spacing:0.08em;text-transform:uppercase;padding:5px 9px;border:none;background:${INK};color:${GROUND};cursor:pointer;">Counts</button>
@@ -311,11 +311,11 @@
 
       <aside>
         <div data-detail style="padding:20px 32px 20px 20px;border-bottom:2px solid ${RULE};min-height:180px;">
-          <div style="${label()}">Click a state for its full reporting row</div>
+          <div style="${label()}">Click a state for its full report</div>
         </div>
         <div style="padding:20px 32px 20px 20px;">
           <div style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:12px;">
-            <div style="${label()}">Highest reporting states</div>
+            <div style="${label()}">Top states</div>
             <div data-rank-metric style="${label()}"></div>
           </div>
           <div data-ranks style="display:flex;flex-direction:column;"></div>
@@ -325,13 +325,13 @@
 
     <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-bottom:2px solid ${RULE};">
       <div style="border-right:2px solid ${RULE};padding:20px 24px 24px 32px;">
-        <div style="${label("margin-bottom:4px;")}">Outpatient influenza-like illness &middot; national</div>
-        <div style="font-size:11px;color:${MUTED};margin-bottom:12px;">CDC ILINet weighted percentage of visits, last 52 reporting weeks, against the national baseline</div>
+        <div style="${label("margin-bottom:4px;")}">Outpatient flu-like illness &middot; national</div>
+        <div style="font-size:11px;color:${MUTED};margin-bottom:12px;">CDC ILINet. Share of visits for flu-like illness, last 52 weeks, against the national baseline.</div>
         <div data-ili-chart></div>
       </div>
       <div style="padding:20px 32px 24px 24px;">
-        <div style="${label("margin-bottom:4px;")}">Respiratory inpatient admissions &middot; national</div>
-        <div style="font-size:11px;color:${MUTED};margin-bottom:12px;">New confirmed admissions per week, CDC hospital respiratory reporting</div>
+        <div style="${label("margin-bottom:4px;")}">Respiratory hospital admissions &middot; national</div>
+        <div style="font-size:11px;color:${MUTED};margin-bottom:12px;">New confirmed admissions each week. CDC hospital reporting.</div>
         <div data-resp-charts style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;"></div>
       </div>
     </div>
@@ -339,15 +339,15 @@
     <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-bottom:2px solid ${RULE};">
       <div style="border-right:2px solid ${RULE};padding:20px 24px 24px 32px;">
         <div style="display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:4px;">
-          <div style="${label()}">Food recall enforcement &middot; openFDA</div>
+          <div style="${label()}">Food recalls &middot; openFDA</div>
           <div data-recall-filters style="display:flex;border:2px solid ${RULE};"></div>
         </div>
-        <div data-recall-note style="font-size:11px;color:${MUTED};margin-bottom:12px;">Reading the enforcement report feed&hellip;</div>
+        <div data-recall-note style="font-size:11px;color:${MUTED};margin-bottom:12px;">Loading food recalls&hellip;</div>
         <div data-recalls style="display:flex;flex-direction:column;max-height:520px;overflow-y:auto;padding-right:6px;"></div>
       </div>
       <div style="padding:20px 32px 24px 24px;">
         <div style="${label("margin-bottom:4px;")}">Current drug shortages &middot; openFDA</div>
-        <div data-shortage-note style="font-size:11px;color:${MUTED};margin-bottom:12px;">Reading the shortage feed&hellip;</div>
+        <div data-shortage-note style="font-size:11px;color:${MUTED};margin-bottom:12px;">Loading drug shortages&hellip;</div>
         <div data-shortages style="display:flex;flex-direction:column;max-height:520px;overflow-y:auto;padding-right:6px;"></div>
       </div>
     </div>
@@ -357,7 +357,7 @@
         <div>
           <div style="${label("margin-bottom:4px;")}">Public health in the news</div>
           <div style="font-family:Archivo,system-ui,sans-serif;font-weight:800;font-size:20px;line-height:1.1;letter-spacing:-0.02em;">National media &amp; official postings</div>
-          <div data-news-note style="font-size:11px;color:${MUTED};margin-top:6px;max-width:820px;line-height:1.5;">Reading CDC postings, WHO Disease Outbreak News and the national outlet feeds&hellip;</div>
+          <div data-news-note style="font-size:11px;color:${MUTED};margin-top:6px;max-width:820px;line-height:1.5;">Loading CDC postings, WHO Disease Outbreak News and national media&hellip;</div>
         </div>
         <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px;">
           <div data-news-window-seg style="display:flex;border:2px solid ${RULE};">
@@ -388,12 +388,12 @@
         <div style="${label()}">Air quality &middot; US AQI by metro</div>
         <div data-aqi-note style="${label()}"></div>
       </div>
-      <div style="font-size:11px;color:${MUTED};margin-bottom:14px;">Open-Meteo air-quality model (Copernicus CAMS). EPA AQI bands and colors.</div>
+      <div style="font-size:11px;color:${MUTED};margin-bottom:14px;">Modelled air quality from Open-Meteo (Copernicus CAMS). EPA AQI bands and colors.</div>
       <div data-aqi style="display:grid;grid-template-columns:repeat(6,minmax(0,1fr));border-top:2px solid ${RULE};border-left:2px solid ${RULE};"></div>
       <div style="display:flex;flex-wrap:wrap;gap:14px;margin-top:14px;font-size:11px;font-weight:600;align-items:center;">
         ${AQI_BANDS.map(b => '<span style="display:flex;align-items:center;gap:6px;"><span style="width:14px;height:10px;background:' + b.bg + ';border:1px solid ' + INK + ';box-sizing:border-box;"></span>' + b.name + " (&le;" + (b.max > 1000 ? "300+" : b.max) + ")</span>").join("")}
       </div>
-      <div style="font-size:11px;color:${MUTED};margin-top:18px;line-height:1.6;max-width:1180px;">Sources: CDC ILINet via the Delphi Epidata API (Carnegie Mellon) &middot; CDC weekly hospital respiratory reporting, data.cdc.gov <b>mpgq-jmmr</b> &middot; openFDA food enforcement reports and drug shortage database &middot; Open-Meteo air quality (CAMS) &middot; CDC media postings API and WHO Disease Outbreak News, both read directly &middot; national public health outlet RSS through the dashboard Worker &middot; state polygons from the public MappingAPI GeoJSON. Alaska, Hawaii and Puerto Rico are on the map &mdash; zoom out to reach them. Hospital rows for HHS regions and the nation are excluded from the state map and rankings.</div>
+      <div style="font-size:11px;color:${MUTED};margin-top:18px;line-height:1.6;max-width:1180px;">Sources: CDC flu-like illness, ILINet, served by Carnegie Mellon's Delphi group &middot; CDC weekly hospital respiratory reporting, data.cdc.gov <b>mpgq-jmmr</b> &middot; openFDA food recalls and drug shortages &middot; Open-Meteo air quality (CAMS) &middot; CDC postings and WHO Disease Outbreak News, read directly &middot; national public health news through the dashboard Worker &middot; state outlines from the public MappingAPI map file. Alaska, Hawaii and Puerto Rico are on the map. Zoom out to reach them. National and HHS region rows are left off the state map and rankings.</div>
     </div>
   `;
 
@@ -540,7 +540,7 @@
         this.statesLayer.addData(gj);
         this.paintMap();
         this.fitUs();
-      }).catch(() => { this.status("State polygons could not be loaded; the map is unavailable. Every other panel is unaffected."); });
+      }).catch(() => { this.status("State outlines did not load. The map is unavailable. Other panels still work."); });
     }
 
     /* Built while the tab is hidden, the map measures 0x0 and the fit lands at the
@@ -684,7 +684,7 @@
       return '<b style="font-family:Archivo,system-ui,sans-serif;">' + esc(info[1]) + "</b><br>"
         + esc(m.label) + ": " + (v == null ? "not reported" : this.fmtMetric(v, m.key))
         + (rank ? "<br>" + rank.pos + " of " + rank.total + " reporting states" : "")
-        + (d ? "<br>" + d.text + " on the prior week" : "");
+        + (d ? "<br>" + d.text + " vs prior week" : "");
     }
 
     rankOf(fips) {
@@ -761,8 +761,8 @@
       if (!b) {
         const refused = m.key === "ili" && this.iliError;
         box.innerHTML = '<div style="' + label() + '">' + esc(m.label) + " &middot; "
-          + esc(refused ? this.iliError.short : "awaiting data") + "</div>"
-          + (refused ? '<div style="font-size:10px;font-weight:600;color:' + DEEPRED + ';margin-top:5px;max-width:250px;line-height:1.5;">Feed refused the request — not an empty week.</div>' : "");
+          + esc(refused ? this.iliError.short : "waiting for data") + "</div>"
+          + (refused ? '<div style="font-size:10px;font-weight:600;color:' + DEEPRED + ';margin-top:5px;max-width:250px;line-height:1.5;">The feed refused the request. The week is not empty.</div>' : "");
         return;
       }
       const edges = [null].concat(b);
@@ -786,7 +786,7 @@
         + '<div style="display:flex;align-items:center;gap:6px;margin-top:8px;font-size:10px;font-weight:700;color:' + MUTED + ';">'
         + '<span style="width:14px;height:10px;background:' + NO_DATA + ';border:1px dashed ' + INK + ';box-sizing:border-box;"></span>Not reported'
         + '<span style="width:14px;height:10px;background:transparent;border:2px solid ' + INK + ';box-sizing:border-box;margin-left:8px;"></span>Missouri</div>'
-        + '<div style="' + label("margin-top:7px;max-width:290px;line-height:1.5;letter-spacing:0.1em;") + '">Class breaks are quintiles of the reporting states &middot; bars above the ramp are how many states fall in each class</div>';
+        + '<div style="' + label("margin-top:7px;max-width:290px;line-height:1.5;letter-spacing:0.1em;") + '">Shades split the reporting states into five equal groups, with the top 5% set apart &middot; bars show how many states fall in each shade</div>';
     }
 
     rankRows() {
@@ -803,7 +803,7 @@
         // A refused feed and an empty reporting week must not read the same.
         const refused = m.key === "ili" && this.iliError;
         this.q("[data-ranks]").innerHTML = '<div style="font-size:12px;line-height:1.55;color:' + (refused ? DEEPRED : MUTED) + ';">'
-          + esc(refused ? this.iliError.panel : "No state rows in this reporting week.") + "</div>";
+          + esc(refused ? this.iliError.panel : "No states reported this week.") + "</div>";
         return;
       }
       const top = rows.slice(0, 10);
@@ -824,7 +824,7 @@
       };
       this.q("[data-ranks]").innerHTML = top.map((r, i) => row(r, i + 1)).join("")
         + (mo && moRank > 10 ? '<div style="' + label("margin:10px 0 4px;") + '">Missouri, for reference</div>' + row(mo, moRank) : "")
-        + '<div style="' + label("margin-top:10px;") + '">' + rows.length + " reporting states &middot; click a row to select it on the map</div>";
+        + '<div style="' + label("margin-top:10px;") + '">' + rows.length + " reporting states &middot; click a row to show it on the map</div>";
     }
 
     selectState(fips, fly) {
@@ -841,7 +841,7 @@
     renderDetail(fips) {
       const info = FIPS[fips];
       const box = this.q("[data-detail]");
-      if (!info) { box.innerHTML = '<div style="' + label() + '">Click a state for its full reporting row</div>'; return; }
+      if (!info) { box.innerHTML = '<div style="' + label() + '">Click a state for its full report</div>'; return; }
       const row = (m) => {
         const v = this.valueFor(fips, m.key);
         const d = this.deltaFor(fips, m.key);
@@ -873,12 +873,12 @@
         + '<div style="font-family:Archivo,system-ui,sans-serif;font-weight:800;font-size:22px;line-height:1.1;letter-spacing:-0.02em;margin-bottom:12px;">' + esc(info[1])
         + (info[0] === HOME ? ' <span style="font-size:10px;font-weight:800;letter-spacing:0.12em;text-transform:uppercase;color:' + DEEPRED + ';">home state</span>' : "") + "</div>"
         + METRICS.map(row).join("")
-        + '<div style="' + label("margin:14px 0 6px;") + '">ILINet, last 52 weeks &middot; ring marks the window peak</div>'
-        + (trend === undefined ? '<div style="font-size:11px;color:' + MUTED + ';">Loading the state series&hellip;</div>'
+        + '<div style="' + label("margin:14px 0 6px;") + '">ILINet, last 52 weeks &middot; ring marks the peak</div>'
+        + (trend === undefined ? '<div style="font-size:11px;color:' + MUTED + ';">Loading state trend&hellip;</div>'
             : trend && trend.length > 2 ? areaChart(trend, { w: 340, h: 96, color: INK, dec: 2, markPeak: true })
             + this.trendFooter(trend)
             : '<div style="font-size:11px;color:' + (this.iliError ? DEEPRED : MUTED) + ';line-height:1.5;">'
-              + esc(this.iliError ? this.iliError.short + " — the state series could not be requested." : "This state does not report to ILINet, or has no weeks in range.") + "</div>");
+              + esc(this.iliError ? this.iliError.short + ". The state trend could not be loaded." : "This state does not report to ILINet, or has no recent weeks.") + "</div>");
     }
 
     // Where the current week sits inside its own 52-week distribution — the number
@@ -890,9 +890,9 @@
       const sorted = vals.slice().sort((a, b) => a - b);
       const pctile = Math.round((sorted.filter(x => x <= now).length / sorted.length) * 100);
       const peak = Math.max(...vals);
-      return '<div style="font-size:11px;color:' + MUTED + ';margin-top:7px;line-height:1.5;">Latest week is at the '
-        + pctile + 'th percentile of its own 52 weeks, ' + ((now / peak) * 100).toFixed(0)
-        + '% of the window peak of ' + peak.toFixed(2) + '%.</div>';
+      return '<div style="font-size:11px;color:' + MUTED + ';margin-top:7px;line-height:1.5;">Latest week is at or above '
+        + pctile + '% of the last 52 weeks. It is ' + ((now / peak) * 100).toFixed(0)
+        + '% of the 52-week peak of ' + peak.toFixed(2) + '%.</div>';
     }
 
     async loadStateTrend(fips) {
@@ -917,7 +917,7 @@
 
     async load() {
       if (this.map) this.fitUs();
-      this.status("Querying CDC ILINet, CDC hospital respiratory reporting, openFDA and air quality…");
+      this.status("Loading CDC flu-like illness (ILINet), CDC hospital reporting, openFDA and air quality…");
       const results = await Promise.allSettled([
         this.loadIli(), this.loadHospital(), this.loadRecalls(), this.loadShortages(), this.loadAir(), this.loadNews()
       ]);
@@ -926,11 +926,11 @@
       });
       const names = ["ILINet", "hospital reporting", "food recalls", "drug shortages", "air quality", "health news"];
       const failed = results.map((r, i) => r.status === "rejected" ? names[i] : null).filter(Boolean);
-      this.q("[data-updated]").textContent = "Retrieved " + new Date().toLocaleString("en-US", { timeZone: "America/Chicago", hour: "numeric", minute: "2-digit" }) + " CT";
+      this.q("[data-updated]").textContent = "Updated " + new Date().toLocaleString("en-US", { timeZone: "America/Chicago", hour: "numeric", minute: "2-digit" }) + " CT";
       this.status(failed.length
-        ? "Six public feeds, " + (6 - failed.length) + " answering. Unavailable: " + failed.join(", ") + ". "
-          + (this.iliError ? this.iliError.status : "Panels for those feeds stay empty rather than showing stale numbers.")
-        : "Six public feeds answering: CDC ILINet outpatient surveillance, CDC weekly hospital respiratory reporting, openFDA food recall enforcement, openFDA drug shortages, Open-Meteo air quality, and the national public health news feed.");
+        ? (6 - failed.length) + " of six feeds answering. Unavailable: " + failed.join(", ") + ". "
+          + (this.iliError ? this.iliError.status : "Those panels stay empty. Stale numbers are not shown.")
+        : "All six feeds answering: CDC flu-like illness (ILINet), CDC hospital reporting, openFDA food recalls, openFDA drug shortages, Open-Meteo air quality, and public health news.");
       // If ILI could not load, land the map on a measure that did.
       if (!Object.keys(this.iliStates || {}).length && this.metric === "ili" && Object.keys(this.hospStates || {}).length) {
         this.metric = "flu";
@@ -995,15 +995,15 @@
         this.iliError = e.rateLimited
           ? {
               kind: "rate",
-              short: "CDC ILINet is rate-limited",
-              status: "CDC ILINet is rate-limited for anonymous queries by the Delphi Epidata API; a free Delphi API key removes the limit. Retrying in 30 minutes.",
-              panel: "CDC ILINet did not answer: the Delphi Epidata API rate-limits anonymous queries. This is a refused request, not an empty reporting week. A free API key from api.delphi.cmu.edu removes the limit; the dashboard will retry in 30 minutes."
+              short: "CDC ILINet refused the request",
+              status: "CDC ILINet refused the request; it limits anonymous use. A free Delphi key removes the limit. Retry in 30 minutes.",
+              panel: "CDC ILINet refused the request; it limits anonymous use. The week is not empty. A free key from api.delphi.cmu.edu removes the limit. The dashboard retries in 30 minutes."
             }
           : {
               kind: "error",
               short: "CDC ILINet unavailable",
-              status: "CDC ILINet did not return usable data. This is a feed failure, not an empty reporting week.",
-              panel: "CDC ILINet did not return usable data. This is a feed failure, not an empty reporting week — outpatient figures are unavailable until it answers."
+              status: "CDC ILINet did not return usable data. The feed failed. The week is not empty.",
+              panel: "CDC ILINet did not return usable data. The feed failed. The week is not empty. Outpatient figures return when it answers."
             };
         if (e.rateLimited) this.iliCoolOffUntil = Date.now() + 1800000;
         throw e;
@@ -1015,17 +1015,17 @@
       const box = this.q("[data-ili-chart]");
       if (s.length > 2) {
         box.innerHTML = areaChart(s, { w: 560, h: 180, color: INK, dec: 2, baseline: 3, markPeak: true })
-          + '<div style="font-size:11px;color:' + MUTED + ';margin-top:8px;line-height:1.5;">Latest reported week ends '
+          + '<div style="font-size:11px;color:' + MUTED + ';margin-top:8px;line-height:1.5;">Latest week ends '
           + esc(this.iliWeekLabel || "—") + " at " + s[s.length - 1].v.toFixed(2)
-          + "% of outpatient visits. The dashed rule is the CDC national baseline; weeks above it are the working definition of an active flu season. The ring marks the peak of this 52-week window.</div>"
+          + "% of outpatient visits. The dashed line is the CDC national baseline. Weeks above it count as active flu season. The ring marks the 52-week peak.</div>"
           + this.trendFooter(s)
-          + (this.iliError ? '<div style="font-size:11px;color:' + DEEPRED + ';margin-top:8px;line-height:1.5;">State-level rows: ' + esc(this.iliError.panel) + "</div>" : "");
+          + (this.iliError ? '<div style="font-size:11px;color:' + DEEPRED + ';margin-top:8px;line-height:1.5;">State rows: ' + esc(this.iliError.panel) + "</div>" : "");
         return;
       }
       box.innerHTML = '<div style="border:2px solid ' + RULE + ';padding:16px;background:' + SURFACE + ';">'
-        + '<div style="' + label("margin-bottom:6px;") + '">' + esc(this.iliError ? this.iliError.short : "Awaiting CDC ILINet") + "</div>"
+        + '<div style="' + label("margin-bottom:6px;") + '">' + esc(this.iliError ? this.iliError.short : "Waiting for CDC ILINet") + "</div>"
         + '<div style="font-size:12px;line-height:1.55;max-width:520px;">'
-        + esc(this.iliError ? this.iliError.panel : "The outpatient influenza-like illness series has not loaded yet.") + "</div>"
+        + esc(this.iliError ? this.iliError.panel : "The flu-like illness trend has not loaded yet.") + "</div>"
         + (this.iliError && this.iliError.kind === "rate"
             ? '<a href="https://api.delphi.cmu.edu/epidata/admin/registration_form" target="_blank" rel="noopener" style="display:inline-block;margin-top:12px;font-family:Archivo,system-ui,sans-serif;font-size:10px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;padding:9px 13px;border:2px solid ' + INK + ";background:" + INK + ";color:" + GROUND + ';text-decoration:none;">Request a free Delphi key</a>'
             : "")
@@ -1113,16 +1113,16 @@
       const box = this.q("[data-recalls]");
       const note = this.q("[data-recall-note]");
       if (!all.length) {
-        note.textContent = "Food recall enforcement feed unavailable.";
+        note.textContent = "Food recall feed unavailable.";
         box.innerHTML = "";
         return;
       }
       const counts = { "Class I": 0, "Class II": 0, "Class III": 0 };
       all.forEach(r => { if (counts[r.classification] != null) counts[r.classification]++; });
       const mo = all.filter(r => /\bMO\b|Missouri/i.test([r.state, r.distribution_pattern].join(" ")));
-      note.innerHTML = "Enforcement reports posted " + esc(this.recallWindow) + " &middot; "
+      note.innerHTML = "Recalls posted " + esc(this.recallWindow) + " &middot; "
         + Object.keys(counts).map(k => counts[k] + " " + k).join(" &middot; ")
-        + (mo.length ? ' &middot; <b style="color:' + DEEPRED + ';">' + mo.length + " distributed in Missouri or nationwide from a Missouri firm</b>" : "")
+        + (mo.length ? ' &middot; <b style="color:' + DEEPRED + ';">' + mo.length + " name Missouri</b>" : "")
         + (this.recallUpdated ? " &middot; feed updated " + esc(fmtDate(this.recallUpdated)) : "");
 
       const rows = this.recallClass === "All" ? all : all.filter(r => r.classification === this.recallClass);
@@ -1131,7 +1131,7 @@
       box.innerHTML = this.recallRows.map((r, i) => {
         const cls = RECALL_CLASS[r.classification] || RECALL_CLASS["Class III"];
         const inMo = /\bMO\b|Missouri/i.test([r.state, r.distribution_pattern].join(" "));
-        return '<div data-recall-idx="' + i + '" title="Open the enforcement report details" style="display:grid;grid-template-columns:auto 1fr;gap:10px;padding:11px 0;border-bottom:1px solid ' + HAIR + ';cursor:pointer;">'
+        return '<div data-recall-idx="' + i + '" title="Open recall details" style="display:grid;grid-template-columns:auto 1fr;gap:10px;padding:11px 0;border-bottom:1px solid ' + HAIR + ';cursor:pointer;">'
           + '<span style="width:9px;height:9px;margin-top:5px;background:' + cls.color + ';"></span>'
           + '<div style="min-width:0;">'
           + '<div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px;margin-bottom:3px;">'
@@ -1161,13 +1161,13 @@
       const note = this.q("[data-shortage-note]");
       const box = this.q("[data-shortages]");
       if (!rows.length) { note.textContent = "Drug shortage feed unavailable."; box.innerHTML = ""; return; }
-      note.innerHTML = (this.shortageTotal || rows.length).toLocaleString("en-US") + " product records currently in shortage status"
+      note.innerHTML = (this.shortageTotal || rows.length).toLocaleString("en-US") + " products in current shortage"
         + (this.shortageUpdated ? " &middot; feed updated " + esc(fmtDate(this.shortageUpdated)) : "")
         + " &middot; showing the " + Math.min(50, rows.length) + " most recently updated";
       box.innerHTML = rows.map((r, i) => {
         const avail = String(r.availability || "").trim();
         const tight = /limited|allocation|depleted|no |unavailable/i.test(avail);
-        return '<div data-short-idx="' + i + '" title="Open the shortage record details" style="display:grid;grid-template-columns:auto 1fr;gap:10px;padding:11px 0;border-bottom:1px solid ' + HAIR + ';cursor:pointer;">'
+        return '<div data-short-idx="' + i + '" title="Open shortage details" style="display:grid;grid-template-columns:auto 1fr;gap:10px;padding:11px 0;border-bottom:1px solid ' + HAIR + ';cursor:pointer;">'
           + '<span style="width:9px;height:9px;margin-top:5px;background:' + (tight ? RED : MUTED) + ';"></span>'
           + '<div style="min-width:0;">'
           + '<div style="font-size:12px;font-weight:700;line-height:1.4;border-bottom:1px solid ' + INK + ';display:inline;">' + esc(titleCase(r.generic_name || "Unnamed product")) + "</div>"
@@ -1198,7 +1198,7 @@
       const box = this.q("[data-aqi]");
       if (!rows.length) { box.innerHTML = '<div style="' + label("padding:14px;") + '">Air quality unavailable.</div>'; return; }
       const worst = rows.filter(r => r.aqi != null).sort((a, b) => b.aqi - a.aqi)[0];
-      this.q("[data-aqi-note]").textContent = worst ? "Highest of the twelve: " + worst.name + " at " + Math.round(worst.aqi) : "";
+      this.q("[data-aqi-note]").textContent = worst ? "Highest of 12 metros: " + worst.name + " at " + Math.round(worst.aqi) : "";
       box.innerHTML = rows.map(r => {
         const b = r.aqi == null ? null : aqiBand(r.aqi);
         return '<div style="border-right:2px solid ' + RULE + ";border-bottom:2px solid " + RULE + ';padding:12px 14px;'
@@ -1227,7 +1227,7 @@
     async loadNews() {
       const hours = this.newsHours || 24;
       const note = this.q("[data-news-note]");
-      note.textContent = "Reading CDC postings, WHO Disease Outbreak News and the national outlet feeds…";
+      note.textContent = "Loading CDC postings, WHO Disease Outbreak News and national media…";
       const cutoff = Date.now() - hours * 3600000;
       const results = await Promise.allSettled([this.loadCdcPostings(cutoff), this.loadWhoDon(cutoff), this.loadOutletNews(hours)]);
       const [cdc, who, outlets] = results.map(r => r.status === "fulfilled" ? r.value : null);
@@ -1397,9 +1397,9 @@
       if (this.newsFailures.length) {
         parts.push("unavailable: " + this.newsFailures.join(", ")
           + (this.newsFailures.includes("national outlets") && /\.workers\.dev$/.test(proxyOrigin())
-              ? " (managed WashU devices block *.workers.dev — set an allowed proxy origin in the Outages tab)" : ""));
+              ? ". Managed WashU devices block *.workers.dev. Set the Worker address on the Outages tab" : ""));
       }
-      note.innerHTML = esc(parts.join(" · ")) + '. <span style="color:' + MUTED + ';">Classification is keyword-based and shown on each item. Media reports are not official notification.</span>';
+      note.innerHTML = esc(parts.join(" · ")) + '. <span style="color:' + MUTED + ';">Threat classes come from keywords and show on each item. Media reports are not official notification.</span>';
 
       const mw = all.filter(i => i.midwest).length;
       const fresh = all.filter(i => i.ageHours != null && i.ageHours <= 6).length;
@@ -1409,8 +1409,8 @@
       this.newsRows = rows.slice(0, 40);
       if (!this.newsRows.length) {
         box.innerHTML = '<div style="padding:22px 32px;font-size:12px;color:' + MUTED + ';line-height:1.55;">'
-          + (all.length ? "No items in this threat class for the selected window."
-            : this.newsFailures.length === 3 ? "No feed answered. The two official sources are read directly and need only network access; the outlet feeds need the dashboard Worker."
+          + (all.length ? "No items in this threat class for this window."
+            : this.newsFailures.length === 3 ? "No feed answered. CDC and WHO are read directly and need only network access. Media feeds need the dashboard Worker."
             : "No public health items matched in the " + win + ". Widen the window above.") + "</div>";
         return;
       }
@@ -1418,7 +1418,7 @@
       box.innerHTML = this.newsRows.map((it, i) => {
         const catChips = it.categories.slice(0, 3).map(k =>
           '<span style="font-size:9px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;padding:2px 5px;border:1px solid ' + INK + ';">' + esc(catLabel(k)) + "</span>").join("");
-        return '<div data-news-idx="' + i + '" title="Open the item details" style="padding:14px 20px 14px ' + (i % 2 === 0 ? "32px" : "20px")
+        return '<div data-news-idx="' + i + '" title="Open item details" style="padding:14px 20px 14px ' + (i % 2 === 0 ? "32px" : "20px")
           + ';border-right:' + (i % 2 === 0 ? "2px solid " + RULE : "none") + ';border-bottom:1px solid ' + HAIR + ';cursor:pointer;'
           + (it.official ? "background:" + SURFACE + ";" : "") + '">'
           + '<div style="display:flex;flex-wrap:wrap;align-items:center;gap:7px;margin-bottom:6px;">'
@@ -1430,7 +1430,7 @@
           + '<span style="' + label() + 'margin-left:auto;font-variant-numeric:tabular-nums;">' + esc(relHours(it.ageHours)) + "</span></div>"
           + '<div style="font-size:13px;font-weight:700;line-height:1.4;border-bottom:1px solid ' + INK + ';display:inline;">' + esc(it.title) + "</div>"
           + (it.summary ? '<div style="font-size:11px;color:' + MUTED + ';margin-top:7px;line-height:1.5;">' + esc(it.summary.slice(0, 170)) + (it.summary.length > 170 ? "…" : "") + "</div>" : "")
-          + (it.alsoUpdated && it.alsoUpdated.length ? '<div style="' + label("margin-top:7px;") + '">+ ' + it.alsoUpdated.length + " related page" + (it.alsoUpdated.length === 1 ? "" : "s") + " refreshed in the same review</div>" : "")
+          + (it.alsoUpdated && it.alsoUpdated.length ? '<div style="' + label("margin-top:7px;") + '">+ ' + it.alsoUpdated.length + " related page" + (it.alsoUpdated.length === 1 ? "" : "s") + " updated at the same time</div>" : "")
           + '<div style="display:flex;flex-wrap:wrap;gap:5px;margin-top:9px;">' + catChips + "</div></div>";
       }).join("");
     }
@@ -1448,22 +1448,22 @@
         + (it.summary ? '<div style="font-size:13px;font-weight:600;line-height:1.55;padding-bottom:14px;border-bottom:2px solid ' + INK + ';">' + esc(it.summary) + "</div>" : "")
         + '<div style="margin-top:6px;">'
         + this.modalRow("Source", it.outlet)
-        + this.modalRow("Retrieved via", it.via || (it.official ? "read directly — source sends CORS headers" : "dashboard Worker"))
+        + this.modalRow("Read via", it.via || (it.official ? "read directly from the source" : "the dashboard Worker"))
         + this.modalRow(it.kind === "updated" ? "Updated" : "Published", it.published ? new Date(it.published).toLocaleString("en-US", { timeZone: "America/Chicago", dateStyle: "medium", timeStyle: "short" }) + " CT" : "not stated")
         + this.modalRow(it.kind === "updated" ? "Originally posted" : null, it.postedAt ? new Date(it.postedAt).toLocaleDateString("en-US", { timeZone: "America/Chicago", dateStyle: "medium" }) : null)
         + this.modalRow("Age", relHours(it.ageHours))
         + this.modalRow("Threat classes", it.categories.map(catLabel).join(", "))
-        + this.modalRow("Names the Midwest", it.midwest ? "yes — flagged for the desk" : null, DEEPRED)
+        + this.modalRow("Names the Midwest", it.midwest ? "yes, flagged for the desk" : null, DEEPRED)
         + this.modalRow("Scope", it.international ? "international" : "United States")
         + "</div>"
         + (it.alsoUpdated && it.alsoUpdated.length
-            ? '<div style="' + label("margin:16px 0 6px;") + '">Refreshed in the same review</div><ul style="margin:0;padding-left:18px;font-size:11px;color:' + MUTED + ';line-height:1.6;">'
+            ? '<div style="' + label("margin:16px 0 6px;") + '">Updated at the same time</div><ul style="margin:0;padding-left:18px;font-size:11px;color:' + MUTED + ';line-height:1.6;">'
               + it.alsoUpdated.map(t => "<li>" + esc(t) + "</li>").join("") + "</ul>"
             : "")
         + '<div style="font-size:11px;color:' + MUTED + ';margin-top:14px;line-height:1.5;">'
         + (it.official
-            ? "Published by the agency itself. CDC refreshes its surveillance pages as figures change, so an item marked <b>updated</b> carries new numbers on an existing page rather than a new notice. Threat classes are assigned by keyword in this dashboard, not by the agency."
-            : "Media reporting, not official notification. Treat as a lead to confirm against a CDC, WHO, FDA or state health department source.")
+            ? "Published by the agency itself. CDC refreshes its surveillance pages as figures change. An item marked <b>updated</b> is an existing page with new numbers. It is not a new notice. This dashboard assigns threat classes by keyword. The agency does not."
+            : "Media report. Not an official notification. Treat it as a lead. Confirm with CDC, WHO, FDA or the state health department.")
         + "</div>"
         + this.modalActions([{ text: "Open the source", href: it.url }]);
       this.openModal(it.official ? "Official public health posting" : "Public health in the news", it.title, body);
@@ -1523,17 +1523,17 @@
         + this.modalRow("Firm notification", r.initial_firm_notification)
         + this.modalRow("Quantity in commerce", r.product_quantity)
         + this.modalRow("Distribution", r.distribution_pattern, inMo ? DEEPRED : INK)
-        + this.modalRow("Event id", r.event_id)
+        + this.modalRow("Event ID", r.event_id)
         + "</div>"
         + '<div style="' + label("margin:16px 0 6px;") + '">Product description</div>'
         + '<div style="font-size:12px;line-height:1.55;">' + esc(r.product_description || "Not published") + "</div>"
-        + '<div style="font-size:11px;color:' + MUTED + ';margin-top:14px;line-height:1.5;">openFDA enforcement report, drawn from FDA\u2019s weekly Enforcement Report. openFDA publishes no per-record page \u2014 search FDA on recall number '
+        + '<div style="font-size:11px;color:' + MUTED + ';margin-top:14px;line-height:1.5;">openFDA record from FDA\u2019s weekly Enforcement Report. openFDA has no page per record. Search FDA for recall number '
         + esc(r.recall_number || "") + " to reach the official listing.</div>"
         + this.modalActions([
           { text: "FDA recall search", href: "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts?search_api_fulltext=" + encodeURIComponent(r.recall_number || r.recalling_firm || "") },
           { text: "openFDA record", href: FDA + "food/enforcement.json?search=recall_number:%22" + encodeURIComponent(r.recall_number || "") + "%22" }
         ]);
-      this.openModal("Food recall enforcement report", titleCase(r.recalling_firm || "Recalling firm not named"), body);
+      this.openModal("Food recall report", titleCase(r.recalling_firm || "Recalling firm not named"), body);
     }
 
     showShortage(i) {
@@ -1568,7 +1568,7 @@
         + this.modalRow("Manufacturer contact", r.contact_info)
         + "</div>"
         + (r.related_info ? '<div style="' + label("margin:16px 0 6px;") + '">Related information</div><div style="font-size:12px;line-height:1.55;">' + esc(r.related_info) + "</div>" : "")
-        + '<div style="font-size:11px;color:' + MUTED + ';margin-top:14px;line-height:1.5;">openFDA drug shortage record. FDA\u2019s own shortage database is the authoritative listing and carries any therapeutic alternatives.</div>'
+        + '<div style="font-size:11px;color:' + MUTED + ';margin-top:14px;line-height:1.5;">openFDA drug shortage record. FDA\u2019s own shortage database is the official listing. It also lists alternatives.</div>'
         + this.modalActions([
           { text: "FDA shortage database", href: "https://dps.fda.gov/drugshortages/search?query=" + encodeURIComponent(r.generic_name || "") },
           { text: "openFDA record", href: FDA + "drug/shortages.json?search=generic_name:%22" + encodeURIComponent(r.generic_name || "") + "%22" }
@@ -1598,13 +1598,13 @@
       };
 
       const cells = [
-        { l: "Weighted ILI · US", v: iliNow == null ? "—" : iliNow.toFixed(2) + "%", d: iliNow == null && this.iliError ? { text: this.iliError.short, tone: DEEPRED } : delta(iliNow, iliPrev),
-          n: iliNow != null ? (this.iliWeekLabel ? "week ending " + this.iliWeekLabel : "") : "feed refused, not zero", spark: nat.map(x => x.v) },
-        { l: "Weighted ILI · Missouri", v: moState == null ? "—" : moState.toFixed(2) + "%",
+        { l: "Flu-like illness · US", v: iliNow == null ? "—" : iliNow.toFixed(2) + "%", d: iliNow == null && this.iliError ? { text: this.iliError.short, tone: DEEPRED } : delta(iliNow, iliPrev),
+          n: iliNow != null ? (this.iliWeekLabel ? "week ending " + this.iliWeekLabel : "") : "no data: feed refused", spark: nat.map(x => x.v) },
+        { l: "Flu-like illness · Missouri", v: moState == null ? "—" : moState.toFixed(2) + "%",
           d: moState == null && this.iliError
               ? { text: this.iliError.short, tone: DEEPRED }
               : { text: iliNow != null && moState != null ? (moState > iliNow ? "above national" : "below national") : "", tone: moState != null && iliNow != null && moState > iliNow ? DEEPRED : MUTED },
-          n: moState != null ? "same ILINet week" : "feed refused, not zero", spark: (this.stateTrendCache[POSTAL_FIPS[HOME]] || []).map(x => x.v) },
+          n: moState != null ? "same ILINet week" : "no data: feed refused", spark: (this.stateTrendCache[POSTAL_FIPS[HOME]] || []).map(x => x.v) },
         { l: "Influenza admissions", v: usa ? Math.round(num(usa.totalconfflunewadm) || 0).toLocaleString("en-US") : "—",
           d: delta(usa && num(usa.totalconfflunewadm), usaPrev && num(usaPrev.totalconfflunewadm)),
           n: this.hospWeek ? "week ending " + fmtDate(this.hospWeek) : "", spark: (this.hospNat || []).map(r => num(r.totalconfflunewadm)) },
@@ -1612,9 +1612,9 @@
           d: delta(usa && num(usa.totalconfc19newadm), usaPrev && num(usaPrev.totalconfc19newadm)),
           n: "confirmed, national", spark: (this.hospNat || []).map(r => num(r.totalconfc19newadm)) },
         { l: "Class I food recalls", v: class1 ? String(class1) : recalls.length ? "0" : "—",
-          d: { text: recalls.length + " of all classes", tone: MUTED }, n: "last 120 days", spark: [] },
+          d: { text: recalls.length + " total, all classes", tone: MUTED }, n: "last 120 days", spark: [] },
         { l: "Drug shortages", v: this.shortageTotal ? this.shortageTotal.toLocaleString("en-US") : "—",
-          d: { text: "openFDA current status", tone: MUTED }, n: this.shortageUpdated ? "as of " + fmtDate(this.shortageUpdated) : "", spark: [] }
+          d: { text: "current, per openFDA", tone: MUTED }, n: this.shortageUpdated ? "as of " + fmtDate(this.shortageUpdated) : "", spark: [] }
       ];
 
       this.q("[data-kpis]").innerHTML = cells.map((c, i) =>
@@ -1635,8 +1635,8 @@
       if (this.iliError) bits.push(this.iliError.panel);
       if (iliNow != null) {
         const dir = iliPrev == null ? "" : iliNow > iliPrev * 1.05 ? " and rising" : iliNow < iliPrev * 0.95 ? " and falling" : " and flat";
-        bits.push("National outpatient ILI is " + iliNow.toFixed(2) + "% of visits for the week ending " + this.iliWeekLabel + dir
-          + ", " + (iliNow >= 3 ? "above" : "below") + " the CDC national baseline of 3%.");
+        bits.push("National flu-like illness is " + iliNow.toFixed(2) + "% of outpatient visits for the week ending " + this.iliWeekLabel + dir
+          + ". That is " + (iliNow >= 3 ? "above" : "below") + " the CDC national baseline of 3%.");
       }
       const mo = (this.iliStates || {})[HOME.toLowerCase()];
       if (mo != null && iliNow != null) {
@@ -1651,38 +1651,38 @@
         const moRow = (this.hospStates || {})[HOME];
         if (moRow) {
           const occ = this.valueForRow(moRow, "occ"), icu = this.valueForRow(moRow, "icu");
-          if (occ != null) bits.push("Missouri inpatient beds are " + occ.toFixed(0) + "% occupied"
-            + (icu != null ? " and ICU beds " + icu.toFixed(0) + "%" : "") + " on the same week.");
+          if (occ != null) bits.push("Missouri inpatient beds are " + occ.toFixed(0) + "% full"
+            + (icu != null ? " and ICU beds " + icu.toFixed(0) + "% full" : "") + " in the same week.");
         }
       }
       const recalls = this.recalls || [];
       const c1 = recalls.filter(x => x.classification === "Class I");
       const moRecalls = recalls.filter(x => /\bMO\b|Missouri/i.test([x.state, x.distribution_pattern].join(" ")));
       if (c1.length) {
-        bits.push(c1.length + " Class I food recall" + (c1.length === 1 ? "" : "s") + " — the tier FDA reserves for a reasonable probability of serious harm or death — "
-          + (c1.length === 1 ? "was" : "were") + " posted in the last 120 days"
-          + (moRecalls.length ? "; " + moRecalls.length + " recall" + (moRecalls.length === 1 ? "" : "s") + " in the window name Missouri distribution" : "") + ".");
+        bits.push(c1.length + " Class I food recall" + (c1.length === 1 ? "" : "s") + " "
+          + (c1.length === 1 ? "was" : "were") + " posted in the last 120 days. Class I means a reasonable chance of serious harm or death."
+          + (moRecalls.length ? " " + moRecalls.length + " recall" + (moRecalls.length === 1 ? "" : "s") + " in the window name Missouri." : ""));
       }
       if (this.shortageTotal) {
-        bits.push(this.shortageTotal.toLocaleString("en-US") + " drug product records sit in current shortage status with FDA.");
+        bits.push("FDA lists " + this.shortageTotal.toLocaleString("en-US") + " drug products in current shortage.");
       }
       const air = (this.air || []).filter(a => a.aqi != null);
       if (air.length) {
         const home = air.find(a => a.home), worst = air.slice().sort((a, b) => b.aqi - a.aqi)[0];
         const unhealthy = air.filter(a => a.aqi > 100);
-        bits.push("Air quality over St. Louis is " + (home ? Math.round(home.aqi) + " AQI (" + aqiBand(home.aqi).name.toLowerCase() + ")" : "not modelled")
+        bits.push("St. Louis air quality is " + (home ? Math.round(home.aqi) + " AQI, " + aqiBand(home.aqi).name.toLowerCase() : "not modelled")
           + (unhealthy.length
-              ? "; " + unhealthy.length + " of the twelve monitored metros exceed 100, highest " + worst.name + " at " + Math.round(worst.aqi) + "."
-              : "; no monitored metro exceeds 100."));
+              ? ". " + unhealthy.length + " of 12 metros above 100. Highest: " + worst.name + " at " + Math.round(worst.aqi) + "."
+              : ". No metro above 100."));
       }
       const news = this.news || [];
       if (news.length) {
         const top = NEWS_CATS.map(c => ({ label: c.label.toLowerCase(), n: news.filter(i => i.categories.includes(c.key)).length }))
           .filter(x => x.n).sort((a, b) => b.n - a.n).slice(0, 3);
         const mw = news.filter(i => i.midwest);
-        bits.push(news.length + " public health item" + (news.length === 1 ? "" : "s") + " in the news window"
-          + (top.length ? ", led by " + top.map(t => t.label + " (" + t.n + ")").join(", ") : "")
-          + (mw.length ? "; " + mw.length + " name the Midwest" : "") + ".");
+        bits.push(news.length + " public health item" + (news.length === 1 ? "" : "s") + " in the news"
+          + (top.length ? ", led by " + top.map(t => t.label + " (" + t.n + ")").join(", ") : "") + "."
+          + (mw.length ? " " + mw.length + " name the Midwest." : ""));
       }
       this.q("[data-note]").textContent = bits.length ? bits.join(" ") : "No feed has answered yet.";
     }

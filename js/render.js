@@ -69,7 +69,7 @@
       </div>
       <div class="side-block">
         <div class="eyebrow mb-4">River &amp; Stream Gauges</div>
-        <div class="sub mb-14">USGS NWIS instantaneous values · Mississippi mainstem first, then nearest county sites by distance to campus</div>
+        <div class="sub mb-14">USGS gauges · Mississippi at St. Louis first, then the nearest county sites</div>
         <div class="kv-list">
           ${v.gauges.map(g => html`
           <div class="kv-row">
@@ -83,12 +83,12 @@
       </div>
       <div class="side-block">
         <div class="eyebrow mb-4">Air Quality</div>
-        <div class="sub mb-14">Open-Meteo air-quality (CAMS) · campus coordinates</div>
+        <div class="sub mb-14">Open-Meteo · campus location</div>
         <div class="kv-list">${kvRows(v.air)}</div>
       </div>
       <div class="side-block side-block--last">
         <div class="eyebrow mb-4">Seismic · New Madrid &amp; Wabash Valley</div>
-        <div class="sub mb-14">USGS FDSN event service · last 30 days, M2.5+</div>
+        <div class="sub mb-14">USGS · last 30 days, M2.5 and above</div>
         <div class="kv-list">
           ${v.quakes.map(q => html`
           <div class="quake-row">
@@ -106,13 +106,13 @@
     return html`
       <section class="sec sec--summary">
         <div class="sec-head mb-12">
-          <div class="eyebrow">Situation Summary · Composed from connected feeds only</div>
+          <div class="eyebrow">Situation Summary · Connected feeds only</div>
           <div class="meta-caps">${v.summaryBasis}</div>
         </div>
         <p class="summary-lede">${v.summary}</p>
         <div class="summary-cols" style="grid-template-columns: ${v.summaryCols};">
           <div class="summary-col">
-            <div class="summary-col-title">Active hazard messaging</div>
+            <div class="summary-col-title">Active NWS alerts</div>
             <p>${v.summaryAlerts}</p>
           </div>
           <div class="summary-col">
@@ -137,7 +137,7 @@
     return html`
       <section class="sec">
         <div class="sec-head mb-6">
-          <div class="eyebrow">Next 24 Hours · NWS Hourly Forecast, Danforth Campus Grid Point</div>
+          <div class="eyebrow">Next 24 Hours · NWS Hourly Forecast, Danforth Campus</div>
           <div class="meta-caps">${v.hourlySource}</div>
         </div>
         <div class="chart-toolbar">
@@ -159,7 +159,7 @@
         <div class="chart-wrap">
           <div class="chart-axes">
             <span>Left axis · ${c.leftAxisTitle}</span>
-            <span class="chart-axes-right">Right axis · Precipitation probability (%)</span>
+            <span class="chart-axes-right">Right axis · Chance of precipitation (%)</span>
           </div>
           <svg class="chart-svg" viewBox="0 0 1000 300" preserveAspectRatio="none" aria-hidden="true">
             ${c.bands.map(b => html`<rect x="52" y="${b.y}" width="936" height="${b.h}" fill="${b.fill}"></rect>`)}
@@ -183,7 +183,7 @@
         <div class="legend">
           <span class="legend-item"><span class="sw-line" style="background: ${c.stroke};"></span>${c.primaryLabel}</span>
           <span class="legend-item"><span class="sw-dash" style="border-top-color: ${c.stroke2};"></span>${c.secondaryLabel}</span>
-          <span class="legend-item"><span class="sw-box" style="background: #ec3013;"></span>Probability of precipitation</span>
+          <span class="legend-item"><span class="sw-box" style="background: #ec3013;"></span>Chance of precipitation</span>
           <span class="legend-item"><span class="sw-box" style="background: rgba(32,30,29,0.05); border: 1px solid #d7d3d3;"></span>Overnight hours</span>
         </div>
       </section>`;
@@ -192,14 +192,14 @@
   function inventory(v) {
     return html`
       <section class="sec">
-        <div class="eyebrow mb-16">Regional Alert Inventory · NWS CAP, State of Missouri</div>
+        <div class="eyebrow mb-16">Missouri Alert Inventory · NWS Alerts Statewide</div>
         <table class="table">
           <thead>
             <tr>
               <th class="ta-left">Event</th>
               <th class="ta-right">Active</th>
               <th class="ta-left">Highest severity</th>
-              <th class="ta-left">Campus polygons affected</th>
+              <th class="ta-left">Covers campus</th>
             </tr>
           </thead>
           <tbody>
@@ -227,7 +227,7 @@
         </div>
         <div class="note mb-6">${v.floodNote}</div>
         ${v.floodHeadline ? html`<div class="flood-headline">${v.floodHeadline}</div>` : ""}
-        ${v.floodQuiet ? html`<div class="quiet mb-14">Every reporting gauge is below action stage, and no forecast crosses it. The gauges answered — this is a real reading.</div>` : ""}
+        ${v.floodQuiet ? html`<div class="quiet mb-14">All reporting gauges are below action stage. No forecast crosses it.</div>` : ""}
         ${v.floodReady ? html`
         <div class="flood-grid">
           ${v.floodRows.map(g => html`
@@ -259,7 +259,7 @@
           <span class="legend-item"><span class="sw-tick mark-action"></span>Action stage</span>
           <span class="legend-item"><span class="sw-tick mark-minor"></span>Minor flood stage</span>
           <span class="legend-item"><span class="sw-tick mark-major"></span>Major flood stage</span>
-          <span>Bars are scaled to each site's own major flood stage — stage values are not comparable between gauges.</span>
+          <span>Each bar is scaled to that site's major flood stage. Do not compare stage values between gauges.</span>
         </div>` : ""}
       </section>`;
   }
@@ -267,7 +267,7 @@
   function news(v) {
     return html`
       <section class="sec sec--tall sec--plain">
-        <div class="eyebrow mb-4">Open-Source News Monitor · GDELT Web NGrams</div>
+        <div class="eyebrow mb-4">News Monitor · GDELT</div>
         <div class="sub mb-16">${v.newsSource}</div>
         <div class="kv-list">
           ${v.news.map(n => html`
@@ -286,7 +286,7 @@
     return html`
       <section class="sec sec--tall sec--topped">
         <div class="sec-head sec-head--wrap mb-4">
-          <div class="eyebrow">Transit · Metro GTFS-RT</div>
+          <div class="eyebrow">Transit · Metro</div>
           ${ext("https://www.metrostlouis.org/rider-alerts/", "sec-link", "Open metrostlouis.org ↗")}
         </div>
         <div class="note mb-18">${v.metroNote}</div>
@@ -299,7 +299,7 @@
             <span class="sub">${m.note}</span>
           </div>`)}
         </div>
-        ${v.metroQuiet ? html`<div class="quiet">No active service alerts and no route running a median delay of a minute or more. The feeds answered — the system is running to schedule.</div>` : ""}
+        ${v.metroQuiet ? html`<div class="quiet">No active service alerts. No route is running a minute or more late. Metro is on schedule.</div>` : ""}
         <div class="two-col">
           <div class="col">
             ${v.metroAlerts.length ? html`<div class="list-head">Service alerts</div>` : ""}
@@ -332,9 +332,9 @@
   function localOutlets(v) {
     return html`
       <section class="sec sec--tall sec--topped">
-        <div class="eyebrow mb-4">Local Outlets · St. Louis Newsroom RSS</div>
+        <div class="eyebrow mb-4">Local News · St. Louis Outlets</div>
         <div class="note mb-18">${v.localNote}</div>
-        ${v.localEmpty ? html`<div class="quiet">No St. Louis outlet published a hazard or campus-area story in the window. The feeds answered — this is a real reading, not a gap.</div>` : ""}
+        ${v.localEmpty ? html`<div class="quiet">No St. Louis outlet published a hazard or campus-area story in this window. The feeds answered.</div>` : ""}
         ${v.localReady ? html`
         <div class="local-grid">
           ${v.localItems.map(i => html`
@@ -353,12 +353,12 @@
   function gkg(v) {
     return html`
       <section class="sec sec--tall sec--topped">
-        <div class="eyebrow mb-4">Thematic Classification · GDELT GKG 2.0</div>
+        <div class="eyebrow mb-4">News Themes · GDELT</div>
         <div class="sub mb-18">${v.gkgNote}</div>
         <div class="gkg-stack">
           <div class="gkg-themes">
-            <div class="list-head">Hazard themes in window</div>
-            ${v.gkgSingleNote ? html`<div class="sub" style="padding-bottom: 2px;">Each theme appears once in this window — counts listed rather than charted.</div>` : ""}
+            <div class="list-head">Hazard themes in this window</div>
+            ${v.gkgSingleNote ? html`<div class="sub" style="padding-bottom: 2px;">Each theme appears once in this window. Counts are listed without bars.</div>` : ""}
             ${v.gkgThemes.map(t => html`
             <div class="gkg-theme">
               <div class="gkg-theme-body">
@@ -369,7 +369,7 @@
             </div>`)}
           </div>
           <div class="col">
-            <div class="list-head">Geo-tagged coverage · tone scored</div>
+            <div class="list-head">Stories tagged to St. Louis</div>
             ${v.gkgRecords.map(g => html`
             <div class="gkg-record">
               ${ext(g.url, "gkg-link", g.slug)}
@@ -380,7 +380,7 @@
                 <span class="gkg-meta-plain fw-700" style="color: ${g.toneColor};">${g.tone}</span>
               </span>
             </div>`)}
-            ${v.gkgEmpty ? html`<div class="quiet" style="padding: 14px 0;">No hazard-themed coverage geo-tagged to the St. Louis region in this window. Themes are counted only where GDELT's own geocoder placed the article here.</div>` : ""}
+            ${v.gkgEmpty ? html`<div class="quiet" style="padding: 14px 0;">No hazard news tagged to the St. Louis region in this window. Only stories GDELT places here are counted.</div>` : ""}
           </div>
         </div>
       </section>`;
@@ -406,8 +406,8 @@
       </div>
       <div class="reg-foot">
         <div class="eyebrow mb-8">To connect the remaining feeds</div>
-        <p>Social platforms and campus CAD both either require credentials or block direct browser requests. Each needs a small server-side collector that authenticates, normalizes and re-serves the payload to this page.</p>
-        <p>Ameren and MoDOT took that route and are live above — Ameren through the outage-map scraper, MoDOT directly. The feeds still listed here have no panel yet rather than an empty one; nothing is displayed until its source is connected.</p>
+        <p>Social platforms and campus CAD need credentials or block browser requests. Each needs a small server-side collector before it can appear here.</p>
+        <p>Ameren and MoDOT use that method and are live above. Feeds marked Not connected show no data until a source is connected.</p>
       </div>`;
   }
 
@@ -415,7 +415,7 @@
     return html`
       <div class="strip">
         <span class="strip-tag">Live Public Data</span>
-        <span class="strip-text">Every value below is fetched at page load from the named public API. Panels marked <strong>Not connected</strong> require an API key or a server-side proxy and show no data rather than placeholder data.</span>
+        <span class="strip-text">Every value below comes live from the named public source. Panels marked <strong>Not connected</strong> show no data.</span>
       </div>
       ${alertBand(v)}
       <div class="kpis">
@@ -449,18 +449,18 @@
       ${v.powerStorm ? html`
       <div class="storm">
         <span class="storm-tag">Storm Mode</span>
-        <span class="storm-text">Ameren has switched the public map to storm posture — restoration estimates are suspended or generalised.</span>
+        <span class="storm-text">Ameren has put its public map in storm mode. Restoration estimates are suspended or generalized.</span>
       </div>` : ""}
       ${v.proxyPanel ? html`
       <div class="proxy-panel">
         <span class="proxy-top">
-          <span class="proxy-label">Proxy origin</span>
+          <span class="proxy-label">Worker address</span>
           <span class="sub">Currently ${v.proxyHost}</span>
         </span>
         <span class="proxy-note">${v.proxyPanelNote}</span>
         <form class="proxy-row" data-action="proxy-save">
-          <input class="proxy-input" data-proxy-input type="text" inputmode="url" autocomplete="off" spellcheck="false" aria-label="Proxy origin" value="${v.proxyDraft || ""}" placeholder="https://feeds.example.org">
-          <button type="submit" class="proxy-btn proxy-btn--save">Use this origin</button>
+          <input class="proxy-input" data-proxy-input type="text" inputmode="url" autocomplete="off" spellcheck="false" aria-label="Worker address" value="${v.proxyDraft || ""}" placeholder="https://feeds.example.org">
+          <button type="submit" class="proxy-btn proxy-btn--save">Use this address</button>
           <button type="button" class="proxy-btn proxy-btn--reset" data-action="proxy-reset">Reset</button>
         </form>
       </div>` : ""}

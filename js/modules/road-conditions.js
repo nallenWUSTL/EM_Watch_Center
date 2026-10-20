@@ -62,25 +62,25 @@
     hls.on(H.Events.LEVEL_LOADED, (ev, data) => {
       const d = data && data.details;
       if (!d || !d.live) return;
-      if (!d.fragments || !d.fragments.length) { end("stale", "Playlist empty"); return; }
+      if (!d.fragments || !d.fragments.length) { end("stale", "Feed empty"); return; }
       const last = d.fragments[d.fragments.length - 1];
       if (last && last.programDateTime) lastPdt = last.programDateTime;
       if (d.endSN === lastSN) sameSN++; else { sameSN = 0; lastSN = d.endSN; }
       // Three reloads without a new segment: the encoder behind this playlist
       // has stopped. Stop loading so the slot and the bandwidth go elsewhere.
-      if (sameSN >= 3 && !playing) end("stale", lastPdt ? "Not updating since " + fmtClock(lastPdt) : "Stream not updating");
+      if (sameSN >= 3 && !playing) end("stale", lastPdt ? "Not updating since " + fmtClock(lastPdt) : "Not updating");
     });
     hls.on(H.Events.ERROR, (ev, data) => {
       if (!data) return;
       if (data.details === H.ErrorDetails.FRAG_PARSING_ERROR || data.details === H.ErrorDetails.BUFFER_APPEND_ERROR) {
-        if (++parseErrors >= 4 && !data.fatal) { end("decode", "Unplayable segments"); return; }
+        if (++parseErrors >= 4 && !data.fatal) { end("decode", "Cannot decode video"); return; }
       }
       if (!data.fatal) {
         if (data.details === H.ErrorDetails.BUFFER_STALLED_ERROR && playing) set("buffering", "Buffering…");
         return;
       }
       if (data.type === H.ErrorTypes.MEDIA_ERROR) {
-        if (!recovered) { recovered = true; set("buffering", "Recovering decoder…"); try { hls.recoverMediaError(); } catch (e) { end("decode", "Decode error"); } return; }
+        if (!recovered) { recovered = true; set("buffering", "Recovering…"); try { hls.recoverMediaError(); } catch (e) { end("decode", "Decode error"); } return; }
         end("decode", "Decode error");
         return;
       }
@@ -103,7 +103,7 @@
       const now = Date.now();
       if (video.currentTime !== lastTime) { lastTime = video.currentTime; if (playing) lastProgressAt = now; if (state === "buffering" && playing) set("live", "Live"); }
       if (!playing) {
-        if (now - started > FEED_CONNECT_TIMEOUT_MS) end("timeout", lastPdt ? "No video · last segment " + fmtClock(lastPdt) : "No video after " + Math.round(FEED_CONNECT_TIMEOUT_MS / 1000) + " s");
+        if (now - started > FEED_CONNECT_TIMEOUT_MS) end("timeout", lastPdt ? "No video · last frame " + fmtClock(lastPdt) : "No video after " + Math.round(FEED_CONNECT_TIMEOUT_MS / 1000) + " s");
         return;
       }
       const frozen = now - lastProgressAt;
@@ -219,7 +219,7 @@
   const TEMPLATE = `
     <div style="display:flex;align-items:center;gap:14px;padding:10px 32px;background:${INK};color:${GROUND};border-bottom:2px solid ${INK};">
       <span style="font-size:10px;font-weight:800;letter-spacing:0.16em;text-transform:uppercase;padding:4px 8px;background:${GROUND};color:${INK};">Live MoDOT Services</span>
-      <span style="font-size:12px;font-weight:600;">Road conditions rendered from the MoDOT Traveler Information map service; traffic cameras from the MoDOT ArcGIS feature service. Click any road or camera for its attributes.</span>
+      <span style="font-size:12px;font-weight:600;">Road conditions and events from MoDOT. Traffic cameras from the MoDOT camera layer. Click any road or camera for details.</span>
     </div>
 
     <div style="display:grid;grid-template-columns:320px minmax(0,1fr);align-items:start;">
@@ -234,7 +234,7 @@
             </div>
           </div>
           <div data-ring-count style="font-family:Archivo,system-ui,sans-serif;font-weight:800;font-size:44px;line-height:1;letter-spacing:-0.03em;font-variant-numeric:tabular-nums;">&mdash;</div>
-          <div data-ring-note style="font-size:11px;color:${MUTED};margin-top:4px;">Querying the traveler information layers&hellip;</div>
+          <div data-ring-note style="font-size:11px;color:${MUTED};margin-top:4px;">Loading MoDOT events&hellip;</div>
           <div data-ring-breakdown style="display:flex;flex-direction:column;margin-top:12px;"></div>
         </div>
         <div style="padding:20px 20px 20px 32px;border-bottom:2px solid ${RULE};">
@@ -242,22 +242,22 @@
             <div style="${label()}">Crash reports</div>
             <button data-crash-refresh style="background:none;border:none;padding:0;font-family:Archivo,system-ui,sans-serif;font-size:10px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;color:${DEEPRED};cursor:pointer;">Refresh</button>
           </div>
-          <div data-crash-note style="font-size:11px;color:${MUTED};line-height:1.45;margin-bottom:10px;">Reading the Highway Patrol crash log…</div>
+          <div data-crash-note style="font-size:11px;color:${MUTED};line-height:1.45;margin-bottom:10px;">Loading Highway Patrol crash reports…</div>
           <div data-crash-list style="display:flex;flex-direction:column;max-height:300px;overflow-y:auto;padding-right:6px;"></div>
           <div style="${label("margin:16px 0 6px;")}">Crashes in the news</div>
-          <div data-crash-news style="display:flex;flex-direction:column;max-height:240px;overflow-y:auto;padding-right:6px;font-size:12px;color:${MUTED};">Filtering the local outlet feeds…</div>
+          <div data-crash-news style="display:flex;flex-direction:column;max-height:240px;overflow-y:auto;padding-right:6px;font-size:12px;color:${MUTED};">Checking local news…</div>
         </div>
 
         <div style="padding:20px 20px 20px 32px;border-bottom:2px solid ${RULE};">
           <div style="${label("margin-bottom:6px;")}">Cameras in view</div>
           <div data-cam-count style="font-family:Archivo,system-ui,sans-serif;font-weight:800;font-size:44px;line-height:1;letter-spacing:-0.03em;font-variant-numeric:tabular-nums;">—</div>
-          <div style="font-size:11px;color:${MUTED};margin-top:4px;">MoDOT traffic camera feature layer</div>
+          <div style="font-size:11px;color:${MUTED};margin-top:4px;">MoDOT traffic camera layer</div>
         </div>
         <div style="padding:20px 20px 20px 32px;border-bottom:2px solid ${RULE};">
           <div style="${label("margin-bottom:4px;")}">Cameras within 5 miles of campus</div>
-          <div data-nearby-count style="font-size:11px;color:${MUTED};margin-bottom:10px;">Querying the camera layer…</div>
+          <div data-nearby-count style="font-size:11px;color:${MUTED};margin-bottom:10px;">Loading cameras…</div>
           <div data-nearby style="display:flex;flex-direction:column;max-height:420px;overflow-y:auto;padding-right:6px;">
-            <span style="font-size:12px;color:${MUTED};">Loading camera layer…</span>
+            <span style="font-size:12px;color:${MUTED};">Loading cameras…</span>
           </div>
         </div>
         <div style="padding:20px 20px 20px 32px;border-bottom:2px solid ${RULE};">
@@ -273,7 +273,7 @@
       <div style="padding:20px 32px 28px;">
         <div style="border:2px solid ${RULE};margin-bottom:20px;">
           <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;padding:12px 16px;border-bottom:2px solid ${RULE};background:${SURFACE};">
-            <div style="${label()}">Campus access corridors · status from live MoDOT events</div>
+            <div style="${label()}">Campus access corridors · live MoDOT events</div>
             <div data-corridor-note style="${label()}">Scanning…</div>
           </div>
           <div data-corridors style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));"></div>
@@ -297,7 +297,7 @@
           </div>
           <div data-detail style="display:none;position:absolute;top:16px;right:16px;z-index:1000;width:380px;max-height:660px;overflow-y:auto;background:${GROUND};border:2px solid ${INK};padding:18px;">
             <div style="display:flex;align-items:start;justify-content:space-between;gap:12px;margin-bottom:12px;">
-              <div data-detail-title style="font-family:Archivo,system-ui,sans-serif;font-weight:800;font-size:17px;line-height:1.15;letter-spacing:-0.01em;">Feature</div>
+              <div data-detail-title style="font-family:Archivo,system-ui,sans-serif;font-weight:800;font-size:17px;line-height:1.15;letter-spacing:-0.01em;">Details</div>
               <button data-close style="background:none;border:none;padding:0;font-size:16px;line-height:1;color:${MUTED};cursor:pointer;">✕</button>
             </div>
             <div data-detail-body style="font-size:12px;line-height:1.55;"></div>
@@ -309,11 +309,11 @@
           <span style="display:flex;align-items:center;gap:6px;"><span style="width:12px;height:12px;border-radius:50%;background:#e0700b;border:2px solid ${INK};box-sizing:border-box;"></span>Serious injury</span>
           <span style="display:flex;align-items:center;gap:6px;"><span style="width:12px;height:12px;border-radius:50%;background:#f2b705;border:2px solid ${INK};box-sizing:border-box;"></span>Moderate / minor</span>
           <span style="display:flex;align-items:center;gap:6px;"><span style="width:12px;height:2px;background:${INK};"></span>5-mile ring, Brookings Hall</span>
-          <button data-refresh class="btn btn-secondary" style="font-size:11px;letter-spacing:0.1em;text-transform:uppercase;">Reload services</button>
+          <button data-refresh class="btn btn-secondary" style="font-size:11px;letter-spacing:0.1em;text-transform:uppercase;">Reload map data</button>
         </div>
         <div data-timeline-wrap style="display:none;margin-top:20px;border:2px solid ${RULE};">
           <div style="display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding:12px 16px;border-bottom:2px solid ${RULE};background:${SURFACE};">
-            <div style="${label()}">Event duration timeline · nearest events · campus time</div>
+            <div style="${label()}">Event timeline · nearest events · campus time</div>
             <div data-timeline-window style="${label()}"></div>
           </div>
           <div data-timeline style="padding:10px 16px 14px;"></div>
@@ -322,7 +322,7 @@
         <div data-wall-wrap style="display:none;margin-top:20px;border:2px solid ${RULE};">
           <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 16px;border-bottom:2px solid ${RULE};background:${SURFACE};">
             <div>
-              <div style="${label()}">Camera wall · MoDOT feeds within 3 miles of the nearer campus</div>
+              <div style="${label()}">Camera wall · MoDOT feeds within 3 miles of campus</div>
               <div data-wall-count style="font-size:11px;color:${MUTED};margin-top:3px;"></div>
             </div>
             <div style="display:flex;gap:8px;">
@@ -349,7 +349,7 @@
           </div>
         </div>
 
-        <div style="font-size:11px;color:${MUTED};margin-top:10px;">mapping.modot.org · RoadConditions/MapServer &nbsp;·&nbsp; TravelerInformationData/MapServer &nbsp;·&nbsp; services2.arcgis.com · MODOT_Traffic_Cameras/FeatureServer/1 &nbsp;·&nbsp; basemap CARTO/OpenStreetMap</div>
+        <div style="font-size:11px;color:${MUTED};margin-top:10px;">Sources: MoDOT road conditions and traveler information maps (mapping.modot.org) &nbsp;·&nbsp; MoDOT traffic cameras (services2.arcgis.com) &nbsp;·&nbsp; basemap CARTO/OpenStreetMap</div>
       </div>
     </div>
   `;
@@ -420,14 +420,14 @@
   // Readable labels for the MoDOT camera attribute columns.
   const FIELD_LABELS = {
     CAM_ID__: "Camera ID", CAM_ID: "Camera ID", DESCRIPTION: "Location",
-    URL1: "Alternate stream", URL2: "Stream", REFR_RATE_MS: "Refresh rate",
+    URL1: "Backup video", URL2: "Live video", REFR_RATE_MS: "Refresh rate",
     STREAM_ERROR: "Feed status", ROADWAY: "Roadway", DISTRICT: "District",
     COUNTY: "County", DIRECTION: "Direction"
   };
   const SKIP_FIELDS = /^(objectid|globalid|shape|x|y|lat|lon|longitude|latitude|esri)/i;
   const prettyValue = (k, v) => {
     if (/^STREAM_ERROR$/i.test(k)) return String(v).toUpperCase() === "Y" ? "Offline" : "Online";
-    if (/^REFR_RATE_MS$/i.test(k)) return Number(v) > 0 ? Number(v) + " ms" : "Continuous stream";
+    if (/^REFR_RATE_MS$/i.test(k)) return Number(v) > 0 ? Number(v) + " ms" : "Continuous video";
     return v;
   };
 
@@ -481,7 +481,7 @@
       if (window.L && window.L.esri) return this.boot();
       this._waited = (this._waited || 0) + 1;
       if (this._waited > 200) {
-        this.q("[data-status]").innerHTML = '<span style="color:' + DEEPRED + ';">esri-leaflet failed to load — the camera layer needs it.</span>';
+        this.q("[data-status]").innerHTML = '<span style="color:' + DEEPRED + ';">The map library did not load. Cameras cannot be shown. Reload the page.</span>';
         return;
       }
       setTimeout(() => this.waitForLibs(), 100);
@@ -539,8 +539,8 @@
           errorTileUrl: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
         });
         if (statusName) {
-          layer.on("load", () => this.setStatus(key, statusName + ": rendering", true));
-          layer.on("tileerror", () => this.setStatus(key, statusName + " did not return an image.", false));
+          layer.on("load", () => this.setStatus(key, statusName + ": shown", true));
+          layer.on("tileerror", () => this.setStatus(key, statusName + " did not return a map image.", false));
         }
         // A layer group keeps the rest of the component's API (hasLayer, control
         // entries, per-group toggling) unchanged.
@@ -549,11 +549,11 @@
         return { group: group, draw: () => layer.redraw() };
       };
 
-      const roadsLayer = makeExportLayer("roads", ROADS_URL, "Road conditions service", 0.9);
+      const roadsLayer = makeExportLayer("roads", ROADS_URL, "MoDOT road layer", 0.9);
       this.roadGroup = roadsLayer.group;
       this.tiLayers = TI_GROUPS.map(g => Object.assign({}, g,
         makeExportLayer("ti_" + g.key, TRAVELER_URL, null, 1, g.ids, g.on)));
-      this.setStatus("traveler", "Traveler information: " + TI_GROUPS.filter(g => g.on).length + " of " + TI_GROUPS.length + " event layers shown", true);
+      this.setStatus("traveler", "MoDOT events: " + TI_GROUPS.filter(g => g.on).length + " of " + TI_GROUPS.length + " layers shown", true);
       this.drawRoads = () => { roadsLayer.draw(); this.tiLayers.forEach(l => l.draw()); };
 
       map.createPane("assetPane");
@@ -574,7 +574,7 @@
         })
       }).addTo(map);
       this.cameras = cameras;
-      this.setStatus("cameras", "Camera feature service: loading…", true);
+      this.setStatus("cameras", "MoDOT cameras: loading…", true);
       cameras.on("load", () => {
         let n = 0;
         const nearby = [];
@@ -594,10 +594,10 @@
           }
         });
         this.q("[data-cam-count]").textContent = n;
-        this.setStatus("cameras", "Camera feature service: " + n + " features in view", true);
+        this.setStatus("cameras", "MoDOT cameras: " + n + " on the map", true);
         this.publishRoads({ camerasInViewport: n });
       });
-      cameras.on("requesterror", e => this.setStatus("cameras", "Camera service error: " + (e.message || "request failed"), false));
+      cameras.on("requesterror", e => this.setStatus("cameras", "MoDOT cameras did not load: " + (e.message || "no answer"), false));
       cameras.on("click", e => {
         const p = (e.layer && e.layer.feature && e.layer.feature.properties) || {};
         this.showDetail("Traffic camera", p);
@@ -609,7 +609,7 @@
       L.control.layers(null, overlays, { collapsed: false, position: "bottomleft" }).addTo(map);
       map.on("overlayadd overlayremove", () => {
         const shown = this.tiLayers.filter(l => map.hasLayer(l.group)).length;
-        this.setStatus("traveler", "Traveler information: " + shown + " of " + this.tiLayers.length + " event layers shown", true);
+        this.setStatus("traveler", "MoDOT events: " + shown + " of " + this.tiLayers.length + " layers shown", true);
       });
 
       map.on("click", e => this.queryAtPoint(e.latlng));
@@ -705,7 +705,7 @@
       this.armMapSize();
       const note = this.q("[data-crash-note]");
       const origin = proxyOrigin();
-      note.textContent = "Reading the Highway Patrol crash log…";
+      note.textContent = "Loading Highway Patrol crash reports…";
       try {
         const res = await fetch(origin + "/crashes?troop=C&days=7", { signal: AbortSignal.timeout(30000) });
         const data = await res.json();
@@ -728,8 +728,8 @@
         note.innerHTML = crashes.length
           ? crashes.length + " MSHP crash report" + (crashes.length === 1 ? "" : "s") + " in Troop C over 7 days · "
             + data.fatalCount + " fatal · " + near.length + " within 5 mi of campus. "
-            + '<span style="color:' + MUTED + ';">MSHP-investigated crashes only; municipal police crashes are not published. Points are geocoded from the Patrol’s text location and are approximate.</span>'
-          : "No MSHP crash reports in the St. Louis-area counties over the last 7 days.";
+            + '<span style="color:' + MUTED + ';">Highway Patrol crashes only. City and county police crashes are not included. Map points are placed from the written location and are approximate.</span>'
+          : "No MSHP crash reports in the St. Louis area in the last 7 days.";
         this.renderCrashList(crashes);
         this.plotCrashes(crashes);
         this.publishRoads({
@@ -741,8 +741,8 @@
         if (this.ringList) this.renderCorridors(this.ringList, this.scanMi || 5);
       } catch (e) {
         this.crashes = [];
-        note.innerHTML = 'Crash log unavailable via <b>' + esc(new URL(origin).hostname) + '</b>. '
-          + (/\.workers\.dev$/.test(origin) ? "Managed WashU devices block *.workers.dev — set an allowed proxy origin in the Outages tab." : "The Worker did not answer.");
+        note.innerHTML = 'Crash reports unavailable. The feed needs the dashboard Worker at <b>' + esc(new URL(origin).hostname) + '</b>. '
+          + (/\.workers\.dev$/.test(origin) ? "Managed WashU devices block this address. Set an allowed Worker address on the Outages tab." : "The Worker is not answering.");
         this.q("[data-crash-list]").innerHTML = "";
         this.plotCrashes([]);
       }
@@ -764,10 +764,10 @@
               + '<span style="font-size:12px;font-weight:700;line-height:1.35;display:block;">' + esc(it.title || "Untitled") + "</span>"
               + '<span style="' + label("margin-top:3px;display:block;") + '">' + esc(it.outlet || it.source || "Local outlet")
               + (it.published || it.date ? " · " + esc(fmtEpoch(Date.parse(it.published || it.date)) || "") : "") + " · unverified</span></a>").join("")
-          : "No crash reporting in the last 48 hours of local outlet feeds.";
+          : "No crash stories in local news in the last 48 hours.";
         this.publishRoads({ crashNews: items.slice(0, 5).map(it => ({ title: it.title, outlet: it.outlet || it.source, link: it.link || it.url })) });
       } catch (e) {
-        box.textContent = "Local outlet feeds unavailable — they need the dashboard Worker.";
+        box.textContent = "Local news unavailable. The feed needs the dashboard Worker.";
       }
     }
 
@@ -777,8 +777,8 @@
       box.innerHTML = crashes.slice(0, 25).map((c, i) => {
         const sev = CRASH_SEVERITY[c.worstInjury] || CRASH_SEVERITY["NO INJURY"];
         const when = c.at ? fmtEpoch(Date.parse(c.at)) : (c.date + " " + c.time);
-        const dist = c.miles != null ? c.miles + " mi" : "unplotted";
-        return '<div data-crash-idx="' + i + '" title="Open the crash details" style="display:grid;grid-template-columns:auto 1fr auto;gap:9px;align-items:baseline;padding:9px 0;border-bottom:1px solid ' + HAIR + ';cursor:pointer;">'
+        const dist = c.miles != null ? c.miles + " mi" : "not on map";
+        return '<div data-crash-idx="' + i + '" title="Open crash details" style="display:grid;grid-template-columns:auto 1fr auto;gap:9px;align-items:baseline;padding:9px 0;border-bottom:1px solid ' + HAIR + ';cursor:pointer;">'
           + '<span style="width:9px;height:9px;border-radius:50%;background:' + sev.color + ';"></span>'
           + '<span style="min-width:0;">'
           + '<span style="font-size:12px;font-weight:700;line-height:1.35;display:block;color:' + INK + ';border-bottom:1px solid ' + INK + ';width:fit-content;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + esc(titleCase(c.location || "Location not given")) + "</span>"
@@ -786,7 +786,7 @@
           + (c.involved > 1 ? " · " + c.involved + " involved" : "")
           + ' · <span style="color:' + DEEPRED + ';font-weight:700;">Report ' + esc(c.report) + "</span></span></span>"
           + (c.lat
-              ? '<button data-crash-lat="' + c.lat + '" data-crash-lng="' + c.lon + '" title="Locate on the map" style="font-family:Archivo,system-ui,sans-serif;font-size:10px;font-weight:800;letter-spacing:0.08em;text-transform:uppercase;padding:4px 7px;border:2px solid ' + RULE + ';background:transparent;color:' + (c.miles <= 5 ? DEEPRED : MUTED) + ';cursor:pointer;white-space:nowrap;font-variant-numeric:tabular-nums;">' + dist + "</button>"
+              ? '<button data-crash-lat="' + c.lat + '" data-crash-lng="' + c.lon + '" title="Show on map" style="font-family:Archivo,system-ui,sans-serif;font-size:10px;font-weight:800;letter-spacing:0.08em;text-transform:uppercase;padding:4px 7px;border:2px solid ' + RULE + ';background:transparent;color:' + (c.miles <= 5 ? DEEPRED : MUTED) + ';cursor:pointer;white-space:nowrap;font-variant-numeric:tabular-nums;">' + dist + "</button>"
               : '<span style="font-size:10px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:' + MUTED + ';white-space:nowrap;">' + dist + "</span>")
           + "</div>";
       }).join("");
@@ -817,7 +817,7 @@
         + '<span style="' + label() + '">' + k + "</span><span style=\"font-weight:600;\">" + esc(v) + "</span></div>";
       this.q("[data-crash-modal-body]").innerHTML =
         '<div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;"><span style="width:12px;height:12px;border-radius:50%;background:' + sev.color + ';"></span>'
-        + '<span style="font-size:13px;font-weight:800;">' + esc(sev.label) + " injury crash</span></div>"
+        + '<span style="font-size:13px;font-weight:800;">' + esc(sev.label) + " crash</span></div>"
         + row("Location", titleCase(c.location || "—"))
         + row("County", titleCase(c.county || "—"))
         + row("When", c.at ? fmtEpoch(Date.parse(c.at)) : (c.date + " " + c.time))
@@ -825,11 +825,11 @@
         + row("Injured", c.injured)
         + (c.miles != null ? row("From Brookings Hall", c.miles + " mi") : "")
         + row("Troop", c.troop || "C")
-        + '<div style="font-size:11px;color:' + MUTED + ';margin-top:12px;line-height:1.5;">Preliminary and unofficial, published by the Missouri State Highway Patrol. Names and ages are omitted here by choice. '
+        + '<div style="font-size:11px;color:' + MUTED + ';margin-top:12px;line-height:1.5;">Preliminary and unofficial. Source: Missouri State Highway Patrol. Names and ages are left out on purpose. '
         + "</div>"
         + '<div style="display:flex;gap:10px;margin-top:14px;">'
-        + '<a href="' + esc(c.url) + '" target="_blank" rel="noopener" style="font-family:Archivo,system-ui,sans-serif;font-size:10px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;padding:9px 13px;border:2px solid ' + INK + ';background:' + INK + ';color:' + GROUND + ';text-decoration:none;">Open the Patrol’s record</a>'
-        + (c.lat ? '<button data-crash-modal-locate="1" style="font-family:Archivo,system-ui,sans-serif;font-size:10px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;padding:9px 13px;border:2px solid ' + INK + ';background:transparent;color:' + INK + ';cursor:pointer;">Locate on map</button>' : "")
+        + '<a href="' + esc(c.url) + '" target="_blank" rel="noopener" style="font-family:Archivo,system-ui,sans-serif;font-size:10px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;padding:9px 13px;border:2px solid ' + INK + ';background:' + INK + ';color:' + GROUND + ';text-decoration:none;">Open MSHP report</a>'
+        + (c.lat ? '<button data-crash-modal-locate="1" style="font-family:Archivo,system-ui,sans-serif;font-size:10px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;padding:9px 13px;border:2px solid ' + INK + ';background:transparent;color:' + INK + ';cursor:pointer;">Show on map</button>' : "")
         + "</div>";
       this._modalCrash = c;
     }
@@ -871,7 +871,7 @@
       const results = await Promise.all(jobs);
       if (results.every(x => x.failed)) {
         countEl.textContent = "—";
-        noteEl.textContent = "The traveler information layers did not answer. Reload services to retry.";
+        noteEl.textContent = "MoDOT event layers did not answer. Click Reload map data to retry.";
         listEl.innerHTML = "";
         return;
       }
@@ -910,8 +910,8 @@
       const partial = results.filter(x => x.failed).length;
       countEl.textContent = String(total);
       noteEl.textContent = total === 0
-        ? "No MoDOT events inside the ring. The layers answered — this is a real reading."
-        : "Nearest " + nearest.toFixed(1) + " mi from Brookings Hall · click any event to zoom to it"
+        ? "No MoDOT events inside the ring. The layers answered. This is a confirmed reading."
+        : "Nearest " + nearest.toFixed(1) + " mi from Brookings Hall · click any event to zoom"
           + (partial ? " · " + partial + " layer" + (partial === 1 ? "" : "s") + " did not answer" : "");
 
       listEl.innerHTML = "";
@@ -978,7 +978,7 @@
         b.crashes = recentCrashes.filter(c => b.c.re.test(String(c.location || "").replace(/\bI-/gi, "IS ")));
       });
       this.q("[data-corridor-note]").textContent = impacted
-        ? impacted + " of " + CORRIDORS.length + " corridors carrying events · " + radiusMi + " mi scan"
+        ? impacted + " of " + CORRIDORS.length + " corridors have events · " + radiusMi + " mi scan"
         : "All clear within " + radiusMi + " miles";
 
       box.innerHTML = buckets.map((b, i) => {
@@ -998,7 +998,7 @@
           + '<div style="font-size:11px;color:' + MUTED + ';margin-top:5px;line-height:1.35;">'
           + (b.items.length
               ? b.items.length + " event" + (b.items.length === 1 ? "" : "s") + " · nearest " + nearest.toFixed(1) + " mi"
-              : "No MoDOT events in scope")
+              : "No MoDOT events")
           + (crashes ? '<br><span style="color:' + DEEPRED + ';">' + crashes + " MSHP crash" + (crashes === 1 ? "" : "es") + " in 24 h</span>" : "")
           + "</div></div>";
       }).join("");
@@ -1049,7 +1049,7 @@
         const width = Math.max(1.2, right - left);
         const hours = realEnd ? (realEnd - x.start) / 3600000 : null;
         const dur = x.open ? "Open" : hours >= 48 ? Math.round(hours / 24) + " d" : Math.round(hours) + " h";
-        const range = fmtEpochDay(x.start) + " → " + (realEnd ? fmtEpochDay(realEnd) : "no published end");
+        const range = fmtEpochDay(x.start) + " → " + (realEnd ? fmtEpochDay(realEnd) : "no end date");
         const edge = (side, on) => on
           ? '<div style="position:absolute;' + side + ':' + (side === "left" ? left : 100 - right) + "%;top:0;bottom:0;width:4px;background:" + INK + ';"></div>'
           : "";
@@ -1062,7 +1062,7 @@
           + '<div style="position:absolute;left:' + nowPct + "%;top:-3px;bottom:-3px;width:2px;background:" + INK + ';"></div></div>'
           + '<div style="font-size:11px;font-weight:700;font-variant-numeric:tabular-nums;text-align:right;color:' + MUTED + ';">' + dur + "</div></div>";
       }).join("")
-        + '<div style="' + label("margin-top:8px;") + '">Bars run start → scheduled end within a 37-day window · vertical rule is now · solid end caps mark events continuing past the window · faded bars have no published end date · click a row to open the event</div>';
+        + '<div style="' + label("margin-top:8px;") + '">Bars run from start to scheduled end · vertical line is now · solid end caps mean the event runs past the window · faded bars have no end date · click a row to open the event</div>';
     }
 
     renderCamWall(cams) {
@@ -1099,7 +1099,7 @@
               + '<div style="position:relative;background:' + INK + ';aspect-ratio:16/9;">'
               + '<video data-wall-video="' + i + '" muted playsinline style="width:100%;height:100%;display:block;object-fit:cover;"></video>'
               + '<button data-wall-tile="' + i + '" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(32,30,29,0.55);border:none;color:' + GROUND + ';font-family:Archivo,system-ui,sans-serif;font-size:11px;font-weight:800;letter-spacing:0.12em;text-transform:uppercase;cursor:pointer;">▶ Play feed</button>'
-              + '<button data-wall-expand="' + i + '" title="Expand in true color" style="position:absolute;top:6px;right:6px;z-index:2;font-family:Archivo,system-ui,sans-serif;font-size:9px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;padding:4px 7px;border:2px solid ' + GROUND + ';background:rgba(32,30,29,0.75);color:' + GROUND + ';cursor:pointer;">Expand</button>'
+              + '<button data-wall-expand="' + i + '" title="Expand in full color" style="position:absolute;top:6px;right:6px;z-index:2;font-family:Archivo,system-ui,sans-serif;font-size:9px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;padding:4px 7px;border:2px solid ' + GROUND + ';background:rgba(32,30,29,0.75);color:' + GROUND + ';cursor:pointer;">Expand</button>'
               + '<span data-wall-status="' + i + '" style="position:absolute;left:6px;bottom:6px;z-index:2;display:none;max-width:calc(100% - 12px);font-family:Archivo,system-ui,sans-serif;font-size:9px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;padding:4px 7px;background:rgba(32,30,29,0.75);color:' + GROUND + ';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;"></span>'
               + "</div>"
               + '<div style="padding:9px 12px;display:flex;align-items:baseline;justify-content:space-between;gap:8px;">'
@@ -1121,11 +1121,11 @@
       const status = this.q("[data-cam-modal-status]");
       modal.style.display = "flex";
       this.q("[data-cam-modal-title]").textContent = titleCase(cam.props.DESCRIPTION || "Traffic camera");
-      this.q("[data-cam-modal-meta]").textContent = cam.wallSite.label + " · " + cam.bySite[cam.wallSite.key] + " mi from site"
-        + (cam.props.ROUTE ? " · " + cam.props.ROUTE : "") + " · true color";
+      this.q("[data-cam-modal-meta]").textContent = cam.wallSite.label + " · " + cam.bySite[cam.wallSite.key] + " mi from campus"
+        + (cam.props.ROUTE ? " · " + cam.props.ROUTE : "") + " · full color";
       this.closeCamModalStream();
       const url = [cam.props.URL2, cam.props.URL1].find(isStreamUrl);
-      if (!url) { status.textContent = "This camera publishes no HLS stream."; return; }
+      if (!url) { status.textContent = "This camera has no live video."; return; }
       status.textContent = "Connecting…";
       if (window.Hls && window.Hls.isSupported()) {
         const hls = new window.Hls(WALL_HLS_CONFIG);
@@ -1182,7 +1182,7 @@
         btn.style.display = stopped ? "flex" : "none";
         btn.textContent = state === "idle" ? "▶ Play feed"
           : state === "offscreen" ? "▶ Play feed"
-          : state === "nostream" ? "No stream published"
+          : state === "nostream" ? "No live video"
           : (text || "Feed unavailable") + " · retry";
         // A stopped tile that failed shows only the badge text once, on the button.
         if (stopped && state !== "idle" && state !== "offscreen" && badge) badge.style.display = "none";
@@ -1374,8 +1374,8 @@
     async queryAtPoint(latlng) {
       const panel = this.q("[data-detail]");
       panel.style.display = "block";
-      this.q("[data-detail-title]").textContent = "Querying MoDOT layers…";
-      this.q("[data-detail-body]").innerHTML = '<span style="color:' + MUTED + ';">Searching the visible event layers at this point.</span>';
+      this.q("[data-detail-title]").textContent = "Checking MoDOT events…";
+      this.q("[data-detail-body]").innerHTML = '<span style="color:' + MUTED + ';">Looking for events at this point.</span>';
       const coords = this.q("[data-coords]");
       if (coords) coords.textContent = latlng.lat.toFixed(4) + ", " + latlng.lng.toFixed(4);
 
@@ -1387,7 +1387,7 @@
       const visible = (this.tiLayers || []).filter(l => this.map.hasLayer(l.group));
       if (!visible.length) {
         this.q("[data-detail-title]").textContent = "No event layers shown";
-        this.q("[data-detail-body]").innerHTML = '<span style="color:' + MUTED + ';">Turn on an event layer in the map layer control to query it.</span>';
+        this.q("[data-detail-body]").innerHTML = '<span style="color:' + MUTED + ';">Turn on an event layer in the map layer list to check it.</span>';
         return;
       }
 
@@ -1401,9 +1401,9 @@
       const results = (await Promise.all(jobs)).filter(x => x.features.length);
       if (!results.length) {
         this.q("[data-detail-title]").textContent = "No events at this point";
-        this.q("[data-detail-body]").innerHTML = '<div style="font-size:12px;line-height:1.55;">None of the ' + visible.length
-          + ' visible event layers report a feature within ' + (pad * 69).toFixed(1) + ' miles of this point.'
-          + ' Road-condition shading is a separate raster layer and is not queryable.</div>';
+        this.q("[data-detail-body]").innerHTML = '<div style="font-size:12px;line-height:1.55;">No events in the ' + visible.length
+          + ' visible layers within ' + (pad * 69).toFixed(1) + ' miles of this point.'
+          + ' Road condition shading is a map image. It cannot be clicked.</div>';
         return;
       }
 
@@ -1440,9 +1440,9 @@
 
       this.q("[data-detail-title]").textContent = cards.length + (cards.length === 1 ? " event here" : " events here");
       this.q("[data-detail-body]").innerHTML = cards.join("")
-        + '<div style="font-size:11px;color:' + MUTED + ';">' + cards.length + " distinct event" + (cards.length === 1 ? "" : "s")
-        + " from " + hits + " layer hit" + (hits === 1 ? "" : "s")
-        + " (each event is carried by both a point and a line sublayer). Queried live from the TravelerInformationData layers via JSONP; times in campus time.</div>";
+        + '<div style="font-size:11px;color:' + MUTED + ';">' + cards.length + " event" + (cards.length === 1 ? "" : "s")
+        + " from " + hits + " layer match" + (hits === 1 ? "" : "es")
+        + ". Each event appears as a point and a line, so matches can outnumber events. Live from MoDOT. Times are campus time.</div>";
     }
 
     renderNearby(list) {
@@ -1452,7 +1452,7 @@
       const head = this.q("[data-nearby-count]");
       if (head) head.textContent = sorted.length ? sorted.length + " cameras · nearest first" : "";
       if (!sorted.length) {
-        box.innerHTML = '<span style="font-size:12px;color:' + MUTED + ';">No cameras returned within 5 miles of Brookings Hall.</span>';
+        box.innerHTML = '<span style="font-size:12px;color:' + MUTED + ';">No cameras within 5 miles of Brookings Hall.</span>';
         return;
       }
       box.innerHTML = "";
@@ -1494,14 +1494,14 @@
       } else if (stream && offline) {
         media = '<div style="border:2px solid ' + RULE + ';padding:16px;margin-bottom:12px;background:' + SURFACE + ';">'
           + '<div style="' + label("margin-bottom:4px;") + '">Feed offline</div>'
-          + '<div style="font-size:12px;">MoDOT reports a stream error for this camera. Nothing to display.</div></div>';
+          + '<div style="font-size:12px;">MoDOT reports this camera is offline. No video to show.</div></div>';
       } else if (stream) {
         media = '<div style="margin-bottom:12px;"><video data-stream-player controls muted playsinline'
           + ' style="width:100%;display:block;border:2px solid ' + RULE + ';background:' + INK + ';"></video>'
-          + '<div style="' + label("margin-top:6px;") + '">Live HLS stream · MoDOT</div></div>';
+          + '<div style="' + label("margin-top:6px;") + '">Live video · MoDOT</div></div>';
       }
 
-      this.q("[data-detail-body]").innerHTML = media + (rows || '<span style="color:' + MUTED + ';">No attributes returned.</span>');
+      this.q("[data-detail-body]").innerHTML = media + (rows || '<span style="color:' + MUTED + ';">No details available.</span>');
       if (stream && !offline && !img) this.attachStream(stream[1]);
     }
 
@@ -1520,9 +1520,9 @@
           hls.destroy();
           this.hls = null;
           video.outerHTML = '<div style="border:2px solid ' + RULE + ';padding:16px;background:' + SURFACE + ';">'
-            + '<div style="' + label("margin-bottom:4px;") + '">Stream unavailable</div>'
-            + '<div style="font-size:12px;">' + esc(data.details || "The camera stream did not start.") + '</div>'
-            + '<div style="margin-top:8px;"><a href="' + esc(url) + '" target="_blank" rel="noopener">Open the stream directly</a></div></div>';
+            + '<div style="' + label("margin-bottom:4px;") + '">Video unavailable</div>'
+            + '<div style="font-size:12px;">' + esc(data.details || "The camera feed did not start.") + '</div>'
+            + '<div style="margin-top:8px;"><a href="' + esc(url) + '" target="_blank" rel="noopener">Open the feed in a new tab</a></div></div>';
         });
       } else {
         video.src = url; // Safari plays HLS natively
@@ -1532,15 +1532,15 @@
 
     loadLegend() {
       const eventBlock = "<div>"
-        + '<div style="' + label("margin-bottom:7px;") + '">Event severity · applies to every event type</div>'
+        + '<div style="' + label("margin-bottom:7px;") + '">Event severity · all event types</div>'
         + EVENT_SEVERITY.map(function (pair) {
             return '<div style="display:grid;grid-template-columns:26px 1fr;gap:10px;align-items:center;padding:3px 0;">'
               + '<span style="height:4px;background:' + pair[1] + ';"></span>'
               + '<span style="font-weight:600;">' + esc(pair[0]) + "</span></div>";
           }).join("")
-        + '<div style="' + label("margin:14px 0 7px;") + '">Event types plotted as icons</div>'
+        + '<div style="' + label("margin:14px 0 7px;") + '">Event types shown as icons</div>'
         + '<div style="font-size:12px;line-height:1.6;">' + EVENT_TYPES.map(esc).join(" · ") + "</div>"
-        + '<div style="font-size:11px;color:' + MUTED + ';margin-top:8px;">Each hazard and severity is a separate toggle in the map layer control — point symbols and their line geometry are paired. Closures and high-severity events are on by default.</div>'
+        + '<div style="font-size:11px;color:' + MUTED + ';margin-top:8px;">Each hazard and severity is a separate toggle in the map layer list. Each toggle shows both the point and the road line. All event layers are on by default.</div>'
         + "</div>";
       this.q("[data-legend]").innerHTML = eventBlock + LEGEND.map(g =>
         "<div>"

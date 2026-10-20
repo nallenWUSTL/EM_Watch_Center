@@ -136,9 +136,9 @@
     weather: "Weather Monitoring",
     roads: "Road Conditions & Traffic Cameras",
     outages: "Utility Outages · Power and Water",
-    health: "Health Watch · National Public Health Picture",
-    cyber: "Cyber Watch · Healthcare, Research & Higher Education",
-    briefing: "Daily Intelligence Briefing"
+    health: "Health Watch · Public Health Picture",
+    cyber: "Cyber Watch · Healthcare, Research & Higher Ed",
+    briefing: "Daily Briefing"
   };
 
   const $ = sel => document.querySelector(sel);

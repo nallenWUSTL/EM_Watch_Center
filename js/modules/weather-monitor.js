@@ -32,7 +32,7 @@
   const DAT_LAYERS = [
     { id: 0, name: "Damage points", geom: "point" },
     { id: 1, name: "Damage paths", geom: "line" },
-    { id: 2, name: "Damage polygons", geom: "polygon" }
+    { id: 2, name: "Damage areas", geom: "polygon" }
   ];
 
   const STATE_FIPS = { "01":"AL","02":"AK","04":"AZ","05":"AR","06":"CA","08":"CO","09":"CT","10":"DE","11":"DC","12":"FL","13":"GA","15":"HI","16":"ID","17":"IL","18":"IN","19":"IA","20":"KS","21":"KY","22":"LA","23":"ME","24":"MD","25":"MA","26":"MI","27":"MN","28":"MS","29":"MO","30":"MT","31":"NE","32":"NV","33":"NH","34":"NJ","35":"NM","36":"NY","37":"NC","38":"ND","39":"OH","40":"OK","41":"OR","42":"PA","44":"RI","45":"SC","46":"SD","47":"TN","48":"TX","49":"UT","50":"VT","51":"VA","53":"WA","54":"WV","55":"WI","56":"WY","72":"PR" };
@@ -96,10 +96,10 @@
   const TEMPLATE = `
     <div data-emergency style="display:none;position:fixed;inset:0;z-index:9999;align-items:center;justify-content:center;padding:48px;background:rgba(32,30,29,0.86);">
       <div style="max-width:1000px;width:100%;background:${RED};color:${GROUND};border:2px solid ${INK};padding:56px;">
-        <div data-emergency-exercise style="display:none;margin-bottom:24px;padding:12px 16px;background:${INK};color:${GROUND};font-family:Archivo,system-ui,sans-serif;font-size:15px;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;">Exercise &middot; exercise &middot; exercise &mdash; drill product, take no action</div>
-        <div style="${label("color:rgba(243,242,242,0.85);margin-bottom:20px;")}">Automated trigger · Turf.js polygon intersection</div>
+        <div data-emergency-exercise style="display:none;margin-bottom:24px;padding:12px 16px;background:${INK};color:${GROUND};font-family:Archivo,system-ui,sans-serif;font-size:15px;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;">Exercise &middot; exercise &middot; exercise. Drill product. Take no action.</div>
+        <div style="${label("color:rgba(243,242,242,0.85);margin-bottom:20px;")}">Automatic alarm · 5-mile ring</div>
         <h2 style="margin:0 0 20px;font-family:Archivo,system-ui,sans-serif;font-weight:800;font-size:52px;line-height:1.02;letter-spacing:-0.02em;">Tornado Warning issued within 5 miles of WashU</h2>
-        <p style="margin:0 0 32px;font-size:20px;font-weight:700;line-height:1.35;max-width:46ch;">Proceed with emergency notification standard operating procedures.</p>
+        <p style="margin:0 0 32px;font-size:20px;font-weight:700;line-height:1.35;max-width:46ch;">Follow emergency notification procedures now.</p>
         <div style="display:flex;gap:12px;">
           <a href="https://alert.wustl.edu/AlertusWeb/Login" target="_blank" rel="noopener noreferrer" style="background:${GROUND};color:${INK};border:2px solid ${GROUND};padding:14px 22px;font-family:Archivo,system-ui,sans-serif;font-size:13px;font-weight:800;letter-spacing:0.12em;text-transform:uppercase;text-decoration:none;">Launch Alertus</a>
           <button data-dismiss style="background:transparent;color:${GROUND};border:2px solid ${GROUND};padding:14px 22px;font-family:Archivo,system-ui,sans-serif;font-size:13px;font-weight:800;letter-spacing:0.12em;text-transform:uppercase;cursor:pointer;">Acknowledge &amp; close</button>
@@ -109,7 +109,7 @@
 
     <div data-drill-banner style="display:none;align-items:center;gap:14px;padding:10px 32px;background:${INK};color:${GROUND};border-bottom:2px solid ${INK};">
       <span style="font-size:10px;font-weight:800;letter-spacing:0.16em;text-transform:uppercase;padding:4px 8px;background:${GROUND};color:${INK};">Exercise in progress</span>
-      <span style="font-size:12px;font-weight:600;">A fictitious Tornado Warning is injected on the map, in the alert list, the timeline and the intersection alarm. It is not a National Weather Service product and no protective action applies. Clear it with the button in the header.</span>
+      <span style="font-size:12px;font-weight:600;">This is an exercise. A drill Tornado Warning is shown on the map, in the alert list, the timeline and the 5-mile alarm. It is not an NWS product. Take no protective action. Clear it with the Clear drill button above.</span>
     </div>
 
     <div style="display:flex;align-items:stretch;border-bottom:2px solid ${RULE};background:${SURFACE};">
@@ -118,16 +118,16 @@
       </div>
       <div style="flex:1;overflow:hidden;position:relative;height:38px;">
         <div data-ticker style="position:absolute;top:0;bottom:0;display:flex;align-items:center;white-space:nowrap;animation:wmTicker 40s linear infinite;">
-          <span style="font-size:11px;font-weight:600;color:${MUTED};padding:0 24px;">Initializing monitoring…</span>
+          <span style="font-size:11px;font-weight:600;color:${MUTED};padding:0 24px;">Connecting to NWS alert feed…</span>
         </div>
       </div>
       <div style="display:flex;align-items:center;gap:14px;padding:10px 24px;border-left:2px solid ${RULE};">
         <div style="display:flex;flex-direction:column;text-align:right;">
-          <span style="${label()}">Last sync · campus time</span>
+          <span style="${label()}">Last update · campus time</span>
           <span data-sync style="font-size:13px;font-weight:700;font-variant-numeric:tabular-nums;">—</span>
         </div>
-        <button data-sync-btn class="btn btn-secondary" style="font-size:11px;letter-spacing:0.1em;text-transform:uppercase;">Sync data</button>
-        <button data-drill class="btn btn-secondary" style="font-size:11px;letter-spacing:0.1em;text-transform:uppercase;" title="Inject a fictitious tornado warning that clips the 5-mile ring, for exercises and display checks">Inject drill warning</button>
+        <button data-sync-btn class="btn btn-secondary" style="font-size:11px;letter-spacing:0.1em;text-transform:uppercase;">Refresh now</button>
+        <button data-drill class="btn btn-secondary" style="font-size:11px;letter-spacing:0.1em;text-transform:uppercase;" title="Add a drill Tornado Warning that touches the 5-mile ring. For exercises and display checks only.">Start drill warning</button>
       </div>
     </div>
 
@@ -137,17 +137,17 @@
           <div>
             <div style="${label("margin-bottom:6px;")}">Warnings, watches &amp; advisories</div>
             <div data-stat-visible style="font-family:Archivo,system-ui,sans-serif;font-weight:800;font-size:44px;line-height:1;letter-spacing:-0.03em;font-variant-numeric:tabular-nums;">0</div>
-            <div style="font-size:11px;color:${MUTED};margin-top:4px;">Missouri &amp; Illinois · plotted polygons</div>
+            <div style="font-size:11px;color:${MUTED};margin-top:4px;">Missouri &amp; Illinois · shown on the map</div>
           </div>
           <div style="border-top:2px solid ${RULE};padding-top:18px;">
-            <div style="${label("margin-bottom:6px;")}">National products in feed</div>
+            <div style="${label("margin-bottom:6px;")}">Alerts nationwide</div>
             <div data-stat-national style="font-family:Archivo,system-ui,sans-serif;font-weight:800;font-size:28px;line-height:1;letter-spacing:-0.03em;font-variant-numeric:tabular-nums;color:${MUTED};">0</div>
-            <div style="font-size:11px;color:${MUTED};margin-top:4px;">Whole NWS feed, marine excluded — context for the counts above</div>
+            <div style="font-size:11px;color:${MUTED};margin-top:4px;">Whole NWS alert feed, marine alerts excluded. For context.</div>
           </div>
           <div style="border-top:2px solid ${RULE};padding-top:18px;">
             <div style="${label("margin-bottom:6px;")}">Critical alerts</div>
             <div data-stat-high style="font-family:Archivo,system-ui,sans-serif;font-weight:800;font-size:44px;line-height:1;letter-spacing:-0.03em;font-variant-numeric:tabular-nums;color:${DEEPRED};">0</div>
-            <div style="font-size:11px;color:${MUTED};margin-top:4px;">Tornado and severe thunderstorm warnings and watches, flash flood, flood</div>
+            <div style="font-size:11px;color:${MUTED};margin-top:4px;">Tornado and severe thunderstorm warnings and watches. Flash flood and flood warnings.</div>
           </div>
         </div>
         <div style="padding:20px 20px 28px 32px;">
@@ -156,29 +156,29 @@
             <button data-clear style="background:none;border:none;padding:0;font-family:Archivo,system-ui,sans-serif;font-size:10px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;color:${DEEPRED};cursor:pointer;">Reset</button>
           </div>
           <div data-filters style="display:flex;flex-direction:column;max-height:360px;overflow-y:auto;">
-            <div style="font-size:12px;color:${MUTED};padding:12px 0;">Connecting to NWS…</div>
+            <div style="font-size:12px;color:${MUTED};padding:12px 0;">Connecting to NWS alert feed…</div>
           </div>
         </div>
 
         <div style="padding:20px 20px 28px 32px;border-top:2px solid ${RULE};">
           <div style="${label("margin-bottom:4px;")}">NWS Damage Assessment Toolkit</div>
-          <div style="font-size:11px;color:${MUTED};line-height:1.45;margin-bottom:14px;">Post-event survey points, paths and polygons. Query by storm date, incident (event ID) or county.</div>
+          <div style="font-size:11px;color:${MUTED};line-height:1.45;margin-bottom:14px;">Past storm damage surveys: points, paths and areas. Search by storm date, event ID or county.</div>
 
           <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px;">
             <label style="display:block;"><span style="${label("display:block;margin-bottom:4px;")}">From</span><input data-dat-from type="date" style="width:100%;box-sizing:border-box;font-family:Archivo,system-ui,sans-serif;font-size:12px;padding:7px 8px;border:2px solid ${RULE};border-radius:0;background:${GROUND};color:${INK};"></label>
             <label style="display:block;"><span style="${label("display:block;margin-bottom:4px;")}">To</span><input data-dat-to type="date" style="width:100%;box-sizing:border-box;font-family:Archivo,system-ui,sans-serif;font-size:12px;padding:7px 8px;border:2px solid ${RULE};border-radius:0;background:${GROUND};color:${INK};"></label>
           </div>
-          <label style="display:block;margin-bottom:8px;"><span style="${label("display:block;margin-bottom:4px;")}">Incident · event ID</span><input data-dat-event type="text" placeholder="e.g. 2025-03-14 or MAY2019" style="width:100%;box-sizing:border-box;font-family:Archivo,system-ui,sans-serif;font-size:12px;padding:7px 8px;border:2px solid ${RULE};border-radius:0;background:${GROUND};color:${INK};"></label>
+          <label style="display:block;margin-bottom:8px;"><span style="${label("display:block;margin-bottom:4px;")}">Event ID</span><input data-dat-event type="text" placeholder="e.g. 2025-03-14 or MAY2019" style="width:100%;box-sizing:border-box;font-family:Archivo,system-ui,sans-serif;font-size:12px;padding:7px 8px;border:2px solid ${RULE};border-radius:0;background:${GROUND};color:${INK};"></label>
           <label style="display:block;margin-bottom:8px;"><span style="${label("display:block;margin-bottom:4px;")}">County</span><input data-dat-county type="text" list="wm-county-list" placeholder="St. Louis, MO" style="width:100%;box-sizing:border-box;font-family:Archivo,system-ui,sans-serif;font-size:12px;padding:7px 8px;border:2px solid ${RULE};border-radius:0;background:${GROUND};color:${INK};"><datalist id="wm-county-list"></datalist></label>
-          <label style="display:block;margin-bottom:12px;"><span style="${label("display:block;margin-bottom:4px;")}">Radius from Brookings Hall</span><select data-dat-radius style="width:100%;box-sizing:border-box;font-family:Archivo,system-ui,sans-serif;font-size:12px;padding:7px 8px;border:2px solid ${RULE};border-radius:0;background:${GROUND};color:${INK};"><option value="">Off · use county / national</option><option value="10">Within 10 miles</option><option value="25">Within 25 miles</option><option value="50">Within 50 miles</option><option value="100">Within 100 miles</option></select></label>
+          <label style="display:block;margin-bottom:12px;"><span style="${label("display:block;margin-bottom:4px;")}">Radius from Brookings Hall</span><select data-dat-radius style="width:100%;box-sizing:border-box;font-family:Archivo,system-ui,sans-serif;font-size:12px;padding:7px 8px;border:2px solid ${RULE};border-radius:0;background:${GROUND};color:${INK};"><option value="">Off · county or nationwide</option><option value="10">Within 10 miles</option><option value="25">Within 25 miles</option><option value="50">Within 50 miles</option><option value="100">Within 100 miles</option></select></label>
 
           <div style="display:flex;gap:8px;">
-            <button data-dat-run class="btn btn-primary" style="flex:1;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;">Run query</button>
+            <button data-dat-run class="btn btn-primary" style="flex:1;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;">Search</button>
             <button data-dat-clear class="btn btn-secondary" style="font-size:11px;letter-spacing:0.1em;text-transform:uppercase;">Clear</button>
           </div>
 
-          <div data-dat-status style="font-size:11px;color:${MUTED};line-height:1.45;margin-top:12px;">No survey query run.</div>
-          <div style="${label("margin-top:14px;margin-bottom:6px;")}">Standing queries</div>
+          <div data-dat-status style="font-size:11px;color:${MUTED};line-height:1.45;margin-top:12px;">No search run yet.</div>
+          <div style="${label("margin-top:14px;margin-bottom:6px;")}">Quick searches</div>
           <div style="display:flex;flex-wrap:wrap;gap:6px;">
             <button data-preset="campus" style="font-family:Archivo,system-ui,sans-serif;font-size:10px;font-weight:800;letter-spacing:0.08em;text-transform:uppercase;padding:6px 9px;border:2px solid ${RULE};background:transparent;color:${INK};cursor:pointer;">Campus · 25 mi · all time</button>
             <button data-preset="region" style="font-family:Archivo,system-ui,sans-serif;font-size:10px;font-weight:800;letter-spacing:0.08em;text-transform:uppercase;padding:6px 9px;border:2px solid ${RULE};background:transparent;color:${INK};cursor:pointer;">Region · 100 mi · 10 yr</button>
@@ -190,9 +190,9 @@
 
       <div style="padding:20px 32px 28px;">
         <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:12px;">
-          <div style="${label()}">Hazard polygons &amp; NEXRAD base reflectivity · Brookings Hall, 5-mile ring</div>
+          <div style="${label()}">NWS alerts &amp; NEXRAD radar · Brookings Hall 5-mile ring</div>
           <div style="display:flex;align-items:center;gap:10px;">
-            <span data-radar-frame style="${label()}">Radar · live frame</span>
+            <span data-radar-frame style="${label()}">Radar · live</span>
             <button data-radar-play style="font-family:Archivo,system-ui,sans-serif;font-size:10px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;padding:7px 11px;border:2px solid ${INK};background:transparent;color:${INK};cursor:pointer;">▶ Loop last hour</button>
           </div>
         </div>
@@ -201,11 +201,11 @@
           <button data-fullscreen style="position:absolute;top:16px;left:58px;z-index:1001;font-family:Archivo,system-ui,sans-serif;font-size:10px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;padding:7px 11px;border:2px solid ${INK};background:${GROUND};color:${INK};cursor:pointer;">⤡ Full screen</button>
           <div data-detail style="display:none;position:absolute;top:16px;right:16px;z-index:1000;width:360px;max-height:660px;overflow-y:auto;background:${GROUND};border:2px solid ${INK};padding:18px;">
             <div style="display:flex;align-items:start;justify-content:space-between;gap:12px;margin-bottom:12px;">
-              <div data-detail-title style="font-family:Archivo,system-ui,sans-serif;font-weight:800;font-size:17px;line-height:1.15;letter-spacing:-0.01em;">Location data</div>
+              <div data-detail-title style="font-family:Archivo,system-ui,sans-serif;font-weight:800;font-size:17px;line-height:1.15;letter-spacing:-0.01em;">Point details</div>
               <button data-close style="background:none;border:none;padding:0;font-size:16px;line-height:1;color:${MUTED};cursor:pointer;">✕</button>
             </div>
             <div data-forecast-section style="display:none;border-top:2px solid ${RULE};padding-top:12px;margin-bottom:14px;">
-              <div style="${label("margin-bottom:6px;")}">Current point forecast</div>
+              <div style="${label("margin-bottom:6px;")}">Forecast at this point</div>
               <div data-forecast style="font-size:12px;line-height:1.5;"></div>
             </div>
             <div style="${label("margin-bottom:6px;")}">Alert details</div>
@@ -229,10 +229,10 @@
           <span style="width:2px;height:16px;background:${HAIR};"></span>
           <span style="display:flex;align-items:center;gap:7px;font-weight:600;"><span style="width:16px;height:9px;background:rgba(158,53,38,0.16);border:1px solid #9e3526;box-sizing:border-box;"></span>Flash flood warning</span>
           <span style="display:flex;align-items:center;gap:7px;font-weight:600;"><span style="width:16px;height:9px;background:rgba(96,93,93,0.16);border:1px solid ${MUTED};box-sizing:border-box;"></span>Flood warning</span>
-          <span style="display:flex;align-items:center;gap:7px;font-weight:600;"><span style="width:16px;height:9px;background:rgba(186,182,182,0.3);border:1px solid #bab6b6;box-sizing:border-box;"></span>Other products</span>
+          <span style="display:flex;align-items:center;gap:7px;font-weight:600;"><span style="width:16px;height:9px;background:rgba(186,182,182,0.3);border:1px solid #bab6b6;box-sizing:border-box;"></span>Other alerts</span>
           <span style="display:flex;align-items:center;gap:7px;font-weight:600;"><span style="width:16px;height:2px;background:${INK};"></span>5-mile ring, Brookings Hall</span>
         </div>
-        <div style="font-size:11px;color:${MUTED};margin-top:10px;">Sources: api.weather.gov active alerts (national feed, marine products excluded) · county polygons from the plotly FIPS GeoJSON for county-based products · radar WMS from Iowa State Mesonet · basemap CARTO/OpenStreetMap. Refreshes every 30 s.</div>
+        <div style="font-size:11px;color:${MUTED};margin-top:10px;">Sources: NWS active alerts nationwide, marine alerts excluded. County outlines from a public US county map. Radar from Iowa State Mesonet. Basemap from CARTO and OpenStreetMap. Updates every 30 s.</div>
 
         <div data-dock style="display:none;margin-top:24px;border-top:2px solid ${RULE};padding-top:18px;">
           <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:14px;">
@@ -250,16 +250,16 @@
 
           <div style="display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr) minmax(0,1fr);border:2px solid ${RULE};">
             <div style="border-right:2px solid ${RULE};padding:16px;">
-              <div style="${label("margin-bottom:12px;")}">Surveyed events by year · click to isolate</div>
+              <div style="${label("margin-bottom:12px;")}">Surveys by year · click to filter</div>
               <div data-hist style="display:flex;align-items:flex-end;gap:2px;height:150px;"></div>
               <div data-hist-axis style="display:flex;justify-content:space-between;margin-top:6px;${label()}"></div>
             </div>
             <div style="border-right:2px solid ${RULE};padding:16px;">
-              <div style="${label("margin-bottom:12px;")}">Intensity distribution · click to isolate</div>
+              <div style="${label("margin-bottom:12px;")}">EF rating · click to filter</div>
               <div data-efbars style="display:flex;flex-direction:column;gap:7px;"></div>
             </div>
             <div style="padding:16px;">
-              <div style="${label("margin-bottom:12px;")}">Closest approaches to Brookings Hall</div>
+              <div style="${label("margin-bottom:12px;")}">Closest to Brookings Hall</div>
               <div data-notable style="display:flex;flex-direction:column;"></div>
             </div>
           </div>
@@ -273,7 +273,7 @@
               </div>
             </div>
             <div style="padding:16px;">
-              <div style="${label("margin-bottom:12px;")}">Seasonality · surveyed records by month</div>
+              <div style="${label("margin-bottom:12px;")}">Surveys by month</div>
               <div data-season style="display:flex;align-items:flex-end;gap:6px;height:120px;"></div>
               <div data-season-axis style="display:flex;gap:6px;margin-top:6px;"></div>
             </div>
@@ -702,8 +702,8 @@
       map.on("click", e => {
         const { lat, lng } = e.latlng;
         this.q("[data-detail]").style.display = "block";
-        this.q("[data-detail-title]").textContent = "Point intelligence";
-        this.q("[data-detail-body]").innerHTML = '<div style="color:' + MUTED + ';">No active alert polygon at this point.</div>';
+        this.q("[data-detail-title]").textContent = "Point details";
+        this.q("[data-detail-body]").innerHTML = '<div style="color:' + MUTED + ';">No active alert at this point.</div>';
         this.q("[data-coords]").textContent = lat.toFixed(4) + ", " + lng.toFixed(4);
         this.fetchPointForecast(lat.toFixed(4), lng.toFixed(4));
       });
@@ -742,7 +742,7 @@
         this.q("[data-sync]").textContent = fmtCampus(new Date().toISOString());
         this.publishContext();
       } catch (e) {
-        this.q("[data-sync]").textContent = "Sync failed";
+        this.q("[data-sync]").textContent = "Update failed. Retry in 30 s.";
         console.error("Sync error", e);
       }
     }
@@ -769,14 +769,14 @@
         properties: {
           id: DRILL_ID,
           event: "Tornado Warning",
-          areaDesc: "EXERCISE · Southwestern St. Louis County; St. Louis City (drill injection)",
-          headline: "EXERCISE EXERCISE EXERCISE · Tornado Warning issued for exercise purposes only",
-          description: "THIS IS AN EXERCISE. No tornado warning is in effect. This polygon was injected from the dashboard to verify display, alarm, timeline and intersection behaviour. The swath clips the five-mile campus ring southwest of Brookings Hall. EXERCISE EXERCISE EXERCISE.",
-          instruction: "EXERCISE ONLY — take no protective action on this product. Clear it with the Clear drill button.",
+          areaDesc: "EXERCISE · Southwestern St. Louis County; St. Louis City (drill)",
+          headline: "EXERCISE EXERCISE EXERCISE · Tornado Warning for exercise purposes only",
+          description: "THIS IS AN EXERCISE. No tornado warning is in effect. This drill warning was added from the dashboard to test the map, alarm and timeline. Its area touches the 5-mile ring southwest of Brookings Hall. EXERCISE EXERCISE EXERCISE.",
+          instruction: "EXERCISE ONLY. Take no protective action. Clear it with the Clear drill button.",
           severity: "Extreme",
           certainty: "Observed",
           urgency: "Immediate",
-          senderName: "WashU EM dashboard (exercise injection)",
+          senderName: "WashU EM dashboard (exercise)",
           status: "Exercise",
           messageType: "Alert",
           sent: issued,
@@ -785,7 +785,7 @@
           expires: ends,
           ends: ends,
           geocode: { SAME: ["029189", "029510"], UGC: ["MOC189", "MOC510"] },
-          parameters: { NWSheadline: ["EXERCISE — DRILL PRODUCT"] },
+          parameters: { NWSheadline: ["EXERCISE · DRILL PRODUCT"] },
           drill: true
         }
       };
@@ -821,7 +821,7 @@
         this._drillFeature = null;
         this.knownEmergencyIds.delete(DRILL_ID);
         this.raw = this.raw.filter(a => a.properties.id !== DRILL_ID);
-        btn.textContent = "Inject drill warning";
+        btn.textContent = "Start drill warning";
         btn.className = "btn btn-secondary";
         const xb = this.q("[data-emergency-exercise]");
         if (xb) xb.style.display = "none";
@@ -899,7 +899,7 @@
       });
 
       if (!items.length) {
-        track.innerHTML = '<span style="font-size:11px;font-weight:600;color:' + MUTED + ';padding:0 24px;">No active critical alerts in the national feed</span>';
+        track.innerHTML = '<span style="font-size:11px;font-weight:600;color:' + MUTED + ';padding:0 24px;">No critical alerts active nationwide</span>';
         return;
       }
 
@@ -1059,7 +1059,7 @@
           + '<div style="position:absolute;left:' + nowPct + "%;top:-3px;bottom:-3px;width:2px;background:" + INK + ';"></div></div>'
           + '<div style="font-size:11px;font-weight:700;font-variant-numeric:tabular-nums;text-align:right;color:' + MUTED + ';">' + esc(relativeTo(new Date(x.end).toISOString())) + "</div></div>";
       }).join("")
-        + '<div style="' + label("margin-top:8px;") + '">Bars run issue → expiry · vertical rule is now · right column is time remaining · click a row to fly to the polygon</div>';
+        + '<div style="' + label("margin-top:8px;") + '">Bars run from issue to expiry · the line marks now · right column is time left · click a row to zoom to it</div>';
     }
 
     toggleRadarLoop() {
@@ -1072,7 +1072,7 @@
         this.radarLayer.setOpacity(0.45);
         btn.textContent = "▶ Loop last hour";
         btn.style.background = "transparent"; btn.style.color = INK;
-        stamp.textContent = "Radar · live frame";
+        stamp.textContent = "Radar · live";
         return;
       }
       this.radarLayer.setOpacity(0);
@@ -1122,7 +1122,7 @@
 
       if (!n) {
         box.innerHTML = "";
-        note.textContent = "No surveyed damage paths with start and end points in this scope. Run a path-bearing analysis by widening the radius or date range.";
+        note.textContent = "No damage paths with start and end points in this search. Widen the radius or date range to see storm directions.";
         return;
       }
 
@@ -1152,7 +1152,7 @@
       const top = bins.map((v, i) => [v, i]).sort((a, b) => b[0] - a[0])[0];
       const quadrant = bins.slice(8, 13).reduce((s, v) => s + v, 0); // S through W
       note.innerHTML = "<b>" + Math.round(top[0] / n * 100) + "%</b> of " + n + " surveyed paths arrived from the <b>" + COMPASS[top[1]]
-        + "</b>.<br>" + Math.round(quadrant / n * 100) + "% arrived from the southern or western half of the compass.";
+        + "</b>.<br>" + Math.round(quadrant / n * 100) + "% came from the south or west.";
     }
 
     renderSeason(feats) {
@@ -1183,7 +1183,7 @@
         return pa !== pb ? pa - pb : a[0].localeCompare(b[0]);
       });
       if (!entries.length) {
-        container.innerHTML = '<div style="font-size:12px;color:' + MUTED + ';padding:12px 0;">No active products in the feed.</div>';
+        container.innerHTML = '<div style="font-size:12px;color:' + MUTED + ';padding:12px 0;">No active alerts in the NWS feed.</div>';
         return;
       }
       entries.forEach(([event, count]) => {
@@ -1208,7 +1208,7 @@
       const section = this.q("[data-forecast-section]");
       const content = this.q("[data-forecast]");
       section.style.display = "block";
-      content.innerHTML = '<span style="color:' + MUTED + ';">Syncing point data…</span>';
+      content.innerHTML = '<span style="color:' + MUTED + ';">Loading forecast…</span>';
       try {
         const meta = await (await fetch("https://api.weather.gov/points/" + lat + "," + lon, { headers: { Accept: "application/geo+json" } })).json();
         const rel = meta.properties.relativeLocation.properties;
@@ -1217,7 +1217,7 @@
         content.innerHTML = '<div style="font-weight:800;margin-bottom:4px;">' + esc(rel.city) + ", " + esc(rel.state) + "</div>"
           + '<div style="line-height:1.5;"><b>' + esc(p.name) + ":</b> " + esc(p.detailedForecast) + "</div>";
       } catch (e) {
-        content.innerHTML = '<span style="color:' + DEEPRED + ';">Point forecast unavailable.</span>';
+        content.innerHTML = '<span style="color:' + DEEPRED + ';">NWS forecast not available for this point.</span>';
       }
     }
 
@@ -1324,7 +1324,7 @@
       DAT_LAYERS.forEach(cfg => this.map.removeLayer(this.datLayers[cfg.id]));
       this.datAll = { 0: [], 1: [], 2: [] };
       this.q("[data-dock]").style.display = "none";
-      this.datStatus("No survey query run.");
+      this.datStatus("No search run yet.");
     }
 
     async runDatQuery() {
@@ -1336,7 +1336,7 @@
       let county = null;
       if (countyInput) {
         county = this.findCounty(countyInput);
-        if (!county) return this.datStatus("County not recognised. Use the format &ldquo;St. Louis, MO&rdquo;.", DEEPRED);
+        if (!county) return this.datStatus("County not found. Enter it as St. Louis, MO.", DEEPRED);
       }
 
       const clauses = [];
@@ -1347,7 +1347,7 @@
       if (!clauses.length && !county && !this.q("[data-dat-radius]").value) {
         const d = new Date(Date.now() - 90 * 86400000).toISOString().slice(0, 10);
         clauses.push("stormdate >= timestamp '" + d + " 00:00:00'");
-        scopeNote = " No filters given — defaulted to the last 90 days.";
+        scopeNote = " No filters set. Showing the last 90 days.";
       }
       const where = clauses.join(" AND ") || "1=1";
 
@@ -1359,7 +1359,7 @@
 
       const radius = this.q("[data-dat-radius]").value;
 
-      this.datStatus("Querying the Damage Assessment Toolkit…");
+      this.datStatus("Searching the Damage Assessment Toolkit…");
       DAT_LAYERS.forEach(cfg => this.datLayers[cfg.id].clearLayers());
 
       const results = {};
@@ -1385,7 +1385,7 @@
           }
           const res = await fetch(DAT_URL + "/" + cfg.id + "/query?" + params.toString());
           const data = await res.json();
-          if (data.error) throw new Error(data.error.message || "Query rejected");
+          if (data.error) throw new Error(data.error.message || "Search rejected");
           let feats = (data.features || []).filter(f => f.geometry);
           if (county && !radius) {
             feats = feats.filter(f => { try { return turf.booleanIntersects(county, f); } catch (e) { return true; } });
@@ -1395,7 +1395,7 @@
           results[cfg.id] = feats;
         }));
       } catch (e) {
-        return this.datStatus("Survey query failed: " + esc(e.message) + ". The DAT service may be unreachable from this network.", DEEPRED);
+        return this.datStatus("Damage survey search failed: " + esc(e.message) + ". The DAT may be down or blocked on this network. Try again.", DEEPRED);
       }
 
       const total = DAT_LAYERS.reduce((n, cfg) => n + (results[cfg.id] || []).length, 0);
@@ -1406,13 +1406,13 @@
         this.q("[data-dat-legend]").innerHTML = "";
         this.datRings.clearLayers();
         this.syncDatControl(null);
-        return this.datStatus("No damage survey records matched." + scopeNote);
+        return this.datStatus("No damage surveys matched this search." + scopeNote);
       }
 
       const scope = [
         radius ? "Within " + radius + " miles of Brookings Hall" : (county ? county.properties.NAME + " County, " + STATE_FIPS[county.properties.STATE] : "National"),
-        event ? "incident matching “" + event + "”" : null,
-        from || to ? (from || "earliest") + " to " + (to || "present") : (scopeNote ? "last 90 days" : "all surveyed dates")
+        event ? "event ID matching “" + event + "”" : null,
+        from || to ? (from || "earliest") + " to " + (to || "present") : (scopeNote ? "last 90 days" : "all dates")
       ].filter(Boolean).join(" · ");
       this.datScope = scope;
 
@@ -1421,9 +1421,9 @@
       this.syncDatControl(results);
       this.applyDatFacets(true);
 
-      this.datStatus(total + " record" + (total === 1 ? "" : "s") + " — "
+      this.datStatus(total + " record" + (total === 1 ? "" : "s") + " found: "
         + DAT_LAYERS.map(cfg => (results[cfg.id] || []).length + " " + cfg.name.replace("Damage ", "")).join(", ")
-        + "." + scopeNote + (truncated ? " Service caps each layer at 2,000 records; narrow the query for a complete set." : ""));
+        + "." + scopeNote + (truncated ? " The DAT returns at most 2,000 records per layer. Narrow the search to see them all." : ""));
       this.renderDatLegend(results);
     }
 
@@ -1502,7 +1502,7 @@
       const allUnfiltered = [].concat(this.datAll[0] || [], this.datAll[1] || [], this.datAll[2] || []);
       const f = this.datFacet || {};
       this.q("[data-dock-scope]").textContent = this.datScope
-        + (f.ef ? " · isolated to " + f.ef : "") + (f.year ? " · isolated to " + f.year : "");
+        + (f.ef ? " · filtered to " + f.ef : "") + (f.year ? " · filtered to " + f.year : "");
 
       const num = n => n.toLocaleString("en-US");
       const events = new Set(all.map(x => (x.properties || {}).event_id).filter(Boolean));
@@ -1520,12 +1520,12 @@
         + '<div style="font-size:11px;color:' + MUTED + ';margin-top:5px;line-height:1.35;">' + sub + "</div></div>";
 
       this.q("[data-kpis]").innerHTML =
-        kpi("Survey records", num(all.length), num(vis[0].length) + " points · " + num(vis[1].length) + " paths · " + num(vis[2].length) + " polygons")
-        + kpi("Distinct incidents", num(events.size), "Unique event IDs in scope")
-        + kpi("Peak intensity", esc(strongest), maxWind > 0 ? "Max surveyed wind " + maxWind + " mph" : "Rated on the EF scale", DEEPRED)
-        + kpi("Casualties", num(sum("deaths") + sum("fatalities")) + " / " + num(sum("injuries")), "Fatalities / injuries recorded in survey", DEEPRED)
-        + kpi("Closest approach", nearest ? nearest.properties.__dist.toFixed(1) + " mi" : "—",
-              nearest ? esc(surveyLabel(nearest.properties)) + " · " + fmtDay(nearest.properties.stormdate) : "No geometry in scope");
+        kpi("Survey records", num(all.length), num(vis[0].length) + " points · " + num(vis[1].length) + " paths · " + num(vis[2].length) + " areas")
+        + kpi("Separate events", num(events.size), "Different event IDs in this search")
+        + kpi("Strongest rating", esc(strongest), maxWind > 0 ? "Top surveyed wind " + maxWind + " mph" : "Rated on the EF scale", DEEPRED)
+        + kpi("Casualties", num(sum("deaths") + sum("fatalities")) + " / " + num(sum("injuries")), "Deaths / injuries in survey records", DEEPRED)
+        + kpi("Closest to campus", nearest ? nearest.properties.__dist.toFixed(1) + " mi" : "—",
+              nearest ? esc(surveyLabel(nearest.properties)) + " · " + fmtDay(nearest.properties.stormdate) : "No mapped records in this search");
 
       // Year histogram — built from the unfiltered result so the scale holds while faceting.
       const byYear = {};
@@ -1573,7 +1573,7 @@
           + '<span><span style="font-size:12px;font-weight:700;display:block;">' + esc(surveyLabel(p)) + "</span>"
           + '<span style="font-size:11px;color:' + MUTED + ';">' + fmtDay(p.stormdate) + (p.efscale ? " · " + esc(p.efscale) : "") + "</span></span>"
           + '<span style="font-size:12px;font-weight:800;font-variant-numeric:tabular-nums;color:' + DEEPRED + ';">' + p.__dist.toFixed(1) + " mi</span></div>";
-      }).join("") : '<div style="font-size:12px;color:' + MUTED + ';">No measurable geometry in scope.</div>';
+      }).join("") : '<div style="font-size:12px;color:' + MUTED + ';">No mapped records in this search.</div>';
     }
 
     zoomToDatRecord(oid) {
@@ -1716,12 +1716,12 @@
         + (foreignZone
             ? '<div style="border:2px solid ' + RULE + ';padding:10px;margin-bottom:14px;background:' + SURFACE + ';">'
               + '<div style="' + label("margin-bottom:4px;") + '">Issued outside campus time zone</div>'
-              + '<div style="font-size:12px;line-height:1.5;">Office wall clock: ' + esc(sentOffice || "—")
+              + '<div style="font-size:12px;line-height:1.5;">Issuing office local time: ' + esc(sentOffice || "—")
               + (endsOffice ? ' · expires ' + esc(endsOffice) : "")
-              + '. Times above are converted to ' + esc(campusAbbr(props.sent)) + '.</div></div>'
+              + '. Times above are shown in ' + esc(campusAbbr(props.sent)) + '.</div></div>'
             : '<div style="' + label("margin-bottom:14px;") + '">Issued in campus time zone (' + esc(campusAbbr(props.sent)) + ')</div>')
         + '<div style="font-weight:800;font-size:13px;line-height:1.35;margin-bottom:10px;">' + esc(props.headline || "") + "</div>"
-        + '<div style="white-space:pre-wrap;color:#444141;">' + esc(props.description || "No details available.") + "</div>"
+        + '<div style="white-space:pre-wrap;color:#444141;">' + esc(props.description || "NWS gave no details for this alert.") + "</div>"
         + (props.instruction ? '<div style="margin-top:14px;border-top:2px solid ' + RULE + ';padding-top:12px;"><b>Instructions:</b><br>' + esc(props.instruction) + "</div>" : "");
     }
   }

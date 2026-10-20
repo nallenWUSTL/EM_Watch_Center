@@ -40,7 +40,7 @@
   <div data-view="weather" hidden>
     <div class="strip">
       <span class="strip-tag">Live NWS Feed</span>
-      <span class="strip-text">National active-alert feed, polled every 30 seconds. A Tornado Warning polygon intersecting the 5-mile ring around Brookings Hall raises a full-screen notification prompt with the Alertus launch link.</span>
+      <span class="strip-text">NWS alerts, checked every 30 seconds. A Tornado Warning within 5 miles of Brookings Hall opens a full-screen prompt with the Alertus link.</span>
     </div>
     <weather-monitor></weather-monitor>
   </div>
@@ -48,7 +48,7 @@
   <div data-view="outages" hidden>
     <div class="strip">
       <span class="strip-tag">Utility Outages</span>
-      <span class="strip-text">Water incidents come from the hourly Water Utility Incident Watch, which commits its state to this site. Ameren outage data is scraped from the utility's own published map and summarised here, read through the proxy — the panel names the host when it cannot be reached. Missouri American Water's advisory map is embedded live below and needs no proxy.</span>
+      <span class="strip-text">Water incidents come from the hourly Water Utility Incident Watch. Ameren outages come from Ameren's public outage map, read through the Worker. Missouri American Water's advisory map is shown live below.</span>
     </div>
 
     <section class="sec-outage" data-water></section>
@@ -61,7 +61,7 @@
         <a href="https://awgis.amwater.com/CustomerAdvisoryMap/" target="_blank" rel="noopener noreferrer" class="sec-link">Open awgis.amwater.com ↗</a>
       </div>
       <div class="water-title mb-3">Customer advisory map</div>
-      <div class="note mb-14">Missouri American Water serves St. Louis County, including the Danforth and West campuses. Advisories here cover main breaks, boil-water notices and planned work. Boil-water notices are the item with direct campus consequence — food service, labs and clinical operations.</div>
+      <div class="note mb-14">Missouri American Water serves St. Louis County, including the Danforth and West campuses. Advisories cover main breaks, boil-water notices and planned work. Boil-water notices affect food service, labs and clinical operations.</div>
       <div class="embed-frame">
         <iframe src="https://awgis.amwater.com/CustomerAdvisoryMap/" title="Customer advisory map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
@@ -75,7 +75,7 @@
   <div data-view="briefing" class="bw" hidden>
     <div class="strip">
       <span class="strip-tag">Daily Briefing</span>
-      <span class="strip-text">Filed each morning at 5:52 AM Central by the scheduled briefing task, which commits the record to this site. Read directly from this site, so it needs no proxy and no sign-in. The archive and each day's full briefing are on claude.ai.</span>
+      <span class="strip-text">Filed each morning at 5:52 AM Central by the scheduled briefing task. Read from this site, so no sign-in is needed. The archive and full briefings are on claude.ai.</span>
     </div>
     <div class="bw-latest bw-band" data-bw-latest hidden></div>
     <div class="bw-empty bw-band" data-bw-empty></div>
@@ -84,7 +84,7 @@
   </div>
 
   <footer class="ftr">
-    <span>Live public data · No credentials stored · Machine-composed summary requires analyst confirmation before release</span>
+    <span>Live public data · No credentials stored · Machine-written summary. An analyst must confirm it before release.</span>
     <span data-retrieved-full></span>
   </footer>
 </div>

@@ -46,16 +46,16 @@
         issuedZone: (function () {
           const iso = p.sent || p.onset || p.effective;
           const a = isoOffsetMin(iso), b = campusOffsetMin(iso);
-          return a !== null && b !== null && a !== b ? "Issued " + officeClock(iso) + " at the office" : "Issued in campus time zone";
+          return a !== null && b !== null && a !== b ? "Issued " + officeClock(iso) + " office time" : "Issued in campus time";
         })(),
         campus: campuses.join(" + ") + " in polygon"
       };
     });
 
-    const alertHeadCount = s.loading ? "Loading NWS CAP" : hasAlerts ? alerts.length + (alerts.length === 1 ? " Active Alert" : " Active Alerts") : "No Active Alerts";
-    const alertHeadLine = s.loading ? "Querying api.weather.gov for both campus coordinates…"
-      : err.alertsD || err.alertsM ? "NWS alerts endpoint unreachable (" + (err.alertsD || err.alertsM) + ") — treat as unknown, not as all-clear."
-      : hasAlerts ? "NWS CAP polygons currently cover a Washington University campus." : "No NWS CAP product currently covers either campus coordinate. " + s.moAlerts.length + " alert(s) active statewide in Missouri.";
+    const alertHeadCount = s.loading ? "Loading NWS alerts" : hasAlerts ? alerts.length + (alerts.length === 1 ? " Active Alert" : " Active Alerts") : "No Active Alerts";
+    const alertHeadLine = s.loading ? "Checking NWS alerts for both campuses…"
+      : err.alertsD || err.alertsM ? "NWS alerts not reachable: " + (err.alertsD || err.alertsM) + ". Status unknown. Do not treat as all-clear."
+      : hasAlerts ? "An NWS alert covers a WashU campus." : "No NWS alert covers either campus. " + s.moAlerts.length + " active statewide in Missouri.";
 
     const bandRed = hasAlerts || !!(err.alertsD || err.alertsM);
 
@@ -66,7 +66,7 @@
     const wind = kmh2mph(o.windSpeed && o.windSpeed.value);
     const gust = kmh2mph(o.windGust && o.windGust.value);
     const vis = o.visibility && o.visibility.value !== null ? Math.round(o.visibility.value / 1609.34 * 10) / 10 + " mi" : "—";
-    const observation = err.obs ? [{ name: "Station unreachable", value: "—", tone: "#ae1800" }] : [
+    const observation = err.obs ? [{ name: "KSTL not reachable", value: "—", tone: "#ae1800" }] : [
       { name: "Conditions", value: o.textDescription || "—", tone: "#201e1d" },
       { name: "Temperature", value: t === null ? "—" : t + "°F", tone: t !== null && t >= 90 ? "#ae1800" : "#201e1d" },
       { name: "Heat index", value: hi === null ? "n/a" : hi + "°F", tone: hi !== null && hi >= 100 ? "#ae1800" : "#201e1d" },
@@ -113,11 +113,11 @@
     const mainGauge = readSeries(s.gaugeMain, "Mississippi mainstem")[0];
     const nearby = readSeries(s.gauges).sort((a, b) => a.miles - b.miles).filter(g => !mainGauge || g.key !== mainGauge.key).slice(0, 5);
     let gauges = (mainGauge ? [mainGauge] : []).concat(nearby);
-    if (!gauges.length) gauges = [{ name: err.gauges && err.gaugeMain ? "USGS NWIS unreachable" : "No active gage-height sites returned", site: "sites=07010000 · countyCd 29189, 29510", time: "—", value: "—" }];
+    if (!gauges.length) gauges = [{ name: err.gauges && err.gaugeMain ? "USGS gauges not reachable" : "No active gauges returned", site: "St. Louis City and County", time: "—", value: "—" }];
 
     const a = s.air || {};
     const aqi = a.us_aqi;
-    const air = err.air ? [{ name: "Air-quality service unreachable", value: "—", tone: "#ae1800" }] : [
+    const air = err.air ? [{ name: "Air quality not reachable", value: "—", tone: "#ae1800" }] : [
       { name: "US AQI", value: aqi === undefined ? "—" : String(Math.round(aqi)), tone: aqi >= 101 ? "#ae1800" : "#201e1d" },
       { name: "PM2.5", value: a.pm2_5 === undefined ? "—" : Math.round(a.pm2_5) + " µg/m³", tone: "#201e1d" },
       { name: "PM10", value: a.pm10 === undefined ? "—" : Math.round(a.pm10) + " µg/m³", tone: "#201e1d" },
@@ -125,7 +125,7 @@
     ];
 
     const quakes = (s.quakes || []).slice(0, 4).map(q => ({ mag: "M" + q.properties.mag.toFixed(1), place: q.properties.place, time: fmtDay(new Date(q.properties.time).toISOString()) }));
-    if (!quakes.length) quakes.push({ mag: "—", place: err.quakes ? "USGS event service unreachable" : "No M2.5+ events in the box in 30 days", time: "" });
+    if (!quakes.length) quakes.push({ mag: "—", place: err.quakes ? "USGS not reachable" : "No M2.5+ quakes in 30 days", time: "" });
 
     const temps = s.hourly.map(h => h.temperature).filter(v => typeof v === "number");
     const tmin = temps.length ? Math.min(...temps) : 0;
@@ -277,10 +277,10 @@
     const hourlyStats = rows.length ? [
       { label: "High", value: Math.max(...rows.map(r => r.t)) + "°F", note: (rows.find(r => r.t === Math.max(...rows.map(x => x.t))) || {}).zoned, tone: Math.max(...rows.map(r => r.t)) >= 90 ? "#ae1800" : "#201e1d" },
       { label: "Low", value: Math.min(...rows.map(r => r.t)) + "°F", note: (rows.find(r => r.t === Math.min(...rows.map(x => x.t))) || {}).zoned, tone: "#201e1d" },
-      { label: "Peak precip. chance", value: peakPop + "%", note: peakPop > 0 ? "at " + peakPopZoned : "dry window", tone: peakPop >= 50 ? "#ae1800" : "#201e1d" },
+      { label: "Peak precip chance", value: peakPop + "%", note: peakPop > 0 ? "at " + peakPopZoned : "Dry", tone: peakPop >= 50 ? "#ae1800" : "#201e1d" },
       { label: "Max wind", value: maxGust + " mph", note: "at " + maxGustZoned, tone: maxGust >= 25 ? "#ae1800" : "#201e1d" },
       { label: "Min humidity", value: Math.min(...rows.map(r => r.rh)) + "%", note: "Max " + Math.max(...rows.map(r => r.rh)) + "%", tone: "#201e1d" }
-    ] : [{ label: "Hourly forecast", value: "—", note: "No periods returned", tone: "#605d5d" }];
+    ] : [{ label: "Hourly forecast", value: "—", note: "No forecast returned", tone: "#605d5d" }];
 
     const events = {};
     s.moAlerts.forEach(f => {
@@ -295,10 +295,10 @@
     const inventory = Object.entries(events).sort((x, y) => y[1].count - x[1].count).slice(0, 8).map(([event, v]) => ({
       event, count: String(v.count),
       severity: sevRank.find(r => v.sev.includes(r)) || "Unknown",
-      campus: v.campus ? "Yes — campus in polygon" : "No",
+      campus: v.campus ? "Yes" : "No",
       tone: v.campus ? "#ae1800" : "#605d5d"
     }));
-    if (!inventory.length) inventory.push({ event: s.loading ? "Querying api.weather.gov…" : err.moAlerts ? "NWS alerts endpoint unreachable" : "No active alerts in Missouri", count: s.loading ? "—" : "0", severity: "—", campus: s.loading ? "—" : "No", tone: "#605d5d" });
+    if (!inventory.length) inventory.push({ event: s.loading ? "Loading…" : err.moAlerts ? "NWS alerts not reachable" : "No active alerts in Missouri", count: s.loading ? "—" : "0", severity: "—", campus: s.loading ? "—" : "No", tone: "#605d5d" });
 
     const gk = s.gkg || {};
     const gkgMax = (gk.themes || []).reduce((m, t) => Math.max(m, t.count), 0) || 1;
@@ -320,11 +320,11 @@
       toneColor: r.tone === null ? "#605d5d" : r.tone <= -5 ? "#ec3013" : r.tone < 0 ? "#8a5a1a" : "#605d5d"
     }));
     const gkgNote = s.gkgScanning
-      ? "Inflating the 15-minute GKG files…"
+      ? "Loading GDELT news themes…"
       : gk.error
-        ? "GKG unavailable: " + gk.error
+        ? "GDELT themes unavailable: " + gk.error
         : gk.files
-          ? "GDELT GKG 2.0 · " + gk.files + " files to " + gk.latest + " · " + gk.rows + " records, " + gk.mb + " MB inflated · " + gk.matched + " tagged to St. Louis or within 90 mi"
+          ? "GDELT news themes · " + gk.files + " files to " + gk.latest + " · " + gk.rows + " records · " + gk.matched + " tagged to St. Louis or within 90 mi"
           : "Not yet scanned";
     const gkgSingleNote = !!(gk.themes || []).length && !gkgShowBars;
     const gkgEmpty = !s.gkgScanning && !gk.error && gk.files && !gkgRecords.length;
@@ -340,21 +340,21 @@
     const proxyOverridden = proxyOrigin !== W.WORKER_DEFAULT;
     const proxyPanel = proxyBlocked || proxyOverridden;
     const proxyPanelNote = proxyBad
-      ? "The saved value \u201c" + proxyBad + "\u201d is not an origin. Enter a full host including https://, or Reset to return to the default."
+      ? "The saved address \u201c" + proxyBad + "\u201d is not valid. Enter a full address starting with https://, or press Reset."
       : proxyBlocked
-      ? "Put the Worker behind a hostname your network allows — a custom domain on the same Cloudflare account works, and needs no code change. Saved in this browser only."
-      : "This browser is pointed at an origin other than the default. Saved locally; Reset returns to " + W.WORKER_DEFAULT.replace(/^https:\/\//, "") + ".";
+      ? "Enter a Worker address your network allows. A custom domain on the same Cloudflare account works. Saved in this browser only."
+      : "This browser uses a custom Worker address. Saved in this browser only. Reset returns to " + W.WORKER_DEFAULT.replace(/^https:\/\//, "") + ".";
     const powerNote = proxyBad
-      ? "\u201c" + proxyBad + "\u201d is not a valid origin — include the full https:// host, e.g. https://feeds.example.org. Falling back to " + proxyHost + " until it is corrected."
+      ? "\u201c" + proxyBad + "\u201d is not a valid address. Include https://, for example https://feeds.example.org. Using " + proxyHost + " until it is corrected."
       : s.powerLoading
-      ? "Reading the Ameren outage map via " + proxyHost + "…"
+      ? "Reading Ameren's outage map through " + proxyHost + "…"
       : proxyBlocked
       ? /\.workers\.dev$/.test(proxyHost)
-        ? "Cannot reach " + proxyHost + ". Managed WashU devices block *.workers.dev at the network layer — put the Worker behind an allowed hostname below."
-        : "Cannot reach " + proxyHost + ". The request never completed, which does not say why: the hostname may not resolve, the network may block it, or no Worker may be bound to that domain yet."
+        ? "Cannot reach " + proxyHost + ". Managed WashU devices block *.workers.dev. Set another Worker address below."
+        : "Cannot reach " + proxyHost + ". The address may be wrong, blocked by the network, or not yet linked to the Worker. Check the address below."
       : powerError
-      ? "Ameren scraper unavailable: " + powerError
-      : "Ameren public outage map, scraped via the KUBRA StormCenter file layout · generated "
+      ? "Ameren outage data unavailable: " + powerError
+      : "Ameren's public outage map · updated "
         + (pw.dataGeneratedAt ? fmtZoned(pw.dataGeneratedAt) : "—")
         + " · map mode " + (pw.mode === "STORM" ? "STORM" : pw.mode === "BLUESKY" ? "normal operations" : "—");
     const powerReady = !s.powerLoading && !powerError && !!pw.ring;
@@ -364,7 +364,7 @@
       { label: "Outages within " + (ring.radiusMiles || 10) + " mi", value: String(ring.outages || 0), note: (ring.customersOut || 0) + " customers affected" },
       { label: "Nearest outage", value: ring.nearestMiles == null ? "—" : ring.nearestMiles + " mi", note: ring.nearestMiles == null ? "None in ring" : "From Brookings Hall" },
       { label: "Largest in ring", value: String(ring.largest || 0), note: "Customers on one outage" },
-      { label: "Past estimated restore", value: String(ring.expiredEtrs || 0), note: "ETR already lapsed" }
+      { label: "Past estimated restore", value: String(ring.expiredEtrs || 0), note: "Estimate has passed" }
     ] : [];
 
     const powerOutages = powerReady ? (pw.outages || []).slice(0, 8).map(o => ({
@@ -453,9 +453,9 @@
     const floodCrossing = floodRows.filter(r => r.crossing);
     const floodDown = floodRows.filter(r => r.failed);
     const floodNote = !floodReady
-      ? "Reading the NOAA National Water Prediction Service gauges…"
-      : "NOAA National Water Prediction Service (formerly AHPS) · " + (floodRows.length - floodDown.length) + " of "
-        + floodRows.length + " gauges reporting · stage shown against each site's own action and flood thresholds"
+      ? "Reading NOAA NWPS gauges…"
+      : "NOAA NWPS · " + (floodRows.length - floodDown.length) + " of "
+        + floodRows.length + " gauges reporting · each stage shown against that site's own thresholds"
         + (floodDown.length ? " · " + floodDown.length + " unavailable" : "");
     const floodHeadline = !floodReady ? "" : floodCrossing.length
       ? floodCrossing.length + " gauge" + (floodCrossing.length === 1 ? "" : "s") + " forecast to cross action stage"
@@ -468,13 +468,13 @@
     const metroError = mt.error || null;
     const metroReady = !s.metroLoading && !metroError && !!mt.counts;
     const metroNote = s.metroLoading || !s.metro
-      ? "Decoding the Metro Transit GTFS-RT feeds…"
+      ? "Loading the Metro transit feed…"
       : proxyBad
-      ? "The saved proxy origin \u201c" + proxyBad + "\u201d is not a valid host. Correct it in the Outages tab."
+      ? "The saved Worker address \u201c" + proxyBad + "\u201d is not valid. Fix it in the Outages tab."
       : metroError
-      ? "Metro feeds need the proxy origin set in the Outages tab — " + proxyHost + " is not answering. Metro publishes protobuf only, so the payload must be decoded server-side."
-      : "Bi-State Development GTFS-RT, decoded on the wire · " + mt.counts.vehiclesReporting + " vehicles and "
-        + mt.counts.tripsReporting + " trips reporting · feed stamped "
+      ? "The Worker at " + proxyHost + " is not answering. Metro data comes through the Worker. Set its address in the Outages tab."
+      : "Metro transit feed · " + mt.counts.vehiclesReporting + " vehicles and "
+        + mt.counts.tripsReporting + " trips reporting · updated "
         + (mt.feedTimestamps && mt.feedTimestamps.vehicles ? fmtZoned(mt.feedTimestamps.vehicles) : "—");
 
     const metroStats = metroReady ? [
@@ -506,13 +506,13 @@
     const localError = lc.error || null;
     const localReady = !s.localLoading && !localError && Array.isArray(lc.items);
     const localNote = s.localLoading || !s.local
-      ? "Merging the St. Louis outlet feeds…"
+      ? "Loading St. Louis news feeds…"
       : proxyBad
-      ? "The saved proxy origin \u201c" + proxyBad + "\u201d is not a valid host. Correct it in the Outages tab — these feeds cannot be read without a proxy."
+      ? "The saved Worker address \u201c" + proxyBad + "\u201d is not valid. Fix it in the Outages tab. These feeds need the Worker."
       : localError
-      ? "Local outlet feeds need the proxy origin set in the Outages tab — " + proxyHost + " is not answering. None of these outlets send CORS headers, so a browser cannot read them directly."
+      ? "The Worker at " + proxyHost + " is not answering. Local news comes through the Worker. Set its address in the Outages tab."
       : lc.outletsAnswering + " of " + lc.outletsTotal + " outlets answering · " + lc.itemsScanned
-        + " headlines scanned over " + lc.windowHours + " h · " + lc.counts.relevant + " matched a hazard term or campus-area reference";
+        + " headlines in " + lc.windowHours + " h · " + lc.counts.relevant + " matched a hazard or campus-area term";
     const localItems = localReady ? lc.items.slice(0, 12).map(i => ({
       title: i.title,
       url: i.url,
@@ -549,10 +549,10 @@
     const newsRaw = { length: scan.corpus || 0 };
     if (!news.length) news.push({
       title: s.newsScanning
-        ? "Scanning the GDELT Web NGrams minute files… the rest of the dashboard is already live."
+        ? "Scanning GDELT news… The rest of the dashboard is live."
         : scan.error
-        ? "GDELT ngrams unavailable: " + scan.error
-        : "No St. Louis hazard or campus coverage in the last 24 hours (" + (scan.corpus || 0) + " English articles across " + (scan.minutes || 1) + " minute files).",
+        ? "GDELT news unavailable: " + scan.error
+        : "No St. Louis hazard or campus news in the last 24 hours. " + (scan.corpus || 0) + " English articles checked.",
       url: "https://blog.gdeltproject.org/using-the-new-web-ngrams-dataset-to-find-relevant-coverage/",
       meta: "gdeltproject.org",
       why: ""
@@ -563,32 +563,32 @@
       : { status: "Not connected", dot: "#ec3013", chipBg: "#ffe0d9", chipFg: "#7c1405", tone: "#ae1800" };
 
     const registry = [
-      { name: "NWS active alerts (CAP)", endpoint: "api.weather.gov/alerts/active?point=…", detail: err.alertsD ? err.alertsD : ca.length + " covering campus · " + s.moAlerts.length + " statewide", ...st(!err.alertsD) },
+      { name: "NWS active alerts", endpoint: "api.weather.gov/alerts/active?point=…", detail: err.alertsD ? err.alertsD : ca.length + " covering campus · " + s.moAlerts.length + " statewide", ...st(!err.alertsD) },
       { name: "NWS hourly forecast", endpoint: "api.weather.gov/gridpoints/LSX/…", detail: err.hourly || err.points ? (err.hourly || err.points) : s.hourly.length + " hourly periods", ...st(s.hourly.length > 0) },
-      { name: "ASOS observations · KSTL", endpoint: "api.weather.gov/stations/KSTL/observations/latest", detail: err.obs ? err.obs : "Observed " + fmtZoned(o.timestamp), ...st(!err.obs) },
-      { name: "USGS NWIS river gauges", endpoint: "waterservices.usgs.gov/nwis/iv/ · sites=07010000 + countyCd=29189,29510", detail: err.gauges || err.gaugeMain ? (err.gaugeMain || err.gauges) : "Mississippi mainstem + " + Math.max(0, gauges.length - 1) + " nearest county sites", ...st(!err.gauges || !err.gaugeMain) },
-      { name: "Air quality (CAMS via Open-Meteo)", endpoint: "air-quality-api.open-meteo.com/v1/air-quality", detail: err.air ? err.air : "AQI " + (aqi === undefined ? "—" : Math.round(aqi)), ...st(!err.air) },
-      { name: "USGS seismic events", endpoint: "earthquake.usgs.gov/fdsnws/event/1/query", detail: err.quakes ? err.quakes : (s.quakes || []).length + " events, 30 days, M2.5+", ...st(!err.quakes) },
-      { name: "GDELT GKG 2.0 themes", endpoint: "storage.googleapis.com/data.gdeltproject.org/gdeltv2 · *.gkg.csv.zip", detail: gk.files ? gk.matched + (gk.matched === 1 ? " geo-tagged record" : " geo-tagged records") + " from " + gk.rows + " across " + gk.files + (gk.files === 1 ? " file (" : " files (") + gk.mb + " MB inflated)" : (gk.error || "not scanned"), ...st(!!gk.files, gkgRecords.length ? "Live" : "Live · 0 hits") },
-      { name: "Ameren outage map (via Worker)", endpoint: proxyHost + "/ameren", detail: s.powerLoading ? "Scraping the KUBRA file layout…" : (s.power && s.power.error) ? s.power.error : powerReady ? (ring.outages || 0) + " outages within 10 mi · " + (ring.customersOut || 0) + " customers out" : "Not yet fetched", ...st(powerReady) },
-      { name: "NOAA NWPS flood stages", endpoint: "api.water.noaa.gov/nwps/v1/gauges", detail: floodReady ? (floodRows.length - floodRows.filter(r => r.failed).length) + " of " + floodRows.length + " gauges with action/flood thresholds" : "Not yet fetched", ...st(floodReady) },
-      { name: "Metro Transit GTFS-RT (via proxy)", endpoint: proxyHost + "/metro", detail: s.metroLoading ? "Decoding the protobuf feeds…" : metroError ? metroError : metroReady ? mt.counts.activeAlerts + " active alerts · " + mt.counts.tripsLate5Min + " trips 5+ min late · " + (mt.ring ? mt.ring.vehicles : 0) + " vehicles near campus" : "Not yet fetched", ...st(metroReady) },
-      { name: "St. Louis outlet RSS (via proxy)", endpoint: proxyHost + "/localnews", detail: s.localLoading ? "Merging the outlet feeds…" : localError ? localError : localReady ? lc.counts.relevant + " relevant of " + lc.itemsScanned + " headlines · " + lc.outletsAnswering + "/" + lc.outletsTotal + " outlets" : "Not yet fetched", ...st(localReady) },
-      { name: "GDELT Web NGrams", endpoint: "storage.googleapis.com/data.gdeltproject.org/gdeltv5/weblegacy/ngrams", detail: newsConnected ? newsRelevant.length + " relevant in the 24 h window · " + (scan.corpus || 0) + " articles across " + (scan.minutes || 1) + " minute files" : (scan.error || "not scanned"), ...st(newsConnected, newsRelevant.length ? "Live" : "Live · 0 hits") },
-      { name: "EPA AirNow (official AQI)", endpoint: "airnowapi.org/aq/observation", detail: "Requires free API key", ...st(false) },
-      { name: "X / Bluesky / Reddit listening", endpoint: "platform APIs", detail: "Requires authenticated app credentials", ...st(false) },
-      { name: "WUPD CAD / WashU Alert", endpoint: "internal systems", detail: "Internal integration — not open-source data", ...st(false) }
+      { name: "KSTL observations", endpoint: "api.weather.gov/stations/KSTL/observations/latest", detail: err.obs ? err.obs : "Observed " + fmtZoned(o.timestamp), ...st(!err.obs) },
+      { name: "USGS river gauges", endpoint: "waterservices.usgs.gov/nwis/iv/ · sites=07010000 + countyCd=29189,29510", detail: err.gauges || err.gaugeMain ? (err.gaugeMain || err.gauges) : "Mississippi at St. Louis + " + Math.max(0, gauges.length - 1) + " nearby sites", ...st(!err.gauges || !err.gaugeMain) },
+      { name: "Air quality · Open-Meteo", endpoint: "air-quality-api.open-meteo.com/v1/air-quality", detail: err.air ? err.air : "AQI " + (aqi === undefined ? "—" : Math.round(aqi)), ...st(!err.air) },
+      { name: "USGS earthquakes", endpoint: "earthquake.usgs.gov/fdsnws/event/1/query", detail: err.quakes ? err.quakes : (s.quakes || []).length + " quakes in 30 days, M2.5+", ...st(!err.quakes) },
+      { name: "GDELT news themes", endpoint: "storage.googleapis.com/data.gdeltproject.org/gdeltv2 · *.gkg.csv.zip", detail: gk.files ? gk.matched + (gk.matched === 1 ? " story tagged" : " stories tagged") + " to St. Louis from " + gk.rows + " records in " + gk.files + (gk.files === 1 ? " file" : " files") : (gk.error || "not scanned"), ...st(!!gk.files, gkgRecords.length ? "Live" : "Live · 0 hits") },
+      { name: "Ameren outage map (via Worker)", endpoint: proxyHost + "/ameren", detail: s.powerLoading ? "Reading Ameren's outage map…" : (s.power && s.power.error) ? s.power.error : powerReady ? (ring.outages || 0) + " outages within 10 mi · " + (ring.customersOut || 0) + " customers out" : "Not yet loaded", ...st(powerReady) },
+      { name: "NOAA NWPS flood stages", endpoint: "api.water.noaa.gov/nwps/v1/gauges", detail: floodReady ? (floodRows.length - floodRows.filter(r => r.failed).length) + " of " + floodRows.length + " gauges reporting" : "Not yet loaded", ...st(floodReady) },
+      { name: "Metro transit feed (via Worker)", endpoint: proxyHost + "/metro", detail: s.metroLoading ? "Loading the Metro feed…" : metroError ? metroError : metroReady ? mt.counts.activeAlerts + " active alerts · " + mt.counts.tripsLate5Min + " trips 5+ min late · " + (mt.ring ? mt.ring.vehicles : 0) + " vehicles near campus" : "Not yet loaded", ...st(metroReady) },
+      { name: "St. Louis local news (via Worker)", endpoint: proxyHost + "/localnews", detail: s.localLoading ? "Loading the outlet feeds…" : localError ? localError : localReady ? lc.counts.relevant + " relevant of " + lc.itemsScanned + " headlines · " + lc.outletsAnswering + "/" + lc.outletsTotal + " outlets" : "Not yet loaded", ...st(localReady) },
+      { name: "GDELT news mentions", endpoint: "storage.googleapis.com/data.gdeltproject.org/gdeltv5/weblegacy/ngrams", detail: newsConnected ? newsRelevant.length + " relevant in 24 h · " + (scan.corpus || 0) + " articles checked" : (scan.error || "not scanned"), ...st(newsConnected, newsRelevant.length ? "Live" : "Live · 0 hits") },
+      { name: "EPA AirNow (official AQI)", endpoint: "airnowapi.org/aq/observation", detail: "Needs a free API key", ...st(false) },
+      { name: "X / Bluesky / Reddit listening", endpoint: "platform APIs", detail: "Needs platform credentials", ...st(false) },
+      { name: "WUPD CAD / WashU Alert", endpoint: "internal systems", detail: "Internal systems. Needs a campus integration.", ...st(false) }
     ];
 
     const connected = registry.filter(r => r.status === "Live").length;
 
     const kpis = [
-      { label: "Alerts covering campus", value: s.loading ? "…" : String(ca.length), note: ca.length ? alerts.map(x => x.event).join(", ") : "None at retrieval time", tone: ca.length ? "#ae1800" : "#201e1d" },
-      { label: "Missouri alerts active", value: s.loading ? "…" : String(s.moAlerts.length), note: "All NWS CAP products, statewide", tone: "#201e1d" },
+      { label: "Alerts covering campus", value: s.loading ? "…" : String(ca.length), note: ca.length ? alerts.map(x => x.event).join(", ") : "None now", tone: ca.length ? "#ae1800" : "#201e1d" },
+      { label: "Missouri alerts active", value: s.loading ? "…" : String(s.moAlerts.length), note: "All NWS alerts statewide", tone: "#201e1d" },
       { label: "Temperature · KSTL", value: t === null ? "—" : t + "°F", note: hi === null ? (o.textDescription || "—") : "Heat index " + hi + "°F", tone: t !== null && t >= 90 ? "#ae1800" : "#201e1d" },
       { label: "US AQI", value: aqi === undefined ? "—" : String(Math.round(aqi)), note: aqi === undefined ? "—" : aqi <= 50 ? "Good" : aqi <= 100 ? "Moderate" : "Unhealthy for sensitive groups", tone: aqi >= 101 ? "#ae1800" : "#201e1d" },
-      { label: "Peak PoP next 24h", value: s.hourly.length ? Math.max(...s.hourly.map(h => (h.probabilityOfPrecipitation && h.probabilityOfPrecipitation.value) || 0)) + "%" : "—", note: "NWS hourly forecast", tone: "#201e1d" },
-      { label: "Feeds connected", value: connected + " / " + registry.length, note: (registry.length - connected) + " need a key or proxy", tone: "#201e1d" }
+      { label: "Peak precip chance 24h", value: s.hourly.length ? Math.max(...s.hourly.map(h => (h.probabilityOfPrecipitation && h.probabilityOfPrecipitation.value) || 0)) + "%" : "—", note: "NWS hourly forecast", tone: "#201e1d" },
+      { label: "Feeds connected", value: connected + " / " + registry.length, note: (registry.length - connected) + " need a key or the Worker", tone: "#201e1d" }
     ];
 
     const envBits = [];
@@ -607,7 +607,7 @@
           + "; all " + reporting.length + " NWPS gauges below action stage.");
       }
     } else if (mainGauge) {
-      envBits.push("Mississippi River at St. Louis gage height " + mainGauge.value + " (USGS stage; NWPS thresholds still loading).");
+      envBits.push("Mississippi at St. Louis gauge height " + mainGauge.value + ". NWPS thresholds still loading.");
     } else if (gauges[0] && gauges[0].value !== "—") {
       envBits.push("Nearest reporting gauge: " + gauges[0].name + " at " + gauges[0].value + ".");
     }
@@ -654,7 +654,7 @@
     }
     if (rc && rc.crashNews && rc.crashNews.length) {
       opsBits.push(rc.crashNews.length + " local outlet " + (rc.crashNews.length === 1 ? "story" : "stories")
-        + " report a crash near campus — unverified until matched to a Patrol or police record.");
+        + " report a crash near campus. Unverified until matched to a Patrol or police record.");
     }
 
     /* Public health, published by the Health Watch tab. Only the two figures a
@@ -688,10 +688,10 @@
         + (ww.latest.top_incident && lvl !== "normal" ? "; " + String(ww.latest.top_incident).replace(/\.$/, "") : "") + ".");
     }
 
-    const summary = s.loading ? "Querying connected feeds…"
+    const summary = s.loading ? "Loading feeds…"
       : hasAlerts
-        ? alerts.length + " active NWS product" + (alerts.length === 1 ? "" : "s") + " cover" + (alerts.length === 1 ? "s" : "") + " a Washington University campus: " + alerts.map(x => x.event + " (" + x.campus.replace(" in polygon", "") + ", to " + x.expires + ")").join("; ") + "."
-        : "No NWS alert polygon currently covers the Danforth or Medical campus coordinate. " + s.moAlerts.length + " alert" + (s.moAlerts.length === 1 ? "" : "s") + " active elsewhere in Missouri; " + (temps.length ? "forecast high of " + tmax + "°F and peak precipitation probability of " + Math.max(...s.hourly.map(h => (h.probabilityOfPrecipitation && h.probabilityOfPrecipitation.value) || 0)) + "% in the next 24 hours." : "hourly forecast unavailable.");
+        ? alerts.length + " active NWS alert" + (alerts.length === 1 ? "" : "s") + " cover" + (alerts.length === 1 ? "s" : "") + " a WashU campus: " + alerts.map(x => x.event + " (" + x.campus.replace(" in polygon", "") + ", to " + x.expires + ")").join("; ") + "."
+        : "No NWS alert covers the Danforth or Medical campus. " + s.moAlerts.length + " alert" + (s.moAlerts.length === 1 ? "" : "s") + " active elsewhere in Missouri. " + (temps.length ? "Forecast high " + tmax + "°F. Peak precipitation chance " + Math.max(...s.hourly.map(h => (h.probabilityOfPrecipitation && h.probabilityOfPrecipitation.value) || 0)) + "% in the next 24 hours." : "Hourly forecast unavailable.");
 
     const views = [["hazards", "All-Hazards Picture"], ["weather", "Weather Monitoring"], ["roads", "Road Conditions"], ["outages", "Outages"], ["health", "Health Watch"], ["cyber", "Cyber Watch"], ["briefing", "Daily Briefing"]].map(([k, label]) => ({
       label,
@@ -711,48 +711,48 @@
       cyberDisplay: s.view === "cyber" ? "block" : "none",
       isOutages: s.view === "outages",
       isRoads: s.view === "roads",
-      pageTitle: s.view === "weather" ? "Weather Monitoring" : s.view === "roads" ? "Road Conditions & Traffic Cameras" : s.view === "outages" ? "Utility Outages · Power and Water" : s.view === "health" ? "Health Watch · National Public Health Picture" : s.view === "cyber" ? "Cyber Watch · Healthcare, Research & Higher Education" : "All-Hazards Common Operating Picture",
+      pageTitle: s.view === "weather" ? "Weather Monitoring" : s.view === "roads" ? "Road Conditions & Traffic Cameras" : s.view === "outages" ? "Utility Outages · Power and Water" : s.view === "health" ? "Health Watch · Public Health Picture" : s.view === "cyber" ? "Cyber Watch · Healthcare, Research & Higher Ed" : "All-Hazards Common Operating Picture",
       retrieved,
       retrievedFull: s.retrieved ? "Retrieved " + s.retrieved.toLocaleString("en-US", { timeZone: TZ }) + " CT" : "",
       liveDot: s.loading ? "#9b9797" : "#ec3013",
-      liveLabel: s.loading ? "Fetching" : "Snapshot at " + retrieved,
+      liveLabel: s.loading ? "Loading" : "Snapshot at " + retrieved,
       alertBandBg: bandRed ? "#ec3013" : "#eae9e9",
       alertBandFg: bandRed ? "#f3f2f2" : "#201e1d",
       alertBandRule: bandRed ? "rgba(243,242,242,0.5)" : "rgba(32,30,29,0.4)",
       alertHeadCount, alertHeadLine, hasAlerts, alerts, kpis,
-      obsStation: err.obs ? "KSTL — unreachable" : "KSTL Lambert Field ASOS · observed " + fmtZoned(o.timestamp),
+      obsStation: err.obs ? "KSTL not reachable" : "KSTL Lambert Field · observed " + fmtZoned(o.timestamp),
       observation, gauges, air, quakes,
       summary,
       summaryBasis: connected + " of " + registry.length + " feeds connected",
-      summaryAlerts: hasAlerts ? alerts.map(x => x.event + " — " + (x.headline || x.area)).join(" · ") : "No campus-covering NWS product at retrieval time. Statewide count: " + s.moAlerts.length + ".",
-      summaryEnv: envBits.length ? envBits.join(" ") : "Environmental feeds returned no values.",
+      summaryAlerts: hasAlerts ? alerts.map(x => x.event + " — " + (x.headline || x.area)).join(" · ") : "No NWS alert covers campus. " + s.moAlerts.length + " active statewide.",
+      summaryEnv: envBits.length ? envBits.join(" ") : "No environmental readings returned.",
       summaryOps: opsBits.length ? opsBits.join(" ") : "",
       summaryHasOps: !!opsBits.length,
       summaryCols: opsBits.length ? "repeat(4, 1fr)" : "repeat(3, 1fr)",
       summaryGaps: (function () {
-        const absent = ["social-platform", "campus-CAD"];
+        const absent = ["social media", "campus CAD"];
         const pending = [];
-        if (!powerReady) pending.push("electric-utility outages");
-        if (!metroReady) pending.push("transit");
-        if (!localReady) pending.push("local outlet news");
-        return "No " + absent.slice(0, -1).join(", ") + " or " + absent[absent.length - 1] + " data is present in this snapshot — those feeds are not connected."
+        if (!powerReady) pending.push("Ameren outages");
+        if (!metroReady) pending.push("Metro transit");
+        if (!localReady) pending.push("local news");
+        return "No " + absent.slice(0, -1).join(", ") + " or " + absent[absent.length - 1] + " data. Those feeds are not connected."
           + (pending.length ? " " + (pending.length === 1 ? pending[0] : pending.slice(0, -1).join(", ") + " and " + pending[pending.length - 1]).replace(/^./, c => c.toUpperCase())
-            + (pending.length === 1 ? " is" : " are") + " read through the proxy, which is not answering, so "
-            + (pending.length === 1 ? "it is" : "they are") + " absent here too." : "")
-          + " MoDOT roadway conditions are live on the Road Conditions tab.";
+            + (pending.length === 1 ? " is" : " are") + " missing too. The Worker is not answering, so "
+            + (pending.length === 1 ? "it is" : "they are") + " not shown." : "")
+          + " MoDOT road conditions are live on the Road Conditions tab.";
       })(),
       hourlySource: err.hourly || err.points ? "Unavailable" : "api.weather.gov",
-      hourlyRange: s.hourly.length ? "Periods " + fmtTime(s.hourly[0].startTime) + " to " + fmtTime(s.hourly[s.hourly.length - 1].startTime) + " " + tzAbbr(s.hourly[0].startTime) + " · " + s.hourly.length + " hours" : "No hourly periods returned",
+      hourlyRange: s.hourly.length ? "Periods " + fmtTime(s.hourly[0].startTime) + " to " + fmtTime(s.hourly[s.hourly.length - 1].startTime) + " " + tzAbbr(s.hourly[0].startTime) + " · " + s.hourly.length + " hours" : "No forecast hours returned",
       hourlyCols: String(Math.max(1, s.hourly.length)),
       chart, chartModes, hourlyStats,
       tempRange: temps.length ? tmin + "–" + tmax + "°F" : "—",
       inventory,
-      inventoryNote: err.moAlerts ? "Statewide query failed: " + err.moAlerts : "Grouped from " + s.moAlerts.length + " active CAP products for area=MO. Campus column tests the same alert IDs against both campus point queries.",
+      inventoryNote: err.moAlerts ? "Statewide NWS alerts failed: " + err.moAlerts : "Grouped from " + s.moAlerts.length + " active NWS alerts for Missouri. The campus column shows which also cover a campus.",
       newsSource: newsConnected
-        ? "GDELT Web NGrams · rolling 24 h to " + scan.stamp + " · " + (scan.minutes || 1) + " minute files swept, " + (scan.corpus || 0) + " English articles" + (scan.retained ? ", " + scan.retained + " retained in window" : "")
-          + (scan.deep ? ", quadgram body scan" + (scan.scannedMB ? " of " + scan.scannedMB + " MB" : "") + (scan.partial ? " (capped)" : "") : ", headline scan only")
-          + " · " + newsRelevant.length + " relevant: hazard co-occurrence or campus mention (Minnesota's St. Louis County excluded)"
-        : "GDELT Web NGrams · " + (s.newsScanning ? "scanning minute files…" : (scan.error || "not yet scanned")),
+        ? "GDELT · last 24 h to " + scan.stamp + " · " + (scan.corpus || 0) + " English articles checked" + (scan.retained ? ", " + scan.retained + " in window" : "")
+          + (scan.deep ? ", full-text scan" + (scan.scannedMB ? " of " + scan.scannedMB + " MB" : "") + (scan.partial ? ", capped" : "") : ", headlines only")
+          + " · " + newsRelevant.length + " mention St. Louis hazards or campus. Minnesota's St. Louis County excluded."
+        : "GDELT · " + (s.newsScanning ? "scanning…" : (scan.error || "not yet scanned")),
       news, registry,
       localNote, localItems, localReady, localEmpty, localQuiet,
       metroNote, metroStats, metroAlerts, metroDelays, metroReady, metroQuiet, metroNotes,
@@ -761,7 +761,7 @@
       proxyOrigin, proxyBlocked, proxyPanel, proxyPanelNote, proxyHost, proxyBad,
       proxyDraft: s.proxyDraft === undefined ? proxyOrigin : s.proxyDraft,
       gkgNote, gkgThemes, gkgRecords, gkgEmpty, gkgShowBars, gkgSingleNote,
-      registryNote: connected + " live · " + (registry.length - connected) + " require credentials or a proxy"
+      registryNote: connected + " live · " + (registry.length - connected) + " need a key or the Worker"
     };
   }
 

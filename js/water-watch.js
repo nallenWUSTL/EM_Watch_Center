@@ -62,8 +62,8 @@
     const checked = lastChecked ? fmtZoned(lastChecked.toISOString()) : "";
 
     const subline = !data
-      ? (lastError ? "Water watch unavailable: " + lastError : noneYet ? "No water watch run has been filed yet. The task runs hourly and commits its state to this site." : "Reading the water watch state…")
-      : "Water Utility Incident Watch, hourly analyst run · generated " + fmtZoned(latest.run_at) + " · alert level " + lower(latest.alert_level || "normal");
+      ? (lastError ? "Water watch unavailable. " + lastError : noneYet ? "No water watch run yet. It runs hourly." : "Reading the water watch…")
+      : "Hourly water incident watch · generated " + fmtZoned(latest.run_at) + " · alert level " + lower(latest.alert_level || "normal");
 
     el.innerHTML = String(html`
       <div class="eyebrow mb-4">Water · Missouri American Water and City of St. Louis Water Division</div>
@@ -112,8 +112,8 @@
         </div>
       </div>` : ""}
       <div class="bw-source" style="padding-left: 0; padding-right: 0;">
-        <span>Read from <code>data/water_watch.json</code> in this site${checked ? " · checked " + checked + " · rechecks every 5 min while open" : ""}${lastError && data ? raw(' · <span style="color: #ae1800;">Last check failed (' + W.html`${lastError}` + "); showing the run from " + W.html`${fmtZoned(latest.run_at)}` + "</span>") : ""}</span>
-        <span class="sub">Tracked by the hourly Water Utility Incident Watch · the utility's own advisory map is below</span>
+        <span>${checked ? "Checked " + checked + " · rechecks every 5 minutes" : ""}${lastError && data ? raw(' · <span style="color: #ae1800;">Last check failed. Showing the run from ' + W.html`${fmtZoned(latest.run_at)}` + ".</span>") : ""}</span>
+        <span class="sub">Missouri American Water's advisory map is below</span>
       </div>`);
   }
 

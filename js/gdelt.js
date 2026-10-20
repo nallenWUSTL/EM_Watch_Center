@@ -39,7 +39,7 @@
       const got = await Promise.all(quarters.slice(i, i + BATCH).map(tryQuarter));
       got.filter(Boolean).forEach(t => tocs.push(t));
     }
-    if (!tocs.length) return { error: "No ngrams TOC published in the last 24 hours." };
+    if (!tocs.length) return { error: "GDELT published no news files in the last 24 hours." };
     tocs.sort((a, b) => b.stamp.localeCompare(a.stamp));
     const stamp = tocs[0].stamp;
     const tocText = tocs.map(t => t.text).join("\n");
@@ -205,8 +205,8 @@
     try {
       const lu = await (await fetch(GCS + "lastupdate.txt", { signal: AbortSignal.timeout(12000) })).text();
       latest = (lu.match(/(\d{14})\.export\.CSV\.zip/) || [])[1];
-    } catch (e) { return { error: "lastupdate.txt unreachable" }; }
-    if (!latest) return { error: "Could not read the current 15-minute stamp." };
+    } catch (e) { return { error: "GDELT not reachable" }; }
+    if (!latest) return { error: "GDELT did not give a current file time." };
 
     // Walk back in 15-minute steps from the published stamp.
     const stamps = [];
@@ -314,7 +314,7 @@
       }
     }
 
-    if (!files) return { error: "No GKG files could be read." };
+    if (!files) return { error: "No GDELT theme files could be read." };
 
     // The same wire story appears on many station sites; collapse by headline slug.
     const bySlug = new Map();
