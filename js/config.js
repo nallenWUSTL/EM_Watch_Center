@@ -17,6 +17,10 @@ window.WUEM_CONFIG = {
   // also override it per browser from the Proxy origin field on the Outages tab.
   workerOrigin: "https://washu-em-ameren.washu-em.workers.dev",
 
+  // The Daily Intelligence Briefing artifact on claude.ai. The Daily Briefing
+  // tab links here; the scheduled briefing task writes to this artifact's store.
+  briefingUrl: "https://claude.ai/artifact/GMywB2NdzgiZS4zPdRGEMA",
+
   // Radius around Brookings Hall for the Ameren outage ring, in miles (2–30).
   ringRadiusMiles: 10,
 

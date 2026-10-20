@@ -677,7 +677,7 @@
         ? alerts.length + " active NWS product" + (alerts.length === 1 ? "" : "s") + " cover" + (alerts.length === 1 ? "s" : "") + " a Washington University campus: " + alerts.map(x => x.event + " (" + x.campus.replace(" in polygon", "") + ", to " + x.expires + ")").join("; ") + "."
         : "No NWS alert polygon currently covers the Danforth or Medical campus coordinate. " + s.moAlerts.length + " alert" + (s.moAlerts.length === 1 ? "" : "s") + " active elsewhere in Missouri; " + (temps.length ? "forecast high of " + tmax + "°F and peak precipitation probability of " + Math.max(...s.hourly.map(h => (h.probabilityOfPrecipitation && h.probabilityOfPrecipitation.value) || 0)) + "% in the next 24 hours." : "hourly forecast unavailable.");
 
-    const views = [["hazards", "All-Hazards Picture"], ["weather", "Weather Monitoring"], ["roads", "Road Conditions"], ["outages", "Outages"], ["health", "Health Watch"], ["cyber", "Cyber Watch"]].map(([k, label]) => ({
+    const views = [["hazards", "All-Hazards Picture"], ["weather", "Weather Monitoring"], ["roads", "Road Conditions"], ["outages", "Outages"], ["health", "Health Watch"], ["cyber", "Cyber Watch"], ["briefing", "Daily Briefing"]].map(([k, label]) => ({
       label,
       bg: (s.view || "hazards") === k ? "#201e1d" : "transparent",
       fg: (s.view || "hazards") === k ? "#f3f2f2" : "#201e1d",

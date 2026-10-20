@@ -69,6 +69,21 @@
   <div data-view="health" hidden><health-watch></health-watch></div>
   <div data-view="cyber" hidden><cyber-watch></cyber-watch></div>
 
+  <div data-view="briefing" hidden>
+    <div class="strip">
+      <span class="strip-tag">Daily Briefing</span>
+      <span class="strip-text">Filed each morning at 5:52 AM Central by the scheduled briefing task. The briefing page lives on claude.ai so the task can write to it; this tab links out, and reading it needs a claude.ai sign-in.</span>
+    </div>
+    <section class="sec-outage">
+      <div class="eyebrow mb-4">Daily Intelligence Briefing · WashU EM</div>
+      <h2 class="brief-title">Posture, the top item, today's decisions and the seven-day lookahead, on one page.</h2>
+      <p class="note mb-18">Each run files one record: a bottom line up front, ranked decision items with severity, likelihood, confidence, action and owner, the status of all six priority intelligence requirements, a seven-day lookahead with stacked days flagged, and the dissents and unreachable sources behind the call. Prior days stay in an archive on the same page.</p>
+      <a class="brief-btn" data-briefing-link href="#" target="_blank" rel="noopener noreferrer" hidden>Open the Daily Briefing ↗</a>
+      <p class="quiet" data-briefing-missing>The briefing page address is not set. Add <code>briefingUrl</code> to <code>js/config.js</code>.</p>
+      <p class="sub mt-12">Opens in a new tab.</p>
+    </section>
+  </div>
+
   <footer class="ftr">
     <span>Live public data · No credentials stored · Machine-composed summary requires analyst confirmation before release</span>
     <span data-retrieved-full></span>

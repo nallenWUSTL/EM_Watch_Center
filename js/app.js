@@ -137,8 +137,19 @@
     roads: "Road Conditions & Traffic Cameras",
     outages: "Utility Outages · Power and Water",
     health: "Health Watch · National Public Health Picture",
-    cyber: "Cyber Watch · Healthcare, Research & Higher Education"
+    cyber: "Cyber Watch · Healthcare, Research & Higher Education",
+    briefing: "Daily Intelligence Briefing"
   };
+
+  // The briefing lives on claude.ai (the scheduled task writes to its store),
+  // so this tab only links out. The address comes from config.js.
+  (function wireBriefingLink() {
+    const url = W.normalizeOrigin(CFG.briefingUrl) ? String(CFG.briefingUrl).trim() : "";
+    const link = document.querySelector("[data-briefing-link]");
+    const missing = document.querySelector("[data-briefing-missing]");
+    if (link) { link.hidden = !url; if (url) link.href = url; }
+    if (missing) missing.hidden = !!url;
+  })();
 
   const $ = sel => document.querySelector(sel);
   const views = {};

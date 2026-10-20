@@ -1,0 +1,407 @@
+<title>Daily Intelligence Briefing</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;800&display=swap">
+<style>
+  /* Layout: one column of ruled bands in the Watch Desk's Modernist system —
+     header strip, decisions table, PIR rows, seven-day strip, method, archive. */
+  :root {
+    --ground: #f3f2f2;
+    --surface: #eae9e9;
+    --ink: #201e1d;
+    --muted: #605d5d;
+    --hair: #d7d3d3;
+    --rule: rgba(32, 30, 29, 0.4);
+    --red: #ec3013;
+    --red-ink: #ae1800;
+    --red-wash: #ffe0d9;
+    --amber: #b8860b;
+    --amber-wash: #f6ead0;
+    --green: #1f7a4d;
+    --green-wash: #d9eee2;
+    --font: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #1b1a19; --surface: #262423; --ink: #f3f2f2; --muted: #aaa6a5; --hair: #3b3836;
+      --rule: rgba(243, 242, 242, 0.35); --red: #ff6a51; --red-ink: #ff8f7a; --red-wash: #4d170e;
+      --amber: #d9a33a; --amber-wash: #42330f; --green: #4fbf86; --green-wash: #163826;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #1b1a19; --surface: #262423; --ink: #f3f2f2; --muted: #aaa6a5; --hair: #3b3836;
+    --rule: rgba(243, 242, 242, 0.35); --red: #ff6a51; --red-ink: #ff8f7a; --red-wash: #4d170e;
+    --amber: #d9a33a; --amber-wash: #42330f; --green: #4fbf86; --green-wash: #163826;
+    color-scheme: dark;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+  body { margin: 0; background: var(--ground); color: var(--ink); font-family: var(--font); font-size: 13px; line-height: 1.45; }
+  a { color: var(--red-ink); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  :focus-visible { outline: 2px solid var(--red); outline-offset: 2px; }
+  [hidden] { display: none !important; }
+  p { margin: 0; }
+  button { font: inherit; color: inherit; }
+
+  .band { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  @media (min-width: 720px) { .band { padding-left: max(32px, env(safe-area-inset-left, 0px)); padding-right: max(32px, env(safe-area-inset-right, 0px)); } }
+
+  .eyebrow { font-size: 10px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+  .caps { font-size: 10px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+  .sub { font-size: 11px; color: var(--muted); }
+  .tnum { font-variant-numeric: tabular-nums; }
+
+  /* — header — */
+  .hdr { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 24px; padding-block: 20px 14px; border-bottom: 2px solid var(--rule); }
+  .hdr-kicker { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; font-size: 10px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+  .hdr-kicker-rule { width: 24px; height: 2px; background: var(--rule); }
+  h1 { margin: 0; font-weight: 800; font-size: clamp(24px, 4vw, 30px); letter-spacing: -0.02em; line-height: 1.05; text-wrap: balance; }
+  .hdr-note { font-size: 11px; color: var(--muted); max-width: 44ch; }
+
+  /* — chips — */
+  .chip { display: inline-flex; align-items: center; gap: 6px; padding: 3px 8px; font-size: 10px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; border: 2px solid transparent; }
+  .chip-dot { width: 7px; height: 7px; background: currentColor; }
+  .chip--normal { background: var(--green-wash); color: var(--green); }
+  .chip--elevated { background: var(--amber-wash); color: var(--amber); }
+  .chip--high { background: var(--red); color: var(--ground); }
+  .chip--quiet { border-color: var(--hair); color: var(--muted); }
+  .chip--watch { background: var(--amber-wash); color: var(--amber); }
+  .chip--active { background: var(--red); color: var(--ground); }
+  .chip--sev { min-width: 44px; justify-content: center; }
+  .chip--sev1, .chip--sev2 { border-color: var(--hair); color: var(--muted); }
+  .chip--sev3 { background: var(--amber-wash); color: var(--amber); }
+  .chip--sev4, .chip--sev5 { background: var(--red); color: var(--ground); }
+  .chip--now { background: var(--red); color: var(--ground); }
+  .chip--today { border-color: var(--rule); color: var(--ink); }
+
+  /* — latest strip — */
+  .latest { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 14px 28px; align-items: center; padding-block: 16px; border-bottom: 2px solid var(--rule); background: var(--surface); }
+  .latest-posture { display: flex; flex-direction: column; gap: 6px; }
+  .latest-posture .chip { font-size: 12px; padding: 7px 12px; }
+  .latest-top { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+  .latest-top-text { font-size: 16px; font-weight: 700; line-height: 1.3; text-wrap: pretty; }
+  .btn { display: inline-flex; align-items: center; gap: 8px; padding: 9px 14px; border: 2px solid var(--ink); background: transparent; color: var(--ink); font-size: 11px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; white-space: nowrap; text-decoration: none; }
+  .btn:hover { background: var(--ink); color: var(--ground); text-decoration: none; }
+  .btn--link { border-color: var(--red); color: var(--red-ink); }
+  .btn--link:hover { background: var(--red); color: var(--ground); }
+  @media (max-width: 719px) { .latest { grid-template-columns: 1fr; } }
+
+  /* — empty state — */
+  .empty { padding-block: 48px 56px; border-bottom: 2px solid var(--rule); display: grid; gap: 10px; }
+  .empty > * { max-width: 60ch; }
+  .empty-title { font-size: 20px; font-weight: 700; letter-spacing: -0.01em; text-wrap: balance; }
+  .empty-body { font-size: 13px; color: var(--muted); line-height: 1.5; }
+
+  /* — sections — */
+  .sec { padding-block: 20px 26px; border-bottom: 2px solid var(--rule); }
+  .sec-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 20px; margin-bottom: 14px; }
+  .lede { font-size: clamp(16px, 2.4vw, 19px); font-weight: 700; line-height: 1.38; letter-spacing: -0.01em; max-width: 72ch; text-wrap: pretty; }
+  .viewing { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; padding-block: 10px; border-bottom: 2px solid var(--rule); background: var(--surface); }
+  .viewing-text { font-size: 12px; font-weight: 700; }
+  .linkbtn { background: none; border: none; padding: 0; color: var(--red-ink); font-size: 11px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; }
+  .linkbtn:hover { text-decoration: underline; }
+
+  /* — decisions table (grid so it stacks at phone width) — */
+  .dec { display: grid; grid-template-columns: 34px minmax(0, 2.2fr) 56px 90px 90px minmax(0, 2.6fr) minmax(0, 1.4fr); border-top: 2px solid var(--rule); }
+  .dec-h { display: contents; }
+  .dec-h > span { padding: 8px 10px 8px 0; font-size: 10px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); border-bottom: 2px solid var(--rule); }
+  .dec-r { display: contents; }
+  .dec-r > div { padding: 12px 10px 12px 0; border-bottom: 1px solid var(--hair); min-width: 0; }
+  .dec-rank { font-size: 20px; font-weight: 800; line-height: 1; letter-spacing: -0.02em; }
+  .dec-title { font-size: 13px; font-weight: 700; line-height: 1.35; text-wrap: pretty; }
+  .dec-meta { display: flex; flex-wrap: wrap; gap: 4px 10px; margin-top: 5px; align-items: center; }
+  .dec-action { font-size: 12px; line-height: 1.45; }
+  .dec-owner { font-size: 11px; color: var(--muted); line-height: 1.4; }
+  .dec-cell-label { display: none; }
+  @media (max-width: 899px) {
+    .dec { display: block; border-top: 2px solid var(--rule); }
+    .dec-h { display: none; }
+    .dec-r { display: grid; grid-template-columns: 34px minmax(0, 1fr); gap: 0 10px; padding: 12px 0; border-bottom: 1px solid var(--hair); }
+    .dec-r > div { padding: 0; border: none; }
+    .dec-r > .dec-c-rank { grid-row: 1 / span 5; }
+    .dec-r > div + div + div { margin-top: 8px; }
+    .dec-cell-label { display: block; font-size: 10px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 2px; }
+    .dec-c-sev { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  }
+
+  /* — PIR rows — */
+  .pirs { border-top: 2px solid var(--rule); }
+  .pir { display: grid; grid-template-columns: 52px minmax(0, 220px) 84px minmax(0, 1fr); gap: 0 14px; align-items: start; padding: 11px 0; border-bottom: 1px solid var(--hair); }
+  .pir-n { font-size: 10px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); padding-top: 3px; }
+  .pir-name { font-size: 13px; font-weight: 700; }
+  .pir-sum { font-size: 12px; line-height: 1.45; color: var(--ink); }
+  @media (max-width: 719px) {
+    .pir { grid-template-columns: 52px minmax(0, 1fr); }
+    .pir-status { grid-column: 2; margin-top: 4px; }
+    .pir-sum { grid-column: 2; margin-top: 6px; }
+  }
+
+  /* — seven-day strip — */
+  .days { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); border-top: 2px solid var(--rule); border-left: 1px solid var(--hair); }
+  .day { position: relative; padding: 12px 10px 14px; border-right: 1px solid var(--hair); border-bottom: 1px solid var(--hair); display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+  .day--stacked::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 4px; background: var(--red); }
+  .day--stacked { background: var(--surface); }
+  .day-dow { font-size: 15px; font-weight: 800; letter-spacing: -0.01em; }
+  .day-date { font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+  .day-wx { font-size: 11px; font-weight: 600; }
+  .day-loads { font-size: 11px; line-height: 1.4; color: var(--muted); }
+  .day-flag { font-size: 9px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; color: var(--red-ink); }
+  @media (max-width: 899px) { .days { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+  @media (max-width: 539px) { .days { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  .days-legend { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 10px; font-size: 11px; color: var(--muted); align-items: center; }
+  .sw { display: inline-block; width: 14px; height: 4px; background: var(--red); vertical-align: middle; margin-right: 6px; }
+
+  /* — method disclosure — */
+  details.method { border-bottom: 2px solid var(--rule); }
+  details.method > summary { list-style: none; cursor: pointer; padding-block: 14px; display: flex; align-items: center; gap: 12px; }
+  details.method > summary::-webkit-details-marker { display: none; }
+  .sum-mark { width: 10px; height: 10px; border: 2px solid var(--ink); display: inline-block; position: relative; }
+  .sum-mark::after { content: ""; position: absolute; inset: 2px; background: var(--ink); transform: scale(0); transition: transform .12s; }
+  details[open] .sum-mark::after { transform: scale(1); }
+  @media (prefers-reduced-motion: reduce) { .sum-mark::after { transition: none; } }
+  .method-body { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 24px 40px; padding-bottom: 24px; }
+  @media (max-width: 719px) { .method-body { grid-template-columns: 1fr; } }
+  .mh { font-size: 10px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); padding-bottom: 8px; border-bottom: 2px solid var(--rule); margin-bottom: 4px; }
+  .dis { padding: 9px 0; border-bottom: 1px solid var(--hair); display: grid; gap: 3px; }
+  .dis-title { font-size: 12px; font-weight: 700; }
+  .dis-verdict { font-size: 10px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: var(--red-ink); }
+  .dis-note { font-size: 11px; color: var(--muted); line-height: 1.4; }
+  .plain { padding: 9px 0; border-bottom: 1px solid var(--hair); font-size: 12px; line-height: 1.45; }
+  .plain--muted { color: var(--muted); }
+
+  /* — archive — */
+  .arch { border-top: 2px solid var(--rule); }
+  .arch-row { display: grid; grid-template-columns: 150px 96px minmax(0, 1fr) auto; gap: 0 16px; align-items: center; width: 100%; padding: 11px 0; border: none; border-bottom: 1px solid var(--hair); background: none; text-align: left; cursor: pointer; }
+  .arch-row:hover { background: var(--surface); }
+  .arch-row[aria-current="true"] { background: var(--surface); box-shadow: inset 4px 0 0 var(--ink); padding-left: 10px; }
+  .arch-date { font-size: 13px; font-weight: 700; }
+  .arch-top { font-size: 12px; color: var(--muted); line-height: 1.4; min-width: 0; }
+  .arch-link { font-size: 10px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; }
+  @media (max-width: 719px) {
+    .arch-row { grid-template-columns: minmax(0, 1fr) auto; }
+    .arch-top { grid-column: 1 / -1; }
+  }
+
+  .ftr { padding-block: 16px 28px; font-size: 10px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; }
+</style>
+
+<header class="hdr band">
+  <div>
+    <div class="hdr-kicker">
+      <span>Washington University in St. Louis</span>
+      <span class="hdr-kicker-rule"></span>
+      <span>Emergency Management · EOC Watch Desk</span>
+    </div>
+    <h1>Daily Intelligence Briefing</h1>
+  </div>
+  <p class="hdr-note">Filed each morning by the scheduled briefing task. This page is the at-a-glance view and archive; the linked briefing is the full record.</p>
+</header>
+
+<div id="latest" class="latest band" hidden></div>
+<div id="empty" class="empty band">
+  <div class="empty-title">No briefing filed yet.</div>
+  <p class="empty-body">The first run files at 5:52 AM Central. When it does, the posture, the top item and the day's decisions appear here.</p>
+</div>
+<div id="viewing" class="viewing band" hidden></div>
+<main id="body"></main>
+<section id="archive" class="sec band" hidden></section>
+
+<footer class="ftr band">
+  <span>Read-only view · Written by the briefing task, never by this page</span>
+  <span id="stamp"></span>
+</footer>
+
+<script>
+(function () {
+  const TZ = "America/Chicago";
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const safeUrl = u => { try { const p = new URL(String(u)); return /^https?:$/.test(p.protocol) ? p.href : ""; } catch (e) { return ""; } };
+  const slug = s => String(s || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+
+  // "2026-10-20" is a Central calendar date; pin it to noon so no time zone
+  // shifts it to the day before.
+  const dayLong = iso => { const d = new Date(String(iso) + "T12:00:00"); return isNaN(d) ? String(iso || "") : d.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric" }); };
+  const dayShort = iso => { const d = new Date(String(iso) + "T12:00:00"); return isNaN(d) ? String(iso || "") : d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }); };
+  const dayMd = iso => { const d = new Date(String(iso) + "T12:00:00"); return isNaN(d) ? String(iso || "") : d.toLocaleDateString("en-US", { month: "short", day: "numeric" }); };
+  const filedAt = iso => { const d = new Date(iso); if (!iso || isNaN(d)) return ""; try { return d.toLocaleTimeString("en-US", { timeZone: TZ, hour: "numeric", minute: "2-digit", timeZoneName: "short" }); } catch (e) { return ""; } };
+
+  const postureChip = (p, big) => {
+    const k = slug(p);
+    const cls = k === "high" ? "chip--high" : k === "elevated" ? "chip--elevated" : "chip--normal";
+    return '<span class="chip ' + cls + '"><span class="chip-dot"></span>' + esc(p || "Normal") + (big ? " posture" : "") + "</span>";
+  };
+  const statusChip = s => { const k = slug(s); const cls = k === "active" ? "chip--active" : k === "watch" ? "chip--watch" : "chip--quiet"; return '<span class="chip ' + cls + '">' + esc(s || "quiet") + "</span>"; };
+  const sevChip = n => { const v = Math.max(1, Math.min(5, Number(n) || 1)); return '<span class="chip chip--sev chip--sev' + v + '">Sev ' + v + "</span>"; };
+  const ttdChip = t => { const now = /^now$/i.test(String(t || "")); return '<span class="chip ' + (now ? "chip--now" : "chip--today") + '">' + esc(t || "Today") + "</span>"; };
+  const linkOut = (url, text, cls) => { const u = safeUrl(url); return u ? '<a class="' + (cls || "arch-link") + '" href="' + esc(u) + '" target="_blank" rel="noopener noreferrer">' + esc(text) + "</a>" : ""; };
+
+  let latest = null;     // meta/latest
+  let docs = [];         // briefings, newest first
+  let selected = null;   // date of the briefing shown in the body, null = newest
+  let dbState = "pending"; // pending | ready | absent
+
+  function renderLatest() {
+    const el = $("latest");
+    const head = latest || (docs[0] ? { date: docs[0].date, posture: docs[0].posture, top_item: docs[0].top_item, briefing_url: docs[0].briefing_url, published_at: docs[0].published_at } : null);
+    if (!head) { el.hidden = true; return; }
+    el.hidden = false;
+    const filed = filedAt(head.published_at);
+    el.innerHTML =
+      '<div class="latest-posture">' + postureChip(head.posture, true) +
+        '<span class="caps tnum">' + esc(dayLong(head.date)) + (filed ? " · filed " + esc(filed) : "") + "</span></div>" +
+      '<div class="latest-top"><span class="eyebrow">Top item</span><span class="latest-top-text">' + esc(head.top_item || "") + "</span></div>" +
+      (safeUrl(head.briefing_url) ? '<a class="btn btn--link" href="' + esc(safeUrl(head.briefing_url)) + '" target="_blank" rel="noopener noreferrer">Open full briefing ↗</a>' : "<span></span>");
+  }
+
+  function renderEmpty() {
+    const el = $("empty");
+    const has = !!(latest || docs.length);
+    el.hidden = has;
+    if (has) return;
+    if (dbState === "absent") {
+      el.innerHTML = '<div class="empty-title">The briefing feed needs a signed-in viewer.</div>' +
+        '<p class="empty-body">This page reads the briefing store through your claude.ai sign-in. Open it while signed in to see the posture, the top item and the day’s decisions.</p>';
+    } else if (dbState === "pending") {
+      el.innerHTML = '<div class="empty-title">Reading the briefing store…</div>' +
+        '<p class="empty-body">No briefing filed yet. The first run files at 5:52 AM Central.</p>';
+    } else {
+      el.innerHTML = '<div class="empty-title">No briefing filed yet.</div>' +
+        '<p class="empty-body">The first run files at 5:52 AM Central. When it does, the posture, the top item and the day’s decisions appear here.</p>';
+    }
+  }
+
+  function current() {
+    if (!docs.length) return null;
+    return (selected && docs.find(d => d.date === selected)) || docs[0];
+  }
+
+  function renderBody() {
+    const d = current();
+    const body = $("body");
+    const viewing = $("viewing");
+    if (!d) { body.innerHTML = ""; viewing.hidden = true; return; }
+    const isNewest = d === docs[0];
+    viewing.hidden = isNewest;
+    if (!isNewest) viewing.innerHTML = '<span class="viewing-text">Showing the briefing for ' + esc(dayShort(d.date)) + "</span>" +
+      '<button type="button" class="linkbtn" data-select="">Back to newest ↗</button>';
+
+    const items = Array.isArray(d.today_items) ? d.today_items.slice().sort((a, b) => (a.rank || 99) - (b.rank || 99)) : [];
+    const pirs = Array.isArray(d.pirs) ? d.pirs.slice().sort((a, b) => (a.pir || 99) - (b.pir || 99)) : [];
+    const days = Array.isArray(d.lookahead) ? d.lookahead : [];
+    const dissents = Array.isArray(d.dissents) ? d.dissents : [];
+    const quiet = Array.isArray(d.lanes_quiet) ? d.lanes_quiet : [];
+    const unreachable = Array.isArray(d.unreachable) ? d.unreachable : [];
+    const stacked = days.filter(x => x.stacked).length;
+
+    body.innerHTML =
+      '<section class="sec band">' +
+        '<div class="sec-head"><span class="eyebrow">Bottom line up front · ' + esc(d.title || dayLong(d.date)) + "</span>" +
+          (d.run_note ? '<span class="sub">' + esc(d.run_note) + "</span>" : "") + "</div>" +
+        '<p class="lede">' + esc(d.bluf || "") + "</p>" +
+      "</section>" +
+
+      '<section class="sec band">' +
+        '<div class="sec-head"><span class="eyebrow">Decisions today · ' + items.length + (items.length === 1 ? " item" : " items") + '</span><span class="sub">Ranked by the briefing task. Sev is 1–5; TTD is the time to decide.</span></div>' +
+        (items.length ? '<div class="dec" role="table" aria-label="Decisions today">' +
+          '<div class="dec-h" role="row"><span>#</span><span>Item</span><span>Sev</span><span>Likelihood</span><span>Confidence</span><span>Action</span><span>Owner</span></div>' +
+          items.map(it => '<div class="dec-r" role="row">' +
+            '<div class="dec-c-rank"><span class="dec-rank tnum">' + esc(it.rank) + "</span></div>" +
+            '<div><div class="dec-title">' + (safeUrl(it.source) ? '<a href="' + esc(safeUrl(it.source)) + '" target="_blank" rel="noopener noreferrer">' + esc(it.title) + "</a>" : esc(it.title)) + "</div>" +
+              '<div class="dec-meta">' + ttdChip(it.ttd) + (it.pir ? '<span class="caps">PIR ' + esc(it.pir) + "</span>" : "") + "</div></div>" +
+            '<div class="dec-c-sev"><span class="dec-cell-label">Severity</span>' + sevChip(it.severity) + "</div>" +
+            '<div><span class="dec-cell-label">Likelihood</span><span class="caps" style="color: var(--ink);">' + esc(it.likelihood || "—") + "</span></div>" +
+            '<div><span class="dec-cell-label">Confidence</span><span class="caps" style="color: var(--ink);">' + esc(it.confidence || "—") + "</span></div>" +
+            '<div><span class="dec-cell-label">Action</span><div class="dec-action">' + esc(it.action || "") + "</div></div>" +
+            '<div><span class="dec-cell-label">Owner</span><div class="dec-owner">' + esc(it.owner || "") + "</div></div>" +
+          "</div>").join("") + "</div>"
+        : '<p class="sub">No decision items filed for this day.</p>') +
+      "</section>" +
+
+      '<section class="sec band">' +
+        '<div class="sec-head"><span class="eyebrow">Priority intelligence requirements</span><span class="sub">' + (quiet.length ? "Lanes " + quiet.map(esc).join(", ") + " reported nothing above threshold" : "") + "</span></div>" +
+        '<div class="pirs">' + pirs.map(p => '<div class="pir">' +
+          '<span class="pir-n">PIR ' + esc(p.pir) + "</span>" +
+          '<span class="pir-name">' + esc(p.name) + "</span>" +
+          '<span class="pir-status">' + statusChip(p.status) + "</span>" +
+          '<span class="pir-sum">' + esc(p.summary || "") + "</span>" +
+        "</div>").join("") + "</div>" +
+      "</section>" +
+
+      '<section class="sec band">' +
+        '<div class="sec-head"><span class="eyebrow">Seven-day lookahead</span><span class="sub">' + (stacked ? stacked + (stacked === 1 ? " stacked day" : " stacked days") + " this week" : "No stacked days this week") + "</span></div>" +
+        '<div class="days">' + days.map(x => '<div class="day' + (x.stacked ? " day--stacked" : "") + '">' +
+          '<div><div class="day-dow">' + esc(x.dow) + '</div><div class="day-date tnum">' + esc(dayMd(x.date)) + "</div></div>" +
+          '<div class="day-wx">' + esc(x.wx || "") + "</div>" +
+          '<div class="day-loads">' + esc(x.loads || "") + "</div>" +
+          (x.stacked ? '<div class="day-flag">Stacked</div>' : "") +
+        "</div>").join("") + "</div>" +
+        '<div class="days-legend"><span><span class="sw"></span>Stacked: several loads land on the same day</span></div>' +
+      "</section>" +
+
+      '<details class="method band"><summary><span class="sum-mark"></span><span class="eyebrow" style="color: var(--ink);">Method · dissents, quiet lanes and unreachable sources</span></summary>' +
+        '<div class="method-body">' +
+          '<div><div class="mh">Dissents · ' + dissents.length + "</div>" +
+            (dissents.length ? dissents.map(x => '<div class="dis"><span class="dis-title">' + esc(x.title) + '</span><span class="dis-verdict">' + esc(x.verdict) + '</span><span class="dis-note">' + esc(x.note) + "</span></div>").join("") : '<div class="plain plain--muted">No dissents recorded.</div>') +
+          "</div>" +
+          "<div>" +
+            '<div class="mh">Lanes quiet</div><div class="plain">' + (quiet.length ? quiet.map(n => "PIR " + esc(n)).join(" · ") : "None") + "</div>" +
+            '<div class="mh" style="margin-top: 18px;">Unreachable this run · ' + unreachable.length + "</div>" +
+            (unreachable.length ? unreachable.map(u => '<div class="plain plain--muted">' + esc(u) + "</div>").join("") : '<div class="plain plain--muted">Every source answered.</div>') +
+          "</div>" +
+        "</div>" +
+      "</details>";
+  }
+
+  function renderArchive() {
+    const el = $("archive");
+    if (!docs.length) { el.hidden = true; return; }
+    el.hidden = false;
+    const cur = current();
+    el.innerHTML =
+      '<div class="sec-head"><span class="eyebrow">Archive · ' + docs.length + (docs.length === 1 ? " briefing" : " briefings") + '</span><span class="sub">Select a day to read it above. Newest 30 are listed.</span></div>' +
+      '<div class="arch">' + docs.map(d => '<button type="button" class="arch-row" data-select="' + esc(d.date) + '"' + (cur && d.date === cur.date ? ' aria-current="true"' : "") + ">" +
+        '<span class="arch-date tnum">' + esc(dayShort(d.date)) + "</span>" +
+        "<span>" + postureChip(d.posture) + "</span>" +
+        '<span class="arch-top">' + esc(d.top_item || "") + "</span>" +
+        "<span>" + linkOut(d.briefing_url, "Full briefing ↗") + "</span>" +
+      "</button>").join("") + "</div>";
+  }
+
+  function renderStamp() {
+    const head = latest || docs[0];
+    $("stamp").textContent = head && head.published_at ? "Latest filed " + dayShort(head.date) + " " + filedAt(head.published_at) : "";
+  }
+
+  function render() { renderLatest(); renderEmpty(); renderBody(); renderArchive(); renderStamp(); }
+
+  document.addEventListener("click", e => {
+    const b = e.target.closest("[data-select]");
+    if (!b) return;
+    selected = b.getAttribute("data-select") || null;
+    renderBody(); renderArchive();
+    if (b.classList.contains("linkbtn")) window.scrollTo({ top: 0 });
+  });
+
+  render();
+
+  // Subscribed once at startup. The page never writes; the briefing task is
+  // the only writer.
+  (async () => {
+    let db = null;
+    try { db = window.claude && window.claude.use ? await window.claude.use("db") : null; } catch (e) { db = null; }
+    if (!db) { dbState = "absent"; renderEmpty(); return; }
+    dbState = "ready";
+    db.doc("meta/latest").onSnapshot(s => { latest = s.exists ? s.data() : null; render(); }, () => { latest = null; render(); });
+    db.collection("briefings").orderBy("date", "desc").limit(30).onSnapshot(q => {
+      docs = q.docs.map(x => x.data()).filter(x => x && x.date);
+      if (selected && !docs.some(x => x.date === selected)) selected = null;
+      render();
+    }, () => { docs = []; render(); });
+    renderEmpty();
+  })();
+})();
+</script>
