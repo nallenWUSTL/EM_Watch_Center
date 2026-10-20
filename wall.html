@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Camera Wall · WashU EOC Watch Desk</title>
+<meta name="description" content="MoDOT traffic cameras within 3 miles of the Danforth and Medical campuses, all playing, sized to fill the window.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;800&display=swap">
+<style>
+  :root { --ink: #201e1d; --ground: #f3f2f2; --muted: #b5b0ae; --hair: #3b3836; --red: #ec3013; --font: "Archivo", system-ui, sans-serif; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body { margin: 0; background: var(--ink); color: var(--ground); font-family: var(--font); font-size: 13px; line-height: 1.4; overflow: hidden; }
+  .bar { height: 48px; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 0 16px; border-bottom: 2px solid var(--hair); }
+  .bar-left { display: flex; align-items: baseline; gap: 14px; min-width: 0; }
+  .bar-title { font-size: 11px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; white-space: nowrap; }
+  .bar-sub { font-size: 11px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .bar-right { display: flex; align-items: center; gap: 8px; }
+  .btn { font: inherit; font-size: 10px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; padding: 7px 11px; border: 2px solid var(--ground); background: transparent; color: var(--ground); cursor: pointer; white-space: nowrap; }
+  .btn:hover { background: var(--ground); color: var(--ink); }
+  .btn--red { border-color: var(--red); color: var(--red); }
+  .btn--red:hover { background: var(--red); color: var(--ground); }
+  .clock { font-size: 12px; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--muted); }
+  .grid { height: calc(100% - 48px); display: grid; gap: 2px; padding: 2px; align-content: start; overflow: auto; }
+  .tile { position: relative; background: #0f0e0e; aspect-ratio: 16 / 9; overflow: hidden; }
+  .tile video { width: 100%; height: 100%; display: block; object-fit: cover; }
+  .tile-label { position: absolute; left: 0; right: 0; bottom: 0; display: flex; justify-content: space-between; gap: 8px; padding: 4px 8px; font-size: 11px; font-weight: 700; background: linear-gradient(transparent, rgba(32, 30, 29, 0.85)); }
+  .tile-label span:last-child { color: var(--muted); font-weight: 600; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .tile-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .badge { position: absolute; left: 6px; top: 6px; font-size: 9px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; padding: 3px 6px; background: rgba(32, 30, 29, 0.8); display: none; max-width: calc(100% - 12px); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .badge.is-bad { color: #ff9783; }
+  .retry { position: absolute; inset: 0; display: none; align-items: center; justify-content: center; background: rgba(32, 30, 29, 0.6); border: none; color: var(--ground); font: inherit; font-size: 11px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; cursor: pointer; padding: 8px; text-align: center; }
+  .empty { padding: 48px 24px; max-width: 60ch; font-size: 15px; line-height: 1.5; color: var(--muted); }
+  .empty strong { color: var(--ground); }
+  :fullscreen body, body:fullscreen { background: var(--ink); }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.13/dist/hls.min.js"></script>
+<script src="js/config.js"></script>
+</head>
+<body>
+<header class="bar">
+  <div class="bar-left">
+    <span class="bar-title">Camera wall · MoDOT</span>
+    <span class="bar-sub" data-sub>Loading cameras…</span>
+  </div>
+  <div class="bar-right">
+    <span class="clock" data-clock></span>
+    <button type="button" class="btn" data-play>▶ Play all</button>
+    <button type="button" class="btn btn--red" data-stop>■ Stop all</button>
+    <button type="button" class="btn" data-reload>Reload cameras</button>
+    <button type="button" class="btn" data-fullscreen>⤢ Full screen</button>
+  </div>
+</header>
+<main class="grid" data-grid></main>
+<script src="js/modules/road-conditions.js"></script>
+<script src="js/camera-wall.js"></script>
+</body>
+</html>

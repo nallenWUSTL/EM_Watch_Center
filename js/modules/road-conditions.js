@@ -328,6 +328,7 @@
             <div style="display:flex;gap:8px;">
               <button data-wall-play style="font-family:Archivo,system-ui,sans-serif;font-size:10px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;padding:7px 11px;border:2px solid ${INK};background:transparent;color:${INK};cursor:pointer;">▶ Play all</button>
               <button data-wall-stop style="font-family:Archivo,system-ui,sans-serif;font-size:10px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;padding:7px 11px;border:2px solid ${RULE};background:transparent;color:${DEEPRED};cursor:pointer;">■ Stop all</button>
+              <button data-wall-popout title="Open the camera wall in its own window" style="font-family:Archivo,system-ui,sans-serif;font-size:10px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;padding:7px 11px;border:2px solid ${INK};background:${INK};color:${GROUND};cursor:pointer;">⧉ Pop out</button>
             </div>
           </div>
           <div data-wall></div>
@@ -644,6 +645,11 @@
       camModal.addEventListener("click", e => { if (e.target === camModal) this.closeCamModal(); });
       this.q("[data-wall-play]").onclick = () => (this.wallCams || []).forEach((c, i) => this.playWallTile(i));
       this.q("[data-wall-stop]").onclick = () => this.stopWall();
+      // The wall in its own window: drag it to a second screen, go full screen there.
+      this.q("[data-wall-popout]").onclick = () => {
+        const w = window.open("wall.html", "wuem-camera-wall", "popup=yes,width=1600,height=920");
+        if (!w) window.open("wall.html", "_blank");
+      };
 
       // The element may be mounted while its tab is hidden (display:none), which
       // leaves Leaflet at zero size; re-measure as soon as it gains width.
@@ -1553,6 +1559,10 @@
         + "</div>").join("");
     }
   }
+
+  // Shared with wall.html, the pop-out camera wall, so it plays feeds the same way.
+  window.WUEM = window.WUEM || {};
+  window.WUEM.roads = { CAMERAS_URL, SITES, WALL_RADIUS_MI, WALL_HLS_CONFIG, watchFeed, isStreamUrl, titleCase };
 
   if (!window.customElements.get("road-conditions")) window.customElements.define("road-conditions", RoadConditions);
 })();
