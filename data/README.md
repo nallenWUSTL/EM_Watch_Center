@@ -16,7 +16,7 @@ The dashboard and the artifact render from the same code
 
 | File | Written | Contents |
 | --- | --- | --- |
-| `data/briefings/YYYY-MM-DD.json` | one per day, never overwritten | the full record below; identical to the `briefings/YYYY-MM-DD` document |
+| `data/briefings/YYYY-MM-DD.json` | one per day; a same-day re-run replaces it | the full record below; identical to the `briefings/YYYY-MM-DD` document |
 | `data/latest.json` | overwritten each run | `{date, posture, top_item, briefing_url, published_at}`; identical to `meta/latest` |
 
 `YYYY-MM-DD` is the Central date of the run.
@@ -49,10 +49,12 @@ All strings unless noted.
 The task runs in a Claude Code Remote session. After its artifact-database
 write it attaches this repository with push access, clones it, writes the two
 files above, commits with the message `Briefing YYYY-MM-DD`, and pushes to
-`main`. It changes nothing else in the repository. If the attach, clone or push
-fails, it skips the step and says so in the published briefing's Analytic Note;
-the dashboard then keeps showing the previous day's record and names the
-failure in the tab's footer.
+`main`. It changes nothing else in the repository. A manual "Run Now" follows
+the same path: a second run on the same day replaces that day's file and
+`latest.json`, and the dashboard tab picks it up because `published_at`
+changed. If the attach, clone or push fails, the task skips the step and says
+so in the published briefing's Analytic Note; the dashboard then keeps showing
+the previous record and names the failure in the tab's footer.
 
 ## Republishing the artifact page
 
