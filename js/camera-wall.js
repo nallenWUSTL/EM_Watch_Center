@@ -56,18 +56,28 @@
     status();
   }
 
-  // Smallest column count whose rows of 16:9 tiles still fit the window height.
+  /* Fill the window in both directions. Each column count is scored by the
+     video it actually shows: cell area, less what a 16:9 picture loses to
+     cropping when the cell is not 16:9, less the empty cells of a short last
+     row. The best score wins; rows then stretch to the full height and the
+     video covers its cell, so the only black left is in an incomplete row. */
   function fit() {
     const n = cams.length;
     if (!n) return;
-    const W = grid.clientWidth - 4, H = grid.clientHeight - 4;
-    let cols = Math.min(n, 8);
-    for (let c = 1; c <= Math.min(n, 8); c++) {
-      const tileH = ((W - (c - 1) * 2) / c) * 9 / 16;
-      const rows = Math.ceil(n / c);
-      if (rows * tileH + (rows - 1) * 2 <= H) { cols = c; break; }
+    const GAP = 2;
+    const W = grid.clientWidth - 2 * GAP, H = grid.clientHeight - 2 * GAP;
+    let best = { cols: 1, rows: n, score: -1 };
+    for (let cols = 1; cols <= n; cols++) {
+      const rows = Math.ceil(n / cols);
+      const cw = (W - (cols - 1) * GAP) / cols, ch = (H - (rows - 1) * GAP) / rows;
+      if (cw <= 0 || ch <= 0) continue;
+      const ratio = (cw / ch) / (16 / 9);
+      const kept = ratio >= 1 ? 1 / ratio : ratio;   // share of the picture that survives the crop
+      const score = n * cw * ch * kept;
+      if (score > best.score) best = { cols: cols, rows: rows, score: score };
     }
-    grid.style.gridTemplateColumns = "repeat(" + cols + ", minmax(0, 1fr))";
+    grid.style.gridTemplateColumns = "repeat(" + best.cols + ", minmax(0, 1fr))";
+    grid.style.gridTemplateRows = "repeat(" + best.rows + ", minmax(0, 1fr))";
   }
 
   function status() {
