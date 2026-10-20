@@ -35,9 +35,6 @@
     { key: "medical", label: "Medical Campus", coord: MED_COORD }
   ];
   const WALL_RADIUS_MI = 3;
-  // Most Windows machines have 12–16 hardware video decoders; past that Chrome
-  // fails to decode and hls.js retries silently, which reads as a black tile.
-  const WALL_MAX_STREAMS = 12;
   // Short buffers: a wall of a dozen live feeds must not hold minutes of video.
   const WALL_HLS_CONFIG = { lowLatencyMode: false, maxBufferLength: 12, maxMaxBufferLength: 24, backBufferLength: 4,
     manifestLoadingMaxRetry: 2, levelLoadingMaxRetry: 2, fragLoadingMaxRetry: 2 };
@@ -1161,16 +1158,12 @@
        down at MoDOT while its playlist still answers (hls.js waits forever for a
        segment that never comes, and never calls it fatal), or a browser that has
        run out of video decoders because every feed started at once. Each tile
-       now carries a state badge from watchFeed(), only tiles on screen play, and
-       no more than WALL_MAX_STREAMS stream at a time; the rest queue and start
-       as slots free up. */
+       now carries a state badge from watchFeed(), and only tiles on screen play;
+       the desk chose no cap on how many stream at once, so a machine short of
+       decoders reports it per tile as a decode error rather than quietly. */
     wallEntry(i) {
       this.wallState = this.wallState || {};
       return this.wallState[i] || (this.wallState[i] = { wanted: false, visible: false, feed: null, hls: null, state: "idle" });
-    }
-
-    wallActiveCount() {
-      return Object.values(this.wallState || {}).filter(e => e.hls).length;
     }
 
     setWallBadge(i, state, text) {
@@ -1185,10 +1178,9 @@
         badge.style.color = /^(stale|failed|decode|timeout|stopped)$/.test(state) ? "#ff9783" : GROUND;
       }
       if (btn) {
-        const stopped = /^(idle|stale|failed|decode|timeout|stopped|queued|offscreen|nostream)$/.test(state);
+        const stopped = /^(idle|stale|failed|decode|timeout|stopped|offscreen|nostream)$/.test(state);
         btn.style.display = stopped ? "flex" : "none";
         btn.textContent = state === "idle" ? "▶ Play feed"
-          : state === "queued" ? "Waiting · " + WALL_MAX_STREAMS + " feeds already playing"
           : state === "offscreen" ? "▶ Play feed"
           : state === "nostream" ? "No stream published"
           : (text || "Feed unavailable") + " · retry";
@@ -1198,7 +1190,7 @@
     }
 
     // The desk asked for this tile (or Play all did). Starts it if it is on
-    // screen and a stream slot is free; otherwise it waits its turn.
+    // screen; otherwise it starts when it scrolls into view.
     playWallTile(i) {
       const e = this.wallEntry(i);
       e.wanted = true;
@@ -1214,7 +1206,6 @@
       const url = [cam.props.URL2, cam.props.URL1].find(isStreamUrl);
       if (!url) { e.wanted = false; this.setWallBadge(i, "nostream"); return; }
       if (!e.visible) { this.setWallBadge(i, "offscreen"); return; }
-      if (this.wallActiveCount() >= WALL_MAX_STREAMS) { this.setWallBadge(i, "queued"); return; }
       if (!(window.Hls && window.Hls.isSupported())) {
         video.src = url; // Safari plays HLS natively
         video.play().catch(() => {});
@@ -1226,9 +1217,8 @@
       e.feed = watchFeed(hls, video, url, (state, text) => {
         this.setWallBadge(i, state, text);
         if (/^(stale|failed|decode|timeout|stopped)$/.test(state)) {
-          // Free the slot; the button keeps the reason and offers a retry.
+          // Stop loading; the button keeps the reason and offers a retry.
           this.stopWallTile(i, state, text);
-          this.fillWallSlots();
           this.publishWallHealth();
         }
       });
@@ -1244,11 +1234,11 @@
       this.setWallBadge(i, state || "idle", text);
     }
 
-    // Start queued tiles, nearest first, until the slots are full.
+    // Start wanted tiles that have scrolled into view.
     fillWallSlots() {
       (this.wallCams || []).forEach((c, i) => {
         const e = this.wallEntry(i);
-        if (e.wanted && !e.hls && e.visible && this.wallActiveCount() < WALL_MAX_STREAMS && !/^(stale|failed|decode|timeout|stopped|nostream)$/.test(e.state)) this.startWallTile(i);
+        if (e.wanted && !e.hls && e.visible && !/^(stale|failed|decode|timeout|stopped|nostream)$/.test(e.state)) this.startWallTile(i);
       });
     }
 
