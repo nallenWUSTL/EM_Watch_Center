@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-20",
+  "title": "WashU EM Daily Intelligence Briefing, October 20, 2026",
+  "posture": "Normal",
+  "published_at": "2026-10-20T15:05:00Z",
+  "run_note": "Shakedown run, fired manually; charter rev 8 read OK; all seven lanes complete.",
+  "briefing_url": "https://claude.ai/artifact/GVuPF2c9uwxXqVjZPYZJ4m",
+  "bluf": "Posture is Normal. Nothing in the last 24 hours threatens life safety or campus operations: no NWS product covers St. Louis, Ring 1 recorded no violent incident on reachable sources, no health advisory or hospital diversion is posted, and no outage touches a WashU asset. Four items need a routine decision today, led by the State Department raising Kenya to Level 3 on Oct 19 for Ebola risk. The Medical Campus has degraded street and transit access through Oct 31 that stacks against five evening events at Enterprise Center this week. The week is dry and mild and the load builds Friday through Sunday.",
+  "top_item": "State Department raised Kenya to Level 3 (Ebola) on Oct 19; Provost travel-risk function to confirm WashU personnel in-country.",
+  "today_items": [
+    {"rank": 1, "title": "Kenya raised to Level 3 (Reconsider Travel), Oct 19", "pir": 6, "severity": 3, "likelihood": "Occurring", "confidence": "High", "ttd": "Today", "action": "Run the travel-registry query for personnel in Kenya; apply the Level 3 petition/waiver policy; pre-brief returning-traveler screening.", "owner": "Provost (Overseas Programs); EHS; Medical Campus Security", "source": "https://travel.state.gov/en/international-travel/travel-advisories/kenya.html"},
+    {"rank": 2, "title": "Medical Campus access friction through Oct 31 (Taylor Ave closed, BJH Plaza paving, Blue Line single-tracking to Oct 23, five Enterprise Center evening events)", "pir": 4, "severity": 2, "likelihood": "Occurring", "confidence": "High", "ttd": "Today", "action": "Confirm EMS ingress routing and shuttle timing for 5 to 8 PM windows this week.", "owner": "Medical Campus Security; Facilities", "source": "https://www.metrostlouis.org/rider-alerts/"},
+    {"rank": 3, "title": "University City water main break, repairs under way (est. done 1:30 PM; no boil advisory)", "pir": 4, "severity": 2, "likelihood": "Occurring", "confidence": "Medium", "ttd": "Today", "action": "Check pressure at west-Danforth, Delmar Loop and Lofts buildings; pull street list from MAW map.", "owner": "Facilities", "source": "https://alertsdetail.awapps.com/alert/142098"},
+    {"rank": 4, "title": "FDA recall: Argatroban Injection, 22 lots", "pir": 3, "severity": 2, "likelihood": "Occurring", "confidence": "High", "ttd": "Today", "action": "Confirm pharmacy quarantine of affected NDC 42023-182 lots.", "owner": "Medical Campus (BJC pharmacy); EHS", "source": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/par-health-issues-voluntary-nationwide-recall-argatroban-injection-due-presence-particulate-matter"},
+    {"rank": 5, "title": "Tyson fire-weather cheap action (RH 33-34%, poor ventilation, no rain all week)", "pir": 1, "severity": 2, "likelihood": "Low", "confidence": "Medium", "ttd": "Today", "action": "Confirm field sign-out roster and radio check; hold burns, mowing and hot work to mornings.", "owner": "EHS; Tyson Research Center", "source": "https://tgftp.nws.noaa.gov/data/raw/fn/fnus53.klsx.fwf.lsx.txt"}
+  ],
+  "pirs": [
+    {"pir": 1, "name": "Weather and natural hazards", "status": "quiet", "summary": "No NWS product; SPC no severe risk; rivers low; dry and mild all week (72-77); Tyson RH 33-38% with poor ventilation Tue-Wed; AQI unverified."},
+    {"pir": 2, "name": "Life-safety threats", "status": "watch", "summary": "Ring 1 quiet on reachable sources. This week: hoax-call/swatting pattern (Sev 3, Medium); early-voting window Oct 20-Nov 2 (Sev 2, Medium). Monitor: I-170 shooting charges, Fairground homicide, CVPA anniversary Oct 24."},
+    {"pir": 3, "name": "Public health and Medical Campus", "status": "quiet", "summary": "No advisory, college outbreak or diversion. Measles at Monitor (Sev 2); respiratory season rising from low base; Kenya Ebola returning-traveler link; food recalls low relevance."},
+    {"pir": 4, "name": "Cyber and infrastructure", "status": "quiet", "summary": "No outage at a WashU asset beyond U-City main; CISA unreachable; no 24h ransomware. F5/NGINX patches this week; Cloudflare Zero Trust outage resolved; Lambert T1 MetroLink closed to mid-Dec."},
+    {"pir": 5, "name": "Scheduled activity", "status": "quiet", "summary": "No Ring 1 event over 5,000; stacked Fri-Sun (home soccer, Edison shows, Forest Park 5K, Blues); Family Weekend Oct 31."},
+    {"pir": 6, "name": "Policy, legal and funding", "status": "quiet", "summary": "Kenya Level 3 (Today item). CR to Dec 11; FY2026 grants awarded; DHS duration-of-status rule (single-source); Title IX 2024 rule repealed Sept 29."}
+  ],
+  "lookahead": [
+    {"date": "2026-10-20", "dow": "Tue", "wx": "Sunny 72/50", "stacked": false, "loads": "Staff Council Forum; WashU Serves fair; early voting opens; U-City main repair; Blues 7 PM."},
+    {"date": "2026-10-21", "dow": "Wed", "wx": "Sunny 73", "stacked": false, "loads": "Rush at Enterprise Center ~7 PM; MoDOT I-64 meeting 4-6 PM."},
+    {"date": "2026-10-22", "dow": "Thu", "wx": "Sunny 75", "stacked": false, "loads": "Delmar Divine convening; WUSM farmers market; Mean Girls 7:30 PM; Blues 7 PM."},
+    {"date": "2026-10-23", "dow": "Fri", "wx": "Sunny 75", "stacked": true, "loads": "Soccer doubleheader Francis Field 5 and 7:30 PM; Mean Girls; two conferences; GalaxyCon/BOA at Dome."},
+    {"date": "2026-10-24", "dow": "Sat", "wx": "Mostly sunny 76", "stacked": true, "loads": "Hot Cider Hustle Forest Park 8:30-11 AM; Mean Girls x2; Blues 6 PM; Show Me Fest Chaifetz; CVPA anniversary."},
+    {"date": "2026-10-25", "dow": "Sun", "wx": "Partly sunny 77", "stacked": true, "loads": "Soccer vs Emory 11 AM and 1:30 PM plus volleyball 2 PM; Mean Girls 2 PM."},
+    {"date": "2026-10-26", "dow": "Mon", "wx": "Sunny 74", "stacked": false, "loads": "Kumaran lecture 11:30 AM. Next: Family Weekend Oct 31; Lambert T2 closure Nov 2; Election Day Nov 3."}
+  ],
+  "dissents": [
+    {"title": "Early voting opens a 14-day demonstration window", "verdict": "Adopted, scored down", "note": "Likelihood Medium not High; no scheduled demonstration found."},
+    {"title": "Medical Campus access friction stacked with Enterprise Center events", "verdict": "Adopted and verified", "note": "Lane 4 missed Taylor Ave closure; station detail corrected."},
+    {"title": "Measles overrated", "verdict": "Adopted in part", "note": "Published Sev 2; Lane 3's Sev 3 kept visible."},
+    {"title": "North-city violence overrated", "verdict": "Rejected as moot", "note": "Lane 2 already at Monitor."},
+    {"title": "Tyson brush fire scenario", "verdict": "Carried; action adopted", "note": "Converges with Lane 1 fire-weather read."}
+  ],
+  "lanes_quiet": [1, 2, 3, 4, 5, 6],
+  "unreachable": ["api.weather.gov alerts", "AirNow / Missouri DNR AQI", "Post-Dispatch crime pages", "Clayton PD and University City PD pages (stale)", "CISA advisories and KEV", "Workday and Everbridge status", "USDA FSIS", "happenings.washu.edu index"]
+}

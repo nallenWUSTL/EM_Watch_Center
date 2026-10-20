@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <link rel="stylesheet" href="css/modernist.css">
 <link rel="stylesheet" href="css/dashboard.css">
+<link rel="stylesheet" href="css/briefing.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://unpkg.com/@turf/turf@6.5.0/turf.min.js"></script>
 <script src="https://unpkg.com/esri-leaflet@3.0.12/dist/esri-leaflet.js"></script>
@@ -69,19 +70,15 @@
   <div data-view="health" hidden><health-watch></health-watch></div>
   <div data-view="cyber" hidden><cyber-watch></cyber-watch></div>
 
-  <div data-view="briefing" hidden>
+  <div data-view="briefing" class="bw" hidden>
     <div class="strip">
       <span class="strip-tag">Daily Briefing</span>
-      <span class="strip-text">Filed each morning at 5:52 AM Central by the scheduled briefing task. The briefing page lives on claude.ai so the task can write to it; this tab links out, and reading it needs a claude.ai sign-in.</span>
+      <span class="strip-text">Filed each morning at 5:52 AM Central by the scheduled briefing task, which commits the record to this site. Read directly from this site, so it needs no proxy and no sign-in. The archive and each day's full briefing are on claude.ai.</span>
     </div>
-    <section class="sec-outage">
-      <div class="eyebrow mb-4">Daily Intelligence Briefing · WashU EM</div>
-      <h2 class="brief-title">Posture, the top item, today's decisions and the seven-day lookahead, on one page.</h2>
-      <p class="note mb-18">Each run files one record: a bottom line up front, ranked decision items with severity, likelihood, confidence, action and owner, the status of all six priority intelligence requirements, a seven-day lookahead with stacked days flagged, and the dissents and unreachable sources behind the call. Prior days stay in an archive on the same page.</p>
-      <a class="brief-btn" data-briefing-link href="#" target="_blank" rel="noopener noreferrer" hidden>Open the Daily Briefing ↗</a>
-      <p class="quiet" data-briefing-missing>The briefing page address is not set. Add <code>briefingUrl</code> to <code>js/config.js</code>.</p>
-      <p class="sub mt-12">Opens in a new tab.</p>
-    </section>
+    <div class="bw-latest bw-band" data-bw-latest hidden></div>
+    <div class="bw-empty bw-band" data-bw-empty></div>
+    <div data-bw-body></div>
+    <div class="bw-source bw-band" data-bw-source></div>
   </div>
 
   <footer class="ftr">
@@ -98,6 +95,8 @@
 <script src="js/modules/road-conditions.js"></script>
 <script src="js/modules/health-watch.js"></script>
 <script src="js/modules/cyber-watch.js"></script>
+<script src="js/briefing-render.js"></script>
+<script src="js/briefing-watch.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>
