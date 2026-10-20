@@ -325,7 +325,7 @@
         <div data-wall-wrap style="display:none;margin-top:20px;border:2px solid ${RULE};">
           <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 16px;border-bottom:2px solid ${RULE};background:${SURFACE};">
             <div>
-              <div style="${label()}">Camera wall · MoDOT feeds within 3 miles of each campus</div>
+              <div style="${label()}">Camera wall · MoDOT feeds within 3 miles of the nearer campus</div>
               <div data-wall-count style="font-size:11px;color:${MUTED};margin-top:3px;"></div>
             </div>
             <div style="display:flex;gap:8px;">
@@ -1072,8 +1072,10 @@
       const wrap = this.q("[data-wall-wrap]");
       const box = this.q("[data-wall]");
       const picks = [];
+      // Each camera appears once, under the campus it is nearer to, so a feed
+      // between the two never takes two tiles or two decoder slots.
       SITES.forEach(s => {
-        (cams || []).filter(c => !c.offline && c.bySite[s.key] <= WALL_RADIUS_MI)
+        (cams || []).filter(c => !c.offline && c.site === s.key && c.bySite[s.key] <= WALL_RADIUS_MI)
           .sort((a, b) => a.bySite[s.key] - b.bySite[s.key])
           .forEach(c => picks.push(Object.assign({}, c, { wallSite: s })));
       });
