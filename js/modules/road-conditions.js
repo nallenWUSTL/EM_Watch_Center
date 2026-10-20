@@ -35,6 +35,96 @@
     { key: "medical", label: "Medical Campus", coord: MED_COORD }
   ];
   const WALL_RADIUS_MI = 3;
+  // Most Windows machines have 12–16 hardware video decoders; past that Chrome
+  // fails to decode and hls.js retries silently, which reads as a black tile.
+  const WALL_MAX_STREAMS = 12;
+  // Short buffers: a wall of a dozen live feeds must not hold minutes of video.
+  const WALL_HLS_CONFIG = { lowLatencyMode: false, maxBufferLength: 12, maxMaxBufferLength: 24, backBufferLength: 4,
+    manifestLoadingMaxRetry: 2, levelLoadingMaxRetry: 2, fragLoadingMaxRetry: 2 };
+  const FEED_CONNECT_TIMEOUT_MS = 20000;
+  const FEED_STALL_MS = 12000;
+  const FEED_DEAD_MS = 30000;
+
+  /* Diagnoses a live HLS feed instead of letting it sit black. Reports through
+     onState(state, text): connecting | buffering | live | stale (the playlist
+     answers but has not advanced in several reloads — the camera is down while
+     the server is up) | timeout (connected, no frame in 20 s) | stopped (was
+     playing, frozen 30 s) | decode (media error survived one recovery) |
+     failed (network or other fatal error). Returns { stop() }. */
+  function watchFeed(hls, video, url, onState) {
+    const H = window.Hls;
+    const started = Date.now();
+    let lastSN = null, sameSN = 0, lastPdt = null;
+    let lastProgressAt = 0, lastTime = -1, playing = false, recovered = false, parseErrors = 0, done = false;
+    let state = "connecting";
+    const fmtClock = ms => { try { return new Date(ms).toLocaleTimeString("en-US", { timeZone: "America/Chicago", hour: "numeric", minute: "2-digit" }); } catch (e) { return ""; } };
+    const set = (st, text) => { if (done) return; state = st; onState(st, text); };
+    const end = (st, text) => { if (done) return; set(st, text); stop(); };
+
+    hls.on(H.Events.MANIFEST_PARSED, () => { video.play().catch(() => {}); });
+    hls.on(H.Events.LEVEL_LOADED, (ev, data) => {
+      const d = data && data.details;
+      if (!d || !d.live) return;
+      if (!d.fragments || !d.fragments.length) { end("stale", "Playlist empty"); return; }
+      const last = d.fragments[d.fragments.length - 1];
+      if (last && last.programDateTime) lastPdt = last.programDateTime;
+      if (d.endSN === lastSN) sameSN++; else { sameSN = 0; lastSN = d.endSN; }
+      // Three reloads without a new segment: the encoder behind this playlist
+      // has stopped. Stop loading so the slot and the bandwidth go elsewhere.
+      if (sameSN >= 3 && !playing) end("stale", lastPdt ? "Not updating since " + fmtClock(lastPdt) : "Stream not updating");
+    });
+    hls.on(H.Events.ERROR, (ev, data) => {
+      if (!data) return;
+      if (data.details === H.ErrorDetails.FRAG_PARSING_ERROR || data.details === H.ErrorDetails.BUFFER_APPEND_ERROR) {
+        if (++parseErrors >= 4 && !data.fatal) { end("decode", "Unplayable segments"); return; }
+      }
+      if (!data.fatal) {
+        if (data.details === H.ErrorDetails.BUFFER_STALLED_ERROR && playing) set("buffering", "Buffering…");
+        return;
+      }
+      if (data.type === H.ErrorTypes.MEDIA_ERROR) {
+        if (!recovered) { recovered = true; set("buffering", "Recovering decoder…"); try { hls.recoverMediaError(); } catch (e) { end("decode", "Decode error"); } return; }
+        end("decode", "Decode error");
+        return;
+      }
+      end("failed", data.type === H.ErrorTypes.NETWORK_ERROR ? "Feed unavailable" : "Feed error");
+    });
+    hls.loadSource(url);
+    hls.attachMedia(video);
+
+    const onPlaying = () => { playing = true; lastProgressAt = Date.now(); set("live", "Live"); };
+    const onWaiting = () => { if (playing) set("buffering", "Buffering…"); };
+    const onError = () => end("decode", "Decode error");
+    video.addEventListener("playing", onPlaying);
+    video.addEventListener("waiting", onWaiting);
+    video.addEventListener("error", onError);
+
+    // The watchdog is what catches a connected feed that never shows a frame,
+    // and a frame that froze: currentTime stops moving while nothing errors.
+    const timer = setInterval(() => {
+      if (done) return;
+      const now = Date.now();
+      if (video.currentTime !== lastTime) { lastTime = video.currentTime; if (playing) lastProgressAt = now; if (state === "buffering" && playing) set("live", "Live"); }
+      if (!playing) {
+        if (now - started > FEED_CONNECT_TIMEOUT_MS) end("timeout", lastPdt ? "No video · last segment " + fmtClock(lastPdt) : "No video after " + Math.round(FEED_CONNECT_TIMEOUT_MS / 1000) + " s");
+        return;
+      }
+      const frozen = now - lastProgressAt;
+      if (frozen > FEED_DEAD_MS) end("stopped", "Video stopped " + Math.round(frozen / 1000) + " s ago");
+      else if (frozen > FEED_STALL_MS && state !== "buffering") set("buffering", "Stalled " + Math.round(frozen / 1000) + " s");
+    }, 2000);
+
+    function stop() {
+      if (done) return;
+      done = true;
+      clearInterval(timer);
+      video.removeEventListener("playing", onPlaying);
+      video.removeEventListener("waiting", onWaiting);
+      video.removeEventListener("error", onError);
+      try { hls.stopLoad(); } catch (e) {}
+    }
+    return { stop: stop, state: () => state };
+  }
   const FIVE_MILE_METERS = 8046.72;
 
   const INK = "#201e1d", RULE = "rgba(32,30,29,0.4)", MUTED = "#605d5d", HAIR = "#d7d3d3", GROUND = "#f3f2f2", SURFACE = "#eae9e9", RED = "#ec3013", DEEPRED = "#ae1800";
@@ -1006,11 +1096,12 @@
           + '<div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));">'
           + mine.map(x => {
             const c = x.p, i = x.i;
-            return '<div style="border-right:2px solid ' + RULE + ';border-bottom:1px solid ' + HAIR + ';">'
+            return '<div data-wall-cell="' + i + '" style="border-right:2px solid ' + RULE + ';border-bottom:1px solid ' + HAIR + ';">'
               + '<div style="position:relative;background:' + INK + ';aspect-ratio:16/9;">'
               + '<video data-wall-video="' + i + '" muted playsinline style="width:100%;height:100%;display:block;object-fit:cover;"></video>'
               + '<button data-wall-tile="' + i + '" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(32,30,29,0.55);border:none;color:' + GROUND + ';font-family:Archivo,system-ui,sans-serif;font-size:11px;font-weight:800;letter-spacing:0.12em;text-transform:uppercase;cursor:pointer;">▶ Play feed</button>'
               + '<button data-wall-expand="' + i + '" title="Expand in true color" style="position:absolute;top:6px;right:6px;z-index:2;font-family:Archivo,system-ui,sans-serif;font-size:9px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;padding:4px 7px;border:2px solid ' + GROUND + ';background:rgba(32,30,29,0.75);color:' + GROUND + ';cursor:pointer;">Expand</button>'
+              + '<span data-wall-status="' + i + '" style="position:absolute;left:6px;bottom:6px;z-index:2;display:none;max-width:calc(100% - 12px);font-family:Archivo,system-ui,sans-serif;font-size:9px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;padding:4px 7px;background:rgba(32,30,29,0.75);color:' + GROUND + ';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;"></span>'
               + "</div>"
               + '<div style="padding:9px 12px;display:flex;align-items:baseline;justify-content:space-between;gap:8px;">'
               + '<span style="font-size:11px;font-weight:700;line-height:1.3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + esc(titleCase(c.props.DESCRIPTION || "Camera")) + "</span>"
@@ -1018,6 +1109,7 @@
           }).join("")
           + "</div></div>";
       }).join("");
+      this.armWallObserver();
     }
 
     // The expanded view is the one place video runs in true color — an operator
@@ -1037,12 +1129,12 @@
       if (!url) { status.textContent = "This camera publishes no HLS stream."; return; }
       status.textContent = "Connecting…";
       if (window.Hls && window.Hls.isSupported()) {
-        const hls = new window.Hls({ lowLatencyMode: true });
+        const hls = new window.Hls(WALL_HLS_CONFIG);
         this.camModalHls = hls;
-        hls.loadSource(url);
-        hls.attachMedia(video);
-        hls.on(window.Hls.Events.MANIFEST_PARSED, () => { status.textContent = "Live"; video.play().catch(() => {}); });
-        hls.on(window.Hls.Events.ERROR, (e, d) => { if (d.fatal) status.textContent = "Feed unavailable."; });
+        this.camModalFeed = watchFeed(hls, video, url, (state, text) => {
+          status.textContent = text;
+          status.style.color = state === "live" ? MUTED : state === "connecting" || state === "buffering" ? MUTED : DEEPRED;
+        });
       } else {
         video.src = url;
         video.play().then(() => { status.textContent = "Live"; }).catch(() => { status.textContent = "Feed unavailable."; });
@@ -1050,6 +1142,7 @@
     }
 
     closeCamModalStream() {
+      if (this.camModalFeed) { this.camModalFeed.stop(); this.camModalFeed = null; }
       if (this.camModalHls) { this.camModalHls.destroy(); this.camModalHls = null; }
       const v = this.q("[data-cam-modal-video]");
       if (v) { v.pause(); v.removeAttribute("src"); v.load(); }
@@ -1060,41 +1153,140 @@
       this.q("[data-cam-modal]").style.display = "none";
     }
 
-    playWallTile(i) {
-      const cam = (this.wallCams || [])[i];
-      const video = this.q('[data-wall-video="' + i + '"]');
-      if (!cam || !video) return;
-      const url = [cam.props.URL2, cam.props.URL1].find(isStreamUrl);
+    /* Camera wall playback.
+
+       A black tile used to mean one of two unrelated things: a camera that is
+       down at MoDOT while its playlist still answers (hls.js waits forever for a
+       segment that never comes, and never calls it fatal), or a browser that has
+       run out of video decoders because every feed started at once. Each tile
+       now carries a state badge from watchFeed(), only tiles on screen play, and
+       no more than WALL_MAX_STREAMS stream at a time; the rest queue and start
+       as slots free up. */
+    wallEntry(i) {
+      this.wallState = this.wallState || {};
+      return this.wallState[i] || (this.wallState[i] = { wanted: false, visible: false, feed: null, hls: null, state: "idle" });
+    }
+
+    wallActiveCount() {
+      return Object.values(this.wallState || {}).filter(e => e.hls).length;
+    }
+
+    setWallBadge(i, state, text) {
+      const badge = this.q('[data-wall-status="' + i + '"]');
       const btn = this.q('[data-wall-tile="' + i + '"]');
-      if (!url) { if (btn) btn.textContent = "No stream published"; return; }
-      if (btn) btn.style.display = "none";
-      this.wallHls = this.wallHls || {};
-      if (this.wallHls[i]) { this.wallHls[i].destroy(); delete this.wallHls[i]; }
-      if (window.Hls && window.Hls.isSupported()) {
-        const hls = new window.Hls({ lowLatencyMode: true });
-        this.wallHls[i] = hls;
-        hls.loadSource(url);
-        hls.attachMedia(video);
-        hls.on(window.Hls.Events.MANIFEST_PARSED, () => video.play().catch(() => {}));
-        hls.on(window.Hls.Events.ERROR, (e, data) => {
-          if (!data.fatal) return;
-          hls.destroy(); delete this.wallHls[i];
-          if (btn) { btn.style.display = "flex"; btn.textContent = "Feed unavailable · retry"; }
-        });
-      } else {
-        video.src = url;
-        video.play().catch(() => {});
+      const e = this.wallEntry(i);
+      e.state = state;
+      if (badge) {
+        const show = state !== "idle" && state !== "live";
+        badge.style.display = show ? "inline-block" : "none";
+        badge.textContent = text || "";
+        badge.style.color = /^(stale|failed|decode|timeout|stopped)$/.test(state) ? "#ff9783" : GROUND;
+      }
+      if (btn) {
+        const stopped = /^(idle|stale|failed|decode|timeout|stopped|queued|offscreen|nostream)$/.test(state);
+        btn.style.display = stopped ? "flex" : "none";
+        btn.textContent = state === "idle" ? "▶ Play feed"
+          : state === "queued" ? "Waiting · " + WALL_MAX_STREAMS + " feeds already playing"
+          : state === "offscreen" ? "▶ Play feed"
+          : state === "nostream" ? "No stream published"
+          : (text || "Feed unavailable") + " · retry";
+        // A stopped tile that failed shows only the badge text once, on the button.
+        if (stopped && state !== "idle" && state !== "offscreen" && badge) badge.style.display = "none";
       }
     }
 
-    stopWall() {
-      Object.keys(this.wallHls || {}).forEach(k => { this.wallHls[k].destroy(); delete this.wallHls[k]; });
-      (this.wallCams || []).forEach((c, i) => {
-        const v = this.q('[data-wall-video="' + i + '"]');
-        if (v) { v.pause(); v.removeAttribute("src"); v.load(); }
-        const b = this.q('[data-wall-tile="' + i + '"]');
-        if (b) { b.style.display = "flex"; b.textContent = "▶ Play feed"; }
+    // The desk asked for this tile (or Play all did). Starts it if it is on
+    // screen and a stream slot is free; otherwise it waits its turn.
+    playWallTile(i) {
+      const e = this.wallEntry(i);
+      e.wanted = true;
+      this.startWallTile(i);
+      this.publishWallHealth();
+    }
+
+    startWallTile(i) {
+      const cam = (this.wallCams || [])[i];
+      const video = this.q('[data-wall-video="' + i + '"]');
+      const e = this.wallEntry(i);
+      if (!cam || !video || !e.wanted || e.hls) return;
+      const url = [cam.props.URL2, cam.props.URL1].find(isStreamUrl);
+      if (!url) { e.wanted = false; this.setWallBadge(i, "nostream"); return; }
+      if (!e.visible) { this.setWallBadge(i, "offscreen"); return; }
+      if (this.wallActiveCount() >= WALL_MAX_STREAMS) { this.setWallBadge(i, "queued"); return; }
+      if (!(window.Hls && window.Hls.isSupported())) {
+        video.src = url; // Safari plays HLS natively
+        video.play().catch(() => {});
+        this.setWallBadge(i, "live");
+        return;
+      }
+      const hls = new window.Hls(WALL_HLS_CONFIG);
+      e.hls = hls;
+      e.feed = watchFeed(hls, video, url, (state, text) => {
+        this.setWallBadge(i, state, text);
+        if (/^(stale|failed|decode|timeout|stopped)$/.test(state)) {
+          // Free the slot; the button keeps the reason and offers a retry.
+          this.stopWallTile(i, state, text);
+          this.fillWallSlots();
+          this.publishWallHealth();
+        }
       });
+      this.setWallBadge(i, "connecting", "Connecting…");
+    }
+
+    stopWallTile(i, state, text) {
+      const e = this.wallEntry(i);
+      if (e.feed) { e.feed.stop(); e.feed = null; }
+      if (e.hls) { e.hls.destroy(); e.hls = null; }
+      const v = this.q('[data-wall-video="' + i + '"]');
+      if (v) { v.pause(); v.removeAttribute("src"); v.load(); }
+      this.setWallBadge(i, state || "idle", text);
+    }
+
+    // Start queued tiles, nearest first, until the slots are full.
+    fillWallSlots() {
+      (this.wallCams || []).forEach((c, i) => {
+        const e = this.wallEntry(i);
+        if (e.wanted && !e.hls && e.visible && this.wallActiveCount() < WALL_MAX_STREAMS && !/^(stale|failed|decode|timeout|stopped|nostream)$/.test(e.state)) this.startWallTile(i);
+      });
+    }
+
+    // Tiles only stream while they are on screen. Leaving the viewport (or the
+    // tab) releases the decoder; returning restarts the feed if it was wanted.
+    armWallObserver() {
+      if (this._wallIO) this._wallIO.disconnect();
+      this.wallState = {};
+      if (!("IntersectionObserver" in window)) {
+        (this.wallCams || []).forEach((c, i) => { this.wallEntry(i).visible = true; });
+        return;
+      }
+      this._wallIO = new IntersectionObserver(entries => {
+        entries.forEach(en => {
+          const i = Number(en.target.getAttribute("data-wall-cell"));
+          const e = this.wallEntry(i);
+          e.visible = en.isIntersecting;
+          if (!e.visible && e.hls) this.stopWallTile(i, "offscreen");
+        });
+        this.fillWallSlots();
+      }, { rootMargin: "200px 0px" });
+      Array.from(this.querySelectorAll("[data-wall-cell]")).forEach(el => this._wallIO.observe(el));
+    }
+
+    stopWall() {
+      (this.wallCams || []).forEach((c, i) => {
+        const e = this.wallEntry(i);
+        e.wanted = false;
+        this.stopWallTile(i, "idle");
+      });
+      this.publishWallHealth();
+    }
+
+    // Cameras that answered but produced no video are a finding in their own
+    // right: the situation summary should know the wall is thinner than it looks.
+    publishWallHealth() {
+      const dead = (this.wallCams || []).map((c, i) => ({ c: c, e: this.wallEntry(i) }))
+        .filter(x => /^(stale|timeout|failed|decode)$/.test(x.e.state))
+        .map(x => titleCase(x.c.props.DESCRIPTION || "Camera"));
+      this.publishRoads({ cameraFeedsNotUpdating: dead.length, cameraFeedsNotUpdatingNames: dead.slice(0, 8) });
     }
 
     async loadNearbyCameras() {
