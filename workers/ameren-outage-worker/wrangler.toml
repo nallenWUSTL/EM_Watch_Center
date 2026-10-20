@@ -1,0 +1,9 @@
+name = "washu-em-ameren"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+# No secrets needed — every Ameren endpoint this worker reads is public, and the
+# routes are CORS-open, so there is nothing to configure before deploying.
+#
+# Deploy:   npx wrangler deploy
+# Verify:   curl https://washu-em-ameren.<your-subdomain>.workers.dev/health

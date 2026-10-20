@@ -1,0 +1,13 @@
+name = "washu-em-feeds"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+# Secrets are NOT set here. Run:
+#   npx wrangler secret put AIRNOW_KEY
+#   npx wrangler secret put MODOT_KEY
+#   npx wrangler secret put REDDIT_CLIENT_ID
+#   npx wrangler secret put REDDIT_CLIENT_SECRET
+#
+# Non-secret overrides can go here:
+# [vars]
+# MODOT_URL = "https://data.modot.mo.gov/api/incidents"

@@ -26,6 +26,21 @@
   const label = extra => "font-size:10px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:" + MUTED + ";" + (extra || "");
   const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
+  /* Feed descriptions arrive as HTML, sometimes entity-encoded and sometimes cut
+     mid-tag. Reduce one to plain text, drop CISA's "View CSAF / Summary"
+     boilerplate and Google News link lists that only repeat the headline. */
+  const cleanSummary = (s, title) => {
+    const decode = x => x.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'")
+      .replace(/&nbsp;/g, " ").replace(/&#(\d+);/g, (m, n) => String.fromCharCode(+n)).replace(/&amp;/g, "&");
+    let t = String(s || "").replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1");
+    t = decode(t.replace(/<[^>]*>/g, " ")).replace(/<[^>]*>/g, " ").replace(/<[^>]*$/, "").replace(/\s+/g, " ").trim();
+    t = t.replace(/^(?:View CSAF\s*)+/i, "").replace(/^Summary\s*/i, "").trim();
+    const norm = x => String(x || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+    if (title && norm(t).startsWith(norm(title).slice(0, 40))) return null;
+    if (/^https?:\/\/\S*$/.test(t) || t.length < 12) return null;
+    return t;
+  };
+
   const PROXY_STORE = "wuem-proxy-origin";
   const PROXY_DEFAULT = (window.WUEM_CONFIG || {}).workerOrigin || "https://washu-em-ameren.washu-em.workers.dev";
   const proxyOrigin = () => {
@@ -743,7 +758,7 @@
       const res = await fetch(proxyOrigin() + "/cybernews?hours=" + this.newsHours, { signal: AbortSignal.timeout(30000) });
       const j = await res.json();
       if (j.error) throw new Error(j.error);
-      this.news = j.items || [];
+      this.news = (j.items || []).map(it => Object.assign({}, it, { summary: cleanSummary(it.summary, it.title) }));
       this.newsMeta = j;
       this.renderNewsFilters();
       this.renderNews();
