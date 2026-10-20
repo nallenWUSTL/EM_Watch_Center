@@ -261,5 +261,12 @@ a:hover { color: #dd2b0f; text-decoration: underline; }
 
 /* — Daily Briefing tab: component styles live in css/briefing.css — */
 
+/* — Water Outages strip (Outages tab); chips come from css/briefing.css — */
+.ww-tile-chip { display: inline-flex; }
+.ww-tile-chip .bw-chip { font-size: 12px; padding: 7px 12px; }
+.ww-meta { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; }
+.ww-note { font-size: 12px; line-height: 1.5; }
+.app code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; background: var(--surface); padding: 1px 4px; }
+
 /* — footer — */
 .ftr { display: grid; grid-template-columns: 1fr auto; gap: 24px; padding: 16px 32px 28px; border-top: 2px solid var(--rule); font-size: 10px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }

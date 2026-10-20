@@ -680,6 +680,14 @@
         + (bf.top_item ? "; top item: " + String(bf.top_item).replace(/\.$/, "") : "") + ".");
     }
 
+    /* The hourly water utility watch, published by the Outages tab's strip. */
+    const ww = (typeof window !== "undefined" && window.__omContext && window.__omContext.water) || null;
+    if (ww && ww.latest) {
+      const lvl = String(ww.latest.alert_level || "normal").toLowerCase();
+      opsBits.push("Water watch at " + fmtZoned(ww.latest.run_at) + ": alert level " + lvl + ", " + ww.tracked + " incident" + (ww.tracked === 1 ? "" : "s") + " tracked"
+        + (ww.latest.top_incident && lvl !== "normal" ? "; " + String(ww.latest.top_incident).replace(/\.$/, "") : "") + ".");
+    }
+
     const summary = s.loading ? "Querying connected feeds…"
       : hasAlerts
         ? alerts.length + " active NWS product" + (alerts.length === 1 ? "" : "s") + " cover" + (alerts.length === 1 ? "s" : "") + " a Washington University campus: " + alerts.map(x => x.event + " (" + x.campus.replace(" in polygon", "") + ", to " + x.expires + ")").join("; ") + "."

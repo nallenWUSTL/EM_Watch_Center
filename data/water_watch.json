@@ -1,0 +1,59 @@
+{
+  "latest": {
+    "alert_level": "watch",
+    "note": "No change in Ring 1. No boil orders in St. Louis City or County; City Water Division outages page: no active outages, one new repair order Nottingham & Hampton (10/19, Ring 2, no impact); MSD clear; emergency.washu.edu and WashU Facilities show no water shutoffs (only a Power Plant electrical outage 8 AM-noon 10/20). Ring 2 MAW cluster: Olivette 142126 (11:15 AM) and 142133 (12:15 PM) plus investigation 142122; unspecified St. Louis County main breaks 142100 (10:00 AM) and 142108 (9:00 AM); Northwoods 142040/142099, Des Peres 142038, Hazelwood 142097, Pagedale 142110, Wellston 142045/142042, Florissant 142047 — impact none. Shrewsbury alert dropped from MAW page. Unreachable: KSDK, FOX 2, Reddit, X, Facebook, Nextdoor, U City CivicAlerts, Kirkwood water page, MAW advisory map.",
+    "open_count": 2,
+    "run_at": "2026-10-20T19:45:00Z",
+    "top_incident": "MAW main break, University City (alert 142098) — still listed, street unknown, possible Ring 1, no boil order; unverified Nextdoor lead places a U City break at Olive & Eastover (Ring 2)"
+  },
+  "incidents": [
+    {
+      "affected_assets": [
+        "Danforth Campus (University City portion)",
+        "North Campus",
+        "Delmar Loop properties"
+      ],
+      "assessment": "Started 10/19 4:15 PM CT, ~6 hr estimate; still listed on MAW alerts page at 2:40 PM 10/20 (~22 hr past start), no street, end time blank, no completion posted, no boil advisory. Alert expires 10/20. Unverified lead (Nextdoor agency post, page not fetchable, date unknown): U City break at Olive Blvd & Eastover Dr, west U City near I-170, ~2.5 mi NW of Danforth (Ring 2) — may correspond to this alert or 142098. No news, WashU, or U City source names a street. Mark resolved when the alert drops from the MAW alerts page.",
+      "confidence": "Medium",
+      "first_seen": "2026-10-20T18:34:00Z",
+      "id": "maw-universitycity-unlocated-20261019",
+      "last_updated": "2026-10-20T19:45:00Z",
+      "location": "University City, MO (street not published by utility)",
+      "ring": 1,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/142036",
+        "https://www.amwater.com/moaw/alerts",
+        "https://nextdoor.com/agency-post/mo/university-city/university-city-2/water-main-break-at-olive-and-eastover-128489350/ (unverified)"
+      ],
+      "status": "monitoring",
+      "title": "Missouri American Water main break, University City — emergency repairs (alert 142036)",
+      "utility": "Missouri American Water",
+      "washu_impact": "possible"
+    },
+    {
+      "affected_assets": [
+        "Danforth Campus (University City portion)",
+        "North Campus",
+        "Delmar Loop properties"
+      ],
+      "assessment": "Started 10/20 7:30 AM CT, ~6 hr estimate (nominal end ~1:30 PM, now past); still listed on MAW alerts page at 2:40 PM 10/20, no street, end time blank, no completion posted, no boil advisory; possible discolored water, low or no pressure. Alert expires 10/20. Unverified lead (Nextdoor agency post, not fetchable, date unknown): U City break at Olive Blvd & Eastover Dr (Ring 2, ~2.5 mi NW of Danforth) — may be this alert or 142036. WashU Facilities and emergency.washu.edu show no water shutoff or alert. Recommended: Facilities check pressure/discoloration on U City-side buildings; MAW 1-866-430-0820 for street. Mark resolved when the alert drops from the MAW alerts page.",
+      "confidence": "Medium",
+      "first_seen": "2026-10-20T18:34:00Z",
+      "id": "maw-universitycity-unlocated-20261020",
+      "last_updated": "2026-10-20T19:45:00Z",
+      "location": "University City, MO (street not published by utility)",
+      "ring": 1,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/142098",
+        "https://www.amwater.com/moaw/alerts",
+        "https://nextdoor.com/agency-post/mo/university-city/university-city-2/water-main-break-at-olive-and-eastover-128489350/ (unverified)"
+      ],
+      "status": "monitoring",
+      "title": "Missouri American Water main break, University City — emergency repairs (alert 142098)",
+      "utility": "Missouri American Water",
+      "washu_impact": "possible"
+    }
+  ]
+}

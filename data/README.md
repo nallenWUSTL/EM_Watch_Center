@@ -56,6 +56,32 @@ changed. If the attach, clone or push fails, the task skips the step and says
 so in the published briefing's Analytic Note; the dashboard then keeps showing
 the previous record and names the failure in the tab's footer.
 
+## Water watch
+
+The scheduled task **WashU Water Utility Incident Watch** runs hourly. It writes
+its state to the same artifact database (collection `water_incidents`, one
+document per incident, and `meta/water_watch_latest`), then commits the same
+state here as one file, read by the Outages tab's Water strip:
+
+| File | Written | Contents |
+| --- | --- | --- |
+| `data/water_watch.json` | overwritten each run | `{ "latest": <meta/water_watch_latest>, "incidents": [ <every water_incidents document> ] }` |
+
+`latest` fields: `run_at` (ISO 8601 UTC), `open_count` (int), `alert_level`
+(`normal` \| `watch` \| `alert`), `top_incident`, `note`.
+
+Incident fields: `id`, `title`, `utility`, `location`, `ring` (1–3), `status`
+(`open` \| `monitoring` \| `resolved`), `first_seen`, `last_updated` (ISO 8601
+UTC), `assessment`, `washu_impact` (`none` \| `possible` \| `likely` \|
+`confirmed`), `confidence` (`Low` \| `Medium` \| `High`), `single_source`
+(bool), `affected_assets[]`, `sources[]`.
+
+The strip shows incidents whose status is not `resolved`, newest
+`last_updated` first; resolved rows stay in the file so the archive is
+complete. The commit path is the same as the briefing's: attach the repository
+with push access, clone, overwrite the file, commit `Water watch <date time>
+CT`, rebase and push to `main`; "nothing to commit" is a normal outcome.
+
 ## Republishing the artifact page
 
 `artifact/briefing-watch.html` is generated: edit `artifact/template.html`,
