@@ -6,7 +6,7 @@
   const W = window.WUEM;
   const { CFG, DANFORTH, MEDICAL, ENDPOINT_STORE, normalizeOrigin } = W;
 
-  let state = { view: "hazards", chartMode: "temp", loading: true, retrieved: null, alertsD: [], alertsM: [], moAlerts: [], obs: null, hourly: [], gauges: null, gaugeMain: null, air: null, quakes: null, news: null, errors: {} };
+  let state = { view: "briefing", chartMode: "temp", loading: true, retrieved: null, alertsD: [], alertsM: [], moAlerts: [], obs: null, hourly: [], gauges: null, gaugeMain: null, air: null, quakes: null, news: null, errors: {} };
   let lastPowerAt = 0;
   let lastNewsAt = 0;
 
