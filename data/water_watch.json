@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "12:45 PM run. NOTHING NEW in the St. Louis service area (all four lanes). UPDATED: Clayton 142261 re-checked — unchanged, still open, no street, ~8 hr estimate, no boil advisory; no campus, city, Metro, BJC or news notice locates it. Unchanged on MAW index: 142259 County, 142260/142262 Maryland Heights, Florissant 142276 (+ investigation 142265), Hazelwood 142176 (index listed, detail cleared), Olivette 142126/142133/142122 (index listed, 10/20 expiry), Webster Groves 142292, Rock Hill planned 142270 (not tracked). Pagedale 142110 dropped from index (never tracked). New MAW IDs are all outstate (Joplin, Neosho, Mexico, Jefferson City, St. Joseph). No boil advisories: MAW boil page none; stlwater.com 'no active water main outages' (12:30 PM 10/20 timestamp); MSD, Kirkwood none; MO DNR table not renderable. Campus: WashU Alert none (last mod 10/16); Danforth Facilities only generator testing today; Med Campus nothing new; Metro only #18 Taylor and #42 Sarah/Whittier known City water items. Local news 10/20-21: nothing. Social: nothing readable. Unreachable this run: yahoo.com, claytonmo.gov news pages, Nextdoor, Reddit, X, MAW advisory map, data.mo.gov. Next run: re-check 142261 for completion/expiry after ~4:45 PM; Webster Groves 142292, Hazelwood 142176, Olivette age-off; any boil advisory.",
-    "open_count": 7,
-    "run_at": "2026-10-21T17:50:00Z",
-    "top_incident": "MAW main break, Clayton (alert 142261) — began 8:45 AM CT 10/21, ~8 hr repair (target ~4:45 PM), street still unknown, Ring 1 by municipality (West Campus, 6200 Forsyth, Clayton-side Danforth, South Campus), no boil order; WashU impact possible, single-source, unchanged since 9:35 AM run"
+    "note": "1:35 PM run. NEW: City of St. Louis Water Division outages at Sidney St & Michigan Ave and Minnesota Ave & Sidney St (Benton Park / Marine Villa), out 12:27-12:28 PM, est. restoration ~8:28 PM, no boil advisory, Ring 2, no WashU asset, impact none. UPDATED: Clayton 142261 re-checked by all four lanes — unchanged, open, no street, no boil advisory; no campus, city, Metro, hospital or news notice locates it; Clayton news 4239 / Clayton PD Nextdoor / Yahoo-FOX 2 leads still unreadable (proxy). Webster Groves 142292 unchanged; its KSDK Elm & Lockwood lead confirmed as a 2022 event and dropped. Unchanged on MAW index: 142259 County, 142260/142262 Maryland Heights, 142276 + 142265 Florissant, 142176 Hazelwood (index listed, detail blank), 142126/142133/142122 Olivette (detail pages still active text), Rock Hill planned 142270 (not tracked). No new St. Louis-area MAW IDs above 142292. No boil advisories: MAW none; stlwater.com Current Advisories none; MSD none; Kirkwood none; MO DNR report not renderable. Campus: WashU Alert none (last mod 10/16); Danforth and Med Campus Facilities nothing water-related; Metro only #18 Taylor and #42 Sarah/Whittier City water items (unchanged). Local news 10/20-21: nothing. Social: nothing readable or dated today. Unreachable this run: claytonmo.gov, Nextdoor, Reddit, X, yahoo.com, stltoday, MAW advisory map, data.mo.gov. Next run: re-check 142261 for completion/age-off after ~4:45 PM; City Sidney/Minnesota outage restoration ~8:28 PM; Webster Groves 142292, Hazelwood 142176, Olivette age-off; any boil advisory.",
+    "open_count": 8,
+    "run_at": "2026-10-21T18:50:00Z",
+    "top_incident": "MAW main break, Clayton (alert 142261) — began 8:45 AM CT 10/21, ~8 hr repair (nominal target ~4:45 PM), street still unknown, Ring 1 by municipality (West Campus, 6200 Forsyth, Clayton-side Danforth, South Campus), no boil order; WashU impact possible, single-source, unchanged since 9:35 AM run"
   },
   "incidents": [
     {
@@ -14,11 +14,11 @@
         "Danforth Campus (Clayton portion)",
         "South Campus"
       ],
-      "assessment": "12:45 PM CT 10/21 re-check (all four lanes): alert 142261 unchanged — still active on the MAW index and detail page; emergency main-break repairs in Clayton beginning 8:45 AM CT, about 8 hours (target ~4:45 PM), no street or cross street, Last Updated / Estimated End / Customers Notified blank, no boil advisory; warns of discolored or cloudy water and low or no pressure. MAW boil page: none. No locating notice from WashU Alert (last modified 10/16), Danforth Facilities (today only generator testing), Medical Campus Facilities, The Source, Metro rider alerts (no Clayton detour), Cortex, Loop, BJC, Clayton homepage, or any local news dated 10/20-21. Unverified leads still unreadable (proxy 403 / robots): Yahoo-syndicated FOX 2 'Avoid the area' Clayton story (date unconfirmed), Clayton news item 4239 'UPDATED: Road Closures: Water Main Break', Clayton PD Nextdoor 'Water Main Break UPDATE'. Older Hanley Rd stories (N. Hanley Maryland-FPP; S. Hanley Bonhomme-Forsyth; Clayton Rd at Hanley 7/9/26) are NOT attributed to today's alert. Ring 1 by municipality: West Campus (Forsyth/Big Bend, below-grade archives), 6200 Forsyth construction site, Clayton portion of Danforth, South Campus (Clayton Rd). Recommended: Facilities spot-check pressure/discoloration at West Campus, South Campus and Clayton-side Danforth buildings; 6200 Forsyth contractor confirm site water/fire-line pressure; call MAW 1-866-430-0820 or open the MAW Customer Advisory Map for the pin; check Clayton PD Nextdoor / Clayton news 4239 for road closures. Owner: Facilities (lead), Emergency Management (track). Next check: completion or expiry after ~4:45 PM.",
+      "assessment": "1:35-1:50 PM CT 10/21 re-check (all four lanes): alert 142261 unchanged — still active on the MAW index and detail page; emergency main-break repairs in Clayton beginning 8:45 AM CT, about 8 hours (nominal target ~4:45 PM), no street or cross street, Last Updated / Estimated End blank, no boil advisory (MAW boil page: none); warns of discolored or cloudy water and low or no pressure. Still no locating notice from WashU Alert (last modified 10/16), Danforth Facilities (routine notices only), Medical Campus Facilities, The Source, Metro rider alerts (no Clayton detour), Forest Park, Cortex, Loop, BJC, University City, or any local news dated 10/20-21 (FOX 2, KSDK, KMOV, STLPR, RFT, Patch, 40 South News). Unverified leads still unreadable from this environment (proxy 403 / robots): Clayton news item 4239 'UPDATED: Road Closures: Water Main Break' (ID lower than a 5270 item, so possibly old), Clayton PD Nextdoor 'Water Main Break UPDATE', Yahoo/FOX 2 'Avoid the area' Clayton story. Older Hanley Rd stories (N. Hanley Maryland-FPP; S. Hanley Bonhomme-Forsyth; 7/9/26 Clayton break) are NOT attributed to today's alert. Ring 1 by municipality: West Campus (Forsyth/Big Bend, below-grade archives), 6200 Forsyth construction site, Clayton portion of Danforth, South Campus (Clayton Rd). Recommended: Facilities spot-check pressure/discoloration at West Campus, South Campus and Clayton-side Danforth buildings; 6200 Forsyth contractor confirm site water/fire-line pressure; a person with a browser open Clayton news 4239 and Clayton PD Nextdoor, or call MAW 1-866-430-0820 / open the MAW Customer Advisory Map for the pin. Owner: Facilities (lead), Emergency Management (track). Next check: completion or index age-off after ~4:45 PM.",
       "confidence": "Medium",
       "first_seen": "2026-10-21T14:45:00Z",
       "id": "maw-clayton-unlocated-20261021",
-      "last_updated": "2026-10-21T17:50:00Z",
+      "last_updated": "2026-10-21T18:50:00Z",
       "location": "Clayton, MO (street not published by utility)",
       "ring": 1,
       "single_source": true,
@@ -215,22 +215,40 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New MAW alert 142292 at ~11:35 AM CT 10/21: investigation of a possible service issue in Webster Groves; start, last-updated, estimated end and street all blank; possible low or no pressure; no boil advisory. Webster Groves is roughly 3-4 mi south-southwest of South Campus and West Campus, different MAW pressure zone; no WashU asset. An undated KSDK story about two Webster Groves breaks (Elm & Lockwood; Edgar Rd & Larkhill Ct) surfaced but could not be tied to this alert. Impact none. Monitor; resolve when dropped from the MAW index.",
+      "assessment": "1:35 PM CT 10/21 re-check: MAW alert 142292 still listed; investigation of a possible service issue in Webster Groves; start, last-updated, estimated end and street all blank; possible low or no pressure; no boil advisory. The undated KSDK story about two Webster Groves breaks (Elm & Lockwood; Edgar Rd & Larkhill Ct) matches a FirstAlert4 story dated 11/15/2022 and is NOT related to this alert — lead dropped. Webster Groves is roughly 3-4 mi SSW of South Campus and West Campus, different MAW pressure zone; no WashU asset. Impact none. Monitor; resolve when dropped from the MAW index.",
       "confidence": "Medium",
       "first_seen": "2026-10-21T16:40:00Z",
       "id": "maw-webstergroves-unlocated-20261021",
-      "last_updated": "2026-10-21T16:40:00Z",
+      "last_updated": "2026-10-21T18:50:00Z",
       "location": "Webster Groves, MO (street not published by utility)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.amwater.com/moaw/alerts",
         "https://alertsdetail.awapps.com/alert/142292",
-        "https://ksdk.com/article/news/local/two-water-main-breaks-webster-groves-city-hall/63-d7f905d0-9775-4978-a745-90535258fefd (undated, unverified)"
+        "https://www.firstalert4.com/2022/11/15/water-main-break-closes-webster-groves-city-hall/ (shows the KSDK Elm & Lockwood lead was a 2022 event)"
       ],
       "status": "open",
       "title": "Missouri American Water service investigation, Webster Groves — possible low/no pressure (alert 142292)",
       "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "Two adjacent City Water Division outages posted on stlwater.com/outages (page stamped 1:30 PM CT 10/21): out of service 12:27-12:28 PM CT 10/21, estimated restoration ~8:27-8:28 PM CT, crews working, no boil advisory listed under Current Advisories. South city residential area, roughly 4.5 mi SE of the Medical Campus and in a different distribution area; no WashU asset. Impact none. Confirmed independently by two lanes from the same primary page. Monitor; resolve when dropped from the City outage page. Owner: Emergency Management (track only).",
+      "confidence": "High",
+      "first_seen": "2026-10-21T18:35:00Z",
+      "id": "stlwater-stlouiscity-sidney-20261021",
+      "last_updated": "2026-10-21T18:35:00Z",
+      "location": "Sidney St between Michigan Ave and Minnesota Ave, and Minnesota Ave between Magnolia Ave and Sidney St, St. Louis City (Benton Park / Marine Villa)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outage, Sidney St & Michigan Ave / Minnesota Ave & Sidney St (Benton Park / Marine Villa)",
+      "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     }
   ]
