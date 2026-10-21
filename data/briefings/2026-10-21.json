@@ -1,0 +1,200 @@
+{
+  "bluf": "Posture Normal. No NWS product, no Ring 1 violent incident, no WashU Alert, no local health advisory, no outage touching a WashU asset in the last 24 h. Three non-urgent Today actions: Kenya Level 3 (Ebola) traveler-roster review; SafePay ransomware joint advisory AA26-293A patch and VPN-MFA check (single-source, CISA unreachable); Kayem Foods 1.5M-lb RTE meat recall dining inventory check. Main load is Fri-Sun Oct 23-25 (home UAA soccer/volleyball, Forest Park events, Loop concerts, downtown arenas) under dry warm weather with no lightning risk through Monday. Red Team dissent carried: hoax/swatting lockdown risk at Sunday outdoor matches.",
+  "briefing_url": "https://claude.ai/artifact/WUyAawqmQWYqFYz2pH8LjQ",
+  "date": "2026-10-21",
+  "dissents": [
+    {
+      "note": "Overrules Cyber lane's nothing-at-Sev-3+ bottom line; supervisor holds Sev 3 not 4 (advisory, no WashU indicator; CISA primary unreachable); single-source, Medium confidence.",
+      "title": "SafePay advisory underrated (Red Team)",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Converges with Public Safety false-alarm pattern and Policy lane's Miami University lesson; carried as This-week readiness: stage Francis Field/Field House shelter-vs-evacuate script and Alert templates before Sunday.",
+      "title": "Hoax/swatting lockdown risk at Sunday outdoor events underrated (Red Team)",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Public Safety lane already at Monitor with suspects in custody; kept out of Today table.",
+      "title": "I-170 shooting overrated (Red Team)",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Public Health lane already scored Sev 2/Low/Monitor; Red Team's Missouri count (11) stale vs DHSS 18 on Oct 20; item stays at Monitor.",
+      "title": "Measles overrated (Red Team)",
+      "verdict": "Rejected"
+    },
+    {
+      "note": "Shelter-in-place with outdoor crowds self-evacuating across Forsyth into the 6200 Forsyth construction perimeter. Pre-position one WUPD officer with Clayton/UCPD radio at Francis Field and a pre-agreed evacuate-to-Field-House default for outdoor venues.",
+      "title": "Scenario: swatting call at Francis Olympic Field, Sun Oct 25 ~1:45 pm",
+      "verdict": "Carried"
+    },
+    {
+      "note": "Supervisor fetched washubears.com: women's soccer 1:30 pm Sun and 7:30 pm Fri; men's 11 am Sun and 5 pm Fri.",
+      "title": "Sunday soccer order (Events lane vs Red Team)",
+      "verdict": "Resolved"
+    }
+  ],
+  "lanes_quiet": [
+    1,
+    2,
+    4
+  ],
+  "lookahead": [
+    {
+      "date": "2026-10-21",
+      "dow": "Wed",
+      "loads": "Leadership Week staff day (Danforth); WashU Jazz Band, 560 Music Center 7:30 pm; MoDOT I-64 meeting, City Foundry 4-6 pm; Rush, Enterprise Center 7:30 pm (~18k); Death Becomes Her, Fox 7:30 pm.",
+      "stacked": false,
+      "wx": "75/50, dry"
+    },
+    {
+      "date": "2026-10-22",
+      "dow": "Thu",
+      "loads": "Leadership Week at EPNEC (Medical Campus) all day, keynote 3:30 pm; Blue Line truncated after 6 pm (last day); Blues vs Vegas 7 pm (~18k); AFI, The Pageant 8 pm (~2k); Boo at the Zoo evening.",
+      "stacked": false,
+      "wx": "76/50, dry, fog SW county 4-7 am"
+    },
+    {
+      "date": "2026-10-23",
+      "dow": "Fri",
+      "loads": "Men's soccer vs Rochester 5 pm; women's 7:30 pm, Francis Olympic Field; She Leads Symposium, Knight Center 9 am-1 pm; Totentanz concert, SLAM 7 pm; Boo at the Zoo evening; Ludo, The Pageant 8 pm (~2.3k); BOA Super Regional, Dome 9 am-9 pm; Cash Money/No Limit, Enterprise 8 pm (~15k); GalaxyCon opens.",
+      "stacked": true,
+      "wx": "75/50, dry"
+    },
+    {
+      "date": "2026-10-24",
+      "dow": "Sat",
+      "loads": "Hot Cider Hustle 5K/10K, Forest Park 8:30-11 am; Leader's Cup, DUC 11 am-3:30 pm; CVPA shooting 4th anniversary (Ring 2); Blue Line single-tracking begins; Ludo, The Pageant 8 pm; BOA finals and GalaxyCon, Dome; Blues vs Carolina 6 pm (~18k); DaBaby, Chaifetz 8 pm (~10k); Boo at the Zoo evening; Football away at Wabash.",
+      "stacked": true,
+      "wx": "76/52, dry"
+    },
+    {
+      "date": "2026-10-25",
+      "dow": "Sun",
+      "loads": "Men's soccer vs Emory 11 am; women's 1:30 pm (final home), Francis Olympic Field; Volleyball vs #5 Carnegie Mellon 2 pm, Field House; Forest Park Forever member event, Langenberg Field 1-3 pm; Loop Trolley final day 11 am-7 pm; Ludo, The Pageant 7 pm; GalaxyCon, Dome; Boo at the Zoo evening; Red Team scenario day (hoax/swatting at outdoor venue).",
+      "stacked": true,
+      "wx": "78/53, dry, warmest day"
+    },
+    {
+      "date": "2026-10-26",
+      "dow": "Mon",
+      "loads": "Rush Hour Connector trains in service; Sammy Rae, The Pageant 8 pm (~2k); SLU women's exhibition, Chaifetz 7 pm.",
+      "stacked": false,
+      "wx": "75/52, dry"
+    },
+    {
+      "date": "2026-10-27",
+      "dow": "Tue",
+      "loads": "Blues vs Montreal 7 pm (~18k); Courtside Tuesdays, The Nick 5-8 pm; First cool-down of the pattern, timing uncertain.",
+      "stacked": false,
+      "wx": "67, 20% showers, front (low confidence)"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "quiet",
+      "summary": "Dry, warm blocking high through the weekend; no NWS products, no SPC/WPC risk for eastern Missouri; rivers low and falling; no M3.0+ within 150 mi. Tyson fuels drying (min RH 32-36% Wed/Thu, poor ventilation, no Red Flag). Patchy fog SW county Thu 4-7 am. Front ~Tue Oct 27, low confidence. AQI unverified (AirNow unreadable)."
+    },
+    {
+      "name": "Life-safety threat",
+      "pir": 2,
+      "status": "quiet",
+      "summary": "No Ring 1 violent incident, no WashU Alert (last Crime Alert Jan 24), no threat naming WashU, no demonstration over 100 found. National campus false-alarm pattern (Miami U Oct 15, Coastal Carolina Oct 16) and CVPA 4th anniversary Sat Oct 24: review Alert first-message template and classroom locks this week. I-170 shooting suspects charged; Monitor."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "watch",
+      "summary": "Missouri measles at 18 cases YTD (DHSS Oct 20; Benton Co. 4, Wright Co. 3), no known active exposures, St. Louis September cluster window closed; Monitor with MMR compliance check. Respiratory activity low. No regional diversion found. Kayem recall in Today table."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "watch",
+      "summary": "SafePay advisory in Today table. MetroLink Blue Line truncated after 6 pm through Oct 23, single-tracking Oct 24-30; Rush Hour Connector Oct 24-30; Lambert T1 station closed to mid-Dec. Medical Campus bus reroutes for BJH Plaza paving and Taylor water-division closure through Oct 31. Healthcare ransomware in Ring 3 (Falls City NE CAH; Parkview unconfirmed). Cloudflare/Canvas incidents resolved. Lambert runway incursion Oct 20, no ongoing impact."
+    },
+    {
+      "name": "Scheduled activity, next 7 days",
+      "pir": 5,
+      "status": "active",
+      "summary": "Ring 1 stacks Fri-Sun Oct 23-25: home UAA soccer Fri (M 5 pm, W 7:30 pm) and Sun (M 11 am, W 1:30 pm), volleyball vs #5 CMU Sun 2 pm, Hot Cider Hustle Sat 8:30 am, Boo at the Zoo, Ludo three nights at The Pageant, BOA Super Regional and GalaxyCon at the Dome, Blues Thu/Sat. Leadership Week closers Thu-Sat. Parent & Family Weekend Oct 30-Nov 1 with football vs Denison and CWE Halloween party Oct 31: start planning this week."
+    },
+    {
+      "name": "Policy, legal, funding",
+      "pir": 6,
+      "status": "watch",
+      "summary": "Kenya Level 3 in Today table. No funding lapse: CR through Dec 11. FEMA realignment memos (Oct 6/15) and GAO finding of ~$2.2B BRIC subgrants unawarded: confirm UASI mitigation subapplication status with SEMA/EWG this week. FY26 awards: St. Louis UASI $5.54M, MO SHSP $4.36M, EMPG $6.20M. HMA ICR comments due Nov 5. No Clery/Title IX or Missouri legislative action."
+    }
+  ],
+  "posture": "Normal",
+  "published_at": "2026-10-21T11:05:00Z",
+  "run_note": "Charter read (rev 10). Published 06:07 CT; GitHub data push refused (403, repo not authorized this session), dashboard JSON not updated. Run 05:53-06:07 CT; all seven lanes returned by 06:17 CT. Quiet lanes: Weather, Public Safety, Cyber/Infrastructure. Contested: SafePay severity (Red Team 4, supervisor 3); measles weighting; Sunday soccer order (resolved by fetch). Unreachable: cisa.gov, stltoday.com, api.weather.gov/spc.noaa.gov direct, airnow.gov data, fsis.usda.gov, cdc.gov HAN/NWSS, Ameren map, M365/AWS/Everbridge/Workday status, events.wustl.edu, happenings.washu.edu, fema.gov press index, MoDOT weekly report.",
+  "title": "WashU EM Daily Intelligence Briefing, October 21, 2026",
+  "today_items": [
+    {
+      "action": "Pull current Kenya roster (study abroad, research, global health), apply Level-3 travel policy review; brief Medical Campus global-health programs on returning-traveler screening.",
+      "confidence": "High",
+      "likelihood": "Occurring",
+      "owner": "International travel risk office / Global Health Center; EM for repatriation contingency",
+      "pir": 6,
+      "rank": 1,
+      "severity": 3,
+      "source": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kenya-travel-advisory.html",
+      "title": "Kenya raised to Level 3 (Reconsider Travel), Ebola Bundibugyo",
+      "ttd": "Today"
+    },
+    {
+      "action": "Confirm Veeam (CVE-2023-27532, CVE-2024-40711), SonicWall (CVE-2024-40766) and Cisco ASA (CVE-2020-3259, CVE-2023-20269) patch state and VPN MFA coverage by COB; Medicine IT same on BJC-shared edges. Single-source; CISA primary unreachable, read via mirror. Red Team scored Sev 4.",
+      "confidence": "Medium",
+      "likelihood": "Low",
+      "owner": "WashU Information Security Office; WashU Medicine IT",
+      "pir": 4,
+      "rank": 2,
+      "severity": 3,
+      "source": "https://www.assurantcyber.com/blog/aa26-293a/",
+      "title": "SafePay ransomware joint advisory AA26-293A (FBI/CISA/USSS, Oct 20)",
+      "ttd": "Today"
+    },
+    {
+      "action": "Dining Services and hospital food service pull inventory against the FSIS product list (establishments M/P 7839, P 20935A, M 9520); verify against retailer list when posted.",
+      "confidence": "Medium",
+      "likelihood": "Low",
+      "owner": "Dining Services / Sodexo; EH&S",
+      "pir": 3,
+      "rank": 3,
+      "severity": 2,
+      "source": "https://www.foodsafetynews.com/2026/10/more-than-1-5-million-pounds-of-hot-dogs-bacon-sausage-turkey-breasts-and-more-meat-products-of-various-brands-recalled.md",
+      "title": "Kayem Foods RTE meat and poultry recall (FSIS 026-2026), foodservice distribution",
+      "ttd": "Today"
+    },
+    {
+      "action": "Send a representative; Forest Park Ave ramps and Vandeventer bridge are Medical Campus approach routes; first phase could begin late 2026.",
+      "confidence": "Medium",
+      "likelihood": "High",
+      "owner": "Transportation & Parking; Medical Campus operations",
+      "pir": 4,
+      "rank": 4,
+      "severity": 1,
+      "source": "https://ksdk.com/article/news/local/modot-shares-plans-for-major-i-64-upgrades-in-st-louis/63-549f6472-4e70-4d33-a49f-040b31bde6b4",
+      "title": "MoDOT I-64 reconstruction public meeting, today 4-6 pm, 18 Rails at City Foundry",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "Kenya raised to Level 3 (Ebola Bundibugyo) Oct 19: pull the WashU Kenya traveler roster and apply Level-3 review; brief Medical Campus global-health programs on returning-traveler screening.",
+  "unreachable": [
+    "cisa.gov advisory AA26-293A and KEV pages",
+    "stltoday.com (paywall gateway)",
+    "api.weather.gov and spc.noaa.gov direct (AFOS mirror used)",
+    "airnow.gov AQI data",
+    "fsis.usda.gov",
+    "cdc.gov HAN index and NWSS wastewater",
+    "Ameren outage map",
+    "Microsoft 365, AWS, Everbridge, Workday status pages",
+    "events.wustl.edu and happenings.washu.edu",
+    "fema.gov press index",
+    "MoDOT weekly St. Louis work-zone report",
+    "ksdk.com (partial)"
+  ]
+}
