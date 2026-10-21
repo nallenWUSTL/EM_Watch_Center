@@ -44,17 +44,19 @@ All strings unless noted.
 
 `briefings/2026-10-20.json` is a complete example.
 
-## How the task commits here
+## How the files get here
 
-The task runs in a Claude Code Remote session. After its artifact-database
-write it attaches this repository with push access, clones it, writes the two
-files above, commits with the message `Briefing YYYY-MM-DD`, and pushes to
-`main`. It changes nothing else in the repository. A manual "Run Now" follows
-the same path: a second run on the same day replaces that day's file and
-`latest.json`, and the dashboard tab picks it up because `published_at`
-changed. If the attach, clone or push fails, the task skips the step and says
-so in the published briefing's Analytic Note; the dashboard then keeps showing
-the previous record and names the failure in the tab's footer.
+The briefing and water tasks write only the artifact database; they cannot
+push to GitHub, because a task-spawned session starts with no repository
+attached. A separate **Watch Center sync** session, created with this
+repository attached, copies the database to `data/` and pushes to `main`. Two
+scheduled tasks wake it: 6:12 AM Central (after the daily briefing) and hourly
+at :48 (after each water run). It resets to `origin/main`, rewrites only the
+files that differ, commits as `Sync briefing and water watch <date time> CT`,
+and never touches anything else. A manual "Run Now" on the briefing or water
+task reaches the dashboard at the next sync; a same-day briefing re-run
+replaces that day's file and `latest.json`, and the tab picks it up because
+`published_at` changed.
 
 ## Water watch
 
