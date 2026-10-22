@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "1:45 PM CT 10/22 run (four lanes). No new or changed incidents in St. Louis City/County; no incident records altered. open_count corrected to 12 (count of status=open records; prior run reported 13). MAW index unchanged: 142344 U City still listed, detail unchanged (no street, Last Updated and Estimated End blank, ~22 hr past 6 hr estimate); 142418/142419 unspecified County still listed, municipality unknown; 142389 Ballwin, 142388/142315 St. Ann, 142387 Kinloch, 142355/142330 Des Peres, 142351 Rock Hill, 142292 Webster Groves, 142276/142265 Florissant, planned 142270 all still listed; no tracked ID dropped, no resolved ID reappeared; out-of-region 142421/142412 Wood Heights (Ray Co), 142409 Loma Linda (Newton Co), 142340 Branson, 142268/142279 Joplin ignored. No boil advisories: MAW none; City none; MO DNR none in City/County (newest statewide Lawrence Co 10/8). City Water live table stamped 1:30 PM 10/22: no active outages; 2703 N Spring main repair still listed, no completion status; hydrant repairs only at 4823 and 4857 Lexington Ave and 3300 N Kingshighway (10/22), Ring 2, not tracked. MSD nothing 10/20-22; Kirkwood Water page fetch failed; City Water Division news nothing after 8/25. Campus: WashU Alert none active (last modified 10/16); Danforth Facilities 10/21-22 only generator tests and elevator inspections; Med Campus Facilities only crane closure, FLTC sidewalk, McMillan exhaust fan; Source, StudLife, BJC, Cortex, Loop, Forest Park Forever: nothing. Metro rider alerts: only pre-existing #18 Taylor (City Water Division closure W Pine-Laclede, Oct 1-31) and #42 Whittier/Maffitt break (Oct 9-31); non-water BJH Plaza paving Kingshighway-Euclid through 10/31. News: no KSDK/KMOV/FOX2/Post-Dispatch/STLPR/RFT/Patch item datable to 10/21-22; U City home page only 10/21 sanitation delay, CivicAlerts errored; Clayton nothing; Eureka/Richmond Heights/Brentwood/Maplewood/Ladue not reached. Social lane dark (Reddit blocked, X/Facebook not indexed, Nextdoor Olive & Eastover post still undated/blocked); absence of social findings is low-confidence. Next run: 142344 index drop or completion; municipality for 142418/142419; pruning of expired IDs; 2703 N Spring status; any boil advisory.",
-    "open_count": 12,
-    "run_at": "2026-10-22T18:45:00Z",
-    "top_incident": "MAW main break, University City (alert 142344) — began 4:00 PM CT 10/21, ~6 hr repair (now ~22 hr past start with no completion note), street unknown, still on index, Ring 1 by municipality (U City-side Danforth, North Campus, Delmar Loop), no boil order; WashU impact possible, single-source, likely stale. No change this run."
+    "note": "2:45 PM CT 10/22 run (four lanes). Two NEW City Water Division main repairs in south City (Lindenwood Park), both Ring 2, impact none: Marquette Ave & Ivanhoe Ave (initiated 1:41 PM) and Nottingham Ave & Wherry Ave (1:36 PM), from the live table stamped 2:30 PM, which states no active outages and no advisories; a 10/19 Nottingham & Hampton repair is still listed nearby. One housekeeping UPDATE: MAW 142265 Florissant investigation dropped from the index (142276 Florissant main break still listed; record updated, stays open). MAW index otherwise unchanged: 142344 U City still listed, detail unchanged; 142418/142419 unspecified County still listed, municipality unknown; 142389 Ballwin, 142388/142315 St. Ann, 142387 Kinloch, 142355/142330 Des Peres, 142351 Rock Hill, 142292 Webster Groves, 142276 Florissant, planned 142270 all still listed; no resolved ID reappeared; out-of-region 142447 Warrensburg, 142421/142412 Wood Heights, 142409 Loma Linda, 142340 Branson, 142268/142279 Joplin ignored. No boil advisories: MAW none; City none; MO DNR none in City/County. 2703 N Spring still listed as Main - Repair, no completion status; hydrant repairs only at 4823/4857 Lexington and 3300 N Kingshighway (Ring 2, not tracked). MSD nothing 10/21-22; Kirkwood Water fetch failed; City street-closures page failed; City Water Division news nothing after 8/25. Campus: WashU Alert none active; Danforth Facilities only generator tests; Med Campus Facilities only Hospital Dr lane restriction, FLTC sidewalk, Metro Garage, South Euclid bridge work (non-water); Source, StudLife, BJC, Cortex, Loop, Forest Park Forever nothing. Metro rider alerts unchanged (#18 Taylor, #42 Whittier/Maffitt, BJH Plaza paving). News: nothing datable to 10/21-22; U City home page notes undated Pershing St (Linden-Forest Park Pkwy) paving postponed for MAW service-line replacement (planned work, not tracked); Clayton nothing; ksdk/fox2now/nextdoor blocked so three undated candidates unverified. Social lane dark; absence is low-confidence. open_count 14 (12 prior + 2 new). Next run: 142344 index drop or completion; municipality for 142418/142419; status of the three City main repairs; any boil advisory.",
+    "open_count": 14,
+    "run_at": "2026-10-22T19:45:00Z",
+    "top_incident": "MAW main break, University City (alert 142344) — began 4:00 PM CT 10/21, ~6 hr repair (now ~23 hr past start with no completion note), street unknown, still on index with 10/22 expiration, Ring 1 by municipality (U City-side Danforth, North Campus, Delmar Loop), no boil order; WashU impact possible, single-source, likely stale. No change this run."
   },
   "incidents": [
     {
@@ -105,11 +105,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "MAW alert 142276: emergency main-break repairs beginning 10/21 9:45 AM CT, ~8 hr estimate (roughly 5:45 PM), no street, no boil advisory; a separate Florissant service investigation (142265) also remains listed. Florissant is north St. Louis County, roughly 12 mi from Danforth and the Medical Campus, different MAW pressure zone; no WashU asset. Impact none. Monitor; resolve when dropped from the MAW index.",
+      "assessment": "2:40 PM CT 10/22 update: the separate Florissant service investigation 142265 has dropped off the MAW active alerts index (Lanes 1, 3 and 4); treated as cleared. Main-break alert 142276 remains listed: emergency repairs beginning 10/21 9:45 AM CT, ~8 hr estimate (nominal end ~5:45 PM 10/21, now ~29 hr past start with no completion note), no street, no boil advisory (MAW boil page none; MO DNR none in City/County). Florissant is north St. Louis County, roughly 12 mi from Danforth and the Medical Campus, different MAW pressure zone; no WashU asset. Impact none. Monitor; resolve when 142276 is dropped from the MAW index.",
       "confidence": "Medium",
       "first_seen": "2026-10-21T15:45:00Z",
       "id": "maw-florissant-unlocated-20261021",
-      "last_updated": "2026-10-21T15:45:00Z",
+      "last_updated": "2026-10-22T19:45:00Z",
       "location": "Florissant, MO (street not published by utility)",
       "ring": 2,
       "single_source": true,
@@ -440,6 +440,44 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division service outages, N 9th St & Benton St and N 10th St & Benton St (Old North St. Louis)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New work order on the live City Water Division table (stlwater.com/wateroos.php, stamped 2:30 PM CT 10/22): Main - Repair at Marquette Ave & Ivanhoe Ave, initiated 10/22 1:41 PM CT. Listed under Recent Maintenance/Repair Projects, not as an active outage (page states no active water main outages); no restoration estimate; no boil advisory on City page, MAW page or MO DNR dataset. Posted five minutes after a second repair at Nottingham & Wherry about half a mile west (separate record); a 10/19 repair at Nottingham & Hampton is also still listed, suggesting a recurring south-City area. Lindenwood Park is roughly 3.5-4 mi SE of South Campus and Danforth and ~4 mi SW of the Medical Campus; separate City distribution area; no WashU asset; no Ring 1 corridor. Impact none. Seen by Lane 1 from the utility page; supervisor confirmed on the live table; no news or social corroboration. Monitor; resolve when dropped from the recent-repairs list or after 48 hours with no outage posted. Owner: Emergency Management (track only).",
+      "confidence": "High",
+      "first_seen": "2026-10-22T19:40:00Z",
+      "id": "stlwater-stlouiscity-marquette-20261022",
+      "last_updated": "2026-10-22T19:45:00Z",
+      "location": "Marquette Ave & Ivanhoe Ave, 63109, St. Louis City (Lindenwood Park, south City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php",
+        "https://www.stlwater.com/outages"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division main repair, Marquette Ave & Ivanhoe Ave (Lindenwood Park)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New work order on the live City Water Division table (stlwater.com/wateroos.php, stamped 2:30 PM CT 10/22): Main - Repair at Nottingham Ave & Wherry Ave, initiated 10/22 1:36 PM CT. Listed under Recent Maintenance/Repair Projects, not as an active outage (page states no active water main outages); no restoration estimate; no boil advisory on City page, MAW page or MO DNR dataset. A 10/19 Main - Repair at Nottingham & Hampton (one block east, untracked) is still listed and a second new repair at Marquette & Ivanhoe followed five minutes later (separate record), so this south-City area may be seeing repeat breaks. Roughly 3.5-4 mi SE of South Campus and Danforth and ~4 mi SW of the Medical Campus; separate City distribution area; no WashU asset; no Ring 1 corridor. Impact none. Seen by Lane 1 from the utility page; supervisor confirmed on the live table; no news or social corroboration. Monitor; resolve when dropped from the recent-repairs list or after 48 hours with no outage posted. Owner: Emergency Management (track only).",
+      "confidence": "High",
+      "first_seen": "2026-10-22T19:40:00Z",
+      "id": "stlwater-stlouiscity-nottingham-20261022",
+      "last_updated": "2026-10-22T19:45:00Z",
+      "location": "Nottingham Ave & Wherry Ave, 63109, St. Louis City (Lindenwood Park / St. Louis Hills border, south City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php",
+        "https://www.stlwater.com/outages"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division main repair, Nottingham Ave & Wherry Ave (Lindenwood Park / St. Louis Hills)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
