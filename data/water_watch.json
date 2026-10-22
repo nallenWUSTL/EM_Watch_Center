@@ -1,12 +1,31 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "5:45 AM CT 10/22 run (four lanes). NOTHING NEW and no status changes; no incident records altered. MAW index unchanged: all 14 St. Louis-area IDs still listed (142355, 142351, 142344, 142330, 142315, 142292, 142276, 142265, 142262, 142261, 142260, 142259, 142176, planned 142270); 11 carry lapsed 10/21 expirations, 142355/142351/142344 expire 10/22. Lane 1 probed IDs above 142355: 142357 WV, 142358 NJ, 142360-142380 empty shells — no new Missouri alert. Detail pages 142344/142261/142355/142351 unchanged (no street, Last Updated and Estimated End blank, no completion). City Water live table (wateroos.php, stamped 5:30 AM 10/22): N 9th & Benton and N 10th & Benton still active ~6 hr past 11:35 PM estimates, no advisory. No boil advisories: MAW none; City none; MO DNR none in City/County (newest statewide Lawrence Co 10/8). City Water news, MSD, Kirkwood: nothing new. Campus: WashU Alert none active (last mod 10/16); Danforth Facilities newest 10/21 Bryan Hall generator test (10/27), no water notices since McKelvey domestic-water valve work 10/3-4; Medical Campus Facilities 10/21 posts: East Imaging crane 10/24, FLTC east sidewalk/ramp closure 10/22-26, Hospital Dr single-lane week of 10/19 — no water; Source, StudLife, Cortex, Loop, Forest Park Forever: nothing; Metro only pre-existing Taylor and Whittier/Maffitt water reroutes. U City CivicAlerts nothing since 9/28; Clayton, Des Peres, Rock Hill, Webster Groves pages: no water notices. News: KSDK, FirstAlert4, FOX 2, STLPR, Patch — nothing dated 10/21-22; Post-Dispatch blocked. Undated FOX 2 N. Hanley (Maryland-Forest Park Pkwy) 20-inch main story references Monday night/Tuesday, not adopted for 142261. Social: no dated 10/21-22 posts; Olive & Eastover Nextdoor lead still undated/blocked. Unreachable: X, Reddit, Nextdoor, Facebook, MAW Customer Advisory Map, stltoday, fox2now/yahoo article bodies, claytonmo.gov news pages. Next run: 142344 completion or index drop; business-hours pruning of 10/21-expired IDs incl. Clayton 142261; N 9th/10th & Benton restoration; any boil advisory.",
-    "open_count": 12,
-    "run_at": "2026-10-22T10:45:00Z",
-    "top_incident": "MAW main break, University City (alert 142344) — began 4:00 PM CT 10/21, ~6 hr repair (nominal target ~10 PM, now ~7.75 hr past with no completion note), street unknown, index expiry 10/22, Ring 1 by municipality (U City-side Danforth, North Campus, Delmar Loop), no boil order; WashU impact possible, single-source. Clayton 142261 still listed ~13 hr past its nominal window, street unknown, likely stale."
+    "note": "8:45 AM CT 10/22 run (four lanes). THREE NEW Ring 2 MAW main breaks posted 8:00 AM CT 10/22: Ballwin 142389, St. Ann 142388 (second St. Ann), Kinloch 142387; all 6-8 hr estimates, no street, no boil advisory, no WashU asset, impact none. No status changes to tracked items; no tracked records altered. MAW index: all 14 prior St. Louis-area IDs still listed (none dropped despite 10/21 expirations), plus the three new ones. Lane 1 probed 142356-142400: others are out-of-state (IN, TN, VA, WV, PA, NJ, KY). Detail pages 142344/142261/142355 unchanged (no street, Last Updated and Estimated End blank, no completion). City Water live table (wateroos.php, 8:30 AM 10/22): N 9th & Benton and N 10th & Benton still active ~9 hr past 11:35 PM estimates, no advisory; routine hydrant repair 3300 N Kingshighway 10/22 6 AM. No boil advisories: MAW none; City none; MO DNR none in City/County (newest statewide Lawrence Co 10/8). City Water news (nothing since June), MSD (only 10/21 DNR grant, sewer), Kirkwood: nothing. Campus: WashU Alert none active (last mod 10/16); Danforth Facilities newest 10/21 Bryan Hall generator test; Medical Campus Facilities unchanged (East Imaging crane 10/24, FLTC sidewalk 10/22-26, Hospital Dr lane); Source, StudLife, Cortex, Loop, Forest Park Forever: nothing; Metro only pre-existing Taylor and Whittier/Maffitt water reroutes. U City NewsFlash only 10/21 sanitation delay; Clayton news pages still client errors. News: KSDK, FirstAlert4, FOX 2, STLPR, Patch nothing dated 10/21-22; Post-Dispatch blocked. Social lane dark: X, Reddit, Nextdoor, Facebook blocked; TrackOutages no STL reports; treat social as uncovered, not clear. Next run: 142344 completion or index drop; business-hours pruning of 10/21-expired IDs incl. Clayton 142261; N 9th/10th & Benton restoration; any boil advisory.",
+    "open_count": 15,
+    "run_at": "2026-10-22T13:45:00Z",
+    "top_incident": "MAW main break, University City (alert 142344) — began 4:00 PM CT 10/21, ~6 hr repair (nominal target ~10 PM, now ~10.75 hr past with no completion note), street unknown, still on index, Ring 1 by municipality (U City-side Danforth, North Campus, Delmar Loop), no boil order; WashU impact possible, single-source. Clayton 142261 still listed ~16 hr past its nominal window, street unknown, likely stale."
   },
   "incidents": [
+    {
+      "affected_assets": [],
+      "assessment": "New MAW alert 142389 seen by all four lanes at ~8:40 AM CT 10/22: emergency main-break repairs in Ballwin beginning 10/22 8:00 AM CT, ~6-8 hr estimate (roughly 2-4 PM); no street, Last Updated and Estimated End blank; possible discolored water / low or no pressure; no boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). Ballwin is west St. Louis County (Manchester Rd), roughly 8-10 mi east of Tyson Research Center (on its own well supply, not MAW Ballwin distribution) and ~12 mi WSW of West and South Campus, different MAW pressure zone; no WashU asset. Impact none. No news or social corroboration. Monitor; resolve when dropped from the MAW index. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-22T13:40:00Z",
+      "id": "maw-ballwin-unlocated-20261022",
+      "last_updated": "2026-10-22T13:45:00Z",
+      "location": "Ballwin, MO (street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.amwater.com/moaw/alerts",
+        "https://alertsdetail.awapps.com/alert/142389"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Ballwin — emergency repairs (alert 142389)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
     {
       "affected_assets": [
         "West Campus",
@@ -125,6 +144,25 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New MAW alert 142387 seen by all four lanes at ~8:40 AM CT 10/22: emergency main-break repairs in Kinloch beginning 10/22 8:00 AM CT, ~6-8 hr estimate (roughly 2-4 PM); no street, Last Updated and Estimated End blank; no boil advisory (MAW boil page none; MO DNR none in City/County). Kinloch is north St. Louis County near Lambert, roughly 8-9 mi from North Campus and Danforth, different MAW pressure zone; no WashU asset. Impact none. No news or social corroboration. Monitor; resolve when dropped from the MAW index. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-22T13:40:00Z",
+      "id": "maw-kinloch-unlocated-20261022",
+      "last_updated": "2026-10-22T13:45:00Z",
+      "location": "Kinloch, MO (street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.amwater.com/moaw/alerts",
+        "https://alertsdetail.awapps.com/alert/142387"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Kinloch — emergency repairs (alert 142387)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Two new MAW main-break alerts in Maryland Heights starting 10/21 8:45 AM and 9:00 AM CT (index only; detail pages not opened). Maryland Heights is NW St. Louis County, roughly 10 mi from Danforth, different pressure zone; no WashU asset. Impact none. Monitor; resolve when dropped from the MAW index.",
       "confidence": "Medium",
       "first_seen": "2026-10-21T14:45:00Z",
@@ -198,6 +236,25 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, St. Ann — emergency repairs (alert 142315)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New MAW alert 142388 seen by all four lanes at ~8:40 AM CT 10/22: second, distinct St. Ann main break (142315 from 10/21 1:45 PM still listed). Begins 10/22 8:00 AM CT, ~6-8 hr estimate (roughly 2-4 PM); no street, Last Updated and Estimated End blank; no boil advisory (MAW boil page none; MO DNR none in City/County). St. Ann is NW St. Louis County near Lambert, roughly 9-10 mi from Danforth and the Medical Campus, different MAW pressure zone; no WashU asset. Impact none. No news or social corroboration. Monitor; resolve when dropped from the MAW index. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-22T13:40:00Z",
+      "id": "maw-stann-unlocated-20261022",
+      "last_updated": "2026-10-22T13:45:00Z",
+      "location": "St. Ann, MO (street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.amwater.com/moaw/alerts",
+        "https://alertsdetail.awapps.com/alert/142388"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, St. Ann — second break, emergency repairs (alert 142388)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
