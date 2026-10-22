@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "9:45 AM CT 10/22 run (four lanes). NOTHING NEW and no status changes; no tracked incident records altered. MAW index unchanged since 8:45 AM: all 17 St. Louis-area IDs still listed (142389 Ballwin, 142388/142315 St. Ann, 142387 Kinloch, 142355/142330 Des Peres, 142344 U City, 142261 Clayton, 142351 Rock Hill, 142292 Webster Groves, 142276/142265 Florissant, 142262/142260 Maryland Heights, 142259 County, 142176 Hazelwood) plus planned-work notice 142270 Rock Hill; none dropped, none marked complete, no streets added. Lane 1 probed 142390-142397: all out of state (TN, VA, WV, PA, NJ, KY, MD). Detail pages 142344/142261/142389/142388/142387 unchanged. City Water live table (wateroos.php, 9:30 AM 10/22): N 9th & Benton and N 10th & Benton still active ~10 hr past 11:35 PM estimates, no advisory. No boil advisories: MAW none; City none; MO DNR none in City/County (newest statewide Lawrence Co 10/8). City Water news (newest 8/25), Kirkwood: nothing. Campus: WashU Alert none active; Danforth Facilities newest 10/21 generator test; Medical Campus Facilities unchanged (East Imaging crane 10/24, FLTC sidewalk 10/22-26, Hospital Dr lane); Source, StudLife, Cortex, Loop, Forest Park Forever: nothing; Metro only pre-existing Taylor (since 10/1) and Whittier/Maffitt (since 10/9) water reroutes. U City: only 10/21 sanitation delay and undated Pershing (Linden-Forest Park Pkwy) paving postponed for MAW service-line replacements (planned work). Clayton news/road-closure pages still client errors. News: FirstAlert4, STLPR, KSDK, Patch U City nothing dated 10/21-22; FOX 2 fetcher serves stale cache; Post-Dispatch, Yahoo blocked. Undated KSDK archive candidates not adopted (13th & Branch; Webster Groves Elm & Lockwood = 2022; River Des Peres & Chippewa). Social lane dark: X, Reddit, Nextdoor, Facebook blocked; treat social as uncovered. Olive & Eastover Nextdoor lead still undated. Next run: 142344/142261 index drop or completion; business-hours pruning of 10/21-expired IDs; N 9th/10th & Benton restoration; any boil advisory; try MAW Customer Advisory Map for pins.",
-    "open_count": 15,
-    "run_at": "2026-10-22T14:45:00Z",
-    "top_incident": "MAW main break, University City (alert 142344) — began 4:00 PM CT 10/21, ~6 hr repair (now ~18.75 hr past start with no completion note), street unknown, still on index (expiration 10/21), Ring 1 by municipality (U City-side Danforth, North Campus, Delmar Loop), no boil order; WashU impact possible, single-source, likely stale. Clayton 142261 still listed ~26 hr past start, street unknown, likely stale."
+    "note": "10:45 AM CT 10/22 run (four lanes). Changes, all Ring 2 / impact none: City Water N 9th & 10th & Benton (Old North) dropped from the live outage table (10:30 AM stamp, 'no active water main outages') — resolved; MAW 142176 Hazelwood dropped from the index and detail page blank — resolved; NEW City Water main repair work order 2703 N Spring Ave (Greater Ville, initiated 9:19 AM 10/22), listed as recent repair not active outage, no advisory. No records altered for incidents without change. MAW index otherwise unchanged: 142344 U City and 142261 Clayton still listed with no street, blank Last Updated/Estimated End, not marked complete; 142389 Ballwin, 142388/142315 St. Ann, 142387 Kinloch, 142355/142330 Des Peres, 142351 Rock Hill, 142292 Webster Groves, 142276/142265 Florissant, 142262/142260 Maryland Heights, 142259 County, planned-work 142270 all still listed. Probe 142390-142410: only 142409 Loma Linda (Newton Co., out of region); rest out of state. No boil advisories: MAW none; City none; MO DNR none in City/County (newest statewide Lawrence Co 10/8). MSD, City Water Division news (newest 8/25), City Streets: nothing. Campus: WashU Alert none active; Danforth Facilities no water items (EPO-Danforth notification-process change effective 11/1); Medical Campus Facilities non-water items only (East Imaging crane 10/24, FLTC sidewalk from 10/22, Hospital Dr lane); Source, StudLife, Cortex, Loop, Forest Park Forever: nothing; Metro only pre-existing Taylor and Whittier/Maffitt water reroutes. U City homepage: Pershing paving postponement for MAW service lines unchanged; CivicAlerts blocked. Clayton homepage: no notices; CivicAlerts errors. News: no KSDK/KMOV/FOX2/STLPR/RFT/Patch/Post-Dispatch item datable to 10/21-22; undated FOX 2 Clayton N Hanley (Maryland-Forest Park Pkwy) archive still not adopted as the 142261 street. Social lane dark: X, Reddit, Nextdoor, Facebook and MAW Customer Advisory Map blocked. Kirkwood Water, BJC, MoDOT not reached in time budget. Next run: 142344/142261 index drop or completion; business-hours pruning of 10/21-expired IDs; 2703 N Spring status; any boil advisory.",
+    "open_count": 14,
+    "run_at": "2026-10-22T15:45:00Z",
+    "top_incident": "MAW main break, University City (alert 142344) — began 4:00 PM CT 10/21, ~6 hr repair (now ~19.5 hr past start with no completion note), street unknown, still on index (expiration 10/21), Ring 1 by municipality (U City-side Danforth, North Campus, Delmar Loop), no boil order; WashU impact possible, single-source, likely stale. Clayton 142261 still listed ~26 hr past start, street unknown, likely stale."
   },
   "incidents": [
     {
@@ -124,11 +124,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "At ~10:40 AM CT 10/21 alert 142176 is still on the MAW active alerts index (expires 10/21) but its detail page now renders only an empty welcome shell, suggesting the alert content was cleared; likely resolved. No boil advisory; no news or social corroboration. Hazelwood is north St. Louis County, roughly 15 mi from Danforth and the Medical Campus, different pressure zone; WashU impact none. Keep monitoring; resolve when dropped from the index.",
+      "assessment": "Resolved 10:40 AM CT 10/22: alert 142176 no longer appears on the MAW active alerts index (Lane 1) and its detail URL returns only the generic welcome page, after showing an empty shell since 10/21 morning. Treated as repair complete / alert expired per utility index. No street ever published, no boil advisory. Hazelwood is north St. Louis County, roughly 15 mi from Danforth and the Medical Campus; no WashU asset; impact none.",
       "confidence": "Medium",
       "first_seen": "2026-10-21T00:40:00Z",
       "id": "maw-hazelwood-unlocated-20261020",
-      "last_updated": "2026-10-21T15:45:00Z",
+      "last_updated": "2026-10-22T15:45:00Z",
       "location": "Hazelwood, MO (street not published by utility)",
       "ring": 2,
       "single_source": true,
@@ -137,7 +137,7 @@
         "https://alertsdetail.awapps.com/alert/142176",
         "https://amwater.com/moaw/Water-Quality/Boil-Water-Advisories-Orders"
       ],
-      "status": "monitoring",
+      "status": "resolved",
       "title": "Missouri American Water main break, Hazelwood — emergency repairs (alert 142176)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
@@ -405,19 +405,39 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Two adjacent outages listed on the live City Water Division outage table (stlwater.com/wateroos.php, stamped 1:30 AM CT 10/22): N 9th & Benton out of service 5:36 PM 10/21 (est. restoration 11:36 PM 10/21, passed) and N 10th & Benton out of service 5:34 PM 10/21 (est. 11:34 PM, passed); both still shown as crews actively working; no boil advisory on the City page, MAW page or MO DNR dataset. Likely one main break affecting two blocks. Old North St. Louis, north of downtown, roughly 3 mi NE of the Medical Campus and Cortex and 4-5 mi NE of Danforth; separate distribution area; no WashU asset; no Ring 1 corridor. Impact none. Found by Lane 4 via the live wateroos.php table (the /outages URL served a cached 1:30 PM 10/21 copy to Lanes 1-2); confirmed by supervisor. No news or social corroboration. Monitor; resolve when dropped from the live City outage table. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 10:40 AM CT 10/22: both Old North outages (N 9th & Benton, N 10th & Benton, out since ~5:35 PM 10/21) no longer appear on the live City Water Division outage table (stlwater.com/wateroos.php, stamped 10:30 AM 10/22, which states no active water main outages); confirmed by Lanes 1, 2 and 4 and by supervisor. Treated as restored per utility page, roughly 17 hours after the outage began; no boil advisory was ever posted. Ring 2, no WashU asset; impact none.",
       "confidence": "High",
       "first_seen": "2026-10-22T06:45:00Z",
       "id": "stlwater-stlouiscity-benton-20261021",
-      "last_updated": "2026-10-22T06:50:00Z",
+      "last_updated": "2026-10-22T15:45:00Z",
       "location": "N 9th St between Benton St and Warren St, and N 10th St between Benton St and Montgomery St, St. Louis City (Old North St. Louis)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/wateroos.php"
+        "https://www.stlwater.com/wateroos.php",
+        "https://www.stlwater.com/outages"
+      ],
+      "status": "resolved",
+      "title": "City of St. Louis Water Division service outages, N 9th St & Benton St and N 10th St & Benton St (Old North St. Louis)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New work order on the live City Water Division table (stlwater.com/wateroos.php, stamped 10:30 AM CT 10/22): Main - Repair at 2703 N Spring Ave, initiated 10/22 9:19 AM CT. Listed under Recent Maintenance/Repair Projects, not as an active outage (page states no active water main outages); no restoration estimate; no boil advisory on City page, MAW page or MO DNR dataset. North city, roughly 2.5-3 mi NE of the Medical Campus and Cortex, 4+ mi NE of Danforth; separate distribution area; no WashU asset; no Ring 1 corridor. Impact none. Seen by Lanes 1, 2 and 4 from the same utility page; supervisor confirmed; no news or social corroboration. Monitor; resolve when dropped from the recent-repairs list or after 48 hours with no outage posted. Owner: Emergency Management (track only).",
+      "confidence": "High",
+      "first_seen": "2026-10-22T15:35:00Z",
+      "id": "stlwater-stlouiscity-nspring-20261022",
+      "last_updated": "2026-10-22T15:45:00Z",
+      "location": "2703 N Spring Ave, 63113, St. Louis City (N Spring Ave between St. Louis Ave and Natural Bridge Ave, Greater Ville / JeffVanderLou)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php",
+        "https://www.stlwater.com/outages"
       ],
       "status": "open",
-      "title": "City of St. Louis Water Division service outages, N 9th St & Benton St and N 10th St & Benton St (Old North St. Louis)",
+      "title": "City of St. Louis Water Division main repair, 2703 N Spring Ave (Greater Ville / JeffVanderLou)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
