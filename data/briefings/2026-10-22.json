@@ -1,0 +1,239 @@
+{
+  "bluf": "Posture Normal. Campus physical picture quiet: no WashU Alert, no Ring 1 violent incident, no NWS product, rivers low, no health advisory. Today's action is cyber: PHP2Shell (CVE-2026-109618/109619), a pre-auth RCE pair in every web-serving PHP build, patched Oct 21 and under mass exploitation; every WashU-run PHP site is exposed until patched. Kenya moved to Level 3 on Oct 19 and needs a traveler and program review. Weather warm, dry and calm through Monday; Fri to Sun event load is stacked but light; Parent and Family Weekend (Oct 30 to Nov 1, with Halloween Saturday) needs a staffing plan by Mon Oct 26.",
+  "briefing_url": "https://claude.ai/artifact/2kwPvuGHFgVijSpdyH1267",
+  "date": "2026-10-22",
+  "dissents": [
+    {
+      "note": "Convergence with Lane 4 adopted; ranked This week with BJC downtime-kit action added. Severity held at 3 (Red Team argued 4) because no WashU/BJC exploitation is indicated and the Parkview report is unconfirmed. PHP2Shell carries the Severity 4 today.",
+      "title": "Edge-device zero-days plus hospital ransomware are underrated",
+      "verdict": "Adopted in part"
+    },
+    {
+      "note": "Oct 18 US Embassy Jerusalem alert confirmed to exist but text not read; Lane 2 found no threat naming WashU and no local indicator. Not ranked; carried because the action is cheap: WUPD request the FBI St. Louis/JTTF read and keep Shabbat and ROTC venues on patrol plans.",
+      "title": "Homeland threat environment is background noise to local analysts",
+      "verdict": "Carried as dissent"
+    },
+    {
+      "note": "Lane 1 independently scored all weather Severity 1; no Red Flag, no drought in St. Louis County.",
+      "title": "Weather and fire risk will be overrated",
+      "verdict": "Moot"
+    },
+    {
+      "note": "Football away, Family Weekend outside horizon, no announced labor or protest action. Weekend loads held at Severity 1-2, flagged as stacked days only.",
+      "title": "Campus crowd and protest risk will be overrated",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Winds 0-5 mph all week (confirmed) would pool leaked gas against Stix House and South 40 residences. Indicators: odor calls, Spire trucks on Forsyth, Clayton FD staging, contractor halting work. First action: WashU Alert shelter/evacuate downwind South 40 buildings, hold Forsyth traffic, request Spire isolation. Severity 5, Very Low, Low confidence. Supervisor adds: keep the Medical Campus boil-advisory plan current after two City water pressure losses this summer.",
+      "title": "Scenario: gas strike at 6200 Forsyth / South 40 excavation under calm winds",
+      "verdict": "Carried as scenario"
+    }
+  ],
+  "lanes_quiet": [
+    1,
+    3
+  ],
+  "lookahead": [
+    {
+      "date": "2026-10-22",
+      "dow": "Thu",
+      "loads": [
+        "Bike to Campus Day",
+        "Mean Girls, Edison 7:30 PM",
+        "CCHP Cuba talk, Busch 100 5:30 PM",
+        "Blues vs Vegas 7 PM downtown",
+        "Blue Line single-tracking after 6 PM"
+      ],
+      "stacked": false,
+      "wx": "78/48 sunny, calm"
+    },
+    {
+      "date": "2026-10-23",
+      "dow": "Fri",
+      "loads": [
+        "M soccer vs Rochester 5 PM, W soccer 7:30 PM (Francis Field)",
+        "Mean Girls 7:30 PM",
+        "Arena concert 8 PM, GalaxyCon opens, SLU exhibition downtown",
+        "Last day Blue Line single-tracking",
+        "Missouri weekly respiratory report"
+      ],
+      "stacked": true,
+      "wx": "75/45 sunny; patchy fog I-44 near Tyson early"
+    },
+    {
+      "date": "2026-10-24",
+      "dow": "Sat",
+      "loads": [
+        "Hot Cider Hustle 5K/10K, Festival Plaza 8:30-11 AM (park-road restrictions likely)",
+        "Mean Girls 2 PM and 7:30 PM",
+        "Blues vs Carolina 6 PM, DaBaby at Chaifetz 8 PM, GalaxyCon; I-64/Kingshighway pressure evening",
+        "Football away at Wabash",
+        "Halloween parties begin"
+      ],
+      "stacked": true,
+      "wx": "75/48 mostly sunny; lightning risk negligible"
+    },
+    {
+      "date": "2026-10-25",
+      "dow": "Sun",
+      "loads": [
+        "M soccer vs Emory 11 AM, W soccer 1:30 PM, volleyball vs No. 5 CMU (verify start time)",
+        "Mean Girls 2 PM",
+        "Loop Trolley final day 11 AM-7 PM",
+        "Forest Park Forever member event, Langenberg 1-3 PM",
+        "Lewiston anniversary"
+      ],
+      "stacked": true,
+      "wx": "78/50 mostly cloudy"
+    },
+    {
+      "date": "2026-10-26",
+      "dow": "Mon",
+      "loads": [
+        "Deadline: Parent and Family Weekend staffing plan",
+        "SLU women's basketball 7 PM",
+        "Route D (Page/MLK) daytime lane closure Mon-Wed"
+      ],
+      "stacked": false,
+      "wx": "78/50 mostly cloudy"
+    },
+    {
+      "date": "2026-10-27",
+      "dow": "Tue",
+      "loads": [
+        "Frontal passage window, low confidence",
+        "CCHP Cuba talk second listing",
+        "Blues vs Montreal 7 PM",
+        "Tree of Life anniversary"
+      ],
+      "stacked": false,
+      "wx": "72/45 mostly cloudy; isolated showers possible around commutes (20-30%)"
+    },
+    {
+      "date": "2026-10-28",
+      "dow": "Wed",
+      "loads": [
+        "AEW at Chaifetz 6:30 PM",
+        "Light campus load; Parent and Family Weekend begins Fri Oct 30"
+      ],
+      "stacked": false,
+      "wx": "About 70, mostly sunny"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "quiet",
+      "summary": "No NWS product; warm, dry, calm through Mon (highs 75-78, lows mid-40s, wind under 5 mph). SPC/WPC risk confined to the Plains. Mississippi at St. Louis 8.1 ft, Missouri at St. Charles 12.8 ft. No M2.0+ within 250 km since Oct 15. Tyson: min RH 31-37%, no Red Flag. Monitor a front Tue Oct 27 with isolated showers possible around commutes (20-30%, low confidence); patchy fog on I-44 near Tyson Fri-Sat mornings."
+    },
+    {
+      "name": "Life safety",
+      "pir": 2,
+      "status": "watch",
+      "summary": "No WashU Alert, no Ring 1 violent incident, no threat naming WashU, no demonstration over 100 planned. Regional vehicle break-in crews (today item 3). Peer cluster Oct 20: Pitt bomb-threat post and Posvar Hall evacuation; Virginia Union parking-lot shooting; copycat potential into midterms and Halloween week. Anniversary window Oct 25 and Oct 27. Post-Dispatch, Clayton PD and University City PD pages unreadable this run."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "quiet",
+      "summary": "No local advisory, no hospital diversion, no campus or college outbreak. Missouri measles 18 cases YTD (Oct 20), no active public exposures; MMR coverage 89.5%. Flu at early-season baseline, rising early nationally. Kayem recall is today item 4."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "active",
+      "summary": "PHP2Shell is today item 1. CISA KEV added 13 CVEs in the past week (PAN-OS, Cisco Secure Email Gateway, Fortinet, BeyondTrust, Atlassian, AhsayCBS); Qilin ransomware put Community Medical Center, Falls City NE on diversion Oct 17-19 (confirmed); Parkview Health report unconfirmed. Action this week: confirm edge-device patch state and validate EHR downtime kits with BJC IS. Taylor Ave. at BJH Plaza closed with Metro reroutes through Oct 31. Blue Line single-tracking after 6 PM through Oct 23. Water main breaks in Clayton and University City Oct 21 resolved, no boil advisory. CISA.gov and Ameren map unreachable."
+    },
+    {
+      "name": "Scheduled activity, next 7 days",
+      "pir": 5,
+      "status": "watch",
+      "summary": "Stacked Fri-Sun: four home soccer matches and volleyball vs No. 5 CMU, Mean Girls at Edison (5 shows), Hot Cider Hustle in Forest Park Sat 8:30-11 AM, downtown Blues/concert/GalaxyCon loads. Football away. No Ring 1 event over 5,000, no notable speaker, no named-corridor closure. Parent and Family Weekend Oct 30-Nov 1 stacks with Halloween Saturday and home football vs Denison: staffing plan due Mon Oct 26. Confirm 6200 Forsyth/Wallace Dr. fencing and pedestrian routing."
+    },
+    {
+      "name": "Policy, legal, funding",
+      "pir": 6,
+      "status": "watch",
+      "summary": "Kenya Level 3 is today item 2. FEMA FY27 Counter-UAS NOFO ($250M, SAA applies by Nov 16, 97% pass-through): ask St. Louis UASI/OHS about a campus-adjacent subaward. No shutdown; CR runs to Dec 11, refresh contingency by Dec 1. Peer lesson: Miami University Oct 15 fireworks-as-shots alert and all-clear confusion. No BRIC/HMGP/HSGP/NSGP change, no SEMA notice, no Clery or Title IX action. EAS nationwide test Nov 17."
+    }
+  ],
+  "posture": "Normal",
+  "published_at": "2026-10-22T15:58:00Z",
+  "run_note": "Late re-run: the scheduled 5:52 AM CDT run failed on a usage-limit error; re-run started 10:43 AM and published about 10:58 AM CDT. Charter read in full (rev 10). All seven lanes completed. Both Severity 4 items re-verified by the supervisor.",
+  "title": "WashU EM Daily Intelligence Briefing, October 22, 2026",
+  "today_items": [
+    {
+      "action": "Inventory every internet-facing PHP host incl. departmental WordPress, lab portals and appliance-embedded PHP; patch to 8.5.12/8.4.27/8.3.36/8.2.35 or take offline today; push WAF rules; hunt for PHP spawning shells; confirm WashU Medicine web properties on the BJC-shared network are in scope.",
+      "confidence": "High",
+      "likelihood": "High",
+      "owner": "WashU IT Office of Information Security; WashU Medicine IS",
+      "pir": 4,
+      "rank": 1,
+      "severity": 4,
+      "source": "https://www.helpnetsecurity.com/2026/10/21/php2shell-php-vulnerabilities-patched-cve-2026-109618-cve-2026-109619/",
+      "title": "PHP2Shell RCE, mass exploitation under way",
+      "ttd": "Now"
+    },
+    {
+      "action": "Inventory current WashU travelers and programs in Kenya; apply the Level 3 petition process; brief travelers on Nairobi Level 4 areas; confirm returning-traveler screening with BJC (Barnes-Jewish is the DHSS-designated Ebola assessment hospital).",
+      "confidence": "High",
+      "likelihood": "Occurring",
+      "owner": "Office of Overseas Programs; International Travel Oversight Committee; EH&S / Occupational Health",
+      "pir": 6,
+      "rank": 2,
+      "severity": 3,
+      "source": "https://travel.state.gov/en/international-travel/travel-advisories/kenya.html",
+      "title": "Kenya raised to Level 3 Reconsider Travel (Ebola Bundibugyo, crime, kidnapping)",
+      "ttd": "Today"
+    },
+    {
+      "action": "Overnight patrol emphasis tonight through the weekend on Danforth garages, West Campus and Loop MetroLink lots, Lofts/Delmar; no-valuables-visible reminder to residents.",
+      "confidence": "High",
+      "likelihood": "Medium",
+      "owner": "WUPD Patrol; Parking & Transportation",
+      "pir": 2,
+      "rank": 3,
+      "severity": 2,
+      "source": "https://www.firstalert4.com/2026/10/21/nearly-40-cars-broken-into-south-st-louis-county/",
+      "title": "Vehicle break-in crews active regionally (40 cars south County, 14+ on The Hill, Oct 21)",
+      "ttd": "Today"
+    },
+    {
+      "action": "Dining verify with distributors whether product under EST. M/P 7839, P 20935A or M 9520 is on hand in campus or Medical Campus dining; pull if so. Single secondary source; FSIS unreachable.",
+      "confidence": "Medium",
+      "likelihood": "Low to Medium",
+      "owner": "Dining Services / Sodexo; EH&S",
+      "pir": 3,
+      "rank": 4,
+      "severity": 2,
+      "source": "https://www.foodsafetynews.com/2026/10/more-than-1-5-million-pounds-of-hot-dogs-bacon-sausage-turkey-breasts-and-more-meat-products-of-various-brands-recalled.md",
+      "title": "Kayem Foods ready-to-eat meat recall (1.5M+ lb, nationwide foodservice)",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "PHP2Shell pre-auth RCE in all PHP 7.x/8.x web stacks, patched Oct 21 and under mass exploitation: inventory and patch every internet-facing WashU PHP host today (IT Office of Information Security; WashU Medicine IS).",
+  "unreachable": [
+    "api.weather.gov",
+    "forecast.weather.gov (stale Oct 20 copy)",
+    "spc.noaa.gov and wpc.ncep.noaa.gov HTML pages",
+    "water.noaa.gov gauge pages",
+    "AirNow St. Louis AQI",
+    "cisa.gov (advisories, KEV JSON)",
+    "Ameren outage map",
+    "Microsoft 365 and AWS status",
+    "Everbridge status",
+    "St. Louis Post-Dispatch (paywall)",
+    "fox2now.com",
+    "Clayton PD and University City PD release pages",
+    "St. Louis County DPH",
+    "USDA FSIS recall page",
+    "CDC HAN and FluView",
+    "Missouri wastewater dashboard",
+    "events.wustl.edu",
+    "The Pageant and Delmar Hall",
+    "fema.gov press and grants pages",
+    "Campus Safety Magazine",
+    "il.usembassy.gov Oct 18 alert text"
+  ]
+}
