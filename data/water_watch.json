@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "3:45 PM CT 10/22 run (four lanes). No new or changed incidents. MAW index (3:40 PM) unchanged: 142344 U City still listed, detail unchanged (no street, no end time); 142418/142419 unspecified County still listed, municipality unknown; 142389 Ballwin, 142388/142315 St. Ann, 142387 Kinloch, 142355/142330 Des Peres, 142351 Rock Hill, 142292 Webster Groves, 142276 Florissant, planned 142270 all still listed; no resolved ID reappeared; out-of-region 142447 Warrensburg (new 3 PM), 142421/142412 Wood Heights, 142409 Loma Linda, 142340 Branson, 142268/142279 Joplin ignored. City Water Division table (stamped 3:30 PM): no active outages; Marquette & Ivanhoe, Nottingham & Wherry, 2703 N Spring main repairs unchanged; one new hydrant repair at 4750 Palm St (initiated 3:00 PM, Penrose / O'Fallon Park, Ring 2, hydrant only, not tracked). No boil advisories: MAW none; City none; MO DNR none in City/County (latest 10/08 Lawrence County). MSD nothing 10/20-22; Kirkwood no October alerts; City Water Division news endpoint client error; City street-closures page fetch failed. Campus: WashU Alert none active (last 10/15 ShakeOut); Danforth Facilities only generator tests, elevator inspections, Life Sciences staircase, 10/20 Power Plant electrical outage; Med Campus Facilities non-water (new: East Imaging Building crane closure 10/24 6-9 AM); Source, StudLife, Cortex, Forest Park Forever nothing water. Metro rider alerts unchanged (#18 Taylor Water Division closure through 10/31, #42 Whittier/Maffitt, BJH Plaza paving). News: U City CivicAlerts only 10/22 leaf collection; FirstAlert4, FOX 2 index, stl.news nothing water 10/21-22; ksdk, fox2now articles, stltoday, claytonmo.gov blocked; undated Yahoo 'basements flooded ... University City' item unfetchable, unverified, likely the June 2026 Olivette/U City event; undated FOX2/KSDK Clayton Hanley Rd archives not adopted. Social lane dark; absence low-confidence. open_count 14 (unchanged). Next run: 142344 index drop or completion; municipality for 142418/142419; status of the three City main repairs; any boil advisory.",
-    "open_count": 14,
-    "run_at": "2026-10-22T20:45:00Z",
-    "top_incident": "MAW main break, University City (alert 142344) — began 4:00 PM CT 10/21, ~6 hr repair (now ~25 hr past start with no completion note), street unknown, still on index, Ring 1 by municipality (U City-side Danforth, North Campus, Delmar Loop), no boil order; WashU impact possible, single-source, likely stale. No change this run."
+    "note": "4:45 PM CT 10/22 run (four lanes). One new Ring 2 incident: City Water Division active outage at Eichelberger St & Virginia Ave (Dutchtown/Carondelet), out 4:24 PM, est. restoration 4:24 AM 10/23, no boil advisory, no WashU asset. MAW index (4:40 PM) unchanged: 142344 U City still listed, detail unchanged (no street, no end time); 142418/142419 unspecified County still listed, municipality unknown; 142389 Ballwin, 142388/142315 St. Ann, 142387 Kinloch, 142355/142330 Des Peres, 142351 Rock Hill, 142292 Webster Groves, 142276 Florissant, planned 142270 all still listed; no resolved ID reappeared; out-of-region 142447 Warrensburg, 142421/142412 Wood Heights, 142409 Loma Linda, 142340 Branson, 142268/142279 Joplin ignored. City table (stamped 4:30 PM): Marquette & Ivanhoe, Nottingham & Wherry, 2703 N Spring main repairs unchanged; new hydrant repairs at 4741/4823/4857 Lexington, 4750 Palm, 3300 N Kingshighway (hydrant only, not tracked). No boil advisories: MAW none; City none; MO DNR none in City/County (latest 10/08 Lawrence County). MSD nothing 10/21-22; Kirkwood page fetch failed, search nothing current. Campus: WashU Alert none active (last 10/15 ShakeOut); Danforth Facilities only generator tests/elevator inspections; Med Campus Facilities non-water (East Imaging crane closure 10/24, FLTC sidewalk concrete repairs from 10/22); Source, Cortex, Loop nothing water; Metro rider alerts unchanged (#18 Taylor through 10/31, #42 Whittier/Maffitt). News: U City CivicAlerts only 10/22 leaf collection; FirstAlert4 index and 10/22 wake-up call, STLPR, Patch U City nothing water; ksdk, fox2now article pages blocked; undated KSDK Clayton Hanley Rd (winter event) and Bonhomme archives not adopted; undated Yahoo Berkeley item not opened. Social lane dark; absence low-confidence. open_count 15. Next run: Eichelberger restoration (~4:24 AM 10/23); 142344 index drop or completion; municipality for 142418/142419; status of the three City main repairs; any boil advisory.",
+    "open_count": 15,
+    "run_at": "2026-10-22T21:45:00Z",
+    "top_incident": "MAW main break, University City (alert 142344) — began 4:00 PM CT 10/21, ~6 hr repair (now ~26 hr past start with no completion note), street unknown, still on index, Ring 1 by municipality (U City-side Danforth, North Campus, Delmar Loop), no boil order; WashU impact possible, single-source, likely stale. No change this run. New this run: City Water Division active outage Eichelberger & Virginia (south City, Ring 2, impact none, est. restore 4:24 AM 10/23)."
   },
   "incidents": [
     {
@@ -440,6 +440,25 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division service outages, N 9th St & Benton St and N 10th St & Benton St (Old North St. Louis)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New ACTIVE outage on the live City Water Division table (stlwater.com/wateroos.php, stamped 4:30 PM CT 10/22): Eichelberger St & Virginia Ave, in Eichelberger between Virginia and Alabama, taken out of service 10/22 4:24 PM CT; crews actively working; estimated restoration 10/23 4:24 AM CT (12-hr window). Only active outage on the table. No boil advisory on City page, MAW page or MO DNR dataset (latest 10/08, Lawrence County). South City near Carondelet Park, roughly 6-7 mi SE of the Medical Campus and 7-8 mi SE of Danforth and South Campus; separate City distribution area; no WashU asset; no Ring 1 corridor. Impact none. Seen by Lane 1; supervisor confirmed on the live table; no news or social corroboration. Monitor; resolve when it drops from the active-outage table. Owner: Emergency Management (track only).",
+      "confidence": "High",
+      "first_seen": "2026-10-22T21:40:00Z",
+      "id": "stlwater-stlouiscity-eichelberger-20261022",
+      "last_updated": "2026-10-22T21:45:00Z",
+      "location": "Eichelberger St between Virginia Ave and Alabama Ave, 63111, St. Louis City (Dutchtown / Carondelet, south City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php",
+        "https://www.stlwater.com/outages"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outage, Eichelberger St & Virginia Ave (Dutchtown / Carondelet)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
