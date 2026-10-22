@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "12:45 AM CT 10/22 run. NOTHING NEW and no status changes in any of four lanes. MAW index unchanged: highest ID 142355; all tracked St. Louis County IDs (142355, 142351, 142344, 142330, 142315, 142292, 142276, 142265, 142262, 142261, 142260, 142259, 142176) plus planned-work 142270 still listed; none dropped; 142344 and 142261 detail pages unchanged (no street, Last Updated blank). Probed IDs 142356-142361: out-of-state or empty, no new Missouri alerts. City Sidney/Minnesota Benton Park outages still listed 'crews actively working' ~4.3 hr past 8:27-8:28 PM estimates; stlwater.com stamp still 1:30 PM 10/21 (page not refreshing ~11 hr); recent-repair table unchanged (N 15th & Carr hydrant 10/21, Nottingham/Hampton 10/19 — completed, not tracked). No boil advisories: MAW none; stlwater boil page none; MO DNR none in City/County (latest statewide Lawrence Co. 10/8). City Water Division news (nothing since June), MSD, Kirkwood: nothing. Campus: WashU Alert none active; Danforth Facilities only Power Plant electrical outage 10/20, generator tests 10/20-22, elevator inspections (last water items McKelvey 10/3-4, Compton 10/8); Medical Campus Facilities FLTC sidewalk, McMillan exhaust fan, Hospital Dr lane (no water); Metro only pre-existing Taylor (W. Pine-Laclede, since 10/1) and Whittier/Maffitt (since 10/9) water reroutes; Forest Park Forever, Source, Student Life, Cortex, Loop: nothing. U City: 10/21 sanitation delay only; Pershing (Linden-Forest Park Pkwy) paving postponed for MAW service-line work (planned, not an incident). Clayton homepage: no October water notices. News and social: nothing datable to 10/20-22; FirstAlert4 10/21 wake-up roundup no water items; false leads re-confirmed (KSDK Bonhomme/Hanley, FOX2 N. Hanley 'Monday night', June 6-7 2026 McKnight/Old Bonhomme boil advisory, Olivette CivicSend 'Wednesday Oct 21' boil notice = 2020, Webster Groves 2022, Maryland Heights/Bridgeton 2/2026, Yahoo Clayton undated). Unreachable: X, Facebook, Nextdoor (Clayton PD 'Water Main Break UPDATE' post, undated), Reddit, Yahoo, ksdk/fox2 article pages, stltoday (paywall), claytonmo.gov news item 4239 (client error), MAW Customer Advisory Map. Next run: 142344 U City completion or index drop; overnight age-off of 10/21-expiring IDs incl. Clayton 142261; City Sidney/Minnesota page refresh; any boil advisory.",
+    "note": "1:45 AM CT 10/22 run. Ring 2 changes only, no WashU impact. NEW: City Water Division outages at N 9th & Benton and N 10th & Benton (Old North St. Louis), out since ~5:35 PM 10/21, estimates (11:35 PM) passed, crews working, no boil advisory — found on the live wateroos.php table (stamped 1:30 AM 10/22); ~3 mi NE of Medical Campus, impact none. RESOLVED: Benton Park Sidney/Minnesota outages dropped from the live City table. Note: stlwater.com/outages serves a cached 1:30 PM 10/21 copy; use /wateroos.php for live status. MAW index unchanged: highest St. Louis-area ID still 142355; all tracked County IDs (142355, 142351, 142344, 142330, 142315, 142292, 142276, 142265, 142262, 142261, 142260, 142259, 142176) plus planned-work 142270 still listed, none dropped; 142344, 142261 and 142355 detail pages unchanged (no street, no completion, Last Updated blank). Probed 142356-142366: out-of-state or empty. No boil advisories: MAW none; City none; MO DNR none in City/County (latest statewide Lawrence Co. 10/8). City Water news nothing since 8/25; MSD last modified 10/19; Kirkwood nothing. Campus: WashU Alert none active (last mod 10/16); Danforth Facilities only Power Plant electrical outage 10/20, generator tests, elevator inspections; Medical Campus Facilities McMillan exhaust fan, FLTC sidewalk, Hospital Dr lane, East Imaging crane 10/24, S. Euclid bridge (no water); Metro only pre-existing Taylor and Whittier/Maffitt water reroutes; Source, StudLife, Cortex, Loop, Forest Park: nothing. U City CivicAlerts nothing after 9/28; Pershing paving postponement for MAW service-line work (planned). Clayton homepage stale; news component client error. News and social: nothing datable to 10/21-22; false leads re-confirmed (FOX 2 Hanley Maryland-Forest Park Pkwy = July 9 2026 First Alert 4 story; Yahoo Dunn Rd Hazelwood 30-inch main 2025; Hampton boil advisory March 2026; June 2026 U City/Olivette boil order; Nextdoor Olive/Eastover undated). Unreachable: X, Nextdoor, Reddit/Facebook (no dated hits), ksdk/fox2 article bodies, stltoday (paywall), yahoo, claytonmo.gov news items, MAW Customer Advisory Map. Next run: 142344 U City completion or index drop; overnight age-off of 10/21-expiring IDs incl. Clayton 142261 and Webster Groves 142292; N 9th/10th & Benton restoration on wateroos.php; any boil advisory.",
     "open_count": 12,
-    "run_at": "2026-10-22T05:45:00Z",
-    "top_incident": "MAW main break, University City (alert 142344) — began 4:00 PM CT 10/21, ~6 hr repair (nominal target ~10 PM, now ~2.75 hr past with no completion note), street unknown, index expiry 10/22, Ring 1 by municipality (U City-side Danforth, North Campus, Delmar Loop), no boil order; WashU impact possible, single-source. Clayton 142261 still listed ~8 hr past its nominal window, index expiry 10/21, street unknown, likely stale."
+    "run_at": "2026-10-22T06:50:00Z",
+    "top_incident": "MAW main break, University City (alert 142344) — began 4:00 PM CT 10/21, ~6 hr repair (nominal target ~10 PM, now ~3.75 hr past with no completion note), street unknown, index expiry 10/22, Ring 1 by municipality (U City-side Danforth, North Campus, Delmar Loop), no boil order; WashU impact possible, single-source. Clayton 142261 still listed ~9 hr past its nominal window, street unknown, likely stale."
   },
   "incidents": [
     {
@@ -348,18 +348,37 @@
     },
     {
       "affected_assets": [],
-      "assessment": "8:35 PM CT 10/21 re-check (Lane 1): both Benton Park outages still listed on stlwater.com/outages as 'crews actively working' with est. restoration 8:27-8:28 PM CT, now passed; page header still stamped 1:30 PM 10/21, so the listing is likely stale and restoration is unconfirmed. No boil advisory listed; no news or social report. South city residential area, roughly 4.5 mi SE of the Medical Campus, different distribution area; no WashU asset. Impact none. Monitor; resolve when dropped from the City outage page. Owner: Emergency Management (track only).",
+      "assessment": "Two adjacent outages listed on the live City Water Division outage table (stlwater.com/wateroos.php, stamped 1:30 AM CT 10/22): N 9th & Benton out of service 5:36 PM 10/21 (est. restoration 11:36 PM 10/21, passed) and N 10th & Benton out of service 5:34 PM 10/21 (est. 11:34 PM, passed); both still shown as crews actively working; no boil advisory on the City page, MAW page or MO DNR dataset. Likely one main break affecting two blocks. Old North St. Louis, north of downtown, roughly 3 mi NE of the Medical Campus and Cortex and 4-5 mi NE of Danforth; separate distribution area; no WashU asset; no Ring 1 corridor. Impact none. Found by Lane 4 via the live wateroos.php table (the /outages URL served a cached 1:30 PM 10/21 copy to Lanes 1-2); confirmed by supervisor. No news or social corroboration. Monitor; resolve when dropped from the live City outage table. Owner: Emergency Management (track only).",
+      "confidence": "High",
+      "first_seen": "2026-10-22T06:45:00Z",
+      "id": "stlwater-stlouiscity-benton-20261021",
+      "last_updated": "2026-10-22T06:50:00Z",
+      "location": "N 9th St between Benton St and Warren St, and N 10th St between Benton St and Montgomery St, St. Louis City (Old North St. Louis)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outages, N 9th St & Benton St and N 10th St & Benton St (Old North St. Louis)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "Resolved 1:45 AM CT 10/22: both Benton Park outages (Sidney St Michigan-Minnesota; Minnesota Ave Magnolia-Sidney, out since ~12:27 PM 10/21) no longer appear on the live City Water Division outage table (stlwater.com/wateroos.php, stamped 1:30 AM 10/22; the /outages URL still served a cached 1:30 PM 10/21 copy listing them). Treated as restored per utility page; no boil advisory was ever posted. Ring 2, no WashU asset; impact none.",
       "confidence": "High",
       "first_seen": "2026-10-21T18:35:00Z",
       "id": "stlwater-stlouiscity-sidney-20261021",
-      "last_updated": "2026-10-22T01:45:00Z",
+      "last_updated": "2026-10-22T06:50:00Z",
       "location": "Sidney St between Michigan Ave and Minnesota Ave, and Minnesota Ave between Magnolia Ave and Sidney St, St. Louis City (Benton Park / Marine Villa)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/outages"
+        "https://www.stlwater.com/outages",
+        "https://www.stlwater.com/wateroos.php"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "City of St. Louis Water Division service outage, Sidney St & Michigan Ave / Minnesota Ave & Sidney St (Benton Park / Marine Villa)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
