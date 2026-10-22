@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "7:40 PM run. One NEW Ring 2 item: MAW investigation 142351 Rock Hill (possible low/no pressure, no street, no times; impact none), seen by all four lanes. NO CHANGE to Ring 1 items: 142344 U City still listed, detail unchanged (4:00 PM start, ~6 hr, no street, blanks); 142261 Clayton still listed ~3 hr past window (index expiration still 10/21), no street, no completion note. Other MAW regional entries unchanged: 142330 Des Peres, 142315 St. Ann, 142276/142265 Florissant, 142292 Webster Groves, 142260/142262 Maryland Heights, 142259 County, 142176 Hazelwood (still listed past 10/21 expiry), 142270 Rock Hill planned (not tracked); out-of-region Branson 142340 (new), Joplin, Mexico, Neosho, St. Joseph ignored. Resolved items (Olivette, County 142100/142108, U City 142036/142098) confirmed absent. City Sidney/Minnesota outages unchanged, still listed active, est. restoration ~8:28 PM (page stamp still 1:30 PM, likely stale); Nottingham & Hampton 10/19 main repair still listed, not tracked. No boil advisories: MAW none; stlwater.com none; MO DNR dataset none in City/County (latest statewide 10/08 Lawrence Co.). Campus sources: WashU Alert none active; Danforth Facilities newest Bryan Hall generator test (generator tests 10/22 Brookings/Olin/Rebstock, Whitaker); Medical Campus Facilities crane work 10/24 and FLTC sidewalk closure 10/22-26, Hospital Dr single lane; Metro water reroutes unchanged (Taylor Ave W. Pine-Laclede City Water closure through 10/31 near Med Campus east edge — planned since 10/1, not tracked; Whittier & Maffitt break through 10/31, Ring 2); U City only the Pershing Ave paving hold for MAW service-line work (planned). Local news 10/20-21: FirstAlert4 items non-water; KSDK/FOX 2/stltoday nothing current. Social: nothing dated 10/20-21 on X, Bluesky, Reddit, Facebook; Nextdoor U City (Olive & Eastover) and Clayton PD posts still blocked/undated; Yahoo/FOX 2 Clayton 'Avoid the area' story still unreadable/undated. Unreachable: claytonmo.gov news items, Nextdoor, yahoo.com, one KSDK article. Next run: re-check 142344 U City for completion/index drop after ~10 PM and 142261 Clayton for street/completion or age-off; City Sidney/Minnesota after ~8:28 PM; St. Ann ~7:45 PM; Des Peres ~9:30 PM; Rock Hill 142351; Hazelwood/Florissant/Maryland Heights/County age-off; any boil advisory.",
-    "open_count": 11,
-    "run_at": "2026-10-22T00:45:00Z",
-    "top_incident": "MAW main break, University City (alert 142344) — began 4:00 PM CT 10/21, ~6 hr repair (nominal target ~10 PM), street unknown, Ring 1 by municipality (U City-side Danforth, North Campus, Delmar Loop), no boil order; WashU impact possible, single-source. Clayton 142261 also still open ~3 hr past its ~4:45 PM nominal window, street unknown."
+    "note": "8:40 PM run. One NEW Ring 2 item: MAW 142355 second Des Peres main break (8:00 PM start, ~4 hr, no street; impact none), seen by three lanes. NO CHANGE to Ring 1 items: 142344 U City still listed, detail unchanged (4:00 PM start, ~6 hr, blanks); 142261 Clayton still listed ~4 hr past window, index expiration still 10/21, no completion note. No tracked IDs dropped from the MAW index. Other MAW regional entries unchanged: 142351 Rock Hill investigation, 142330 Des Peres, 142315 St. Ann, 142276/142265 Florissant, 142292 Webster Groves, 142260/142262 Maryland Heights, 142259 County, 142176 Hazelwood; 142270 Rock Hill planned (not tracked); out-of-region Branson, Joplin, Mexico, Neosho, St. Joseph ignored. Most 10/21-expiring IDs expected to age off overnight. City Sidney/Minnesota outages still listed past their ~8:28 PM estimate, page stamp still 1:30 PM (stale, restoration unconfirmed). No boil advisories: MAW none; stlwater.com none; MO DNR none in City/County. Campus sources: WashU Alert none active; Danforth and Medical Campus Facilities no water notices; Metro only the known Taylor Ave and Whittier/Maffitt items; U City CivicAlerts only a trash-pickup delay; Clayton homepage stale. Local news 10/20-21: nothing current; Clayton/U City street locations still unknown. Social: nothing datable to 10/20-21. Unreachable: claytonmo.gov news items 4239/5270, Nextdoor, yahoo.com Clayton story, MAW Customer Advisory Map (robots), Kirkwood water page, City street-closures page. Next run: re-check 142344 U City for completion/index drop after ~10 PM; 142261 Clayton age-off; Des Peres 142355 (~midnight) and 142330; City Sidney/Minnesota page refresh; remaining 10/21-expiring IDs; any boil advisory.",
+    "open_count": 12,
+    "run_at": "2026-10-22T01:45:00Z",
+    "top_incident": "MAW main break, University City (alert 142344) — began 4:00 PM CT 10/21, ~6 hr repair (nominal target ~10 PM), street unknown, Ring 1 by municipality (U City-side Danforth, North Campus, Delmar Loop), no boil order; WashU impact possible, single-source. Clayton 142261 also still listed ~4 hr past its nominal window, street unknown, likely stale."
   },
   "incidents": [
     {
@@ -14,11 +14,11 @@
         "Danforth Campus (Clayton portion)",
         "South Campus"
       ],
-      "assessment": "7:40 PM CT 10/21 re-check (all four lanes): alert 142261 still on the MAW index and detail page about 3 hours past its nominal ~4:45 PM repair window; index expiration still shows 10/21; Estimated End / Last Updated / Customers Notified still blank, no street, not marked complete, no boil advisory (MAW boil page none; MO DNR none in City/County). No locating notice from WashU Alert (none active), Danforth Facilities (Bryan Hall generator test is newest), Medical Campus Facilities (crane/FLTC sidewalk items), The Source, Student Life, Metro rider alerts (Clayton items are the S. Central/Carondelet closure since 8/28), City Streets, U City, Clayton homepage (stale), or any local news dated 10/20-21. Clayton news item 4239, Clayton PD Nextdoor post and the Yahoo/FOX 2 'Avoid the area' story remain unreadable and undated; the fox2now 'N. Hanley between Maryland and Forest Park Pkwy' story says 'Monday night' and is archive copy, not attributed. Ring 1 by municipality: West Campus (Forsyth/Big Bend, below-grade archives), 6200 Forsyth construction site, Clayton portion of Danforth, South Campus (Clayton Rd). No WashU impact observed in ~11 hours. Recommended: Facilities spot-check pressure/discoloration at West Campus, South Campus and Clayton-side Danforth buildings; 6200 Forsyth contractor confirm site water/fire-line pressure; call MAW 1-866-430-0820 or open the MAW Customer Advisory Map for the pin. Owner: Facilities (lead), Emergency Management (track). Next check: completion or index age-off.",
+      "assessment": "8:40 PM CT 10/21 re-check (all four lanes): alert 142261 still on the MAW index and detail page about 4 hours past its nominal ~4:45 PM repair window; index expiration still 10/21 (expect overnight age-off); Estimated End / Last Updated / Customers Notified still blank, no street, not marked complete, no boil advisory (MAW boil page none; MO DNR none in City/County). Likely stale rather than active, but not confirmed closed. No locating notice from WashU Alert (none active), Danforth Facilities, Medical Campus Facilities, The Source, Student Life, Metro rider alerts, Clayton homepage (stale), or any local news dated 10/20-21. Clayton news item 4239, Clayton PD Nextdoor post and the Yahoo/FOX 2 'Avoid the area' story remain unreadable and undated; KSDK/FOX 2 Hanley/Bonhomme stories are prior-year archives (one cites a private line, one winter asphalt), not attributed. MAW Customer Advisory Map blocked to automated reads. Ring 1 by municipality: West Campus (Forsyth/Big Bend, below-grade archives), 6200 Forsyth construction site, Clayton portion of Danforth, South Campus (Clayton Rd). No WashU impact observed in ~12 hours. Recommended: Facilities spot-check pressure/discoloration at West Campus, South Campus and Clayton-side Danforth buildings; 6200 Forsyth contractor confirm site water/fire-line pressure; call MAW 1-866-430-0820 or open the MAW Customer Advisory Map for the pin. Owner: Facilities (lead), Emergency Management (track). Next check: completion or index age-off.",
       "confidence": "Medium",
       "first_seen": "2026-10-21T14:45:00Z",
       "id": "maw-clayton-unlocated-20261021",
-      "last_updated": "2026-10-22T00:45:00Z",
+      "last_updated": "2026-10-22T01:45:00Z",
       "location": "Clayton, MO (street not published by utility)",
       "ring": 1,
       "single_source": true,
@@ -62,6 +62,25 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Des Peres — emergency repairs (alert 142330)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New MAW emergency alert 142355 seen by three lanes at ~8:35 PM CT 10/21: second, distinct Des Peres main break (142330 from 3:30 PM still listed). Start 8:00 PM 10/21, ~4 hr estimate (roughly midnight); street, Estimated End, Last Updated and Customers Notified blank; index expiration 10/22; possible discolored water / low or no pressure; no boil advisory (MAW boil page none; MO DNR none in City/County). Des Peres is west St. Louis County (Manchester Rd / I-270), roughly 6-8 mi SW of West Campus and South Campus, ~10 mi NE of Tyson, different MAW pressure zone; no WashU asset. Impact none. Monitor; resolve when dropped from the MAW index. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-22T01:35:00Z",
+      "id": "maw-desperes-unlocated-20261021b",
+      "last_updated": "2026-10-22T01:45:00Z",
+      "location": "Des Peres, MO (street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.amwater.com/moaw/alerts",
+        "https://alertsdetail.awapps.com/alert/142355"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Des Peres — second break, emergency repairs (alert 142355)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -281,11 +300,11 @@
         "North Campus",
         "Delmar Loop properties"
       ],
-      "assessment": "7:40 PM CT 10/21 re-check (all four lanes): MAW alert 142344 still listed (index expiration 10/22); detail page unchanged — emergency main-break repairs in University City beginning 4:00 PM CT, about 6 hours (nominal target ~10:00 PM); no street or cross street, Estimated End / Last Updated / Customers Notified blank; warns of discolored or cloudy water and low or no pressure; no boil advisory (MAW boil page none; MO DNR dataset none in St. Louis City/County). Third University City MAW break in three days (142036 10/19, 142098 10/20, both cleared without a published street). Ring 1 by municipality: University City portion of Danforth (MAW-served), North Campus (Delmar/Forest Park Pkwy), Delmar Loop properties. Still no locating notice from WashU Alert (none active), Danforth Facilities (10/21 item is Bryan Hall generator test), U City homepage (only the Pershing Ave paving hold for planned MAW service-line replacements, Linden to Forest Park Pkwy), Metro, local news or social dated 10/21; Nextdoor Olive & Eastover post still unreadable and undated. Single-source (utility index + detail page). Likely consequences if on the campus-side mains: discolored water or pressure drop in U City-side residence halls, dining and labs during evening hours; fire-suppression pressure check. Recommended: Facilities spot-check pressure/discoloration at North Campus and U City-side Danforth buildings this evening; Residential Life and Dining watch for complaints; call MAW 1-866-430-0820 or open the MAW Customer Advisory Map for the pin. Owner: Facilities (lead), Emergency Management (track). Next check: completion or index age-off after ~10 PM.",
+      "assessment": "8:40 PM CT 10/21 re-check (all four lanes): MAW alert 142344 still listed (index expiration 10/22); detail page unchanged — emergency main-break repairs in University City beginning 4:00 PM CT, about 6 hours (nominal target ~10:00 PM); no street or cross street, Estimated End / Last Updated / Customers Notified blank; warns of discolored or cloudy water and low or no pressure; no boil advisory (MAW boil page none; MO DNR dataset none in St. Louis City/County). Third University City MAW break in three days (142036 10/19, 142098 10/20, both cleared without a published street). Ring 1 by municipality: University City portion of Danforth (MAW-served), North Campus (Delmar/Forest Park Pkwy), Delmar Loop properties. Still no locating notice from WashU Alert (none active), Danforth Facilities (10/22 generator tests only), U City CivicAlerts (10/21 item is a trash-pickup delay; Pershing Ave MAW service-line work is planned), Metro (no reroute), local news or social dated 10/21; MAW Customer Advisory Map blocked to automated reads; Nextdoor Olive & Eastover post still unreadable and undated (post ID suggests older). Single-source (utility index + detail page). No WashU impact observed in ~4.5 hours. Likely consequences if on the campus-side mains: discolored water or pressure drop in U City-side residence halls, dining and labs during evening hours; fire-suppression pressure check. Recommended: Facilities spot-check pressure/discoloration at North Campus and U City-side Danforth buildings this evening; Residential Life and Dining watch for complaints; call MAW 1-866-430-0820 or open the MAW Customer Advisory Map for the pin. Owner: Facilities (lead), Emergency Management (track). Next check: completion or index age-off after ~10 PM.",
       "confidence": "Medium",
       "first_seen": "2026-10-21T21:40:00Z",
       "id": "maw-universitycity-unlocated-20261021",
-      "last_updated": "2026-10-22T00:45:00Z",
+      "last_updated": "2026-10-22T01:45:00Z",
       "location": "University City, MO (street not published by utility)",
       "ring": 1,
       "single_source": true,
@@ -293,8 +312,11 @@
         "https://www.amwater.com/moaw/alerts",
         "https://alertsdetail.awapps.com/alert/142344",
         "https://amwater.com/moaw/Water-Quality/Boil-Water-Advisories-Orders",
+        "https://data.mo.gov/resource/j2a5-itxh.json",
         "https://emergency.washu.edu/",
-        "https://facilities.wustl.edu/news/"
+        "https://facilities.wustl.edu/news/",
+        "https://www.ucitymo.org/CivicAlerts.aspx",
+        "https://www.metrostlouis.org/rider-alerts/"
       ],
       "status": "open",
       "title": "Missouri American Water main break, University City — emergency repairs (alert 142344)",
@@ -323,11 +345,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Two adjacent City Water Division outages posted on stlwater.com/outages (page stamped 1:30 PM CT 10/21): out of service 12:27-12:28 PM CT 10/21, estimated restoration ~8:27-8:28 PM CT, crews working, no boil advisory listed under Current Advisories. South city residential area, roughly 4.5 mi SE of the Medical Campus and in a different distribution area; no WashU asset. Impact none. Confirmed independently by two lanes from the same primary page. Monitor; resolve when dropped from the City outage page. Owner: Emergency Management (track only).",
+      "assessment": "8:35 PM CT 10/21 re-check (Lane 1): both Benton Park outages still listed on stlwater.com/outages as 'crews actively working' with est. restoration 8:27-8:28 PM CT, now passed; page header still stamped 1:30 PM 10/21, so the listing is likely stale and restoration is unconfirmed. No boil advisory listed; no news or social report. South city residential area, roughly 4.5 mi SE of the Medical Campus, different distribution area; no WashU asset. Impact none. Monitor; resolve when dropped from the City outage page. Owner: Emergency Management (track only).",
       "confidence": "High",
       "first_seen": "2026-10-21T18:35:00Z",
       "id": "stlwater-stlouiscity-sidney-20261021",
-      "last_updated": "2026-10-21T18:35:00Z",
+      "last_updated": "2026-10-22T01:45:00Z",
       "location": "Sidney St between Michigan Ave and Minnesota Ave, and Minnesota Ave between Magnolia Ave and Sidney St, St. Louis City (Benton Park / Marine Villa)",
       "ring": 2,
       "single_source": true,
