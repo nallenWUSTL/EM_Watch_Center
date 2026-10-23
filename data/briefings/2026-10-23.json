@@ -1,0 +1,211 @@
+{
+  "bluf": "Posture Normal. No NWS product covers St. Louis City or County, no WashU Alert or WUPD warning has issued, no outage touches a WashU asset, and the federal government is funded through Dec 11. The one item needing attention today is a planning item: Saturday Oct 31 stacks Parent & Family Weekend, home football, Halloween night and the CWE street party inside Ring 1, and Family Weekend advance registration closes today. Also today: a reported Kenya Level 3 advisory (single source) and a BeyondTrust Remote Support zero-day in CISA KEV that warrants a same-day IT check. Weekend load is Danforth athletics under dry, mild weather.",
+  "briefing_url": "https://claude.ai/artifact/KHnqHuLY9gMRrgjSRZoT8k",
+  "date": "2026-10-23",
+  "dissents": [
+    {
+      "note": "Overrules Lane 5's placement beyond the 7-day window; Lane 5 found the same stack independently and registration closes today. Promoted to item 1.",
+      "title": "Red Team: Family Weekend + Halloween stack underrated",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Lane 1 independently reported the conditions at Sev 2 Low. Kept at Monitor (light winds, county not in drought); Tyson field check-in carried into today's reminder.",
+      "title": "Red Team: Tyson dry-stretch fuel hidden by the NWS-product threshold",
+      "verdict": "adopted in part"
+    },
+    {
+      "note": "No lane overrated them; held to one line with Dec 11 as the next decision date.",
+      "title": "Red Team: shutdown second-order effects overrated",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Lane 2 independently excluded undated KSDK items; no CWE pattern reported.",
+      "title": "Red Team: CWE carjacking cluster overrated",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Low probability, high consequence: ~12 dry days, early leaf drop, humidity in the 30s, crews in the field, single access road. Action: Tyson director confirms who is in the field today and the check-in protocol.",
+      "title": "Red Team scenario: grass or leaf-litter fire at Tyson this afternoon",
+      "verdict": "carried"
+    },
+    {
+      "note": "Lane 6 scored Medium; supervisor lowered to Low after the State Dept page returned stale content. Kept at Today because the check is cheap.",
+      "title": "Kenya advisory confidence",
+      "verdict": "unresolved"
+    },
+    {
+      "note": "Lane 5 High vs Red Team Occurring; Occurring adopted since all components except the CWE party are on official schedules.",
+      "title": "Oct 31 likelihood",
+      "verdict": "unresolved"
+    }
+  ],
+  "lanes_quiet": [
+    1,
+    3
+  ],
+  "lookahead": [
+    {
+      "date": "2026-10-23",
+      "dow": "Fri",
+      "loads": "Men's soccer 5 PM and women's soccer 7:30 PM, Francis Field; Family Weekend registration closes; Leadership Week; SLAM Halloween concert 7 PM Forest Park; downtown Enterprise Center concert, GalaxyCon, Bands of America; I-64 lane closure at McKnight 9 AM-2 PM; Blue Line split ends tonight",
+      "stacked": true,
+      "wx": "Sunny 78/48, 0%, SE 5"
+    },
+    {
+      "date": "2026-10-24",
+      "dow": "Sat",
+      "loads": "Hot Cider Hustle 8:30-11 AM Forest Park (Macklind); football away; downtown Bands of America, GalaxyCon, Blues vs Hurricanes 6 PM (Ring 2 stacked); Rush Hour Connector test begins",
+      "stacked": false,
+      "wx": "Mostly sunny 75/48, 0%, RH 34%"
+    },
+    {
+      "date": "2026-10-25",
+      "dow": "Sun",
+      "loads": "Men's soccer 11 AM, women's soccer 1:30 PM, women's volleyball 2 PM on Danforth; Forest Park Member Appreciation 1-3 PM; GalaxyCon final day",
+      "stacked": true,
+      "wx": "Mostly sunny 78/50, 0%"
+    },
+    {
+      "date": "2026-10-26",
+      "dow": "Mon",
+      "loads": "Route D (Page) lane closures Skinker to Tucker 6 AM-5 PM; Rush Hour Connector extra peak trains; Blue Line full service for the commute",
+      "stacked": false,
+      "wx": "Mostly cloudy 75/50, 0%"
+    },
+    {
+      "date": "2026-10-27",
+      "dow": "Tue",
+      "loads": "Route D lane closures; Blues vs Canadiens",
+      "stacked": false,
+      "wx": "Mostly cloudy 75/50, isolated shower"
+    },
+    {
+      "date": "2026-10-28",
+      "dow": "Wed",
+      "loads": "Route D lane closures; I-44 westbound lane near Eureka 9 AM-3:30 PM (Tyson access)",
+      "stacked": false,
+      "wx": "Mostly clear 75/52, 0%"
+    },
+    {
+      "date": "2026-10-29",
+      "dow": "Thu",
+      "loads": "History Museum Halloween party 4-7 PM Lindell/DeBaliviere; Blues vs Bruins; pre-stage for Oct 30-31 Family Weekend and Halloween",
+      "stacked": false,
+      "wx": "Mostly sunny 75, front approaching, 20-50% rain by Fri evening"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "watch",
+      "summary": "No NWS product, SPC or WPC risk area for St. Louis; rivers far below flood stage; no regional quakes. Dry stretch continues through Thursday with afternoon humidity in the 30s and poor ventilation, curing fine fuels at Tyson (Sev 2, Low, Monitor). Late-week front Oct 29-30 brings 20-50% rain by Friday evening, highest chances Halloween weekend. AQI could not be read."
+    },
+    {
+      "name": "Life-safety threats",
+      "pir": 2,
+      "status": "watch",
+      "summary": "Homicide in a restaurant lot, 1200 block Hampton Ave (Clayton-Tamm), Thu Oct 22 about 2:15 AM, no suspect; Ring 1 edge, isolated incident (Sev 3, Monitor, verified at SLMPD). Peer lockdowns at Virginia Union and University of Utah Oct 20-21 (Utah: Airsoft rifle near a dorm) are a hold-in-place template to rehearse. WashU channels quiet; no demonstrations over 100 found; no threat naming WashU."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "watch",
+      "summary": "Missouri measles count about 18 cases across seven-plus counties as of Oct 20; St. Louis County's September case produced no reported second generation. Monitor: confirm MMR documentation and Medical Campus triage screening. FDA recalls Oct 15-21 have no identified dining link. No new local advisory, college outbreak or hospital diversion in the last 24 hours."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "watch",
+      "summary": "BeyondTrust zero-day in KEV (see today items). Taylor Ave water-main closure and Barnes-Jewish plaza paving reroute MetroBus 18, 59 and 95 around the hospital through Oct 31. MetroLink Blue Line split ends tonight; Rush Hour Connector test Oct 24-30. MoDOT: I-64 at McKnight lane closure today 9 AM-2 PM; Route D Skinker to Tucker Oct 26-28; I-44 near Eureka Oct 28. Ameren, water, cloud and vendor status normal; no confirmed university or hospital ransomware in 24 hours."
+    },
+    {
+      "name": "Scheduled activity, next 7 days",
+      "pir": 5,
+      "status": "active",
+      "summary": "Friday soccer double-header (5:00 and 7:30 PM) and Sunday triple stack (men's soccer 11 AM, women's soccer 1:30 PM, volleyball 2 PM) on Danforth. Hot Cider Hustle in Forest Park Sat 8:30-11 AM. Downtown Fri-Sat stack: Enterprise Center concert, GalaxyCon, Bands of America, Blues Sat 6 PM. No academic inflection; Leadership Week through Sat. Oct 31 stacked day just beyond the window."
+    },
+    {
+      "name": "Policy, legal, funding",
+      "pir": 6,
+      "status": "watch",
+      "summary": "FEMA Administrator told states Oct 20 to build reserves; fresh Individual Assistance denials for Texas and Maryland raise the odds a future St. Louis disaster draws no federal IA (Sev 3, Medium, This week: confirm recovery assumptions with Risk Management and Finance). FEMA preparedness grant allocations announced Oct 21 (single source, NSGP not listed). CR runs through Dec 11, no shutdown. Kenya Level 3 (see today items); Saudi Arabia Level 3 Oct 12."
+    }
+  ],
+  "posture": "Normal",
+  "published_at": "2026-10-23T11:12:00Z",
+  "run_note": "Charter read in full (rev 10). All seven lanes reported by 6:00 AM CDT; no Severity 4-5 items. Lanes 1 and 3 quiet. Kenya advisory primary page returned stale content; several NWS, CISA, FEMA and State Dept pages unreachable (NWS products read from the Iowa State AFOS mirror). Run 5:53-6:12 AM CDT.",
+  "title": "WashU EM Daily Intelligence Briefing, October 23, 2026",
+  "today_items": [
+    {
+      "action": "Pull the Eventbrite registration count after close tonight; open the Oct 31 stacked-day plan (WUPD staffing, South 40 and Loop late-night coverage, Medical Campus access during the CWE party); confirm the CWE party date with the CWE Association.",
+      "confidence": "Medium",
+      "likelihood": "Occurring",
+      "owner": "EM with Student Affairs, WUPD, Medical Campus Security",
+      "pir": 5,
+      "rank": 1,
+      "severity": 3,
+      "source": "https://families.washu.edu/parent-family-weekend/",
+      "title": "Oct 31 stacked day: Family Weekend + home football + Halloween + CWE street party; Family Weekend registration closes today",
+      "ttd": "Today"
+    },
+    {
+      "action": "Global Programs confirms the advisory text at the primary source, then reviews current and spring Kenya programs and registered travelers against the Level 3 policy and evacuation coverage.",
+      "confidence": "Low",
+      "likelihood": "Occurring",
+      "owner": "Office of Global Programs / international travel oversight",
+      "pir": 6,
+      "rank": 2,
+      "severity": 3,
+      "source": "https://thenationaldesk.com/news/americas-news-now/state-department-ramps-up-travel-advisory-for-kenya-ebola-protests",
+      "title": "Kenya raised to State Department Level 3, Reconsider Travel (reported Oct 19; primary page returned stale content)",
+      "ttd": "Today"
+    },
+    {
+      "action": "Ask WashU IT Security and BJC IS whether BeyondTrust, PAN-OS, Cisco ESA, Atlassian or Fortinet are internet-exposed and patched.",
+      "confidence": "Medium",
+      "likelihood": "Medium",
+      "owner": "WashU IT Security (CISO) with BJC IS liaison",
+      "pir": 4,
+      "rank": 3,
+      "severity": 3,
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-23-oct-2026/",
+      "title": "BeyondTrust Remote Support auth-bypass zero-day (CVE-2026-102764) added to CISA KEV Oct 20 with PAN-OS, Cisco ESA, Atlassian and Fortinet entries",
+      "ttd": "Today"
+    },
+    {
+      "action": "Routine lot and lighting staffing through about 9:30 PM; weather is dry with no lightning risk, no weather call needed.",
+      "confidence": "High",
+      "likelihood": "Occurring",
+      "owner": "Athletics / WUPD",
+      "pir": 5,
+      "rank": 4,
+      "severity": 2,
+      "source": "https://washubears.com/sports/womens-soccer/schedule",
+      "title": "Friday evening soccer double-header at Francis Olympic Field (men 5:00 PM, women 7:30 PM vs Rochester)",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "Oct 31 stacked day (Parent & Family Weekend, home football 1 PM, Halloween, CWE street party): pull the Family Weekend registration count after close tonight and open the stacked-day plan (EM with Student Affairs, WUPD, Medical Campus Security).",
+  "unreachable": [
+    "api.weather.gov",
+    "forecast.weather.gov (stale)",
+    "spc.noaa.gov (stale)",
+    "airnow.gov (no data)",
+    "water.noaa.gov gauges",
+    "events.washu.edu (blocks automation)",
+    "washubears.com composite calendar",
+    "CISA advisory and KEV pages",
+    "fema.gov press releases",
+    "travel.state.gov Kenya page (stale)",
+    "US Embassy Nairobi",
+    "CDC HAN archive (stale)",
+    "DHSS wastewater dashboard",
+    "St. Louis County DPH",
+    "Clayton PD news",
+    "University City PD news",
+    "Health-ISAC / REN-ISAC",
+    "Ameren outage map",
+    "Spire planned work"
+  ]
+}
