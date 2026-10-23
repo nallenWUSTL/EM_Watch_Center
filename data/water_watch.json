@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "11:45 PM CT 10/22 run (four lanes). ONE NEW, FIVE RESOLVED, TWO UPDATED. MAW index (11:35-11:40 PM, all lanes, supervisor confirmed): NEW 142474 'St. Louis' Trotter Way, 11:00 PM start, 2-4 hr, no boil advisory, Ring 2, impact none (only Trotter Way found is in Florissant; municipality unverified); 142473 posted as a duplicate of 142472 St. John Betty Lee Ave (unchanged, still listed); 142355 Des Peres and 142351 Rock Hill DROPPED from the index — marked resolved per utility index; still listed unchanged — 142418/142419 County (no municipality), 142389 Ballwin, 142388 St. Ann, 142387 Kinloch, 142458 Brentwood, 142457 Florissant, 142460 Webster Groves; no Clayton, University City, Ladue, Richmond Heights, Maplewood, Olivette or Eureka alert; planned 142422/142439/142441 and Pagedale 142326/142334 unchanged; 142447/142421/142412/142409 out of region. City Water live table (stamped 11:30 PM): Nottingham & Wherry, Nottingham & Macklind and January & Nottingham CLEARED from the active table — marked resolved (restored ahead of estimate); Marquette & Ivanhoe now carries a SECOND row (out 11:21 PM, est 7:21 AM 10/23) beside the 6:54 PM row (est 6:54 AM) — only active City outage; 2703 N Spring repair still listed; new rows only hydrant repairs — not tracked; no CWE / Skinker-DeBaliviere / Forest Park SE rows; City advisories empty. No boil advisories: MAW none; City none; MO DNR none in City/County (newest Bunceton PWS, Cooper County, 10/22). MSD nothing (downtown cave-in repair only). Campus: WashU Alert none (page last modified 10/16); Danforth Facilities generator tests / elevator inspections only; Med Campus Facilities crane ops, sidewalk and Hospital Drive lane closures, no water items; Source, StudLife nothing; Metro #18 Taylor water reroute (W Pine–Laclede, through 10/31) unchanged; BJC, Cortex, Loop, Forest Park Forever, MoDOT not reached this cycle. News lane nothing dated 10/22-23 (First Alert 4, FOX 2, U City CivicAlerts opened; KSDK/Clayton client errors; stltoday paywall). Social lane dark (only old/undated items; unfetched KSDK Hampton boil-advisory result undated, not adopted). Next run: Trotter Way 142474 age-off (~1-3 AM) and any municipality; St. John 142472/142473 age-off; Marquette & Ivanhoe restorations (~6:54 and ~7:21 AM); remaining 10/22-expiry MAW IDs age-off; any street for 142458 Brentwood or 142418/142419; any boil advisory.",
+    "note": "12:45 AM CT 10/23 run (four lanes). ONE NEW, ONE RESOLVED, ONE UPDATED. MAW index (Lane 1 ~12:35 AM via /moaw/alerts/ trailing-slash URL, 20 entries; supervisor confirmed; Lanes 3 and 4 got an empty shell from the no-slash URL): NEW 142475 Florissant ('Florrisant') leak investigation, St Catherine St, no times, expires 10/26, not a confirmed break, Ring 2, impact none; 142387 Kinloch DROPPED — marked resolved per utility index; still listed unchanged — 142474 'St. Louis' Trotter Way (11 PM start, municipality still unresolved), 142472/142473 St. John Betty Lee Ave, 142418/142419 County (no municipality), 142389 Ballwin, 142388 St. Ann, 142458 Brentwood, 142457 Florissant, 142460 Webster Groves; no Clayton, University City, Ladue, Richmond Heights, Maplewood, Olivette or Eureka alert; planned 142422/142439/142441 and Pagedale 142326/142334 unchanged; 142447/142421/142412/142409 out of region. City Water live table (stamped 12:30 AM 10/23): Marquette & Ivanhoe both rows still active (est 6:54 / 7:21 AM) — only active City outage; 2703 N Spring and Nottingham & Wherry Main - Repair work orders still listed (Nottingham outage already resolved); later rows hydrant repairs only — not tracked; no CWE / Skinker-DeBaliviere / Forest Park SE rows; City advisories empty. No boil advisories: MAW none; City none; MO DNR none in City/County (newest Bunceton PWS, Cooper County, 10/22). MSD nothing. Campus: WashU Alert none (page last modified 10/16); Danforth Facilities generator tests / elevator inspections only; Med Campus Facilities exhaust fan, sidewalk and crane closures, no water items; Source, StudLife nothing; Metro #18 Taylor water reroute (W Pine–Laclede, through 10/31) unchanged; Metro #42 Sarah reroute for Whittier & Maffitt watermain (The Ville, Oct 9-31, pre-existing) noted, not adopted; BJC, Cortex, Loop, Forest Park Forever, MoDOT not reached. News lane nothing dated 10/22-23 (First Alert 4, FOX 2, STLPR, Patch, RFT, U City, Clayton, Brentwood, Eureka opened; KSDK 4xx; stltoday paywall). Social lane dark (Reddit blocked; only undated KSDK/FOX 2 archive hits, not adopted). Next run: Marquette & Ivanhoe restorations (~6:54 and ~7:21 AM); Trotter Way 142474 and St. John 142472/142473 age-off; remaining 10/22 MAW IDs age-off; any municipality for 142474 or street for 142458/142418/142419; 142475 escalation; any boil advisory.",
     "open_count": 11,
-    "run_at": "2026-10-23T04:45:00Z",
-    "top_incident": "MAW main break, 'St. Louis' — Trotter Way (alert 142474), began 11:00 PM CT 10/22, ~2-4 hr repair, municipality not published (likely Florissant, north County), Ring 2, no boil advisory, no WashU asset; impact none. No Ring 1 incident open."
+    "run_at": "2026-10-23T05:45:00Z",
+    "top_incident": "City Water outage, Marquette Ave & Ivanhoe Ave (Lindenwood Park), two rows out since 6:54 PM and 11:21 PM CT 10/22, est. restoration 6:54-7:21 AM 10/23, Ring 2, no boil advisory, no WashU asset; impact none. No Ring 1 incident open."
   },
   "incidents": [
     {
@@ -124,6 +124,25 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New MAW investigation alert 142475 seen by Lane 1 at ~12:35 AM CT 10/23 and confirmed by supervisor on the index (20 entries) and detail page: leak investigation on St Catherine St, Florissant; no start time, Last Updated or Estimated End; index expiration 10/26; possible low or no pressure; not a confirmed main break; no boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). Distinct from main break 142457 (Florissant, 4:45 PM 10/22, still listed), from Trotter Way 142474 and from planned maintenance 142439. Florissant is north St. Louis County, roughly 12-15 mi from Danforth and the Medical Campus, different MAW pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2-4 dark). Monitor; escalate only if it becomes a main-break alert with a boil advisory; resolve when dropped from the MAW index. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-23T05:35:00Z",
+      "id": "maw-florissant-stcatherine-20261023",
+      "last_updated": "2026-10-23T05:45:00Z",
+      "location": "St Catherine St, Florissant, MO (north St. Louis County; cross street not published; utility spells it 'Florrisant')",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.amwater.com/moaw/alerts/",
+        "https://alertsdetail.awapps.com/alert/142475"
+      ],
+      "status": "open",
+      "title": "Missouri American Water leak investigation, Florissant — St Catherine St (alert 142475)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 5:35 PM CT 10/22: alert 142276 no longer appears on the MAW active alerts index (Lanes 1 and 4, confirmed by supervisor), roughly 32 hours after its 10/21 9:45 AM start; service investigation 142265 had already cleared at 2:40 PM. Treated as repair complete / alert expired per utility index. No street ever published, no boil advisory. A new, separate Florissant break (142457, 4:45 PM 10/22) is tracked as its own record. Florissant is north St. Louis County, ~12 mi from Danforth and the Medical Campus; no WashU asset; impact none.",
       "confidence": "Medium",
       "first_seen": "2026-10-21T15:45:00Z",
@@ -182,11 +201,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New MAW alert 142387 seen by all four lanes at ~8:40 AM CT 10/22: emergency main-break repairs in Kinloch beginning 10/22 8:00 AM CT, ~6-8 hr estimate (roughly 2-4 PM); no street, Last Updated and Estimated End blank; no boil advisory (MAW boil page none; MO DNR none in City/County). Kinloch is north St. Louis County near Lambert, roughly 8-9 mi from North Campus and Danforth, different MAW pressure zone; no WashU asset. Impact none. No news or social corroboration. Monitor; resolve when dropped from the MAW index. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 12:40 AM CT 10/23: alert 142387 no longer appears on the MAW active alerts index (Lane 1, confirmed by supervisor on the 20-entry index), roughly 16.5 hours after its 10/22 8:00 AM start. Treated as repair complete / alert expired per utility index. No street ever published, no boil advisory. Kinloch is north St. Louis County near Lambert, roughly 8-9 mi from North Campus and Danforth; no WashU asset; impact none.",
       "confidence": "Medium",
       "first_seen": "2026-10-22T13:40:00Z",
       "id": "maw-kinloch-unlocated-20261022",
-      "last_updated": "2026-10-22T13:45:00Z",
+      "last_updated": "2026-10-23T05:45:00Z",
       "location": "Kinloch, MO (street not published by utility)",
       "ring": 2,
       "single_source": true,
@@ -194,7 +213,7 @@
         "https://www.amwater.com/moaw/alerts",
         "https://alertsdetail.awapps.com/alert/142387"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "Missouri American Water main break, Kinloch — emergency repairs (alert 142387)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
@@ -562,11 +581,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 11:40 PM CT 10/22 (all four lanes; supervisor confirmed on the live table stamped 11:30 PM): a SECOND active outage row for Marquette Ave & Ivanhoe Ave was posted — out of service 10/22 11:21 PM CT, estimated restoration 10/23 7:21 AM CT (8-hr window; 'between' text garbled as 'in 6 between Marquette and Ivanhoe'), alongside the original 6:54 PM row (est. 6:54 AM 10/23). Reads as an expanded or renewed isolation at the same repair site. The three neighboring outages (Nottingham & Wherry, Nottingham & Macklind, January & Nottingham) cleared from the table this run, so Marquette & Ivanhoe is now the only active City outage. No boil advisory on City page, MAW page or MO DNR dataset. Roughly 3.5-4 mi SE of South Campus and Danforth and ~4 mi SW of the Medical Campus; separate City distribution area; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration. Monitor; resolve when both rows drop from the active-outage table. Owner: Emergency Management (track only).",
+      "assessment": "Updated 12:40 AM CT 10/23 (Lanes 1, 3, 4 on the live table stamped 12:30 AM 10/23): both Marquette Ave & Ivanhoe Ave outage rows still active — out 6:54 PM 10/22 (est. 6:54 AM 10/23) and out 11:21 PM 10/22 (est. 7:21 AM 10/23; 'between' text garbled), with the 1:41 PM 10/22 Main - Repair work order still listed; crews on site. Reads as one prolonged repair with an expanded or renewed isolation, not a new break. Only active City outage; no boil advisory on City page, MAW page or MO DNR dataset. Roughly 3.5-4 mi SE of South Campus and Danforth and ~4 mi SW of the Medical Campus; separate City distribution area; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration. Monitor; resolve when both rows drop from the active-outage table (expected ~7 AM 10/23). Owner: Emergency Management (track only).",
       "confidence": "High",
       "first_seen": "2026-10-22T19:40:00Z",
       "id": "stlwater-stlouiscity-marquette-20261022",
-      "last_updated": "2026-10-23T04:45:00Z",
+      "last_updated": "2026-10-23T05:45:00Z",
       "location": "Marquette Ave & Ivanhoe Ave, 63109, St. Louis City (Lindenwood Park, south City)",
       "ring": 2,
       "single_source": true,
