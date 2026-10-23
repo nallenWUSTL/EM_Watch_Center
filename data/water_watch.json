@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "6:40 AM CT 10/23 run (four lanes). One new Ring 2 item, one resolution, no Ring 1 or boil activity. NEW: MAW 142484 Ballwin main-break investigation (posted 10/23, expires 10/23, no street or times, possible low/no pressure, not a confirmed break; Lanes 1, 3, 4; supervisor verified). RESOLVED: MAW 142388 St. Ann second break dropped from the index (Lanes 1, 4; supervisor verified). UPDATED: City Water Marquette & Ivanhoe both rows still active at 6:30 AM stamp, first estimate (6:54 AM) passed, second 7:21 AM; crews working. MAW index (20 IDs): 142474 'St. Louis' Trotter Way (detail unchanged, 11 PM 10/22 start, 2-4 hr, no municipality), 142472/142473 St. John Betty Lee Ave, 142418/142419 County (no street/municipality), 142389 Ballwin, 142458 Brentwood, 142457 Florissant, 142475 Florissant St Catherine St investigation (expires 10/26), 142460 Webster Groves all still listed; 10/22-expiry IDs still posted, not marked resolved until dropped. Planned 142422 Rock Hill, 142439 Florissant, 142441 Ballwin Golfview Dr, Pagedale 142326/142334 unchanged, not tracked; Warrensburg 142447, Wood Heights 142421/142412, Loma Linda 142409 out of region. No Clayton, University City, Ladue, Richmond Heights, Maplewood, Olivette, Kirkwood, Eureka or CWE alert. City Water work orders Marquette 1:41 PM, Nottingham & Wherry 1:36 PM (already covered by resolved Nottingham & Wherry record; Lanes 3/4 flagged it as new, not adopted), 2703 N Spring 9:19 AM still in repair list; hydrant repairs only otherwise; City advisories empty. No boil advisories: MAW none; City none; MO DNR none in City/County (Bunceton, Cooper Co. 10/22 only recent entry). MSD news nothing current; Kirkwood no alert. Campus: WashU Alert none (last 10/16); Danforth Facilities latest 10/21 (Bryan Hall generator test 10/27; EPO-Danforth outage-notification process changes 11/1), no water items; Med Campus Facilities latest 10/21 (East Imaging crane 10/24, FLTC sidewalk 10/22-26, Hospital Dr lane), no water items; StudLife, Cortex, City Streets nothing; Metro #18 Taylor and #42 Sarah water-work reroutes unchanged through 10/31; Source, Loop, Forest Park Forever, MoDOT not reached in window. News lane nothing dated 10/22-23 (First Alert 4, City news, City neighborhood news verified; KSDK, FOX 2, stltoday, Brentwood/Webster/Clayton/U City CivicAlerts blocked; stale items discarded). Social lane dark (no post dated 10/22-23; undated KSDK S Brentwood Blvd planned-replacement item discarded again). Next run: Marquette & Ivanhoe restoration; 142484 escalation or age-off; Trotter Way 142474, St. John 142472/142473 and other 10/23-expiry IDs age-off; 10/22-expiry IDs age-off; any municipality for 142474 or street for 142458/142418/142419; any boil advisory.",
-    "open_count": 11,
-    "run_at": "2026-10-23T11:50:00Z",
-    "top_incident": "City Water outage, Marquette Ave & Ivanhoe Ave (Lindenwood Park), two rows out since 6:54 PM and 11:21 PM CT 10/22, running past the 6:54 AM 10/23 estimate (second row est. 7:21 AM), Ring 2, no boil advisory, no WashU asset; impact none. No Ring 1 incident open."
+    "note": "7:40 AM CT 10/23 run (four lanes). Four new Ring 2 MAW main breaks, two age-offs, no Ring 1 or boil activity. NEW (Lanes 1, 2, 3; supervisor verified on index and detail pages): MAW 142489 Brentwood, 142488 Wildwood, 142487 Ballwin, 142486 Florissant — all emergency main-break repairs starting 8:00 AM 10/23, ~6-8 hr estimate, no street, expire 10/23; Brentwood is the closest (~2-2.5 mi from West/South Campus), Wildwood nearest Tyson (own well). RESOLVED: MAW 142389 Ballwin (10/22) dropped from index. UPDATED: County record — 142418 dropped, 142419 still listed, record stays open; City Water Marquette & Ivanhoe both rows still active at 7:30 AM stamp, both estimates (6:54 and 7:21 AM) now passed, crews working. MAW index (20 IDs): 142489, 142488, 142487, 142486, 142484 Ballwin investigation, 142475 Florissant St Catherine St (expires 10/26), 142474 'St. Louis' Trotter Way (11 PM 10/22, 2-4 hr, now past estimate, no municipality), 142472/142473 St. John Betty Lee Ave, 142460 Webster Groves, 142458 Brentwood, 142457 Florissant, 142419 County; planned 142441 Ballwin Golfview Dr, 142334/142326 Pagedale, 142422 Rock Hill, 142439 Florissant not tracked; 142447 Warrensburg and 142421 Wood Heights (Ray Co.) out of region. No Clayton, University City, Ladue, Richmond Heights, Maplewood, Olivette, Kirkwood, Eureka or CWE alert. City Water: 2703 N Spring 9:19 AM 10/22 main repair still in repair list; Nottingham & Wherry 1:36 PM work order already covered by the resolved Nottingham & Wherry record (Lanes 2/3 flagged as new, not adopted); newest work order 5:43 PM 10/22 hydrant Lansdowne & S Kingshighway; City advisories empty. No boil advisories: MAW none; City none; MO DNR none in City/County (Bunceton, Cooper Co. 10/22 only recent entry). MSD news nothing current; Kirkwood no alert. Campus: WashU Alert none (last 10/16); Danforth Facilities generator tests/elevator inspections only; Med Campus Facilities East Imaging crane 10/24, FLTC sidewalk 10/22-26, Hospital Dr lane reduction (construction), no water items; StudLife, Source, Cortex, Loop, Forest Park Forever nothing; Metro #18 Taylor and #42 Sarah water-work reroutes unchanged through 10/31; Clayton CivicAlerts, City Streets closures and MoDOT map unreadable. News lane nothing dated 10/22-23 (First Alert 4 10/07 county-park break outside window; U City CivicAlerts leaf collection 10/22; Brentwood CivicAlerts latest 9/30; Webster Groves 10/22 posts non-water). Social lane dark (Reddit, X, Nextdoor, Bluesky, Facebook unreachable; search-indexed items all undated or verified old — June 2026 Olivette/U City boil, winter Hanley Rd Clayton, Feb 2025 Hazelwood). Next run: Marquette & Ivanhoe restoration; 142489 Brentwood street or escalation; 142484/142487 Ballwin linkage; 142474 Trotter Way, 142472/142473, 142458, 142460, 142457, 142419 and the four 8 AM breaks age-off; any boil advisory.",
+    "open_count": 14,
+    "run_at": "2026-10-23T12:50:00Z",
+    "top_incident": "MAW main break 142489 Brentwood (8:00 AM CT 10/23 start, 6-8 hr, no street, no boil advisory), second Brentwood alert in 24 h, roughly 2-2.5 mi S of West/South Campus and 6200 Forsyth, Ring 2, no WashU asset; impact none. No Ring 1 incident open."
   },
   "incidents": [
     {
@@ -28,11 +28,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New MAW alert 142389 seen by all four lanes at ~8:40 AM CT 10/22: emergency main-break repairs in Ballwin beginning 10/22 8:00 AM CT, ~6-8 hr estimate (roughly 2-4 PM); no street, Last Updated and Estimated End blank; possible discolored water / low or no pressure; no boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). Ballwin is west St. Louis County (Manchester Rd), roughly 8-10 mi east of Tyson Research Center (on its own well supply, not MAW Ballwin distribution) and ~12 mi WSW of West and South Campus, different MAW pressure zone; no WashU asset. Impact none. No news or social corroboration. Monitor; resolve when dropped from the MAW index. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 7:40 AM CT 10/23: alert 142389 no longer appears on the MAW active alerts index (Lanes 1 and 3, confirmed by supervisor on the 20-entry index), roughly 23.5 hours after its 10/22 8:00 AM start. Treated as repair complete / alert expired per utility index. No street ever published, no boil advisory. A new Ballwin main break (142487, 8:00 AM 10/23) and the investigation 142484 are tracked under their own records. Ballwin is west St. Louis County; no WashU asset; impact none.",
       "confidence": "Medium",
       "first_seen": "2026-10-22T13:40:00Z",
       "id": "maw-ballwin-unlocated-20261022",
-      "last_updated": "2026-10-22T13:45:00Z",
+      "last_updated": "2026-10-23T12:50:00Z",
       "location": "Ballwin, MO (street not published by utility)",
       "ring": 2,
       "single_source": true,
@@ -40,8 +40,27 @@
         "https://www.amwater.com/moaw/alerts",
         "https://alertsdetail.awapps.com/alert/142389"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "Missouri American Water main break, Ballwin — emergency repairs (alert 142389)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New MAW emergency alert 142487 seen by Lanes 1, 2 and 3 at ~7:40 AM CT 10/23 and confirmed by supervisor on the index and detail page: main-break repairs in Ballwin beginning 10/23 8:00 AM CT, ~6-8 hr estimate (roughly 2-4 PM), index expiration 10/23; no street; possible discolored water / low or no pressure; no boil advisory. Likely the confirmed-break outcome of investigation 142484 (posted earlier 10/23, still listed) — utility text does not link them; the 10/22 Ballwin break 142389 dropped from the index this run. Ballwin is west St. Louis County (Manchester Rd), roughly 7-10 mi E of Tyson Research Center (own well supply) and ~12 mi WSW of West and South Campus, different MAW pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration. Monitor; resolve when dropped from the MAW index. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-23T12:40:00Z",
+      "id": "maw-ballwin-unlocated-20261023",
+      "last_updated": "2026-10-23T12:50:00Z",
+      "location": "Ballwin, MO (west St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.amwater.com/moaw/alerts/",
+        "https://alertsdetail.awapps.com/alert/142487"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Ballwin — emergency repairs (alert 142487)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -61,6 +80,25 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Brentwood — emergency repairs (alert 142458)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New MAW emergency alert 142489 seen by Lanes 1, 2 and 3 at ~7:40 AM CT 10/23 and confirmed by supervisor on the index (20 entries, top row) and detail page: main-break repairs in Brentwood beginning 10/23 8:00 AM CT (posted before start), ~6-8 hr estimate (roughly 2-4 PM), index expiration 10/23; no street, Last Updated blank; possible discolored water / low or no pressure; no boil advisory (MAW boil page none; City advisories none; MO DNR none in St. Louis City/County). Second Brentwood alert in 24 hours; 142458 (10/22) still listed — may be a continuation or a new break, utility text does not say. Brentwood borders Clayton to the south (Brentwood Blvd / Manchester Rd / I-64), roughly 2-2.5 mi S of West Campus, South Campus and 6200 Forsyth, different MAW pressure zone; closest new County break to WashU this run but no WashU asset in Brentwood; no Ring 1 corridor. Impact none. No news, municipal (Brentwood CivicAlerts latest 9/30) or social corroboration. Monitor; resolve when dropped from the MAW index; escalate if a street on Brentwood Blvd north of Clayton Rd or a boil advisory is published. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-23T12:40:00Z",
+      "id": "maw-brentwood-unlocated-20261023",
+      "last_updated": "2026-10-23T12:50:00Z",
+      "location": "Brentwood, MO (street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.amwater.com/moaw/alerts/",
+        "https://alertsdetail.awapps.com/alert/142489"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Brentwood — second break, emergency repairs (alert 142489)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -195,6 +233,25 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Florissant — second break, emergency repairs (alert 142457)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New MAW emergency alert 142486 seen by Lanes 1, 2 and 3 at ~7:40 AM CT 10/23 and confirmed by supervisor on the index and detail page: main-break repairs in Florissant beginning 10/23 8:00 AM CT, ~6-8 hr estimate (roughly 2-4 PM), index expiration 10/23; no street; possible discolored water / low or no pressure; no boil advisory. Third Florissant item in 24 hours alongside 142457 (10/22 4:45 PM, still listed) and St Catherine St leak investigation 142475 (expires 10/26); utility text does not link them. Florissant is north St. Louis County, roughly 12-15 mi from Danforth, North Campus and the Medical Campus, different MAW pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration. Monitor; resolve when dropped from the MAW index. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-23T12:40:00Z",
+      "id": "maw-florissant-unlocated-20261023",
+      "last_updated": "2026-10-23T12:50:00Z",
+      "location": "Florissant, MO (north St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.amwater.com/moaw/alerts/",
+        "https://alertsdetail.awapps.com/alert/142486"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Florissant — third break, emergency repairs (alert 142486)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -415,11 +472,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Two new MAW alerts 142418 and 142419 seen by Lanes 1 and 3 at ~11:40 AM CT 10/22 and confirmed by supervisor on the index: emergency main-break repairs labeled only 'St. Louis County', posted 10/22 (no clock time), ~8 hr estimate each; no street or municipality; detail pages refer to the MAW Customer Advisory Map (blocked to automated reads); possible discolored water / low or no pressure; no boil advisory (MAW boil page none; MO DNR none in City/County). Label normally indicates unincorporated county, but Clayton/University City/Ladue cannot be excluded until a municipality is published. Distinct from 10/20 (142100/142108) and 10/21 (142259) County alerts. WashU impact none at this time; Low confidence due to missing location. Recommended: Facilities may open the MAW Customer Advisory Map or call MAW 1-866-430-0820 for the pins if any County-side campus building reports pressure or discoloration. Owner: Emergency Management (track only). Monitor; resolve when dropped from the MAW index.",
+      "assessment": "Updated 7:40 AM CT 10/23 (Lanes 1 and 3, supervisor confirmed on index): alert 142418 no longer appears on the MAW active alerts index (treated as repair complete / expired); 142419 is still listed (posted 10/22, ~8 hr estimate, expiration shown 10/22 but not yet dropped), no street or municipality, no boil advisory (MAW boil page none; MO DNR none in City/County). Record stays open on 142419 alone. Label normally indicates unincorporated county, but Clayton/University City/Ladue cannot be excluded until a municipality is published. WashU impact none at this time; Low confidence due to missing location. Recommended: Facilities may open the MAW Customer Advisory Map or call MAW 1-866-430-0820 for the pins if any County-side campus building reports pressure or discoloration. Owner: Emergency Management (track only). Monitor; resolve when 142419 is dropped from the MAW index.",
       "confidence": "Low",
       "first_seen": "2026-10-22T16:40:00Z",
       "id": "maw-stlouiscounty-unlocated-20261022",
-      "last_updated": "2026-10-22T16:45:00Z",
+      "last_updated": "2026-10-23T12:50:00Z",
       "location": "St. Louis County, MO (municipality and street not published by utility)",
       "ring": 2,
       "single_source": true,
@@ -429,7 +486,7 @@
         "https://alertsdetail.awapps.com/alert/142419"
       ],
       "status": "open",
-      "title": "Missouri American Water main breaks, 'Saint Louis County' (municipality unspecified) — emergency repairs (alerts 142418, 142419)",
+      "title": "Missouri American Water main breaks, 'Saint Louis County' (municipality unspecified) — emergency repairs (alerts 142418 dropped, 142419 still listed)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -543,6 +600,25 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New MAW emergency alert 142488 seen by Lanes 1, 2 and 3 at ~7:40 AM CT 10/23 and confirmed by supervisor on the index and detail page: main-break repairs in Wildwood beginning 10/23 8:00 AM CT, ~6-8 hr estimate (roughly 2-4 PM), index expiration 10/23; no street; possible discolored water / low or no pressure; no boil advisory. Wildwood is far west St. Louis County (Manchester Rd / MO-100 / MO-109); nearest WashU asset is Tyson Research Center near Eureka, roughly 5-8 mi, which is on its own well supply and not on MAW Wildwood distribution; no other WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration. Monitor; resolve when dropped from the MAW index. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-23T12:40:00Z",
+      "id": "maw-wildwood-unlocated-20261023",
+      "last_updated": "2026-10-23T12:50:00Z",
+      "location": "Wildwood, MO (far west St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.amwater.com/moaw/alerts/",
+        "https://alertsdetail.awapps.com/alert/142488"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Wildwood — emergency repairs (alert 142488)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 10:40 AM CT 10/22: both Old North outages (N 9th & Benton, N 10th & Benton, out since ~5:35 PM 10/21) no longer appear on the live City Water Division outage table (stlwater.com/wateroos.php, stamped 10:30 AM 10/22, which states no active water main outages); confirmed by Lanes 1, 2 and 4 and by supervisor. Treated as restored per utility page, roughly 17 hours after the outage began; no boil advisory was ever posted. Ring 2, no WashU asset; impact none.",
       "confidence": "High",
       "first_seen": "2026-10-22T06:45:00Z",
@@ -600,11 +676,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 6:40 AM CT 10/23 (Lanes 1, 3, 4 and supervisor on the live table stamped 6:30 AM 10/23): both Marquette Ave & Ivanhoe Ave outage rows still active, crews actively working — out 6:54 PM 10/22 (est. 6:54 AM 10/23, now past due) and out 11:21 PM 10/22 (est. 7:21 AM 10/23; 'between' text garbled); 1:41 PM 10/22 Main - Repair work order still listed. Reads as one prolonged repair with an expanded or renewed isolation, now running past its first estimate; roughly 12 hours out of service. Only active City outage; no boil advisory on City page, MAW page or MO DNR dataset. Roughly 3.5-4 mi SE of South Campus and Danforth and ~4 mi SW of the Medical Campus; separate City distribution area; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration. Monitor; resolve when both rows drop from the active-outage table. Owner: Emergency Management (track only).",
+      "assessment": "Updated 7:40 AM CT 10/23 (all four lanes and supervisor on the live table stamped 7:30 AM 10/23): both Marquette Ave & Ivanhoe Ave outage rows still active, crews actively working — out 6:54 PM 10/22 (est. 6:54 AM 10/23) and out 11:21 PM 10/22 (est. 7:21 AM 10/23); both estimates have now passed with service still out, roughly 13 hours out of service for the first row; 1:41 PM 10/22 Main - Repair work order still listed. Reads as one prolonged repair with an expanded or renewed isolation. Only active City outage; no boil advisory on City page, MAW page or MO DNR dataset. Roughly 3.5-4 mi SE of South Campus and Danforth and ~4 mi SW of the Medical Campus; separate City distribution area; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration. Monitor; resolve when both rows drop from the active-outage table. Owner: Emergency Management (track only).",
       "confidence": "High",
       "first_seen": "2026-10-22T19:40:00Z",
       "id": "stlwater-stlouiscity-marquette-20261022",
-      "last_updated": "2026-10-23T11:50:00Z",
+      "last_updated": "2026-10-23T12:50:00Z",
       "location": "Marquette Ave & Ivanhoe Ave, 63109, St. Louis City (Lindenwood Park, south City)",
       "ring": 2,
       "single_source": true,
