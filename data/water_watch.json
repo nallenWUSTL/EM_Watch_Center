@@ -1,10 +1,10 @@
 {
   "latest": {
-    "alert_level": "watch",
-    "note": "9:45 PM CT 10/22 run (four lanes). NOTHING NEW; one resolution. City Water live table (stamped 9:30 PM): Eichelberger & Virginia dropped (restored ~5 hr after start, ~7 hr ahead of estimate) — marked resolved; four active south-City outages unchanged — Nottingham & Wherry (est 1:06 AM 10/23), Nottingham & Macklind (est 2:52 AM), January & Nottingham (est 2:51 AM), Marquette & Ivanhoe (est 6:54 AM); Main-Repair rows for Marquette & Ivanhoe (1:41 PM) and Nottingham & Wherry (1:36 PM) now tie the outages to main repairs; 2703 N Spring repair still listed; hydrant repair Lansdowne & S Kingshighway (not tracked); no CWE / Skinker-DeBaliviere / Forest Park SE rows; City advisories empty. MAW index (9:35-9:45 PM, all lanes): every tracked emergency still listed unchanged — 142344 U City (detail unchanged, no street, no end, ~30 hr old, index expiry 10/22 but still posted), 142418/142419 County (no municipality), 142389 Ballwin, 142388 St. Ann, 142387 Kinloch, 142355 Des Peres, 142351 Rock Hill, 142458 Brentwood, 142457 Florissant, 142460 Webster Groves; no IDs dropped; no Clayton, Ladue, Richmond Heights, Maplewood or Eureka alert; planned 142422/142439/142441 and Pagedale 142326 (10/26) / 142334 (10/27, cut-and-cap, ~2 mi NW of North Campus, Ring 2 planned) unchanged; 142447/142421/142412/142409 out of region. No boil advisories: MAW none; City none; MO DNR none in City/County (newest Bunceton PWS, Cooper County, 10/22). MSD nothing. Campus: WashU Alert none (last 10/15 ShakeOut); Danforth Facilities 10/22 generator tests and elevator inspections only; Med Campus Facilities non-water (FLTC sidewalk 10/22-26, East Imaging crane 10/24, Hospital Dr lane, Metro Garage weekend closures); Source, StudLife, BJC, Cortex, Loop, Forest Park Forever nothing; Metro #18 Taylor and #42 Whittier/Maffitt (through 10/31) unchanged. U City homepage: only Pershing St (Linden–Forest Park Pkwy) paving delayed for MAW service-line work, planned, undated. News lane nothing dated 10/21-22 (First Alert 4 index, U City/Brentwood/Webster Groves CivicAlerts opened; KSDK/FOX 2/Clayton pages unreadable through proxy; undated FOX 2 '3 breaks across County' and KSDK River Des Peres & Chippewa stories not adopted). Social lane dark (no 10/21-22 posts datable; Nextdoor Olive & Eastover still blocked/undated). Next run: Nottingham & Wherry restoration (~1:06 AM), Macklind/January (~2:52 AM), Marquette (~6:54 AM); 142344 and other 10/22-expiry MAW IDs age-off; any street for 142458 Brentwood or 142418/142419; any boil advisory.",
+    "alert_level": "normal",
+    "note": "10:45 PM CT 10/22 run (four lanes). ONE NEW, ONE RESOLVED. MAW index (10:35-10:45 PM, all lanes): NEW 142472 St. John, Betty Lee Ave, 10:15 PM start, 2-4 hr, no boil advisory, Ring 2, impact none; 142344 University City DROPPED from the index (detail page unchanged, no street, no completion text) — marked resolved per utility index after ~30.5 hr, no WashU impact ever observed, alert level lowered from watch to normal; all other tracked emergencies still listed unchanged — 142418/142419 County (no municipality), 142389 Ballwin, 142388 St. Ann, 142387 Kinloch, 142355 Des Peres, 142351 Rock Hill, 142458 Brentwood, 142457 Florissant (4:45 PM start), 142460 Webster Groves; no Clayton, Ladue, Richmond Heights, Maplewood, Olivette or Eureka alert; planned 142422/142439/142441 and Pagedale 142326 (10/26) / 142334 (10/27) unchanged; 142447/142421/142412/142409 out of region. City Water live table (stamped 10:30 PM): four active south-City outages unchanged — Nottingham & Wherry (est 1:06 AM 10/23), Nottingham & Macklind (est 2:52 AM), January & Nottingham (est 2:51 AM), Marquette & Ivanhoe (est 6:54 AM); 2703 N Spring repair still listed; new rows only hydrant repairs (Lansdowne & S Kingshighway 5:43 PM; Ashland, Lexington, Palm) — not tracked; no CWE / Skinker-DeBaliviere / Forest Park SE rows; City advisories empty. No boil advisories: MAW none; City none; MO DNR none in City/County (newest Bunceton PWS, Cooper County, 10/22). MSD nothing. Campus: WashU Alert none (page last modified 10/16); Danforth Facilities generator tests, elevator inspections, Life Sciences staircase (10/14-28) only; Med Campus Facilities non-water items; Source, StudLife, BJC, Cortex, Loop, Forest Park Forever nothing; Metro #18 Taylor (City water closure, Taylor between W Pine and Laclede, through 10/31) and #42 Whittier/Maffitt unchanged; U City homepage only Pershing St paving delay. News lane nothing dated 10/21-22 (First Alert 4, STLPR, U City CivicAlerts opened; FOX 2 / KSDK captures stale; undated Yahoo/FOX 2 'breaks across County' not adopted). Social lane dark (only a Jan 2024 U City X post and the blocked Nextdoor Olive & Eastover post). Next run: St. John 142472 age-off (~12:15-2:15 AM); Nottingham & Wherry restoration (~1:06 AM), Macklind/January (~2:52 AM), Marquette (~6:54 AM); remaining 10/22-expiry MAW IDs age-off; any street for 142458 Brentwood or 142418/142419; any boil advisory.",
     "open_count": 15,
-    "run_at": "2026-10-23T02:45:00Z",
-    "top_incident": "MAW main break, University City (alert 142344) — began 4:00 PM CT 10/21, ~6 hr repair (now ~30 hr past start with no completion note), street unknown, still on index (expiry 10/22), Ring 1 by municipality (U City-side Danforth, North Campus, Delmar Loop), no boil order; WashU impact possible, single-source, likely stale. No change this run."
+    "run_at": "2026-10-23T03:45:00Z",
+    "top_incident": "MAW main break, St. John — Betty Lee Ave (alert 142472), began 10:15 PM CT 10/22, ~2-4 hr repair, Ring 2, no boil advisory, no WashU asset; impact none. No Ring 1 incident open: U City 142344 dropped from the MAW index and marked resolved."
   },
   "incidents": [
     {
@@ -298,6 +298,25 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New MAW emergency alert 142472 seen by Lanes 1, 2, 3 and 4 at ~10:35 PM CT 10/22 on the MAW index and detail page: main-break repair on Betty Lee Ave, St. John, beginning 10/22 10:15 PM CT, ~2-4 hr estimate (roughly 12:15-2:15 AM 10/23), index expiration 10/23; no cross street, Estimated End and Last Updated blank; possible discolored water / low or no pressure; no boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). First MAW alert this week to name a street. St. John is north St. Louis County (St. Charles Rock Rd / I-170), roughly 5-6 mi NNW of North Campus and Danforth and ~7 mi from the Medical Campus, different MAW pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration. Monitor; resolve when dropped from the MAW index. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-23T03:35:00Z",
+      "id": "maw-stjohn-bettylee-20261022",
+      "last_updated": "2026-10-23T03:45:00Z",
+      "location": "Betty Lee Ave, St. John, MO (north St. Louis County, near St. Charles Rock Rd / I-170; cross street not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.amwater.com/moaw/alerts",
+        "https://alertsdetail.awapps.com/alert/142472"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, St. John — Betty Lee Ave, emergency repairs (alert 142472)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Cleared: at ~10:40 AM CT 10/21 alerts 142100 and 142108 no longer appear on the MAW active alerts index (Lane 1; detail pages still load unchanged, 6 hr estimates from 10/20 morning, no streets, no boil advisory). Treated as repair complete / alert expired per utility index. Municipality never published; no WashU impact observed.",
       "confidence": "Low",
       "first_seen": "2026-10-20T21:40:00Z",
@@ -415,11 +434,11 @@
         "North Campus",
         "Delmar Loop properties"
       ],
-      "assessment": "11:45 AM CT 10/22 re-check (all four lanes, supervisor confirmed on index): MAW alert 142344 still listed and detail page unchanged — emergency main-break repairs in University City beginning 4:00 PM CT 10/21, ~6 hr estimate (nominal end ~10 PM 10/21, now ~20 hr past start with no completion note); index expiration 10/21 but still posted; no street; Estimated End / Last Updated blank; no boil advisory (MAW boil page none; MO DNR none in City/County; stlwater.com none). Third University City MAW break in three days (142036 10/19, 142098 10/20, both cleared without a published street). Ring 1 by municipality: University City portion of Danforth (MAW-served), North Campus (Delmar/Forest Park Pkwy), Delmar Loop properties. Still no locating notice: WashU Alert none active (last item 10/15 ShakeOut); Danforth Facilities only a 10/21 Bryan Hall generator-test post; Medical Campus Facilities non-water items; Source, Student Life, Metro (only pre-existing Taylor and Whittier/Maffitt reroutes), U City CivicAlerts (nothing since 3/23 Pershing service-line note), local news and social dated 10/21-22: nothing. Nextdoor 'Olive and Eastover' U City agency post remains undated and blocked (Olive Blvd & Eastover Ave would be ~1.5 mi north of Danforth, Ring 2, if current). Single-source (utility index + detail page); likely stale rather than active. No WashU impact observed in ~20 hours. Likely consequences if on campus-side mains: discolored water or pressure drop in U City-side residence halls, dining and labs; fire-suppression pressure check. Recommended: Facilities spot-check pressure/discoloration at North Campus and U City-side Danforth buildings; Residential Life and Dining watch for complaints; call MAW 1-866-430-0820 or open the MAW Customer Advisory Map for the pin. Owner: Facilities (lead), Emergency Management (track). Next check: completion or index age-off.",
+      "assessment": "Resolved 10:35 PM CT 10/22: alert 142344 no longer appears on the MAW active alerts index (all four lanes; no University City, Clayton, Ladue, Richmond Heights or Olivette entry remains); detail page still loads unchanged (began 4:00 PM CT 10/21, ~6 hr estimate, no street, no completion text, Last Updated blank, no boil advisory). Treated as repair complete / alert expired per utility index, roughly 30.5 hours after start, the same handling applied to 142036, 142098 and Clayton 142261. No WashU impact observed over the life of the alert: no WashU Alert (last 10/16 modification, none active), Danforth or Medical Campus Facilities, Source, Student Life, Metro, U City CivicAlerts, local news or social notice ever named a street or reported pressure or discoloration at the U City-side Danforth buildings, North Campus or Delmar Loop properties. Street never identified; third University City MAW break in three days (10/19, 10/20, 10/21), all cleared without a published street. Nextdoor Olive & Eastover lead remains undated and blocked. Ring 1 by municipality only. No action required; Facilities may note the closure and the repeat-break pattern in University City. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-10-21T21:40:00Z",
       "id": "maw-universitycity-unlocated-20261021",
-      "last_updated": "2026-10-22T16:45:00Z",
+      "last_updated": "2026-10-23T03:45:00Z",
       "location": "University City, MO (street not published by utility)",
       "ring": 1,
       "single_source": true,
@@ -437,10 +456,10 @@
         "https://nextdoor.com/agency-post/mo/university-city/university-city-2/water-main-break-at-olive-and-eastover-128489350/ (blocked, undated, unverified)",
         "https://www.stl.news/major-water-main-break-olivette-university-city/ (June 7, 2026 event, not related)"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "Missouri American Water main break, University City — emergency repairs (alert 142344)",
       "utility": "Missouri American Water",
-      "washu_impact": "possible"
+      "washu_impact": "none"
     },
     {
       "affected_assets": [],
