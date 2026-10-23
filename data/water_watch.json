@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "6:45 PM CT 10/22 run (four lanes). NO NEW OR CHANGED INCIDENTS. MAW index (6:35-6:45 PM, all four lanes): every tracked emergency still listed unchanged — 142344 U City (no street, no end, Last Updated blank), 142418/142419 unspecified County, 142389 Ballwin, 142388 St. Ann, 142387 Kinloch, 142355 Des Peres, 142351 Rock Hill investigation, 142458 Brentwood, 142457 Florissant, 142460 Webster Groves; no IDs dropped; no Clayton, Ladue, Richmond Heights or Maplewood alert; planned 142422 Rock Hill 10/23, 142439 Florissant, 142441 Ballwin, 142326/142334 Pagedale unchanged; out-of-region 142447/142421/142412/142409 ignored. City table (stamped 6:30 PM): Nottingham & Wherry (out 5:06 PM, est 1:06 AM 10/23) and Eichelberger & Virginia (out 4:24 PM, est 4:24 AM 10/23) unchanged and actively worked; Marquette & Ivanhoe and 2703 N Spring repairs unchanged; new hydrant repair Lansdowne Ave & S Kingshighway (5:43 PM, hydrant only, Ring 2, not tracked). No boil advisories: MAW none; City none; MO DNR none in City/County (newest 10/22 Bunceton PWS, Cooper County). MSD, Kirkwood, City Water news (latest 8/25) nothing. Campus: WashU Alert none; Danforth Facilities generator tests only; Med Campus Facilities non-water (East Imaging crane 10/24, FLTC sidewalk, Hospital Dr lane); Source, StudLife, Cortex, Loop, Forest Park, BJC nothing water; Metro #18 Taylor W Pine-Laclede (City Water, through 10/31) and #42 Whittier/Maffitt unchanged. News/municipal: U City, Webster Groves, Brentwood, Patch, FirstAlert4, KSDK, STLPR nothing water dated 10/21-22; claytonmo.gov, fox2now, stltoday unreadable. Social lane dark. Next run: Nottingham restoration (~1:06 AM) and Eichelberger (~4:24 AM 10/23); 142344 index drop; any street for 142458 Brentwood or 142418/142419; any boil advisory.",
-    "open_count": 14,
-    "run_at": "2026-10-22T23:45:00Z",
-    "top_incident": "MAW main break, University City (alert 142344) — began 4:00 PM CT 10/21, ~6 hr repair (now ~28 hr past start with no completion note), street unknown, still on index (expiry 10/22), Ring 1 by municipality (U City-side Danforth, North Campus, Delmar Loop), no boil order; WashU impact possible, single-source, likely stale. No change this run. Nothing new this run."
+    "note": "7:45 PM CT 10/22 run (four lanes). NEW: City Water table (stamped 7:30 PM) added three active outages at 6:51-6:54 PM in Lindenwood Park / St. Louis Hills — Nottingham & Macklind (Macklind-Hampton, est 2:52 AM 10/23), January & Nottingham (Nottingham-Devonshire, est 2:51 AM) and Marquette & Ivanhoe (est 6:54 AM; escalated from the 1:41 PM repair) — alongside Nottingham & Wherry (est 1:06 AM) and Eichelberger & Virginia (est 4:24 AM): five active City outages, all south City, Ring 2, no WashU asset, no boil advisory. 2703 N Spring repair unchanged; new hydrant repairs 4789 Ashland, 4741 Lexington, 4750 Palm (north City, not tracked). MAW index (7:35-7:41 PM, Lanes 1, 3, 4): every tracked emergency still listed unchanged — 142344 U City (no street, no end, 10/22 expiry, ~29 hr old), 142418/142419 County, 142389 Ballwin, 142388 St. Ann, 142387 Kinloch, 142355 Des Peres, 142351 Rock Hill, 142458 Brentwood, 142457 Florissant, 142460 Webster Groves; no IDs dropped; no Clayton, Ladue, Richmond Heights, Maplewood or Eureka alert; planned 142422/142439/142441/142326/142334 unchanged; 142447/142421/142412/142409 are Warrensburg, Wood Heights and Loma Linda (out of region, ignore). No boil advisories: MAW none; City none; MO DNR none in City/County (newest Bunceton PWS, Cooper County, 10/22). MSD nothing. Campus: WashU Alert none (last mod 10/16); Danforth Facilities generator tests, elevator inspections, Life Sciences stair, Nov 1 notification-process change only; Med Campus Facilities non-water; Source, StudLife, Cortex, Loop, Forest Park nothing; Metro #18 Taylor and #42 Whittier/Maffitt unchanged. News lane nothing dated 10/21-22 (KSDK, FOX 2, FirstAlert4, U City CivicAlerts, Patch, City Water newsroom); claytonmo.gov and City street-closure page unreadable. Social lane dark (no 10/21-22 posts indexed). Next run: Nottingham & Wherry restoration (~1:06 AM), Macklind/January (~2:52 AM), Eichelberger (~4:24 AM), Marquette (~6:54 AM); 142344 and 142355 index age-off (10/22 expiry); any street for 142458 Brentwood or 142418/142419; any boil advisory.",
+    "open_count": 16,
+    "run_at": "2026-10-23T00:45:00Z",
+    "top_incident": "MAW main break, University City (alert 142344) — began 4:00 PM CT 10/21, ~6 hr repair (now ~29 hr past start with no completion note), street unknown, still on index (expiry 10/22), Ring 1 by municipality (U City-side Danforth, North Campus, Delmar Loop), no boil order; WashU impact possible, single-source, likely stale. No change this run. New this run: three City outages in Lindenwood Park / St. Louis Hills (Ring 2, impact none)."
   },
   "incidents": [
     {
@@ -503,11 +503,30 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New work order on the live City Water Division table (stlwater.com/wateroos.php, stamped 2:30 PM CT 10/22): Main - Repair at Marquette Ave & Ivanhoe Ave, initiated 10/22 1:41 PM CT. Listed under Recent Maintenance/Repair Projects, not as an active outage (page states no active water main outages); no restoration estimate; no boil advisory on City page, MAW page or MO DNR dataset. Posted five minutes after a second repair at Nottingham & Wherry about half a mile west (separate record); a 10/19 repair at Nottingham & Hampton is also still listed, suggesting a recurring south-City area. Lindenwood Park is roughly 3.5-4 mi SE of South Campus and Danforth and ~4 mi SW of the Medical Campus; separate City distribution area; no WashU asset; no Ring 1 corridor. Impact none. Seen by Lane 1 from the utility page; supervisor confirmed on the live table; no news or social corroboration. Monitor; resolve when dropped from the recent-repairs list or after 48 hours with no outage posted. Owner: Emergency Management (track only).",
+      "assessment": "New ACTIVE outage on the live City Water Division table (stlwater.com/wateroos.php, stamped 7:30 PM CT 10/22; seen by Lanes 1 and 4, supervisor confirmed): January between Nottingham and Devonshire taken out of service 10/22 6:51 PM CT, estimated restoration 10/23 2:51 AM CT (8-hr window). Posted within a minute of the Nottingham & Macklind and Marquette & Ivanhoe outages; appears to be part of the same south-City isolation around the Nottingham & Wherry main repair. No boil advisory on City page, MAW page or MO DNR dataset. Roughly 3.5-4 mi SE of South Campus and Danforth and ~4 mi SW of the Medical Campus; separate City distribution area; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration. Monitor; resolve when it drops from the active-outage table. Owner: Emergency Management (track only).",
+      "confidence": "High",
+      "first_seen": "2026-10-23T00:40:00Z",
+      "id": "stlwater-stlouiscity-january-20261022",
+      "last_updated": "2026-10-23T00:45:00Z",
+      "location": "January Ave between Nottingham Ave and Devonshire Ave, 63109, St. Louis City (Lindenwood Park / St. Louis Hills, south City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php",
+        "https://www.stlwater.com/outages"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outage, January Ave & Nottingham Ave (Lindenwood Park / St. Louis Hills)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "Escalated 7:40 PM CT 10/22 (Lanes 1 and 4; supervisor confirmed on the live table stamped 7:30 PM): the 1:41 PM Main - Repair at Marquette & Ivanhoe is now an ACTIVE service outage — Marquette taken out of service 10/22 6:54 PM CT, estimated restoration 10/23 6:54 AM CT (12-hr window; cross streets listed as 'between Ivanhoe and Ivanhoe', a table error). Posted the same minute as new outages at Nottingham & Macklind and January & Nottingham, making five active City outages clustered in Lindenwood Park / St. Louis Hills alongside Nottingham & Wherry and Eichelberger & Virginia. No boil advisory on City page, MAW page or MO DNR dataset. Roughly 3.5-4 mi SE of South Campus and Danforth and ~4 mi SW of the Medical Campus; separate City distribution area; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration. Monitor; resolve when it drops from the active-outage table. Owner: Emergency Management (track only).",
       "confidence": "High",
       "first_seen": "2026-10-22T19:40:00Z",
       "id": "stlwater-stlouiscity-marquette-20261022",
-      "last_updated": "2026-10-22T19:45:00Z",
+      "last_updated": "2026-10-23T00:45:00Z",
       "location": "Marquette Ave & Ivanhoe Ave, 63109, St. Louis City (Lindenwood Park, south City)",
       "ring": 2,
       "single_source": true,
@@ -516,7 +535,7 @@
         "https://www.stlwater.com/outages"
       ],
       "status": "open",
-      "title": "City of St. Louis Water Division main repair, Marquette Ave & Ivanhoe Ave (Lindenwood Park)",
+      "title": "City of St. Louis Water Division service outage, Marquette Ave & Ivanhoe Ave (Lindenwood Park) — escalated from main repair",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
@@ -536,6 +555,25 @@
       ],
       "status": "open",
       "title": "City of St. Louis Water Division service outage, Nottingham Ave & Wherry Ave (Lindenwood Park / St. Louis Hills)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New ACTIVE outage on the live City Water Division table (stlwater.com/wateroos.php, stamped 7:30 PM CT 10/22; seen by Lanes 1 and 4, supervisor confirmed): Nottingham between Macklind and Hampton taken out of service 10/22 6:52 PM CT, estimated restoration 10/23 2:52 AM CT (8-hr window). Extends the Nottingham & Wherry outage (5:06 PM) one block east toward Hampton; with January & Nottingham and Marquette & Ivanhoe posted the same minute, five active City outages are now clustered in Lindenwood Park / St. Louis Hills, the repeat-break area noted since 10/19 (Nottingham & Hampton). No boil advisory on City page, MAW page or MO DNR dataset. Roughly 3.5-4 mi SE of South Campus and Danforth and ~4 mi SW of the Medical Campus; separate City distribution area; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration. Monitor; resolve when it drops from the active-outage table. Owner: Emergency Management (track only).",
+      "confidence": "High",
+      "first_seen": "2026-10-23T00:40:00Z",
+      "id": "stlwater-stlouiscity-nottingham-macklind-20261022",
+      "last_updated": "2026-10-23T00:45:00Z",
+      "location": "Nottingham Ave between Macklind Ave and Hampton Ave, 63109, St. Louis City (Lindenwood Park / St. Louis Hills, south City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php",
+        "https://www.stlwater.com/outages"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outage, Nottingham Ave & Macklind Ave (Lindenwood Park / St. Louis Hills)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
