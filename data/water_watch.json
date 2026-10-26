@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "10:40 AM CT 10/26 run (four lanes). Reclassified two Metro reroutes previously logged as non-water: Taylor Ave W Pine-Laclede closure by City Water (Ring 1, Medical Campus, impact possible) and Whittier & Maffitt main break (#42 Sarah, Ring 2, none). Verified by supervisor on Metro rider alerts. No new St. Louis City/County MAW alerts; 142652 Webster Groves off the 20-item index but detail page live, kept open. City Water table (10:30 AM) no active main outages; new hydrant repair 3260 S Kingshighway (Ring 2, untracked). No boil advisory found (MAW boil page, MO DNR, MSD, Kirkwood not reopened this run). WashU Alert none; Facilities no water notices. No dated news or social coverage 10/25-26; Reddit blocked. Beware stlouis-mo.gov Event_ID=33304 (2022 boil advisory titled 10/25-10/26). Ring 3 untracked: St. Charles 142667, Neosho 142871, St. Joseph 142858/142686, Warrensburg 142746, Lawson 142549.",
+    "note": "11:33 AM CT 10/26 run (four lanes). Nothing new or changed in St. Louis City/County. MAW index: no new St. Louis-area IDs; 142652 Webster Groves still off index (detail page not rechecked; kept open); 142863 Ballwin still listed (~3 PM estimate); other tracked IDs still listed past expiry. City Water table (11:30 AM): no active main outages; hydrant repairs 3301 and 3260 S Kingshighway (Ring 2, routine, untracked). No boil advisory (MAW, City); MSD, Kirkwood, MO DNR not reopened. WashU Alert none; Danforth/Medical Facilities no water notices. Metro #18 Taylor (W Pine-Laclede), #41 Thekla, #42 Whittier alerts unchanged; Taylor Maryland-Lindell heavy-equipment alert (#18) still gives no reason, not logged as water. No dated 10/25-26 news or social coverage. Ring 3 untracked: Neosho 142871, St. Joseph 142858/142686, Warrensburg 142746, St. Charles 142667, Lawson 142549.",
     "open_count": 11,
-    "run_at": "2026-10-26T15:45:00Z",
-    "top_incident": "City Water Division street closure on Taylor Ave between W Pine and Laclede (Medical Campus corridor, Ring 1), since 10/1, Metro #18 reroute; no outage or boil advisory posted; impact possible."
+    "run_at": "2026-10-26T16:40:00Z",
+    "top_incident": "City Water Division street closure on Taylor Ave between W Pine and Laclede (Medical Campus corridor, Ring 1), since 10/1, Metro #18 reroute; no outage or boil advisory posted; impact possible. No change this run."
   },
   "incidents": [
     {
