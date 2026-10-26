@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "11:33 AM CT 10/26 run (four lanes). Nothing new or changed in St. Louis City/County. MAW index: no new St. Louis-area IDs; 142652 Webster Groves still off index (detail page not rechecked; kept open); 142863 Ballwin still listed (~3 PM estimate); other tracked IDs still listed past expiry. City Water table (11:30 AM): no active main outages; hydrant repairs 3301 and 3260 S Kingshighway (Ring 2, routine, untracked). No boil advisory (MAW, City); MSD, Kirkwood, MO DNR not reopened. WashU Alert none; Danforth/Medical Facilities no water notices. Metro #18 Taylor (W Pine-Laclede), #41 Thekla, #42 Whittier alerts unchanged; Taylor Maryland-Lindell heavy-equipment alert (#18) still gives no reason, not logged as water. No dated 10/25-26 news or social coverage. Ring 3 untracked: Neosho 142871, St. Joseph 142858/142686, Warrensburg 142746, St. Charles 142667, Lawson 142549.",
-    "open_count": 11,
-    "run_at": "2026-10-26T16:40:00Z",
-    "top_incident": "City Water Division street closure on Taylor Ave between W Pine and Laclede (Medical Campus corridor, Ring 1), since 10/1, Metro #18 reroute; no outage or boil advisory posted; impact possible. No change this run."
+    "note": "12:40 PM CT 10/26 run (four lanes). New: City Water outage Union Dr & Summit Dr, Forest Park (Ring 1, Lanes 1 and 3); MAW 142890 Overland main break (Ring 2, ~4:45 PM est.). Update: MAW 142653 dropped off index (not resolved; index capped). Other tracked MAW IDs still listed; Ballwin 142863 ~3 PM est. City table: Union/Summit is the only active outage; hydrant repairs 3301 and 3260 S Kingshighway (routine). No boil advisory (MAW, City, MO DNR). WashU Alert none; Danforth/Medical Facilities no water notices. Metro #18 Taylor, #41 Thekla, #42 Whittier alerts unchanged. No dated 10/25-26 news or social coverage; undated KSDK south County boil-advisory story (Watson/Tesson Ferry) not adopted. MSD, Kirkwood, BJC, Cortex, Loop, MoDOT not checked this run.",
+    "open_count": 13,
+    "run_at": "2026-10-26T17:40:00Z",
+    "top_incident": "New City Water service outage on Union Dr & Summit Dr in Forest Park (Ring 1), out since 12:23 PM, restoration est. 8:23 PM CT; cause unpublished, no boil advisory; WashU impact none. Taylor Ave closure (Medical Campus corridor, impact possible) unchanged."
   },
   "incidents": [
     {
@@ -412,6 +412,25 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New MAW alert 142890 (Lanes 1 and 4, same utility source): main-break repairs beginning 10/26 11:45 AM CT, ~5 hr estimate (~4:45 PM); possible discolored water, low or no pressure; no street. Overland is ~4-5 mi NW of Danforth and North Campus; no WashU asset; no Ring 1 corridor. Impact none. No boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). Monitor; resolve when dropped from the MAW index. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-26T17:40:00Z",
+      "id": "maw-overland-unlocated-20261026",
+      "last_updated": "2026-10-26T17:40:00Z",
+      "location": "Overland, MO (mid St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.amwater.com/moaw/alerts/",
+        "https://alertsdetail.awapps.com/alert/142890"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Overland — emergency repairs (alert 142890)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 11:40 PM CT 10/22: service investigation alert 142351 no longer appears on the MAW active alerts index (Lanes 1, 2, 3 and 4, confirmed by supervisor), roughly 28 hours after first posting; only the planned-improvements notice 142422 (general, expires 10/23) remains for Rock Hill. Never escalated to a main-break alert; no street ever published, no boil advisory. Rock Hill is Manchester Rd / McKnight Rd area; no WashU asset; impact none.",
       "confidence": "Medium",
       "first_seen": "2026-10-22T00:40:00Z",
@@ -547,11 +566,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Grouped record for 10/24 MAW alerts (Lanes 1-4): main breaks Northwoods 142663, St. John 142676, Webster Groves 142652, unspecified County 142653 and 142658; investigations 142655, 142679, 142682. 10:33 AM CT 10/26: 142652 (Webster Groves main break, 10/24 8 AM, 6-8 hr estimate) has dropped off the MAW index, but the index is capped at 20 entries and the detail page is still live with no completion text, so not treated as resolved; all others still listed. No streets. Webster Groves (~4-5 mi S of Danforth) is the nearest; no WashU asset; no Ring 1 corridor. Impact none. No boil advisory. No news or social corroboration. Monitor; resolve when dropped from the MAW index. Owner: Emergency Management (track only).",
+      "assessment": "Grouped record for 10/24 MAW alerts (Lanes 1-4): main breaks Northwoods 142663, St. John 142676, Webster Groves 142652, unspecified County 142653 and 142658; investigations 142655, 142679, 142682. 12:40 PM CT 10/26 (Lane 1): 142653 has now also dropped off the MAW index, joining 142652; the index is capped at 20 entries and no completion text is published, so neither is treated as resolved yet; 142655, 142658, 142663, 142676, 142679, 142682 still listed. No streets. Webster Groves (~4-5 mi S of Danforth) is the nearest; no WashU asset; no Ring 1 corridor. Impact none. No boil advisory. No news or social corroboration. Monitor; resolve when dropped from the MAW index. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-10-24T13:00:00Z",
       "id": "maw-stlouiscounty-group-20261024",
-      "last_updated": "2026-10-26T15:45:00Z",
+      "last_updated": "2026-10-26T17:40:00Z",
       "location": "Northwoods, St. John, Webster Groves and unspecified St. Louis County locations (streets not published by utility)",
       "ring": 2,
       "single_source": true,
@@ -962,6 +981,24 @@
       ],
       "status": "open",
       "title": "City of St. Louis Water Division main break, Thekla Ave & Plover Ave — Metro #41 Lee reroute",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:40 PM CT 10/26 (Lanes 1 and 3, both from the City Water live outage table stamped 12:30 PM): Union Dr & Summit Dr taken out of service 12:23 PM, estimated restoration 8:23 PM CT 10/26; cause not published (break vs planned work unknown); only active City outage. Inside Forest Park, Ring 1, roughly 1.5-2 mi from both Danforth (W) and the Medical Campus (E). No WashU building known to be served from this segment; no WashU Alert or Danforth/Medical Facilities notice; no boil advisory (City, MAW, MO DNR none). Impact on WashU water service assessed none; watch for a Forest Park road closure affecting Danforth-Medical Campus travel or a reclassification to a larger break. Action: EM monitor; Facilities/Transportation note for shuttle routing if Union or adjacent park roads close. No news or social corroboration.",
+      "confidence": "Medium",
+      "first_seen": "2026-10-26T17:40:00Z",
+      "id": "stlwater-stlouiscity-uniondr-20261026",
+      "last_updated": "2026-10-26T17:40:00Z",
+      "location": "Union Dr between the Jewel Box and Summit Dr/Rd, Forest Park, St. Louis City (cross street as published; not independently placed)",
+      "ring": 1,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outage, Union Dr & Summit Dr (Forest Park)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
