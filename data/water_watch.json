@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "5:33 PM CT 10/26 run (four lanes). City table (5:30 PM stamp): no active main outages; Leona & Bowen repair still listed; new hydrant repair 3333 Lawn Ave (2 PM, Ring 2) not tracked. Metro #18 Taylor, #41 Thekla, #42 Whittier reroutes still active (Lane 3); Lane 4 suggestion that Thekla/Whittier resolved not adopted (they never appeared on the City table). MAW: new Florissant 142914; 142658 off the index (capped list, not resolved). No boil advisory (City, MAW; MO DNR none in St. Louis area, newest Cole Camp 10/24). WashU Alert none; Danforth and Medical Facilities no water notices. No dated news or social reports. KSDK Overland 48-hr boil and Clayton/U City boil-lifted stories undatable; archive, not adopted. Not checked: MSD, Kirkwood, BJC, Forest Park Forever, MoDOT direct; KSDK/FOX 2 fetches blocked.",
+    "note": "6:33 PM CT 10/26 run (four lanes). City table (6:30 PM stamp): no active main outages; Leona & Bowen repair still listed; routine hydrant repairs at 3333 Lawn Ave, 4969 Parker Ave, 3301 and 3260 S Kingshighway (south City, Ring 2) not tracked. Metro #18 Taylor, #41 Thekla, #42 Whittier reroutes still listed (Lane 3). MAW: no Missouri alert newer than 142914 found (Lane 1 probed 142915-142925, all out of state; 142891-142913 not checked); Lane 4 saw tracked alerts still on index, Webster Groves 142652 absent (already noted); no resolutions adopted. No boil advisory (MO DNR newest 8 outside St. Louis area). WashU Alert none (modified 10/23); Danforth and Medical Facilities no water notices. No dated news or social reports. Not checked: MSD, Kirkwood, BJC, Cortex, Forest Park Forever, MoDOT direct; MAW boil page errored.",
     "open_count": 14,
-    "run_at": "2026-10-26T22:40:00Z",
-    "top_incident": "Taylor Ave closure by City Water (W Pine-Laclede, Medical Campus corridor, impact possible) still posted on Metro #18 through 10/31; no change. New MAW Florissant break 142914 (Ring 2, impact none)."
+    "run_at": "2026-10-26T23:40:00Z",
+    "top_incident": "Taylor Ave closure by City Water (W Pine-Laclede, Medical Campus corridor, impact possible) still posted on Metro #18 through 10/31; no change."
   },
   "incidents": [
     {
