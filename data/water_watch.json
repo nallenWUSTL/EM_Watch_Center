@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "4:35 PM CT 10/26 run (four lanes). City table (4:30 PM stamp): no active main outages; N Spring & Dodier resolved; Leona & Bowen repair still listed; new hydrant repairs at 4969 Parker Ave (3 PM) and 3260/3301 S Kingshighway (south segment, Ring 2) not tracked (no outage). Metro #18 Taylor, #41 Thekla, #42 Whittier reroutes unchanged. MAW: 142655 off the index (capped list, not resolved); all other tracked IDs still listed, none in Clayton/U City/Ladue/Richmond Hts/Olivette/Brentwood/Maplewood; new outstate IDs 142856, 142858 (St. Joseph), 142871 (Neosho). No boil advisory (City, MAW; MO DNR October entries outstate only). WashU Alert none (last change 10/23); Danforth and Medical Facilities no water notices. KSDK Ferguson Haplin Dr break and a Clayton/U City 'emergency boil advisory (lifted)' story could not be opened or dated; likely archive, not adopted. Not checked: Forest Park Forever, MoDOT, BJC direct; Nextdoor blocked.",
-    "open_count": 13,
-    "run_at": "2026-10-26T21:40:00Z",
-    "top_incident": "Taylor Ave closure by City Water (W Pine-Laclede, Medical Campus corridor, impact possible) still posted on Metro #18 through 10/31. N Spring Ave & Dodier St outage cleared from the City table by 4:30 PM."
+    "note": "5:33 PM CT 10/26 run (four lanes). City table (5:30 PM stamp): no active main outages; Leona & Bowen repair still listed; new hydrant repair 3333 Lawn Ave (2 PM, Ring 2) not tracked. Metro #18 Taylor, #41 Thekla, #42 Whittier reroutes still active (Lane 3); Lane 4 suggestion that Thekla/Whittier resolved not adopted (they never appeared on the City table). MAW: new Florissant 142914; 142658 off the index (capped list, not resolved). No boil advisory (City, MAW; MO DNR none in St. Louis area, newest Cole Camp 10/24). WashU Alert none; Danforth and Medical Facilities no water notices. No dated news or social reports. KSDK Overland 48-hr boil and Clayton/U City boil-lifted stories undatable; archive, not adopted. Not checked: MSD, Kirkwood, BJC, Forest Park Forever, MoDOT direct; KSDK/FOX 2 fetches blocked.",
+    "open_count": 14,
+    "run_at": "2026-10-26T22:40:00Z",
+    "top_incident": "Taylor Ave closure by City Water (W Pine-Laclede, Medical Campus corridor, impact possible) still posted on Metro #18 through 10/31; no change. New MAW Florissant break 142914 (Ring 2, impact none)."
   },
   "incidents": [
     {
@@ -314,6 +314,25 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New MAW emergency alert 142914 (Lane 1): main-break repairs in Florissant beginning 10/26 4:45 PM CT, ~6 hr estimate (~10:45 PM); possible discolored water, low or no pressure; no street. Separate from tracked Florissant alert 142776. North County, ~10+ mi from North Campus and Danforth; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). No news or social corroboration (Lanes 2 and 4). Monitor; resolve when dropped from the MAW index. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-26T22:40:00Z",
+      "id": "maw-florissant-unlocated-20261026",
+      "last_updated": "2026-10-26T22:40:00Z",
+      "location": "Florissant, MO (north St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.amwater.com/moaw/alerts/",
+        "https://alertsdetail.awapps.com/alert/142914"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Florissant — emergency repairs (alert 142914)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 10:40 AM CT 10/22: alert 142176 no longer appears on the MAW active alerts index (Lane 1) and its detail URL returns only the generic welcome page, after showing an empty shell since 10/21 morning. Treated as repair complete / alert expired per utility index. No street ever published, no boil advisory. Hazelwood is north St. Louis County, roughly 15 mi from Danforth and the Medical Campus; no WashU asset; impact none.",
       "confidence": "Medium",
       "first_seen": "2026-10-21T00:40:00Z",
@@ -566,11 +585,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Grouped record for 10/24 MAW alerts (Lanes 1-4): main breaks Northwoods 142663, St. John 142676, Webster Groves 142652, unspecified County 142653 and 142658; investigations 142655, 142679, 142682. 4:40 PM CT 10/26 (Lane 1): 142655 has now also dropped off the MAW index, joining 142652 and 142653; the index is capped at ~20 entries and no completion text is published, so none is treated as resolved yet; 142658, 142663, 142676, 142679, 142682 still listed. No streets. Webster Groves (~4-5 mi S of Danforth) is the nearest; no WashU asset; no Ring 1 corridor. Impact none. No boil advisory. No news or social corroboration. Monitor; resolve when all drop from the MAW index. Owner: Emergency Management (track only).",
+      "assessment": "Grouped record for 10/24 MAW alerts (Lanes 1-4): main breaks Northwoods 142663, St. John 142676, Webster Groves 142652, unspecified County 142653 and 142658; investigations 142655, 142679, 142682. 5:40 PM CT 10/26 (Lane 1): 142658 has now also dropped off the MAW index, joining 142652, 142653 and 142655; the index is capped and no completion text is published, so none is treated as resolved yet; 142663, 142676, 142679, 142682 still listed. No streets. Webster Groves (~4-5 mi S of Danforth) is the nearest; no WashU asset; no Ring 1 corridor. Impact none. No boil advisory. No news or social corroboration. Monitor; resolve when all drop from the MAW index. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-10-24T13:00:00Z",
       "id": "maw-stlouiscounty-group-20261024",
-      "last_updated": "2026-10-26T21:40:00Z",
+      "last_updated": "2026-10-26T22:40:00Z",
       "location": "Northwoods, St. John, Webster Groves and unspecified St. Louis County locations (streets not published by utility)",
       "ring": 2,
       "single_source": true,
