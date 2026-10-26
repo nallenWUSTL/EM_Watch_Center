@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "1:35 PM CT 10/26 run (four lanes): nothing new in Ring 1 or 2. City table (1:30 PM stamp): Union/Summit still the only active outage; new hydrant repairs only (S Kingshighway, north City), routine. All tracked MAW St. Louis-area IDs still listed (142863 Ballwin, 142890 Overland, 142786, 142776, 142767, 142753, 142752, 142690, 142682, 142679, 142676, 142663, 142658, 142655); new MAW IDs are outstate/Ring 3 only (Neosho 142871, St. Joseph 142858/142686, Warrensburg 142746, Lawson 142549, St. Charles investigation 142667). No boil advisory (City, MAW; MO DNR latest 10/24, none in St. Louis area). Metro #18 Taylor, #41 Thekla (window now to 11/6), #42 Whittier alerts still posted. WashU Alert none; Danforth/Medical Facilities no water notices. No dated 10/25-26 news or social coverage; KSDK and FOX 2 unfetchable; undated KSDK Ferguson/Haplin Dr story not adopted. MSD, Kirkwood, BJC, Cortex, Loop, Forest Park Forever, MoDOT not checked directly.",
+    "note": "2:35 PM CT 10/26 run (four lanes): nothing new in Ring 1 or 2. City table (2:30 PM stamp): Union/Summit still the only active outage; only new work order is a routine hydrant repair at 3333 Lawn Ave (2:00 PM). City page shows no street closures; Taylor, Thekla and Whittier were never on the City table and remain posted on Metro rider alerts (#18 to 10/31, #41 to 11/6, #42 to 10/31), so not resolved. MAW: 142863 Ballwin and 142890 Overland detail pages still active; 142786 still unplaced investigation; Lane 4 saw all tracked IDs still listed; Lane 1 index fetch blank. New MAW IDs (142871 Neosho, 142858 St. Joseph, 142891-142903) are outstate or out of state. No boil advisory (City, MAW; MO DNR October entries only Bunceton and Country Junction). WashU Alert none (last change 10/23); Danforth/Medical Facilities no water notices. No dated 10/25-26 news or social coverage. MSD, Kirkwood, BJC, Cortex, Loop, Forest Park Forever, MoDOT not checked directly.",
     "open_count": 13,
-    "run_at": "2026-10-26T18:40:00Z",
-    "top_incident": "City Water service outage on Union Dr & Summit Dr in Forest Park (Ring 1) continues, out since 12:23 PM, restoration est. 8:23 PM CT; no boil advisory; WashU impact none. Taylor Ave closure (Medical Campus corridor, impact possible) unchanged."
+    "run_at": "2026-10-26T19:40:00Z",
+    "top_incident": "City Water service outage on Union Dr & Summit Dr in Forest Park (Ring 1) continues, out since 12:23 PM, restoration est. 8:23 PM CT; no boil advisory; WashU impact none. Taylor Ave closure (Medical Campus corridor, impact possible) still posted on Metro #18 through 10/31."
   },
   "incidents": [
     {
