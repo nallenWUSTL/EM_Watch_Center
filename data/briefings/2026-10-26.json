@@ -1,0 +1,174 @@
+{
+  "bluf": "Posture Normal. No Ring 1 life-safety, weather, health or outage threshold met; no threat naming WashU. Today's action is cyber: PHP2Shell critical PHP flaws are under attack, patch or isolate internet-facing PHP servers; Canvas New Quizzes degraded. Fri 10/30-Sun 11/1 is a stacked Ring 1 load (Family Weekend, home football, CWE Halloween party with Euclid closed, Halloween night, showers, DST end); plan for Elevated and start coordination this week.",
+  "briefing_url": "https://claude.ai/artifact/8vMBvuTUNth3JJC3oT1UEv",
+  "date": "2026-10-26",
+  "dissents": [
+    {
+      "note": "Raised to Sev 3/Medium, overruling Lane 2 (Sev 2/Low); Red Team Sev 4 kept as dissent, no Ring 1 indicator.",
+      "title": "Underrated: Halloween crowd-edge violence",
+      "verdict": "partly adopted"
+    },
+    {
+      "note": "No planned event or threat found; watch election week, coordinate with BJC.",
+      "title": "Underrated: Amendment 3 mobilization near Medical Campus",
+      "verdict": "carried as dissent"
+    },
+    {
+      "note": "County not in drought, no Red Flag; agrees with Lane 1.",
+      "title": "Overrated: Tyson wildfire",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Rain a nuisance; government funded to Dec 11.",
+      "title": "Overrated: Halloween rain and shutdown",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Indicators: leak-site claims on BJC/WashU Medicine, Barnes-Jewish diversion, promoted unpermitted Loop gatherings.",
+      "title": "Scenario: Halloween mass casualty during hospital cyber outage",
+      "verdict": "carried as scenario"
+    }
+  ],
+  "lanes_quiet": [
+    1,
+    2,
+    3
+  ],
+  "lookahead": [
+    {
+      "date": "2026-10-26",
+      "dow": "Mon",
+      "loads": "No notable loads; PHP2Shell patching; Canvas degraded",
+      "stacked": false,
+      "wx": "77, partly sunny"
+    },
+    {
+      "date": "2026-10-27",
+      "dow": "Tue",
+      "loads": "Blues home 7 PM (Ring 2); Blue Line single-track evening; Shrewsbury fire training 9-3",
+      "stacked": false,
+      "wx": "76, mostly cloudy"
+    },
+    {
+      "date": "2026-10-28",
+      "dow": "Wed",
+      "loads": "No notable loads; Blue Line single-track evening",
+      "stacked": false,
+      "wx": "78, mostly sunny"
+    },
+    {
+      "date": "2026-10-29",
+      "dow": "Thu",
+      "loads": "Blues home 7 PM (Ring 2); Blue Line single-track all day; re-check Halloween forecast",
+      "stacked": false,
+      "wx": "83, sunny"
+    },
+    {
+      "date": "2026-10-30",
+      "dow": "Fri",
+      "loads": "Family Weekend opens; Enterprise Center concert; Blue Line single-track all day",
+      "stacked": true,
+      "wx": "80, partly sunny"
+    },
+    {
+      "date": "2026-10-31",
+      "dow": "Sat",
+      "loads": "PEAK: Family Weekend; football vs Denison 1 PM Francis Olympic Field; CWE Halloween party 11 AM-midnight, Euclid closed; Halloween night Loop/Skinker; clocks fall back 2 AM",
+      "stacked": true,
+      "wx": "75, 30% showers, 40-50% night"
+    },
+    {
+      "date": "2026-11-01",
+      "dow": "Sun",
+      "loads": "Family Weekend departures; DST ends (25-hour overnight shift)",
+      "stacked": true,
+      "wx": "75, 30% showers"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "watch",
+      "summary": "Dry, 10-15 deg above normal through Fri; no NWS product or SPC risk found. Halloween showers 30% Sat, 40-50% Sat night. Tyson fire risk low (St. Louis County not in drought)."
+    },
+    {
+      "name": "Life safety",
+      "pir": 2,
+      "status": "watch",
+      "summary": "No Ring 1 violent incident in 72 h, no threat naming WashU, no large demonstration found. Halloween night crowd-edge risk raised to Sev 3/Medium after Red Team (FAMU off-venue shooting Oct 24)."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "watch",
+      "summary": "No local advisory, college outbreak or diversion. Missouri measles at 18 cases incl. St. Louis County; confirm MMR compliance and isolation triage before weekend gatherings. Ebola in DRC/Kenya/Nigeria, no US case."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "active",
+      "summary": "PHP2Shell under active attack (patch today); Canvas quizzes degraded. No CISA ED or US university/hospital ransomware in 24 h. MetroLink Blue Line single-tracking through Oct 30."
+    },
+    {
+      "name": "Scheduled activity",
+      "pir": 5,
+      "status": "active",
+      "summary": "Stacked Fri 10/30-Sun 11/1: Family Weekend, football vs Denison Sat 1 PM, CWE Halloween party (Euclid closed Maryland-McPherson) beside Medical Campus, Halloween night in Loop, DST ends."
+    },
+    {
+      "name": "Policy, legal, funding",
+      "pir": 6,
+      "status": "watch",
+      "summary": "Kenya raised to Level 3 (Ebola, security); check travel registry. Government funded under CR to Dec 11. EAS national test Nov 17 ~1:20 PM CT. No grant or Clery/Title IX change."
+    }
+  ],
+  "posture": "Normal",
+  "published_at": "2026-10-26T14:43:35Z",
+  "run_note": "Late run: started ~09:36 CT, published ~10:05 CT (target 06:45). All seven lanes reported; charter rev 10 read. NWS/SPC/CISA KEV/police release pages partly unreachable or stale.",
+  "title": "WashU EM Daily Intelligence Briefing, October 26, 2026",
+  "today_items": [
+    {
+      "action": "Inventory internet-facing PHP hosts; patch to 8.2.35/8.3.36/8.4.27/8.5.12 or isolate EOL hosts; review logs since Oct 21.",
+      "confidence": "Medium",
+      "likelihood": "High",
+      "owner": "WashU IT / Information Security",
+      "pir": 4,
+      "rank": 1,
+      "severity": 3,
+      "source": "https://www.scworld.com/news/cisa-advises-orgs-to-patch-php2shell-bugs-immediately",
+      "title": "PHP2Shell exploitation (CVE-2026-109618/-109619, CVSS 9.2)",
+      "ttd": "Today"
+    },
+    {
+      "action": "Advise faculty to extend quiz windows if affected; watch vendor status.",
+      "confidence": "Medium",
+      "likelihood": "Occurring",
+      "owner": "Provost / WashU IT",
+      "pir": 4,
+      "rank": 2,
+      "severity": 2,
+      "source": "https://status.instructure.com/",
+      "title": "Canvas New Quizzes degraded since 04:38 CT",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "PHP2Shell (CVE-2026-109618/-109619) under active exploitation: WashU IT to patch or isolate every internet-facing PHP host today.",
+  "unreachable": [
+    "NWS LSX alerts/point forecast (stale cache)",
+    "api.weather.gov (blocked)",
+    "SPC/WPC outlooks (stale)",
+    "AirNow / MoDNR AQI",
+    "NWS river stages",
+    "CISA KEV and advisories",
+    "Ameren/Spire/water outage maps (not read)",
+    "SLMPD/Clayton/U City/County PD release pages (not read)",
+    "STLtoday (paywall)",
+    "WUPD crime log (stale since May 2024)",
+    "CDC HAN",
+    "MO/IL wastewater dashboards",
+    "Regional hospital diversion (no public feed)",
+    "travel.state.gov Kenya page (confirmed via news)",
+    "WashU soccer/volleyball schedules"
+  ]
+}
