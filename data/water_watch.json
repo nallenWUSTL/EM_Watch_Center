@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "2:35 PM CT 10/26 run (four lanes): nothing new in Ring 1 or 2. City table (2:30 PM stamp): Union/Summit still the only active outage; only new work order is a routine hydrant repair at 3333 Lawn Ave (2:00 PM). City page shows no street closures; Taylor, Thekla and Whittier were never on the City table and remain posted on Metro rider alerts (#18 to 10/31, #41 to 11/6, #42 to 10/31), so not resolved. MAW: 142863 Ballwin and 142890 Overland detail pages still active; 142786 still unplaced investigation; Lane 4 saw all tracked IDs still listed; Lane 1 index fetch blank. New MAW IDs (142871 Neosho, 142858 St. Joseph, 142891-142903) are outstate or out of state. No boil advisory (City, MAW; MO DNR October entries only Bunceton and Country Junction). WashU Alert none (last change 10/23); Danforth/Medical Facilities no water notices. No dated 10/25-26 news or social coverage. MSD, Kirkwood, BJC, Cortex, Loop, Forest Park Forever, MoDOT not checked directly.",
-    "open_count": 13,
-    "run_at": "2026-10-26T19:40:00Z",
-    "top_incident": "City Water service outage on Union Dr & Summit Dr in Forest Park (Ring 1) continues, out since 12:23 PM, restoration est. 8:23 PM CT; no boil advisory; WashU impact none. Taylor Ave closure (Medical Campus corridor, impact possible) still posted on Metro #18 through 10/31."
+    "note": "3:35 PM CT 10/26 run (four lanes). City table (3:30 PM stamp): Union/Summit gone (resolved); new outage N Spring Ave & Dodier St (out 2:53 PM, est. 10:53 PM, Ring 2); new main repair Leona St & Bowen St (2:42 PM, Lane 3 only, Ring 2). Metro #18 Taylor, #41 Thekla, #42 Whittier reroutes unchanged. MAW: 142652 and 142653 off the index (capped list, not resolved); other tracked IDs still listed. Untracked MAW IDs 142667 St. Charles (stale, Ring 3), 142549, 142686, 142746 outstate. No boil advisory (City, MAW, MO DNR latest 10/22 Bunceton). WashU Alert none (last change 10/23); Facilities no water notices. No dated 10/25-26 news or social coverage. Not checked: BJC, Cortex, Loop, MoDOT; Post-Dispatch paywalled; Reddit blocked.",
+    "open_count": 14,
+    "run_at": "2026-10-26T20:40:00Z",
+    "top_incident": "Taylor Ave closure by City Water (W Pine-Laclede, Medical Campus corridor, impact possible) still posted on Metro #18 through 10/31. Union Dr & Summit Dr (Forest Park) outage cleared from the City table by 3:30 PM."
   },
   "incidents": [
     {
@@ -849,6 +849,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 3:40 PM CT 10/26 (Lane 3 only, City Water table stamped 3:30 PM): main repair work order started 2:42 PM, no restoration estimate; not posted as a service outage (Lane 1 saw no outage besides Spring & Dodier). South City, roughly 5+ mi from the Medical Campus and Danforth; no WashU asset; no Ring 1 corridor. Impact none. No boil advisory. Monitor; resolve if no outage is posted within 48 hours. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-26T20:40:00Z",
+      "id": "stlwater-stlouiscity-leona-20261026",
+      "last_updated": "2026-10-26T20:40:00Z",
+      "location": "Leona St & Bowen St, St. Louis City (south City; cross street as published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "monitoring",
+      "title": "City of St. Louis Water Division main repair, Leona St & Bowen St (south City)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 9:40 AM CT 10/26: live City Water Division outage table (stlwater.com/wateroos.php, stamped 9:30 AM 10/26) states no active water main outages; both Marquette Ave & Ivanhoe Ave rows are gone from the active table and only the 10/22 1:41 PM Main - Repair work order remains in the recent-repairs history (all four lanes). Treated as restored per utility page; exact restoration time not published (between 10/23 11:30 AM and 10/26 9:30 AM). No boil advisory was ever posted. Lindenwood Park, south City, Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "High",
       "first_seen": "2026-10-22T19:40:00Z",
@@ -926,6 +944,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 3:40 PM CT 10/26 (Lanes 1 and 3, both from the City Water live outage table stamped 3:30 PM): taken out of service 2:53 PM, estimated restoration 10:53 PM CT 10/26; cause not published; now the only active City outage. Roughly 3 mi NE of the Medical Campus and 3.5-4 mi E of North Campus; separate distribution area; no WashU asset; no Ring 1 corridor. Impact none. No boil advisory (City advisories empty, MAW none, MO DNR none in City/County). No news or social corroboration. Monitor; resolve when dropped from the City table. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-26T20:40:00Z",
+      "id": "stlwater-stlouiscity-nspring-dodier-20261026",
+      "last_updated": "2026-10-26T20:40:00Z",
+      "location": "N Spring Ave between Dodier St and Sullivan Ave, St. Louis City (Fairground Park / JeffVanderLou area, north City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outage, N Spring Ave & Dodier St (north City)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 1:45 AM CT 10/22: both Benton Park outages (Sidney St Michigan-Minnesota; Minnesota Ave Magnolia-Sidney, out since ~12:27 PM 10/21) no longer appear on the live City Water Division outage table (stlwater.com/wateroos.php, stamped 1:30 AM 10/22; the /outages URL still served a cached 1:30 PM 10/21 copy listing them). Treated as restored per utility page; no boil advisory was ever posted. Ring 2, no WashU asset; impact none.",
       "confidence": "High",
       "first_seen": "2026-10-21T18:35:00Z",
@@ -986,18 +1022,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 12:40 PM CT 10/26 (Lanes 1 and 3, both from the City Water live outage table stamped 12:30 PM): Union Dr & Summit Dr taken out of service 12:23 PM, estimated restoration 8:23 PM CT 10/26; cause not published (break vs planned work unknown); only active City outage. Inside Forest Park, Ring 1, roughly 1.5-2 mi from both Danforth (W) and the Medical Campus (E). No WashU building known to be served from this segment; no WashU Alert or Danforth/Medical Facilities notice; no boil advisory (City, MAW, MO DNR none). Impact on WashU water service assessed none; watch for a Forest Park road closure affecting Danforth-Medical Campus travel or a reclassification to a larger break. Action: EM monitor; Facilities/Transportation note for shuttle routing if Union or adjacent park roads close. No news or social corroboration.",
+      "assessment": "Resolved 3:40 PM CT 10/26: the Union Dr & Summit Dr outage (out since 12:23 PM, est. 8:23 PM) no longer appears on the live City Water outage table or repair list stamped 3:30 PM (Lanes 1 and 3). Treated as restored per utility page, roughly 3 hours after it began and ahead of estimate; restoration not explicitly stated. No boil advisory was ever posted; no Forest Park Forever, WashU Alert or Facilities notice. Ring 1 (Forest Park); no WashU impact observed. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-10-26T17:40:00Z",
       "id": "stlwater-stlouiscity-uniondr-20261026",
-      "last_updated": "2026-10-26T17:40:00Z",
+      "last_updated": "2026-10-26T20:40:00Z",
       "location": "Union Dr between the Jewel Box and Summit Dr/Rd, Forest Park, St. Louis City (cross street as published; not independently placed)",
       "ring": 1,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/wateroos.php"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "City of St. Louis Water Division service outage, Union Dr & Summit Dr (Forest Park)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
