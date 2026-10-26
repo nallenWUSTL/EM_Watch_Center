@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "3:35 PM CT 10/26 run (four lanes). City table (3:30 PM stamp): Union/Summit gone (resolved); new outage N Spring Ave & Dodier St (out 2:53 PM, est. 10:53 PM, Ring 2); new main repair Leona St & Bowen St (2:42 PM, Lane 3 only, Ring 2). Metro #18 Taylor, #41 Thekla, #42 Whittier reroutes unchanged. MAW: 142652 and 142653 off the index (capped list, not resolved); other tracked IDs still listed. Untracked MAW IDs 142667 St. Charles (stale, Ring 3), 142549, 142686, 142746 outstate. No boil advisory (City, MAW, MO DNR latest 10/22 Bunceton). WashU Alert none (last change 10/23); Facilities no water notices. No dated 10/25-26 news or social coverage. Not checked: BJC, Cortex, Loop, MoDOT; Post-Dispatch paywalled; Reddit blocked.",
-    "open_count": 14,
-    "run_at": "2026-10-26T20:40:00Z",
-    "top_incident": "Taylor Ave closure by City Water (W Pine-Laclede, Medical Campus corridor, impact possible) still posted on Metro #18 through 10/31. Union Dr & Summit Dr (Forest Park) outage cleared from the City table by 3:30 PM."
+    "note": "4:35 PM CT 10/26 run (four lanes). City table (4:30 PM stamp): no active main outages; N Spring & Dodier resolved; Leona & Bowen repair still listed; new hydrant repairs at 4969 Parker Ave (3 PM) and 3260/3301 S Kingshighway (south segment, Ring 2) not tracked (no outage). Metro #18 Taylor, #41 Thekla, #42 Whittier reroutes unchanged. MAW: 142655 off the index (capped list, not resolved); all other tracked IDs still listed, none in Clayton/U City/Ladue/Richmond Hts/Olivette/Brentwood/Maplewood; new outstate IDs 142856, 142858 (St. Joseph), 142871 (Neosho). No boil advisory (City, MAW; MO DNR October entries outstate only). WashU Alert none (last change 10/23); Danforth and Medical Facilities no water notices. KSDK Ferguson Haplin Dr break and a Clayton/U City 'emergency boil advisory (lifted)' story could not be opened or dated; likely archive, not adopted. Not checked: Forest Park Forever, MoDOT, BJC direct; Nextdoor blocked.",
+    "open_count": 13,
+    "run_at": "2026-10-26T21:40:00Z",
+    "top_incident": "Taylor Ave closure by City Water (W Pine-Laclede, Medical Campus corridor, impact possible) still posted on Metro #18 through 10/31. N Spring Ave & Dodier St outage cleared from the City table by 4:30 PM."
   },
   "incidents": [
     {
@@ -566,11 +566,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Grouped record for 10/24 MAW alerts (Lanes 1-4): main breaks Northwoods 142663, St. John 142676, Webster Groves 142652, unspecified County 142653 and 142658; investigations 142655, 142679, 142682. 12:40 PM CT 10/26 (Lane 1): 142653 has now also dropped off the MAW index, joining 142652; the index is capped at 20 entries and no completion text is published, so neither is treated as resolved yet; 142655, 142658, 142663, 142676, 142679, 142682 still listed. No streets. Webster Groves (~4-5 mi S of Danforth) is the nearest; no WashU asset; no Ring 1 corridor. Impact none. No boil advisory. No news or social corroboration. Monitor; resolve when dropped from the MAW index. Owner: Emergency Management (track only).",
+      "assessment": "Grouped record for 10/24 MAW alerts (Lanes 1-4): main breaks Northwoods 142663, St. John 142676, Webster Groves 142652, unspecified County 142653 and 142658; investigations 142655, 142679, 142682. 4:40 PM CT 10/26 (Lane 1): 142655 has now also dropped off the MAW index, joining 142652 and 142653; the index is capped at ~20 entries and no completion text is published, so none is treated as resolved yet; 142658, 142663, 142676, 142679, 142682 still listed. No streets. Webster Groves (~4-5 mi S of Danforth) is the nearest; no WashU asset; no Ring 1 corridor. Impact none. No boil advisory. No news or social corroboration. Monitor; resolve when all drop from the MAW index. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-10-24T13:00:00Z",
       "id": "maw-stlouiscounty-group-20261024",
-      "last_updated": "2026-10-26T17:40:00Z",
+      "last_updated": "2026-10-26T21:40:00Z",
       "location": "Northwoods, St. John, Webster Groves and unspecified St. Louis County locations (streets not published by utility)",
       "ring": 2,
       "single_source": true,
@@ -944,18 +944,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 3:40 PM CT 10/26 (Lanes 1 and 3, both from the City Water live outage table stamped 3:30 PM): taken out of service 2:53 PM, estimated restoration 10:53 PM CT 10/26; cause not published; now the only active City outage. Roughly 3 mi NE of the Medical Campus and 3.5-4 mi E of North Campus; separate distribution area; no WashU asset; no Ring 1 corridor. Impact none. No boil advisory (City advisories empty, MAW none, MO DNR none in City/County). No news or social corroboration. Monitor; resolve when dropped from the City table. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 4:40 PM CT 10/26: the N Spring Ave (Dodier–Sullivan) outage, out since 2:53 PM with a 10:53 PM estimate, no longer appears on the live City Water outage table stamped 4:30 PM, which states no active water main outages (all four lanes). Treated as restored per utility page, under 2 hours after it began and well ahead of estimate; restoration not explicitly stated. No boil advisory was ever posted. Ring 2, north City; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-10-26T20:40:00Z",
       "id": "stlwater-stlouiscity-nspring-dodier-20261026",
-      "last_updated": "2026-10-26T20:40:00Z",
+      "last_updated": "2026-10-26T21:40:00Z",
       "location": "N Spring Ave between Dodier St and Sullivan Ave, St. Louis City (Fairground Park / JeffVanderLou area, north City)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/wateroos.php"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "City of St. Louis Water Division service outage, N Spring Ave & Dodier St (north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
