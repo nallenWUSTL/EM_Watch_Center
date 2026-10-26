@@ -1,10 +1,10 @@
 {
   "latest": {
-    "alert_level": "normal",
-    "note": "9:40 AM CT 10/26 run (four lanes; first run since 10/23 11:40 AM). Closed 13: all 12 tracked MAW IDs gone from index; City Water table (9:30 AM stamp) shows no active main outages, Marquette & Ivanhoe restored, 2703 N Spring closed under 48-h rule. New 9 open (all Ring 2, impact none): MAW Ballwin 142863 (10/26 9 AM, ~6 h), 'St. Louis' investigation 142786, Florissant 142776, County 142767, Maryland Heights 142753, Creve Coeur 142752, Flameglow Dr 142690, grouped 10/24 County alerts, City break Thekla & Plover (Metro #41 reroute to 11/6). No boil advisory (MAW page none; City none; MO DNR none in City/County). Campus: WashU Alert none (last change 10/23); Danforth and Med Campus Facilities no water shutoffs; Metro #18 Taylor (W Pine-Laclede, Ring 1 near Med Campus) and #42 Sarah closures unchanged through 10/31. Newest City work order hydrant repair 3260 S Kingshighway 10/26 6 AM (Ring 2, not tracked). No dated news or social coverage 10/23-26; FOX2 and one KSDK article failed to load; X/Facebook not directly readable. Ring 3 untracked: St. Charles 142667, St. Joseph, Warrensburg, Lawson.",
-    "open_count": 9,
-    "run_at": "2026-10-26T14:45:00Z",
-    "top_incident": "MAW Creve Coeur main break 142752 (10/25, discolored water, no street, no boil advisory): closest new County break to WashU, ~5-6 mi W of Danforth; Ring 2, impact none. No Ring 1 incident open."
+    "alert_level": "watch",
+    "note": "10:40 AM CT 10/26 run (four lanes). Reclassified two Metro reroutes previously logged as non-water: Taylor Ave W Pine-Laclede closure by City Water (Ring 1, Medical Campus, impact possible) and Whittier & Maffitt main break (#42 Sarah, Ring 2, none). Verified by supervisor on Metro rider alerts. No new St. Louis City/County MAW alerts; 142652 Webster Groves off the 20-item index but detail page live, kept open. City Water table (10:30 AM) no active main outages; new hydrant repair 3260 S Kingshighway (Ring 2, untracked). No boil advisory found (MAW boil page, MO DNR, MSD, Kirkwood not reopened this run). WashU Alert none; Facilities no water notices. No dated news or social coverage 10/25-26; Reddit blocked. Beware stlouis-mo.gov Event_ID=33304 (2022 boil advisory titled 10/25-10/26). Ring 3 untracked: St. Charles 142667, Neosho 142871, St. Joseph 142858/142686, Warrensburg 142746, Lawson 142549.",
+    "open_count": 11,
+    "run_at": "2026-10-26T15:45:00Z",
+    "top_incident": "City Water Division street closure on Taylor Ave between W Pine and Laclede (Medical Campus corridor, Ring 1), since 10/1, Metro #18 reroute; no outage or boil advisory posted; impact possible."
   },
   "incidents": [
     {
@@ -547,16 +547,17 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Grouped record for 10/24 MAW alerts seen on the index 10/26 (Lanes 1-4): main breaks Northwoods 142663 (9:30 AM), St. John 142676 (2:00 PM), unspecified County 142653 and 142658 (8:00 AM); investigations Webster Groves 142652 (8:00 AM), County 142655, 142679, 142682. Most show 10/24-10/25 expirations; Lane 1 reports them still listed. No streets. Webster Groves (~3-4 mi SSW of South/West Campus) is the nearest; no WashU asset; no Ring 1 corridor. Impact none. Detail pages for several not opened (index data only). No boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). No news or social corroboration (Lanes 2 and 4 found no dated 10/23-10/26 coverage). Monitor; resolve when dropped from the MAW index. Owner: Emergency Management (track only).",
+      "assessment": "Grouped record for 10/24 MAW alerts (Lanes 1-4): main breaks Northwoods 142663, St. John 142676, Webster Groves 142652, unspecified County 142653 and 142658; investigations 142655, 142679, 142682. 10:33 AM CT 10/26: 142652 (Webster Groves main break, 10/24 8 AM, 6-8 hr estimate) has dropped off the MAW index, but the index is capped at 20 entries and the detail page is still live with no completion text, so not treated as resolved; all others still listed. No streets. Webster Groves (~4-5 mi S of Danforth) is the nearest; no WashU asset; no Ring 1 corridor. Impact none. No boil advisory. No news or social corroboration. Monitor; resolve when dropped from the MAW index. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-10-24T13:00:00Z",
       "id": "maw-stlouiscounty-group-20261024",
-      "last_updated": "2026-10-26T14:45:00Z",
+      "last_updated": "2026-10-26T15:45:00Z",
       "location": "Northwoods, St. John, Webster Groves and unspecified St. Louis County locations (streets not published by utility)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.amwater.com/moaw/alerts/",
+        "https://alertsdetail.awapps.com/alert/142652",
         "https://alertsdetail.awapps.com/alert/142679",
         "https://alertsdetail.awapps.com/alert/142682"
       ],
@@ -924,6 +925,28 @@
       "washu_impact": "none"
     },
     {
+      "affected_assets": [
+        "Medical Campus"
+      ],
+      "assessment": "Reclassified 10:40 AM CT 10/26 (Lane 3, verified by supervisor on Metro rider alerts): Metro attributes the #18 Taylor reroute to a street closure by the STL City Water Division on Taylor between W Pine and Laclede, effective 10/1 as needed until further notice (alert window to 10/31). Earlier runs logged this as a non-water closure. Ring 1, on the Medical Campus / BJC corridor (~0.1-0.3 mi). No service outage on the City Water table (10:30 AM stamp: no active main outages), no boil advisory, no WashU Facilities shutoff notice; nature of work (main repair vs. planned replacement) not published. Possible impacts: vehicle, shuttle, delivery and emergency access on Taylor; possible short planned shutoffs to adjacent Medical Campus buildings. A separate #18 heavy-equipment alert on Taylor between Maryland and Lindell (10/19-10/31) gives no reason. Action: Medical Campus Ops / Facilities confirm with City Water whether any planned shutoffs or fire-line impacts affect Medical Campus buildings; EM monitor. Single-source (transit notice).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-26T15:40:00Z",
+      "id": "stlwater-stlouiscity-taylor-20261001",
+      "last_updated": "2026-10-26T15:45:00Z",
+      "location": "Taylor Ave between W Pine Blvd and Laclede Ave, St. Louis City (Central West End, Medical Campus corridor)",
+      "ring": 1,
+      "single_source": true,
+      "sources": [
+        "https://www.metrostlouis.org/rider-alerts/",
+        "https://www.stlwater.com/wateroos.php",
+        "https://facilities.med.wustl.edu/news/"
+      ],
+      "status": "monitoring",
+      "title": "City of St. Louis Water Division street closure, Taylor Ave between W Pine Blvd and Laclede Ave (Central West End / Medical Campus) — Metro #18 Taylor reroute",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "possible"
+    },
+    {
       "affected_assets": [],
       "assessment": "Lane 3 only: Metro rider alert reroutes #41 Lee for a water main break on Thekla at Plover, 10/23 through 11/6. Not listed as an active outage on the City Water table (9:30 AM 10/26 stamp: no active main outages); no boil advisory. North City, roughly 5-6 mi NNE of the Medical Campus and Danforth; separate distribution area; no WashU asset; no Ring 1 corridor. Impact none. Single-source (transit notice). Monitor; resolve when the reroute ends. Owner: Emergency Management (track only).",
       "confidence": "Medium",
@@ -939,6 +962,25 @@
       ],
       "status": "open",
       "title": "City of St. Louis Water Division main break, Thekla Ave & Plover Ave — Metro #41 Lee reroute",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "Reclassified 10:40 AM CT 10/26 (Lane 3, verified by supervisor): Metro attributes the #42 Sarah reroute to a water main break on Whittier at Maffitt, effective 10/9 until further notice (window to 10/31). Not on the City Water active outage table; no boil advisory. ~2-2.5 mi N of Medical and North Campus; no WashU asset; no Ring 1 corridor. Impact none. Single-source (transit notice). Monitor; resolve when the reroute ends. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-26T15:40:00Z",
+      "id": "stlwater-stlouiscity-whittier-20261009",
+      "last_updated": "2026-10-26T15:45:00Z",
+      "location": "Whittier St at Maffitt Ave, St. Louis City (The Ville / Greater Ville, north City); Metro spells it 'Whitter'",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.metrostlouis.org/rider-alerts/",
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "monitoring",
+      "title": "City of St. Louis Water Division main break, Whittier St at Maffitt Ave (The Ville) — Metro #42 Sarah reroute",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     }
