@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "12:40 PM CT 10/27 run (four lanes): City Water table (12:30 PM stamp) shows one new outage, Lansdowne Ave & River Des Peres Blvd (Ring 2, est. 12:26 AM 10/28), plus routine south City hydrant repairs (not tracked). Forest Park Ave & Union, both Riverview segments, Mitchell and Leona repairs unchanged; City advisories empty. Metro #18 Taylor, #41, #42 water reroutes unchanged. MAW alerts index unreadable (script-loaded, 403); 142863, 142890, 142914 detail pages unchanged; no new Missouri MAW IDs found up to 142926; MAW boil page none. IAW 142922 and Wentzville advisory not lifted. MO DNR none in region. WashU Alert none (last mod 10/23); Danforth/Medical Facilities no water notices. News/social nothing dated 10/26-27; undated FOX 2 Clayton Rd / Plaza Frontenac main-break story excluded (date unconfirmed). MSD, Kirkwood, BJC, Cortex, Forest Park Forever, MoDOT not directly checked.",
+    "note": "1:40 PM CT 10/27 run (four lanes): City Water table (1:30 PM stamp) shows the same 4 outages: Forest Park Ave & Union (Ring 1, est 7:05 PM), Lansdowne, and both Riverview segments; Riverview & Chambers repair already in the tracked Riverview record; Lanes 1-2 still see Leona and Mitchell work orders (Lane 3 did not; left unchanged). Metro #18 Taylor, #41, #42 water reroutes unchanged. MAW 142863, 142890, 142914 detail pages unchanged; new MAW IDs 142923-142926 all out of state; MAW boil page none. U City MAW alert 140112 surfaced by Lane 4 has blank dates and a far older ID; excluded as stale. IAW 142922 and Wentzville advisory not lifted. MO DNR none in region. WashU Alert none (last mod 10/23); Danforth/Medical Facilities no water notices. News/social nothing dated 10/26-27. MSD, Kirkwood, BJC, Cortex, Forest Park Forever, MoDOT not directly checked. No incident records changed this run.",
     "open_count": 20,
-    "run_at": "2026-10-27T17:40:00Z",
+    "run_at": "2026-10-27T18:40:00Z",
     "top_incident": "Ring 1: City Water outage Forest Park Ave & Union Dr in Forest Park still active (out 11:05 AM, est. 7:05 PM 10/27); no WashU impact observed."
   },
   "incidents": [
