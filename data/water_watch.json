@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "10:40 AM CT 10/27 run (four lanes): nothing new affecting WashU. City Water table (10:30 AM stamp): Riverview Dr I-270 to Hall St taken out of service 9:40 AM (Lanes 1, 3), folded into the tracked Riverview & Chambers record, now open; far north City, impact none. Leona, Mitchell, Riverview repairs still listed. New hydrant-only work orders (4969 Parker, 3333 Lawn, 3260/3301 S Kingshighway) not tracked. MAW 142890, 142914 detail pages unchanged; IDs 142927-142930 not issued; MAW index did not load; other MAW IDs not re-verified. MO DNR none in region. Wentzville advisory still in effect (lift ~10/28-29); IAW Livingston boil order not lifted. WashU Alert none (last mod 10/23); Danforth/Medical Facilities no water notices. Metro #18/#41/#42 unchanged; no new water reroutes. News and social: nothing dated 10/26-27 except Wentzville. Not checked: MSD, Kirkwood (search only), BJC, Cortex, Forest Park Forever, MoDOT; Reddit blocked.",
-    "open_count": 18,
-    "run_at": "2026-10-27T15:40:00Z",
-    "top_incident": "Taylor Ave closure by City Water (W Pine-Laclede, Medical Campus corridor, impact possible) still posted on Metro #18 through 10/31; no change."
+    "note": "11:40 AM CT 10/27 run (four lanes): City Water table (11:30 AM stamp) shows new Forest Park Ave & Union Dr outage (Ring 1, tracked new) and new Riverview Dr Spring Garden to Chain of Rocks segment (folded into Riverview record). Leona, Mitchell, Riverview & Chambers repairs still listed; Marquette, Nottingham, 2703 N Spring rows are history only. Metro #18 Taylor, #41, #42 water reroutes unchanged. MAW index listings unreadable this cycle; 142863 and IAW 142922 unchanged; other MAW IDs not re-verified. MO DNR none in region. Wentzville advisory still in effect. WashU Alert none (last mod 10/23); Danforth/Medical Facilities no water notices. News and social: nothing new dated 10/26-27. MSD blocked; Kirkwood search only; BJC, Cortex, Forest Park Forever, MoDOT not directly checked.",
+    "open_count": 19,
+    "run_at": "2026-10-27T16:40:00Z",
+    "top_incident": "New Ring 1: City Water outage Forest Park Ave & Union Dr in Forest Park (out 11:05 AM, est. 7:05 PM 10/27), second Forest Park outage in 24 h; no WashU impact observed."
   },
   "incidents": [
     {
@@ -867,6 +867,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 11:40 AM CT 10/27 (Lanes 1 and 3, verified by supervisor on City Water table stamped 11:30 AM): main segment in Forest Park taken out of service 11:05 AM, est. restoration 7:05 PM 10/27. Second Forest Park outage in ~24 hours near the Jewel Box (Union Dr & Summit Dr outage 10/26 12:23-~3:30 PM, resolved). Ring 1: roughly 1-1.5 mi from both Danforth Campus and the Medical Campus; no evidence either campus draws from this segment; no boil advisory, no WashU Alert or Facilities notice, no news or social coverage. Impact none observed. Possible secondary effects: crew/lane restrictions on park drives used as Danforth-Medical Campus routes (Forest Park Ave/Hospital Dr already one lane each way for unrelated work). Action: Facilities (Danforth and Medical Campus) watch for pressure complaints; EM note the repeat failure and confirm restoration after 7 PM. Owner: Emergency Management / Facilities.",
+      "confidence": "Medium",
+      "first_seen": "2026-10-27T16:40:00Z",
+      "id": "stlwater-stlouiscity-forestparkave-20261027",
+      "last_updated": "2026-10-27T16:40:00Z",
+      "location": "Forest Park Ave & Union Dr, in Forest Park between Union and the Jewel Box, St. Louis City (as published; exact segment not independently placed)",
+      "ring": 1,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outage, Forest Park Ave & Union Dr (Forest Park, Union to Jewel Box)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 11:40 PM CT 10/22: the January Ave (Nottingham–Devonshire) outage, out of service since 6:51 PM 10/22 with a 2:51 AM 10/23 estimate, no longer appears on the live City Water Division outage table (stlwater.com/wateroos.php, stamped 11:30 PM 10/22; confirmed by all four lanes and by supervisor). Treated as restored per utility page, roughly 4.5 hours after the outage began and ahead of estimate. No boil advisory was ever posted. Lindenwood Park / St. Louis Hills, south City, Ring 2; no WashU asset; impact none.",
       "confidence": "High",
       "first_seen": "2026-10-23T00:40:00Z",
@@ -1017,12 +1035,12 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Escalated 10:40 AM CT 10/27 (Lanes 1 and 3; City Water table stamped 10:30 AM): Riverview Dr between I-270 and Hall St taken out of service 9:40 AM 10/27, no restoration estimate; likely the same job as the 7:33 AM main repair work order at Riverview & Chambers (link not stated by utility). Customers on that segment without water. Far north City, ~10-12 mi from North Campus, Danforth and the Medical Campus; no Ring 1 corridor; no WashU asset. Impact none. No boil advisory. No news or social corroboration (Lanes 2 and 4). Monitor; resolve when the outage drops from the table. Owner: Emergency Management (track only).",
+      "assessment": "Expanded 11:40 AM CT 10/27 (Lanes 1 and 3; City Water table 11:30 AM): second segment, Riverview Dr between Spring Garden Dr and the Chain of Rocks entrance, out of service 11:08 AM, est. restoration 5:08 AM 10/28; I-270 to Hall St segment (out since 9:40 AM) now est. 3:40 AM 10/28. Likely same job as the 7:33 AM Riverview & Chambers repair work order (link not stated by utility). Far north City, ~10-12 mi from WashU assets; no Ring 1 corridor; no boil advisory. Impact none. Monitor; resolve when both outages drop from the table. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-10-27T13:40:00Z",
       "id": "stlwater-stlouiscity-riverview-20261027",
-      "last_updated": "2026-10-27T15:40:00Z",
-      "location": "Riverview Dr between I-270 and Hall St (repair work order at Riverview Dr & Chambers Rd), far north St. Louis City near the County line",
+      "last_updated": "2026-10-27T16:40:00Z",
+      "location": "Riverview Dr between I-270 and Hall St, and Riverview Dr between Spring Garden Dr and the Chain of Rocks entrance (repair work order at Riverview Dr & Chambers Rd SE), far north St. Louis City near the County line",
       "ring": 2,
       "single_source": true,
       "sources": [
