@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "5:40 PM CT 10/27 run (four lanes): City Water table (5:30 PM stamp) unchanged: 4 outages (Leona & Bowen est 3:04 AM 10/28; Lansdowne est 12:26 AM; Riverview I-270–Hall est 3:40 AM; Riverview Spring Garden–Chain of Rocks est 5:08 AM); repairs Riverview & Chambers and Mitchell still listed; new hydrant repairs 4969 Oleatha Ave and 4817 Fairview Ave (south City, no outage, not tracked). stlwater.com/outages again served stale 10/26 copy (disregarded). Metro #18, #41 (now to 11/6), #42 water reroutes unchanged. MAW alerts index and boil page rendered without data this cycle (JS-only; alertsdetail 403 via proxy), so MAW status unverified; tracked MAW items left unchanged. MO DNR: no St. Louis-area boil orders. Wentzville advisory still in effect (lift ~10/28 evening). IAW Livingston not checked. WashU Alert none (last mod 10/23); Danforth/Medical Facilities no water notices. News/social nothing dated 10/26-27; undated KSDK Brentwood Blvd/Galleria and Yahoo Clayton break items not adopted (no date, uncorroborated). BJC, Cortex, Forest Park Forever, MoDOT, MSD, Kirkwood not directly opened.",
-    "open_count": 19,
-    "run_at": "2026-10-27T22:40:00Z",
-    "top_incident": "No new or changed incidents. Nearest open item: Taylor Ave W Pine–Laclede City Water closure (Metro #18, to 10/31), impact possible, monitoring."
+    "note": "6:40 PM CT 10/27 run (four lanes): City Water table (6:30 PM stamp): Lansdowne & River Des Peres dropped (resolved); 3 outages remain (Leona & Bowen est 3:04 AM 10/28; Riverview I-270–Hall est 3:40 AM; Riverview Spring Garden–Chain of Rocks est 5:08 AM); repairs Mitchell and Riverview & Chambers still listed; new hydrant repairs S Kingshighway & Murdoch and 3457 Lawn Ave (south City, no outage, not tracked); advisories empty. Metro #18, #41, #42 water reroutes unchanged. MAW alerts index again rendered empty; only 142914 rechecked (still active); other MAW items left unchanged. American Water alerts 142925 (Merrillville IN) and 142926 (Peoria IL) out of region. MO DNR: no St. Louis-area boil orders. Wentzville advisory still in effect (lift ~10/28 evening); IAW Livingston boil order still active. WashU Alert none; Danforth/Medical Facilities no water notices. News/social nothing dated 10/26-27 (undated FOX 2 County breaks and AOL Maryland Heights boil items not adopted). BJC, Cortex, Forest Park Forever, MoDOT, MSD, Kirkwood not directly opened.",
+    "open_count": 18,
+    "run_at": "2026-10-27T23:40:00Z",
+    "top_incident": "No new incidents. Lansdowne Ave outage cleared from City Water table (restored per utility page). Nearest open item: Taylor Ave W Pine–Laclede City Water closure (Metro #18, to 10/31), impact possible, monitoring."
   },
   "incidents": [
     {
@@ -904,18 +904,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 12:40 PM CT 10/27 (all four lanes read it on the City Water table stamped 12:30 PM): out of service since 12:26 PM, est. restoration 12:26 AM 10/28. Southwest City, roughly 3-5 mi from South Campus and Danforth (estimate); no WashU asset; no Ring 1 corridor; no boil advisory. Impact none. No news or social coverage. Monitor; resolve when it drops from the table. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 6:40 PM CT 10/27: the Lansdowne Ave (River Des Peres Blvd to City limit) outage, out since 12:26 PM with a 12:26 AM 10/28 estimate, no longer appears on the live City Water outage table stamped 6:30 PM 10/27 (Lanes 1, 3 and 4). Treated as restored per utility page, roughly 6 hours after it began and ahead of estimate; restoration not explicitly stated. No boil advisory was ever posted. Southwest City, Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-10-27T17:40:00Z",
       "id": "stlwater-stlouiscity-lansdowne-20261027",
-      "last_updated": "2026-10-27T17:40:00Z",
+      "last_updated": "2026-10-27T23:40:00Z",
       "location": "Lansdowne Ave between River Des Peres Blvd and the City limit, St. Louis City (southwest City)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/wateroos.php"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "City of St. Louis Water Division service outage, Lansdowne Ave & River Des Peres Blvd (southwest City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
