@@ -1,12 +1,30 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "6:33 PM CT 10/26 run (four lanes). City table (6:30 PM stamp): no active main outages; Leona & Bowen repair still listed; routine hydrant repairs at 3333 Lawn Ave, 4969 Parker Ave, 3301 and 3260 S Kingshighway (south City, Ring 2) not tracked. Metro #18 Taylor, #41 Thekla, #42 Whittier reroutes still listed (Lane 3). MAW: no Missouri alert newer than 142914 found (Lane 1 probed 142915-142925, all out of state; 142891-142913 not checked); Lane 4 saw tracked alerts still on index, Webster Groves 142652 absent (already noted); no resolutions adopted. No boil advisory (MO DNR newest 8 outside St. Louis area). WashU Alert none (modified 10/23); Danforth and Medical Facilities no water notices. No dated news or social reports. Not checked: MSD, Kirkwood, BJC, Cortex, Forest Park Forever, MoDOT direct; MAW boil page errored.",
-    "open_count": 14,
-    "run_at": "2026-10-26T23:40:00Z",
+    "note": "7:35 PM CT 10/26 run (four lanes). New: City Water main repair Mitchell Ave & Mitchell Pl (work order 6:35 PM, Ring 2, unplaced, impact none); Illinois American Water Livingston IL main break with boil order from 8 PM (Ring 3, Metro East, impact none). City table (7:30 PM stamp): no active main outages; Leona & Bowen still listed. Metro #18 Taylor, #41 Thekla, #42 Whittier reroutes still listed (Lane 3). MAW: no Missouri alert newer than 142914 (142915-142924 out of St. Louis area); index list did not render for Lanes 1 and 4, so no resolutions adopted. No boil advisory in St. Louis City/County (MO DNR Oct entries outside area). WashU Alert none (modified 10/23); Danforth and Medical Facilities no water notices. No dated news or social reports. Not checked: MSD, Kirkwood, BJC, Cortex, Forest Park Forever, MoDOT direct.",
+    "open_count": 16,
+    "run_at": "2026-10-27T00:40:00Z",
     "top_incident": "Taylor Ave closure by City Water (W Pine-Laclede, Medical Campus corridor, impact possible) still posted on Metro #18 through 10/31; no change."
   },
   "incidents": [
+    {
+      "affected_assets": [],
+      "assessment": "New 7:40 PM CT 10/26 (Lane 1 only): Illinois American Water alert 142922, main-break repairs starting 8:00 PM CT 10/26, ~4 hr estimate, followed by a boil water order until a separate lift notice; no street. Metro East, outside St. Louis City and County; no WashU asset; separate utility system. Impact none. No Missouri boil advisory in St. Louis City/County (MAW boil page none; MO DNR none). Monitor; resolve when the boil order lift is posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-27T00:40:00Z",
+      "id": "ilaw-livingston-unlocated-20261026",
+      "last_updated": "2026-10-27T00:40:00Z",
+      "location": "Livingston, IL (Madison County, Metro East; street not published by utility)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/142922"
+      ],
+      "status": "open",
+      "title": "Illinois American Water main break with boil order, Livingston, IL (alert 142922)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
     {
       "affected_assets": [],
       "assessment": "Resolved 9:40 AM CT 10/26: alert 142484 no longer appears on the MAW active alerts index (Lanes 1 and 3, all 12 previously tracked MAW IDs gone; Lanes 2 and 4 consistent). Treated as repair complete / alert expired per utility index. No street change, no boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). No WashU asset; impact none. Owner: Emergency Management (closed).",
@@ -901,6 +919,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division service outage, Marquette Ave & Ivanhoe Ave (Lindenwood Park) — escalated from main repair",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 7:40 PM CT 10/26 (Lanes 1, 3 and 4, same City Water table stamped 7:30 PM): main repair work order opened 6:35 PM 10/26, no restoration estimate; not posted as a service outage (table shows no active main outages). Location not placed; Lane 3 believes north City; not on any Ring 1 corridor. No WashU asset identified; impact none. No boil advisory. No news or social corroboration (Lanes 2 and 4). Monitor; resolve if no outage is posted within 48 hours. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-27T00:40:00Z",
+      "id": "stlwater-stlouiscity-mitchell-20261026",
+      "last_updated": "2026-10-27T00:40:00Z",
+      "location": "Mitchell Ave & Mitchell Pl (table spells it 'Mitcell Pl'), St. Louis City; neighborhood not published or independently placed",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "monitoring",
+      "title": "City of St. Louis Water Division main repair, Mitchell Ave & Mitchell Pl",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
