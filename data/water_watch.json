@@ -1,10 +1,10 @@
 {
   "latest": {
-    "alert_level": "watch",
-    "note": "2:40 PM CT 10/27 run (four lanes): City Water table (2:30 PM stamp) shows the same 4 outages (Forest Park Ave & Union, Ring 1, est 7:05 PM; Lansdowne; both Riverview segments) plus Leona, Mitchell and Riverview & Chambers repair orders. New rows are hydrant work orders only (S Kingshighway & Murdoch 2:28 PM, 3457 Lawn 2:00 PM, 4969 Oleatha, 4817 Fairview), no service impact, not recorded. Metro #18 Taylor, #41, #42 water reroutes unchanged. MAW index: Lane 4 read it (highest ID 142914; all tracked IDs still listed though past expiry; nothing in Clayton, U City, Ladue, Richmond Hts, Brentwood, Eureka); Lane 1 got no content. MAW boil page / MO DNR none in region. IAW 142922 and Wentzville advisory not lifted. WashU Alert none (last mod 10/23); Danforth/Medical Facilities no water notices. News/social nothing dated 10/26-27; undated FOX 2 Overland boil-advisory article unloadable, not adopted. BJC, Cortex, Forest Park Forever, MoDOT not directly checked. No incident records changed this run.",
-    "open_count": 20,
-    "run_at": "2026-10-27T19:40:00Z",
-    "top_incident": "Ring 1: City Water outage Forest Park Ave & Union Dr in Forest Park still active (out 11:05 AM, est. 7:05 PM 10/27); no WashU impact observed."
+    "alert_level": "normal",
+    "note": "3:40 PM CT 10/27 run (four lanes): City Water table (3:30 PM stamp) shows 4 outages: Leona & Bowen (new outage row on tracked repair, out 3:04 PM, est 3:04 AM 10/28), Lansdowne (est 12:26 AM), both Riverview segments; Forest Park Ave & Union gone (resolved). Repairs Riverview & Chambers, Mitchell, Leona still listed; hydrant orders not recorded. Metro #18, #41, #42 water reroutes unchanged. MAW index did not load (Lanes 1, 4); MAW alert IDs 142923-142929 all out of state; MAW boil page and MO DNR none in City/County. IAW 142922 boil order and Wentzville advisory not lifted. WashU Alert none (last mod 10/23); Danforth/Medical Facilities no water notices. News/social nothing dated 10/26-27. BJC, Cortex, Forest Park Forever, MoDOT, MSD, Kirkwood not directly opened.",
+    "open_count": 19,
+    "run_at": "2026-10-27T20:40:00Z",
+    "top_incident": "Ring 1 Forest Park Ave & Union Dr outage cleared from City Water table by 3:30 PM (ahead of 7:05 PM estimate); no WashU impact. Nearest open item: Taylor Ave W Pine–Laclede City Water closure (Metro #18, to 10/31), impact possible, monitoring."
   },
   "incidents": [
     {
@@ -867,18 +867,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 11:40 AM CT 10/27 (Lanes 1 and 3, verified by supervisor on City Water table stamped 11:30 AM): main segment in Forest Park taken out of service 11:05 AM, est. restoration 7:05 PM 10/27. Second Forest Park outage in ~24 hours near the Jewel Box (Union Dr & Summit Dr outage 10/26 12:23-~3:30 PM, resolved). Ring 1: roughly 1-1.5 mi from both Danforth Campus and the Medical Campus; no evidence either campus draws from this segment; no boil advisory, no WashU Alert or Facilities notice, no news or social coverage. Impact none observed. Possible secondary effects: crew/lane restrictions on park drives used as Danforth-Medical Campus routes (Forest Park Ave/Hospital Dr already one lane each way for unrelated work). Action: Facilities (Danforth and Medical Campus) watch for pressure complaints; EM note the repeat failure and confirm restoration after 7 PM. Owner: Emergency Management / Facilities.",
+      "assessment": "Resolved 3:40 PM CT 10/27: the Forest Park Ave & Union Dr outage (out 11:05 AM, est. 7:05 PM) no longer appears on the live City Water outage table or repair list stamped 3:30 PM 10/27 (Lanes 1, 2 and 3). Treated as restored per utility page, roughly 4.5 hours after it began and ahead of estimate; restoration not explicitly stated. No boil advisory was ever posted; no WashU Alert or Danforth/Medical Facilities water notice; no news or social coverage. Ring 1 (Forest Park); no WashU impact observed. Note: second Forest Park outage in ~24 hours (after Union Dr & Summit Dr 10/26). Owner: Emergency Management (closed; Facilities may note the repeat failure).",
       "confidence": "Medium",
       "first_seen": "2026-10-27T16:40:00Z",
       "id": "stlwater-stlouiscity-forestparkave-20261027",
-      "last_updated": "2026-10-27T16:40:00Z",
+      "last_updated": "2026-10-27T20:40:00Z",
       "location": "Forest Park Ave & Union Dr, in Forest Park between Union and the Jewel Box, St. Louis City (as published; exact segment not independently placed)",
       "ring": 1,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/wateroos.php"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "City of St. Louis Water Division service outage, Forest Park Ave & Union Dr (Forest Park, Union to Jewel Box)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -922,19 +922,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 3:40 PM CT 10/26 (Lane 3 only, City Water table stamped 3:30 PM): main repair work order started 2:42 PM, no restoration estimate; not posted as a service outage (Lane 1 saw no outage besides Spring & Dodier). South City, roughly 5+ mi from the Medical Campus and Danforth; no WashU asset; no Ring 1 corridor. Impact none. No boil advisory. Monitor; resolve if no outage is posted within 48 hours. Owner: Emergency Management (track only).",
+      "assessment": "Escalated 3:40 PM CT 10/27 (Lanes 1, 2, 3; City Water table stamped 3:30 PM): main repair work order (opened 2:42 PM 10/26) now posted as a service outage, Leona between Bowen and Holly Hills, out 3:04 PM 10/27, est. restoration 3:04 AM 10/28, crew on site. South City, roughly 5-7 mi from the Medical Campus and Danforth; no WashU asset; no Ring 1 corridor; no boil advisory. Impact none. Monitor; resolve when it drops from the table. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-10-26T20:40:00Z",
       "id": "stlwater-stlouiscity-leona-20261026",
-      "last_updated": "2026-10-26T20:40:00Z",
-      "location": "Leona St & Bowen St, St. Louis City (south City; cross street as published)",
+      "last_updated": "2026-10-27T20:40:00Z",
+      "location": "Leona St between Bowen St and Holly Hills Blvd, St. Louis City (Holly Hills, south City; table text reads 'Ulena')",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/wateroos.php"
       ],
-      "status": "monitoring",
-      "title": "City of St. Louis Water Division main repair, Leona St & Bowen St (south City)",
+      "status": "open",
+      "title": "City of St. Louis Water Division main repair and service outage, Leona St & Bowen St (Holly Hills, south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
