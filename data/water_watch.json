@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "4:40 AM CT 10/27 run (four lanes): nothing new. City Water table (4:30 AM stamp): no active main outages; Leona & Bowen and Mitchell main repairs unchanged; new rows are hydrant repairs only (4969 Parker, 3333 Lawn, 3260/3301 S Kingshighway, south of I-44, not Ring 1). MAW index could not be enumerated by Lane 1 (JS/403); Lane 4 saw tracked alerts still listed as expired; detail pages 142863, 142890, 142914, 142663 still active; none resolved. MAW IDs 142923-142926 non-Missouri, 142927-142930 blank. MAW boil page none; MO DNR none in St. Louis region. IAW Livingston boil order not lifted. Wentzville advisory still in effect; lift ~10/28-10/29. WashU Alert none; Danforth/Medical Facilities no water notices. Metro #18/#41/#42 reroutes unchanged. Undated KSDK/FOX 2 leads (Bonhomme Ave Clayton private line; Hampton boil advisory; Gravois flooding) not adopted. Social lane blocked (Reddit, X, Facebook); KSDK/FOX 2 article pages unloadable. Not checked: BJC, Cortex, Delmar Loop, Forest Park Forever, MoDOT.",
+    "note": "5:40 AM CT 10/27 run (four lanes): nothing new. City Water table (5:30 AM stamp): no active main outages; Leona & Bowen and Mitchell main repairs still listed, no status; new rows hydrant repairs only (Parker, Lawn, S Kingshighway; Ring 2). Metro: #18 Taylor closure unchanged to 10/31; #41 Thekla & Plover to 11/6; #42 Whittier & Maffitt to 10/31. MAW index unreadable to Lanes 1 and 4 (JS/403); Lane 2 saw tracked alerts still posted, no new St. Louis-area 10/27 entries; none resolved. MO DNR: no St. Louis-region boil orders. Wentzville advisory still in effect, lift ~10/28. IAW Livingston no lift found. WashU Alert none; Danforth/Medical Facilities no water notices. News and social: no dated 10/26-10/27 items; undated FOX 2 Overland/Collinsville boil-order leads not adopted. Not checked: MSD, Kirkwood.",
     "open_count": 17,
-    "run_at": "2026-10-27T09:40:00Z",
+    "run_at": "2026-10-27T10:40:00Z",
     "top_incident": "Taylor Ave closure by City Water (W Pine-Laclede, Medical Campus corridor, impact possible) still posted on Metro #18 through 10/31; no change."
   },
   "incidents": [
