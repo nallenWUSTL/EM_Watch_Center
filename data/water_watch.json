@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "7:40 AM CT 10/27 run (four lanes): nothing new. City Water table (7:30 AM stamp): no active main outages, street closures none; only new row is a hydrant repair at 4817 Fairview Ave (7:00 AM, Ring 2). Leona & Bowen and Mitchell main repairs still listed with no status. Metro (Lane 3): #18 Taylor closure to 10/31, #41 Thekla & Plover to 11/6, #42 Whittier & Maffitt to 10/31, all unchanged; City table not listing them was not treated as resolution. MAW: 142863 Ballwin, 142890 Overland, 142914 Florissant detail pages still active, well past estimates; index unreadable (JS), other MAW items unverified and left open; new IDs 142917-142926 all out of state. MAW boil page none; MO DNR none in St. Louis City/County/St. Charles/Jefferson. Wentzville advisory still in effect; IAW Livingston boil order not lifted. WashU Alert none; Danforth/Medical Facilities no water notices. News and social: no dated 10/26-10/27 items; undated Maryland Heights (Feb 2026), Maplewood/Shrewsbury (lifted, undated), Breckenridge Hills and a KSDK Clayton/U City advisory lead (unloadable, likely past event) not adopted. Not checked: MSD, Kirkwood, BJC, Cortex, MoDOT, municipal pages.",
-    "open_count": 17,
-    "run_at": "2026-10-27T12:40:00Z",
+    "note": "8:40 AM CT 10/27 run (four lanes): one new Ring 2 item, City Water main repair at Riverview Dr & Chambers Rd (work order 7:33 AM, far north City, impact none). City Water table (8:30 AM stamp): no active main outages, no street closures; Leona & Bowen and Mitchell repairs still listed without status. Metro #18 Taylor, #41 Thekla & Plover, #42 Whittier & Maffitt unchanged; absence from the City table not treated as resolution. Separate #18 heavy-equipment alert on Taylor (Maryland-Lindell, 10/19-31) not water-attributed. MAW detail pages 142863, 142890, 142914, 142752, 142753, 142767, 142776, 142786, 142690 still active with blank end fields (likely stale); 142927-142930 empty; MAW boil page none; MO DNR none in region. Wentzville advisory still in effect (lift ~10/28-29); IAW Livingston boil order not lifted. WashU Alert none (last mod 10/23); Danforth/Medical Facilities no water notices. News and social: nothing dated 10/26-27. Not checked: MSD, Kirkwood, BJC, Cortex, Forest Park Forever, MoDOT.",
+    "open_count": 18,
+    "run_at": "2026-10-27T13:40:00Z",
     "top_incident": "Taylor Ave closure by City Water (W Pine-Laclede, Medical Campus corridor, impact possible) still posted on Metro #18 through 10/31; no change."
   },
   "incidents": [
@@ -1012,6 +1012,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division service outage, N Spring Ave & Dodier St (north City)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 8:40 AM CT 10/27 (Lanes 1, 3, 4; same City Water table stamped 8:30 AM): main repair work order opened 7:33 AM 10/27, no restoration estimate; not posted as a service outage (table shows no active main outages). Far north City, roughly 9-12 mi from North Campus, Danforth and the Medical Campus; no Ring 1 corridor; no WashU asset. Impact none. No boil advisory. No news or social corroboration (Lanes 2 and 4). Monitor; resolve if no outage is posted within 48 hours. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-27T13:40:00Z",
+      "id": "stlwater-stlouiscity-riverview-20261027",
+      "last_updated": "2026-10-27T13:40:00Z",
+      "location": "Riverview Dr & Chambers Rd (table lists 'SE'), far north St. Louis City near the County line; no address range published",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "monitoring",
+      "title": "City of St. Louis Water Division main repair, Riverview Dr & Chambers Rd (far north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
