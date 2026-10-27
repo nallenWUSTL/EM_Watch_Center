@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "11:40 AM CT 10/27 run (four lanes): City Water table (11:30 AM stamp) shows new Forest Park Ave & Union Dr outage (Ring 1, tracked new) and new Riverview Dr Spring Garden to Chain of Rocks segment (folded into Riverview record). Leona, Mitchell, Riverview & Chambers repairs still listed; Marquette, Nottingham, 2703 N Spring rows are history only. Metro #18 Taylor, #41, #42 water reroutes unchanged. MAW index listings unreadable this cycle; 142863 and IAW 142922 unchanged; other MAW IDs not re-verified. MO DNR none in region. Wentzville advisory still in effect. WashU Alert none (last mod 10/23); Danforth/Medical Facilities no water notices. News and social: nothing new dated 10/26-27. MSD blocked; Kirkwood search only; BJC, Cortex, Forest Park Forever, MoDOT not directly checked.",
-    "open_count": 19,
-    "run_at": "2026-10-27T16:40:00Z",
-    "top_incident": "New Ring 1: City Water outage Forest Park Ave & Union Dr in Forest Park (out 11:05 AM, est. 7:05 PM 10/27), second Forest Park outage in 24 h; no WashU impact observed."
+    "note": "12:40 PM CT 10/27 run (four lanes): City Water table (12:30 PM stamp) shows one new outage, Lansdowne Ave & River Des Peres Blvd (Ring 2, est. 12:26 AM 10/28), plus routine south City hydrant repairs (not tracked). Forest Park Ave & Union, both Riverview segments, Mitchell and Leona repairs unchanged; City advisories empty. Metro #18 Taylor, #41, #42 water reroutes unchanged. MAW alerts index unreadable (script-loaded, 403); 142863, 142890, 142914 detail pages unchanged; no new Missouri MAW IDs found up to 142926; MAW boil page none. IAW 142922 and Wentzville advisory not lifted. MO DNR none in region. WashU Alert none (last mod 10/23); Danforth/Medical Facilities no water notices. News/social nothing dated 10/26-27; undated FOX 2 Clayton Rd / Plaza Frontenac main-break story excluded (date unconfirmed). MSD, Kirkwood, BJC, Cortex, Forest Park Forever, MoDOT not directly checked.",
+    "open_count": 20,
+    "run_at": "2026-10-27T17:40:00Z",
+    "top_incident": "Ring 1: City Water outage Forest Park Ave & Union Dr in Forest Park still active (out 11:05 AM, est. 7:05 PM 10/27); no WashU impact observed."
   },
   "incidents": [
     {
@@ -899,6 +899,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division service outage, January Ave & Nottingham Ave (Lindenwood Park / St. Louis Hills)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:40 PM CT 10/27 (all four lanes read it on the City Water table stamped 12:30 PM): out of service since 12:26 PM, est. restoration 12:26 AM 10/28. Southwest City, roughly 3-5 mi from South Campus and Danforth (estimate); no WashU asset; no Ring 1 corridor; no boil advisory. Impact none. No news or social coverage. Monitor; resolve when it drops from the table. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-27T17:40:00Z",
+      "id": "stlwater-stlouiscity-lansdowne-20261027",
+      "last_updated": "2026-10-27T17:40:00Z",
+      "location": "Lansdowne Ave between River Des Peres Blvd and the City limit, St. Louis City (southwest City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outage, Lansdowne Ave & River Des Peres Blvd (southwest City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
