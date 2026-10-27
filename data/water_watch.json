@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "8:40 AM CT 10/27 run (four lanes): one new Ring 2 item, City Water main repair at Riverview Dr & Chambers Rd (work order 7:33 AM, far north City, impact none). City Water table (8:30 AM stamp): no active main outages, no street closures; Leona & Bowen and Mitchell repairs still listed without status. Metro #18 Taylor, #41 Thekla & Plover, #42 Whittier & Maffitt unchanged; absence from the City table not treated as resolution. Separate #18 heavy-equipment alert on Taylor (Maryland-Lindell, 10/19-31) not water-attributed. MAW detail pages 142863, 142890, 142914, 142752, 142753, 142767, 142776, 142786, 142690 still active with blank end fields (likely stale); 142927-142930 empty; MAW boil page none; MO DNR none in region. Wentzville advisory still in effect (lift ~10/28-29); IAW Livingston boil order not lifted. WashU Alert none (last mod 10/23); Danforth/Medical Facilities no water notices. News and social: nothing dated 10/26-27. Not checked: MSD, Kirkwood, BJC, Cortex, Forest Park Forever, MoDOT.",
+    "note": "9:40 AM CT 10/27 run (four lanes): nothing new affecting WashU. City Water table (9:30 AM stamp): no active main outages; no new main repairs since Riverview & Chambers (7:33 AM); new hydrant-only work order at 4817 Fairview Ave (7:00 AM, south City, not tracked). Mitchell repair address corrected to 6547 Mitchell Ave & Mitchell Terrace. Metro #18 Taylor, #41 Thekla, #42 Whittier unchanged. MAW detail pages 142863, 142890, 142914 unchanged (likely stale); MAW index loads dynamically, other IDs not re-verified; newest live awapps ID 142926 is Illinois American Water Dunlap/Peoria IL (outside region, not tracked). MAW boil page none; MO DNR newest 10/24 Cole Camp, none in region. Wentzville advisory still in effect (lift ~10/28-29); IAW Livingston boil order not lifted. WashU Alert none (last mod 10/23); Danforth/Medical Facilities no water notices. News and social: nothing dated 10/26-27 except Wentzville. Not checked: MSD (blocked), Kirkwood, BJC, Cortex, Forest Park Forever, MoDOT; three FOX 2/KSDK pages unloadable (undated, likely archive).",
     "open_count": 18,
-    "run_at": "2026-10-27T13:40:00Z",
+    "run_at": "2026-10-27T14:40:00Z",
     "top_incident": "Taylor Ave closure by City Water (W Pine-Laclede, Medical Campus corridor, impact possible) still posted on Metro #18 through 10/31; no change."
   },
   "incidents": [
@@ -924,12 +924,12 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 7:40 PM CT 10/26 (Lanes 1, 3 and 4, same City Water table stamped 7:30 PM): main repair work order opened 6:35 PM 10/26, no restoration estimate; not posted as a service outage (table shows no active main outages). Location not placed; Lane 3 believes north City; not on any Ring 1 corridor. No WashU asset identified; impact none. No boil advisory. No news or social corroboration (Lanes 2 and 4). Monitor; resolve if no outage is posted within 48 hours. Owner: Emergency Management (track only).",
+      "assessment": "Update 9:40 AM CT 10/27 (Lanes 1, 3, 4; City Water table stamped 9:30 AM): still listed as a main repair work order (opened 6:35 PM 10/26), address now read as 6547 Mitchell Ave & Mitchell Terrace; no service outage posted, no restoration estimate, no boil advisory. Not on any Ring 1 corridor; no WashU asset identified; impact none. Monitor; resolve if no outage is posted within 48 hours. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-10-27T00:40:00Z",
       "id": "stlwater-stlouiscity-mitchell-20261026",
-      "last_updated": "2026-10-27T00:40:00Z",
-      "location": "Mitchell Ave & Mitchell Pl (table spells it 'Mitcell Pl'), St. Louis City; neighborhood not published or independently placed",
+      "last_updated": "2026-10-27T14:40:00Z",
+      "location": "6547 Mitchell Ave & Mitchell Terrace, St. Louis City (as listed on City Water table 9:30 AM 10/27; earlier read as 'Mitcell Pl'); neighborhood not independently placed",
       "ring": 2,
       "single_source": true,
       "sources": [
