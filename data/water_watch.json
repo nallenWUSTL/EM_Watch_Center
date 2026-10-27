@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "1:40 PM CT 10/27 run (four lanes): City Water table (1:30 PM stamp) shows the same 4 outages: Forest Park Ave & Union (Ring 1, est 7:05 PM), Lansdowne, and both Riverview segments; Riverview & Chambers repair already in the tracked Riverview record; Lanes 1-2 still see Leona and Mitchell work orders (Lane 3 did not; left unchanged). Metro #18 Taylor, #41, #42 water reroutes unchanged. MAW 142863, 142890, 142914 detail pages unchanged; new MAW IDs 142923-142926 all out of state; MAW boil page none. U City MAW alert 140112 surfaced by Lane 4 has blank dates and a far older ID; excluded as stale. IAW 142922 and Wentzville advisory not lifted. MO DNR none in region. WashU Alert none (last mod 10/23); Danforth/Medical Facilities no water notices. News/social nothing dated 10/26-27. MSD, Kirkwood, BJC, Cortex, Forest Park Forever, MoDOT not directly checked. No incident records changed this run.",
+    "note": "2:40 PM CT 10/27 run (four lanes): City Water table (2:30 PM stamp) shows the same 4 outages (Forest Park Ave & Union, Ring 1, est 7:05 PM; Lansdowne; both Riverview segments) plus Leona, Mitchell and Riverview & Chambers repair orders. New rows are hydrant work orders only (S Kingshighway & Murdoch 2:28 PM, 3457 Lawn 2:00 PM, 4969 Oleatha, 4817 Fairview), no service impact, not recorded. Metro #18 Taylor, #41, #42 water reroutes unchanged. MAW index: Lane 4 read it (highest ID 142914; all tracked IDs still listed though past expiry; nothing in Clayton, U City, Ladue, Richmond Hts, Brentwood, Eureka); Lane 1 got no content. MAW boil page / MO DNR none in region. IAW 142922 and Wentzville advisory not lifted. WashU Alert none (last mod 10/23); Danforth/Medical Facilities no water notices. News/social nothing dated 10/26-27; undated FOX 2 Overland boil-advisory article unloadable, not adopted. BJC, Cortex, Forest Park Forever, MoDOT not directly checked. No incident records changed this run.",
     "open_count": 20,
-    "run_at": "2026-10-27T18:40:00Z",
+    "run_at": "2026-10-27T19:40:00Z",
     "top_incident": "Ring 1: City Water outage Forest Park Ave & Union Dr in Forest Park still active (out 11:05 AM, est. 7:05 PM 10/27); no WashU impact observed."
   },
   "incidents": [
