@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "5:40 AM CT 10/27 run (four lanes): nothing new. City Water table (5:30 AM stamp): no active main outages; Leona & Bowen and Mitchell main repairs still listed, no status; new rows hydrant repairs only (Parker, Lawn, S Kingshighway; Ring 2). Metro: #18 Taylor closure unchanged to 10/31; #41 Thekla & Plover to 11/6; #42 Whittier & Maffitt to 10/31. MAW index unreadable to Lanes 1 and 4 (JS/403); Lane 2 saw tracked alerts still posted, no new St. Louis-area 10/27 entries; none resolved. MO DNR: no St. Louis-region boil orders. Wentzville advisory still in effect, lift ~10/28. IAW Livingston no lift found. WashU Alert none; Danforth/Medical Facilities no water notices. News and social: no dated 10/26-10/27 items; undated FOX 2 Overland/Collinsville boil-order leads not adopted. Not checked: MSD, Kirkwood.",
+    "note": "6:40 AM CT 10/27 run (four lanes): nothing new. City Water table (6:30 AM stamp): no active main outages; no 10/27 rows; Leona & Bowen and Mitchell main repairs still listed with no status; hydrant repairs only otherwise (Ring 2). Metro: #18 Taylor closure unchanged to 10/31; #41 Thekla & Plover to 11/6; #42 Whittier & Maffitt to 10/31. MAW: new IDs 142923-142926 all out of state (CA, IN, IL); 142863 Ballwin and 142914 Florissant detail pages still active; index unreadable to Lane 1 (403), Lanes 2 and 4 saw older 10/24-10/26 alerts with past expiry dates but none treated as resolved without index confirmation. MO DNR: no St. Louis-region boil orders. Wentzville advisory still in effect. IAW Livingston boil order not lifted. WashU Alert none; Danforth/Medical Facilities no water notices. News and social: no dated 10/26-10/27 items; undated Breckenridge Hills (KSDK) and Maryland Heights boil-advisory leads not adopted. Not checked: MSD, Kirkwood, BJC, Cortex, MoDOT.",
     "open_count": 17,
-    "run_at": "2026-10-27T10:40:00Z",
+    "run_at": "2026-10-27T11:40:00Z",
     "top_incident": "Taylor Ave closure by City Water (W Pine-Laclede, Medical Campus corridor, impact possible) still posted on Metro #18 through 10/31; no change."
   },
   "incidents": [
