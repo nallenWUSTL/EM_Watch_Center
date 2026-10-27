@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "9:33 PM CT 10/26 run (four lanes). No new or changed incidents. City Water table (9:30 PM stamp): no active main outages; Leona & Bowen and Mitchell Ave & Mitchell Pl repairs still listed (Lane 4 saw a stale 5:30 PM copy without Mitchell; not adopted); hydrant repairs only otherwise (Ring 2). Metro #18 Taylor, #41 Thekla, #42 Whittier reroutes unchanged (Lane 3). MAW: newest American Water IDs 142923-142926 are CA/IN/IL (Peoria), none in Missouri; 142914, 142890 detail pages still posted; MAW index partly unreadable this run; no resolutions adopted. Illinois American 142922 boil order not lifted. MO DNR: no boil orders in St. Louis City/County. WashU Alert none; Danforth and Medical Facilities no water notices. No dated news or social reports; a City 10/25-10/26 boil advisory page found in search is from 2022 (excluded). Not checked: MSD, Kirkwood, BJC, Cortex, Forest Park Forever.",
+    "note": "10:32 PM CT 10/26 run (four lanes). No new or changed incidents. City Water table (10:30 PM stamp): no active main outages; Leona & Bowen and Mitchell Ave & Mitchell Pl repairs still listed; new entries are hydrant repairs only (4969 Parker, 3333 Lawn, 3301/3260 S Kingshighway; Ring 2). Metro #18 Taylor, #41 Thekla, #42 Whittier reroutes still posted (Lane 3). MAW index and detail pages unreadable this run (JS-only); no MAW resolutions or new IDs adopted. City Water news: nothing since 8/25. No dated news or social reports; undated KSDK/Post-Dispatch boil-advisory archives excluded. WashU Alert none; Danforth and Medical Facilities no water notices. Not checked: MO DNR dataset, MSD, Kirkwood, BJC, Cortex, Forest Park Forever, Illinois American 142922.",
     "open_count": 16,
-    "run_at": "2026-10-27T02:40:00Z",
+    "run_at": "2026-10-27T03:40:00Z",
     "top_incident": "Taylor Ave closure by City Water (W Pine-Laclede, Medical Campus corridor, impact possible) still posted on Metro #18 through 10/31; no change."
   },
   "incidents": [
