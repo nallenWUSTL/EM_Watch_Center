@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "3:40 PM CT 10/27 run (four lanes): City Water table (3:30 PM stamp) shows 4 outages: Leona & Bowen (new outage row on tracked repair, out 3:04 PM, est 3:04 AM 10/28), Lansdowne (est 12:26 AM), both Riverview segments; Forest Park Ave & Union gone (resolved). Repairs Riverview & Chambers, Mitchell, Leona still listed; hydrant orders not recorded. Metro #18, #41, #42 water reroutes unchanged. MAW index did not load (Lanes 1, 4); MAW alert IDs 142923-142929 all out of state; MAW boil page and MO DNR none in City/County. IAW 142922 boil order and Wentzville advisory not lifted. WashU Alert none (last mod 10/23); Danforth/Medical Facilities no water notices. News/social nothing dated 10/26-27. BJC, Cortex, Forest Park Forever, MoDOT, MSD, Kirkwood not directly opened.",
+    "note": "4:40 PM CT 10/27 run (four lanes): City Water table (4:30 PM stamp) unchanged: 4 outages (Leona & Bowen est 3:04 AM 10/28; Lansdowne est 12:26 AM; Riverview I-270–Hall est 3:40 AM; Riverview Spring Garden–Chain of Rocks est 5:08 AM); repairs Riverview & Chambers and Mitchell still listed; new hydrant repairs S Kingshighway & Murdoch and 3457 Lawn Ave (south City, no outage, not tracked). stlwater.com/outages served a stale 10/26 5:30 PM copy (disregarded). Metro #18, #41, #42 water reroutes unchanged. All tracked MAW IDs still live, no updates; no new Missouri IDs above 142929; MAW boil page and MO DNR none in City/County. IAW 142922 boil order and Wentzville advisory (lift ~10/28 evening) not lifted. Undated stlwater.com/?p=9725 boil-advisory page judged a leftover from the Aug 2026 Chain of Rocks event; not adopted. WashU Alert none (last mod 10/23); Danforth/Medical Facilities no water notices. News/social nothing dated 10/26-27; Reddit blocked; KSDK/FOX 2 pages unloadable. BJC, Cortex, Forest Park Forever, MoDOT, MSD, Kirkwood not directly opened.",
     "open_count": 19,
-    "run_at": "2026-10-27T20:40:00Z",
-    "top_incident": "Ring 1 Forest Park Ave & Union Dr outage cleared from City Water table by 3:30 PM (ahead of 7:05 PM estimate); no WashU impact. Nearest open item: Taylor Ave W Pine–Laclede City Water closure (Metro #18, to 10/31), impact possible, monitoring."
+    "run_at": "2026-10-27T21:40:00Z",
+    "top_incident": "No new or changed incidents. Nearest open item: Taylor Ave W Pine–Laclede City Water closure (Metro #18, to 10/31), impact possible, monitoring."
   },
   "incidents": [
     {
