@@ -1,0 +1,184 @@
+{
+  "bluf": "Nothing on or near a WashU asset crossed a reporting threshold overnight. Today's action is cyber: PHP2Shell flaws are actively exploited (CISA KEV 26 Oct, federal deadline Thu 29 Oct), and UNM Health, a peer academic medical center, went to paper and diverted ambulances after a cyberattack. The week's peak is Sat 31 Oct (Family Weekend, home football, CWE Halloween party, evening rain window) followed by DST ending; start coordination today.",
+  "briefing_url": "https://claude.ai/artifact/Qw8uNoRPVU9DcPC6tfEmWC",
+  "date": "2026-10-27",
+  "dissents": [
+    {
+      "note": "Saturday coordination moved to Today (overrules Events). Weather kept at Sev 2: AccuWeather re-check names Missouri rain Fri-Sat but no St. Louis or severe mention.",
+      "title": "Red Team: Halloween-weekend storm underrated",
+      "verdict": "Adopted in part"
+    },
+    {
+      "note": "No official product supports it; mitigations folded into today item 3.",
+      "title": "Red Team: Sat evening storm-plus-crowds-plus-DST scenario (Sev 4, Low)",
+      "verdict": "Carried as dissent"
+    },
+    {
+      "note": "Single-source early-vote volume; confirm any on-campus polling site this week.",
+      "title": "Red Team: Election Day pressure underrated",
+      "verdict": "Carried as dissent"
+    },
+    {
+      "note": "Agrees with Weather; Monitor.",
+      "title": "Red Team: Tyson wildfire overrated",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Agrees with Policy; CR runs to 11 Dec.",
+      "title": "Red Team: shutdown/FEMA gap overrated",
+      "verdict": "Adopted"
+    }
+  ],
+  "lanes_quiet": [
+    2,
+    3,
+    6
+  ],
+  "lookahead": [
+    {
+      "date": "2026-10-27",
+      "dow": "Tue",
+      "loads": "Blues home 7 PM; Route D lane closures; PHP patch push",
+      "stacked": false,
+      "wx": "Sunny to clouds, mid-70s/~55, dry"
+    },
+    {
+      "date": "2026-10-28",
+      "dow": "Wed",
+      "loads": "CITY SC vs Portland 7:30 PM",
+      "stacked": false,
+      "wx": "Partly cloudy, ~78/~57, <10%"
+    },
+    {
+      "date": "2026-10-29",
+      "dow": "Thu",
+      "loads": "Blues vs Boston 7 PM; federal KEV patch deadline; recheck LSX/SPC for Sat",
+      "stacked": false,
+      "wx": "~80-83/~60, <10%"
+    },
+    {
+      "date": "2026-10-30",
+      "dow": "Fri",
+      "loads": "Family Weekend arrivals; sombr at Enterprise Center; downtown Halloween events",
+      "stacked": true,
+      "wx": "~80/~60, 10-20%, possibly breezy"
+    },
+    {
+      "date": "2026-10-31",
+      "dow": "Sat",
+      "loads": "Family Weekend; football vs Denison 1 PM; CWE Halloween party 11 AM-midnight; trick-or-treat; CITY SC home (time unconfirmed); Ballpark Village 8 PM",
+      "stacked": true,
+      "wx": "Low-mid 70s/~58, 30% PM, 40-50% night"
+    },
+    {
+      "date": "2026-11-01",
+      "dow": "Sun",
+      "loads": "DST ends 2 AM; Family Weekend departures; check system clocks",
+      "stacked": true,
+      "wx": "Low 70s/~52, 30-40%"
+    },
+    {
+      "date": "2026-11-02",
+      "dow": "Mon",
+      "loads": "First dark evening commute; eve of Election Day, polling arrangements unconfirmed",
+      "stacked": false,
+      "wx": "Likely mild 60s-70s, low confidence"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "watch",
+      "summary": "No NWS products for St. Louis City/County. Dry and warm through Fri; rain window Sat PM to Sun (30-50% local, higher in LSX ensembles); no severe indicated. No M3.0+ quake. Tyson fire risk low."
+    },
+    {
+      "name": "Life-safety threats",
+      "pir": 2,
+      "status": "quiet",
+      "summary": "No Ring 1 violent incident, threat naming WashU, or large demonstration. Two Ring 2 fatal shootings (north U City Sun night, Wellston Mon) with no WashU link. Pitt social-media bomb threat 20 Oct as pattern context."
+    },
+    {
+      "name": "Public health and Medical Campus demand",
+      "pir": 3,
+      "status": "watch",
+      "summary": "Missouri measles at 18 cases in 2026, no active St. Louis exposures. No local advisory or college outbreak. Respiratory levels and hospital diversion unverified."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "active",
+      "summary": "PHP2Shell actively exploited; UNM Health cyberattack; Quest Quanum breach. Route D lane closures through Wed. No Ring 1 power, water, transit or airport disruption."
+    },
+    {
+      "name": "Scheduled activity, next seven days",
+      "pir": 5,
+      "status": "watch",
+      "summary": "Peak Sat 31 Oct; secondary stacks Fri 30 Oct and Sun 1 Nov (DST ends). Evening Blues/CITY SC loads Tue-Thu."
+    },
+    {
+      "name": "Policy, legal and funding",
+      "pir": 6,
+      "status": "quiet",
+      "summary": "FY2027 CR funds government through 11 Dec. FEMA FMA notice (due 26 Feb 2027) not a direct WashU opportunity. No travel advisory, Clery/Title IX or Missouri bill changes."
+    }
+  ],
+  "posture": "Normal",
+  "published_at": "2026-10-27T10:58:44Z",
+  "run_note": "Charter read OK (rev 10). All 7 lanes reported. Started 05:52 CT, published 05:58 CT. Several weather sources (api.weather.gov, SPC, WPC, AirNow, river stages) and CISA KEV pages unreachable.",
+  "title": "WashU EM Daily Intelligence Briefing, October 27, 2026",
+  "today_items": [
+    {
+      "action": "Inventory internet-facing PHP hosts, patch to 21 Oct releases, apply mitigation for -115560 and WAF rules; target 29 Oct.",
+      "confidence": "Medium",
+      "likelihood": "High",
+      "owner": "IT / Information Security",
+      "pir": 4,
+      "rank": 1,
+      "severity": 3,
+      "source": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
+      "title": "PHP2Shell exploitation (CVE-2026-109618, -109619; unpatched -115560)",
+      "ttd": "Now"
+    },
+    {
+      "action": "Pull REN-ISAC/Health-ISAC indicators, coordinate with BJC InfoSec; Medical Campus reconfirms downtime procedures and diverted-ambulance receiving plan; Communications preps extortion-message template.",
+      "confidence": "Medium",
+      "likelihood": "Occurring",
+      "owner": "IT / InfoSec; Medical Campus Security; EM",
+      "pir": 4,
+      "rank": 2,
+      "severity": 3,
+      "source": "https://hscnews.unm.edu/news/ambulance-traffic-diverted-clinical-appointments-cancelled-and-classes-cancelled-due-to-cybersecurity-issue-at-unm-hsc",
+      "title": "Cyberattack at UNM Health Sciences Center (peer academic medical center)",
+      "ttd": "Today"
+    },
+    {
+      "action": "Open coordination: Family Weekend program, CWE closure footprint and hospital access routes, weather go/no-go on Thursday LSX/SPC, crane wind threshold at 6200 Forsyth, DST overnight staffing.",
+      "confidence": "Medium",
+      "likelihood": "High",
+      "owner": "EM; Student Affairs; WUPD; Medical Campus Security; Facilities",
+      "pir": 5,
+      "rank": 3,
+      "severity": 3,
+      "source": "https://families.washu.edu/calendar_event/parent-family-weekend-2026/",
+      "title": "Sat 31 Oct stacked day: Family Weekend, football 1 PM, CWE Halloween party to midnight, CITY SC, rain window",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "PHP2Shell (CVE-2026-109618/-109619) actively exploited: IT/InfoSec to inventory and patch internet-facing PHP hosts now; federal deadline Thu 29 Oct.",
+  "unreachable": [
+    "api.weather.gov (blocked)",
+    "NWS point forecast/HWO (cached 20 Oct)",
+    "SPC Day 1-3 and WPC ERO (stale)",
+    "AirNow AQI",
+    "NOAA river stages",
+    "Drought Monitor map",
+    "CISA KEV and alert pages",
+    "fema.gov press release",
+    "KSDK and Fox 2 articles",
+    "WashU Alert live archive",
+    "BJC/regional diversion status",
+    "CDC wastewater state levels",
+    "d3football.com"
+  ]
+}
