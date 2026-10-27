@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "10:32 PM CT 10/26 run (four lanes). No new or changed incidents. City Water table (10:30 PM stamp): no active main outages; Leona & Bowen and Mitchell Ave & Mitchell Pl repairs still listed; new entries are hydrant repairs only (4969 Parker, 3333 Lawn, 3301/3260 S Kingshighway; Ring 2). Metro #18 Taylor, #41 Thekla, #42 Whittier reroutes still posted (Lane 3). MAW index and detail pages unreadable this run (JS-only); no MAW resolutions or new IDs adopted. City Water news: nothing since 8/25. No dated news or social reports; undated KSDK/Post-Dispatch boil-advisory archives excluded. WashU Alert none; Danforth and Medical Facilities no water notices. Not checked: MO DNR dataset, MSD, Kirkwood, BJC, Cortex, Forest Park Forever, Illinois American 142922.",
+    "note": "11:40 PM CT 10/26 run (four lanes). No new or changed incidents. City Water table (11:30 PM stamp): no active main outages; Leona & Bowen and Mitchell Ave & Mitchell Pl repairs still listed; new entries hydrant repairs only (4969 Parker, 3333 Lawn, 3301/3260 S Kingshighway). Metro #18 Taylor, #41 Thekla (to 11/6), #42 Whittier reroutes still posted (Lane 3). MO DNR: no St. Louis-region boil orders. MAW boil page: none. MAW index JS-only; detail pages 142914 Florissant and 142890 Overland still show active (past estimates); newest MAW IDs 142917-142926 all out of state. IAW 142922 Livingston boil order not lifted. WashU Alert none; Medical Facilities no water notices. Unverified lead: undated KSDK Ferguson 'Haplin Dr' main-break page (unloadable), not adopted. No dated news/social reports. Not checked: MSD, Kirkwood, BJC, Cortex, Forest Park Forever, Danforth Facilities.",
     "open_count": 16,
-    "run_at": "2026-10-27T03:40:00Z",
+    "run_at": "2026-10-27T04:40:00Z",
     "top_incident": "Taylor Ave closure by City Water (W Pine-Laclede, Medical Campus corridor, impact possible) still posted on Metro #18 through 10/31; no change."
   },
   "incidents": [
