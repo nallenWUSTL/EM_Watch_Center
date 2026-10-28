@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "7:40 AM CT 10/28 run (four lanes): no new St. Louis-area incidents and no confirmed status changes. stlwater.com/outages still stamped 6:30 PM 10/27 (~13 hr stale); Leona & Bowen and both Riverview Dr outages past ETA, restoration unconfirmed; repair list unchanged (36 rows; S Kingshighway hydrant items are South City, Ring 2). wateroos.php now serving an obsolete 2014 test page. MAW index and boil page still render empty; 142863, 142890, 142914 still show repairs underway; 142923/142925 out of region; 142927-142930 empty. MO DNR: no St. Louis-area orders. Wentzville PBA still in effect (lift expected ~evening 10/28). ILAW Livingston boil order no lift posted. WashU Alert none (last modified 10/23); Danforth Facilities newest 10/26 (generator tests 10/29-30); Medical Facilities newest 10/21. Metro #18 Taylor, #41 (to 11/6), #42 reroutes unchanged. No dated 10/27-28 news or social reports; undated KSDK Lansdowne & Chippewa, 7/9/2026 Clayton Rd & Hanley, Post-Dispatch Olivette/Clayton/U City boil advisory (likely July) not adopted.",
-    "open_count": 18,
-    "run_at": "2026-10-28T12:40:00Z",
-    "top_incident": "No new or changed incidents. Nearest open item: Taylor Ave W Pine–Laclede City Water closure (Metro #18, to 10/31), impact possible, monitoring."
+    "note": "8:50 AM CT 10/28 run (four lanes): Wentzville PBA lifted 6:00 AM 10/28 per city page (Lanes 1, 4); resolved. No new St. Louis-area incidents. stlwater.com/outages still stamped 6:30 PM 10/27 (~14 hr stale); Leona & Bowen and both Riverview Dr outages past ETA, restoration unconfirmed; wateroos.php still serving obsolete test page. MAW 142863, 142752, 142890, 142914 unchanged; probed IDs 142927-142935 empty; MAW index and boil page render empty. MO DNR: only Flemington PWS (Polk County), out of region. ILAW Livingston boil order no lift posted. WashU Alert none (last modified 10/23); Danforth Facilities newest 10/26 (generator tests 10/29-30); Medical Facilities newest 10/21. Metro #18 Taylor, #41 (to 11/6), #42 (to 10/31) reroutes unchanged; no new water reroutes. No dated 10/27-28 news or social reports; undated KSDK Macklind & Sutherland, Grand/I-64, Maplewood boil order, FOX 2 north St. Louis video, and Nextdoor Olive & Eastover not adopted.",
+    "open_count": 17,
+    "run_at": "2026-10-28T13:55:00Z",
+    "top_incident": "No new incidents. Wentzville citywide precautionary boil advisory lifted 6:00 AM 10/28 (resolved). Nearest open item: Taylor Ave W Pine–Laclede City Water closure (Metro #18, to 10/31), impact possible, monitoring."
   },
   "incidents": [
     {
@@ -1168,21 +1168,21 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Opened 1:40 AM CT 10/27 (KMOV): planned shutdown 10/26 to tie in a new 30-inch main; citywide precautionary boil advisory in effect since Monday evening. Update 3:40 AM CT 10/27 (Lane 1, city pages): advisory still in effect; city PBA page (modified 10/26 ~5:47 PM CT) says lift likely ~48 hours after good tests (~evening 10/28), but the homepage banner still cites late Thursday 10/29 and a possible second shutdown 10/27-28, so lift timing is uncertain (10/28 evening or 10/29). St. Charles County, outside St. Louis City/County; ~25-30 mi from Tyson (own well supply); separate system. No WashU asset; impact none. Monitor; resolve when the lift is posted. Owner: Emergency Management (track only; note for any WashU staff/students residing in Wentzville).",
-      "confidence": "Medium",
+      "assessment": "Resolved 8:55 AM CT 10/28 (Lanes 1 and 4, City of Wentzville PBA page): citywide precautionary boil advisory lifted as of 6:00 AM CT 10/28 after satisfactory water tests; no flushing or customer action needed. FOX 2 headline also reports the lift (page unloadable). St. Charles County, Ring 3; no WashU asset; impact none. Owner: Emergency Management (closed).",
+      "confidence": "High",
       "first_seen": "2026-10-27T06:40:00Z",
       "id": "wentzville-wentzville-citywide-20261026",
-      "last_updated": "2026-10-27T08:40:00Z",
+      "last_updated": "2026-10-28T13:55:00Z",
       "location": "All City of Wentzville water customers, St. Charles County, MO (no streets published)",
       "ring": 3,
-      "single_source": true,
+      "single_source": false,
       "sources": [
-        "https://www.firstalert4.com/2026/10/27/planned-boil-water-advisory-wentzville-effect-water-main-project-wraps-up/",
-        "https://fox2now.com/news/missouri/wentzville-urges-water-conservation-boil-advisory-expected-tuesday/ (unloadable)",
         "https://www.wentzvillemo.gov/PBA",
+        "https://www.firstalert4.com/2026/10/27/planned-boil-water-advisory-wentzville-effect-water-main-project-wraps-up/",
+        "https://fox2now.com/news/missouri/citywide-boil-advisory-lifted-in-wentzville-wednesday-morning/ (unloadable)",
         "https://www.wentzvillemo.gov/"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "City of Wentzville citywide precautionary boil advisory — planned 30-inch main tie-in",
       "utility": "City of Wentzville Water (work by Public Water Supply District No. 2 of St. Charles County)",
       "washu_impact": "none"
