@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "5:40 PM CT 10/28 run (four lanes): nothing new. stlwater.com/outages still stamped 6:30 PM 10/27 (~28 hr stale); Leona & Bowen and both Riverview Dr outages past ETA, restoration unconfirmed (not resolved); Riverview & Chambers work order already in Riverview record. wateroos.php still a 2014 test page. MAW index and boil page empty; probes 142931/142933/142936 blank. ILAW 142922 boil order not lifted. MO DNR: 9 records, none in City/County. WashU Alert none (last 10/23); Danforth Facilities: Jolley Hall sewer repair only (not water), generator tests 10/29-10/30; Medical Facilities no water notices. Metro #18, #41, #42 unchanged. Undated leads not adopted: KSDK 'MAW possible break south St. Louis County', FOX 2 '3 water main breaks across St. Louis County' (both unloadable), Yahoo Clayton break. STLPR 10/27: elevated lead at Northern Village apartments (County), source not stated as water; not adopted. Not checked: MSD, Kirkwood, BJC, Cortex, Delmar Loop, MoDOT closures.",
+    "note": "6:40 PM CT 10/28 run (four lanes): nothing new. stlwater.com/outages still stamped 6:30 PM 10/27 (~24 hr stale); Leona & Bowen and both Riverview Dr outages past ETA, restoration unconfirmed (not resolved). wateroos.php 2014 test page; city water news newest 8/25. MAW index and boil page empty; probes 142937/142940/142945 blank. ILAW 142922 boil order not lifted; MAW 142914 page unchanged. MO DNR newest Flemington (Polk Co) 10/26, none in City/County. WashU Alert none (last 10/23); Danforth Facilities: Jolley Hall sewer repair only; Medical Facilities no water notices. Metro #18, #41, #42 unchanged. Leads dated/set aside: KSDK 'MAW possible break south St. Louis County' is Aug 2024 (drop); FOX 2 '3 breaks' not found; KSDK Hyde Park 13th & Branch undated; MAW alert 140112 University City investigation undated, ID predates current 142xxx series, not adopted. Not checked: MSD, Kirkwood, BJC, Cortex, Delmar Loop, Forest Park Forever, MoDOT closures.",
     "open_count": 17,
-    "run_at": "2026-10-28T22:40:00Z",
+    "run_at": "2026-10-28T23:40:00Z",
     "top_incident": "No new or changed incidents. Nearest open item: Taylor Ave W Pine–Laclede City Water closure (Metro #18, to 10/31), impact possible, monitoring."
   },
   "incidents": [
