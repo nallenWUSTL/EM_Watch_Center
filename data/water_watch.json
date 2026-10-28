@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "6:40 PM CT 10/27 run (four lanes): City Water table (6:30 PM stamp): Lansdowne & River Des Peres dropped (resolved); 3 outages remain (Leona & Bowen est 3:04 AM 10/28; Riverview I-270–Hall est 3:40 AM; Riverview Spring Garden–Chain of Rocks est 5:08 AM); repairs Mitchell and Riverview & Chambers still listed; new hydrant repairs S Kingshighway & Murdoch and 3457 Lawn Ave (south City, no outage, not tracked); advisories empty. Metro #18, #41, #42 water reroutes unchanged. MAW alerts index again rendered empty; only 142914 rechecked (still active); other MAW items left unchanged. American Water alerts 142925 (Merrillville IN) and 142926 (Peoria IL) out of region. MO DNR: no St. Louis-area boil orders. Wentzville advisory still in effect (lift ~10/28 evening); IAW Livingston boil order still active. WashU Alert none; Danforth/Medical Facilities no water notices. News/social nothing dated 10/26-27 (undated FOX 2 County breaks and AOL Maryland Heights boil items not adopted). BJC, Cortex, Forest Park Forever, MoDOT, MSD, Kirkwood not directly opened.",
+    "note": "7:40 PM CT 10/27 run (four lanes): City Water table (7:30 PM stamp) lists only the 3 tracked outages (Leona & Bowen est 3:04 AM 10/28; Riverview I-270–Hall est 3:40 AM; Riverview Spring Garden–Chain of Rocks est 5:08 AM); Mitchell and Riverview & Chambers repairs still listed; new hydrant repairs 4969 Oleatha and 4817 Fairview (south City, no outage, not tracked). Metro #18, #41, #42 water reroutes still listed. MAW index rendered empty; 142914, 142890 rechecked still active; probes 142927-142933 empty placeholders; other MAW items unchanged. MAW boil page none; MO DNR none in St. Louis area. Wentzville advisory still in effect; IAW Livingston boil order still active. WashU Alert none; Danforth/Medical Facilities no water notices. News/social nothing verified dated 10/26-27 (FOX 2 north City main-break video unloadable, not adopted). Source, Student Life, Forest Park Forever, MoDOT, MSD, Kirkwood not directly opened.",
     "open_count": 18,
-    "run_at": "2026-10-27T23:40:00Z",
-    "top_incident": "No new incidents. Lansdowne Ave outage cleared from City Water table (restored per utility page). Nearest open item: Taylor Ave W Pine–Laclede City Water closure (Metro #18, to 10/31), impact possible, monitoring."
+    "run_at": "2026-10-28T00:40:00Z",
+    "top_incident": "No new or changed incidents. Nearest open item: Taylor Ave W Pine–Laclede City Water closure (Metro #18, to 10/31), impact possible, monitoring."
   },
   "incidents": [
     {
