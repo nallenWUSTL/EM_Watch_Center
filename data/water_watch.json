@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "6:40 AM CT 10/28 run (four lanes): no new St. Louis-area incidents and no confirmed status changes. stlwater.com/outages still stamped 6:30 PM 10/27 (~12 hr stale); Leona & Bowen, Riverview I-270–Hall and Spring Garden–Chain of Rocks outages past ETA, restoration unconfirmed; Riverview & Chambers and 6547 Mitchell repair orders listed; hydrant work S Kingshighway & Murdoch (no outage, ~2-2.5 mi S of Medical Campus). MAW: index and boil page render empty; 142863 Ballwin still loads; 142927-142930 unpopulated; 142926 Dunlap IL out of region. MO DNR: no St. Louis-area orders. Wentzville PBA still in effect (lift expected ~evening 10/28). WashU Alert none (last modified 10/23); Danforth Facilities newest 10/26; Medical Facilities newest 10/21, no events 10/26-11/5. Metro #18 Taylor, #41, #42 reroutes unchanged. Undated KSDK 13th & Branch, Clayton/U City MAW boil advisory, Bonhomme items not adopted; Richmond Heights 10/27 story is Ohio.",
+    "note": "7:40 AM CT 10/28 run (four lanes): no new St. Louis-area incidents and no confirmed status changes. stlwater.com/outages still stamped 6:30 PM 10/27 (~13 hr stale); Leona & Bowen and both Riverview Dr outages past ETA, restoration unconfirmed; repair list unchanged (36 rows; S Kingshighway hydrant items are South City, Ring 2). wateroos.php now serving an obsolete 2014 test page. MAW index and boil page still render empty; 142863, 142890, 142914 still show repairs underway; 142923/142925 out of region; 142927-142930 empty. MO DNR: no St. Louis-area orders. Wentzville PBA still in effect (lift expected ~evening 10/28). ILAW Livingston boil order no lift posted. WashU Alert none (last modified 10/23); Danforth Facilities newest 10/26 (generator tests 10/29-30); Medical Facilities newest 10/21. Metro #18 Taylor, #41 (to 11/6), #42 reroutes unchanged. No dated 10/27-28 news or social reports; undated KSDK Lansdowne & Chippewa, 7/9/2026 Clayton Rd & Hanley, Post-Dispatch Olivette/Clayton/U City boil advisory (likely July) not adopted.",
     "open_count": 18,
-    "run_at": "2026-10-28T11:40:00Z",
+    "run_at": "2026-10-28T12:40:00Z",
     "top_incident": "No new or changed incidents. Nearest open item: Taylor Ave W Pine–Laclede City Water closure (Metro #18, to 10/31), impact possible, monitoring."
   },
   "incidents": [
