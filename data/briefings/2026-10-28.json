@@ -1,0 +1,196 @@
+{
+  "bluf": "Posture Normal; nothing crossed a life-safety threshold overnight. MetroLink Blue Line cut back to Shrewsbury–Forest Park-DeBaliviere after overnight catenary damage (single cars, 20–25 min delays, no restoration time), degrading the commute to Danforth, the Medical Campus, the Loop and Cortex. Cyber check needed today after the extortion attack on UNM Health Sciences and active PHP2Shell exploitation. The week peaks Sat Oct 31: Family Weekend, 1 PM football, CWE Halloween with Euclid closed, and CITY SC at 2 PM, with 50% rain overnight. Tuesday Nov 3 brings Election Day polling on both main campuses.",
+  "briefing_url": "https://claude.ai/artifact/TkL1zzVGzJNZqKcb44nhfV",
+  "date": "2026-10-28",
+  "dissents": [
+    {
+      "note": "Red Team: Severity 3/Medium; Weather: Severity 2/Low. Weather score kept (no fire product, rain Sat night). Tyson burn check added.",
+      "title": "Warm, dry run-up raises Tyson fire risk and crowd size",
+      "verdict": "carried"
+    },
+    {
+      "note": "Converges with Public Safety; raised from Monitor to This week.",
+      "title": "Hoax threats and AI impersonation before the election",
+      "verdict": "adopted"
+    },
+    {
+      "note": "CR runs through Dec 11; stays at Monitor.",
+      "title": "Federal shutdown risk overrated",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Red Team data (Aug 31) is stale; DHSS shows 18 cases as of Oct 20. Likelihood low but MMR check kept.",
+      "title": "Measles pressure overrated",
+      "verdict": "rejected in part"
+    },
+    {
+      "note": "Severity 4, Low likelihood, Low confidence; hypothetical. Joint hoax-verification plan with UCity PD and SLMPD suggested.",
+      "title": "Scenario: Halloween-night hoax active-shooter call",
+      "verdict": "carried"
+    }
+  ],
+  "lanes_quiet": [
+    1,
+    2,
+    3
+  ],
+  "lookahead": [
+    {
+      "date": "2026-10-28",
+      "dow": "Wed",
+      "loads": "Yushchenko at Graham Chapel; Chenoweth 7 PM, Clark-Fox; CITY SC 7:30 PM; MetroLink degraded",
+      "stacked": true,
+      "wx": "Sunny 79/57"
+    },
+    {
+      "date": "2026-10-29",
+      "dow": "Thu",
+      "loads": "Blues vs Boston 7 PM, Enterprise Center",
+      "stacked": false,
+      "wx": "Sunny 82/59"
+    },
+    {
+      "date": "2026-10-30",
+      "dow": "Fri",
+      "loads": "Family Weekend opens; costume contest 4 PM, Mudd Field; sombr at Enterprise Center; SLMPD Halloween operations",
+      "stacked": true,
+      "wx": "Mostly sunny 79/59"
+    },
+    {
+      "date": "2026-10-31",
+      "dow": "Sat",
+      "loads": "Football vs Denison 1 PM; CITY SC 2 PM; CWE Halloween (Euclid closed, party until midnight)",
+      "stacked": true,
+      "wx": "Cloudy 74/57; 20% PM, 50% overnight"
+    },
+    {
+      "date": "2026-11-01",
+      "dow": "Sun",
+      "loads": "DST ends 2 AM; Family Weekend closes",
+      "stacked": true,
+      "wx": "Cloudy 72/57; 40% AM"
+    },
+    {
+      "date": "2026-11-02",
+      "dow": "Mon",
+      "loads": "Blue Line cutback begins; Winter Weather Preparedness Week",
+      "stacked": false,
+      "wx": "Cloudy 71/58; 50–60%"
+    },
+    {
+      "date": "2026-11-03",
+      "dow": "Tue",
+      "loads": "Election Day polling 6 AM–7 PM at the Athletic Complex and the Medical Campus",
+      "stacked": false,
+      "wx": "Cloudy 72; 60% showers"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "watch",
+      "summary": "No NWS products. Warm and dry through Friday; rain 50% Sat night and 50–60% Mon–Tue. Tyson fuels dry, no red flag. No M3+ quake."
+    },
+    {
+      "name": "Life safety and threat",
+      "pir": 2,
+      "status": "watch",
+      "summary": "Nothing at threshold. Hoax-threat pattern (Boston schools and BU Academy, Oct 27) raised to This week ahead of Halloween and Election week."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "quiet",
+      "summary": "No advisory, outbreak or confirmed diversion. Missouri measles count is 18 (no active exposures). Respiratory season starting."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "active",
+      "summary": "MetroLink Blue Line degraded; UNM HSC extortion attack; PHP2Shell exploited. Blue Line cutback Nov 2–Dec 23."
+    },
+    {
+      "name": "Scheduled activity",
+      "pir": 5,
+      "status": "watch",
+      "summary": "Stacked days: Wed, Fri, Sat (peak), Sun. Election Day polling Tue at the Athletic Complex and the Medical Campus."
+    },
+    {
+      "name": "Policy, legal and funding",
+      "pir": 6,
+      "status": "watch",
+      "summary": "Kenya raised to Level 3 around Oct 19 (press report). CR funds the government through Dec 11; no lapse in window."
+    }
+  ],
+  "posture": "Normal",
+  "published_at": "2026-10-28T11:01:18Z",
+  "run_note": "Charter read OK. All 7 lanes reported. Published ~06:01 CT, before the 06:45 cutoff. No Severity 4-5 items except the Red Team scenario.",
+  "title": "WashU EM Daily Intelligence Briefing, October 28, 2026",
+  "today_items": [
+    {
+      "action": "Send a commuter notice to allow extra time; consider flexible clinical-shift arrival; watch for a bus bridge.",
+      "confidence": "Medium",
+      "likelihood": "Occurring",
+      "owner": "Communications, Medical Campus Security, EM",
+      "pir": 4,
+      "rank": 1,
+      "severity": 2,
+      "source": "https://www.firstalert4.com/2026/10/28/metrolink-riders-experience-delays-wednesday-morning-after-overnight-damage/",
+      "title": "MetroLink Blue Line degraded after catenary damage",
+      "ttd": "Now"
+    },
+    {
+      "action": "Review identity monitoring and segmentation with BJC; confirm clinical downtime procedures are ready.",
+      "confidence": "Medium",
+      "likelihood": "Occurring",
+      "owner": "WashU IT, Medical Campus Security",
+      "pir": 4,
+      "rank": 2,
+      "severity": 3,
+      "source": "https://www.helpnetsecurity.com/2026/10/27/university-of-new-mexico-hospitals-cyberattack/",
+      "title": "UNM Health Sciences extortion attack (peer academic medical center)",
+      "ttd": "Today"
+    },
+    {
+      "action": "Confirm public-facing PHP servers are patched; hunt for PHP processes starting command shells.",
+      "confidence": "Low",
+      "likelihood": "High",
+      "owner": "WashU IT",
+      "pir": 4,
+      "rank": 3,
+      "severity": 3,
+      "source": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html?m=0",
+      "title": "PHP2Shell flaws exploited in the wild",
+      "ttd": "Today"
+    },
+    {
+      "action": "Confirm the real time and protective-security plan with the host; brief the Graham Chapel post.",
+      "confidence": "Medium",
+      "likelihood": "High",
+      "owner": "WUPD, EM",
+      "pir": 5,
+      "rank": 4,
+      "severity": 2,
+      "source": "https://happenings.washu.edu/calendar/day/2026/10/28",
+      "title": "Former Ukrainian President Yushchenko at Graham Chapel (listed time 3:30 AM looks wrong)",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "MetroLink Blue Line degraded after overnight catenary damage (single cars, 20–25 min delays): send a commuter notice and consider flexible clinical-shift arrival now.",
+  "unreachable": [
+    "SPC current outlooks (stale cache)",
+    "api.weather.gov (blocked)",
+    "WPC excessive rainfall outlook (not checked)",
+    "NOAA river gauge St. Louis",
+    "AirNow St. Louis",
+    "travel.state.gov",
+    "CISA advisories/KEV (stale cache)",
+    "Ameren/Spire outage maps",
+    "WashU IT status (stale)",
+    "WashU calendar Oct 29, Oct 31, Nov 3",
+    "BJC diversion status (no public source)",
+    "CDC NWSS wastewater",
+    "KSDK, Fox 2, Yahoo"
+  ]
+}
