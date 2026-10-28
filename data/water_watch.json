@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "8:50 AM CT 10/28 run (four lanes): Wentzville PBA lifted 6:00 AM 10/28 per city page (Lanes 1, 4); resolved. No new St. Louis-area incidents. stlwater.com/outages still stamped 6:30 PM 10/27 (~14 hr stale); Leona & Bowen and both Riverview Dr outages past ETA, restoration unconfirmed; wateroos.php still serving obsolete test page. MAW 142863, 142752, 142890, 142914 unchanged; probed IDs 142927-142935 empty; MAW index and boil page render empty. MO DNR: only Flemington PWS (Polk County), out of region. ILAW Livingston boil order no lift posted. WashU Alert none (last modified 10/23); Danforth Facilities newest 10/26 (generator tests 10/29-30); Medical Facilities newest 10/21. Metro #18 Taylor, #41 (to 11/6), #42 (to 10/31) reroutes unchanged; no new water reroutes. No dated 10/27-28 news or social reports; undated KSDK Macklind & Sutherland, Grand/I-64, Maplewood boil order, FOX 2 north St. Louis video, and Nextdoor Olive & Eastover not adopted.",
+    "note": "9:40 AM CT 10/28 run (four lanes): nothing new. stlwater.com/outages still stamped 6:30 PM 10/27 (~15 hr stale); Leona & Bowen and both Riverview Dr outages past ETA, restoration unconfirmed; wateroos.php still a 2014 test page. MAW index and boil page render empty; 142863, 142890, 142914 still active; probed IDs 142927-142932 and 142935 empty, 142923-142926 out of region. MO DNR: no St. Louis-area entries. ILAW Livingston boil order, no lift posted. WashU Alert none (last modified 10/23); Danforth Facilities newest 10/26; Medical Facilities newest 10/21. Metro #18 Taylor, #41, #42 reroutes unchanged; Metro #97/#79 reroute for S Central & Carondelet closure in Clayton (to 10/30) gives no reason, not adopted. Undated KSDK leads not adopted: 13th & Branch low pressure, Brentwood Blvd Darst–Antler (Galleria), Hampton boil advisory, south County break. MSD and Kirkwood not checked.",
     "open_count": 17,
-    "run_at": "2026-10-28T13:55:00Z",
-    "top_incident": "No new incidents. Wentzville citywide precautionary boil advisory lifted 6:00 AM 10/28 (resolved). Nearest open item: Taylor Ave W Pine–Laclede City Water closure (Metro #18, to 10/31), impact possible, monitoring."
+    "run_at": "2026-10-28T14:40:00Z",
+    "top_incident": "No new or changed incidents. Nearest open item: Taylor Ave W Pine–Laclede City Water closure (Metro #18, to 10/31), impact possible, monitoring."
   },
   "incidents": [
     {
