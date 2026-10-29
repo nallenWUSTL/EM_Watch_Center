@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "7:40 PM CT 10/28 run (four lanes). stlwater.com/outages now current (7:30 PM 10/28); wateroos.php is a dead 2014 legacy page, use /outages. New: Rhodes Ave outage (ETA 12:37 AM 10/29). Leona ETA revised to 2:04 AM 10/29; Riverview outages past ETA (3:40/5:08 PM 10/28), unconfirmed. Hydrant repairs 10/28 at 805 N Kingshighway, 5001 Delmar, 4800 Enright (no outages; noted, not tracked). ILAW 142922 boil order not lifted; MAW 142914 unchanged; MAW index and boil page empty; MO DNR none in City/County. WashU Alert none (last 10/23); Danforth Facilities: Jolley Hall sewer repair, generator tests 10/29-10/30; Medical Facilities no water notices. Metro #18, #41, #42 unchanged. Leads set aside: KSDK 13th & Branch (Hyde Park) undated; AOL MAW Bridgeton/Maryland Heights/Earth City boil advisory undated; Hoodline 'Richmond Heights' main break unreadable, search shows only Richmond Heights OH stories. Not checked: MSD, Kirkwood, BJC, Cortex, Forest Park Forever, MoDOT.",
+    "note": "8:40 PM CT 10/28 run (four lanes): no new or changed incidents. stlwater.com/outages (7:30 PM stamp) unchanged: Rhodes (ETA 12:37 AM 10/29), Leona (ETA 2:04 AM 10/29), two Riverview rows past ETA, unconfirmed; Mitchell repair still listed. New hydrant-only repairs 10/28 at 1327 Hamilton, 4449 Margaretta, 2101 Bremen (Ring 2, no outages; noted, not tracked); Ring 1 hydrant repairs at 805 N Kingshighway, 5001 Delmar, 4800 Enright still listed, no outages. MAW alerts index and boil page empty; detail pages 142914 and 142890 still load with no closure text (not resolved, no completion confirmation). ILAW 142922 boil order not lifted. MO DNR none in City/County. WashU Alert none (last 10/23); Danforth Facilities: Jolley Hall sewer repair to 11/6, generator tests 10/29-10/30; Danforth EPO outage-notice format changes 11/1. Metro #18, #41, #42 unchanged. Leads set aside: KSDK 13th & Branch (still undated); Yahoo 'water main break in Berkeley' (unloadable, undated). Not checked: MSD, Kirkwood, BJC, Cortex, Forest Park Forever, MoDOT.",
     "open_count": 18,
-    "run_at": "2026-10-29T00:40:00Z",
-    "top_incident": "New: City Water outage Rhodes Ave (Childress–January), south City, Ring 2, impact none. Nearest open item still Taylor Ave W Pine–Laclede City Water closure (Metro #18, to 10/31), impact possible, monitoring."
+    "run_at": "2026-10-29T01:40:00Z",
+    "top_incident": "No change. Nearest open item still Taylor Ave W Pine–Laclede City Water closure (Metro #18, to 10/31), Medical Campus corridor, impact possible, monitoring."
   },
   "incidents": [
     {
