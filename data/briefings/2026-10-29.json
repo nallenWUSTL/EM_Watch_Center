@@ -1,0 +1,212 @@
+{
+  "bluf": "Posture is Elevated because of cyber; the physical hazard picture is Normal. The exploited Brotli RCE (CVE-2026-111497, Node2Shell, CVSS 9.8) hits Node.js/.NET stacks across WashU and WashU Medicine; two lanes flagged it independently. The UNM Health ransomware attack, which diverted ambulances Oct 26, is the Medical Campus analogue. Saturday Oct 31 stacks Family Weekend, 1 PM football, the CWE Halloween party (Euclid closed to midnight) and Loop trick-or-treat. No NWS products, Ring 1 violent incidents, or health advisories. Election Day Nov 3 puts public polling inside McDonnell Medical Sciences and the Athletic Complex.",
+  "briefing_url": "https://claude.ai/artifact/Gcoanh42dwMsPFZH1wtZgR",
+  "date": "2026-10-29",
+  "dissents": [
+    {
+      "note": "Raised to Sev 4/Today, overruling Lane 4 (Sev 3).",
+      "title": "Node2Shell underrated",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Raised to Sev 3, overruling Lane 5 (Sev 2).",
+      "title": "Election Day underrated",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Agrees with Lane 1 (Sev 1).",
+      "title": "Halloween weather overrated",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Accidental discharge with two arrests; overrules Lane 2's framing.",
+      "title": "Southern University copycat overrated",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "First action: EM confirms Brotli mitigations with IT and BJC; pre-stage diversion comms.",
+      "title": "LPHC: Node2Shell to ransomware to EHR downtime and diversion",
+      "verdict": "Carried"
+    },
+    {
+      "note": "Pattern-based; no 2026 source; Low confidence.",
+      "title": "Halloween violence forecast",
+      "verdict": "Unresolved"
+    },
+    {
+      "note": "The physical picture alone reads Normal.",
+      "title": "Posture Elevated vs Normal",
+      "verdict": "Unresolved"
+    }
+  ],
+  "lanes_quiet": [
+    1,
+    2,
+    3,
+    6
+  ],
+  "lookahead": [
+    {
+      "date": "2026-10-29",
+      "dow": "Thu",
+      "loads": "Blues vs. Boston 7 PM, Enterprise Center",
+      "stacked": false,
+      "wx": "Sunny, 81–83°F, dry"
+    },
+    {
+      "date": "2026-10-30",
+      "dow": "Fri",
+      "loads": "Family Weekend begins; sombr concert, Enterprise Center; possible Boo at the Zoo",
+      "stacked": false,
+      "wx": "Partly sunny, 79°F, dry"
+    },
+    {
+      "date": "2026-10-31",
+      "dow": "Sat",
+      "loads": "Family Weekend; football 1 PM; CWE Halloween (Euclid closed to midnight); Loop trick-or-treat 4–8 PM",
+      "stacked": true,
+      "wx": "Mostly cloudy, 75°F; evening likely dry"
+    },
+    {
+      "date": "2026-11-01",
+      "dow": "Sun",
+      "loads": "DST ends 2 AM; Family Weekend departures",
+      "stacked": false,
+      "wx": "71°F, AM showers 30%"
+    },
+    {
+      "date": "2026-11-02",
+      "dow": "Mon",
+      "loads": "Blue Line cut begins; registrar deadline; Winter Wx Prep Week",
+      "stacked": false,
+      "wx": "71°F; night storms 40%"
+    },
+    {
+      "date": "2026-11-03",
+      "dow": "Tue",
+      "loads": "Election Day polling at the Athletic Complex and McDonnell Medical Sciences, 6 AM–7 PM; class day",
+      "stacked": true,
+      "wx": "73°F, showers 50–60%"
+    },
+    {
+      "date": "2026-11-04",
+      "dow": "Wed",
+      "loads": "Possible post-election demonstrations (none identified)",
+      "stacked": false,
+      "wx": "Showers 60%, 70°F"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "quiet",
+      "summary": "No NWS products. Warm and dry through Saturday. Mon night front brings storms and showers Tue–Wed; first crane-wind window at 6200 Forsyth. SPC, AQI and river data unverified."
+    },
+    {
+      "name": "Life safety",
+      "pir": 2,
+      "status": "watch",
+      "summary": "No Ring 1 violent incident in 24 h and no threat naming WashU. Nearby homicides Oct 22 and 25 inform the Halloween patrol posture. No demonstrations identified."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "quiet",
+      "summary": "No advisories, college outbreaks or diversion found. Flu is rising. Missouri measles shows no active exposures."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "active",
+      "summary": "Node2Shell RCE and UNM Health ransomware. MetroLink Blue Line cut back to Forest Park-DeBaliviere Nov 2 – Dec 23. No outage at WashU assets."
+    },
+    {
+      "name": "Scheduled activity",
+      "pir": 5,
+      "status": "active",
+      "summary": "Sat Oct 31 stacked. Election Day Nov 3 with polling on Danforth and the Medical Campus. DST ends Nov 1."
+    },
+    {
+      "name": "Policy, legal, funding",
+      "pir": 6,
+      "status": "watch",
+      "summary": "Saudi ordered departure. FEMA cost-shift memo (monitor). CR through Dec 11. No grant deadlines in 7 days."
+    }
+  ],
+  "posture": "Elevated",
+  "published_at": "2026-10-29T11:00:51Z",
+  "run_note": "Charter read (rev 10). All seven lanes reported. The one Sev-4 item was re-verified against vendor reporting; cisa.gov was unreachable, so it is published with a caveat. Run 05:53–06:01 CT.",
+  "title": "WashU EM Daily Intelligence Briefing, October 29, 2026",
+  "today_items": [
+    {
+      "action": "Confirm Medical Campus access and ambulance routing around the Euclid closure; align patrols with SLMPD D5 and UCPD; get the Family Weekend venue list; send a student safety message before Friday.",
+      "confidence": "High",
+      "likelihood": "High",
+      "owner": "Medical Campus Security, WUPD, Student Affairs, Communications, EM",
+      "pir": 5,
+      "rank": 1,
+      "severity": 3,
+      "source": "https://nickiscentralwestendguide.com/2026/10/heres-the-line-up-for-saturdays-halloween-festivities-in-the-cwe/",
+      "title": "Saturday Oct 31 stacked load (Family Weekend, football, CWE Halloween with Euclid closed, Loop trick-or-treat)",
+      "ttd": "Today"
+    },
+    {
+      "action": "Inventory internet-facing Node.js/.NET/Envoy; block or disable Brotli decoding where patching lags; check pyarrow; get status from BJC-shared vendors.",
+      "confidence": "Medium",
+      "likelihood": "Medium",
+      "owner": "WashU IT/InfoSec, EM, Medical Campus Security",
+      "pir": 4,
+      "rank": 2,
+      "severity": 4,
+      "source": "https://aviatrix.ai/threat-research-center/cisa-warns-hackers-exploiting-critical-node2shell-brotli-cve-2026-111497/",
+      "title": "Node2Shell Brotli RCE, CVE-2026-111497 (KEV Oct 27, federal deadline Nov 10)",
+      "ttd": "Today"
+    },
+    {
+      "action": "Check the travel registry for WashU travelers in Saudi Arabia or the Gulf.",
+      "confidence": "High",
+      "likelihood": "Occurring",
+      "owner": "Global Programs, Provost",
+      "pir": 6,
+      "rank": 3,
+      "severity": 2,
+      "source": "https://sa.usembassy.gov/travel-advisory-saudi-arabia-october-2026/",
+      "title": "Saudi Arabia ordered departure of non-emergency USG staff (Oct 23)",
+      "ttd": "Today"
+    },
+    {
+      "action": "Pull indicators via Health-ISAC/REN-ISAC; confirm downtime and diversion procedures with BJC.",
+      "confidence": "Medium",
+      "likelihood": "Medium",
+      "owner": "IT/InfoSec, Medical Campus Security, EM",
+      "pir": 4,
+      "rank": 4,
+      "severity": 3,
+      "source": "https://www.medicaldaily.com/unm-health-cyberattack-ambulance-diversion-data-claims-480515",
+      "title": "UNM Health ransomware with ambulance diversion (peer AMC analogue)",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "Saturday Oct 31 stacked load: Family Weekend, football 1 PM, CWE Halloween with Euclid closed beside the Medical Campus until midnight, Loop trick-or-treat. Confirm ambulance routing and patrol overlap today.",
+  "unreachable": [
+    "cisa.gov KEV/alerts",
+    "SPC/WPC outlooks (stale cache)",
+    "AirNow AQI",
+    "api.weather.gov",
+    "NOAA gauge EADM7",
+    "LSX AFD (stale)",
+    "FEMA press index (stale)",
+    "Ameren/Spire outage maps",
+    "St. Louis County flu report",
+    "CDC HAN list",
+    "emergency.washu.edu",
+    "FOX2 protest article",
+    "abc4.com",
+    "ksdk.com",
+    "securityweek.com",
+    "d3football.com",
+    "stereoboard",
+    "iraqinews.com"
+  ]
+}
