@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "6:40 PM CT 10/28 run (four lanes): nothing new. stlwater.com/outages still stamped 6:30 PM 10/27 (~24 hr stale); Leona & Bowen and both Riverview Dr outages past ETA, restoration unconfirmed (not resolved). wateroos.php 2014 test page; city water news newest 8/25. MAW index and boil page empty; probes 142937/142940/142945 blank. ILAW 142922 boil order not lifted; MAW 142914 page unchanged. MO DNR newest Flemington (Polk Co) 10/26, none in City/County. WashU Alert none (last 10/23); Danforth Facilities: Jolley Hall sewer repair only; Medical Facilities no water notices. Metro #18, #41, #42 unchanged. Leads dated/set aside: KSDK 'MAW possible break south St. Louis County' is Aug 2024 (drop); FOX 2 '3 breaks' not found; KSDK Hyde Park 13th & Branch undated; MAW alert 140112 University City investigation undated, ID predates current 142xxx series, not adopted. Not checked: MSD, Kirkwood, BJC, Cortex, Delmar Loop, Forest Park Forever, MoDOT closures.",
-    "open_count": 17,
-    "run_at": "2026-10-28T23:40:00Z",
-    "top_incident": "No new or changed incidents. Nearest open item: Taylor Ave W Pine–Laclede City Water closure (Metro #18, to 10/31), impact possible, monitoring."
+    "note": "7:40 PM CT 10/28 run (four lanes). stlwater.com/outages now current (7:30 PM 10/28); wateroos.php is a dead 2014 legacy page, use /outages. New: Rhodes Ave outage (ETA 12:37 AM 10/29). Leona ETA revised to 2:04 AM 10/29; Riverview outages past ETA (3:40/5:08 PM 10/28), unconfirmed. Hydrant repairs 10/28 at 805 N Kingshighway, 5001 Delmar, 4800 Enright (no outages; noted, not tracked). ILAW 142922 boil order not lifted; MAW 142914 unchanged; MAW index and boil page empty; MO DNR none in City/County. WashU Alert none (last 10/23); Danforth Facilities: Jolley Hall sewer repair, generator tests 10/29-10/30; Medical Facilities no water notices. Metro #18, #41, #42 unchanged. Leads set aside: KSDK 13th & Branch (Hyde Park) undated; AOL MAW Bridgeton/Maryland Heights/Earth City boil advisory undated; Hoodline 'Richmond Heights' main break unreadable, search shows only Richmond Heights OH stories. Not checked: MSD, Kirkwood, BJC, Cortex, Forest Park Forever, MoDOT.",
+    "open_count": 18,
+    "run_at": "2026-10-29T00:40:00Z",
+    "top_incident": "New: City Water outage Rhodes Ave (Childress–January), south City, Ring 2, impact none. Nearest open item still Taylor Ave W Pine–Laclede City Water closure (Metro #18, to 10/31), impact possible, monitoring."
   },
   "incidents": [
     {
@@ -922,15 +922,16 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Escalated 3:40 PM CT 10/27 (Lanes 1, 2, 3; City Water table stamped 3:30 PM): main repair work order (opened 2:42 PM 10/26) now posted as a service outage, Leona between Bowen and Holly Hills, out 3:04 PM 10/27, est. restoration 3:04 AM 10/28, crew on site. South City, roughly 5-7 mi from the Medical Campus and Danforth; no WashU asset; no Ring 1 corridor; no boil advisory. Impact none. Monitor; resolve when it drops from the table. Owner: Emergency Management (track only).",
+      "assessment": "Update 7:40 PM CT 10/28 (Lane 1; stlwater.com/outages stamped 7:30 PM 10/28): Leona St (Bowen to Holly Hills) outage still active; restoration estimate revised to 2:04 AM 10/29 (no longer past due). Main repair orders logged 10/26 2:42 PM and 10/27 9:45 PM. South City, ~5-7 mi from WashU assets; no Ring 1 corridor; no boil advisory. Impact none. Monitor; resolve when it drops from the table. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-10-26T20:40:00Z",
       "id": "stlwater-stlouiscity-leona-20261026",
-      "last_updated": "2026-10-27T20:40:00Z",
+      "last_updated": "2026-10-29T00:40:00Z",
       "location": "Leona St between Bowen St and Holly Hills Blvd, St. Louis City (Holly Hills, south City; table text reads 'Ulena')",
       "ring": 2,
       "single_source": true,
       "sources": [
+        "https://www.stlwater.com/outages",
         "https://www.stlwater.com/wateroos.php"
       ],
       "status": "open",
@@ -1053,15 +1054,34 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Expanded 11:40 AM CT 10/27 (Lanes 1 and 3; City Water table 11:30 AM): second segment, Riverview Dr between Spring Garden Dr and the Chain of Rocks entrance, out of service 11:08 AM, est. restoration 5:08 AM 10/28; I-270 to Hall St segment (out since 9:40 AM) now est. 3:40 AM 10/28. Likely same job as the 7:33 AM Riverview & Chambers repair work order (link not stated by utility). Far north City, ~10-12 mi from WashU assets; no Ring 1 corridor; no boil advisory. Impact none. Monitor; resolve when both outages drop from the table. Owner: Emergency Management (track only).",
+      "assessment": "New 7:40 PM CT 10/28 (Lane 1; City Water outage page stamped 7:30 PM 10/28): service outage out since 2:37 PM 10/28, est. restoration 12:37 AM 10/29. South City, several miles from Danforth and the Medical Campus; separate distribution area; no WashU asset; no Ring 1 corridor; no boil advisory. Impact none. Monitor; resolve when it drops from the table. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-29T00:40:00Z",
+      "id": "stlwater-stlouiscity-rhodes-20261028",
+      "last_updated": "2026-10-29T00:40:00Z",
+      "location": "Rhodes Ave between Childress Ave and January Ave, St. Louis City (Lindenwood Park area, south City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outage, Rhodes Ave between Childress Ave and January Ave (south City)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "Update 7:40 PM CT 10/28 (Lane 1; stlwater.com/outages stamped 7:30 PM 10/28): both Riverview Dr outages (I-270 to Hall St; Spring Garden Dr to Chain of Rocks) still listed; estimates now shown as 3:40 PM and 5:08 PM 10/28, both past due; restoration unconfirmed. Main repair order at Riverview Dr & Chambers Rd SE (10/27 7:33 AM) still logged. Far north City, ~10-12 mi from WashU assets; no Ring 1 corridor; no boil advisory. Impact none. Monitor; resolve when both drop from the table. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-10-27T13:40:00Z",
       "id": "stlwater-stlouiscity-riverview-20261027",
-      "last_updated": "2026-10-27T16:40:00Z",
+      "last_updated": "2026-10-29T00:40:00Z",
       "location": "Riverview Dr between I-270 and Hall St, and Riverview Dr between Spring Garden Dr and the Chain of Rocks entrance (repair work order at Riverview Dr & Chambers Rd SE), far north St. Louis City near the County line",
       "ring": 2,
       "single_source": true,
       "sources": [
+        "https://www.stlwater.com/outages",
         "https://www.stlwater.com/wateroos.php"
       ],
       "status": "open",
