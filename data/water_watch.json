@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "3:40 AM CT 10/29 run (four lanes): no new incidents. City Water wateroos.php stamped 3:30 AM: same 4 outages (Rhodes, Leona, two Riverview), all past ETA, no revised ETAs; no work orders after 1327 Hamilton Ave hydrant (6 PM 10/28); Ring 1 hydrant-only repairs (805 N Kingshighway, 5001 Delmar, 4800 Enright) unchanged, no outage. /outages page stale at 7:30 PM 10/28. MAW alerts and boil pages empty. ILAW 142922 Livingston IL boil order still shown, no lift. MO DNR: no St. Louis-area boil orders. Metro #18, #41, #42 water reroutes unchanged. WashU Alert none (last 10/23); Danforth Facilities newest 10/27 Jolley Hall sewer (10/28-11/6); Medical Facilities newest 10/21. News/social: nothing dated 10/28-29; undated FOX 2 'multiple breaks STL County' and AOL Bridgeton/Maryland Heights boil stories unverified (FOX 2 unreachable), not adopted; stlwater ?p=9725 boil page judged stale (Aug 17). Not checked: MSD, Kirkwood, municipal pages, BJC/Cortex/Forest Park Forever, MoDOT.",
+    "note": "4:40 AM CT 10/29 run (four lanes): no new incidents. City Water wateroos.php stamped 4:30 AM per Lanes 3 and 4 (Lane 1 saw a 2014 cache on wateroos.php and a 7:30 PM 10/28 /outages page): same 4 outages (Rhodes, Leona, two Riverview), all past ETA, no revised ETAs; hydrant-only repairs 1327 Hamilton, 4449 Margaretta, 2101 Bremen (10/28) and Ring 1 805 N Kingshighway, 5001 Delmar, 4800 Enright unchanged, no outage; Mitchell Ave repair still listed. MAW alerts and boil pages empty; MAW 142914 detail still loads, no end. ILAW 142922 Livingston IL boil order not lifted. Metro #18, #41, #42 water reroutes still posted, all 'until further notice'. WashU Alert none (last 10/23); Danforth Facilities Jolley Hall sewer (10/28-11/6) unchanged; Medical Facilities newest 10/21. News: nothing dated 10/27-29. Unverified, not adopted: undated KSDK Breckenridge Hills main break and KSDK/Post-Dispatch/FOX 2 south City boil stories (pages unloadable); Hoodline/Nextdoor Richmond Heights main break (unloadable; only dated match is Richmond Heights, Ohio, 10/27). Not checked: MSD, Kirkwood, MO DNR dataset, BJC/Cortex/Loop/Forest Park Forever, MoDOT.",
     "open_count": 18,
-    "run_at": "2026-10-29T08:40:00Z",
-    "top_incident": "No change. Nearest open item still Taylor Ave W Pine–Laclede City Water closure (Metro #18, to 10/31), Medical Campus corridor, impact possible, monitoring."
+    "run_at": "2026-10-29T09:45:00Z",
+    "top_incident": "No change. Nearest open item still Taylor Ave W Pine–Laclede City Water closure (Metro #18, now 'until further notice'), Medical Campus corridor, impact possible, monitoring."
   },
   "incidents": [
     {
