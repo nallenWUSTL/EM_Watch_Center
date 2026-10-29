@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "12:35 PM CT 10/29 run (four lanes). No new or changed incidents. City Water live table (stamped 12:30 PM 10/29) shows no active main outages; Tesson & Germania main repair (9:28 AM) still listed; new hydrant repair 1110 N Jefferson (12:00 PM, Ring 2, no outage). Routine 10/28 hydrant repairs near Ring 1 (805 N Kingshighway, 5001 Delmar, 4800 Enright) noted, no outage; not tracked. MAW index renders empty; 142914 and 142890 detail pages unchanged; IDs 142935-142938 blank. MAW boil page empty; MO DNR no St. Louis-region boil orders. ILAW 142922 Livingston IL unchanged. Metro #18, #41, #42 water reroutes still listed. WashU Alert nothing active; Jolley Hall sewer repair (to 11/6) unchanged; Medical Facilities no water notices. Hoodline Richmond Heights lead resolved: Richmond Heights, Ohio (Cleveland Water, 10/27), not relevant. Undated KSDK Brentwood Blvd/Galleria break story not adopted (could not date). Unchecked this pass: other tracked MAW IDs, MSD, Kirkwood.",
-    "open_count": 15,
-    "run_at": "2026-10-29T17:40:00Z",
+    "note": "1:40 PM CT 10/29 run (four lanes). One new Ring 2 item: City Water main repair N Broadway & Buchanan (12:57 PM, no outage, no boil advisory). City Water live table (1:30 PM) shows no active main outages; Tesson & Germania repair still listed. Lane 1 got only the cached /outages copy (7:30 PM 10/28) listing Rhodes, Leona and Riverview outages, all already resolved 10/29 AM; disregarded. MAW index renders empty; 142914 and 142890 detail pages unchanged; IDs 142935-142940 blank. MAW boil page empty; MO DNR no St. Louis-region boil orders. Metro #18, #41, #42 water reroutes unchanged. WashU Alert nothing active; Jolley Hall sewer repair (to 11/6) unchanged; Medical Facilities no water notices. Undated KSDK items not adopted: S Hanley Rd (Bonhomme-Forsyth) 20-inch MAW break 'on a Monday' (Ring 1 if current; date unconfirmed), Brentwood Blvd/Galleria, Olive Blvd Creve Coeur. Unchecked: BJC, Cortex, Forest Park Forever, MoDOT, MSD, Kirkwood.",
+    "open_count": 16,
+    "run_at": "2026-10-29T18:40:00Z",
     "top_incident": "No new incidents affecting WashU. Nearest open item remains the City Water closure on Taylor Ave between W Pine and Laclede (Metro #18, window to 10/31), Medical Campus corridor; impact possible; monitoring."
   },
   "incidents": [
@@ -974,6 +974,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division main repair, Mitchell Ave & Mitchell Pl",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 1:40 PM CT 10/29 (Lanes 3 and 4, City Water table stamped 1:30 PM 10/29): main repair work order opened 12:57 PM 10/29; no service outage posted (table says no active main outages), no restoration estimate, no boil advisory. Near north riverfront, ~4-5+ mi from Medical Campus and Cortex; separate distribution area; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration. Monitor; resolve when it remains only in repair history for 48 hours with no outage. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-29T18:40:00Z",
+      "id": "stlwater-stlouiscity-nbroadway-20261029",
+      "last_updated": "2026-10-29T18:40:00Z",
+      "location": "N Broadway & Buchanan St, St. Louis City (near north riverfront, north of downtown)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division main repair, N Broadway & Buchanan St (near north riverfront)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
