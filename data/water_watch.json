@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "2:40 AM CT 10/29 run (four lanes): no new incidents. City Water wateroos.php stamped 2:30 AM: same 4 outages and 39 work orders; nothing entered after 1327 Hamilton Ave hydrant (6 PM 10/28). Leona now past its 2:04 AM ETA (record updated); Rhodes ~2 hr past ETA; both Riverview rows long past ETA; Ring 1 hydrant-only repairs (805 N Kingshighway, 5001 Delmar, 4800 Enright) unchanged, no outage. MAW index empty; boil page none. MO DNR: no St. Louis-area boil orders (newest Niangua, Webster Co.). Metro #18 Taylor, #41 Lee (to 11/6), #42 Sarah (to 10/31) still posted. WashU Alert none (last 10/23); Danforth Facilities newest 10/27 Jolley Hall sewer; Medical Facilities newest 10/21. News/social: nothing dated 10/28-29; undated KSDK Olive Blvd (Creve Coeur) and Lindell Blvd collapse stories and stlwater ?p=9725 boil page (Aug 17 Chain of Rocks event) judged stale, not adopted. Not checked: MSD, Kirkwood, MAW tracked alert detail pages, ILAW 142922, MoDOT, BJC/Cortex/Forest Park Forever sites.",
+    "note": "3:40 AM CT 10/29 run (four lanes): no new incidents. City Water wateroos.php stamped 3:30 AM: same 4 outages (Rhodes, Leona, two Riverview), all past ETA, no revised ETAs; no work orders after 1327 Hamilton Ave hydrant (6 PM 10/28); Ring 1 hydrant-only repairs (805 N Kingshighway, 5001 Delmar, 4800 Enright) unchanged, no outage. /outages page stale at 7:30 PM 10/28. MAW alerts and boil pages empty. ILAW 142922 Livingston IL boil order still shown, no lift. MO DNR: no St. Louis-area boil orders. Metro #18, #41, #42 water reroutes unchanged. WashU Alert none (last 10/23); Danforth Facilities newest 10/27 Jolley Hall sewer (10/28-11/6); Medical Facilities newest 10/21. News/social: nothing dated 10/28-29; undated FOX 2 'multiple breaks STL County' and AOL Bridgeton/Maryland Heights boil stories unverified (FOX 2 unreachable), not adopted; stlwater ?p=9725 boil page judged stale (Aug 17). Not checked: MSD, Kirkwood, municipal pages, BJC/Cortex/Forest Park Forever, MoDOT.",
     "open_count": 18,
-    "run_at": "2026-10-29T07:40:00Z",
+    "run_at": "2026-10-29T08:40:00Z",
     "top_incident": "No change. Nearest open item still Taylor Ave W Pine–Laclede City Water closure (Metro #18, to 10/31), Medical Campus corridor, impact possible, monitoring."
   },
   "incidents": [
@@ -1054,16 +1054,17 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 7:40 PM CT 10/28 (Lane 1; City Water outage page stamped 7:30 PM 10/28): service outage out since 2:37 PM 10/28, est. restoration 12:37 AM 10/29. South City, several miles from Danforth and the Medical Campus; separate distribution area; no WashU asset; no Ring 1 corridor; no boil advisory. Impact none. Monitor; resolve when it drops from the table. Owner: Emergency Management (track only).",
+      "assessment": "Update 3:40 AM CT 10/29 (Lanes 1 and 4; wateroos.php stamped 3:30 AM 10/29): Rhodes Ave (Childress to January) outage still listed, out since 2:37 PM 10/28; 12:37 AM 10/29 estimate has passed; restoration unconfirmed, no revised ETA. South City, several miles from Danforth and the Medical Campus; no WashU asset; no Ring 1 corridor; no boil advisory. Impact none. Monitor; resolve when it drops from the table. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-10-29T00:40:00Z",
       "id": "stlwater-stlouiscity-rhodes-20261028",
-      "last_updated": "2026-10-29T00:40:00Z",
+      "last_updated": "2026-10-29T08:40:00Z",
       "location": "Rhodes Ave between Childress Ave and January Ave, St. Louis City (Lindenwood Park area, south City)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/outages"
+        "https://www.stlwater.com/outages",
+        "https://www.stlwater.com/wateroos.php"
       ],
       "status": "open",
       "title": "City of St. Louis Water Division service outage, Rhodes Ave between Childress Ave and January Ave (south City)",
