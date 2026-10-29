@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "9:48 AM CT 10/29 run (four lanes). One new Ring 2 item: City Water main repair at 4647 Tesson St & Alphonsus St (9:28 AM), no outage, no boil advisory, impact none. City table (stamped 9:45 AM) shows no active main outages; hydrant repairs near Medical Campus (805 N Kingshighway, 5001 Delmar, 4800 Enright) routine. MAW alerts index did not render; detail pages 142863, 142914, 142890, 142786 still show active text, so MAW items stay open. MAW boil page empty; MO DNR no St. Louis-region boil orders. ILAW 142922 Livingston IL boil order not lifted. ILAW 142926 Dunlap IL (Peoria area) boil order noted, outside region, not tracked. Metro #18, #41, #42 water reroutes unchanged. WashU Alert nothing active; Jolley Hall sewer repair unchanged. KSDK Clayton/UCity and Maplewood/Shrewsbury boil stories are undated and say lifted; treated as historical. Some lanes saw a cached 2014 wateroos.php copy; supervisor fetch got the live 9:45 AM table.",
+    "note": "10:52 AM CT 10/29 run (four lanes). No new incidents. Update: City Water 9:28 AM main repair now listed at Tesson St & Germania St (was 4647 Tesson & Alphonsus), Ring 2, no outage, impact none. City table (stamped 10:45 AM) shows no active main outages; new routine hydrant repairs at 4710 Bircher and 4324 Margaretta (Ring 2); Ring 1 hydrant repairs at 805 N Kingshighway, 5001 Delmar, 4800 Enright unchanged. MAW alerts index again did not render; tracked detail pages still read active, no boil advisory; MAW boil page empty; MO DNR no St. Louis-region boil orders. ILAW 142922 Livingston IL boil order not lifted. Metro #18, #41, #42 water reroutes unchanged. WashU Alert nothing active; Jolley Hall sewer repair (to 11/6) unchanged; Medical Campus Facilities no water notices. No dated local news or social reports for 10/28-10/29; undated AOL Bridgeton/Maryland Heights MAW boil story not adopted (not on MAW boil page). Plain wateroos.php URL can return a cached 2014 copy; use a query string.",
     "open_count": 15,
-    "run_at": "2026-10-29T14:50:00Z",
+    "run_at": "2026-10-29T15:52:00Z",
     "top_incident": "No new incidents affecting WashU. Nearest open item remains the City Water closure on Taylor Ave between W Pine and Laclede (Metro #18, window to 10/31), Medical Campus corridor; impact possible; monitoring."
   },
   "incidents": [
@@ -1133,19 +1133,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 9:28 AM CT 10/29 main repair work order on the City Water table (stamped 9:45 AM 10/29; Lane 4, verified by supervisor). No service outage posted (table says no active main outages), no restoration estimate, no boil advisory. South City, several miles from the Medical Campus; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration. Monitor; resolve when it remains only in repair history for 48 hours with no outage. Owner: Emergency Management (track only).",
+      "assessment": "Location corrected 10:52 AM CT 10/29 (Lanes 1, 3, 4): the 9:28 AM 10/29 main repair on the City Water table (stamped 10:45 AM 10/29) now reads Tesson St & Germania St rather than 4647 Tesson & Alphonsus; treated as the same job re-logged (same time stamp). No service outage posted (table says no active main outages), no restoration estimate, no boil advisory. South City, ~5-7 mi from Medical Campus; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration. Monitor; resolve when it remains only in repair history for 48 hours with no outage. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-10-29T14:45:00Z",
       "id": "stlwater-stlouiscity-tesson-20261029",
-      "last_updated": "2026-10-29T14:45:00Z",
-      "location": "4647 Tesson St at Alphonsus St, St. Louis City (south City; neighborhood not independently placed)",
+      "last_updated": "2026-10-29T15:52:00Z",
+      "location": "Tesson St & Germania St, St. Louis City (south City, Holly Hills / Boulevard Heights area); earlier logged as 4647 Tesson St & Alphonsus St",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/wateroos.php"
       ],
       "status": "open",
-      "title": "City of St. Louis Water Division main repair, 4647 Tesson St & Alphonsus St (south City)",
+      "title": "City of St. Louis Water Division main repair, Tesson St & Germania St (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
