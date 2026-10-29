@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "1:40 AM CT 10/29 run (four lanes): no new or changed incidents. City Water wateroos.php stamped 1:30 AM 10/29: same 4 outages and 39 work orders (7 main, 32 hydrant); none opened after 1327 Hamilton Ave hydrant (6:00 PM 10/28). Rhodes now past its 12:37 AM ETA, Leona ETA 2:04 AM, both Riverview rows ~8-10 hr past ETA; Mitchell repair still listed; Ring 1 hydrant-only repairs (805 N Kingshighway, 5001 Delmar, 4800 Enright) unchanged, no outage. MAW index empty; boil page none; probe 142923-142932, 142935, 142940 found only CA/IN/IL alerts. MO DNR: no St. Louis City/County boil orders (newest Niangua, Webster Co.). Metro #18 Taylor, #41 Lee (to 11/6), #42 Sarah (to 10/31) unchanged. WashU Alert none (last 10/23); Danforth Facilities newest 10/27 Jolley Hall sewer (not water); Medical Facilities newest 10/21 (crane). News/social: nothing dated 10/28-29; undated paywalled stltoday Olivette/Overland/Ladue/Clayton/U City boil advisory likely July 2026 event, not adopted. Not checked: MSD, Kirkwood, MAW tracked IDs, ILAW 142922, BJC/Cortex/Forest Park Forever pages (search only).",
+    "note": "2:40 AM CT 10/29 run (four lanes): no new incidents. City Water wateroos.php stamped 2:30 AM: same 4 outages and 39 work orders; nothing entered after 1327 Hamilton Ave hydrant (6 PM 10/28). Leona now past its 2:04 AM ETA (record updated); Rhodes ~2 hr past ETA; both Riverview rows long past ETA; Ring 1 hydrant-only repairs (805 N Kingshighway, 5001 Delmar, 4800 Enright) unchanged, no outage. MAW index empty; boil page none. MO DNR: no St. Louis-area boil orders (newest Niangua, Webster Co.). Metro #18 Taylor, #41 Lee (to 11/6), #42 Sarah (to 10/31) still posted. WashU Alert none (last 10/23); Danforth Facilities newest 10/27 Jolley Hall sewer; Medical Facilities newest 10/21. News/social: nothing dated 10/28-29; undated KSDK Olive Blvd (Creve Coeur) and Lindell Blvd collapse stories and stlwater ?p=9725 boil page (Aug 17 Chain of Rocks event) judged stale, not adopted. Not checked: MSD, Kirkwood, MAW tracked alert detail pages, ILAW 142922, MoDOT, BJC/Cortex/Forest Park Forever sites.",
     "open_count": 18,
-    "run_at": "2026-10-29T06:40:00Z",
+    "run_at": "2026-10-29T07:40:00Z",
     "top_incident": "No change. Nearest open item still Taylor Ave W Pine–Laclede City Water closure (Metro #18, to 10/31), Medical Campus corridor, impact possible, monitoring."
   },
   "incidents": [
@@ -922,11 +922,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Update 7:40 PM CT 10/28 (Lane 1; stlwater.com/outages stamped 7:30 PM 10/28): Leona St (Bowen to Holly Hills) outage still active; restoration estimate revised to 2:04 AM 10/29 (no longer past due). Main repair orders logged 10/26 2:42 PM and 10/27 9:45 PM. South City, ~5-7 mi from WashU assets; no Ring 1 corridor; no boil advisory. Impact none. Monitor; resolve when it drops from the table. Owner: Emergency Management (track only).",
+      "assessment": "Update 2:40 AM CT 10/29 (Lane 1; wateroos.php stamped 2:30 AM 10/29): Leona St (Bowen to Holly Hills; table reads 'Ulena') outage still listed; revised 2:04 AM 10/29 estimate has now passed; restoration unconfirmed. Main repair orders 10/26 2:42 PM and 10/27 9:45 PM still logged. South City, ~6-7 mi from WashU assets; no Ring 1 corridor; no boil advisory. Impact none. Monitor; resolve when it drops from the table. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-10-26T20:40:00Z",
       "id": "stlwater-stlouiscity-leona-20261026",
-      "last_updated": "2026-10-29T00:40:00Z",
+      "last_updated": "2026-10-29T07:40:00Z",
       "location": "Leona St between Bowen St and Holly Hills Blvd, St. Louis City (Holly Hills, south City; table text reads 'Ulena')",
       "ring": 2,
       "single_source": true,
