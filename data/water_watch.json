@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "1:40 PM CT 10/29 run (four lanes). One new Ring 2 item: City Water main repair N Broadway & Buchanan (12:57 PM, no outage, no boil advisory). City Water live table (1:30 PM) shows no active main outages; Tesson & Germania repair still listed. Lane 1 got only the cached /outages copy (7:30 PM 10/28) listing Rhodes, Leona and Riverview outages, all already resolved 10/29 AM; disregarded. MAW index renders empty; 142914 and 142890 detail pages unchanged; IDs 142935-142940 blank. MAW boil page empty; MO DNR no St. Louis-region boil orders. Metro #18, #41, #42 water reroutes unchanged. WashU Alert nothing active; Jolley Hall sewer repair (to 11/6) unchanged; Medical Facilities no water notices. Undated KSDK items not adopted: S Hanley Rd (Bonhomme-Forsyth) 20-inch MAW break 'on a Monday' (Ring 1 if current; date unconfirmed), Brentwood Blvd/Galleria, Olive Blvd Creve Coeur. Unchecked: BJC, Cortex, Forest Park Forever, MoDOT, MSD, Kirkwood.",
+    "note": "2:40 PM CT 10/29 run (four lanes). No new or updated St. Louis-region incidents. City Water live table (2:30 PM, Lanes 3 and 4) shows no active main outages; N Broadway & Buchanan and Tesson & Germania repairs still listed. Lane 1 got a 2014 cache of wateroos.php; disregarded. Lane 4 read Taylor, Thekla and Whittier as dropped from the City table, but those come from Metro alerts, which Lane 3 confirms are still active; no change. Routine 10/28 hydrant repairs at 805 N Kingshighway, 5001 Delmar, 4800 Enright (no outage) not adopted as incidents. Not tracked: IL American Water alert 142926, Dunlap IL (Peoria area) boil order from 10/26, outside WashU footprint. MAW index and boil page empty; sampled IDs to 142945 blank; MO DNR no St. Louis-region boil orders. WashU Alert nothing active; Medical Facilities no water notices; Jolley Hall sewer repair unchanged. Undated, not adopted: FOX 2 Chippewa & McCausland City break (date unconfirmed), KSDK S Hanley/Bonhomme Clayton items, KSDK Creve Coeur geyser. Unchecked: MSD, Kirkwood, Forest Park Forever, Cortex, MoDOT.",
     "open_count": 16,
-    "run_at": "2026-10-29T18:40:00Z",
-    "top_incident": "No new incidents affecting WashU. Nearest open item remains the City Water closure on Taylor Ave between W Pine and Laclede (Metro #18, window to 10/31), Medical Campus corridor; impact possible; monitoring."
+    "run_at": "2026-10-29T19:40:00Z",
+    "top_incident": "No new or changed incidents affecting WashU. Nearest open item remains the City Water closure on Taylor Ave between W Pine and Laclede (Metro #18, still listed through 10/31), Medical Campus corridor; impact possible; monitoring."
   },
   "incidents": [
     {
