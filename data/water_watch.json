@@ -1,10 +1,10 @@
 {
   "latest": {
-    "alert_level": "normal",
-    "note": "1:35 PM CT 10/30 run (four lanes). Lanes 3 and 4 read live wateroos.php stamped 1:30 PM 10/30: same four active outages (Riverview & Spring Garden x2, est. 6:13/7:47 PM; Angelrodt & N Broadway x2, est. 5:21/5:23 PM); advisories empty; Ring 1 entries only routine hydrant repairs (5001 Delmar, 805 N Kingshighway, 4800 Enright, 10/28). Lane 1 got stale 2014 cache of wateroos.php and an 8:30 PM 10/29 /outages copy. KMOV Riverview Dr near Chambers story updated ~10/30 morning: still closed, no estimate (no change). MAW index blank to fetcher; boil page none; IDs 142923-142926 non-Missouri, 142927+ empty; no tracked MAW item changed. ILAW 142922 unchanged. MO DNR: no St. Louis-area orders. WashU Alert none; Facilities no water notices. Metro #18/#41/#42 unchanged. Earlier leads settled: KSDK north City 'Friday' video = Penrose & Blair, May 2024; Hoodline Richmond Heights = Ohio/unfound; Olivette CivicSend boil advisory = old. FOX 2 'crews responding ... north St. Louis' page errored, date unknown; recheck. Not opened: BJC, Cortex, Loop, Forest Park Forever, MoDOT, MSD, Kirkwood.",
-    "open_count": 20,
-    "run_at": "2026-10-30T18:40:00Z",
-    "top_incident": "No new or changed incidents affecting WashU. Nearest open item remains the City Water closure on Taylor Ave between W Pine and Laclede (Metro #18 alert window ends 10/31), Medical Campus corridor; impact possible; monitoring."
+    "alert_level": "watch",
+    "note": "2:45 PM CT 10/30 run (four lanes). New: Jolley/Cupples II no-water-use order found on facilities.wustl.edu (Lane 3; prior runs had not logged it). City Water /outages stamped 2:30 PM 10/30: same four outages (Riverview & Spring Garden x2, Angelrodt & N Broadway x2); no new main repairs after Ivanhoe & Marmaduke; new 10/29 hydrant repairs only (Natural Bridge, N Jefferson, Bircher, Margaretta). wateroos.php served a stale 2014 copy to two lanes; /outages is reliable. MAW index blank to fetcher; 142914 and ILAW 142922 still posted; 142927+ empty. MO DNR: no St. Louis-area orders. Metro #18 Taylor water closure unchanged (window ends 10/31); #41 window now to 11/6. KMOV Riverview near Chambers still closed. FOX 2 'north St. Louis' page still unloadable; KSDK Clayton/U City boil advisory lift headline unverified, likely old. Not checked: BJC, Cortex, Loop, Forest Park Forever, MoDOT, MSD, Kirkwood.",
+    "open_count": 21,
+    "run_at": "2026-10-30T19:45:00Z",
+    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth Campus), posted 10/29, in effect until Sat 10/31 4 PM; cause not stated; adjacent emergency sewer line repair at Jolley north entrance through 11/6. Impact confirmed (two buildings)."
   },
   "incidents": [
     {
@@ -1296,6 +1296,29 @@
       "title": "City of St. Louis Water Division main break, Whittier St at Maffitt Ave (The Ville) — Metro #42 Sarah reroute",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
+    },
+    {
+      "affected_assets": [
+        "Danforth Campus — Jolley Hall",
+        "Danforth Campus — Cupples II Hall"
+      ],
+      "assessment": "New 2:45 PM CT 10/30 (Lane 3, verified by supervisor on the Facilities post): Facilities posted 10/29 that all water use is prohibited in Jolley Hall and Cupples II Hall, effective immediately, until Sat 10/31 4:00 PM or until service is restored and buildings are cleared. No restrooms, sinks or drinking fountains; occupants to use other buildings. Cause not stated. Separate Facilities post: emergency sewer line repair at Jolley Hall north entrance, closure 10/28 4 AM to 11/6 5 PM; link not stated. Not a municipal utility event; no City Water or MAW outage nearby, no boil advisory. Impact confirmed for these two buildings (occupant sanitation, drinking water, any lab sinks/eyewash/emergency showers). Action: EH&S confirm emergency eyewash/shower coverage and lab work restrictions; Facilities confirm fire-suppression supply unaffected and post restoration; EM monitor and close when Facilities clears the buildings. Contact listed: Director of Utility Operations. Single-source (Facilities).",
+      "confidence": "High",
+      "first_seen": "2026-10-30T19:45:00Z",
+      "id": "washufacilities-danforth-jolleyhall-20261029",
+      "last_updated": "2026-10-30T19:45:00Z",
+      "location": "Jolley Hall and Cupples II Hall, Danforth Campus (engineering quad), St. Louis City/County line",
+      "ring": 1,
+      "single_source": true,
+      "sources": [
+        "https://facilities.wustl.edu/10-29-10-31-jolley-hall-and-cupples-ii-hall-no-water-use/",
+        "https://facilities.wustl.edu/10-28-11-6-jolley-hall-north-entrance-closure-emergency-sewer-line-repair/",
+        "https://facilities.wustl.edu/news/"
+      ],
+      "status": "open",
+      "title": "WashU Facilities no-water-use order, Jolley Hall and Cupples II Hall (Danforth Campus)",
+      "utility": "WashU Facilities / Utility Operations (building water service)",
+      "washu_impact": "confirmed"
     },
     {
       "affected_assets": [],
