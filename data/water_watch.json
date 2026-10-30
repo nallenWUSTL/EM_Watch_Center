@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "4:40 PM CT 10/30 run (four lanes): nothing new. Resolved: Angelrodt St / N Broadway outages dropped from City Water table (4:30 PM stamp; Lanes 1, 4). Unchanged: Riverview Dr outages (est 6:13 / 7:47 PM); main repairs Ivanhoe & Marmaduke, N Broadway & Buchanan, Tesson & Germania, Riverview & Chambers; Metro #18 Taylor (to 10/31), #41 Thekla (to 11/6), #42 Whittier (to 10/31) still listed on Metro (Lane 3) though City Water closures section is empty; ILAW 142922 boil order not lifted. MAW: index and boil page show no St. Louis-area items to fetchers (script-loaded; County alerts not changed on that basis). MO DNR: no St. Louis-area orders. WashU Alert: none active. Med Campus Facilities: no water posts. Source tip: wateroos.php with a dummy query string (?t=...) returns the live page; /outages served a stale 10/29 8:30 PM copy. Not opened directly: BJC, Cortex, Loop, Forest Park Forever, MoDOT, municipal sites (searches found nothing current).",
+    "note": "5:40 PM CT 10/30 run (four lanes): nothing new, no status changes. City Water live table (5:30 PM stamp; Lanes 1, 4): Riverview Dr outages still active (est 6:13 / 7:47 PM); main repairs Ivanhoe & Marmaduke, N Broadway & Buchanan, Tesson & Germania, Riverview & Chambers unchanged. KMOV Riverview story: no reopening yet. Metro #18 Taylor, #41 Thekla, #42 Whittier still listed (Lane 3). ILAW 142922 Livingston boil order still active. MAW: index and boil page script-loaded, unreadable; detail probes 142923+ out of region or blank; tracked MAW alerts not changed. MO DNR: no St. Louis-area orders (newest 10/28 outstate). WashU Alert: none active. Med Campus Facilities: no water posts. Not adopted: undated KSDK Brentwood Blvd (Darst–Antler, Galleria) main break story; undated stlwater ?p=9725 Chain of Rocks advisory (appears to be Aug 2026). Source tip: wateroos.php with some dummy query strings (?t=1730, ?t=1731) returned a 2014 cache; ?t=17333 and ?t=1732 returned the live page; /outages stale (10/29 8:30 PM).",
     "open_count": 20,
-    "run_at": "2026-10-30T21:40:00Z",
-    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth Campus), posted 10/29, in effect until Sat 10/31 4 PM; no restoration notice yet (Lane 3, 4:35 PM). Impact confirmed (two buildings)."
+    "run_at": "2026-10-30T22:40:00Z",
+    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth Campus), posted 10/29, in effect until Sat 10/31 4 PM; post unchanged, no restoration notice yet (Lane 3, 5:35 PM). Impact confirmed (two buildings)."
   },
   "incidents": [
     {
