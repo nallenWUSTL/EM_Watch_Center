@@ -1,0 +1,221 @@
+{
+  "bluf": "No confirmed violent incident, credible threat, health advisory or infrastructure outage touches a WashU asset. Saturday Oct 31 is the load day (Family Weekend, 1 PM football, CWE Halloween party near the Medical Campus until midnight), and DST ends 2 AM Sunday. CISA added an exploited Cisco ASA/FTD VPN flaw to KEV Oct 29 amid attacks on peer academic medical centers; WashU IT should confirm exposure today. Tue Nov 3 stacks two campus polling places with forecast storms.",
+  "briefing_url": "https://claude.ai/artifact/EEZ1Fj2tbtY7RhL8b7mdSt",
+  "date": "2026-10-30",
+  "dissents": [
+    {
+      "note": "Moved to Today with actions but held at Severity 3: WashU/BJC likelihood Low, no indicator. UNM impact contested between Cyber lane and Red Team.",
+      "title": "Peer ransomware underrated; score Severity 4",
+      "verdict": "carried"
+    },
+    {
+      "note": "Coverage through 04:00 Sun and DST timestamp note added. Red Team's mostly-dry Saturday read not adopted (older NWS product).",
+      "title": "Halloween night plus DST underrated",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Drought centered SW/S-central MO; weekend rain likely. Monitor.",
+      "title": "Tyson fire weather overrated",
+      "verdict": "adopted"
+    },
+    {
+      "note": "CR through Dec 11; agrees with Policy lane.",
+      "title": "Federal shutdown overrated",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Watch BJC diversion, unplanned EHR outages, leak-site claims, CISA/HHS alerts. Pre-set EOC activation threshold.",
+      "title": "LPHC: ransomware hits BJC/WashU Medicine over Halloween weekend",
+      "verdict": "carried"
+    }
+  ],
+  "lanes_quiet": [
+    1,
+    3,
+    6
+  ],
+  "lookahead": [
+    {
+      "date": "2026-10-30",
+      "dow": "Fri",
+      "loads": [
+        "Boo at the Zoo final night 5-8:30 PM",
+        "Family Weekend arrivals"
+      ],
+      "stacked": false,
+      "wx": "Mostly cloudy, dry, mid-70s"
+    },
+    {
+      "date": "2026-10-31",
+      "dow": "Sat",
+      "loads": [
+        "Parent and Family Weekend",
+        "Football vs Denison 1 PM, Francis Olympic Field",
+        "CWE Halloween party 11 AM-midnight, Euclid",
+        "Halloween night Loop/CWE"
+      ],
+      "stacked": true,
+      "wx": "Spotty light showers, heavier after 9 PM, low-70s"
+    },
+    {
+      "date": "2026-11-01",
+      "dow": "Sun",
+      "loads": [
+        "DST ends 2 AM",
+        "Families depart"
+      ],
+      "stacked": false,
+      "wx": "Scattered AM showers, near 70"
+    },
+    {
+      "date": "2026-11-02",
+      "dow": "Mon",
+      "loads": [],
+      "stacked": false,
+      "wx": "Not available; likely lull"
+    },
+    {
+      "date": "2026-11-03",
+      "dow": "Tue",
+      "loads": [
+        "Election Day: polling at Athletic Complex and McDonnell Medical Sciences 6 AM-7 PM",
+        "Party at the Polls (outdoor, all day)",
+        "Election-night gatherings"
+      ],
+      "stacked": true,
+      "wx": "Widespread showers and storms, low-70s"
+    },
+    {
+      "date": "2026-11-04",
+      "dow": "Wed",
+      "loads": [
+        "Civic Cafe midterm debrief, Stix House 5:30-7 PM"
+      ],
+      "stacked": false,
+      "wx": "Showers and storms with cold front, low-70s"
+    },
+    {
+      "date": "2026-11-05",
+      "dow": "Thu",
+      "loads": [],
+      "stacked": false,
+      "wx": "Rain ending, cooler, low-mid 60s"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "watch",
+      "summary": "Mild, showery Halloween. Tue-Wed Nov 3-4 front brings showers and storms during commutes; recheck SPC Day 3 Sunday. Live NWS alerts could not be confirmed."
+    },
+    {
+      "name": "Life safety",
+      "pir": 2,
+      "status": "watch",
+      "summary": "No Ring 1 violent incident or credible threat confirmed. WUPD log: hate-crime intimidation (Simon Hall) and social-media extortion, both pending. Swatting pattern nationally."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "watch",
+      "summary": "Measles rising in Missouri (18 cases, mostly SW MO; record US count). No local advisory, college outbreak or diversion found. Moderate respiratory season expected."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "watch",
+      "summary": "Cisco ASA/FTD KEV (Nov 1 federal deadline); UNM Health and University Hospitals Cleveland incidents. North-side water main breaks, no boil advisories; MetroLink Blue Line single-tracking through today."
+    },
+    {
+      "name": "Scheduled activity",
+      "pir": 5,
+      "status": "active",
+      "summary": "Sat Oct 31 stacked (Family Weekend, football, CWE Halloween). Tue Nov 3 stacked (two WashU polling places, Party at the Polls, storms). Boo at the Zoo final night tonight."
+    },
+    {
+      "name": "Policy, legal and funding",
+      "pir": 6,
+      "status": "watch",
+      "summary": "OPT fee rule comments due Nov 9. CR funds government through Dec 11. Saudi ordered departure. EAS national test Nov 17."
+    }
+  ],
+  "posture": "Elevated",
+  "published_at": "2026-10-30T10:59:42Z",
+  "run_note": "All 7 lanes reported; charter read (rev 10); run 05:52-06:10 CT. No Severity 4-5 items after adjudication. Live NWS alerts, current SPC outlooks and CISA KEV pages unreachable.",
+  "title": "WashU EM Daily Intelligence Briefing, October 30, 2026",
+  "today_items": [
+    {
+      "action": "Coverage through 04:00 Sun; coordinate SLMPD District 2 on Euclid party; safety note to Medical Campus residents; game-day parking plan; DST timestamp note to dispatch.",
+      "confidence": "Medium",
+      "likelihood": "High",
+      "owner": "WUPD, Medical Campus Security, Athletics",
+      "pir": 5,
+      "rank": 1,
+      "severity": 3,
+      "source": "https://explorestlouis.com/event/the-legendary-cwe-halloween-party/",
+      "title": "Halloween Saturday stack (Family Weekend, football, CWE party, DST)",
+      "ttd": "Today"
+    },
+    {
+      "action": "WashU IT confirms ASA/FTD exposure and patch status before Nov 1; confirm weekend downtime and on-call with WashU Medicine IT and BJC.",
+      "confidence": "Medium",
+      "likelihood": "Medium",
+      "owner": "WashU IT, EM",
+      "pir": 4,
+      "rank": 2,
+      "severity": 3,
+      "source": "https://www.rescana.com/post/cisco-secure-firewall-asa-ftd-cve-2026-76418-ssl-ra-vpn-dos-kev",
+      "title": "Cisco ASA/FTD VPN flaw on CISA KEV; peer academic medical center attacks",
+      "ttd": "Today"
+    },
+    {
+      "action": "Confirm with WUPD whether isolated and whether a Clery timely warning or community message is required.",
+      "confidence": "Medium",
+      "likelihood": "Occurring",
+      "owner": "WUPD, Student Affairs, Communications",
+      "pir": 2,
+      "rank": 3,
+      "severity": 2,
+      "source": "https://police.wustl.edu/",
+      "title": "Hate-crime intimidation report, Simon Hall",
+      "ttd": "Today"
+    },
+    {
+      "action": "Check travel registry for WashU travelers in Saudi Arabia and Gulf states.",
+      "confidence": "Medium",
+      "likelihood": "Occurring",
+      "owner": "Global / International Programs",
+      "pir": 6,
+      "rank": 4,
+      "severity": 2,
+      "source": "https://sa.usembassy.gov/security-alert-u-s-mission-to-saudi-arabia-october-28-2026/",
+      "title": "Saudi Arabia ordered departure; Level 3 advisory holds",
+      "ttd": "Today"
+    },
+    {
+      "action": "Remind outdoor event hosts to have rain plans.",
+      "confidence": "Medium",
+      "likelihood": "High",
+      "owner": "EM, Student Affairs",
+      "pir": 1,
+      "rank": 5,
+      "severity": 1,
+      "source": "https://www.firstalert4.com/2026/10/30/mild-with-late-weekend-rain-chances/",
+      "title": "Spotty light showers on Halloween",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "Saturday Oct 31 stacked load: Family Weekend, 1 PM football, CWE Halloween party on Euclid until midnight, then DST repeats 1-2 AM. Confirm WUPD/Medical Campus Security coverage through 04:00 Sun today.",
+  "unreachable": [
+    "api.weather.gov alerts (blocked)",
+    "NWS LSX AFD and SPC outlooks (stale cache)",
+    "CISA KEV alert pages and feed",
+    "BleepingComputer",
+    "SC World",
+    "TravelPulse",
+    "Missouri DHSS wastewater dashboard (image only)",
+    "BJC diversion status (no public source)",
+    "KSDK and FOX 2 weather pages"
+  ]
+}
