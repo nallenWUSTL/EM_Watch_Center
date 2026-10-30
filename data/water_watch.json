@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "8:35 AM CT 10/30 run (four lanes). No new water incidents; no tracked incident changed status. City Water table (Lanes 3, 4: stamped 8:30 AM 10/30) shows no active main outages; 10/29 orders Tesson & Germania and N Broadway & Buchanan still in repair list. New 10/29 hydrant repairs only (3715 Natural Bridge, 1110 N Jefferson, 4710 Bircher, 4324 Margaretta; Ring 2, not tracked); older Ring 1 hydrant repairs 805 N Kingshighway and 5001 Delmar (10/28, routine, not tracked). Riverview Dr: KMOV still says closed, no estimate; crews working other unnamed nearby breaks. Metro still lists #18 Taylor and #42 Whittier (to 10/31), #41 Thekla (to 11/6); check for extension or closeout 10/31. MAW index and boil page rendered empty; detail IDs 142925 (Merrillville IN) and 142926 (Peoria IL) are out of region; 142927-142930 blank. MO DNR: only a Webster County order 10/28. IAW 142922 lift not confirmed. WashU Alert nothing active; Facilities: generator tests and Jolley Hall sewer repair only. No dated 10/29-30 news or social items in Ring 1. Unchecked: MSD, Kirkwood, BJC, Cortex/Loop, Forest Park Forever, MoDOT. Lane 1 reported wateroos.php serving stale 2014 data and /outages stamped 8:30 PM 10/29; Lanes 3 and 4 read wateroos.php stamped 8:30 AM 10/30 (conflict noted).",
-    "open_count": 17,
-    "run_at": "2026-10-30T13:35:00Z",
-    "top_incident": "No new or changed incidents affecting WashU. Nearest open item remains the City Water closure on Taylor Ave between W Pine and Laclede (Metro #18 still listed, window ends 10/31), Medical Campus corridor; impact possible; monitoring."
+    "note": "9:35 AM CT 10/30 run (four lanes). New: City Water outages Angelrodt (9th-Broadway) and N Broadway (Angelrodt-Destrahan), out 9:21-9:23 AM, est. 5:21-5:23 PM (wateroos.php stamped 9:30 AM, verified by supervisor; Lanes 3, 4). Riverview Dr still closed per KMOV update ~8:50 AM; work order dates to 10/27. Taylor, Thekla, Whittier Metro reroutes unchanged (Lane 3); not on City repair list. MAW index and boil page empty; MO DNR no St. Louis-area orders; MAW IDs 142923 (CA), 142925 (IN) out of region; 142927-142933 blank. IAW 142922 boil order still in effect. Ring 1: only 10/28 hydrant repairs (5001 Delmar, 805 N Kingshighway, 4800 Enright), not tracked. WashU Alert nothing active; Facilities no water shutoffs. FOX 2 Page Blvd closure undated, not adopted. Lane 1 again read wateroos.php as stale; Lanes 3, 4 and supervisor saw 9:30 AM 10/30 stamp. Unchecked: MSD, Kirkwood, BJC, Cortex/Loop, Forest Park Forever, MoDOT; tracked MAW County alerts not individually re-checked.",
+    "open_count": 18,
+    "run_at": "2026-10-30T14:40:00Z",
+    "top_incident": "No new or changed incidents affecting WashU. New Ring 2 City Water outages at Angelrodt St & N Broadway (north riverfront, est. restore ~5:20 PM 10/30), impact none. Nearest open item remains the City Water closure on Taylor Ave between W Pine and Laclede (Metro #18 to 10/31), Medical Campus corridor; impact possible; monitoring."
   },
   "incidents": [
     {
@@ -829,6 +829,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 9:40 AM CT 10/30 (Lanes 3 and 4, verified by supervisor on City Water table stamped 9:30 AM 10/30): two linked service outages taken out of service 9:21 and 9:23 AM 10/30, estimated restoration 5:21 / 5:23 PM 10/30; crews working. No boil advisory. Near the tracked N Broadway & Buchanan main repair (10/29); relationship not published. ~5-6 mi NE of Medical Campus and Cortex; separate distribution area; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration. Monitor; resolve when dropped from the outage table. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-30T14:40:00Z",
+      "id": "stlwater-stlouiscity-angelrodt-20261030",
+      "last_updated": "2026-10-30T14:40:00Z",
+      "location": "Angelrodt St between 9th St and N Broadway, and N Broadway between Angelrodt St and Destrahan St, St. Louis City (near north riverfront)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outages, Angelrodt St & N Broadway (near north riverfront)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 10:40 AM CT 10/22: both Old North outages (N 9th & Benton, N 10th & Benton, out since ~5:35 PM 10/21) no longer appear on the live City Water Division outage table (stlwater.com/wateroos.php, stamped 10:30 AM 10/22, which states no active water main outages); confirmed by Lanes 1, 2 and 4 and by supervisor. Treated as restored per utility page, roughly 17 hours after the outage began; no boil advisory was ever posted. Ring 2, no WashU asset; impact none.",
       "confidence": "High",
       "first_seen": "2026-10-22T06:45:00Z",
@@ -1110,17 +1128,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 10:35 PM CT 10/29 (Lanes 2 and 4, same KMOV story published 9:38 PM CDT 10/29): City crews making emergency repairs on a main break with partial road closure on Riverview Dr near Chambers Rd; KMOV says several other nearby breaks are also being worked (unnamed). No restoration or reopening estimate; no boil advisory. City Water table (stamped 10:30 PM 10/29) shows no active main outages; a Riverview & Chambers repair order from 10/27 remains in history (earlier record resolved 10/29), so this may be a new break or continued work at the same site. ~8-10 mi NNE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Monitor; resolve when the road reopens or the utility confirms completion. Owner: Emergency Management (track only).",
+      "assessment": "Updated 9:40 AM CT 10/30 (Lane 2): KMOV story updated ~8:50 AM 10/30; parts of Riverview Dr near Chambers Rd remain closed for emergency main repairs, no reopening or repair timeline; crews also working several other unnamed nearby breaks. City Water repair list dates the Riverview Dr & Chambers Rd SE work order 7:33 AM 10/27, so this is likely continued work at the same site. No service outage posted; no boil advisory. ~8-10 mi NNE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Monitor; resolve when the road reopens or the utility confirms completion. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-10-30T03:35:00Z",
       "id": "stlwater-stlouiscity-riverview-20261029",
-      "last_updated": "2026-10-30T03:35:00Z",
+      "last_updated": "2026-10-30T14:40:00Z",
       "location": "Parts of Riverview Dr near Chambers Rd, far north St. Louis City (closed block not published)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.firstalert4.com/2026/10/30/parts-riverview-drive-st-louis-city-closed-due-water-main-break/",
-        "https://www.stlwater.com/wateroos.php"
+        "https://www.stlwater.com/wateroos.php",
+        "https://www.stlwater.com/outages"
       ],
       "status": "open",
       "title": "City of St. Louis Water Division main break and road closure, Riverview Dr near Chambers Rd (far north City)",
