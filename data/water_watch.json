@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "3:40 PM CT 10/30 run (four lanes): nothing new, no confirmed status changes. City Water wateroos.php current (3:30 PM stamp): same four outages (Angelrodt 9:23 AM est 5:23 PM; N Broadway 9:21 AM est 5:21 PM; Riverview Valley–Spring Garden est 7:47 PM; Riverview past Spring Garden est 6:13 PM) and same main repairs; /outages stale at 8:30 PM 10/29 this time. MAW index blank to fetchers; detail pages partly 403; 142928/142930 empty; 142914 and ILAW 142922 unchanged. MO DNR: no St. Louis-area orders. Metro: #18 Taylor water closure (to 10/31), #41 Thekla (to 11/6), #42 Whittier still active. WashU Alert: no active alerts. KMOV Riverview near Chambers still closed. Not adopted: undated stlwater.com/?p=9725 'Boil Advisory Currently In Effect' page (Chain of Rocks power loss; matches Aug 2026 advisories later lifted; no current corroboration from City table, DNR or news); KSDK Clayton/U City lift and Lansdowne & Chippewa pages undated/old; emergency.washu.edu 2017 Taylor Ave page with a fresh edit stamp (not listed as active). Not checked: BJC, Cortex, Loop, Forest Park Forever, MoDOT, MSD, Kirkwood, U City/Clayton municipal sites.",
-    "open_count": 21,
-    "run_at": "2026-10-30T20:40:00Z",
-    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth Campus), posted 10/29, in effect until Sat 10/31 4 PM; no restoration notice yet; adjacent emergency sewer line repair at Jolley north entrance through 11/6. Impact confirmed (two buildings)."
+    "note": "4:40 PM CT 10/30 run (four lanes): nothing new. Resolved: Angelrodt St / N Broadway outages dropped from City Water table (4:30 PM stamp; Lanes 1, 4). Unchanged: Riverview Dr outages (est 6:13 / 7:47 PM); main repairs Ivanhoe & Marmaduke, N Broadway & Buchanan, Tesson & Germania, Riverview & Chambers; Metro #18 Taylor (to 10/31), #41 Thekla (to 11/6), #42 Whittier (to 10/31) still listed on Metro (Lane 3) though City Water closures section is empty; ILAW 142922 boil order not lifted. MAW: index and boil page show no St. Louis-area items to fetchers (script-loaded; County alerts not changed on that basis). MO DNR: no St. Louis-area orders. WashU Alert: none active. Med Campus Facilities: no water posts. Source tip: wateroos.php with a dummy query string (?t=...) returns the live page; /outages served a stale 10/29 8:30 PM copy. Not opened directly: BJC, Cortex, Loop, Forest Park Forever, MoDOT, municipal sites (searches found nothing current).",
+    "open_count": 20,
+    "run_at": "2026-10-30T21:40:00Z",
+    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth Campus), posted 10/29, in effect until Sat 10/31 4 PM; no restoration notice yet (Lane 3, 4:35 PM). Impact confirmed (two buildings)."
   },
   "incidents": [
     {
@@ -829,18 +829,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 9:40 AM CT 10/30 (Lanes 3 and 4, verified by supervisor on City Water table stamped 9:30 AM 10/30): two linked service outages taken out of service 9:21 and 9:23 AM 10/30, estimated restoration 5:21 / 5:23 PM 10/30; crews working. No boil advisory. Near the tracked N Broadway & Buchanan main repair (10/29); relationship not published. ~5-6 mi NE of Medical Campus and Cortex; separate distribution area; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration. Monitor; resolve when dropped from the outage table. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 4:40 PM CT 10/30 (Lanes 1 and 4): both Angelrodt St / N Broadway outages (out 9:21 and 9:23 AM, est. 5:21 / 5:23 PM) no longer appear on the live City Water outage table stamped 4:30 PM 10/30, which now lists only the two Riverview Dr outages. Treated as restored per utility page, ahead of estimate; restoration not explicitly stated. No boil advisory was ever posted. Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-10-30T14:40:00Z",
       "id": "stlwater-stlouiscity-angelrodt-20261030",
-      "last_updated": "2026-10-30T14:40:00Z",
+      "last_updated": "2026-10-30T21:40:00Z",
       "location": "Angelrodt St between 9th St and N Broadway, and N Broadway between Angelrodt St and Destrahan St, St. Louis City (near north riverfront)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/wateroos.php"
+        "https://www.stlwater.com/wateroos.php",
+        "https://www.stlwater.com/wateroos.php?t=1630"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "City of St. Louis Water Division service outages, Angelrodt St & N Broadway (near north riverfront)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
