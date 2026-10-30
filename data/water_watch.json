@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "11:33 AM CT 10/30 run (four lanes), all NOTHING NEW. Lanes 1 and 4 read live wateroos.php stamped 11:30 AM 10/30: only Angelrodt and N Broadway outages active (unchanged, est. 5:23/5:21 PM); repair list still shows N Broadway & Buchanan, Tesson & Germania, Riverview & Chambers. Routine hydrant repairs 10/28 at 805 N Kingshighway, 5001 Delmar, 4800 Enright (Ring 1, no outage) noted, not tracked. Metro #18 Taylor, #41 Thekla, #42 Whittier reroutes unchanged (Lane 3). Riverview Dr still closed per KMOV, no reopening timeline. MAW index blank to fetcher; IDs 142927/142930 empty; no tracked MAW item changed. MO DNR: no St. Louis-area orders 10/28-10/30. WashU Alert nothing active; Danforth and Med Facilities no water notices. Undated KSDK archive items (Lindell 30-inch main, Bonhomme, Overland boil advisory) not adopted. Not opened: BJC, Cortex, Loop, Forest Park Forever, MoDOT; Reddit/X thin.",
-    "open_count": 18,
-    "run_at": "2026-10-30T16:40:00Z",
-    "top_incident": "No new or changed incidents affecting WashU. Nearest open item remains the City Water closure on Taylor Ave between W Pine and Laclede (Metro #18 to 10/31), Medical Campus corridor; impact possible; monitoring. Angelrodt St & N Broadway outages (Ring 2) still active, est. restore ~5:21-5:23 PM 10/30."
+    "note": "12:33 PM CT 10/30 run (four lanes). Supervisor read live wateroos.php stamped 12:30 PM 10/30: four active outages (Riverview & Spring Garden x2 new; Angelrodt & N Broadway x2 unchanged, est. 5:21/5:23 PM); new main repair Ivanhoe & Marmaduke 12:20 PM; Buchanan, Tesson, Riverview & Chambers repairs still listed; advisories empty. Lanes 1 and 3 got a stale 2014 cache of wateroos.php; Lane 2 got a stale /outages copy. MAW index blank to fetcher; IDs 142923-142926 non-Missouri, 142927+ empty; no tracked MAW item changed. ILAW 142922 still active. MO DNR: no St. Louis-area orders. WashU Alert nothing active; Facilities no water notices (Jolley Hall sewer repair 10/28-11/6 is internal, not utility). Metro #18/#41/#42 reroutes unchanged. Unconfirmed: undated KSDK video of north City intersection main break Friday; Hoodline Richmond Heights burst (unloadable, possibly Ohio). Not opened: BJC, Cortex, Loop, Forest Park Forever, MoDOT.",
+    "open_count": 20,
+    "run_at": "2026-10-30T17:40:00Z",
+    "top_incident": "No new or changed incidents affecting WashU. Nearest open item remains the City Water closure on Taylor Ave between W Pine and Laclede (Metro #18 to 10/31), Medical Campus corridor; impact possible; monitoring. New Ring 2: Riverview Dr & Spring Garden outages (est. 6:13/7:47 PM) and Ivanhoe & Marmaduke main repair; impact none."
   },
   "incidents": [
     {
@@ -903,6 +903,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 12:40 PM CT 10/30 (Lane 4, verified by supervisor on City Water table stamped 12:30 PM 10/30): main repair work order opened 12:20 PM 10/30; no service outage posted, no restoration estimate, no boil advisory. Roughly 2-3 mi SE of South Campus and Danforth (estimate, not measured); no WashU asset; not on a Ring 1 corridor. Impact none. No news or social corroboration. Monitor; escalate if an outage is posted; resolve when it remains only in repair history for 48 hours with no outage. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-30T17:40:00Z",
+      "id": "stlwater-stlouiscity-ivanhoe-20261030",
+      "last_updated": "2026-10-30T17:40:00Z",
+      "location": "Ivanhoe Ave & Marmaduke Ave, St. Louis City (Lindenwood Park area, south City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division main repair, Ivanhoe Ave & Marmaduke Ave (south City)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 11:40 PM CT 10/22: the January Ave (Nottingham–Devonshire) outage, out of service since 6:51 PM 10/22 with a 2:51 AM 10/23 estimate, no longer appears on the live City Water Division outage table (stlwater.com/wateroos.php, stamped 11:30 PM 10/22; confirmed by all four lanes and by supervisor). Treated as restored per utility page, roughly 4.5 hours after the outage began and ahead of estimate. No boil advisory was ever posted. Lindenwood Park / St. Louis Hills, south City, Ring 2; no WashU asset; impact none.",
       "confidence": "High",
       "first_seen": "2026-10-23T00:40:00Z",
@@ -1143,6 +1161,24 @@
       ],
       "status": "open",
       "title": "City of St. Louis Water Division main break and road closure, Riverview Dr near Chambers Rd (far north City)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:40 PM CT 10/30 (Lane 4, verified by supervisor on City Water table stamped 12:30 PM 10/30): two service outages, out 11:47 AM (est. restore 7:47 PM) and 12:13 PM (est. 6:13 PM) 10/30. Likely linked to the tracked Riverview Dr near Chambers Rd main break and road closure; relationship not published. No boil advisory (City advisories empty). ~8-10 mi NNE of North Campus; separate distribution area; no WashU asset; no Ring 1 corridor. Impact none. Monitor; resolve when dropped from the outage table. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-30T17:40:00Z",
+      "id": "stlwater-stlouiscity-riverview-springgarden-20261030",
+      "last_updated": "2026-10-30T17:40:00Z",
+      "location": "Riverview Dr between Valley Dr and Spring Garden Dr, and Riverview Dr from Spring Garden Dr to ~317 ft beyond, far north St. Louis City near the County line",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outages, Riverview Dr & Spring Garden Dr (far north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
