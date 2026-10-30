@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "9:35 PM CT 10/29 run (four lanes). No new or updated St. Louis-region incidents. City Water /outages (still stamped 8:30 PM 10/29; all lanes) shows no active main outages; N Broadway & Buchanan and Tesson & Germania still in repair list (48-hour rule). Routine hydrant orders only (incl. 5001 Delmar and 805 N Kingshighway on 10/28; no outage). MAW alerts index loaded no entries (JS); tracked MAW IDs not re-verified this run; 142946/142950 empty. IAW 142922 Livingston boil order unchanged. MO DNR newest 10/28, none in St. Louis region. WashU Alert nothing active; Danforth Facilities: Jolley Hall north entrance closed for planned sewer repair 10/28-11/6 (not a utility incident); Medical Facilities no notices. Metro #18, #41, #42 water reroutes unchanged. FOX 2 'boil advisory Olivette/Overland/University City' search hit dated July 2026 per STL.News; not adopted. No dated news or social coverage 10/28-10/29. Unchecked: MSD, Kirkwood, BJC, Cortex/Loop, Forest Park Forever, MoDOT.",
-    "open_count": 16,
-    "run_at": "2026-10-30T02:40:00Z",
-    "top_incident": "No new or changed incidents affecting WashU. Nearest open item remains the City Water closure on Taylor Ave between W Pine and Laclede (Metro #18; alert still ends 10/31 'until further notice', not extended), Medical Campus corridor; impact possible; monitoring."
+    "note": "10:35 PM CT 10/29 run (four lanes). New: Riverview Dr main break and partial road closure near Chambers Rd, far north City (KMOV 9:38 PM 10/29; Ring 2; impact none). City Water table stamped 10:30 PM 10/29: no active main outages; N Broadway & Buchanan and Tesson & Germania still in repair list; routine hydrant orders only near Ring 1 (805 N Kingshighway, 5001 Delmar, 4800 Enright on 10/28). MAW alerts index did not render (JS); 142914 and IAW 142922 confirmed unchanged; other MAW IDs not re-verified; no valid new St. Louis ID found above 142926. MO DNR newest 10/28, none in St. Louis region. WashU Alert nothing active; Danforth Facilities generator tests 10/30 only; Medical Facilities no notices. Metro #18 and #42 water reroutes still end 10/31, #41 ends 11/6. No dated social posts 10/28-10/29. Unchecked: BJC, Cortex/Loop, Forest Park Forever, MoDOT.",
+    "open_count": 17,
+    "run_at": "2026-10-30T03:40:00Z",
+    "top_incident": "No new or changed incidents affecting WashU. Nearest open item remains the City Water closure on Taylor Ave between W Pine and Laclede (Metro #18; alert still ends 10/31, not extended), Medical Campus corridor; impact possible; monitoring."
   },
   "incidents": [
     {
@@ -1105,6 +1105,25 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division main repair and service outage, Riverview Dr (I-270 to Hall St / Chambers Rd, far north City)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 10:35 PM CT 10/29 (Lanes 2 and 4, same KMOV story published 9:38 PM CDT 10/29): City crews making emergency repairs on a main break with partial road closure on Riverview Dr near Chambers Rd; KMOV says several other nearby breaks are also being worked (unnamed). No restoration or reopening estimate; no boil advisory. City Water table (stamped 10:30 PM 10/29) shows no active main outages; a Riverview & Chambers repair order from 10/27 remains in history (earlier record resolved 10/29), so this may be a new break or continued work at the same site. ~8-10 mi NNE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Monitor; resolve when the road reopens or the utility confirms completion. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-30T03:35:00Z",
+      "id": "stlwater-stlouiscity-riverview-20261029",
+      "last_updated": "2026-10-30T03:35:00Z",
+      "location": "Parts of Riverview Dr near Chambers Rd, far north St. Louis City (closed block not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.firstalert4.com/2026/10/30/parts-riverview-drive-st-louis-city-closed-due-water-main-break/",
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division main break and road closure, Riverview Dr near Chambers Rd (far north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
