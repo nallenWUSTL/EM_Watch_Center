@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "5:33 AM CT 10/31 run (four lanes). Nothing new, no status changes. City Water outages page (5:30 AM stamp): Riverview/Spring Garden outages still active and overdue; Ivanhoe, N Broadway, Tesson, Riverview & Chambers repairs still listed, no new rows; hydrant repairs at 5001 Delmar and 805 N Kingshighway (10/28) are routine, not outages. Taylor, Thekla, Whittier still on Metro rider alerts (Taylor and Whittier windows end today). MAW 143300 and 143422 unchanged; MAW index loaded empty so dropped IDs could not be determined; 143423/143424 out of region, 143425-143426 empty. MAW boil page none; MO DNR none in City/County. WashU Alert none; Medical Campus Facilities shows only HVAC/electrical work today. KSDK north City 'Friday' video confirmed as May 3, 2024 Penrose & Blair break, not adopted. Gaps: MSD, Kirkwood, BJC, Cortex, Forest Park Forever, MoDOT not opened. Re-check Jolley/Cupples after 4 PM.",
+    "note": "6:33 AM CT 10/31 run (four lanes). Nothing new, no status changes. City Water table (6:30 AM stamp, Lane 4): Riverview/Spring Garden outages still active and overdue; Ivanhoe, N Broadway, Tesson, Riverview & Chambers repairs still listed. Lane 1 WebFetch got a stale 2014 copy of wateroos.php. Metro rider alerts: Taylor (Medical Campus) still listed 'until further notice', Thekla to 11/6, Whittier window ends today. MAW 143300 and 143422 unchanged; MAW index loads empty; 143423/143424 out of region, 143425-143435 empty. MAW boil page none; MO DNR none in City/County (newest 10/28 Webster County). Kirkwood none. WashU Alert none; Danforth Facilities only generator tests; Medical Campus Facilities HVAC/electrical only. No dated 10/30-31 news or social items; Richmond Heights street still unknown. Gaps: MSD blocked, BJC, Cortex, Forest Park Forever, MoDOT not opened. Re-check Jolley/Cupples after 4 PM.",
     "open_count": 27,
-    "run_at": "2026-10-31T10:40:00Z",
-    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) still posted until Sat 10/31 4 PM, no restoration or extension (impact confirmed). MAW main break Richmond Heights (alert 143300, no street, ~37 hr old, well past estimate) still active; impact possible (low)."
+    "run_at": "2026-10-31T11:40:00Z",
+    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) still posted until Sat 10/31 4 PM, no extension or early restoration (impact confirmed). MAW main break Richmond Heights (alert 143300, no street, ~38 hr old, well past estimate) still active; impact possible (low)."
   },
   "incidents": [
     {
