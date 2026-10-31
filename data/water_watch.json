@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "9:32 PM CT 10/30 run (four lanes). New: MAW 143422 investigation, unincorporated south County (no street, impact none). Updated: MAW 143416 Creve Coeur retitled Main Break; MAW 143300 Hoodline lead identified as Richmond Heights, OHIO (10/27 Cleveland Water break) and removed. City Water table 9:30 PM (Lane 4): Riverview/Spring Garden outages still listed, past estimates; Closures and Advisories sections now empty (Taylor Ave and Riverview-near-Chambers closures not posted; not resolved, Metro #18 still active, KMOV still reports Riverview closed); Thekla and Whittier rolled off repair list (Metro #41/#42 still active); routine hydrant repair 5001 Delmar 10/28 noted, not tracked. Unchanged: Jolley/Cupples II order to 10/31 4 PM; Jolley sewer repair to 11/6; ILAW 142922 boil order not lifted; WashU Alert none; MAW boil page none. Gaps: Lane 1 got stale 2014 cache of wateroos.php; MAW index script-loaded; MSD, Kirkwood, Forest Park Forever, MoDOT, BJC, Cortex not reached; Reddit search rejected.",
+    "note": "10:36 PM CT 10/30 run (four lanes). Nothing new. Updated: City Water Riverview/Spring Garden outages still listed on 10:30 PM table, now 3-4 hr past estimates. Unchanged: MAW 143300 Richmond Heights and 143422 south County still active; MAW boil page none; WashU Alert none (last change 10/23); Jolley/Cupples II order to 10/31 4 PM; Jolley sewer repair to 11/6; Metro #18 Taylor, #42 Whittier, #41 Thekla reroutes still active (Taylor/Thekla/Whittier absent from City Water table but not confirmed resolved). Set aside: stlwater.com/?p=9725 undated Chain of Rocks boil advisory page, matches the Aug 17, 2026 event, treated as stale. MAW IDs 143423-143425, 143428 not yet live. Gaps: MAW index script-loaded; MSD, Kirkwood, MO DNR, BJC, Cortex, Forest Park Forever, MoDOT not reached; social search thin.",
     "open_count": 27,
-    "run_at": "2026-10-31T02:32:00Z",
-    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) in effect until Sat 10/31 4 PM, no change (impact confirmed). MAW main break Richmond Heights (alert 143300, no street, ~22 hr past estimate) still posted; impact possible (low)."
+    "run_at": "2026-10-31T03:36:00Z",
+    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) in effect until Sat 10/31 4 PM, no change (impact confirmed). MAW main break Richmond Heights (alert 143300, no street, ~24 hr past estimate) still posted; impact possible (low)."
   },
   "incidents": [
     {
@@ -1296,11 +1296,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 8:36 PM CT 10/30 (Lanes 1 and 4, City Water table stamped 8:30 PM 10/30): both outages still listed Active with crews working and no new estimate. Spring Garden to ~317 ft beyond (out 12:13 PM, est 6:13 PM) now ~2 hr 20 min overdue; Valley Dr to Spring Garden (out 11:47 AM, est 7:47 PM) ~45 min overdue. KMOV (10/29, updated 10/30) says crews also on several other unnamed nearby breaks; likely linked to the Riverview Dr near Chambers Rd break and closure. No boil advisory. ~8-10 mi NNE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Monitor; resolve when dropped from the outage table. Owner: Emergency Management (track only).",
+      "assessment": "Updated 10:36 PM CT 10/30 (Lanes 1 and 4, City Water table stamped 10:30 PM 10/30): both outages still listed Active with crews working and no new estimate. Spring Garden to ~317 ft beyond (out 12:13 PM, est 6:13 PM) now ~4 hr 20 min overdue; Valley Dr to Spring Garden (out 11:47 AM, est 7:47 PM) ~2 hr 45 min overdue. Likely linked to the Riverview Dr near Chambers Rd break and closure. No boil advisory. ~8-10 mi NNE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Monitor; resolve when dropped from the outage table. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-10-30T17:40:00Z",
       "id": "stlwater-stlouiscity-riverview-springgarden-20261030",
-      "last_updated": "2026-10-31T01:36:00Z",
+      "last_updated": "2026-10-31T03:36:00Z",
       "location": "Riverview Dr between Valley Dr and Spring Garden Dr, and Riverview Dr from Spring Garden Dr to ~317 ft beyond, far north St. Louis City near the County line",
       "ring": 2,
       "single_source": true,
