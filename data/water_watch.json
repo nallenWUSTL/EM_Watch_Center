@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "7:40 PM CT 10/30 run (four lanes). Nothing new. Updated: Riverview & Spring Garden outage still active on 7:30 PM City Water table, ~1 hr 20 min past 6:13 PM estimate; Valley–Spring Garden est 7:47 PM. Unchanged: MAW 143300 Richmond Heights; ILAW 142922 boil order not lifted; City repairs Ivanhoe, N Broadway, Tesson, Riverview & Chambers; Metro #18/#41/#42 alerts unchanged (#18 and #42 windows end 10/31); Jolley/Cupples II order and Jolley sewer repair (to 11/6) unchanged; WashU Alert none; Med Campus Facilities no water posts; MO DNR latest 10/28 Webster County, none local; MAW boil page none. MAW IDs 143310-143450 sampled: no Missouri alerts (highest live ~143415). Not adopted: undated KSDK Lindell & Union and I-64 Tamm stories (archive). Gaps: MAW index script-loaded, sample gaps unchecked; social posts not openable; MSD, Kirkwood, Forest Park Forever, MoDOT not reached.",
-    "open_count": 21,
-    "run_at": "2026-10-31T00:40:00Z",
-    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) in effect until Sat 10/31 4 PM, no change (impact confirmed). MAW main break Richmond Heights (alert 143300, no street, no boil advisory) unchanged; impact possible (low)."
+    "note": "8:36 PM CT 10/30 run (four lanes). New (Lane 1, MAW, no streets, no boil advisory, impact none): Creve Coeur investigation 143416, Crestwood 143412, North County 143411, Maryland Heights 143355, Wildwood 143345. Updated: Riverview & Spring Garden outages still active on 8:30 PM City Water table past estimates; MAW 143300 still posted, unverified Hoodline/Nextdoor Richmond Heights leads not adopted. Unchanged: ILAW 142922 boil order not lifted; City repairs Ivanhoe, N Broadway, Tesson, Riverview & Chambers; Metro #18/#41/#42 still active (#18 and #42 windows end 10/31); Jolley/Cupples II order and Jolley sewer repair unchanged; WashU Alert none; Med Campus Facilities no water posts; MO DNR none local; MAW boil page none. Not adopted: undated KSDK north City intersection break video, KSDK Festus boil advisory, Yahoo Clayton break (unloadable). Gaps: MAW index script-loaded, ~70 IDs 143305-143425 unchecked; social posts not openable; MSD, Kirkwood, Forest Park Forever, MoDOT not reached.",
+    "open_count": 26,
+    "run_at": "2026-10-31T01:36:00Z",
+    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) in effect until Sat 10/31 4 PM, no change (impact confirmed). MAW main break Richmond Heights (alert 143300, no street, no boil advisory) still posted; impact possible (low)."
   },
   "incidents": [
     {
@@ -175,6 +175,42 @@
       ],
       "status": "resolved",
       "title": "Missouri American Water main break, Clayton — emergency repairs (alert 142261)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 8:36 PM CT 10/30 (Lane 1 only): MAW alert 143412, main break beginning 10/30 4:15 PM, ~6 hr estimate (~10:15 PM); no street, no boil advisory. ~6-7 mi SW of South Campus; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration. Monitor; resolve when dropped from MAW index. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-31T01:36:00Z",
+      "id": "maw-crestwood-unlocated-20261030",
+      "last_updated": "2026-10-31T01:36:00Z",
+      "location": "Crestwood, MO (south St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/143412"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Crestwood — emergency repairs (alert 143412)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 8:36 PM CT 10/30 (Lane 1 only): MAW alert 143416, main-break investigation; customers may see low or no pressure; no start time, estimate or street. Separate from tracked Creve Coeur 142752. ~5 mi W of Danforth and West Campus; different MAW pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No boil advisory (MAW boil page none; MO DNR none local). No news or social corroboration (Lanes 2-4). Monitor; resolve when dropped from MAW index. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-31T01:36:00Z",
+      "id": "maw-crevecoeur-investigation-20261030",
+      "last_updated": "2026-10-31T01:36:00Z",
+      "location": "Creve Coeur, MO (street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/143416"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main-break investigation, Creve Coeur — possible low/no pressure (alert 143416)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -427,6 +463,42 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 8:36 PM CT 10/30 (Lane 1 only): MAW alert 143355, main break beginning 10/30 8:15 AM, ~8 hr estimate (~4:15 PM), likely complete but still posted; no street, no boil advisory. Separate from tracked 142753. ~7-8 mi NW of Danforth; no WashU asset. Impact none. Monitor; resolve when dropped from MAW index. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-31T01:36:00Z",
+      "id": "maw-marylandheights-unlocated-20261030",
+      "last_updated": "2026-10-31T01:36:00Z",
+      "location": "Maryland Heights, MO (street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/143355"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Maryland Heights — emergency repairs (alert 143355)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 8:36 PM CT 10/30 (Lane 1 only): MAW alert 143411, main break beginning 10/30 4:00 PM, ~6 hr estimate (~10 PM); no municipality, street or boil advisory. North County; nothing ties it to University City or the Delmar corridor. No WashU asset identified. Impact none. No corroboration. Monitor; resolve when dropped from MAW index. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-10-31T01:36:00Z",
+      "id": "maw-northcounty-unlocated-20261030",
+      "last_updated": "2026-10-31T01:36:00Z",
+      "location": "North St. Louis County, MO (municipality and street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/143411"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, North St. Louis County (municipality unspecified) — emergency repairs (alert 143411)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 4:40 PM CT 10/21: alert 142133 no longer appears on the MAW active alerts index (Lane 1), following 142126 earlier today and investigation 142122; treated as repair complete / alert expired per utility index. No street ever published, no boil advisory, no WashU asset in Olivette; impact none.",
       "confidence": "Medium",
       "first_seen": "2026-10-20T21:40:00Z",
@@ -471,16 +543,17 @@
         "South Campus",
         "West Campus"
       ],
-      "assessment": "New 6:40 PM CT 10/30 (Lane 1, verified by supervisor on alert detail page): MAW emergency alert 143300, main break in Richmond Heights beginning 10/29 4:45 PM CT, ~6 hr estimate; possible discolored/cloudy water, low or no pressure; no street, no last-updated or expiration, no boil advisory. Not on earlier index reads (index script-loaded). Richmond Heights borders Clayton; South Campus (6501 Clayton Rd, 63117) is on or near the Richmond Heights line and West Campus is ~1-2 mi (estimate). Same MAW system serving the Clayton-side assets; exact pressure zone unknown. Likely already repaired (~26 hr old) but completion not posted. No WashU Alert, Facilities, news or social report (Lanes 2-4). Impact possible (low). Action: Facilities confirm no pressure or discoloration complaints at South Campus and West Campus; flush if discolored. EM monitor; resolve when dropped from MAW index or completion posted. Owner: Facilities / Emergency Management.",
+      "assessment": "Updated 8:36 PM CT 10/30 (Lanes 1 and 4): MAW alert 143300 still posted (main break, Richmond Heights, began 10/29 4:45 PM CT, ~6 hr estimate); still no street, end time, update or boil advisory. Lane 4 found a Hoodline headline (Oct 2026 URL) on a Richmond Heights main break with water shooting over trees, and an undated Richmond Heights PD Nextdoor post; neither loaded, so date, street and state are unconfirmed and not adopted. Richmond Heights borders Clayton; South Campus (6501 Clayton Rd) on or near the line, West Campus ~1-2 mi (estimate); same MAW system, pressure zone unknown. No WashU Alert or Facilities notice (Lane 3). Impact possible (low). Action: Facilities confirm no pressure or discoloration complaints at South Campus and West Campus; flush if discolored. EM monitor; resolve when dropped from MAW index or completion posted. Owner: Facilities / Emergency Management.",
       "confidence": "Medium",
       "first_seen": "2026-10-30T23:40:00Z",
       "id": "maw-richmondheights-unlocated-20261029",
-      "last_updated": "2026-10-30T23:40:00Z",
+      "last_updated": "2026-10-31T01:36:00Z",
       "location": "Richmond Heights, MO (street not published by utility)",
       "ring": 1,
       "single_source": true,
       "sources": [
-        "https://alertsdetail.awapps.com/alert/143300"
+        "https://alertsdetail.awapps.com/alert/143300",
+        "https://hoodline.com/2026/10/water-main-bursts-in-richmond-heights-sends-water-shooting-over-trees/ (unloadable, unverified)"
       ],
       "status": "open",
       "title": "Missouri American Water main break, Richmond Heights — emergency repairs (alert 143300)",
@@ -850,6 +923,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 8:36 PM CT 10/30 (Lane 1 only): MAW alert 143345, main break beginning 10/30 8:00 AM, ~8 hr estimate; no street, no boil advisory; state inferred as Missouri. Nearest asset Tyson Research Center (near Eureka), which runs on well water, so no expected effect. Impact none. Monitor; resolve when dropped from MAW index. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-10-31T01:36:00Z",
+      "id": "maw-wildwood-unlocated-20261030",
+      "last_updated": "2026-10-31T01:36:00Z",
+      "location": "Wildwood, MO (far west St. Louis County; street not published by utility)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/143345"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Wildwood — emergency repairs (alert 143345)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 4:40 PM CT 10/30 (Lanes 1 and 4): both Angelrodt St / N Broadway outages (out 9:21 and 9:23 AM, est. 5:21 / 5:23 PM) no longer appear on the live City Water outage table stamped 4:30 PM 10/30, which now lists only the two Riverview Dr outages. Treated as restored per utility page, ahead of estimate; restoration not explicitly stated. No boil advisory was ever posted. Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-10-30T14:40:00Z",
@@ -1188,17 +1279,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 7:40 PM CT 10/30 (Lanes 1 and 4, City Water table stamped 7:30 PM 10/30): both outages still Active. Spring Garden to ~317 ft beyond (out 12:13 PM, est 6:13 PM) now ~1 hr 20 min overdue; Valley Dr to Spring Garden (out 11:47 AM) est 7:47 PM. KMOV (published 10/29 9:38 PM) says crews are also working several other unnamed nearby breaks; likely linked to the tracked Riverview Dr near Chambers Rd break and closure. No boil advisory. ~8-10 mi NNE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Monitor; resolve when dropped from the outage table. Owner: Emergency Management (track only).",
+      "assessment": "Updated 8:36 PM CT 10/30 (Lanes 1 and 4, City Water table stamped 8:30 PM 10/30): both outages still listed Active with crews working and no new estimate. Spring Garden to ~317 ft beyond (out 12:13 PM, est 6:13 PM) now ~2 hr 20 min overdue; Valley Dr to Spring Garden (out 11:47 AM, est 7:47 PM) ~45 min overdue. KMOV (10/29, updated 10/30) says crews also on several other unnamed nearby breaks; likely linked to the Riverview Dr near Chambers Rd break and closure. No boil advisory. ~8-10 mi NNE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Monitor; resolve when dropped from the outage table. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-10-30T17:40:00Z",
       "id": "stlwater-stlouiscity-riverview-springgarden-20261030",
-      "last_updated": "2026-10-31T00:40:00Z",
+      "last_updated": "2026-10-31T01:36:00Z",
       "location": "Riverview Dr between Valley Dr and Spring Garden Dr, and Riverview Dr from Spring Garden Dr to ~317 ft beyond, far north St. Louis City near the County line",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/wateroos.php",
-        "https://www.stlwater.com/wateroos.php?t=17333"
+        "https://www.stlwater.com/wateroos.php?t=17333",
+        "https://www.stlwater.com/wateroos.php?t=20261030",
+        "https://www.firstalert4.com/2026/10/30/parts-riverview-drive-st-louis-city-closed-due-water-main-break/"
       ],
       "status": "open",
       "title": "City of St. Louis Water Division service outages, Riverview Dr & Spring Garden Dr (far north City)",
