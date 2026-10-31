@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "8:36 PM CT 10/30 run (four lanes). New (Lane 1, MAW, no streets, no boil advisory, impact none): Creve Coeur investigation 143416, Crestwood 143412, North County 143411, Maryland Heights 143355, Wildwood 143345. Updated: Riverview & Spring Garden outages still active on 8:30 PM City Water table past estimates; MAW 143300 still posted, unverified Hoodline/Nextdoor Richmond Heights leads not adopted. Unchanged: ILAW 142922 boil order not lifted; City repairs Ivanhoe, N Broadway, Tesson, Riverview & Chambers; Metro #18/#41/#42 still active (#18 and #42 windows end 10/31); Jolley/Cupples II order and Jolley sewer repair unchanged; WashU Alert none; Med Campus Facilities no water posts; MO DNR none local; MAW boil page none. Not adopted: undated KSDK north City intersection break video, KSDK Festus boil advisory, Yahoo Clayton break (unloadable). Gaps: MAW index script-loaded, ~70 IDs 143305-143425 unchecked; social posts not openable; MSD, Kirkwood, Forest Park Forever, MoDOT not reached.",
-    "open_count": 26,
-    "run_at": "2026-10-31T01:36:00Z",
-    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) in effect until Sat 10/31 4 PM, no change (impact confirmed). MAW main break Richmond Heights (alert 143300, no street, no boil advisory) still posted; impact possible (low)."
+    "note": "9:32 PM CT 10/30 run (four lanes). New: MAW 143422 investigation, unincorporated south County (no street, impact none). Updated: MAW 143416 Creve Coeur retitled Main Break; MAW 143300 Hoodline lead identified as Richmond Heights, OHIO (10/27 Cleveland Water break) and removed. City Water table 9:30 PM (Lane 4): Riverview/Spring Garden outages still listed, past estimates; Closures and Advisories sections now empty (Taylor Ave and Riverview-near-Chambers closures not posted; not resolved, Metro #18 still active, KMOV still reports Riverview closed); Thekla and Whittier rolled off repair list (Metro #41/#42 still active); routine hydrant repair 5001 Delmar 10/28 noted, not tracked. Unchanged: Jolley/Cupples II order to 10/31 4 PM; Jolley sewer repair to 11/6; ILAW 142922 boil order not lifted; WashU Alert none; MAW boil page none. Gaps: Lane 1 got stale 2014 cache of wateroos.php; MAW index script-loaded; MSD, Kirkwood, Forest Park Forever, MoDOT, BJC, Cortex not reached; Reddit search rejected.",
+    "open_count": 27,
+    "run_at": "2026-10-31T02:32:00Z",
+    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) in effect until Sat 10/31 4 PM, no change (impact confirmed). MAW main break Richmond Heights (alert 143300, no street, ~22 hr past estimate) still posted; impact possible (low)."
   },
   "incidents": [
     {
@@ -198,11 +198,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 8:36 PM CT 10/30 (Lane 1 only): MAW alert 143416, main-break investigation; customers may see low or no pressure; no start time, estimate or street. Separate from tracked Creve Coeur 142752. ~5 mi W of Danforth and West Campus; different MAW pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No boil advisory (MAW boil page none; MO DNR none local). No news or social corroboration (Lanes 2-4). Monitor; resolve when dropped from MAW index. Owner: Emergency Management (track only).",
+      "assessment": "Updated 9:32 PM CT 10/30 (Lane 1): MAW alert 143416 title changed from Investigation to Main Break; body text unchanged, no street, times or estimate. Separate from tracked 142752. ~5 mi W of Danforth and West Campus; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No boil advisory. No corroboration (Lanes 2-4). Monitor; resolve when dropped from MAW index. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-10-31T01:36:00Z",
       "id": "maw-crevecoeur-investigation-20261030",
-      "last_updated": "2026-10-31T01:36:00Z",
+      "last_updated": "2026-10-31T02:32:00Z",
       "location": "Creve Coeur, MO (street not published by utility)",
       "ring": 2,
       "single_source": true,
@@ -210,7 +210,7 @@
         "https://alertsdetail.awapps.com/alert/143416"
       ],
       "status": "open",
-      "title": "Missouri American Water main-break investigation, Creve Coeur — possible low/no pressure (alert 143416)",
+      "title": "Missouri American Water main break, Creve Coeur — confirmed from investigation (alert 143416)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -543,17 +543,16 @@
         "South Campus",
         "West Campus"
       ],
-      "assessment": "Updated 8:36 PM CT 10/30 (Lanes 1 and 4): MAW alert 143300 still posted (main break, Richmond Heights, began 10/29 4:45 PM CT, ~6 hr estimate); still no street, end time, update or boil advisory. Lane 4 found a Hoodline headline (Oct 2026 URL) on a Richmond Heights main break with water shooting over trees, and an undated Richmond Heights PD Nextdoor post; neither loaded, so date, street and state are unconfirmed and not adopted. Richmond Heights borders Clayton; South Campus (6501 Clayton Rd) on or near the line, West Campus ~1-2 mi (estimate); same MAW system, pressure zone unknown. No WashU Alert or Facilities notice (Lane 3). Impact possible (low). Action: Facilities confirm no pressure or discoloration complaints at South Campus and West Campus; flush if discolored. EM monitor; resolve when dropped from MAW index or completion posted. Owner: Facilities / Emergency Management.",
+      "assessment": "Updated 9:32 PM CT 10/30 (Lanes 1, 2, 4): MAW alert 143300 still active (main break began 10/29 4:45 PM CT, ~6 hr estimate, now ~22 hr overdue); no street, update time or boil advisory; discolored water, low or no pressure possible. Source correction: the Hoodline 'water shooting over trees' story matches a 10/27 Cleveland Water break on Pleasant Trail, Richmond Heights, OHIO (Cleveland19, FOX 8); removed as evidence. Richmond Heights PD Nextdoor post likely old (low post ID), unverified. No WashU Alert or Facilities notice (Lane 3). South Campus (6501 Clayton Rd) on or near the Richmond Heights line, West Campus ~1-2 mi (estimate); pressure zone unknown. Impact possible (low). Action: Facilities confirm no pressure or discoloration complaints at South Campus and West Campus; flush if discolored. EM monitor; resolve when dropped from MAW index or completion posted. Owner: Facilities / Emergency Management.",
       "confidence": "Medium",
       "first_seen": "2026-10-30T23:40:00Z",
       "id": "maw-richmondheights-unlocated-20261029",
-      "last_updated": "2026-10-31T01:36:00Z",
+      "last_updated": "2026-10-31T02:32:00Z",
       "location": "Richmond Heights, MO (street not published by utility)",
       "ring": 1,
       "single_source": true,
       "sources": [
-        "https://alertsdetail.awapps.com/alert/143300",
-        "https://hoodline.com/2026/10/water-main-bursts-in-richmond-heights-sends-water-shooting-over-trees/ (unloadable, unverified)"
+        "https://alertsdetail.awapps.com/alert/143300"
       ],
       "status": "open",
       "title": "Missouri American Water main break, Richmond Heights — emergency repairs (alert 143300)",
@@ -791,6 +790,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, 'Saint Louis County' (municipality unspecified) — emergency repairs (alert 142767)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 9:32 PM CT 10/30 (Lane 1 only): MAW alert 143422, reported main break being located; customers may see low pressure, discolored water or no water; no street, start time or estimate; no boil advisory (MAW boil page none). South County, not adjacent to any campus; no WashU asset identified; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2-4). Monitor; resolve when dropped from MAW index. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-10-31T02:32:00Z",
+      "id": "maw-unincsouthcounty-investigation-20261030",
+      "last_updated": "2026-10-31T02:32:00Z",
+      "location": "Unincorporated south St. Louis County, MO (street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/143422"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main-break investigation, unincorporated south St. Louis County — possible low/no pressure (alert 143422)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
