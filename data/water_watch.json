@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "5:40 PM CT 10/31 run (four lanes). No new incidents, no status changes. Jolley/Cupples notice re-opened: unchanged, no lift; Facilities index has no newer post (contact: Utility Operations). MAW: all tracked IDs still load as active, no updates; highest live ID 143424 (out of region); MAW boil page none; MO DNR none in St. Louis City/County or adjacent counties. City Water table (Lane 4, stamped 5:30 PM 10/31): Riverview Dr & Spring Garden Dr outages still active (~22 hr past estimates); Ivanhoe, N Broadway, Tesson, Riverview & Chambers repairs still listed; Oct 31 hydrant repair orders on Fyler Ave (6029, 6201, 6319) and 3279 Hampton (context only, not adopted). Lane 1 and Lane 2 saw stale/cached City pages. Metro #18 and #42 windows end 10/31, no extension; #41 to 11/6. WashU Alert none. News and social: nothing new dated 10/30-31. Gaps: Reddit blocked; MAW index JS-rendered; MSD, Kirkwood, BJC, Cortex, Forest Park Forever, MoDOT, Illinois American 142922 not checked.",
-    "open_count": 27,
-    "run_at": "2026-10-31T22:40:00Z",
-    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) still shows no lift or extension 1.5 hr past its 4 PM 10/31 end; treat as still in effect (impact confirmed). MAW Richmond Heights main break 143300 still posted, no street; impact possible (low)."
+    "note": "6:40 PM CT 10/31 run (four lanes). No new incidents. Closed two City Water repairs under the 48-hour rule: Tesson & Germania, and N Broadway & Buchanan. City Water table (stamped 6:30 PM): only the two Riverview Dr & Spring Garden outages are active, both ~23 hr past their estimates; Ivanhoe and Riverview & Chambers repairs appear only in repair history. MAW: 143300, 143412, 143416 and 143422 still active. No new St. Louis County alert IDs; 143423 is in PA and 143424 in WV. MAW boil page shows none. MO DNR shows nothing for St. Louis City/County or adjacent counties. Jolley/Cupples: no lift, no newer Facilities post. Metro #18 and #42 still listed with windows ending 10/31; #41 runs to 11/6. WashU Alert: none. News and social: nothing dated 10/30-31; emergency.washu.edu/?p=26742 is a re-saved 2019 Cortex One post, not current. Not checked: BJC, Cortex, Delmar Loop, Forest Park Forever, MoDOT, municipal pages, Illinois American 142922, and the other MAW IDs (not re-opened).",
+    "open_count": 25,
+    "run_at": "2026-10-31T23:40:00Z",
+    "top_incident": "The WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) is 2.5 hr past its 4 PM 10/31 end time with no lift or extension posted; treat it as still in effect (impact confirmed). MAW Richmond Heights main break 143300 is still posted with no street; impact possible (low)."
   },
   "incidents": [
     {
@@ -1145,18 +1145,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 1:40 PM CT 10/29 (Lanes 3 and 4, City Water table stamped 1:30 PM 10/29): main repair work order opened 12:57 PM 10/29; no service outage posted (table says no active main outages), no restoration estimate, no boil advisory. Near north riverfront, ~4-5+ mi from Medical Campus and Cortex; separate distribution area; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration. Monitor; resolve when it remains only in repair history for 48 hours with no outage. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 6:40 PM CT 10/31 under the 48-hour rule (Lane 1, City Water table stamped 6:30 PM 10/31): the 12:57 PM 10/29 main repair at N Broadway & Buchanan St has stayed only in the repair history for more than 48 hours. No service outage was ever posted for it and no boil advisory was issued. Near north riverfront, Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-10-29T18:40:00Z",
       "id": "stlwater-stlouiscity-nbroadway-20261029",
-      "last_updated": "2026-10-29T18:40:00Z",
+      "last_updated": "2026-10-31T23:40:00Z",
       "location": "N Broadway & Buchanan St, St. Louis City (near north riverfront, north of downtown)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/wateroos.php"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "City of St. Louis Water Division main repair, N Broadway & Buchanan St (near north riverfront)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -1358,18 +1358,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Location corrected 10:52 AM CT 10/29 (Lanes 1, 3, 4): the 9:28 AM 10/29 main repair on the City Water table (stamped 10:45 AM 10/29) now reads Tesson St & Germania St rather than 4647 Tesson & Alphonsus; treated as the same job re-logged (same time stamp). No service outage posted (table says no active main outages), no restoration estimate, no boil advisory. South City, ~5-7 mi from Medical Campus; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration. Monitor; resolve when it remains only in repair history for 48 hours with no outage. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 6:40 PM CT 10/31 under the 48-hour rule (Lane 1, City Water table stamped 6:30 PM 10/31): the 9:28 AM 10/29 main repair at Tesson St & Germania St has stayed only in the repair history for more than 48 hours. No service outage was ever posted for it and no boil advisory was issued. South City, Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-10-29T14:45:00Z",
       "id": "stlwater-stlouiscity-tesson-20261029",
-      "last_updated": "2026-10-29T15:52:00Z",
+      "last_updated": "2026-10-31T23:40:00Z",
       "location": "Tesson St & Germania St, St. Louis City (south City, Holly Hills / Boulevard Heights area); earlier logged as 4647 Tesson St & Alphonsus St",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/wateroos.php"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "City of St. Louis Water Division main repair, Tesson St & Germania St (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
