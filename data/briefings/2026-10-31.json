@@ -1,0 +1,196 @@
+{
+  "bluf": "Elevated for load only; no PIR threshold crossed in 24 h. Saturday stacks Family Weekend, 1 PM football, 2 PM City SC, the CWE Halloween street party on Euclid (11 AM-midnight) and Halloween night, with clocks falling back at 2 AM. IT should act today on Nov 1 CISA KEV deadlines (GitLab, Cisco ASA/FTD) and on the UNM Health ransomware lesson. Tue Nov 3 brings public polling on Danforth and Medical Campuses during 80% showers; Blue Line cutback starts Mon.",
+  "briefing_url": "https://claude.ai/artifact/PkAStoEqfTWKCb74wKs2d9",
+  "date": "2026-10-31",
+  "dissents": [
+    {
+      "note": "Moved to Today (overrules Cyber on timing); held at Sev 3 not 4 because UNM recovered and core systems were not breached.",
+      "title": "Underrated: UNM Health peer ransomware",
+      "verdict": "Partly adopted"
+    },
+    {
+      "note": "Sev 3 adopted over Public Safety's 2; four-lane convergence.",
+      "title": "Underrated: Halloween-night crowds",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "No freeze in NWS 7-day; no lane raised it.",
+      "title": "Overrated: Halloween freeze",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Funded through Dec 11; agrees with Policy lane.",
+      "title": "Overrated: federal shutdown this week",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Sev 5, Low likelihood, Low confidence; mitigated by item 4 actions.",
+      "title": "Scenario: Saturday-night intrusion meets Halloween ED surge",
+      "verdict": "Carried as dissent"
+    }
+  ],
+  "lanes_quiet": [
+    3,
+    6
+  ],
+  "lookahead": [
+    {
+      "date": "2026-10-31",
+      "dow": "Sat",
+      "loads": "Family Weekend; football 1 PM; City SC 2 PM; CWE Halloween party 11 AM-midnight; Halloween night",
+      "stacked": true,
+      "wx": "Cloudy, 72F, early sprinkles; showers after 1 AM"
+    },
+    {
+      "date": "2026-11-01",
+      "dow": "Sun",
+      "loads": "DST ends 2 AM; Family Weekend ends",
+      "stacked": false,
+      "wx": "Rain likely before 8 AM; 66F"
+    },
+    {
+      "date": "2026-11-02",
+      "dow": "Mon",
+      "loads": "Blue Line cutback begins; polling setup (inferred)",
+      "stacked": false,
+      "wx": "Cloudy, 70F, SE gusts 25 mph"
+    },
+    {
+      "date": "2026-11-03",
+      "dow": "Tue",
+      "loads": "Election Day public polling on Danforth and Medical Campuses 6 AM-7 PM; full class day; results night",
+      "stacked": true,
+      "wx": "Showers 80%, storms possible after 1 PM; 72F"
+    },
+    {
+      "date": "2026-11-04",
+      "dow": "Wed",
+      "loads": "Post-election; volleyball 7:30 PM Field House",
+      "stacked": false,
+      "wx": "Showers end early afternoon; 66F"
+    },
+    {
+      "date": "2026-11-05",
+      "dow": "Thu",
+      "loads": "College Transit Challenge, Grand MetroLink 3 PM",
+      "stacked": false,
+      "wx": "Mostly sunny, 66F"
+    },
+    {
+      "date": "2026-11-06",
+      "dow": "Fri",
+      "loads": "Nothing found",
+      "stacked": false,
+      "wx": "Mostly sunny, 65F"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "watch",
+      "summary": "No NWS products. Rain Mon night-Wed AM peaks Tue Nov 3 (80%, storms possible after 1 PM, 50-80% chance of 1 inch+); severe threat low. Facilities to check West Campus below-grade drains."
+    },
+    {
+      "name": "Life safety",
+      "pir": 2,
+      "status": "watch",
+      "summary": "No Ring 1 violent incident in 24 h. Halloween crowd load today. U City homicide Oct 25 (Ring 2). Hoax/swatting risk around Halloween and Election Day."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "quiet",
+      "summary": "Missouri measles at 18 cases in 2026, no active exposure sites; respiratory activity low. Hospital diversion status not publicly confirmable."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "watch",
+      "summary": "KEV deadlines Nov 1; UNM Health peer ransomware. MetroLink Blue Line cut back Shrewsbury-Forest Park Nov 2-Dec 23. No Ring 1 utility outages found."
+    },
+    {
+      "name": "Scheduled activity",
+      "pir": 5,
+      "status": "watch",
+      "summary": "Stacked Sat (Family Weekend, football, City SC, CWE Halloween party, Halloween night) and Tue (public polling at Athletic Complex and McDonnell Medical Sciences, 6 AM-7 PM)."
+    },
+    {
+      "name": "Policy, legal and funding",
+      "pir": 6,
+      "status": "quiet",
+      "summary": "Government funded through Dec 11. FEMA election grant conditions vacated, on appeal. Middle East advisories reissued Oct 23, levels reportedly unchanged. UVU after-action lesson."
+    }
+  ],
+  "posture": "Elevated",
+  "published_at": "2026-10-31T11:00:18Z",
+  "run_note": "Charter read OK; 7/7 lanes reported; run 05:52-06:10 CDT. Supervisor added Family Weekend and CWE Halloween street party (missed by lanes, verified from prior record). Several sources unreachable (SPC/WPC text, CISA KEV, Ameren/Spire, events.washu.edu, hospital diversion).",
+  "title": "WashU EM Daily Intelligence Briefing, October 31, 2026",
+  "today_items": [
+    {
+      "action": "Confirm coverage through 04:00 Sun incl. extra hour; patrols on Euclid, Loop, Skinker/Delmar MetroLink; coordinate SLMPD D5 and U City PD; safety reminder to students and families; check access-control clocks after 2 AM.",
+      "confidence": "Medium",
+      "likelihood": "Medium",
+      "owner": "WUPD; Medical Campus Security; Student Affairs",
+      "pir": 2,
+      "rank": 1,
+      "severity": 3,
+      "source": "https://happeningnext.com/event/cwe-halloween-party-eid3a0dxphbem",
+      "title": "Halloween night, CWE street party, Family Weekend and DST change",
+      "ttd": "Today"
+    },
+    {
+      "action": "Confirm exposure of self-hosted GitLab and perimeter ASA/FTD; patch or mitigate before Sunday.",
+      "confidence": "Medium",
+      "likelihood": "Medium",
+      "owner": "WashU IT / Information Security",
+      "pir": 4,
+      "rank": 2,
+      "severity": 3,
+      "source": "https://securityaffairs.com/202133/security/u-s-cisa-adds-gitlab-and-cisco-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+      "title": "CISA KEV: GitLab and Cisco ASA/FTD exploited flaws, federal due Nov 1",
+      "ttd": "Today"
+    },
+    {
+      "action": "Normal game-day staffing; watch I-64 egress 4-5 PM.",
+      "confidence": "Medium",
+      "likelihood": "Occurring",
+      "owner": "WUPD; Athletics",
+      "pir": 5,
+      "rank": 3,
+      "severity": 1,
+      "source": "https://washubears.com/sports/football/schedule",
+      "title": "Home football vs Denison 1 PM and City SC 2 PM",
+      "ttd": "Today"
+    },
+    {
+      "action": "Request Byod IOCs via Health-ISAC/REN-ISAC; confirm weekend SOC on-call for WashU Medicine and BJC and diversion comms path.",
+      "confidence": "Medium",
+      "likelihood": "Low",
+      "owner": "WashU IT; Medical Campus Security; EM",
+      "pir": 4,
+      "rank": 4,
+      "severity": 3,
+      "source": "https://bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries",
+      "title": "Peer ransomware at UNM Health (Oct 26), ambulance diversion",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "Halloween night stacked load: CWE street party on Euclid until midnight, Loop crowds, Family Weekend visitors, DST repeats 1-2 AM. Confirm WUPD and Medical Campus Security coverage through 04:00 Sun.",
+  "unreachable": [
+    "SPC/WPC Day 2-5 text",
+    "NWS alert APIs",
+    "AirNow St. Louis AQI",
+    "Mississippi River gauge",
+    "CISA KEV catalog",
+    "Ameren/Spire outage maps",
+    "Health-ISAC/REN-ISAC",
+    "Lambert",
+    "vendor status pages",
+    "events.washu.edu",
+    "WashU Alert archive",
+    "St. Louis County DPH",
+    "BJC/regional diversion status",
+    "travel.state.gov table (stale)"
+  ]
+}
