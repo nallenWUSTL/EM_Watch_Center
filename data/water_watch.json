@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "11:40 PM CT 10/30 run (four lanes). Nothing new. Updated: City Water Riverview/Spring Garden outages still listed on 11:30 PM table, 4-5.5 hr past estimates. Unchanged: MAW 143300 Richmond Heights active; MAW boil page none; MO DNR none in City/County (newest 10/28 Webster County); City current boil advisories none; WashU Alert none; Jolley/Cupples II order to 10/31 4 PM; Jolley sewer repair to 11/6; Metro #18 Taylor, #42 Whittier, #41 Thekla reroutes still listed (Thekla and Whittier now absent from City Water repair list, not treated as resolved). Awareness only: City hydrant repairs 10/28 at 5001 Delmar and 805 N Kingshighway (not outages). MAW 143423 is Moosic (out of region); 143424-143426, 143428 not live. Set aside: stlwater.com/?p=9725 undated boil page (stale); KSDK Penrose & Blair story unloadable, undated. Gaps: MAW index script-loaded; MSD, Kirkwood, BJC, Cortex, Forest Park Forever, MoDOT not reached; social search thin.",
+    "note": "12:40 AM CT 10/31 run (four lanes). Nothing new. Updated: City Water Riverview/Spring Garden outages still listed on 12:30 AM table, 5-6.5 hr past estimates; KMOV Riverview story dated 10/29 9:38 PM (corrected). Unchanged: MAW 143300 Richmond Heights; MO DNR none in City/County; City water news newest 8/25; WashU Alert none (last modified 10/23); Jolley/Cupples II order to 10/31 4 PM; Jolley sewer repair to 11/6; Metro #18 Taylor, #42 Whittier, #41 Thekla reroutes still posted (Thekla and Whittier absent from City Water repair list, not treated as resolved). Awareness only: City hydrant repairs 10/28 at 5001 Delmar, 805 N Kingshighway, 4800 Enright (not outages). Newest MAW IDs 143423 Moosic PA, 143424 Elkview WV (out of region); 143425-143431, 143435 blank. Gaps: MAW index and boil page script-loaded; one lane got a stale 2014 cached wateroos page; MSD, Kirkwood, BJC, Cortex, Forest Park Forever, MoDOT not reached; social search thin.",
     "open_count": 27,
-    "run_at": "2026-10-31T04:40:00Z",
-    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) in effect until Sat 10/31 4 PM, no change (impact confirmed). MAW main break Richmond Heights (alert 143300, no street, ~25 hr past estimate) still posted; impact possible (low)."
+    "run_at": "2026-10-31T05:40:00Z",
+    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) in effect until Sat 10/31 4 PM, no change (impact confirmed). MAW main break Richmond Heights (alert 143300, no street, ~30 hr past estimate) still posted; impact possible (low)."
   },
   "incidents": [
     {
@@ -1276,11 +1276,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 9:40 AM CT 10/30 (Lane 2): KMOV story updated ~8:50 AM 10/30; parts of Riverview Dr near Chambers Rd remain closed for emergency main repairs, no reopening or repair timeline; crews also working several other unnamed nearby breaks. City Water repair list dates the Riverview Dr & Chambers Rd SE work order 7:33 AM 10/27, so this is likely continued work at the same site. No service outage posted; no boil advisory. ~8-10 mi NNE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Monitor; resolve when the road reopens or the utility confirms completion. Owner: Emergency Management (track only).",
+      "assessment": "Updated 12:40 AM CT 10/31 (Lanes 1, 2): KMOV story was first posted 10/29 9:38 PM CDT (updated ~8:50 AM 10/30); parts of Riverview Dr near Chambers Rd remain closed for emergency main repairs, no reopening or repair timeline; crews also working other unnamed nearby breaks. City Water repair list still shows the Riverview Dr & Chambers Rd SE work order (7:33 AM 10/27). No boil advisory. ~8-10 mi NNE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Monitor; resolve when the road reopens or the utility confirms completion. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-10-30T03:35:00Z",
       "id": "stlwater-stlouiscity-riverview-20261029",
-      "last_updated": "2026-10-30T14:40:00Z",
+      "last_updated": "2026-10-31T05:40:00Z",
       "location": "Parts of Riverview Dr near Chambers Rd, far north St. Louis City (closed block not published)",
       "ring": 2,
       "single_source": true,
@@ -1296,11 +1296,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 11:40 PM CT 10/30 (Lanes 1, 2, 4; City Water table stamped 11:30 PM 10/30): both outages still listed Active, no new estimate. Spring Garden to ~317 ft beyond (out 12:13 PM, est 6:13 PM) now ~5.5 hr overdue; Valley Dr to Spring Garden (out 11:47 AM, est 7:47 PM) ~4 hr overdue. Likely linked to the Riverview Dr near Chambers Rd break and closure. No boil advisory (City current advisories none). ~8-10 mi NNE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Monitor; resolve when dropped from the outage table. Owner: Emergency Management (track only).",
+      "assessment": "Updated 12:40 AM CT 10/31 (Lanes 1, 2, 3; City Water table stamped 12:30 AM 10/31): both outages still listed Active with crews working, no new estimate. Spring Garden to ~317 ft beyond (out 12:13 PM, est 6:13 PM) now ~6.5 hr overdue; Valley Dr to Spring Garden (out 11:47 AM, est 7:47 PM) ~5 hr overdue. Likely linked to the Riverview Dr near Chambers Rd break and closure. No boil advisory (City news newest 8/25; MO DNR none in City/County). ~8-10 mi NNE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Monitor; resolve when dropped from the outage table. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-10-30T17:40:00Z",
       "id": "stlwater-stlouiscity-riverview-springgarden-20261030",
-      "last_updated": "2026-10-31T04:40:00Z",
+      "last_updated": "2026-10-31T05:40:00Z",
       "location": "Riverview Dr between Valley Dr and Spring Garden Dr, and Riverview Dr from Spring Garden Dr to ~317 ft beyond, far north St. Louis City near the County line",
       "ring": 2,
       "single_source": true,
