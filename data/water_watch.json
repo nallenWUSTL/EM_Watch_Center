@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "4:32 PM CST 11/1 run (four lanes): no new incidents, no status changes. City Water wateroos.php stamped 4:30 PM 11/1: both Riverview Dr outages still active (~2 days past estimates); Ivanhoe and Riverview & Chambers in repair history; 11/1 work orders are routine hydrant repairs (Hampton, Hancock, S Tucker & Clark, Fyler, Watson), no outages, not recorded. MAW index and boil page unreadable; spot-checked 143300, 143412, 143416, 143422, 143504 still posted; 143489 Shrewsbury and 143502 Bridgeton leak investigations still posted, untracked; probe 143505-143525 found nothing local. MO DNR: none in City/County. Metro #41 Thekla reroute still posted to 11/6; no #18 or #42 alerts. WashU Alert none (last mod 10/23); Med Campus Facilities: AHU/electrical only. News/social: nothing dated 10/31-11/1; Reddit blocked; FOX 2 index stale. Not checked: MSD, Kirkwood, BJC, Cortex, Delmar Loop, Forest Park Forever, MoDOT, municipal pages.",
+    "note": "5:33 PM CST 11/1 run (four lanes): no new incidents, no status changes. City Water wateroos.php stamped 5:30 PM 11/1: both Riverview Dr outages still active (~46 hr past estimates); Ivanhoe and Riverview & Chambers in repair history; new 11/1 entries are routine hydrant repairs only. MAW: 143300 Richmond Heights and 143504 Des Peres still posted, no updates; 143502 Bridgeton investigation still posted, untracked; probes 143505-143520 empty; boil page none. MO DNR: none in City/County (newest 10/28 Webster County). Metro #41 Thekla reroute still posted to 11/6; #18 and #42 gone. WashU Alert none; Med Campus Facilities HVAC/electrical only. News/social: nothing dated 10/31-11/1. Discarded: undated stlwater.com boil-advisory page (matches Aug 2026 Chain of Rocks event, reported lifted); FOX 2 Page Blvd closure headline (unloadable, undated); 2019 Cortex One notice. Context: MetroLink Blue Line cut-back 11/2-12/23 (not water).",
     "open_count": 26,
-    "run_at": "2026-11-01T22:40:00Z",
-    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) still unlifted ~24.5 hr past its 10/31 4 PM end; notice and Facilities news unchanged as of ~4:35 PM 11/1. Lift may go to KMCs only under EPO's new process. Confirm with Utility Operations (D. Baca, listed on notice) before Monday 11/2 occupancy."
+    "run_at": "2026-11-01T23:40:00Z",
+    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) still unlifted ~25.5 hr past its 10/31 4 PM end; notice and Facilities news index unchanged as of ~5:35 PM 11/1. Confirm with Utility Operations (D. Baca, 314-518-2424, listed on notice) before Monday 11/2 occupancy."
   },
   "incidents": [
     {
