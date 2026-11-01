@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "11:32 PM CT 10/31 run (four lanes). No new incidents and no status changes. City Water table (stamped 11:30 PM 10/31): only the two Riverview Dr & Spring Garden outages active (~28 hr past estimates); Ivanhoe/Marmaduke still on repair list; newest work orders still the five 10/31 hydrant jobs, no outages. MAW detail pages 143300, 143411, 143412, 143416, 143422 still active; 143417-143424 out of state; 143425-143427 not yet issued; MAW index and boil pages loaded empty (not confirmation). MO DNR: nothing for St. Louis City/County (newest record 10/28, Webster County). Metro #18 Taylor and #42 Whittier still posted (windows 10/31, 'until further notice'); #41 Thekla to 11/6. Context: MetroLink Blue Line cut back to Shrewsbury-Forest Park-DeBaliviere 11/2-12/23 (not water). Facilities notes EPO-Danforth changes outage-notice channel starting 11/1, so web posts may thin. WashU Alert: none (last modified 10/23). Facilities news newest 10/29. Med Campus Facilities: no water notices. stlwater.com/?p=9725 'Boil Advisory Currently In Effect' page is undated and matches the Aug 17 2026 advisory; treated as stale. News: nothing dated 10/31-11/1; KSDK local and FOX 2 index unreadable. Social: nothing dated 10/31-11/1. Not checked: MSD, Kirkwood, BJC/Cortex/Delmar/Forest Park pages directly, other tracked MAW IDs.",
+    "note": "12:32 AM CT 11/1 run (four lanes). No new incidents. Updates: Taylor Ave (Metro #18 alert gone, City closures table empty) and Whittier & Maffitt (Metro #42 alert gone), both kept open pending confirmation. City Water table 12:30 AM 11/1: Riverview Dr / Spring Garden outages still active (~29 hr past estimates); Ivanhoe/Marmaduke and Riverview & Chambers on repair list. Metro #41 Thekla still posted to 11/6. MAW 143300 Richmond Heights and 143422 unchanged; 143425-143432, 143435 not issued; MAW index page rendered empty. MO DNR: nothing for St. Louis City/County (newest 10/28, Webster County). WashU Alert none (last modified 10/23); Facilities news newest 10/29; Med Campus Facilities no water notices (11/1 South Building AHU shutdown, not water). News/social: nothing dated 10/31-11/1; undated KSDK north City intersection break video (possibly Friday 10/30) not logged. Not checked: MSD, Kirkwood, MAW boil page, Illinois American 142922, BJC/Cortex/Delmar/Forest Park, municipal pages.",
     "open_count": 25,
-    "run_at": "2026-11-01T04:40:00Z",
-    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) is ~7.5 hr past its 4 PM 10/31 end time; notice unchanged since 10/29, no lift or extension posted, so treat as still in effect (impact confirmed). Contact: Utility Operations. MAW Richmond Heights 143300 still active with no street or completion; impact possible (low)."
+    "run_at": "2026-11-01T05:40:00Z",
+    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) is ~8.5 hr past its 4 PM 10/31 end time; notice unchanged, no lift or extension posted, so treat as still in effect (impact confirmed). Metro #18 Taylor Ave reroute (Medical Campus corridor) no longer posted; closure likely ended, unconfirmed."
   },
   "incidents": [
     {
@@ -1338,11 +1338,11 @@
       "affected_assets": [
         "Medical Campus"
       ],
-      "assessment": "Reclassified 10:40 AM CT 10/26 (Lane 3, verified by supervisor on Metro rider alerts): Metro attributes the #18 Taylor reroute to a street closure by the STL City Water Division on Taylor between W Pine and Laclede, effective 10/1 as needed until further notice (alert window to 10/31). Earlier runs logged this as a non-water closure. Ring 1, on the Medical Campus / BJC corridor (~0.1-0.3 mi). No service outage on the City Water table (10:30 AM stamp: no active main outages), no boil advisory, no WashU Facilities shutoff notice; nature of work (main repair vs. planned replacement) not published. Possible impacts: vehicle, shuttle, delivery and emergency access on Taylor; possible short planned shutoffs to adjacent Medical Campus buildings. A separate #18 heavy-equipment alert on Taylor between Maryland and Lindell (10/19-10/31) gives no reason. Action: Medical Campus Ops / Facilities confirm with City Water whether any planned shutoffs or fire-line impacts affect Medical Campus buildings; EM monitor. Single-source (transit notice).",
+      "assessment": "Updated 12:40 AM CT 11/1 (Lanes 1 and 3): Metro #18 Taylor reroute alert no longer posted on rider alerts after its 10/31 window, and the City Water table (stamped 12:30 AM 11/1) lists no street closures. Suggests the Taylor Ave W Pine–Laclede closure has ended, but neither City Water nor Metro states the work is complete. No service outage, boil advisory or Medical Campus Facilities water notice. Ring 1, Medical Campus / BJC corridor. Impact still possible (low), likely ending. Action: Medical Campus Ops confirm Taylor is open and no planned shutoffs remain; EM resolve on confirmation. Single-source per item.",
       "confidence": "Medium",
       "first_seen": "2026-10-26T15:40:00Z",
       "id": "stlwater-stlouiscity-taylor-20261001",
-      "last_updated": "2026-10-26T15:45:00Z",
+      "last_updated": "2026-11-01T05:40:00Z",
       "location": "Taylor Ave between W Pine Blvd and Laclede Ave, St. Louis City (Central West End, Medical Campus corridor)",
       "ring": 1,
       "single_source": true,
@@ -1413,11 +1413,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Reclassified 10:40 AM CT 10/26 (Lane 3, verified by supervisor): Metro attributes the #42 Sarah reroute to a water main break on Whittier at Maffitt, effective 10/9 until further notice (window to 10/31). Not on the City Water active outage table; no boil advisory. ~2-2.5 mi N of Medical and North Campus; no WashU asset; no Ring 1 corridor. Impact none. Single-source (transit notice). Monitor; resolve when the reroute ends. Owner: Emergency Management (track only).",
+      "assessment": "Updated 12:40 AM CT 11/1 (Lanes 1 and 3): Metro #42 Sarah reroute alert for Whittier at Maffitt no longer posted after its 10/31 window; not on the City Water table (12:30 AM 11/1 stamp). Suggests the reroute ended; repair completion not stated. No boil advisory. Ring 2; no WashU asset; impact none. Resolve when a source confirms completion. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-10-26T15:40:00Z",
       "id": "stlwater-stlouiscity-whittier-20261009",
-      "last_updated": "2026-10-26T15:45:00Z",
+      "last_updated": "2026-11-01T05:40:00Z",
       "location": "Whittier St at Maffitt Ave, St. Louis City (The Ville / Greater Ville, north City); Metro spells it 'Whitter'",
       "ring": 2,
       "single_source": true,
