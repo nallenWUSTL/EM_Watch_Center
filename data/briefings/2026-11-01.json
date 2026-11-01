@@ -1,0 +1,176 @@
+{
+  "bluf": "Posture Normal; nothing meets a charter threshold this morning. Today's decision is Tuesday's Election Day load: two public polling places on Danforth and Medical Campus, an all-day outdoor event, near-certain rain with gusts, and possible Amendment 3 results-night reaction. Watch items this week: UNM Health peer ransomware, early H1N1-driven flu season, pending WUPD hate-crime intimidation report at Simon Hall.",
+  "briefing_url": "https://claude.ai/artifact/5L3hXSh1i24qRDzWndqxeb",
+  "date": "2026-11-01",
+  "dissents": [
+    {
+      "note": "Raised to Today, Sev 3; overrules Events (Sev 2) and Public Safety (Monitor).",
+      "title": "Election Day underrated",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Held at Sev 3 This week with Cyber lane; contained in under a day, core servers untouched. Dissent carried.",
+      "title": "UNM Health ransomware spillover (Red Team Sev 4)",
+      "verdict": "dissent"
+    },
+    {
+      "note": "CR through Dec 11; Monitor.",
+      "title": "Shutdown risk overrated",
+      "verdict": "adopted"
+    },
+    {
+      "note": "No verified Ring 1 violent incident.",
+      "title": "Post-Halloween/DST threat overrated",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Sev 4, Low. Covered by a staffing check in Decision item 1 rather than a tabletop.",
+      "title": "Scenario: split response Tue night (crowds + hospital cyber diversion)",
+      "verdict": "carried"
+    }
+  ],
+  "lanes_quiet": [
+    3,
+    6
+  ],
+  "lookahead": [
+    {
+      "date": "2026-11-01",
+      "dow": "Sun",
+      "loads": "Family Weekend ends/departures; Wind Ensemble 3 PM; standard time begins",
+      "stacked": true,
+      "wx": "Showers end ~11 AM, 61F"
+    },
+    {
+      "date": "2026-11-02",
+      "dow": "Mon",
+      "loads": "Polling site setup; SLU at Chaifetz 7 PM; Winter Weather Prep Week",
+      "stacked": false,
+      "wx": "Dry, 71F, gusts 24 mph; rain after midnight"
+    },
+    {
+      "date": "2026-11-03",
+      "dow": "Tue",
+      "loads": "PEAK: Election Day, two campus polling sites 6 AM-7 PM+, Party at the Polls, results night (Amendment 3)",
+      "stacked": true,
+      "wx": "Rain 90%, PM thunder possible, gusts 15-30 mph, 73F"
+    },
+    {
+      "date": "2026-11-04",
+      "dow": "Wed",
+      "loads": "Post-election reaction; Civic Cafe 5:30 PM; three Loop concerts; Jodeci at Stifel",
+      "stacked": true,
+      "wx": "AM showers 30%, rounds possible, 68F"
+    },
+    {
+      "date": "2026-11-05",
+      "dow": "Thu",
+      "loads": "Underoath at The Pageant",
+      "stacked": false,
+      "wx": "Partly sunny, 67F"
+    },
+    {
+      "date": "2026-11-06",
+      "dow": "Fri",
+      "loads": "Research Symposium 10 AM; Mizzou vs SLU at Enterprise Center 6 PM",
+      "stacked": true,
+      "wx": "Partly sunny, 65F"
+    },
+    {
+      "date": "2026-11-07",
+      "dow": "Sat",
+      "loads": "Football away; Three Days Grace at Enterprise Center 7 PM",
+      "stacked": false,
+      "wx": "Mostly sunny, 66F"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "watch",
+      "summary": "No NWS products for St. Louis. Front Tue Nov 3: rain 90%, gusts 15-30 mph, severe/flood <10%. 6200 Forsyth crane wind check by Mon PM. No quakes, no red flag at Tyson."
+    },
+    {
+      "name": "Life-safety threats",
+      "pir": 2,
+      "status": "watch",
+      "summary": "No Ring 1 violent incident Oct 30-Nov 1; no threat naming WashU; no permitted Nov 3-4 demonstrations found (low confidence). Simon Hall hate-crime intimidation report Oct 27 pending. Peer bomb threats at baseline."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "watch",
+      "summary": "Nothing at threshold. National flu early, 7.6% positivity, H1N1-dominant; Region 7 stable. Measles in SW/central Missouri only. Recommend residence-hall flu messaging."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "watch",
+      "summary": "No Ring 1 outages or CISA directive found (low-medium confidence; many feeds unreachable). UNM Health ransomware Oct 26 (verified): 2h diversion, cancellations; Byod group. Confirm BJC/IT awareness."
+    },
+    {
+      "name": "Scheduled activity",
+      "pir": 5,
+      "status": "active",
+      "summary": "Nov 3 peak: two WashU polling sites and Party at the Polls. No Ring 1 event over 5,000; no home football or Blues games. Mizzou-SLU at Enterprise Center Fri Nov 6."
+    },
+    {
+      "name": "Policy, legal, funding",
+      "pir": 6,
+      "status": "quiet",
+      "summary": "CR funds government through Dec 11. FEMA GO drawdown freeze late Nov (single source). China advisory stays Level 2. Amendment 3 outcome affects WashU Medicine clinical practice."
+    }
+  ],
+  "posture": "Normal",
+  "published_at": "2026-11-01T11:58:00Z",
+  "run_note": "Charter read (rev 10). All 7 lanes reported by 05:56 CT; supervisor verified the UNM Health ransomware item and WashU polling sites against primary sources; published ~05:58 CT. Many live infrastructure feeds unreachable, so PIR 4 negative is Low-Medium confidence.",
+  "title": "WashU EM Daily Intelligence Briefing, November 1, 2026",
+  "today_items": [
+    {
+      "action": "Confirm WUPD and Medical Campus Security coverage at both sites 6 AM to close and election-night coverage South 40/Loop/CWE Tue-Wed; rain plan for Party at the Polls; Communications pre-stage rain/parking/lines message by Mon PM.",
+      "confidence": "High",
+      "likelihood": "High (loads) / Medium (disruption)",
+      "owner": "EM; WUPD; Medical Campus Security; Student Affairs (Gephardt); Communications",
+      "pir": 5,
+      "rank": 1,
+      "severity": 3,
+      "source": "https://source.washu.edu/2026/10/washu-to-host-two-polling-places-2/",
+      "title": "Election Day load on two campuses, Tue Nov 3 (polling, Party at the Polls, rain, Amendment 3)",
+      "ttd": "Today"
+    },
+    {
+      "action": "Routine departure traffic support; pedestrian-visibility reminder for first dark evening commute Monday.",
+      "confidence": "Medium",
+      "likelihood": "Occurring",
+      "owner": "Student Affairs; WUPD",
+      "pir": 5,
+      "rank": 2,
+      "severity": 1,
+      "source": "https://families.washu.edu/event-category/parent-family-weekend",
+      "title": "Parent & Family Weekend departures on first day of standard time",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "Election Day Tue Nov 3: public polling at Athletic Complex and McDonnell Medical Sciences 6 AM-7 PM+, outdoor Party at the Polls, 90% rain with 15-30 mph gusts, Amendment 3 results-night reaction. Confirm WUPD/MCS coverage and rain plan today.",
+  "unreachable": [
+    "cisa.gov KEV (403)",
+    "REN-ISAC / Health-ISAC",
+    "BleepingComputer",
+    "Ameren/Spire outage maps",
+    "Metro Transit alerts",
+    "MoDOT work zones",
+    "Lambert status",
+    "Vendor status pages",
+    "SPC/WPC (stale cache)",
+    "api.weather.gov",
+    "NOAA Mississippi gauge",
+    "AirNow",
+    "St. Louis City week 42 flu PDF",
+    "CDC wastewater tabs",
+    "MO DHSS dashboards",
+    "WUPD daily log (stale after Oct 16)",
+    "KSDK / FOX 2",
+    "Post-Dispatch (paywall)"
+  ]
+}
