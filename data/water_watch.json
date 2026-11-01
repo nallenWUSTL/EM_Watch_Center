@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "10:33 AM CST 11/1 run (four lanes). One new item: MAW 143504 Des Peres, Dougherty View Ct (10/31 9:30 PM, Ring 2, impact none). MAW 143502 'Bridgeton' and 143489 'Shrewsbury' leak investigations not recorded: no state or street on the alert pages, and both town names also exist in NJ American Water territory; if Shrewsbury MO, ~3-4 mi S of South Campus. City Water wateroos.php stamped 10:00 AM 11/1: Riverview Valley-Spring Garden and Spring Garden-317 ft outages still active ~39 hr past estimates; no street closures listed (Taylor and Riverview/Chambers absent, completion unconfirmed); Ivanhoe & Marmaduke still in repair list; new hydrant work orders only (6217 Hancock, S Tucker & Clark, Fyler Ave, Hampton, Watson; not main breaks). No City advisories. MAW 143300 Richmond Heights unchanged; ILAW 142922 no lift. MO DNR none in St. Louis City/County (newest 10/28). Metro #41 Thekla reroute still posted to 11/6; #18/#42 none. WashU Alert none (last mod 10/23). Med Campus Facilities: no water notices. News/social: nothing dated 10/31-11/1; unopened FOX 2 'north St. Louis' main-break video of unknown date not adopted. Not checked: MSD, Kirkwood, BJC, Cortex, Delmar Loop, Forest Park Forever, MoDOT.",
+    "note": "11:35 AM CST 11/1 run (four lanes): no new incidents. City Water wateroos.php (11:30 AM stamp, Lane 4): Riverview Valley–Spring Garden and Spring Garden–317 ft outages still listed ~40 hr past estimates; Ivanhoe & Marmaduke still in repair list; only hydrant work orders new (Hancock, Fyler, Hampton, Watson, S Tucker & Clark). Lane 1 fetch of wateroos returned a stale 2014 snapshot and the MAW index returned no entries (script-loaded), so MAW drop-offs not assessed this run. MAW detail pages: 143300 Richmond Heights, 143412, 143416, 143422, 143355, 143504 still posted; no IDs found above 143504. 143502 Bridgeton / 143489 Shrewsbury still unplaced (state unconfirmed), not recorded. MAW 140112 University City investigation surfaced by Lane 4 has blank dates and a far older ID; treated as stale, not recorded. MAW boil page none; MO DNR none in St. Louis City/County (newest 10/28). ILAW 142922 no lift. Metro #41 Thekla reroute to 11/6; #18/#42 none. WashU Alert none; Med Campus Facilities no water notices. News/social: nothing dated 10/31–11/1 (Reddit, Nextdoor blocked). Not checked: MSD, Kirkwood, BJC, Cortex, Delmar Loop, Forest Park Forever, MoDOT.",
     "open_count": 26,
-    "run_at": "2026-11-01T16:40:00Z",
-    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) still unchanged ~18.5 hr past its 4 PM 10/31 end time; no lift, extension or all-clear posted (Facilities news newest 10/29). Treat as still in effect (impact confirmed). Confirm with EPO Utility Operations before Monday 11/2 occupancy."
+    "run_at": "2026-11-01T17:45:00Z",
+    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) still unlifted ~20 hr past its 10/31 4 PM end; new Nov 1 KMC-only notice process means a lift may not post publicly. Confirm with Utility Operations before Monday 11/2 occupancy."
   },
   "incidents": [
     {
@@ -1453,18 +1453,19 @@
         "Danforth Campus — Jolley Hall",
         "Danforth Campus — Cupples II Hall"
       ],
-      "assessment": "Updated 4:40 PM CT 10/31 (Lane 3, Facilities pages opened ~4:35 PM): the posted end time (Sat 10/31 4:00 PM) has passed, but the notice is unchanged, with no lift, restoration or extension posted; Facilities news index shows no newer water post. Related emergency sewer line repair at Jolley Hall north entrance runs to Fri 11/6 5 PM (EPO Plumbing), so extension is plausible; link still not stated. No WashU Alert. Treat order as still in effect until Facilities clears the buildings. Impact confirmed for Jolley and Cupples II (restrooms, sinks, fountains, any lab sinks/eyewash/emergency showers). Action: Facilities / Utility Operations confirm whether water is restored or the order is extended and post it; EH&S confirm eyewash/shower coverage and lab restrictions before Monday 11/2 occupancy; EM close when cleared. Single-source (Facilities).",
+      "assessment": "Updated 11:45 AM CT 11/1 (Lane 3, Facilities pages reopened): still no lift, extension or all-clear posted ~20 hr after the 10/31 4:00 PM end time; Facilities news index has nothing after 10/29. Related Jolley north entrance emergency sewer repair still runs to Fri 11/6 5 PM; link not stated. New context: EPO-Danforth announced (10/15) a new outage-notice process starting Nov 1 routed through departmental Key Management Contacts, so a lift may reach KMCs only and never appear publicly. No WashU Alert. Treat order as still in effect. Impact confirmed for Jolley and Cupples II (restrooms, sinks, fountains, lab sinks/eyewash/showers). Action: EM or the engineering KMC confirm status directly with Utility Operations (contact listed on notice) before Monday 11/2 occupancy; EH&S confirm eyewash/shower coverage and lab restrictions; close when cleared. Single-source (Facilities).",
       "confidence": "High",
       "first_seen": "2026-10-30T19:45:00Z",
       "id": "washufacilities-danforth-jolleyhall-20261029",
-      "last_updated": "2026-10-31T21:40:00Z",
+      "last_updated": "2026-11-01T17:45:00Z",
       "location": "Jolley Hall and Cupples II Hall, Danforth Campus (engineering quad), St. Louis City/County line",
       "ring": 1,
       "single_source": true,
       "sources": [
         "https://facilities.wustl.edu/10-29-10-31-jolley-hall-and-cupples-ii-hall-no-water-use/",
         "https://facilities.wustl.edu/10-28-11-6-jolley-hall-north-entrance-closure-emergency-sewer-line-repair/",
-        "https://facilities.wustl.edu/news/"
+        "https://facilities.wustl.edu/news/",
+        "https://facilities.wustl.edu/sign-up-to-become-a-key-management-contact-kmc/"
       ],
       "status": "open",
       "title": "WashU Facilities no-water-use order, Jolley Hall and Cupples II Hall (Danforth Campus)",
