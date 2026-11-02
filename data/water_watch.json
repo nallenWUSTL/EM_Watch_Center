@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "2:40 PM CST 11/2 run (four lanes): one new Ring 2 item, City Water main repair at Itaska & Clifton (opened 2:07 PM, no outage posted, impact none). City Water table (2:30 PM stamp) otherwise unchanged: 4 active outages, Riverview Dr Chambers-Spring Garden (est. 11:15 PM), Branch St (est. 4:10 PM) and Blair/Buchanan (est. 4:08 PM), N Broadway Convention Plaza-Carr (est. 11/6); Marcus & Cupples and Ivanhoe & Marmaduke still in repair list. MAW 143504 still active; probes 143505-143506 empty; MAW index and boil page unreadable. City water news nothing after 8/25; no boil advisory found. WashU Alert none; Facilities news nothing after 10/29; Jolley/Cupples II page unchanged; Med Campus Facilities no water notice. Metro #18 Taylor still 'heavy equipment'; #41 Thekla through 11/6. No dated 11/1-11/2 news or social reports. Not reached: MSD, Kirkwood, MO DNR, municipal pages, BJC, Cortex, Forest Park Forever, MoDOT; KSDK and FOX 2 pages failed to load.",
+    "note": "3:40 PM CST 11/2 run (four lanes): Itaska & Clifton repair escalated to two posted City Water outages, Itaska St (Tennessee–Grand) and Tennessee Ave (Taft–Itaska), out 1:30 PM, est. 9:30 PM; Ring 2, impact none. City Water table (3:30 PM stamp, supervisor-verified) otherwise unchanged: Riverview Chambers–Spring Garden (est. 11:15 PM), Branch/Blair (est. 4:10 PM) and Blair/Buchanan (est. 4:08 PM) still listed, N Broadway Convention–Carr (est. 11/6). MAW index JS-rendered and probes 143505-143522 empty; boil page unreadable; no new MAW items found. No boil advisory found in City/County. WashU Alert none; Facilities news nothing after 10/29; Jolley/Cupples II page unchanged; Med Campus Facilities no water notice. Metro #18 Taylor ('heavy equipment') and #41 Thekla unchanged. No dated 11/1-11/2 news or social reports; Clayton Nextdoor/Yahoo leads are old archives already logged. Non-water context: MetroLink Blue Line cut back to Shrewsbury–Forest Park-DeBaliviere 11/2–12/23. Not reached: MSD, Kirkwood, MO DNR, municipal pages, BJC, Cortex, Forest Park Forever.",
     "open_count": 30,
-    "run_at": "2026-11-02T20:40:00Z",
-    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) still shows no lift or extension ~47 hr past its 10/31 4 PM end (re-checked 2:35 PM 11/2, unchanged; KMC-only notice process from 11/1 may hide the lift). Confirm with EPO Utility Operations (David Baca); EH&S confirm eyewash/shower coverage."
+    "run_at": "2026-11-02T21:40:00Z",
+    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) still shows no lift or extension ~48 hr past its 10/31 4 PM end (re-checked 3:35 PM 11/2, unchanged; KMC-only notice process from 11/1 may hide the lift). Confirm with EPO Utility Operations; EH&S confirm eyewash/shower coverage."
   },
   "incidents": [
     {
@@ -1087,19 +1087,20 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 2:40 PM CT 11/2 (Lanes 1 and 4, City Water table stamped 2:30 PM): main repair work order opened 2:07 PM 11/2; no service outage or restoration estimate posted; no boil advisory (City water news nothing after 8/25). Roughly 3-4 mi SE of South Campus (estimate, not measured); no WashU asset; not on a Ring 1 corridor. Impact none. No news or social corroboration. Monitor; escalate if an outage is posted; resolve after 48 hours in repair history with no outage. Owner: Emergency Management (track only).",
+      "assessment": "Updated 3:40 PM CT 11/2 (Lane 1, verified by supervisor on City Water table stamped 3:30 PM 11/2): two service outages now posted, Itaska St (Tennessee–Grand) and Tennessee Ave (Taft–Itaska), both out 1:30 PM 11/2, est. restoration 9:30 PM 11/2. Link to the 2:07 PM Itaska & Clifton repair order is inferred from street names, not stated by the utility. No boil advisory (City water news nothing after 8/25; no City/County boil orders found). ~4 mi SE of Medical Campus (estimate); no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2 and 4). Monitor; resolve when outages drop from the table. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-02T20:40:00Z",
       "id": "stlwater-stlouiscity-itaska-clifton-20261102",
-      "last_updated": "2026-11-02T20:40:00Z",
-      "location": "Itaska Dr/St & Clifton Ave, St. Louis City (south City; neighborhood inferred from street names, not stated by utility)",
+      "last_updated": "2026-11-02T21:40:00Z",
+      "location": "Itaska St between Tennessee Ave and Grand Blvd, and Tennessee Ave between Taft Ave and Itaska St; repair work order at Itaska & Clifton, St. Louis City (Dutchtown / Gravois Park area, south City)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/wateroos.php?t=20261102"
+        "https://www.stlwater.com/wateroos.php?t=20261102",
+        "https://www.stlwater.com/wateroos.php"
       ],
       "status": "open",
-      "title": "City of St. Louis Water Division main repair, Itaska St & Clifton Ave (south City)",
+      "title": "City of St. Louis Water Division main repair and service outages, Itaska St / Tennessee Ave / Clifton (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
