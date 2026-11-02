@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "5:33 AM CST 11/2 run (four lanes): no new incidents. City Water wateroos.php stamped 5:30 AM 11/2: street-closure list now empty (Riverview & Chambers closure gone, completion unconfirmed; record updated); Riverview Dr Valley–Spring Garden outages still active with stale 10/30 estimates; Ivanhoe and Riverview & Chambers still repair orders; only routine hydrant orders 10/31–11/1 (Hampton, Hancock, Fyler, Watson, S Tucker & Clark; south City/downtown, Ring 2). MAW index rendered empty; 143504 Des Peres unchanged; 143505-07 blank; 143508+ unchecked (site blocked). MO DNR: no boil records in City/County or adjacent counties. Metro #41 Thekla reroute still through 11/6; #18 Taylor and #42 Whittier gone. WashU Alert none (last modified 10/23); Med Campus Facilities air handling/electric only. News/social: nothing dated 11/1-11/2; Reddit blocked; Yahoo 'Clayton water main break' item unloadable/undated, not adopted. Not reached: MAW boil page (error), MSD, Kirkwood, Post-Dispatch, KSDK, FOX 2 (stale), Delmar Loop, Forest Park Forever, MoDOT.",
-    "open_count": 27,
-    "run_at": "2026-11-02T11:40:00Z",
-    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) still has no posted lift or extension ~37.5 hr past its 10/31 4 PM end (notice re-opened ~5:40 AM 11/2, unchanged). Lift may have gone only to Key Management Contacts under the EPO process that began 11/1. Confirm with EPO Utility Operations (David Baca, 314-518-2424) before Monday 11/2 occupancy; EH&S confirm eyewash/shower coverage."
+    "note": "6:46 AM CST 11/2 run (four lanes): no new incidents. City Water wateroos.php stamped 6:45 AM: no active main outages, no street closures; Riverview Dr Valley–Spring Garden outages dropped (record resolved); Ivanhoe and Riverview & Chambers repair orders still listed; hydrant orders only (incl. 5001 Delmar and 805 N Kingshighway 10/28, routine). MAW index rendered empty and alertsdetail.awapps.com blocked; MAW items unverified, left open. No boil order in City/County (stlwater ?p=9725 is the 8/17 Chain of Rocks advisory, lifted 8/18). Metro #41 Thekla reroute through 11/6; #18 and #42 absent. WashU Alert none (last mod 10/23); Med Campus Facilities: 4444 Forest Park restroom renovation from 11/9 (planned). News/social: nothing dated 11/1-11/2. Not reached: MSD, Kirkwood, MO DNR, Post-Dispatch (paywall), BJC, Cortex, Loop, Forest Park Forever, MoDOT.",
+    "open_count": 26,
+    "run_at": "2026-11-02T12:46:00Z",
+    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) still has no posted lift or extension ~39 hr past its 10/31 4 PM end (notice re-checked ~6:50 AM 11/2, unchanged; Facilities feed nothing after 10/29). Confirm with EPO Utility Operations (David Baca, 314-518-2424) before Monday occupancy; EH&S confirm eyewash/shower coverage."
   },
   "incidents": [
     {
@@ -1332,11 +1332,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 12:40 AM CT 10/31 (Lanes 1, 2, 3; City Water table stamped 12:30 AM 10/31): both outages still listed Active with crews working, no new estimate. Spring Garden to ~317 ft beyond (out 12:13 PM, est 6:13 PM) now ~6.5 hr overdue; Valley Dr to Spring Garden (out 11:47 AM, est 7:47 PM) ~5 hr overdue. Likely linked to the Riverview Dr near Chambers Rd break and closure. No boil advisory (City news newest 8/25; MO DNR none in City/County). ~8-10 mi NNE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Monitor; resolve when dropped from the outage table. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 6:46 AM CT 11/2 (Lanes 1 and 4): the live City Water outage table stamped 6:45 AM 11/2 says there are no active water main outages; both Riverview Dr outages (Valley–Spring Garden and Spring Garden to ~317 ft beyond) are no longer listed, after still appearing at the 5:30 AM stamp. Treated as restored per utility page; restoration time not stated. No boil advisory was ever posted. Far north City, Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-10-30T17:40:00Z",
       "id": "stlwater-stlouiscity-riverview-springgarden-20261030",
-      "last_updated": "2026-10-31T05:40:00Z",
+      "last_updated": "2026-11-02T12:46:00Z",
       "location": "Riverview Dr between Valley Dr and Spring Garden Dr, and Riverview Dr from Spring Garden Dr to ~317 ft beyond, far north St. Louis City near the County line",
       "ring": 2,
       "single_source": true,
@@ -1346,7 +1346,7 @@
         "https://www.stlwater.com/wateroos.php?t=20261030",
         "https://www.firstalert4.com/2026/10/30/parts-riverview-drive-st-louis-city-closed-due-water-main-break/"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "City of St. Louis Water Division service outages, Riverview Dr & Spring Garden Dr (far north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
