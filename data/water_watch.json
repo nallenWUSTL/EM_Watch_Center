@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "11:24 AM CST 11/2 run (four lanes): nothing new. City Water table (11:15 AM stamp, Lane 4) still lists Branch/Blair outages (est. 4:08-4:10 PM) and N Broadway Convention Plaza-Carr (est. 11/6 2:02 PM); Lane 1 got a stale 2014 test copy of the same URL. Four routine hydrant repairs 11/1 (Hampton, Hancock x2, S Tucker & Clark), no outages, not tracked. MAW 143300 and 143504 unchanged; IDs 143505/143510 empty. MAW boil page none; MO DNR none in City/County. WashU Alert none (last modified 10/23). Metro #41 Thekla reroute still posted; #18 and #42 gone. No news or social dated 11/1-11/2. Unverified: FOX 2 'multiple water main breaks in STL County' and Yahoo 'Clayton water main break' pages failed to load, dates unknown (previously seen as old archives). Not reached: BJC, Cortex, Loop, Forest Park Forever, MoDOT, MSD, Kirkwood.",
+    "note": "12:35 PM CST 11/2 run (four lanes): no new or changed incidents. City Water table (12:30 PM stamp) unchanged: Riverview Dr Chambers-Spring Garden (est. 11:15 PM), Branch/Blair and Blair/Buchanan (est. ~4:10 PM), N Broadway Convention Plaza-Carr (est. 11/6). No new City main-repair orders. MAW 143300, 143502, 143504 still active; sampled IDs 143505-143560 empty; MAW boil page none. WashU Alert none; Facilities news nothing after 10/29; Jolley/Cupples II page unchanged. Metro #18 Taylor still 'heavy equipment' (no water link); #41 Thekla reroute still active; #42 Whittier alert absent (already noted, completion unconfirmed). No dated 11/1-11/2 news or social reports; undated RHPD Nextdoor and KSDK/FOX 2 items unverifiable. Not reached: MO DNR boil report (did not load), KSDK/FOX 2 pages, BJC, Cortex, Forest Park Forever, MoDOT; MAW index unreadable so other tracked MAW IDs not re-checked.",
     "open_count": 29,
-    "run_at": "2026-11-02T17:24:00Z",
-    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) still shows no lift or extension ~43 hr past its 10/31 4 PM end (re-checked 11:24 AM 11/2, unchanged; Facilities feed nothing after 10/29; KMC-only notice process may hide the lift). Confirm with EPO Utility Operations (David Baca, 314-518-2424); EH&S confirm eyewash/shower coverage."
+    "run_at": "2026-11-02T18:45:00Z",
+    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) still shows no lift or extension ~45 hr past its 10/31 4 PM end (re-checked 12:35 PM 11/2, unchanged; KMC-only notice process from 11/1 may hide the lift). Confirm with EPO Utility Operations (David Baca, 314-518-2424); EH&S confirm eyewash/shower coverage."
   },
   "incidents": [
     {
@@ -1366,11 +1366,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 5:40 AM CT 11/2 (Lane 1): City Water table stamped 5:30 AM 11/2 now lists no street closures, so the Riverview Dr near Chambers Rd closure no longer appears; the Riverview & Chambers Rd SE main repair order (10/27 7:33 AM) is still listed. Suggests the road has reopened but neither City Water nor KMOV confirms completion (KMOV index still shows only the 10/29 story, Lane 2). No boil advisory. ~8-10 mi NNE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Monitor; resolve when the utility confirms completion or the repair order ages out for 48 hours. Owner: Emergency Management (track only).",
+      "assessment": "Updated 12:10 PM CT 11/2 (Lanes 1 and 4, City Water table stamped 12:00 PM 11/2): escalated to a posted service outage on Riverview Dr between Chambers Rd and Spring Garden Dr, out of service 11:15 AM 11/2, est. restoration 11:15 PM 11/2; crews working. Riverview & Chambers Rd SE repair order (10/27) still underlying. No boil advisory (City homepage no banner; no County/City boil orders found). ~8-9 mi NNE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Monitor; resolve when dropped from outage table and utility confirms completion. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-10-30T03:35:00Z",
       "id": "stlwater-stlouiscity-riverview-20261029",
-      "last_updated": "2026-11-02T11:40:00Z",
+      "last_updated": "2026-11-02T18:10:00Z",
       "location": "Parts of Riverview Dr near Chambers Rd, far north St. Louis City (closed block not published)",
       "ring": 2,
       "single_source": true,
@@ -1428,11 +1428,11 @@
       "affected_assets": [
         "Medical Campus"
       ],
-      "assessment": "Updated 12:40 AM CT 11/1 (Lanes 1 and 3): Metro #18 Taylor reroute alert no longer posted on rider alerts after its 10/31 window, and the City Water table (stamped 12:30 AM 11/1) lists no street closures. Suggests the Taylor Ave W Pine–Laclede closure has ended, but neither City Water nor Metro states the work is complete. No service outage, boil advisory or Medical Campus Facilities water notice. Ring 1, Medical Campus / BJC corridor. Impact still possible (low), likely ending. Action: Medical Campus Ops confirm Taylor is open and no planned shutoffs remain; EM resolve on confirmation. Single-source per item.",
+      "assessment": "Updated 12:10 PM CT 11/2 (Lane 3): correction to the 11/1 note. Metro rider alerts now list a #18 Taylor reroute for heavy equipment on Taylor Ave between Maryland Ave and Lindell Blvd through 11/30; the alert does not mention water main work and the block is north of the tracked W Pine–Laclede segment, so the link to City Water work is unconfirmed. Separately #59/#95 rerouted for BJH Plaza paving (not water). City Water outage table (12:00 PM 11/2) lists no Taylor outage; no boil advisory; no Medical Campus Facilities water notice. Ring 1, Medical Campus / BJC corridor. Impact possible (low). Action: Medical Campus Ops confirm whether Taylor work (W Pine–Laclede and Maryland–Lindell) involves water service and whether any planned shutoffs remain; EM resolve on confirmation. Single-source per item.",
       "confidence": "Medium",
       "first_seen": "2026-10-26T15:40:00Z",
       "id": "stlwater-stlouiscity-taylor-20261001",
-      "last_updated": "2026-11-01T05:40:00Z",
+      "last_updated": "2026-11-02T18:10:00Z",
       "location": "Taylor Ave between W Pine Blvd and Laclede Ave, St. Louis City (Central West End, Medical Campus corridor)",
       "ring": 1,
       "single_source": true,
