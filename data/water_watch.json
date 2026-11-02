@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "6:46 AM CST 11/2 run (four lanes): no new incidents. City Water wateroos.php stamped 6:45 AM: no active main outages, no street closures; Riverview Dr Valley–Spring Garden outages dropped (record resolved); Ivanhoe and Riverview & Chambers repair orders still listed; hydrant orders only (incl. 5001 Delmar and 805 N Kingshighway 10/28, routine). MAW index rendered empty and alertsdetail.awapps.com blocked; MAW items unverified, left open. No boil order in City/County (stlwater ?p=9725 is the 8/17 Chain of Rocks advisory, lifted 8/18). Metro #41 Thekla reroute through 11/6; #18 and #42 absent. WashU Alert none (last mod 10/23); Med Campus Facilities: 4444 Forest Park restroom renovation from 11/9 (planned). News/social: nothing dated 11/1-11/2. Not reached: MSD, Kirkwood, MO DNR, Post-Dispatch (paywall), BJC, Cortex, Loop, Forest Park Forever, MoDOT.",
+    "note": "8:08 AM CST 11/2 run (four lanes): no new or changed incidents. City Water wateroos.php stamped 8:00 AM (Lane 4): no active main outages; Ivanhoe & Marmaduke and Riverview & Chambers repair orders still listed; Taylor, Thekla, Whittier not on table (not confirmed complete). Lane 1 received a stale 2014 cached table and an empty MAW index; MAW and Illinois American items unverified, left open. Metro #41 Thekla reroute still posted through 11/6; no Taylor/#18 alert. WashU Alert none (last mod 10/23); Med Campus Facilities: no water notices. MO DNR dataset: nothing St. Louis-area in 7 days. No boil order in City/County. News/social: nothing dated 11/1-11/2. Weather note: possible storms Tue 11/3 (KMOV). Not reached: BJC, Cortex, Loop, Forest Park Forever, MoDOT, Post-Dispatch (paywall).",
     "open_count": 26,
-    "run_at": "2026-11-02T12:46:00Z",
-    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) still has no posted lift or extension ~39 hr past its 10/31 4 PM end (notice re-checked ~6:50 AM 11/2, unchanged; Facilities feed nothing after 10/29). Confirm with EPO Utility Operations (David Baca, 314-518-2424) before Monday occupancy; EH&S confirm eyewash/shower coverage."
+    "run_at": "2026-11-02T14:15:00Z",
+    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) still has no posted lift or extension ~40 hr past its 10/31 4 PM end (notice re-opened ~8:10 AM 11/2, unchanged; Facilities feed nothing after 10/29; since 11/1 notices may go only to Key Management Contacts). Confirm with EPO Utility Operations (David Baca, 314-518-2424) now that Monday occupancy has begun; EH&S confirm eyewash/shower coverage."
   },
   "incidents": [
     {
