@@ -1,0 +1,183 @@
+{
+  "bluf": "Tuesday Nov 3 is the planning problem; today is quiet. WashU hosts public polling 6 AM-7 PM at the Athletic Complex (County) and McDonnell Medical Sciences, 4565 McKinley (City), with Amendment 3 on the ballot. A cold front brings all-day rain Tuesday with possible 40-50 mph afternoon gusts (mainly east of the Mississippi); no severe storms expected and no NWS products in effect. No threat naming WashU and no violent incident on a WashU asset in 72 h. MetroLink Blue Line now ends at Forest Park-DeBaliviere. Posture Elevated for the Tue-Wed election window.",
+  "briefing_url": "https://claude.ai/artifact/4b4tz7rPKRhEyb7nBz6GgJ",
+  "date": "2026-11-02",
+  "dissents": [
+    {
+      "note": "Merged Election Day item raised to Sev 3, Today, overruling Lanes 2, 5, 6; four-lane convergence and Medical Campus polling site.",
+      "title": "Amendment 3 / Medical Campus protest underrated",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Actions adopted (polling-site power, drains); severity held at 2 since NWS expects no severe storms.",
+      "title": "Election Day wind and storms underrated",
+      "verdict": "Partially adopted"
+    },
+    {
+      "note": "Lanes 6 and 1 already at Monitor/low.",
+      "title": "Shutdown and Tyson fire weather overrated",
+      "verdict": "Agreed"
+    },
+    {
+      "note": "Red Team Sev 4/Low/Low/Now; supervisor holds at Today via crane check; crane status unconfirmed.",
+      "title": "Scenario: wind failure at 6200 Forsyth",
+      "verdict": "Carried as dissent"
+    },
+    {
+      "note": "Point forecast and AFD disagree; plan to higher figure.",
+      "title": "Tuesday peak gust 29 vs 40-50 mph",
+      "verdict": "Unresolved"
+    }
+  ],
+  "lanes_quiet": [
+    3
+  ],
+  "lookahead": [
+    {
+      "date": "2026-11-02",
+      "dow": "Mon",
+      "loads": "Routine; Blue Line cutback and Lambert station closures begin",
+      "stacked": false,
+      "wx": "Cloudy 67F, gusts ~23 mph"
+    },
+    {
+      "date": "2026-11-03",
+      "dow": "Tue",
+      "loads": "Election Day polling 6 AM-7 PM at Athletic Complex and McDonnell Medical Sciences; Party at the Polls; two lectures; results night",
+      "stacked": true,
+      "wx": "Rain 90%, 74F, gusts 29-50 mph noon-6 PM"
+    },
+    {
+      "date": "2026-11-04",
+      "dow": "Wed",
+      "loads": "Post-election reaction window; volleyball Field House 7:30 PM",
+      "stacked": false,
+      "wx": "Mostly sunny 67/49F"
+    },
+    {
+      "date": "2026-11-05",
+      "dow": "Thu",
+      "loads": "Kemper event 5 PM; SLIFF opens (Ring 2)",
+      "stacked": false,
+      "wx": "Sunny 67/48F"
+    },
+    {
+      "date": "2026-11-06",
+      "dow": "Fri",
+      "loads": "Lopata/McWilliams Classics, 4 Field House games 1-9 PM over evening rush",
+      "stacked": true,
+      "wx": "Mostly sunny 62/45F"
+    },
+    {
+      "date": "2026-11-07",
+      "dow": "Sat",
+      "loads": "4 Field House games noon-8 PM; Crow Hall lecture 10 AM; Dia de los Muertos at History Museum, Forest Park",
+      "stacked": true,
+      "wx": "Mostly sunny 62/44F"
+    },
+    {
+      "date": "2026-11-08",
+      "dow": "Sun",
+      "loads": "Low; Dia de los Muertos continues",
+      "stacked": false,
+      "wx": "Partly sunny 63F, 20% rain"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "watch",
+      "summary": "Tuesday front: 90% rain, gusts 29 mph (point) to 40-50 mph possible (AFD). SPC Marginal stays SE of metro. AQI, river, seismic, Tyson fire all below threshold."
+    },
+    {
+      "name": "Life safety",
+      "pir": 2,
+      "status": "watch",
+      "summary": "No threat naming WashU, no WashU Alert in 72 h. Two Halloween-weekend shootings in Visitation Park ~1 mi east of Danforth (outside Ring 1, unlinked). Simon Hall verbal hate-intimidation report Oct 27. URI swatting Oct 30, copycat watch."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "quiet",
+      "summary": "No local advisory, college outbreak or diversion found. Flu low but rising nationally; MO measles 18 cases, none active in St. Louis."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "active",
+      "summary": "Blue Line cutback from today; Lambert MetroLink stations closed Nov 2-Dec 28. UNM Health ransomware (Oct 26) is an AMC analog: check IOCs. WashU IT and Canvas operational."
+    },
+    {
+      "name": "Scheduled activity",
+      "pir": 5,
+      "status": "active",
+      "summary": "Tue polling on two campuses; Fri-Sat Field House tournaments (8 games). Nothing over 5,000 in Ring 1. Next week: Nikole Hannah-Jones Nov 12, football vs Wooster Nov 14."
+    },
+    {
+      "name": "Policy, legal, funding",
+      "pir": 6,
+      "status": "watch",
+      "summary": "Amendment 3 vote Nov 3 affects WashU Medicine care; CR funds government to Dec 11; hazing stats required in 2026 ASR. State Dept advisories unverified."
+    }
+  ],
+  "posture": "Elevated",
+  "published_at": "2026-11-02T12:01:00Z",
+  "run_note": "All 7 lanes reported; charter read (rev 10); run 5:54-6:10 AM CST. Supervisor re-verified NWS LSX AFD and WashU polling-place announcement. Several sources unreachable (see unreachable).",
+  "title": "WashU EM Daily Intelligence Briefing, November 2, 2026",
+  "today_items": [
+    {
+      "action": "Set WUPD and Medical Campus security posture for Tue polling and Tue night-Wed; confirm escalation contacts with City/County election boards and SLMPD District 5; brief poll hosts on electioneering boundaries; parking and wayfinding; holding statements; move Party at the Polls under cover if gusts verify.",
+      "confidence": "High",
+      "likelihood": "High (event); Low-Medium (disruption)",
+      "owner": "WUPD, Medical Campus Security, EM, Communications",
+      "pir": "2/5/6",
+      "rank": 1,
+      "severity": 3,
+      "source": "https://source.washu.edu/2026/10/washu-to-host-two-polling-places-2/",
+      "title": "Election Day on campus: two public polling places plus Amendment 3 result window",
+      "ttd": "Today"
+    },
+    {
+      "action": "Notify Medical Campus and Cortex commuters to transfer to Red Line and allow 5-10 extra minutes; review shuttle timing.",
+      "confidence": "Medium",
+      "likelihood": "Occurring",
+      "owner": "Communications, Facilities (Parking & Transportation)",
+      "pir": "4",
+      "rank": 2,
+      "severity": 2,
+      "source": "https://www.metrostlouis.org/rider-alerts/",
+      "title": "MetroLink Blue Line cut back to Forest Park-DeBaliviere through Dec 23",
+      "ttd": "Today"
+    },
+    {
+      "action": "6200 Forsyth crane wind-limit check and secure materials; secure tents and outdoor gear; clear storm drains today; check backup power and lighting at both polling sites; watch for NWS Wind Advisory.",
+      "confidence": "High",
+      "likelihood": "High (rain); Medium (40+ mph gusts)",
+      "owner": "Facilities, EHS, EM",
+      "pir": "1",
+      "rank": 3,
+      "severity": 2,
+      "source": "https://mesonet.agron.iastate.edu/wx/afos/p.php?pil=AFDLSX",
+      "title": "Tuesday rain and gusty winds",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "Election Day on campus: public polling at Athletic Complex and McDonnell Medical Sciences Tue 6 AM-7 PM plus Amendment 3 results window; set WUPD/Medical Campus posture and election-board escalation contacts today.",
+  "unreachable": [
+    "api.weather.gov alerts (robots blocked)",
+    "spc.noaa.gov (stale cache)",
+    "AirNow St. Louis data",
+    "travel.state.gov",
+    "cisa.gov news / KEV",
+    "Workday status",
+    "Everbridge status",
+    "REN-ISAC / Health-ISAC public advisories",
+    "Ameren and Spire outage maps",
+    "City Water / Missouri American Water notices",
+    "St. Louis County Public Health",
+    "Clayton, University City, County PD releases",
+    "BJC diversion status (no public source)",
+    "FEMA press page (stale)"
+  ]
+}
