@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "4:33 AM CST 11/2 run (four lanes): no new incidents, no confirmed status changes. City Water wateroos.php stamped 4:30 AM 11/2 (Lane 1): Riverview Dr Valley–Spring Garden outages still active, estimates not revised; Ivanhoe and Riverview & Chambers still repair orders only; nothing posted since 11/1 11 AM hydrant repairs (Lane 4 fetch returned a stale 2014 test row; Lane 1 reading adopted). MAW 143504 Des Peres reopened, unchanged; probes 143505-143507, 143510 blank (143508-09, 143511+ unchecked); MAW index not rendering. MO DNR newest boil record 10/28 Webster County; none in City/County. Metro #41 Thekla reroute still through 11/6; #18 Taylor and #42 Whittier reroutes gone; completion not confirmed. WashU Alert none (last modified 10/23); Med Campus Facilities notices air handling/electric only. Undated KSDK boil-advisory-lifted article (Clayton/Creve Coeur/U City/Overland/Olivette) unopenable; treated as older event, not adopted. Cross-cue (not water): Metro alert says MetroLink Blue Line runs only Shrewsbury–Forest Park-DeBaliviere 11/2–12/23, affecting Skinker, Forsyth, Big Bend, Clayton stations. News/social: nothing dated 11/1-11/2. Not reached: Post-Dispatch, MAW boil page, MSD, Kirkwood, BJC, Cortex, Delmar Loop, Forest Park Forever, MoDOT.",
+    "note": "5:33 AM CST 11/2 run (four lanes): no new incidents. City Water wateroos.php stamped 5:30 AM 11/2: street-closure list now empty (Riverview & Chambers closure gone, completion unconfirmed; record updated); Riverview Dr Valley–Spring Garden outages still active with stale 10/30 estimates; Ivanhoe and Riverview & Chambers still repair orders; only routine hydrant orders 10/31–11/1 (Hampton, Hancock, Fyler, Watson, S Tucker & Clark; south City/downtown, Ring 2). MAW index rendered empty; 143504 Des Peres unchanged; 143505-07 blank; 143508+ unchecked (site blocked). MO DNR: no boil records in City/County or adjacent counties. Metro #41 Thekla reroute still through 11/6; #18 Taylor and #42 Whittier gone. WashU Alert none (last modified 10/23); Med Campus Facilities air handling/electric only. News/social: nothing dated 11/1-11/2; Reddit blocked; Yahoo 'Clayton water main break' item unloadable/undated, not adopted. Not reached: MAW boil page (error), MSD, Kirkwood, Post-Dispatch, KSDK, FOX 2 (stale), Delmar Loop, Forest Park Forever, MoDOT.",
     "open_count": 27,
-    "run_at": "2026-11-02T10:45:00Z",
-    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) still has no posted lift or extension ~36.5 hr past its 10/31 4 PM end (notice re-opened ~4:35 AM 11/2, unchanged since 10/29; page says water stays off until restored and cleared). Lift may have gone only to Key Management Contacts under the EPO process that began 11/1. Confirm with EPO Utility Operations before Monday 11/2 occupancy; EH&S confirm eyewash/shower coverage."
+    "run_at": "2026-11-02T11:40:00Z",
+    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) still has no posted lift or extension ~37.5 hr past its 10/31 4 PM end (notice re-opened ~5:40 AM 11/2, unchanged). Lift may have gone only to Key Management Contacts under the EPO process that began 11/1. Confirm with EPO Utility Operations (David Baca, 314-518-2424) before Monday 11/2 occupancy; EH&S confirm eyewash/shower coverage."
   },
   "incidents": [
     {
@@ -1312,11 +1312,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 12:40 AM CT 10/31 (Lanes 1, 2): KMOV story was first posted 10/29 9:38 PM CDT (updated ~8:50 AM 10/30); parts of Riverview Dr near Chambers Rd remain closed for emergency main repairs, no reopening or repair timeline; crews also working other unnamed nearby breaks. City Water repair list still shows the Riverview Dr & Chambers Rd SE work order (7:33 AM 10/27). No boil advisory. ~8-10 mi NNE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Monitor; resolve when the road reopens or the utility confirms completion. Owner: Emergency Management (track only).",
+      "assessment": "Updated 5:40 AM CT 11/2 (Lane 1): City Water table stamped 5:30 AM 11/2 now lists no street closures, so the Riverview Dr near Chambers Rd closure no longer appears; the Riverview & Chambers Rd SE main repair order (10/27 7:33 AM) is still listed. Suggests the road has reopened but neither City Water nor KMOV confirms completion (KMOV index still shows only the 10/29 story, Lane 2). No boil advisory. ~8-10 mi NNE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Monitor; resolve when the utility confirms completion or the repair order ages out for 48 hours. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-10-30T03:35:00Z",
       "id": "stlwater-stlouiscity-riverview-20261029",
-      "last_updated": "2026-10-31T05:40:00Z",
+      "last_updated": "2026-11-02T11:40:00Z",
       "location": "Parts of Riverview Dr near Chambers Rd, far north St. Louis City (closed block not published)",
       "ring": 2,
       "single_source": true,
