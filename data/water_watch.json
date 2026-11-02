@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "7:33 PM CST 11/1 run (four lanes): no new incidents, no status changes. City Water wateroos.php stamped 7:30 PM 11/1: both Riverview Dr outages still active (~49 hr past estimates); Ivanhoe and Riverview & Chambers still in repair history; 11/1 entries hydrant repairs only (3411 Hampton, 6053/6217 Hancock, S Tucker & Clark). MAW: 143300 Richmond Heights and 143504 Des Peres pages unchanged; 143502 Bridgeton investigation still posted, untracked; 143503 is a PA alert; probes 143505-143530 empty; MAW index and boil page load dynamically. MO DNR: none in City/County (newest 10/28 Webster County). WashU Alert none; Facilities and Med Campus news newest 10/29, no water notices for 11/2. Metro #41 Thekla reroute still posted to 11/6; #18 and #42 gone. Non-water: Metro Blue Line Shrewsbury–Forest Park-DeBaliviere only 11/2–12/23 (Skinker, Big Bend, Forsyth, Clayton, Richmond Heights riders transfer). News/social: nothing dated 10/31-11/1. Discarded: undated stlwater.com/?p=9725 boil page (Aug 2026 event). MSD, Kirkwood, BJC, Cortex not checked this run.",
-    "open_count": 26,
-    "run_at": "2026-11-02T01:40:00Z",
-    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) still unlifted ~27.5 hr past its 10/31 4 PM end; notice and Facilities news index unchanged as of ~7:35 PM 11/1. Lifts may now go only to Key Management Contacts. Confirm with Utility Operations (D. Baca, 314-518-2424, listed on notice) before Monday 11/2 occupancy."
+    "note": "8:33 PM CST 11/1 run (four lanes): no new incidents in Rings 1-2, no status changes. Added MAW 143502 Bridgeton leak investigation (previously seen, untracked; impact none). City Water wateroos.php stamped 8:30 PM 11/1: both Riverview Dr outages still active (~49-50 hr past estimates); Ivanhoe and Riverview & Chambers still in repair history; 10/31-11/1 entries hydrant repairs only (Hampton, Hancock, Fyler, Watson, S Tucker & Clark). MAW 143300 Richmond Heights and 143504 Des Peres unchanged; 143503 Old Forge (out of region); probes to 143550 empty. MO DNR: none in City/County. WashU Alert none; Facilities/Med Campus news no water notices (Med Campus 4444 Forest Park restroom renovation 11/9-3/1, no shutoff stated). Metro #41 Thekla reroute still posted. News/social: nothing dated 10/31-11/1; Reddit blocked. MSD, Kirkwood, BJC, Cortex not checked this run.",
+    "open_count": 27,
+    "run_at": "2026-11-02T02:40:00Z",
+    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) still unlifted ~28.5 hr past its 10/31 4 PM end; notice and Facilities news index unchanged as of ~8:35 PM 11/1. Lifts may go only to Key Management Contacts. Confirm with Utility Operations (D. Baca, 314-518-2424, listed on notice) before Monday 11/2 occupancy."
   },
   "incidents": [
     {
@@ -136,6 +136,24 @@
       ],
       "status": "resolved",
       "title": "Missouri American Water main break, Brentwood — second break, emergency repairs (alert 142489)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "Added 8:40 PM CT 11/1 (Lane 1; seen but untracked in prior runs): MAW alert 143502, leak investigation; customers may see low or no pressure; no street, start or end time; no boil advisory. Bridgeton is ~9-10 mi NW of Danforth and North Campus; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration. Monitor; resolve when dropped from MAW index. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-02T02:40:00Z",
+      "id": "maw-bridgeton-investigation-20261031",
+      "last_updated": "2026-11-02T02:40:00Z",
+      "location": "Bridgeton, MO (NW St. Louis County near Lambert; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/143502"
+      ],
+      "status": "open",
+      "title": "Missouri American Water leak investigation, Bridgeton — possible low/no pressure (alert 143502)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
