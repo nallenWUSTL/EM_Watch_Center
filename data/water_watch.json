@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "9:25 AM CST 11/2 run (four lanes): no new or changed incidents. City Water wateroos.php stamped 9:15 AM (Lanes 1, 4): no active main outages, no street closures; newest items are 11/1 hydrant repairs (Hampton, Hancock, S Tucker & Clark), Ring 2. MAW alerts index loads by script and could not be read (Lanes 1, 4); MAW items left open, unverified. MAW boil page none; MO DNR none in City/County. Metro #41 Thekla reroute still posted through 11/6; no #18 Taylor or #42 Sarah alerts. WashU Alert none; Med Campus Facilities: electrical/HVAC only, no water. News/social: nothing dated 11/1-11/2; KSDK Haplin Dr (Ferguson) headline undated and unopenable, not adopted. Not reached: KSDK, FOX 2, BJC, Cortex, Loop, Forest Park Forever, MoDOT, MSD, Kirkwood.",
-    "open_count": 26,
-    "run_at": "2026-11-02T15:30:00Z",
-    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) still shows no lift or extension ~41 hr past its 10/31 4 PM end (notice re-opened ~9:25 AM 11/2, unchanged; Facilities feed nothing after 10/29; since 11/1 notices may go only to Key Management Contacts). Confirm with EPO Utility Operations (David Baca, 314-518-2424); EH&S confirm eyewash/shower coverage."
+    "note": "10:31 AM CST 11/2 run (four lanes): three new City Water items, all Ring 2, impact none: Branch/Blair outages (north City, est. 4:10 PM), N Broadway Convention Plaza–Carr outage (downtown, est. 11/6 2:02 PM), Marcus & Cupples Pl repair. City advisories empty; MAW boil page none; MO DNR none in City/County. MAW 143300 Richmond Heights, 143502, 143504 still active; no MAW IDs above 143504 found; MAW index did not render. Metro #41 Thekla reroute still posted; no #18 or #42 alerts. WashU Alert none. KSDK Haplin Dr headline dated 1/13/2025, discarded. News/social: nothing dated 11/1-11/2. Not reached: BJC, Cortex, Loop, Forest Park Forever, MoDOT, MSD, Kirkwood, Post-Dispatch.",
+    "open_count": 29,
+    "run_at": "2026-11-02T16:31:00Z",
+    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) still shows no lift or extension ~42 hr past its 10/31 4 PM end (re-checked 10:31 AM 11/2, unchanged; Facilities feed nothing after 10/29). Confirm with EPO Utility Operations (David Baca, 314-518-2424); EH&S confirm eyewash/shower coverage."
   },
   "incidents": [
     {
@@ -1032,6 +1032,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 10:31 AM CT 11/2 (Lanes 1 and 4, City Water table stamped 10:30 AM): two adjacent outages, Blair out 10:08 AM (est. 4:08 PM), Branch out 10:10 AM (est. 4:10 PM); crews restoring. No boil advisory (City advisories empty; MAW none; MO DNR none in City/County). ~4-5 mi NE of Medical Campus; separate distribution area; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration. Monitor; resolve when dropped from table. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-02T16:31:00Z",
+      "id": "stlwater-stlouiscity-branch-blair-20261102",
+      "last_updated": "2026-11-02T16:31:00Z",
+      "location": "Branch St between Blair Ave and 14th St, and Blair Ave between Buchanan St and Palm St, St. Louis City (north City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outages, Branch St & Blair Ave and Blair Ave & Buchanan St (north City)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 9:40 PM CT 10/22: the Eichelberger St (Virginia–Alabama) outage, out of service since 4:24 PM 10/22 with a 4:24 AM 10/23 estimate, no longer appears on the live City Water Division outage table (stlwater.com/wateroos.php, stamped 9:30 PM 10/22; confirmed by all four lanes and by supervisor). Treated as restored per utility page, roughly 5 hours after the outage began and ~7 hours ahead of estimate. No boil advisory was ever posted (City advisories empty, MAW none, MO DNR none in City/County). Carondelet / Dutchtown, south City, Ring 2; no WashU asset; impact none. The four Lindenwood Park / St. Louis Hills outages (Nottingham & Wherry, Nottingham & Macklind, January & Nottingham, Marquette & Ivanhoe) remain active under their own records.",
       "confidence": "High",
       "first_seen": "2026-10-22T21:40:00Z",
@@ -1143,6 +1161,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 10:31 AM CT 11/2 (Lanes 1 and 4): main repair work order opened 9:57 AM 11/2; no outage or restoration estimate posted; no boil advisory. ~3-4 mi N/NE of Medical Campus; no WashU asset. Impact none. Monitor; escalate if an outage is posted; resolve after 48 hours in repair history with no outage. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-02T16:31:00Z",
+      "id": "stlwater-stlouiscity-marcus-cupples-20261102",
+      "last_updated": "2026-11-02T16:31:00Z",
+      "location": "Marcus Ave & Cupples Pl, St. Louis City (north City; unrelated to WashU Cupples II Hall)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division main repair, Marcus Ave & Cupples Pl (north City)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 9:40 AM CT 10/26: live City Water Division outage table (stlwater.com/wateroos.php, stamped 9:30 AM 10/26) states no active water main outages; both Marquette Ave & Ivanhoe Ave rows are gone from the active table and only the 10/22 1:41 PM Main - Repair work order remains in the recent-repairs history (all four lanes). Treated as restored per utility page; exact restoration time not published (between 10/23 11:30 AM and 10/26 9:30 AM). No boil advisory was ever posted. Lindenwood Park, south City, Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "High",
       "first_seen": "2026-10-22T19:40:00Z",
@@ -1194,6 +1230,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division main repair, N Broadway & Buchanan St (near north riverfront)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 10:31 AM CT 11/2 (Lanes 1 and 4, City Water table stamped 10:30 AM): outage began 10:02 AM 11/2, estimated restoration 11/6 2:02 PM (~4 days). No boil advisory. ~3.5 mi E of Medical Campus/Cortex; no WashU asset; no Ring 1 corridor. Impact none; note for any WashU staff or events in the downtown convention area this week. Monitor; resolve when dropped from table. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-02T16:31:00Z",
+      "id": "stlwater-stlouiscity-nbroadway-convention-20261102",
+      "last_updated": "2026-11-02T16:31:00Z",
+      "location": "N Broadway between Convention Plaza and Carr St, downtown St. Louis City",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outage, N Broadway between Convention Plaza and Carr St (downtown) — multi-day",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
