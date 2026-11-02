@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "1:40 PM CST 11/2 run (four lanes): no new or changed incidents. City Water table (1:30 PM stamp) unchanged: 4 active outages, Riverview Dr Chambers-Spring Garden (est. 11:15 PM), Branch St (est. 4:10 PM) and Blair/Buchanan (est. 4:08 PM), N Broadway Convention Plaza-Carr (est. 11/6); only new repair order today remains Marcus & Cupples. MAW 143300, 143502, 143504 still posted (stale); probed IDs 143505-143660 found no Missouri alerts; MAW boil page none; MO DNR newest 10/28 Webster County (none in City/County). WashU Alert none; Facilities news nothing water-related after 10/29; Jolley/Cupples II page unchanged; Med Campus Facilities posts 10/29-11/1 all HVAC/electrical. Metro #18 Taylor still 'heavy equipment'; #41 Thekla through 11/6; #42 absent. Context (not water): MetroLink Blue Line truncated Shrewsbury-Forest Park-DeBaliviere 11/2-12/23. No dated 11/1-11/2 news or social reports. Not reached: MSD, Kirkwood, municipal alert pages, BJC, Cortex, Forest Park Forever, MoDOT; MAW index unreadable so other tracked MAW IDs not re-checked.",
-    "open_count": 29,
-    "run_at": "2026-11-02T19:40:00Z",
-    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) still shows no lift or extension ~46 hr past its 10/31 4 PM end (re-checked 1:35 PM 11/2, unchanged; KMC-only notice process from 11/1 may hide the lift). Confirm with EPO Utility Operations (David Baca); EH&S confirm eyewash/shower coverage."
+    "note": "2:40 PM CST 11/2 run (four lanes): one new Ring 2 item, City Water main repair at Itaska & Clifton (opened 2:07 PM, no outage posted, impact none). City Water table (2:30 PM stamp) otherwise unchanged: 4 active outages, Riverview Dr Chambers-Spring Garden (est. 11:15 PM), Branch St (est. 4:10 PM) and Blair/Buchanan (est. 4:08 PM), N Broadway Convention Plaza-Carr (est. 11/6); Marcus & Cupples and Ivanhoe & Marmaduke still in repair list. MAW 143504 still active; probes 143505-143506 empty; MAW index and boil page unreadable. City water news nothing after 8/25; no boil advisory found. WashU Alert none; Facilities news nothing after 10/29; Jolley/Cupples II page unchanged; Med Campus Facilities no water notice. Metro #18 Taylor still 'heavy equipment'; #41 Thekla through 11/6. No dated 11/1-11/2 news or social reports. Not reached: MSD, Kirkwood, MO DNR, municipal pages, BJC, Cortex, Forest Park Forever, MoDOT; KSDK and FOX 2 pages failed to load.",
+    "open_count": 30,
+    "run_at": "2026-11-02T20:40:00Z",
+    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) still shows no lift or extension ~47 hr past its 10/31 4 PM end (re-checked 2:35 PM 11/2, unchanged; KMC-only notice process from 11/1 may hide the lift). Confirm with EPO Utility Operations (David Baca); EH&S confirm eyewash/shower coverage."
   },
   "incidents": [
     {
@@ -1082,6 +1082,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division service outage, Forest Park Ave & Union Dr (Forest Park, Union to Jewel Box)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 2:40 PM CT 11/2 (Lanes 1 and 4, City Water table stamped 2:30 PM): main repair work order opened 2:07 PM 11/2; no service outage or restoration estimate posted; no boil advisory (City water news nothing after 8/25). Roughly 3-4 mi SE of South Campus (estimate, not measured); no WashU asset; not on a Ring 1 corridor. Impact none. No news or social corroboration. Monitor; escalate if an outage is posted; resolve after 48 hours in repair history with no outage. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-02T20:40:00Z",
+      "id": "stlwater-stlouiscity-itaska-clifton-20261102",
+      "last_updated": "2026-11-02T20:40:00Z",
+      "location": "Itaska Dr/St & Clifton Ave, St. Louis City (south City; neighborhood inferred from street names, not stated by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php?t=20261102"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division main repair, Itaska St & Clifton Ave (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
