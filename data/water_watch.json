@@ -1,12 +1,30 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "5:40 PM CST 11/2 run (four lanes): nothing new. City Water table (5:30 PM stamp): Itaska/Tennessee outages dropped (Itaska & Clifton repair continues; set to monitoring); Branch/Blair outages still listed ~1.5 hr past estimate; Riverview (est. 11:15 PM) and N Broadway Convention–Carr (est. 11/6) unchanged; routine 11/1 hydrant repairs (Hancock Ave, Hampton Ave, S Tucker & Clark) not tracked. Taylor, Thekla, Whittier still off repair list; Metro #41 and #18 reroutes still posted (not resolved). MAW: 143505/143508 empty, no new IDs confirmed; index and boil page JS-rendered. WashU Alert none; Facilities news nothing water-related after 10/29; Med Campus 11/2 notice electrical. Undated KSDK City boil-advisory video, KSDK Clayton/U City boil story (headline says lifted) and Yahoo Clayton break would not load; not adopted. Not reached: MSD, Kirkwood, MO DNR, BJC, Cortex, Forest Park Forever, municipal alert pages.",
-    "open_count": 30,
-    "run_at": "2026-11-02T23:40:00Z",
-    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) still shows no lift or extension ~49 hr past its 10/31 4 PM end (notice page reloaded 5:40 PM 11/2, unchanged). Confirm with EPO Utility Operations; EH&S confirm eyewash/shower coverage."
+    "note": "6:40 PM CST 11/2 run (four lanes): nothing new in St. Louis City/County. Added Ring 3 Cape Girardeau boil advisory (impact none). City Water table unreadable this run: /outages served a stale 1:30 AM 11/2 copy and wateroos.php a 2014 test table, so no City item changed status (Branch/Blair, Riverview, N Broadway, Itaska, Marcus unverified). MAW index and alert pages JS-only; IDs above 143508 unchecked. MAW boil page none; MO DNR none in St. Louis area. WashU Alert none; Danforth Facilities nothing after 10/29; Med Campus notices electrical only. Metro #41 Thekla reroute and #18 Taylor equipment still posted; #42 Whittier alert absent (unconfirmed). Old KSDK boil stories dated: Clayton/U City = June 2026 (lifted); County = COVID era; downtown 13th & Lucas undated, not current. Not reached: MSD, Kirkwood, City news releases (newest 8/25), BJC, Cortex.",
+    "open_count": 31,
+    "run_at": "2026-11-03T00:40:00Z",
+    "top_incident": "WashU Facilities no-water-use order at Jolley Hall and Cupples II Hall (Danforth) still shows no lift or extension ~50 hr past its 10/31 4 PM end (notice reloaded 6:35 PM 11/2, unchanged). Confirm with EPO Utility Operations (contact on notice); EH&S confirm eyewash/shower coverage."
   },
   "incidents": [
+    {
+      "affected_assets": [],
+      "assessment": "New 6:40 PM CT 11/2 (Lane 2 only, KFVS12): boil advisory issued Sun 11/1; city reported a 6-inch main break Mon 11/2; ~737 addresses on the city outage map; no restoration estimate. ~110+ mi from any WashU asset; separate system. Impact none. Monitor; resolve when the advisory lift is reported. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-03T00:40:00Z",
+      "id": "capegirardeau-capegirardeau-hopperrd-20261101",
+      "last_updated": "2026-11-03T00:40:00Z",
+      "location": "East of I-55 from the SportsPlex south to Hopper Rd, plus some subdivisions west of I-55, Cape Girardeau, MO",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://www.kfvs12.com/2026/11/02/boil-water-advisory-water-main-break-impacting-hundreds-cape-girardeau/"
+      ],
+      "status": "open",
+      "title": "City of Cape Girardeau boil water advisory and 6-inch main break, SportsPlex to Hopper Rd",
+      "utility": "City of Cape Girardeau",
+      "washu_impact": "none"
+    },
     {
       "affected_assets": [],
       "assessment": "New 7:40 PM CT 10/26 (Lane 1 only): Illinois American Water alert 142922, main-break repairs starting 8:00 PM CT 10/26, ~4 hr estimate, followed by a boil water order until a separate lift notice; no street. Metro East, outside St. Louis City and County; no WashU asset; separate utility system. Impact none. No Missouri boil advisory in St. Louis City/County (MAW boil page none; MO DNR none). Monitor; resolve when the boil order lift is posted. Owner: Emergency Management (track only).",
