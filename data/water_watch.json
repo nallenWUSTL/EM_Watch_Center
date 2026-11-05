@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "2:40 PM CST 11/5 run (four lanes): nothing new and no status changes. City Water table stamped 2:30 PM (Lanes 1, 3 and 4 agree) lists only Jamieson/Scanlan (~16 hr overdue) and N Broadway Convention Plaza (est 11/6 2:02 PM); Thekla/Plover and Whittier/Maffitt still absent, as since 11/3, with no completion stated (Metro #41 reroute still posted to 11/6), so they stay as they were. City advisories empty. MAW probes 144096-144110 were out of region (Jeffersonville IN 144110 boil advisory); 144116-144120 blank; 144097-99, 101, 103-04, 106, 108, 111-15, 119 not opened. MAW index and boil page did not render; MO DNR dataset did not render; no sign of a St. Louis City/County boil order. Collinsville lift not confirmed; KFVS list unchanged since 11/4 23:11 UTC. No WashU Alert active (page modified 11/2); Medical Facilities notices are electrical/HVAC only; Metro #18 Taylor reroute cites heavy equipment Maryland-Lindell, not water. Not adopted (undated or unloadable): Clayton news 4239 water main road closures, Richmond Heights PD Nextdoor post, KSDK City boil advisory video. GAPS: social lane nearly blind; BJC, Forest Park Forever, MoDOT, MSD and Kirkwood not checked. Next run: probe MAW IDs 144111-144115, 144119 and 144121 upward.",
-    "open_count": 54,
-    "run_at": "2026-11-05T20:40:00Z",
-    "top_incident": "No change on Ring 1 items: MAW Clayton 144021 repair window 11/5 4-10 PM still has no street (144012 investigation unchanged); Richmond Heights 143300 still active, no street; Jolley Hall/Cupples II no-water order past its 10/31 4 PM end with no lift posted (Jolley north entrance sewer repair runs to 11/6 5 PM)."
+    "note": "2:50 PM CST 11/5 on-demand delta check (single fetch agent, primary sources only). City Water table stamped 2:45 PM: new main repair at Morganford Rd & Humphrey St (2:39 PM), no outage; outages unchanged (Jamieson/Scanlan overdue, N Broadway est 11/6 2:02 PM); advisories empty. MAW 144021/144012/143300 unchanged. MAW IDs 144111-144115, 144119, 144121-144125 blank. Clayton news 4239 still unloadable. News, social and campus lanes were not rerun. Next run: probe MAW from 144126.",
+    "open_count": 55,
+    "run_at": "2026-11-05T20:50:00Z",
+    "top_incident": "No change on Ring 1 items: MAW Clayton 144021 repair window 11/5 4-10 PM still has no street (144012 unchanged); Richmond Heights 143300 still active, no street; Jolley Hall/Cupples II no-water order still has no posted lift."
   },
   "incidents": [
     {
@@ -1837,6 +1837,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division main repair, Mitchell Ave & Mitchell Pl",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 2:50 PM CT 11/5 (on-demand delta check; City Water table stamped 2:45 PM): main repair work order opened 2:39 PM 11/5 at Morganford Rd & Humphrey St. No service outage posted and no boil advisory. South City, about 3-4 mi SE of the Medical Campus (estimate); not on a Ring 1 corridor; no WashU asset. Impact none. Monitor; escalate if an outage is posted; resolve when it drops from the table or after 48 hours with no outage. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-05T20:50:00Z",
+      "id": "stlwater-stlouiscity-morganford-humphrey-20261105",
+      "last_updated": "2026-11-05T20:50:00Z",
+      "location": "Morganford Rd & Humphrey St, St. Louis City (Tower Grove South, south City; cross street as published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division main repair, Morganford Rd & Humphrey St (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },

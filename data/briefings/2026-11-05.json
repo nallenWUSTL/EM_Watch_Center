@@ -1,37 +1,42 @@
 {
-  "bluf": "Posture Normal. No warning-level weather, no credible threat naming WashU, no outage at a WashU asset, no health advisory at threshold. One Ring 1 incident: child critically injured in a shooting ~5:30 PM Wed in the 5500 block of Pershing (DeBaliviere Place); no reported WashU link. The live sector threat is credential phishing and extortion against academic medical centers, with benefits enrollment as a lure. First sub-freezing weekend; Sunday 11/8 is stacked in Ring 1.",
+  "bluf": "Posture stays Normal: no NWS product, no credible threat naming WashU, no outage at a WashU asset, no health advisory at threshold. The decision item is the internal document exposure Student Life reported Nov 3: event security and response plans, Medical School staff schedules and cell numbers, donor and vendor records sat in OneDrive libraries open to any WashU account, some since summer; the university has changed Teams defaults and opened a review but has not said whether outside parties reached the files. The Pershing Ave shooting (child critically injured Wed 5:30 PM) has no public update and no WashU link; it is the third short-term-rental party shooting in the City in four days. NWS gives >60% odds of a light freeze Fri and Sat nights. Fri, Sat and Sun all stack, Saturday heaviest.",
   "briefing_url": "https://claude.ai/artifact/1CmNPWv4iBkV1ZUip7aruW",
   "date": "2026-11-05",
   "dissents": [
     {
-      "note": "Timing raised to Today over Weather's Monitor; severity held at 2 (Red Team: 3).",
-      "title": "Underrated: first freeze in post-DST dark",
-      "verdict": "Adopted in part"
+      "note": "Morning carried it as Sev 2 single-source; primary source re-read; now action #1 at Sev 4 with two lanes.",
+      "title": "Underrated: OneDrive document exposure",
+      "verdict": "Adopted; overrules morning edition"
     },
     {
-      "note": "Merged with Cyber's BYOD item as action #2.",
-      "title": "Underrated: phishing during benefits enrollment",
+      "note": "Course change onto Clayton Ave and S. Newstead added to PIR 5; confirm closures and BJC EMS routing. Medium confidence (maps unreadable).",
+      "title": "Underrated: half marathon touches Medical Campus perimeter",
       "verdict": "Adopted"
     },
     {
-      "note": "No planned demonstration found; Low / Monitor.",
-      "title": "Overrated: post-election unrest",
-      "verdict": "Adopted"
-    },
-    {
-      "note": "Local indicators low; flu carried as a vaccination push.",
-      "title": "Overrated: respiratory surge at Medical Campus",
-      "verdict": "Adopted"
-    },
-    {
-      "note": "Sev 4 / Low; DHSS re-verified: 18 MO cases, no active exposures. Pre-stage MMR record lookups this week.",
-      "title": "Scenario: measles exposure in a WashU congregate or clinical setting",
+      "note": "Red Team Sev 2 Monitor vs Public Safety Sev 3 Today; kept at Today until SLMPD confirms suspect status and no affiliate involvement.",
+      "title": "Overrated: Pershing Ave shooting",
       "verdict": "Carried as dissent"
+    },
+    {
+      "note": "Secondary forecast showed 37-39F; NWS LSX 2:07 PM AFD gives >60% light freeze areawide. Primary source wins.",
+      "title": "Overrated: weekend freeze",
+      "verdict": "Rejected"
+    },
+    {
+      "note": "Sev 5 / Low. Exposure + enrollment lure + Ivanti AD pivot; no indicator at WashU. Add BJC downtime rehearsal to weekend on-call plan.",
+      "title": "Scenario: ransomware at WashU Medicine or BJC over the weekend",
+      "verdict": "Carried as dissent"
+    },
+    {
+      "note": "Sev 4 / Low; 18 MO cases, no active exposures; pre-stage MMR lookups.",
+      "title": "Scenario: measles exposure in a WashU setting",
+      "verdict": "Carried from morning"
     }
   ],
   "lanes_quiet": [
-    1,
-    3
+    3,
+    6
   ],
   "lookahead": [
     {
@@ -41,63 +46,76 @@
         "Benefits open enrollment through 11/13"
       ],
       "stacked": false,
-      "wx": "Sunny, 61-65F / 50F"
+      "wx": "Front passing, breezy NW, 20% evening sprinkles, low ~40F"
     },
     {
       "date": "2026-11-06",
       "dow": "Fri",
       "loads": [
-        "Cold front during AM commute",
-        "Federal WordPress KEV deadline"
+        "Lopata Classic and women's basketball, Field House, 1-7 PM",
+        "WashU Dance Theatre, Edison 7:30 PM",
+        "Pageant and Delmar Hall shows",
+        "Mizzou vs SLU, Enterprise Center 6 PM (Ring 2)",
+        "WordPress KEV deadline"
       ],
-      "stacked": false,
-      "wx": "AM spot showers, 54-58F / 41F, NW gusts ~18"
+      "stacked": true,
+      "wx": "Gray AM drizzle, clearing PM, high ~50F; light freeze overnight"
     },
     {
       "date": "2026-11-07",
       "dow": "Sat",
       "loads": [
-        "Veterans Day 5K, Soldiers Memorial 9 AM (Ring 2)",
-        "Enterprise Center concert, evening (Ring 2)"
+        "Field House games 12-6 PM",
+        "Edison 7:30 PM",
+        "Dia de los Muertos festival, Delmar 4-10 PM",
+        "Half-marathon packet pickup, Forest Park Visitor Center 10-4",
+        "Wage War, The Pageant 7 PM",
+        "Veterans Day 5K 9 AM and parade 10:30 AM downtown (Ring 2)",
+        "Three Days Grace, Enterprise Center (Ring 2)"
       ],
-      "stacked": false,
-      "wx": "Dry, cool, 50-58F; AM upper 30s, frost possible"
+      "stacked": true,
+      "wx": "Sunny, frosty AM 35-38F metro, freeze outlying, high 50s; freeze overnight"
     },
     {
       "date": "2026-11-08",
       "dow": "Sun",
       "loads": [
-        "St. Louis Track Club Half Marathon and 5K, Forest Park, 7-11 AM",
-        "Cocoa Classic 5K, Danforth Campus, 11 AM"
+        "St. Louis Track Club Half Marathon 7:30 AM and 5K 8 AM, Forest Park via The Grove, Clayton Ave and S. Newstead; barricades down ~11 AM",
+        "Cocoa Classic 5K, Danforth 11 AM",
+        "Edison matinee 2 PM"
       ],
       "stacked": true,
-      "wx": "Sunny ~63F; AM 30s"
+      "wx": "Sunny, frost/freeze AM, high upper 50s-low 60s"
     },
     {
       "date": "2026-11-09",
       "dow": "Mon",
-      "loads": [],
+      "loads": [
+        "Congress returns",
+        "4444 Forest Park renovation begins"
+      ],
       "stacked": false,
-      "wx": "Sunny ~66F / 50F"
+      "wx": "Sunny, 60s"
     },
     {
       "date": "2026-11-10",
       "dow": "Tue",
       "loads": [
-        "Blues vs Detroit, Enterprise Center 7 PM"
+        "Blues vs Detroit, Enterprise Center 7 PM",
+        "FEMA PA reporting webinar 9:30 AM CT"
       ],
       "stacked": false,
-      "wx": "Sunny ~64F / 50F"
+      "wx": "Dry, 60s"
     },
     {
       "date": "2026-11-11",
       "dow": "Wed",
       "loads": [
-        "Veterans Day observances",
-        "Flyover Comedy Festival may open on Delmar (low confidence)"
+        "Veterans Day; classes in session; no parade",
+        "Flyover Comedy Festival may open in the Loop (low confidence)"
       ],
       "stacked": false,
-      "wx": "Sunny ~63F / 46F"
+      "wx": "Dry, 60s; colder trough possible late week"
     }
   ],
   "pirs": [
@@ -105,120 +123,134 @@
       "name": "Weather and natural hazards",
       "pir": 1,
       "status": "watch",
-      "summary": "No confirmed NWS product; Fri AM front with spot showers and NW gusts ~20 mph; cold weekend with frost in low spots; no M2.5+ quakes within 150 mi."
+      "summary": "Front passing; 20% drizzle tonight; Fri high ~50; light freeze Fri and Sat nights (>60%); SPC quiet; AQI 34; rivers far below flood stage; no quakes."
     },
     {
       "name": "Life safety",
       "pir": 2,
       "status": "watch",
-      "summary": "Pershing Ave shooting (Ring 1, no WashU link); hoax bomb threats at peer schools; no demonstrations over 100 found."
+      "summary": "Pershing Ave shooting, no update, no WashU link; rental-party pattern (3 in 4 days); peer violence at Virginia State and UIC; no WashU Alert, no demonstrations."
     },
     {
       "name": "Public health and Medical Campus",
       "pir": 3,
       "status": "quiet",
-      "summary": "Early H1N1-led flu season nationally, local ILI low; MO measles 18 cases, no active exposures; no hospital diversion found."
+      "summary": "Early H1N1 flu nationally, Missouri very low; measles unchanged (18 MO cases, no exposures); no dining recall; romaine Salmonella outbreak tracked; no diversion found."
     },
     {
       "name": "Cyber and infrastructure",
       "pir": 4,
-      "status": "watch",
-      "summary": "BYOD extortion campaign vs academic medical centers; Ivanti and WordPress KEVs; no utility, water, transit or vendor outage verified."
+      "status": "active",
+      "summary": "OneDrive document exposure (Sev 4); BYOD phishing risk; Ivanti and WordPress KEVs; MetroLink Blue Line truncated through Dec 23; Medical Campus curb-lane work; no utility or vendor outage."
     },
     {
       "name": "Scheduled activity",
       "pir": 5,
       "status": "watch",
-      "summary": "Light week; Sun 11/8 stacked in Ring 1 (Forest Park half marathon then Danforth 5K); no home athletics until 11/14."
+      "summary": "Fri, Sat and Sun all stacked; Sat heaviest (Field House, Edison, Loop festival, downtown parade, Enterprise Center); Sun half marathon touches BJC southern approaches until ~11 AM; Bears all away."
     },
     {
       "name": "Policy, legal and funding",
       "pir": 6,
       "status": "quiet",
-      "summary": "FY27 CR expires Dec 11; FEMA counter-drone grant due 11/16 via state; no new program change in 24 h."
+      "summary": "FEMA counter-drone grant closes 11/16 via state; Congress returns 11/9, CR expires Dec 11; Amendment 8 exempts St. Louis City and County; no Clery or advisory changes."
     }
   ],
   "posture": "Normal",
-  "published_at": "2026-11-05T11:58:00Z",
-  "run_note": "All 7 lanes reported; charter read OK; cycle ~5:53-6:10 AM CT. Sev 4 measles item re-verified on DHSS. NWS alerts API blocked; WashU Alert archive and travel.state.gov unreachable.",
+  "published_at": "2026-11-05T21:31:00Z",
+  "run_note": "Afternoon re-run requested by the EM; replaces the 6:10 AM edition. All 7 lanes reported; cycle ~2:52-3:30 PM CT. Sev 4 items re-verified (Student Life article, DHSS measles). NWS alerts API, cisa.gov, events.washu.edu and travel.state.gov unreachable. GitHub dashboard sync session has not pushed since Nov 2.",
   "title": "WashU EM Daily Intelligence Briefing, November 5, 2026",
   "today_items": [
     {
-      "action": "Get incident/suspect status from SLMPD; check affiliate involvement; consider off-campus safety reminder",
-      "confidence": "Low",
+      "action": "Assume WILD, commencement and reunion plans compromised; re-key before next use; brief WUPD and BJC security; ask IT Security for access-log findings; prioritize phishing-resistant MFA for listed Medical School staff",
+      "confidence": "High",
       "likelihood": "Occurring",
-      "owner": "WUPD; Student Affairs",
-      "pir": 2,
+      "owner": "EM; WashU IT Security; WUPD",
+      "pir": 4,
       "rank": 1,
-      "severity": 3,
-      "source": "https://www.firstalert4.com/2026/11/05/juvenile-critically-injured-shooting-near-forest-park-police-say/",
-      "title": "Child critically injured in shooting, 5500 blk Pershing Ave, DeBaliviere Place",
+      "severity": 4,
+      "source": "https://www.studlife.com/news/2026/11/03/data-exposure-revealed-hundreds-of-internal-university-documents-to-students-faculty-and-staff",
+      "title": "Internal documents exposed in org-wide OneDrive libraries: event security plans, Medical School staff schedules, donor and vendor records (Student Life, Nov 3)",
       "ttd": "Today"
     },
     {
-      "action": "Warn staff on HR/benefits phishing; out-of-band verification for direct-deposit changes; heighten Medical Campus credential alerting",
+      "action": "WUPD liaison to SLMPD District 5 for status and affiliate check; add rental-party pattern to weekend patrol briefings near Loop, DeBaliviere and CWE; no alert warranted",
+      "confidence": "Medium",
+      "likelihood": "Occurring",
+      "owner": "WUPD; Student Affairs",
+      "pir": 2,
+      "rank": 2,
+      "severity": 3,
+      "source": "https://www.firstalert4.com/2026/11/05/juvenile-critically-injured-shooting-near-forest-park-police-say/",
+      "title": "Child critically injured in shooting, 5500 blk Pershing Ave, DeBaliviere Place (Ring 1), Wed 5:30 PM; no update; third short-term-rental party shooting in the City since 11/1",
+      "ttd": "Today"
+    },
+    {
+      "action": "Warn staff on HR/benefits phishing; out-of-band verification for direct-deposit changes; elevate weekend IT on-call for Medical Campus",
       "confidence": "Medium",
       "likelihood": "Medium",
       "owner": "WashU IT Security; HR",
       "pir": 4,
-      "rank": 2,
-      "severity": 3,
-      "source": "https://bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries",
-      "title": "Credential phishing/extortion vs academic medical centers (BYOD: UNM Health, Michigan State); benefits-enrollment lure through 11/13",
-      "ttd": "Today"
-    },
-    {
-      "action": "Confirm Ivanti use and patch state; verify CVE IDs against KEV catalog",
-      "confidence": "Medium",
-      "likelihood": "Medium",
-      "owner": "WashU IT Security",
-      "pir": 4,
       "rank": 3,
       "severity": 3,
-      "source": "https://content.govdelivery.com/accounts/USDHSCISA/bulletins/4311c77",
-      "title": "CISA KEV: two Ivanti Connect Secure flaws (10/30)",
+      "source": "https://therecord.media/michigan-state-university-byod-gang-cyber-incident",
+      "title": "Credential phishing against academic medical centers (BYOD: UNM Health, Michigan State); benefits open enrollment through 11/13 as lure; exposed staff rosters ease pretexting",
       "ttd": "Today"
     },
     {
-      "action": "Cold/frost notice to Tyson field teams; heater fire-safety and dusk pedestrian messaging",
-      "confidence": "Medium",
-      "likelihood": "High",
-      "owner": "EM; Tyson director; Res Life / Fire & Life Safety",
-      "pir": 1,
+      "action": "Confirm Ivanti appliances on Oct 29 builds; confirm departmental WordPress sites on 7.1.4 or core upgrades restricted",
+      "confidence": "High",
+      "likelihood": "Occurring",
+      "owner": "WashU IT Security",
+      "pir": 4,
       "rank": 4,
       "severity": 2,
-      "source": "https://sema.dps.mo.gov/newspubs/docs/dailybriefs.pdf",
-      "title": "First sub-freezing weekend lows in low-lying areas (>50% per NWS LSX), Sat-Sun 5-8 AM",
+      "source": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+      "title": "CISA KEV patch checks: Ivanti Connect Secure (10/30) and WordPress core CVE-2026-119977 (federal due 11/6)",
       "ttd": "Today"
     },
     {
-      "action": "Confirm remediation complete; prepare holding line",
-      "confidence": "Low",
-      "likelihood": "Occurring",
-      "owner": "WashU IT Security; Communications",
-      "pir": 4,
+      "action": "Facilities confirm irrigation blowdown and exposed pipes at Tyson and South Campus; notify Tyson field teams; heater fire-safety and dark-commute pedestrian messaging",
+      "confidence": "High",
+      "likelihood": "High",
+      "owner": "Facilities; EHS / Tyson; Res Life",
+      "pir": 1,
       "rank": 5,
       "severity": 2,
-      "source": "https://www.studlife.com/",
-      "title": "Internal WashU documents reachable by university-account users (Student Life, 11/3)",
+      "source": "https://mesonet.agron.iastate.edu/wx/afos/p.php?pil=AFDLSX",
+      "title": "First freeze Fri and Sat nights: NWS LSX >60% light freeze areawide; metro mid-upper 30s, Tyson near or below 32F; dry",
+      "ttd": "Today"
+    },
+    {
+      "action": "Confirm Delmar closure extent with University City and the Loop; set Saturday WUPD staffing for Loop, Lofts and 560 Music Center",
+      "confidence": "Medium",
+      "likelihood": "High",
+      "owner": "WUPD; EM",
+      "pir": 5,
+      "rank": 6,
+      "severity": 2,
+      "source": "https://explorestlouis.com/event/dia-de-los-muertos-festival",
+      "title": "Dia de los Muertos street festival, Delmar Loop, Sat 11/7 4-10 PM; closures and attendance unpublished; same evening as Field House, Edison and Pageant",
       "ttd": "Today"
     }
   ],
-  "top_item": "WUPD: confirm with SLMPD the status of the Wed 5:30 PM shooting that critically injured a child on the 5500 block of Pershing (DeBaliviere Place, Ring 1); no WashU link reported.",
+  "top_item": "EM: treat WILD, commencement and Reunion Weekend security plans as compromised after the Nov 3 Student Life report that they sat in org-wide OneDrive libraries; re-key before next use and ask IT Security whether access logs show downloads or outside sessions.",
   "unreachable": [
     "NWS alerts API (blocked)",
-    "Current NWS LSX AFD, point forecast, SPC, WPC (stale caches)",
-    "NWS river gauges",
-    "AirNow St. Louis",
+    "forecast.weather.gov point forecast and SPC HTML (stale caches)",
+    "water.noaa.gov and airnow.gov (script-rendered)",
+    "KSDK and Post-Dispatch article pages",
+    "Clayton and University City PD releases",
     "WashU Alert archive",
-    "Clayton, University City, County PD releases",
-    "Missouri wastewater dashboard",
     "St. Louis County DPH",
-    "FDA/FSIS recalls, CDC HAN",
+    "FSIS recalls",
+    "CDC HAN index",
     "travel.state.gov",
-    "CISA 11/4 KEV alert page",
-    "Missouri American Water alerts",
-    "Metro Transit alerts",
-    "WashU events day calendar"
+    "Missouri wastewater dashboard",
+    "cisa.gov and KEV JSON (mirror used)",
+    "Ameren outage map",
+    "Workday status",
+    "MoDOT St. Louis district",
+    "events.washu.edu (blocked)"
   ]
 }
