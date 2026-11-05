@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "2:50 PM CST 11/5 on-demand delta check (single fetch agent, primary sources only). City Water table stamped 2:45 PM: new main repair at Morganford Rd & Humphrey St (2:39 PM), no outage; outages unchanged (Jamieson/Scanlan overdue, N Broadway est 11/6 2:02 PM); advisories empty. MAW 144021/144012/143300 unchanged. MAW IDs 144111-144115, 144119, 144121-144125 blank. Clayton news 4239 still unloadable. News, social and campus lanes were not rerun. Next run: probe MAW from 144126.",
-    "open_count": 55,
-    "run_at": "2026-11-05T20:50:00Z",
+    "note": "3:40 PM CST 11/5 full four-lane run. Nothing new in St. Louis City/County. New Ring 3: Millstone Water District (Pope Co IL) second boil order 11/5. City Water table 3:30 PM: Jamieson/Scanlan still overdue, N Broadway est 11/6 2:02 PM, Morganford & Humphrey repair listed; advisories empty. MAW 144110 is Jeffersonville IN; 144111-144160 blank. Taylor Ave record corrected (Metro #18 reroute cause not stated as water). Undated KSDK Bonhomme/Hanley Clayton stories not adopted. Next run: probe MAW from 144161; recheck Clayton 144021 after 10 PM.",
+    "open_count": 56,
+    "run_at": "2026-11-05T21:40:00Z",
     "top_incident": "No change on Ring 1 items: MAW Clayton 144021 repair window 11/5 4-10 PM still has no street (144012 unchanged); Richmond Heights 143300 still active, no street; Jolley Hall/Cupples II no-water order still has no posted lift."
   },
   "incidents": [
@@ -1475,6 +1475,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 3:40 PM CT 11/5 (Lane 2 only, KFVS Heartland boil list): second Millstone boil order, dated 11/5, until further notice; separate from tracked 11/4 Bert Rd/Hazel Rd order. ~140 mi SE of St. Louis; separate system; no WashU asset. Impact none. Monitor; resolve when lift reported. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-05T21:40:00Z",
+      "id": "millstone-popecounty-mtshelterrd-20261105",
+      "last_updated": "2026-11-05T21:40:00Z",
+      "location": "3290 Mt. Shelter Rd south to Murrie Ln, plus Carr Rd up to 1300 Carr Rd, Pope County, IL",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
+      ],
+      "status": "open",
+      "title": "Millstone Water District boil order, Mt. Shelter Rd to Murrie Ln and Carr Rd (Pope County, IL)",
+      "utility": "Millstone Water District",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 6:40 PM CT 11/4 (Lane 2 only, KFVS Heartland boil list modified ~5:11 PM CT 11/4): precautionary boil advisory issued 11/4 after an extended water outage, until further notice. Separate from tracked City of Jackson Walton Dr item. ~110 mi S of any WashU asset; separate system. Impact none. Monitor; resolve when lift reported. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-05T00:40:00Z",
@@ -2092,18 +2110,17 @@
       "affected_assets": [
         "Medical Campus"
       ],
-      "assessment": "Updated 5:40 PM CT 11/3 (Lanes 1, 3 and 4): Taylor Ave no longer appears on the City Water repair table (stamped 5:30 PM 11/3); no outage ever posted; no boil advisory. Completion not stated, so not resolved. Metro #18 Taylor heavy-equipment reroute (Maryland–Lindell) still posted through 11/30 with no mention of water. No WashU Alert; Medical Campus Facilities posted only a non-water North Building electrical notice (11/2-11/13). Ring 1, Medical Campus / BJC corridor. Impact possible (low, likely ending). Action: Medical Campus Ops confirm water work on Taylor is complete and no planned shutoffs remain; EM resolve on confirmation. Owner: Medical Campus Ops / Emergency Management.",
+      "assessment": "Updated 3:40 PM CT 11/5 (Lanes 1, 3, 4): Taylor Ave still absent from the City Water table (stamped 3:30 PM 11/5); no outage ever posted; no boil advisory. Source correction (Lane 3): Metro #18 Taylor alert cites heavy equipment on Taylor between Maryland and Lindell (effective 10/6, window 10/19-11/30, detour Lindell/Boyle/Olive) and does not name water work or City Water; the link between the reroute and the W Pine-Laclede water job is unconfirmed. Completion of water work not stated, so kept in monitoring. Impact possible (low): Medical Campus access on Taylor. Owner: Medical Campus Ops / Emergency Management.",
       "confidence": "Medium",
       "first_seen": "2026-10-26T15:40:00Z",
       "id": "stlwater-stlouiscity-taylor-20261001",
-      "last_updated": "2026-11-03T23:40:00Z",
+      "last_updated": "2026-11-05T21:40:00Z",
       "location": "Taylor Ave between W Pine Blvd and Laclede Ave, St. Louis City (Central West End, Medical Campus corridor)",
       "ring": 1,
       "single_source": true,
       "sources": [
-        "https://www.metrostlouis.org/rider-alerts/",
         "https://www.stlwater.com/wateroos.php",
-        "https://facilities.med.wustl.edu/news/"
+        "https://www.metrostlouis.org/route/18-taylor/"
       ],
       "status": "monitoring",
       "title": "City of St. Louis Water Division street closure, Taylor Ave between W Pine Blvd and Laclede Ave (Central West End / Medical Campus) — Metro #18 Taylor reroute",
