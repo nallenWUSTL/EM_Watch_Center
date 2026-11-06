@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "3:40 PM CST 11/5 full four-lane run. Nothing new in St. Louis City/County. New Ring 3: Millstone Water District (Pope Co IL) second boil order 11/5. City Water table 3:30 PM: Jamieson/Scanlan still overdue, N Broadway est 11/6 2:02 PM, Morganford & Humphrey repair listed; advisories empty. MAW 144110 is Jeffersonville IN; 144111-144160 blank. Taylor Ave record corrected (Metro #18 reroute cause not stated as water). Undated KSDK Bonhomme/Hanley Clayton stories not adopted. Next run: probe MAW from 144161; recheck Clayton 144021 after 10 PM.",
-    "open_count": 56,
-    "run_at": "2026-11-05T21:40:00Z",
-    "top_incident": "No change on Ring 1 items: MAW Clayton 144021 repair window 11/5 4-10 PM still has no street (144012 unchanged); Richmond Heights 143300 still active, no street; Jolley Hall/Cupples II no-water order still has no posted lift."
+    "note": "1:40 PM CST 11/6 four-lane run. Nothing new in the region. City Water table stamped 1:30 PM (Lane 4; Lane 1 got stale caches): active rows are Jamieson/Scanlan (about 39 hr overdue) and N Broadway Convention-Carr (est. 2:02 PM today). Morganford & Humphrey, Thekla & Plover, and Whittier & Maffitt are absent from the table; all three are in monitoring, not resolved. Metro #41 Thekla reroute now reads 'until further notice.' MAW 144021, 144012, 143300 and 144148 are still posted. MAW/AW IDs 144228-144238 are all out of state. Granite City 144227 (Main Break / Boil Order, repairs to about 4:30-5:30 PM, boil order on restoration) unchanged. MO DNR: newest entry is 10/28, none in City/County. On the KFVS list (modified 12:22 PM), Jackson Walton Dr and Du Quoin are still absent; lifts unverified. WashU Alert: none. Danforth and Medical Campus Facilities: no water notices. Discarded: undated stlwater.com/?p=9725 'Boil Advisory Currently In Effect' page (Chain of Rocks storm cause, matches the 8/17 citywide event; stale page, not current); undated Yahoo Clayton lead. Gaps: MAW index and boil page rendered empty; MSD, Kirkwood, BJC, Cortex and municipal pages not opened; X, Facebook and Nextdoor not reached. Next run: N Broadway est. 2 PM; Jolley sewer repair end 5 PM; Granite City repair about 5 PM.",
+    "open_count": 60,
+    "run_at": "2026-11-06T19:40:00Z",
+    "top_incident": "No change in Ring 1. The Jolley Hall/Cupples II no-water order still has no posted lift; it is presumed expired but unconfirmed. The Jolley north entrance sewer repair is still scheduled to end 11/6 at 5 PM. MAW Clayton 144021 (about 15 hr overdue) and 144012, and Richmond Heights 143300, are still posted with no street and no completion."
   },
   "incidents": [
     {
@@ -121,18 +121,37 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 10:40 PM CT 11/4 (Lane 1 only): American Water alert 144017, Lincoln IL; boil order to follow once service is restored; no street given. ~150 mi NE of St. Louis; separate system; no WashU asset. Impact none. Monitor; resolve when the lift is posted. Owner: Emergency Management (track only).",
+      "assessment": "New 12:40 PM CT 11/6 (Lane 1 only): IAW alert 144227, main-break emergency repairs began 11:30 AM CT 11/6, ~5-6 hr estimate (~4:30-5:30 PM); possible low pressure or service loss; boil water order takes effect when service is restored. Metro East, ~12-15 mi ENE of Danforth and Medical Campus across the river (estimate); separate utility system; no WashU asset. Impact none. Monitor; resolve when the boil-order lift is posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-06T18:40:00Z",
+      "id": "ilaw-granitecity-unlocated-20261106",
+      "last_updated": "2026-11-06T18:40:00Z",
+      "location": "Granite City, IL (Madison County, Metro East; streets not published on alert, area map on utility site not opened)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144227"
+      ],
+      "status": "open",
+      "title": "Illinois American Water main break with boil order on restoration, Granite City, IL (alert 144227)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "Resolved 4:40 PM CT 11/5 (Lane 1): Illinois American Water alert 144131 states the Lincoln IL boil order is lifted; original alert 144017 still shows the boil-order text. ~150 mi NE of St. Louis; separate system; no WashU asset. Impact none. Owner: Emergency Management (closed).",
       "confidence": "Low",
       "first_seen": "2026-11-05T04:40:00Z",
       "id": "ilaw-lincoln-unlocated-20261104",
-      "last_updated": "2026-11-05T04:40:00Z",
+      "last_updated": "2026-11-05T22:40:00Z",
       "location": "Lincoln, IL (Logan County; street not published by utility)",
       "ring": 3,
       "single_source": true,
       "sources": [
-        "https://alertsdetail.awapps.com/alert/144017"
+        "https://alertsdetail.awapps.com/alert/144017",
+        "https://alertsdetail.awapps.com/alert/144131"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "American Water main break with boil order on restoration, Lincoln, IL (alert 144017)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
@@ -157,18 +176,20 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 12:40 PM CT 11/3 (Lane 2): KFVS Heartland boil-order list updated ~12:13 PM CT 11/3 no longer shows a Jackson advisory (Cape Girardeau is the only Missouri entry), suggesting a lift; no City of Jackson or SE Missourian lift notice found, so kept open. ~110 mi S of any WashU asset; separate system. Impact none. Resolve when the city confirms the lift. Owner: Emergency Management (track only).",
+      "assessment": "Updated 4:40 PM CT 11/5 (Lane 2): Southeast Missourian lift story reports the Jackson advisory near E Jackson Blvd / Walton Dr (Walmart Supercenter area) lifted on a 'Thursday morning'; neither the issue nor the lift page shows a publish date, so the lift date is unconfirmed. Jackson also absent from the KFVS list since 11/3. Moved to monitoring; resolve once the lift date is confirmed. ~110 mi S of any WashU asset; separate system. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-03T11:45:00Z",
       "id": "jackson-jackson-waltondr-20261030",
-      "last_updated": "2026-11-03T18:40:00Z",
+      "last_updated": "2026-11-05T22:40:00Z",
       "location": "All properties on Walton Dr; break at E Jackson Blvd & Walton Dr, Jackson, MO (Cape Girardeau County)",
       "ring": 3,
       "single_source": true,
       "sources": [
-        "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
+        "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland",
+        "https://www.semissourian.com/news/boil-water-advisory-annnounced-in-jackson-2841128",
+        "https://www.semissourian.com/news/jackson-boil-water-advisory-lifted-2841628"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of Jackson precautionary boil advisory, Walton Dr (main break at E Jackson Blvd & Walton Dr)",
       "utility": "City of Jackson, MO",
       "washu_impact": "none"
@@ -442,11 +463,11 @@
         "Danforth Campus (Clayton portion)",
         "South Campus"
       ],
-      "assessment": "New 4:40 PM CT 11/4 (Lane 1; verified by supervisor on detail pages): MAW 144012 investigation, possible low or no pressure in Clayton; MAW 144021 main break, ~6 hr repairs, text says Nov 5 4:00-10:00 PM (date may be a typo for 11/4); possible discolored/cloudy water, low or no pressure; no street; no boil advisory. Likely one event. Ring 1 by municipality: West Campus, 6200 Forsyth site, Clayton-side Danforth and South Campus edge are in or near Clayton; pressure zone and street unknown. No news, social or WashU Alert/Facilities corroboration (Lanes 2-4). Impact possible (low). Action: Facilities check MAW Customer Advisory Map or call MAW for the street; confirm no pressure or discoloration complaints at West Campus, 6200 Forsyth, Clayton-side Danforth; flush if discolored. Escalate if street is on Forsyth, Big Bend, Wydown, Hanley or Brentwood Blvd near campus or a boil advisory is posted. Owner: Facilities / Emergency Management.",
+      "assessment": "Updated 11:40 PM CT 11/5 (Lane 1, detail page reopened): MAW 144021 still posted as main break, emergency repairs 11/5 4:00–10:00 PM; window passed, no completion text, Last Updated blank; no street; no boil advisory. 144012 not reopened. No WashU Alert or Facilities water notice (Lane 3); no news or social corroboration (Lanes 2, 4). Ring 1 by municipality (West Campus, 6200 Forsyth, Clayton-side Danforth, South Campus edge). Impact possible (low). Action: Facilities confirm no pressure or discoloration complaints at Clayton-side buildings Friday morning; flush if discolored. Escalate if a street on Forsyth, Big Bend, Wydown, Hanley or Brentwood Blvd is published or a boil advisory posted. Resolve when dropped from MAW index. Owner: Facilities / Emergency Management.",
       "confidence": "Medium",
       "first_seen": "2026-11-04T22:40:00Z",
       "id": "maw-clayton-unlocated-20261104",
-      "last_updated": "2026-11-04T22:40:00Z",
+      "last_updated": "2026-11-06T05:40:00Z",
       "location": "Clayton, MO (street not published by utility)",
       "ring": 1,
       "single_source": true,
@@ -722,6 +743,43 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 7:40 PM CT 11/5 (Lane 1 only): MAW alerts 144168 and 144169 (likely one event posted twice), main-break emergency repairs dated 11/5, ~6-8 hr estimate, no end time; no street; no boil advisory. Appears separate from tracked 144155 (midnight-6 AM 11/6). ~8-10 mi N of North Campus; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Monitor; resolve when dropped from MAW index. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-06T01:40:00Z",
+      "id": "maw-florissant-unlocated-20261105",
+      "last_updated": "2026-11-06T01:40:00Z",
+      "location": "Florissant, MO (north St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144168",
+        "https://alertsdetail.awapps.com/alert/144169"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Florissant — emergency repairs (alerts 144168, 144169)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 4:40 PM CT 11/5 (Lane 1 only): MAW alert 144155, main-break emergency repairs listed to start 12:00 AM 11/6, completion ~6:00 AM (date not given on page); no street; no boil advisory. North County, ~10+ mi from North Campus and Danforth; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Monitor; resolve when dropped from MAW index. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-05T22:40:00Z",
+      "id": "maw-florissant-unlocated-20261106",
+      "last_updated": "2026-11-05T22:40:00Z",
+      "location": "Florissant, MO (north St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144155"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Florissant — emergency repairs (alert 144155)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 10:40 AM CT 10/22: alert 142176 no longer appears on the MAW active alerts index (Lane 1) and its detail URL returns only the generic welcome page, after showing an empty shell since 10/21 morning. Treated as repair complete / alert expired per utility index. No street ever published, no boil advisory. Hazelwood is north St. Louis County, roughly 15 mi from Danforth and the Medical Campus; no WashU asset; impact none.",
       "confidence": "Medium",
       "first_seen": "2026-10-21T00:40:00Z",
@@ -798,6 +856,25 @@
     },
     {
       "affected_assets": [],
+      "assessment": "Updated 7:40 PM CT 11/5 (Lane 1): new MAW alert 144171 for a Manchester main break dated 11/5, ~6-8 hr estimate, no street; treated as a repost or second break under this record (not confirmed which). 144160 still estimates completion ~10:45 PM. No boil advisory (MO DNR none in St. Louis City/County). ~12-13 mi W of South Campus, West Campus and Danforth; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Monitor; resolve when both drop from MAW index. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-05T23:40:00Z",
+      "id": "maw-manchester-unlocated-20261105",
+      "last_updated": "2026-11-06T01:40:00Z",
+      "location": "Manchester, MO (west St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144160",
+        "https://alertsdetail.awapps.com/alert/144171"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Manchester — emergency repairs (alerts 144160, 144171)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 11:40 AM CT 10/22: alerts 142260 and 142262 no longer appear on the MAW active alerts index (Lane 1, confirmed by supervisor). Treated as repair complete / alert expired per utility index. No streets ever published, no boil advisory, no WashU asset in Maryland Heights; impact none.",
       "confidence": "Medium",
       "first_seen": "2026-10-21T14:45:00Z",
@@ -853,6 +930,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 4:40 PM CT 11/5 (Lane 1 only): MAW alert 144132, broken valve repair began 11/5, ~6-7 hr estimate; no street; no boil advisory. ~110 mi NW of St. Louis; separate system; no WashU asset. Impact none. Monitor; resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-05T22:40:00Z",
+      "id": "maw-mexico-valve-20261105",
+      "last_updated": "2026-11-05T22:40:00Z",
+      "location": "Mexico, MO (Audrain County; street not published by utility)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144132"
+      ],
+      "status": "open",
+      "title": "Missouri American Water broken valve repair, Mexico, MO (alert 144132)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 8:36 PM CT 10/30 (Lane 1 only): MAW alert 143411, main break beginning 10/30 4:00 PM, ~6 hr estimate (~10 PM); no municipality, street or boil advisory. North County; nothing ties it to University City or the Delmar corridor. No WashU asset identified. Impact none. No corroboration. Monitor; resolve when dropped from MAW index. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-10-31T01:36:00Z",
@@ -866,6 +961,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, North St. Louis County (municipality unspecified) — emergency repairs (alert 143411)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 4:40 PM CT 11/5 (Lane 1 only): MAW alert 144148, planned improvements 11/6 8:00 AM to ~1:00 PM, weather permitting; no street; possible service interruption implied; no boil advisory. Olivette is ~3-4 mi W/NW of West Campus and Danforth (estimate); pressure zone unknown; no WashU asset; no Ring 1 corridor. Impact none. Escalate if a street near Olive Blvd/I-170 east toward University City is published. Monitor; resolve when dropped from MAW index. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-05T22:40:00Z",
+      "id": "maw-olivette-planned-20261106",
+      "last_updated": "2026-11-05T22:40:00Z",
+      "location": "Olivette, MO (mid St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144148"
+      ],
+      "status": "open",
+      "title": "Missouri American Water planned water system improvements, Olivette (alert 144148)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -1860,18 +1973,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 2:50 PM CT 11/5 (on-demand delta check; City Water table stamped 2:45 PM): main repair work order opened 2:39 PM 11/5 at Morganford Rd & Humphrey St. No service outage posted and no boil advisory. South City, about 3-4 mi SE of the Medical Campus (estimate); not on a Ring 1 corridor; no WashU asset. Impact none. Monitor; escalate if an outage is posted; resolve when it drops from the table or after 48 hours with no outage. Owner: Emergency Management (track only).",
+      "assessment": "Updated 1:40 PM CT 11/6 (Lane 4, City Water table stamped 1:30 PM 11/6): the Morganford Rd & Humphrey St repair order no longer appears on the table. Lane 1 got a stale cached copy, so this rests on one source. Most likely complete, but nothing confirms it, so it moves to monitoring rather than resolved. No outage or boil advisory was ever posted. South City, Ring 2; no WashU asset; impact none. Resolve once a second check confirms it is gone. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-05T20:50:00Z",
       "id": "stlwater-stlouiscity-morganford-humphrey-20261105",
-      "last_updated": "2026-11-05T20:50:00Z",
+      "last_updated": "2026-11-06T19:40:00Z",
       "location": "Morganford Rd & Humphrey St, St. Louis City (Tower Grove South, south City; cross street as published)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/wateroos.php"
+        "https://www.stlwater.com/wateroos.php",
+        "https://www.stlwater.com/wateroos.php?t=L4x1106d"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division main repair, Morganford Rd & Humphrey St (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -2110,22 +2224,24 @@
       "affected_assets": [
         "Medical Campus"
       ],
-      "assessment": "Updated 3:40 PM CT 11/5 (Lanes 1, 3, 4): Taylor Ave still absent from the City Water table (stamped 3:30 PM 11/5); no outage ever posted; no boil advisory. Source correction (Lane 3): Metro #18 Taylor alert cites heavy equipment on Taylor between Maryland and Lindell (effective 10/6, window 10/19-11/30, detour Lindell/Boyle/Olive) and does not name water work or City Water; the link between the reroute and the W Pine-Laclede water job is unconfirmed. Completion of water work not stated, so kept in monitoring. Impact possible (low): Medical Campus access on Taylor. Owner: Medical Campus Ops / Emergency Management.",
+      "assessment": "Resolved 11:40 PM CT 11/5 (Lanes 1 and 3): Taylor Ave W Pine–Laclede absent for a second consecutive run from the City Water outage and repair table (stamped 11:30 PM 11/5), and the outages page Street Closures section still lists none (stamped 4:30 PM 11/5). Treated as cleared per utility pages; completion not explicitly stated. Metro #18 Taylor heavy-equipment alert (Maryland–Lindell, to 11/30) still posted but names no water work. No boil advisory. No WashU impact observed. Owner: Medical Campus Ops / Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-10-26T15:40:00Z",
       "id": "stlwater-stlouiscity-taylor-20261001",
-      "last_updated": "2026-11-05T21:40:00Z",
+      "last_updated": "2026-11-06T05:40:00Z",
       "location": "Taylor Ave between W Pine Blvd and Laclede Ave, St. Louis City (Central West End, Medical Campus corridor)",
       "ring": 1,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/wateroos.php",
-        "https://www.metrostlouis.org/route/18-taylor/"
+        "https://www.metrostlouis.org/route/18-taylor/",
+        "https://www.stlwater.com/outages",
+        "https://www.metrostlouis.org/rider-alerts/"
       ],
-      "status": "monitoring",
+      "status": "resolved",
       "title": "City of St. Louis Water Division street closure, Taylor Ave between W Pine Blvd and Laclede Ave (Central West End / Medical Campus) — Metro #18 Taylor reroute",
       "utility": "City of St. Louis Water Division",
-      "washu_impact": "possible"
+      "washu_impact": "none"
     },
     {
       "affected_assets": [],
@@ -2147,19 +2263,20 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 3:40 PM CT 11/3 (Lanes 1 and 4, City Water table stamped 3:30 PM 11/3): Thekla & Plover no longer appears on the City Water repair table; Metro #41 Lee reroute still posted 'until further notice' with window ending 11/6 (Lane 3). Repair completion not confirmed; kept open. No boil advisory. North City, ~5-6 mi NNE of Medical Campus; no WashU asset; impact none. Resolve when the reroute ends or completion is posted. Owner: Emergency Management (track only).",
+      "assessment": "Updated 1:40 PM CT 11/6 (Lanes 3 and 4): Thekla & Plover is still missing from the City Water table stamped 1:30 PM 11/6. The Metro #41 Lee reroute for this main break is still posted and now reads 'until further notice' instead of ending 11/6. The two sources disagree, so the item stays in monitoring. No boil advisory. North City, Ring 2; no WashU asset; impact none. Resolve once Metro drops the reroute or the City confirms completion. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-10-26T14:40:00Z",
       "id": "stlwater-stlouiscity-thekla-20261023",
-      "last_updated": "2026-11-03T21:40:00Z",
+      "last_updated": "2026-11-06T19:40:00Z",
       "location": "Thekla Ave at Plover Ave, St. Louis City (Walnut Park area, north City)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.metrostlouis.org/rider-alerts/",
-        "https://www.stlwater.com/wateroos.php"
+        "https://www.stlwater.com/wateroos.php",
+        "https://www.stlwater.com/wateroos.php?t=L4x1106d",
+        "https://www.metrostlouis.org/rider-alerts/"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division main break, Thekla Ave & Plover Ave — Metro #41 Lee reroute",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -2184,17 +2301,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 3:40 PM CT 11/3 (Lanes 1 and 4, City Water table stamped 3:30 PM 11/3): Whittier & Maffitt no longer appears on the City Water repair table; Metro #42 reroute already gone since 11/1. Both signals point to completion, but no source states it; kept in monitoring. No boil advisory. Ring 2; no WashU asset; impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 1:40 PM CT 11/6 (Lane 4, City Water table stamped 1:30 PM 11/6): Whittier & Maffitt is still missing from the table, and the Metro #42 reroute has been gone since 11/1. Both point to completion, but no source states it, so the item stays in monitoring. No boil advisory. North City, about 2-2.5 mi N of the Medical Campus (estimate), Ring 2; impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-10-26T15:40:00Z",
       "id": "stlwater-stlouiscity-whittier-20261009",
-      "last_updated": "2026-11-03T21:40:00Z",
+      "last_updated": "2026-11-06T19:40:00Z",
       "location": "Whittier St at Maffitt Ave, St. Louis City (The Ville / Greater Ville, north City); Metro spells it 'Whitter'",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.metrostlouis.org/rider-alerts/",
-        "https://www.stlwater.com/wateroos.php"
+        "https://www.stlwater.com/wateroos.php",
+        "https://www.stlwater.com/wateroos.php?t=L4x1106d",
+        "https://www.metrostlouis.org/rider-alerts/"
       ],
       "status": "monitoring",
       "title": "City of St. Louis Water Division main break, Whittier St at Maffitt Ave (The Ville) — Metro #42 Sarah reroute",

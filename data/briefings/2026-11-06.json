@@ -1,0 +1,206 @@
+{
+  "bluf": "Posture Normal. No WashU Alert, no threat naming WashU, no outage on a WashU asset, no severe weather in 72 h. One life-safety signal: two shootings at short-term-rental parties in Ring 1 in four days (child critically hurt on 5500 Pershing Nov 4). First Freeze Warning of the season midnight to 8 AM Sat on a lightly staffed weekend. Fri-Sun stacked: Field House tournaments, Loop Dia de los Muertos Sat evening, St. Louis Half Marathon in Forest Park Sun morning. New federal cold-chain advisory puts Medical Campus freezers in scope.",
+  "briefing_url": "https://claude.ai/artifact/7ZPNUFbgrDAikQV5gN53em",
+  "date": "2026-11-06",
+  "dissents": [
+    {
+      "note": "Raised to Today with wider action list; severity kept at 2.",
+      "title": "First freeze underrated",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Converges with Lane 6; This-week planning item.",
+      "title": "Dec 11 funding cliff underrated",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Alone it is stale; with the Nov 4 Pershing shooting it forms a pattern kept at Today.",
+      "title": "CWE Halloween shooting overrated",
+      "verdict": "Partly rejected"
+    },
+    {
+      "note": "No lane carried it as current; Canvas operational.",
+      "title": "May Canvas ransomware overrated",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Low likelihood, Severity 4; alarm-routing check folded into freeze action.",
+      "title": "Scenario: freeze water release into West Campus basement archives",
+      "verdict": "Carried as dissent"
+    }
+  ],
+  "lanes_quiet": [
+    3
+  ],
+  "lookahead": [
+    {
+      "date": "2026-11-06",
+      "dow": "Fri",
+      "loads": "Field House 3/5/7 PM; SLU-Mizzou downtown; freeze begins midnight",
+      "stacked": true,
+      "wx": "53/34, drizzle early"
+    },
+    {
+      "date": "2026-11-07",
+      "dow": "Sat",
+      "loads": "Millstone swim 10 AM; Field House noon-8 PM; Loop Dia de los Muertos 4-10 PM; History Museum festival; downtown Veterans Day parade and 5K",
+      "stacked": true,
+      "wx": "54/35, dry, freeze to 8 AM"
+    },
+    {
+      "date": "2026-11-08",
+      "dow": "Sun",
+      "loads": "St. Louis Half Marathon and 5K, Forest Park 7 AM-noon, bus detours; History Museum festival",
+      "stacked": true,
+      "wx": "63/43, dry, near-freeze dawn"
+    },
+    {
+      "date": "2026-11-09",
+      "dow": "Mon",
+      "loads": "None significant",
+      "stacked": false,
+      "wx": "67/46, dry"
+    },
+    {
+      "date": "2026-11-10",
+      "dow": "Tue",
+      "loads": "Blues vs Detroit 7 PM (Ring 2)",
+      "stacked": false,
+      "wx": "67/45, dry"
+    },
+    {
+      "date": "2026-11-11",
+      "dow": "Wed",
+      "loads": "Veterans Day, holiday staffing",
+      "stacked": false,
+      "wx": "65/46, 20% overnight"
+    },
+    {
+      "date": "2026-11-12",
+      "dow": "Thu",
+      "loads": "Med Campus farmers market",
+      "stacked": false,
+      "wx": "61, 15-20% showers"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "active",
+      "summary": "Freeze Warning tonight; otherwise dry week, no SPC risk, no regional quakes, AQI Good. River stage and Tyson fire weather unreadable."
+    },
+    {
+      "name": "Life safety",
+      "pir": 2,
+      "status": "active",
+      "summary": "Two Ring 1 rental-party shootings in four days; Cabanne homicide appears targeted. No threat naming WashU; no demonstrations over 100 found."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "watch",
+      "summary": "Early H1N1-dominant flu season nationally; measles elevated regionally with no active Missouri exposures. Nothing at threshold."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "watch",
+      "summary": "Cold-chain advisory; BYOD ransomware against university health systems; North Building power shutdown Nov 14 6-10 AM; Blue Line shortened; OneDrive exposure follow-up."
+    },
+    {
+      "name": "Scheduled activity",
+      "pir": 5,
+      "status": "watch",
+      "summary": "Fri-Sun stacked (Field House, Loop festival, half marathon). No Ring 1 event over 5,000 confirmed; no notable speaker."
+    },
+    {
+      "name": "Policy, legal, funding",
+      "pir": 6,
+      "status": "watch",
+      "summary": "Federal stopgap expires Dec 11 with DHS unfunded full-year; refresh lapse continuity checklist this week. No new grant, Clery or Title IX action."
+    }
+  ],
+  "posture": "Normal",
+  "published_at": "2026-11-06T11:59:04Z",
+  "run_note": "All seven lanes reported; charter rev 10 read in full; run 05:52-06:00 CT. Lane 3 nothing at threshold. Several primary sources unreachable (cisa.gov, travel.state.gov, river stage, fire weather).",
+  "title": "WashU EM Daily Intelligence Briefing, November 6, 2026",
+  "today_items": [
+    {
+      "action": "Coordinate weekend patrol with SLMPD District 5; off-campus party-safety reminder before tonight.",
+      "confidence": "Medium",
+      "likelihood": "Occurring",
+      "owner": "WUPD, Student Affairs",
+      "pir": 2,
+      "rank": 1,
+      "severity": 3,
+      "source": "https://www.firstalert4.com/2026/11/05/juvenile-critically-injured-shooting-near-forest-park-police-say/",
+      "title": "Ring 1 party-shooting pattern (5500 Pershing Nov 4; 5200 Washington Pl Nov 1)",
+      "ttd": "Today"
+    },
+    {
+      "action": "Freeze checklist by 5 PM: irrigation, exposed lines, backflow, contractor notice at 6200 Forsyth and Med Campus, West Campus archive leak-alarm check, Tyson cold advisory.",
+      "confidence": "High",
+      "likelihood": "High",
+      "owner": "Facilities; EHS for Tyson",
+      "pir": 1,
+      "rank": 2,
+      "severity": 2,
+      "source": "https://forecast.weather.gov/product.php?site=LSX&issuedby=LSX&product=NPW",
+      "title": "Freeze Warning midnight to 8 AM Sat Nov 7, St. Louis City and County",
+      "ttd": "Today"
+    },
+    {
+      "action": "Confirm no freezer or cold-room monitoring controllers face the internet; test on-call alarm path.",
+      "confidence": "Medium",
+      "likelihood": "Medium",
+      "owner": "EHS, Med Campus Facilities, IT Security",
+      "pir": 4,
+      "rank": 3,
+      "severity": 3,
+      "source": "https://www.defconlevel.com/alert/2026-11-06-cisa-cybersecurity-advisories-us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems",
+      "title": "Federal advisory on attacks against refrigeration and cold-chain monitoring",
+      "ttd": "Today"
+    },
+    {
+      "action": "Confirm event security, parking and medical coverage; get Loop closure notice from U City; alert Loop residents.",
+      "confidence": "Medium",
+      "likelihood": "High",
+      "owner": "WUPD, Athletics, Student Affairs",
+      "pir": 5,
+      "rank": 4,
+      "severity": 2,
+      "source": "https://washubears.com/sports/mens-basketball/schedule",
+      "title": "Weekend event stack: Field House tournaments Fri-Sat, Millstone swim, Loop festival Sat 4-10 PM",
+      "ttd": "Today"
+    },
+    {
+      "action": "Send Sunday-morning access note to South 40 residents and Med Campus shift staff today.",
+      "confidence": "Medium",
+      "likelihood": "High",
+      "owner": "Communications, Parking & Transportation",
+      "pir": 5,
+      "rank": 5,
+      "severity": 2,
+      "source": "https://runsignup.com/Race/Info/MO/SaintLouis/StLouisHalfMarathon",
+      "title": "St. Louis Half Marathon and 5K, Forest Park, Sun Nov 8 7 AM to ~noon",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "WUPD and Student Affairs: coordinate weekend patrol with SLMPD District 5 in DeBaliviere Place and the CWE and send an off-campus party-safety reminder before tonight, after two Ring 1 rental-party shootings in four days.",
+  "unreachable": [
+    "cisa.gov news and KEV feed",
+    "api.weather.gov alerts",
+    "NWS Mississippi River stage at St. Louis (stale)",
+    "WPC Excessive Rainfall Outlook (map only)",
+    "AirNow",
+    "LSX fire weather (stale)",
+    "travel.state.gov",
+    "congress.gov CRS",
+    "Federal Register 2026-22696",
+    "Ameren outage map",
+    "REN-ISAC and Health-ISAC public pages",
+    "St. Louis County flu report",
+    "BJC diversion status"
+  ]
+}
