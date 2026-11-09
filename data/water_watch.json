@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "4:40 PM CST 11/9 four-lane run: one new Ring 3 item (Millstone Water District, Pope Co IL, third boil order dated 11/9; impact none). Nothing new in Rings 1-2; no boil order in St. Louis City or County (MO DNR newest still 11/5 New Hope). City Water wateroos.php stamped 4:30 PM: Eichelberger & Alaska repair still listed, no active outages; new hydrant repairs only (4200 Gravois, 3901 Keokuk, 5801 Oleatha, south City). /outages page stale (9:30 PM 11/8). West Plains order still in effect (sampling through 11/10); Cape Girardeau still listed. KSDK Ferguson/Haplin lead rejected (Jan 2025 story). Gaps: MAW alerts index, alert pages and boil page returned no content; IAW alerts empty; Clayton news item 4239 errored; Facebook/Nextdoor/Reddit not indexed.",
+    "note": "5:40 PM CST 11/9 four-lane run: nothing new, no tracked incident changed. City Water wateroos.php stamped 5:30 PM: no active outages; Eichelberger & Alaska, Eichelberger/January and Morganford & Humphrey repairs still listed; hydrant repairs only (Gravois, Keokuk, Oleatha). MAW 144297/144296/144270/144021 still posted, Last Updated blank, all past repair windows; IDs 144298-144305 empty. No boil order in St. Louis City or County (MO DNR newest still 11/5 New Hope; MAW boil page none). West Plains order still in effect (sampling through 11/10); Cape Girardeau and three Millstone orders still listed. Rejected undated KSDK items (Clayton/U City advisory lift, Hampton boil advisory) and stale MAW 126114 (June 2026 U City). Gaps: MAW alerts index empty (dropped-off check not possible); IAW alerts site error; Kirkwood/MSD/MoDOT not opened; social poorly indexed.",
     "open_count": 65,
-    "run_at": "2026-11-09T22:40:00Z",
-    "top_incident": "Jolley Hall/Cupples II no-water-use order still has no posted lift (~9 days past 10/31 end) and Jolley north entrance sewer repair has no completion notice (past 11/6 5 PM); Facilities pages rechecked ~4:35 PM 11/9, unchanged. Confirm with EPO Utility Operations; EH&S confirm eyewash/shower coverage."
+    "run_at": "2026-11-09T23:40:00Z",
+    "top_incident": "Jolley Hall/Cupples II no-water-use order still has no posted lift (~9 days past 10/31 end) and the Jolley north entrance sewer repair has no completion notice (past 11/6 5 PM); Facilities pages rechecked ~5:35 PM 11/9, unchanged. Confirm with EPO Utility Operations (D. Baca) / Plumbing shop (R. Busby); EH&S confirm eyewash/shower coverage."
   },
   "incidents": [
     {
