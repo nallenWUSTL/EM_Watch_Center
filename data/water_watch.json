@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "2:45 PM CST 11/9 four-lane run: no new incidents in Rings 1-3; no boil order in St. Louis City or County (MO DNR newest still 11/5 New Hope). City Water conflict resolved: wateroos.php stamped 2:30 PM 11/9 (Lanes 1 and 4) shows no active outages, so Jamieson/Scanlan and N Broadway outages resolved; /outages is a stale 9:30 PM 11/8 copy. Eichelberger & Alaska repair still listed, no outage. New routine hydrant work orders 11/9 (4200 Gravois, 3901 Keokuk, 5801 Oleatha), Ring 2, not tracked. MAW: no live alert above 144297; Clayton 144021 still posted with stale 11/5 text; Webster Groves 144297 unchanged. West Plains source conflict persists: Lane 2 found only a 11/16/2025 citywide order and a 10/28/2026 partial advisory, no 11/8-11/9/2026 order; record left unchanged (Ring 3, impact none), verify westplains.gov next run. Undated Nextdoor 'Olive and Eastover' U City post resurfaced (blocked; previously judged old). Gaps: IAW alerts page failed; MSD, Kirkwood, MAW boil page, municipal pages, BJC, Cortex, Loop, Forest Park Forever not opened.",
-    "open_count": 65,
-    "run_at": "2026-11-09T20:45:00Z",
-    "top_incident": "Jolley Hall/Cupples II no-water-use order still has no posted lift (~9 days past 10/31 end) and Jolley north entrance sewer repair has no completion notice (past 11/6 5 PM); Facilities pages rechecked ~2:40 PM 11/9, unchanged. Confirm with EPO Utility Operations (notice lists David Baca, 314-518-2424; sewer repair contact Robert Busby, 314-330-2021); EH&S confirm eyewash/shower coverage."
+    "note": "3:40 PM CST 11/9 four-lane run: no new incidents in Rings 1-3; no boil order in St. Louis City or County (MO DNR newest still 11/5 New Hope; MAW boil page none). City Water wateroos.php stamped 3:30 PM: no active outages; Eichelberger & Alaska repair still listed; Whittier & Maffitt dropped from table and Metro #42 reroute gone, resolved. MAW 144250 planned tie-in window passed, no status. MAW 144298-144299 empty placeholders; 144021, 144296, 144297 unchanged. West Plains order still in effect (sampling through 11/10). Cape Girardeau and Millstone still on KFVS list. Unverified/undated: Clayton PD Nextdoor 'Water Main Break UPDATE' (blocked, likely old), KSDK Ferguson Haplin Dr story (page error). Gaps: IAW alerts page failed; MAW alerts index script-loaded; Reddit and Nextdoor blocked; BJC, Cortex, Loop, Forest Park Forever not opened.",
+    "open_count": 64,
+    "run_at": "2026-11-09T21:40:00Z",
+    "top_incident": "Jolley Hall/Cupples II no-water-use order still has no posted lift (~9 days past 10/31 end) and Jolley north entrance sewer repair has no completion notice (past 11/6 5 PM); Facilities pages rechecked ~3:35 PM 11/9, unchanged. Confirm with EPO Utility Operations; EH&S confirm eyewash/shower coverage."
   },
   "incidents": [
     {
@@ -1606,11 +1606,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 9:34 PM CT 11/6 (Lane 1): alert 144250 now shows the state as Missouri; town field still a placeholder, no street. Planned main tie-in Mon 11/9 9:00 AM to ~3:30 PM, weather permitting. No boil advisory. Ring 2 provisional; no WashU link identified. Impact none. Action: recheck before Monday; escalate if placed in Clayton, University City, Richmond Heights or on a Ring 1 corridor. Owner: Emergency Management (track only).",
+      "assessment": "Updated 3:40 PM CT 11/9 (Lane 1): alert 144250 scheduled window (9:00 AM to ~3:30 PM 11/9) has passed; town field still a placeholder, no street, no completion or status text. No boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). No WashU Alert or Facilities notice. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-06T23:40:00Z",
       "id": "maw-unlocated-plannedtiein-20261109",
-      "last_updated": "2026-11-07T03:34:00Z",
+      "last_updated": "2026-11-09T21:40:00Z",
       "location": "Missouri (town placeholder 'Agency' on alert; no street published)",
       "ring": 2,
       "single_source": true,
@@ -2488,20 +2488,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 1:40 PM CT 11/6 (Lane 4, City Water table stamped 1:30 PM 11/6): Whittier & Maffitt is still missing from the table, and the Metro #42 reroute has been gone since 11/1. Both point to completion, but no source states it, so the item stays in monitoring. No boil advisory. North City, about 2-2.5 mi N of the Medical Campus (estimate), Ring 2; impact none. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 3:40 PM CT 11/9 (Lanes 1 and 4, City Water table stamped 3:30 PM 11/9; Lane 3, Metro rider alerts): Whittier St & Maffitt Ave no longer appears in the City Water outage or recent work-order list, and Metro no longer posts a #42 Sarah reroute for water main work. Treated as complete per utility page and transit feed; completion not explicitly stated. No boil advisory was ever posted. The Ville, ~3-4 mi NE of Medical Campus, Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-10-26T15:40:00Z",
       "id": "stlwater-stlouiscity-whittier-20261009",
-      "last_updated": "2026-11-06T19:40:00Z",
+      "last_updated": "2026-11-09T21:40:00Z",
       "location": "Whittier St at Maffitt Ave, St. Louis City (The Ville / Greater Ville, north City); Metro spells it 'Whitter'",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/wateroos.php",
-        "https://www.stlwater.com/wateroos.php?t=L4x1106d",
         "https://www.metrostlouis.org/rider-alerts/"
       ],
-      "status": "monitoring",
+      "status": "resolved",
       "title": "City of St. Louis Water Division main break, Whittier St at Maffitt Ave (The Ville) — Metro #42 Sarah reroute",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
