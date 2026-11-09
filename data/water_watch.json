@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "1:40 PM CST 11/9 four-lane run: no new incidents in Rings 1-2; no boil order in St. Louis City or County (MO DNR newest still 11/5 New Hope). No record changes written. City Water feed conflict persists: Lane 4 read wateroos.php stamped 1:30 PM 11/9 showing no active outages (Jamieson/Scanlan and N Broadway absent; no work orders after 10:31 AM); Lane 1 got the 2014 legacy wateroos table and /outages still frozen at 9:30 PM 11/8 listing those three outages. Left open pending a consistent read. MAW 144250 planned tie-in (today to ~3:30 PM) still unplaced; Clayton 144021, Maplewood 144270, Webster Groves 144297 unchanged; IDs 144310-144315 empty shells. Source conflict: Lane 2 found only 2025 West Plains citywide-order stories and a 10/28/2026 partial advisory, but the tracked record cites westplains.gov and a KY3 11/8/2026 story from the prior run; record left unchanged (Ring 3, impact none), recheck next run. Medical Campus Facilities: North Building electrical work 11/2-11/13 and power shutoff 11/14 6-10 AM (not water). Gaps: MAW/IAW boil pages failed; MSD, Kirkwood, City news releases, BJC, Cortex, Loop, Forest Park Forever, MoDOT not checked; social coverage thin.",
-    "open_count": 67,
-    "run_at": "2026-11-09T19:40:00Z",
-    "top_incident": "Jolley Hall/Cupples II no-water-use order still has no posted lift (~9 days past 10/31 end) and Jolley north entrance sewer repair has no completion notice (past 11/6 5 PM); Facilities pages rechecked ~1:40 PM 11/9, unchanged (newest Facilities post 11/6, not water). Confirm with EPO-Danforth Utility Operations (314-935-5550); EH&S confirm eyewash/shower coverage."
+    "note": "2:45 PM CST 11/9 four-lane run: no new incidents in Rings 1-3; no boil order in St. Louis City or County (MO DNR newest still 11/5 New Hope). City Water conflict resolved: wateroos.php stamped 2:30 PM 11/9 (Lanes 1 and 4) shows no active outages, so Jamieson/Scanlan and N Broadway outages resolved; /outages is a stale 9:30 PM 11/8 copy. Eichelberger & Alaska repair still listed, no outage. New routine hydrant work orders 11/9 (4200 Gravois, 3901 Keokuk, 5801 Oleatha), Ring 2, not tracked. MAW: no live alert above 144297; Clayton 144021 still posted with stale 11/5 text; Webster Groves 144297 unchanged. West Plains source conflict persists: Lane 2 found only a 11/16/2025 citywide order and a 10/28/2026 partial advisory, no 11/8-11/9/2026 order; record left unchanged (Ring 3, impact none), verify westplains.gov next run. Undated Nextdoor 'Olive and Eastover' U City post resurfaced (blocked; previously judged old). Gaps: IAW alerts page failed; MSD, Kirkwood, MAW boil page, municipal pages, BJC, Cortex, Loop, Forest Park Forever not opened.",
+    "open_count": 65,
+    "run_at": "2026-11-09T20:45:00Z",
+    "top_incident": "Jolley Hall/Cupples II no-water-use order still has no posted lift (~9 days past 10/31 end) and Jolley north entrance sewer repair has no completion notice (past 11/6 5 PM); Facilities pages rechecked ~2:40 PM 11/9, unchanged. Confirm with EPO Utility Operations (notice lists David Baca, 314-518-2424; sewer repair contact Robert Busby, 314-330-2021); EH&S confirm eyewash/shower coverage."
   },
   "incidents": [
     {
@@ -2023,24 +2023,21 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 6:40 PM CT 11/6 (Lanes 1, 2, 4; City Water table stamped 6:30 PM 11/6): Jamieson Ave Arsenal–Scanlan and Scanlan Ave Jamieson–Frisco outages still active, ~44 hr past their ~10:55 PM 11/4 estimates; overdue, not restored. No boil advisory. ~2.5-3 mi from South Campus and Danforth (estimate); no WashU asset; no Ring 1 corridor. Impact none. Monitor; resolve when outages drop from the table. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 2:45 PM CT 11/9 (Lanes 1 and 4, City Water wateroos.php stamped 2:30 PM 11/9, second consecutive consistent read after 1:30 PM): page states no active water main outages; Jamieson Ave Arsenal–Scanlan and Scanlan Ave Jamieson–Frisco no longer listed. /outages copy is stale (frozen 9:30 PM 11/8) and was disregarded. Treated as restored per utility page; restoration time not stated. No boil advisory was ever posted. South City, Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-03T17:40:00Z",
       "id": "stlwater-stlouiscity-jamieson-20261103",
-      "last_updated": "2026-11-07T00:40:00Z",
+      "last_updated": "2026-11-09T20:45:00Z",
       "location": "3137 Jamieson Ave repair; outages on Jamieson Ave between Arsenal St and Scanlan Ave, and Scanlan Ave between Jamieson Ave and Frisco Ave, 63139, St. Louis City (south City)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://stlwater.com/wateroos.php",
         "https://www.stlwater.com/wateroos.php",
-        "https://www.stlwater.com/wateroos.php?t=20261105b2333",
-        "https://www.stlwater.com/wateroos.php?t=L4x1105",
-        "https://www.stlwater.com/wateroos.php?t=20261105-1036b",
-        "https://www.stlwater.com/wateroos.php?t=L4x1105b",
+        "https://www.stlwater.com/outages",
+        "https://stlwater.com/wateroos.php",
         "https://www.stlwater.com/wateroos.php?t=L4x1105c"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "City of St. Louis Water Division main repair and service outages, Jamieson Ave (Arsenal–Scanlan) and Scanlan Ave (Jamieson–Frisco), south City",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -2198,21 +2195,20 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 7:40 PM CT 11/6 (Lanes 1 and 4; City Water table stamped 7:30 PM 11/6): N Broadway between Convention Plaza and Carr St outage (out since 10:02 AM 11/2) still listed, now ~5.5 hr past its 2:02 PM 11/6 estimate; no new estimate; overdue, not restored. No boil advisory (City advisories none). Downtown, ~3.5-4 mi E of Medical Campus/Cortex; no WashU asset; no Ring 1 corridor. Impact none. Monitor; resolve when dropped from the table. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 2:45 PM CT 11/9 (Lanes 1 and 4, City Water wateroos.php stamped 2:30 PM 11/9, second consecutive consistent read after 1:30 PM): page states no active water main outages; N Broadway Convention Plaza–Carr St no longer listed. /outages copy is stale (frozen 9:30 PM 11/8) and was disregarded. Treated as restored per utility page; restoration time not stated. No boil advisory. Downtown, Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-02T16:31:00Z",
       "id": "stlwater-stlouiscity-nbroadway-convention-20261102",
-      "last_updated": "2026-11-07T01:40:00Z",
+      "last_updated": "2026-11-09T20:45:00Z",
       "location": "N Broadway between Convention Plaza and Carr St, downtown St. Louis City",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/wateroos.php",
-        "https://www.stlwater.com/wateroos.php?t=L1x1106e",
-        "https://www.stlwater.com/wateroos.php?t=L4x1106e",
-        "https://www.stlwater.com/outages/"
+        "https://www.stlwater.com/outages",
+        "https://www.stlwater.com/wateroos.php?t=L4x1106e"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "City of St. Louis Water Division service outage, N Broadway between Convention Plaza and Carr St (downtown) — multi-day",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
