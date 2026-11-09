@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-09",
   "posture": "Normal",
-  "top_item": "WUPD and Student Affairs: coordinate weekend patrol with SLMPD District 5 in DeBaliviere Place and the CWE and send an off-campus party-safety reminder before tonight, after two Ring 1 rental-party shootings in four days.",
-  "briefing_url": "https://claude.ai/artifact/7ZPNUFbgrDAikQV5gN53em",
-  "published_at": "2026-11-06T11:59:04Z"
+  "top_item": "WashU IT/Communications: confirm all WashU WordPress sites are patched against actively exploited CVE-2026-119977 (CISA KEV, Nov 3), prioritizing emergency-messaging pages.",
+  "briefing_url": "https://claude.ai/artifact/YayUgiHkpkMwJicfMrtvun",
+  "published_at": "2026-11-09T11:59:00Z"
 }

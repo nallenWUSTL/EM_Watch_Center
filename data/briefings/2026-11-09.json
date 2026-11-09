@@ -1,0 +1,194 @@
+{
+  "bluf": "No charter threshold crossed overnight. Act today on the actively exploited WordPress Core flaw (CVE-2026-119977) across WashU sites; this week, harden Medical Campus refrigeration controls after a Nov 5 federal warning. Do a Tyson fire-weather check and confirm NWS St. Louis products directly. Saturday Nov 14 is the heaviest load day.",
+  "briefing_url": "https://claude.ai/artifact/YayUgiHkpkMwJicfMrtvun",
+  "date": "2026-11-09",
+  "dissents": [
+    {
+      "note": "Overrules Weather lane's nothing-reportable; Today pre-check, Low confidence.",
+      "title": "Tyson fire risk underrated",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Converged with Cyber lane; severity set to 3; ranked first.",
+      "title": "WordPress flaw underrated",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Nov 1 alone is context, but Nov 4 Pershing shooting makes a pattern; carried at This week.",
+      "title": "CWE Halloween party shooting overrated",
+      "verdict": "partial"
+    },
+    {
+      "note": "No current local advisory; flu stays Sev 2.",
+      "title": "Respiratory surge framing overrated",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Sev 4, Low likelihood; hedged by Today pre-check.",
+      "title": "LPHC: wildland fire at Tyson",
+      "verdict": "carried"
+    }
+  ],
+  "lanes_quiet": [
+    1,
+    3,
+    6
+  ],
+  "lookahead": [
+    {
+      "date": "2026-11-09",
+      "dow": "Mon",
+      "loads": "Minimal; Tyson fire-weather check",
+      "stacked": false,
+      "wx": "64-68/52F, dry"
+    },
+    {
+      "date": "2026-11-10",
+      "dow": "Tue",
+      "loads": "Registration opens; Blues vs Detroit 7 PM",
+      "stacked": true,
+      "wx": "64-68/52F, dry"
+    },
+    {
+      "date": "2026-11-11",
+      "dow": "Wed",
+      "loads": "Veterans Day; registration; no Ring 1 observance found",
+      "stacked": false,
+      "wx": "~63/46F, light rain with front"
+    },
+    {
+      "date": "2026-11-12",
+      "dow": "Thu",
+      "loads": "Registration; Graham Chapel 4 PM; Flyover Comedy Festival opens (Loop)",
+      "stacked": true,
+      "wx": "~50/30-45F, NNW gusts ~25 mph"
+    },
+    {
+      "date": "2026-11-13",
+      "dow": "Fri",
+      "loads": "Last registration day; men's basketball 7 PM Field House; Flyover; SLAM film",
+      "stacked": true,
+      "wx": "45-50/30-39F, dry, frost possible"
+    },
+    {
+      "date": "2026-11-14",
+      "dow": "Sat",
+      "loads": "Football vs Wooster 1 PM; Forest Park 5K and SciFest; Garden Glow opens; Blues 6 PM; Flyover late",
+      "stacked": true,
+      "wx": "~48/37F, dry"
+    },
+    {
+      "date": "2026-11-15",
+      "dow": "Sun",
+      "loads": "Garden Glow; Flyover closing",
+      "stacked": false,
+      "wx": "No data"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "quiet",
+      "summary": "Dry and mild through Tue; light rain with Wed front (<0.5 in); breezy and cold Thu, frost Thu-Fri mornings. No M3.0+ within 150 mi. NWS alerts unverified."
+    },
+    {
+      "name": "Life safety and threat",
+      "pir": 2,
+      "status": "watch",
+      "summary": "No Ring 1 violent incident in last 24 h. Pattern: short-term-rental party shootings east of Forest Park (Nov 1 Washington, Nov 4 Pershing). Sev 3, This week."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "quiet",
+      "summary": "No local advisory, college outbreak or diversion found. Early H1N1-dominant flu season; record national measles, no active St. Louis exposure."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "watch",
+      "summary": "WordPress KEV flaw (Today). Nov 5 federal warning on refrigeration-controller attacks, Sev 4 for Medical Campus cold storage (This week). No Ring 1 outage found."
+    },
+    {
+      "name": "Scheduled activity",
+      "pir": 5,
+      "status": "watch",
+      "summary": "No Ring 1 event over 5,000. Stacked Tue, Thu, Fri, Sat; Sat Nov 14 heaviest (football, Forest Park 5K/SciFest, Garden Glow, Blues, Flyover)."
+    },
+    {
+      "name": "Policy, legal and funding",
+      "pir": 6,
+      "status": "quiet",
+      "summary": "FY2027 CR expires Dec 11. Kenya Level 3 since Oct 19 (Ebola imported cases). Nothing new in last 24 h."
+    }
+  ],
+  "posture": "Normal",
+  "published_at": "2026-11-09T11:59:00Z",
+  "run_note": "All seven lanes reported; Sev 4 refrigeration advisory and WordPress KEV item re-verified at source. NWS alerts, SPC, cisa.gov and events.washu.edu unreachable this run.",
+  "title": "WashU EM Daily Intelligence Briefing, November 9, 2026",
+  "today_items": [
+    {
+      "action": "Confirm patched core on all WashU WordPress sites; check for leftover installer/staging files; prioritize emergency-messaging pages.",
+      "confidence": "High",
+      "likelihood": "Medium",
+      "owner": "WashU IT, Communications",
+      "pir": 4,
+      "rank": 1,
+      "severity": 3,
+      "source": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+      "title": "Exploited WordPress Core flaw CVE-2026-119977",
+      "ttd": "Today"
+    },
+    {
+      "action": "Check humidity and wind before field work; confirm researcher check-in and egress routes.",
+      "confidence": "Low",
+      "likelihood": "Low",
+      "owner": "EM, EHS",
+      "pir": 1,
+      "rank": 2,
+      "severity": 3,
+      "source": "https://forecast.weather.gov/product.php?site=LSX&issuedby=LSX&product=AFD",
+      "title": "Fire-weather pre-check at Tyson",
+      "ttd": "Today"
+    },
+    {
+      "action": "Duty officer checks weather.gov/lsx and SPC Day 1-3 outlooks.",
+      "confidence": "Low",
+      "likelihood": "Low",
+      "owner": "EM",
+      "pir": 1,
+      "rank": 3,
+      "severity": 1,
+      "source": "https://www.weather.gov/lsx/",
+      "title": "Confirm NWS St. Louis alerts directly (run could not reach them)",
+      "ttd": "Today"
+    },
+    {
+      "action": "Watch student systems for load at start times; keep web patching away from those windows.",
+      "confidence": "Medium",
+      "likelihood": "Occurring",
+      "owner": "Provost, WashU IT",
+      "pir": 5,
+      "rank": 4,
+      "severity": 1,
+      "source": "https://registrar.washu.edu/registration-schedule/",
+      "title": "Spring 2027 registration opens Tue 7:30/8:00 AM",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "WashU IT/Communications: confirm all WashU WordPress sites are patched against actively exploited CVE-2026-119977 (CISA KEV, Nov 3), prioritizing emergency-messaging pages.",
+  "unreachable": [
+    "api.weather.gov alerts",
+    "NWS point forecast / LSX AFD / SPC (stale)",
+    "NWS river gauge EADM7",
+    "AirNow St. Louis AQI",
+    "Missouri DNR",
+    "cisa.gov news and KEV",
+    "St. Louis County DPH flu report",
+    "events.washu.edu",
+    "travel.state.gov / fema.gov / SEMA (not opened)",
+    "Ameren, Spire, water, MoDOT live pages",
+    "BJC diversion status"
+  ]
+}
