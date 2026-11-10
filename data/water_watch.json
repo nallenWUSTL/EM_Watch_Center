@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "10:40 AM CST 11/10 four-lane run: two new Ring 2 MAW main breaks, impact none — Overland (144570, 8:15 AM, ~6 hr; 144564, 11 AM, ~3 hr) and Pine Lawn (144571, 8:15 AM, ~6 hr); no streets, no boil advisory. MAW 144457, 144507, 144021, 143300 unchanged; Wellston 144448 still in window. City Water wateroos (10:30 AM): no active outages. MO DNR: no St. Louis City/County boil order. WashU Alert none; Facilities: no Jolley lift, Wallace Dr 11/12-13 unchanged; Med Campus Facilities no water items. IAW alert 144583 reports a Peoria boil-order lift (not tied to a tracked record). KSDK Ferguson/Haplin and FOX 2 north St. Louis leads still unloadable/undated; undated Hanley Rd stories treated as old. Gaps: MAW alerts index and boil page did not render; MSD, Kirkwood, IAW Metro East, MoDOT, BJC not reached; social thin. Next MAW probe from 144585.",
-    "open_count": 84,
-    "run_at": "2026-11-10T16:40:00Z",
-    "top_incident": "No change: MAW 144457 and 144507 University City main breaks (11/9, no street, no boil advisory) still posted with no completion text — impact possible (low) for North Campus, Loop and U City-side Danforth. Jolley Hall/Cupples II no-water-use order still has no posted lift."
+    "note": "11:40 AM CST 11/10 four-lane run: two new items, impact none — City Water valve repair on Union Blvd (logged 10:51 AM, no block, no outage; Ring 2, ~1-1.5 mi E of Danforth/Loop) and MAW 144593 planned leak repair in Saint Charles 11/12 (Ring 3). All tracked MAW alerts (144457, 144507, 144021, 143300, 144448, 144570, 144564, 144571) still posted, unchanged. City Water: no active outages; no City boil advisory. MAW boil page none; MO DNR none in St. Louis City/County. WashU Alert none; Facilities: no Jolley lift, Wallace Dr 11/12-13 unchanged; Med Campus Facilities no water items. West Plains boil order still in effect. MAW probe reached 144604 (144605-606 blank). Gaps: MAW index did not render; MSD, Kirkwood, BJC, Cortex, MoDOT, Reddit not reached; KSDK Ferguson/Haplin and south County MAW stories still unloadable/undated. Next MAW probe from 144605.",
+    "open_count": 86,
+    "run_at": "2026-11-10T17:40:00Z",
+    "top_incident": "No change: MAW 144457 and 144507 University City main breaks (11/9, no street, no boil advisory) still posted, Last Updated blank, well past estimates — impact possible (low) for North Campus, Loop and U City-side Danforth. Jolley Hall/Cupples II no-water-use order still has no posted lift."
   },
   "incidents": [
     {
@@ -1441,6 +1441,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 11:40 AM CT 11/10 (Lane 1 only, ID probe): MAW alert 144593, planned water system improvements (leak repair) Thu 11/12 8:30 AM to ~3:00 PM, weather permitting; no street; no boil advisory. >15 mi from any WashU asset; separate service area. Impact none. Resolve after the work window if dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-10T17:40:00Z",
+      "id": "maw-stcharles-planned-20261112",
+      "last_updated": "2026-11-10T17:40:00Z",
+      "location": "Saint Charles, MO (St. Charles County; street not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144593"
+      ],
+      "status": "open",
+      "title": "Missouri American Water planned leak repair, Saint Charles (alert 144593), Nov 12",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 9:40 AM CT 10/26: alert 142472/142473 no longer appears on the MAW active alerts index (Lanes 1 and 3, all 12 previously tracked MAW IDs gone; Lanes 2 and 4 consistent). Treated as repair complete / alert expired per utility index. No street change, no boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). No WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-10-23T03:35:00Z",
@@ -2864,6 +2882,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division main break, Thekla Ave & Plover Ave — Metro #41 Lee reroute",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 11:40 AM CT 11/10 (Lane 4 only, City Water work-order table updated 11:30 AM): valve repair logged 10:51 AM 11/10; no time out, estimate, block or cross street; the same page shows no active water main outages, and no boil advisory is posted. Union Blvd runs ~1-1.5 mi E of Danforth and the Delmar Loop and ~2 mi NW of the Medical Campus; not a Ring 1 corridor; pressure-zone effect on WashU not indicated. Impact none. Escalate if an outage near Delmar/Union or Forest Park Pkwy/Union is posted. Resolve under the 48-hour rule if no outage is posted. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-10T17:40:00Z",
+      "id": "stlwater-stlouiscity-unionblvd-20261110",
+      "last_updated": "2026-11-10T17:40:00Z",
+      "location": "Union Blvd, St. Louis City (block and cross street not published on work-order table)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php?t=L4x1110a"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division valve repair, Union Blvd (block not published)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
