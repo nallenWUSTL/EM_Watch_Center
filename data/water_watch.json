@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "11:40 AM CST 11/10 four-lane run: two new items, impact none — City Water valve repair on Union Blvd (logged 10:51 AM, no block, no outage; Ring 2, ~1-1.5 mi E of Danforth/Loop) and MAW 144593 planned leak repair in Saint Charles 11/12 (Ring 3). All tracked MAW alerts (144457, 144507, 144021, 143300, 144448, 144570, 144564, 144571) still posted, unchanged. City Water: no active outages; no City boil advisory. MAW boil page none; MO DNR none in St. Louis City/County. WashU Alert none; Facilities: no Jolley lift, Wallace Dr 11/12-13 unchanged; Med Campus Facilities no water items. West Plains boil order still in effect. MAW probe reached 144604 (144605-606 blank). Gaps: MAW index did not render; MSD, Kirkwood, BJC, Cortex, MoDOT, Reddit not reached; KSDK Ferguson/Haplin and south County MAW stories still unloadable/undated. Next MAW probe from 144605.",
+    "note": "12:40 PM CST 11/10 four-lane run: one new item, impact none — City Water main repair at N 2nd St & Withers Ave (logged 12:28 PM, north riverfront, Ring 2). IAW 144605 lifted the Granite City boil order (resolved). IAW 144609 new Peoria break added to Peoria group. Tracked MAW alerts 144457, 144507, 144021, 143300, 144448, 144570, 144564, 144571 reopened: unchanged. City Water: no active outages (12:30 PM); no City boil advisory; MAW boil page none; MO DNR none in City/County. WashU Alert none; Facilities: no Jolley lift, Wallace Dr 11/12-13 unchanged; Med Campus Facilities electric work only. West Plains boil order still in effect. MAW probe reached 144620 (144614-620 blank; 144612 is IL St Charles, not MO). Gaps: stlwater.com and Reddit refused by proxy for two lanes (wateroos cache returned 2014 copy); /outages page stale (shows Sublette, already resolved); MSD, Kirkwood not reached. Next MAW probe from 144614.",
     "open_count": 86,
-    "run_at": "2026-11-10T17:40:00Z",
-    "top_incident": "No change: MAW 144457 and 144507 University City main breaks (11/9, no street, no boil advisory) still posted, Last Updated blank, well past estimates — impact possible (low) for North Campus, Loop and U City-side Danforth. Jolley Hall/Cupples II no-water-use order still has no posted lift."
+    "run_at": "2026-11-10T18:40:00Z",
+    "top_incident": "No change: MAW 144457 and 144507 University City main breaks (11/9, no street, no boil advisory) still posted, Last Updated blank — impact possible (low) for North Campus, Loop and U City-side Danforth. Jolley Hall/Cupples II no-water-use order still has no posted lift."
   },
   "incidents": [
     {
@@ -139,18 +139,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 12:40 PM CT 11/6 (Lane 1 only): IAW alert 144227, main-break emergency repairs began 11:30 AM CT 11/6, ~5-6 hr estimate (~4:30-5:30 PM); possible low pressure or service loss; boil water order takes effect when service is restored. Metro East, ~12-15 mi ENE of Danforth and Medical Campus across the river (estimate); separate utility system; no WashU asset. Impact none. Monitor; resolve when the boil-order lift is posted. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 12:40 PM CT 11/10 (Lane 1): Illinois American Water alert 144605 posts a Granite City boil order lift; the 11/6 main break (144227) is the only tracked Granite City event, so treated as its lift (street not published on either alert). Metro East, Ring 3; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-06T18:40:00Z",
       "id": "ilaw-granitecity-unlocated-20261106",
-      "last_updated": "2026-11-06T18:40:00Z",
+      "last_updated": "2026-11-10T18:40:00Z",
       "location": "Granite City, IL (Madison County, Metro East; streets not published on alert, area map on utility site not opened)",
       "ring": 3,
       "single_source": true,
       "sources": [
-        "https://alertsdetail.awapps.com/alert/144227"
+        "https://alertsdetail.awapps.com/alert/144227",
+        "https://alertsdetail.awapps.com/alert/144605"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "Illinois American Water main break with boil order on restoration, Granite City, IL (alert 144227)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
@@ -194,11 +195,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 6:40 AM CT 11/10 (Lane 1 only): six new IAW Peoria boil-order alerts; 144527 is a valve replacement from 3:45 AM 11/10, ~13 hr, boil order on restoration. Grouped; separate from tracked 11/6 and 11/9 Peoria records. ~150 mi NNE; separate system; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 12:40 PM CT 11/10 (Lane 1): new IAW Peoria alert 144609, main break with boil order on restoration, repairs from 11:45 AM 11/10, ~12 hr estimate; added to this group. Earlier: six 11/10 Peoria boil-order alerts incl. 144527 valve replacement. ~150 mi NNE; separate system; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-10T12:40:00Z",
       "id": "ilaw-peoria-group-20261110",
-      "last_updated": "2026-11-10T12:40:00Z",
+      "last_updated": "2026-11-10T18:40:00Z",
       "location": "Peoria, IL (Peoria County; streets not published in Lane report)",
       "ring": 3,
       "single_source": true,
@@ -208,7 +209,8 @@
         "https://alertsdetail.awapps.com/alert/144511",
         "https://alertsdetail.awapps.com/alert/144513",
         "https://alertsdetail.awapps.com/alert/144514",
-        "https://alertsdetail.awapps.com/alert/144527"
+        "https://alertsdetail.awapps.com/alert/144527",
+        "https://alertsdetail.awapps.com/alert/144609"
       ],
       "status": "open",
       "title": "Illinois American Water boil orders and valve replacement, Peoria, IL (alerts 144481, 144505, 144511, 144513, 144514, 144527)",
@@ -2569,6 +2571,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division main repair, Morganford Rd & Humphrey St (south City)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:40 PM CT 11/10 (Lane 3 only, City Water work-order table updated 12:30 PM): main repair logged 12:28 PM 11/10; no block, cause, outage or restoration time; same page shows no active water main outages; no boil advisory. North riverfront, >6 mi from Medical Campus (estimate); no WashU asset; no Ring 1 corridor. Impact none. Resolve under the 48-hour rule if no outage is posted. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-10T18:40:00Z",
+      "id": "stlwater-stlouiscity-n2ndst-withers-20261110",
+      "last_updated": "2026-11-10T18:40:00Z",
+      "location": "N 2nd St & Withers Ave, St. Louis City (north riverfront; block not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division main repair, N 2nd St & Withers Ave (north riverfront)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
