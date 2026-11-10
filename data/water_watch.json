@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "4:40 PM CST 11/10 four-lane run: new MAW 144635 Breckenridge Hills main break (3:30 PM, ~6 hr; Ring 2, none) and 144633 Wellston planned cut-and-cap 11/12 5:30-9 PM (Ring 2, none); City Water outage N 2nd St Talcott–Adelaide (2:13 PM) added to the N 2nd & Withers record; Ring 3 boil orders Carterville IL and Murphysboro IL (KFVS). ID probe 144633-144642: 144634 McHenry IL, 144636/144637 PA, 144638-144642 empty; next probe from 144638. City Water table 4:30 PM: only N 2nd outage; Union Blvd and Eichelberger & Alaska unchanged; city boil page none (an undated stlwater ?p=9725 page citing Chain of Rocks matches the Aug 2026 advisory, treated as stale). MO DNR newest 11/5. WashU Alert none; Facilities: no Jolley lift or sewer closeout; Wallace Dr 11/12-13 unchanged; Med Campus no water items. West Plains order not yet lifted. Gaps: municipal pages for U City/Clayton/Richmond Heights/Ladue/Eureka, MSD, Kirkwood, BJC/Cortex/Loop direct pages.",
-    "open_count": 93,
-    "run_at": "2026-11-10T22:40:00Z",
-    "top_incident": "No change: MAW 144457 and 144507 University City main breaks (11/9, no street, no boil advisory) still posted with blank end/Last Updated — impact possible (low) for North Campus, Loop and U City-side Danforth. Jolley Hall/Cupples II no-water-use order still has no posted lift."
+    "note": "5:40 PM CST 11/10 four-lane run: new MAW 144639 Manchester investigation (Ring 2, none) and 144638/144640 Jefferson City main break (Ring 3, none); 144641 is California American Water (out of region, not tracked). ID probe 144638-144650: 144642-144650 empty; next probe from 144642. MAW 144635 Breckenridge Hills and 144631 County unchanged (3:30/3:15 PM starts, ~6 hr). City Water: Lane 1 read the stale /outages page (12:30 AM stamp, shows resolved Sublette) so no City records changed; N 2nd St and Union Blvd left open pending the current table. MO DNR: none in St. Louis City/County. KFVS list: no new lifts; West Plains still not lifted. WashU Alert none; Facilities: no Jolley lift or sewer closeout; Wallace Dr 11/12-13 unchanged; Med Campus no water items (North Building power outage 11/14 6-10 AM, non-water). stlwater ?p=9725 confirmed as the lifted Aug 2026 advisory. Gaps: municipal pages for U City/Clayton/Richmond Heights/Ladue/Eureka, MSD, Kirkwood, wateroos.php current table.",
+    "open_count": 95,
+    "run_at": "2026-11-10T23:40:00Z",
+    "top_incident": "No change: MAW 144457 and 144507 University City main breaks (11/9, no street, no boil advisory) still posted with no completion text — impact possible (low) for North Campus, Loop and U City-side Danforth. Jolley Hall/Cupples II no-water-use order still has no posted lift."
   },
   "incidents": [
     {
@@ -1046,6 +1046,25 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 5:40 PM CT 11/10 (Lane 1 only, ID probe): MAW alerts 144638 and 144640 (apparent duplicates), main-break emergency repairs 11/10, completion expected ~11:30 PM; no street; no boil advisory stated. ~120 mi W of St. Louis; separate system; no WashU asset. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-10T23:40:00Z",
+      "id": "maw-jeffersoncity-unlocated-20261110",
+      "last_updated": "2026-11-10T23:40:00Z",
+      "location": "Jefferson City, MO (Cole County; street not published by utility)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144638",
+        "https://alertsdetail.awapps.com/alert/144640"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Jefferson City — emergency repairs (alerts 144638, 144640)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Updated 2:40 PM CT 11/4 (Lane 1): MAW alert 144006 reschedules the Joplin main-break work to 11 PM 11/4 through 4 AM 11/5; no street; no boil advisory. ~250 mi SW of St. Louis; separate system; no WashU asset. Impact none. Monitor; resolve when dropped from MAW index. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-04T15:40:00Z",
@@ -1097,6 +1116,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Lemay — Lenhardt Ave, emergency repairs (alert 144296)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 5:40 PM CT 11/10 (Lane 1 only, ID probe): MAW alert 144639, investigation of a possible service issue; some customers may see low or no pressure; no street, start or end time. Not a confirmed break. No boil advisory (MO DNR none in St. Louis City/County). ~12 mi W of Danforth, West and South Campus; Tyson on well water; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-10T23:40:00Z",
+      "id": "maw-manchester-investigation-20261110",
+      "last_updated": "2026-11-10T23:40:00Z",
+      "location": "Manchester, MO (west St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144639"
+      ],
+      "status": "open",
+      "title": "Missouri American Water service investigation, Manchester — possible low/no pressure (alert 144639)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
