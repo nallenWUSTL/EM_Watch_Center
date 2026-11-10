@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "6:40 PM CST 11/9 four-lane run: one new item, City Water outage on Sublette Ave (Wilson-Elizabeth), south City, Ring 2, off 6:19 PM, est. restore 6:19 AM 11/10, no boil advisory, impact none. No tracked incident changed. Eichelberger & Alaska still a repair work order, no outage. No boil order in St. Louis City or County (MO DNR newest rural; City advisories none). WashU Alert, Danforth and Medical Campus Facilities: no water notices. Ring 3: KFVS list unchanged vs tracked (Millstone 11/9 order already tracked; Cape-Perry PWSD #1 lift already recorded); West Plains lift not confirmed. Gaps: MAW alerts index and detail pages did not render (IDs >144297 unverified); IAW, MSD, Kirkwood, municipal pages not opened; social poorly indexed.",
+    "note": "7:40 PM CST 11/9 four-lane run: no new incidents and no tracked incident changed. City Water outage table (stamped 7:30 PM 11/9, Lane 4) shows one active outage, Sublette Ave Wilson-Elizabeth, est. restore 6:19 AM 11/10, no boil advisory. Eichelberger & Alaska repair order not seen on the list by Lanes 1 and 4 (Lane 1 saw an 11/3 'Eichelberger/January' entry instead); not closed, as the 48-hour rule has not run and no restoration was posted. Tracked MAW alerts reopened (144297, 144296, 144270, 144021, 143300): unchanged, no boil order; IDs 144298-144302 empty. No boil order in St. Louis City or County (MO DNR newest is New Hope, 11/5). WashU Alert, Danforth and Medical Campus Facilities: no new water notices. Ring 3: West Plains boil order still in effect (sampling through 11/10); KFVS list unchanged vs tracked. Gaps: Lane 1 got a stale City Water cache; MAW index, MAW boil page and IAW alerts did not load; MSD, Kirkwood and municipal pages not opened; no dated local news or social coverage.",
     "open_count": 66,
-    "run_at": "2026-11-10T00:40:00Z",
-    "top_incident": "Jolley Hall/Cupples II no-water-use order still has no posted lift (~9 days past 10/31 end) and the Jolley north entrance sewer repair has no completion notice (past 11/6 5 PM); Facilities pages rechecked ~6:35 PM 11/9, unchanged. Confirm with EPO Utility Operations (D. Baca) / Plumbing shop (R. Busby); EH&S confirm eyewash/shower coverage."
+    "run_at": "2026-11-10T01:40:00Z",
+    "top_incident": "Jolley Hall/Cupples II no-water-use order still has no posted lift (~9 days past 10/31 end) and the Jolley north entrance sewer repair has no completion notice (3+ days past 11/6 5 PM); Facilities pages rechecked ~7:35 PM 11/9, unchanged. Confirm with EPO Utility Operations (D. Baca) / Plumbing shop (R. Busby); EH&S confirm eyewash/shower coverage."
   },
   "incidents": [
     {
