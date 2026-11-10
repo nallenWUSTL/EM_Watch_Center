@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "5:40 PM CST 11/9 four-lane run: nothing new, no tracked incident changed. City Water wateroos.php stamped 5:30 PM: no active outages; Eichelberger & Alaska, Eichelberger/January and Morganford & Humphrey repairs still listed; hydrant repairs only (Gravois, Keokuk, Oleatha). MAW 144297/144296/144270/144021 still posted, Last Updated blank, all past repair windows; IDs 144298-144305 empty. No boil order in St. Louis City or County (MO DNR newest still 11/5 New Hope; MAW boil page none). West Plains order still in effect (sampling through 11/10); Cape Girardeau and three Millstone orders still listed. Rejected undated KSDK items (Clayton/U City advisory lift, Hampton boil advisory) and stale MAW 126114 (June 2026 U City). Gaps: MAW alerts index empty (dropped-off check not possible); IAW alerts site error; Kirkwood/MSD/MoDOT not opened; social poorly indexed.",
-    "open_count": 65,
-    "run_at": "2026-11-09T23:40:00Z",
-    "top_incident": "Jolley Hall/Cupples II no-water-use order still has no posted lift (~9 days past 10/31 end) and the Jolley north entrance sewer repair has no completion notice (past 11/6 5 PM); Facilities pages rechecked ~5:35 PM 11/9, unchanged. Confirm with EPO Utility Operations (D. Baca) / Plumbing shop (R. Busby); EH&S confirm eyewash/shower coverage."
+    "note": "6:40 PM CST 11/9 four-lane run: one new item, City Water outage on Sublette Ave (Wilson-Elizabeth), south City, Ring 2, off 6:19 PM, est. restore 6:19 AM 11/10, no boil advisory, impact none. No tracked incident changed. Eichelberger & Alaska still a repair work order, no outage. No boil order in St. Louis City or County (MO DNR newest rural; City advisories none). WashU Alert, Danforth and Medical Campus Facilities: no water notices. Ring 3: KFVS list unchanged vs tracked (Millstone 11/9 order already tracked; Cape-Perry PWSD #1 lift already recorded); West Plains lift not confirmed. Gaps: MAW alerts index and detail pages did not render (IDs >144297 unverified); IAW, MSD, Kirkwood, municipal pages not opened; social poorly indexed.",
+    "open_count": 66,
+    "run_at": "2026-11-10T00:40:00Z",
+    "top_incident": "Jolley Hall/Cupples II no-water-use order still has no posted lift (~9 days past 10/31 end) and the Jolley north entrance sewer repair has no completion notice (past 11/6 5 PM); Facilities pages rechecked ~6:35 PM 11/9, unchanged. Confirm with EPO Utility Operations (D. Baca) / Plumbing shop (R. Busby); EH&S confirm eyewash/shower coverage."
   },
   "incidents": [
     {
@@ -2422,6 +2422,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division service outage, Sidney St & Michigan Ave / Minnesota Ave & Sidney St (Benton Park / Marine Villa)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 6:40 PM CT 11/9 (Lanes 1 and 4, City Water outage table stamped 6:30 PM 11/9): water off since 6:19 PM 11/9, estimated restoration 6:19 AM 11/10; cause and customer count not stated; no boil advisory posted. ~2-3 mi from South Campus and Medical Campus (estimate); not on a Ring 1 corridor; separate from Medical Campus feed as far as known. Impact none. No news or social corroboration. Monitor; resolve when dropped from the outage table. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-10T00:40:00Z",
+      "id": "stlwater-stlouiscity-sublette-20261109",
+      "last_updated": "2026-11-10T00:40:00Z",
+      "location": "Sublette Ave between Wilson Ave and Elizabeth Ave, St. Louis City (Hill / Clifton Heights area south of I-64; table spells it 'Sublettle')",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outage, Sublette Ave between Wilson Ave and Elizabeth Ave (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
