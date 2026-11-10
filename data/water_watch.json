@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "12:35 AM CST 11/10 four-lane run: no new Ring 1 incident, no boil order in St. Louis City or County (MO DNR newest New Hope 11/5). Added four MAW alerts dated 11/7 found by ID probe (none affecting WashU): 144360 Ellisville Woodhill Estates Dr, 144338 unplaced St. Louis County break, 144332 unplaced investigation, 144345 Buchanan County. City Water table (12:30 AM, Lanes 1 and 4) unchanged: Sublette Ave Wilson-Elizabeth outage est. restore 6:19 AM; Eichelberger & Alaska repair still listed; new items are south City hydrant repairs only; Morganford & Humphrey main repair (11/5, no outage) not tracked. MAW 144297, 144296, 144270 still posted past estimates. West Plains order still awaiting DNR lift; KFVS list unchanged for tracked items. Undated KSDK Collinsville lift story not adopted (area mismatch). WashU Alert none; Facilities no new water notices. Gaps: undated FOX 2 Overland/Pacific boil advisory and KSDK south County MAW stories would not load; MSD, Kirkwood, IAW, MAW boil page, municipal pages, BJC, Cortex, MoDOT not opened directly.",
+    "note": "1:40 AM CST 11/10 four-lane run: no new St. Louis City/County or Ring 1 incident; no boil order in St. Louis City or County (MO DNR newest still New Hope 11/5; MAW boil page none). City Water table (1:30 AM): Sublette Ave Wilson-Elizabeth outage still active, est. restore 6:19 AM; Eichelberger & Alaska and Morganford & Humphrey repairs still listed; other rows are south City hydrant repairs. MAW ID probe 144361-144370: 144361 IAW Peoria N Merrimac Ave boil lifted (noted on Peoria record, not resolved), 144362 CA, 144363 KY, 144364+ not issued. MAW 144360, 144021, 143300 still posted past estimates. Regional: West Plains order not lifted (sampling through 11/10); Millstone/Cape Girardeau unchanged. Granite City IL Iowa St sinkhole (IAW leak search, no service loss) not tracked as a water incident. WashU Alert none; Facilities no new water notices. Old emergency.washu.edu pages (Cortex One 2019, BJH/Euclid 2015, 620 S Taylor 2017) show 11/9 modified dates from re-indexing; not incidents. Gaps: MAW alerts index did not render; MSD, Kirkwood, U City alerts page, MoDOT not opened.",
     "open_count": 70,
-    "run_at": "2026-11-10T06:35:00Z",
-    "top_incident": "Jolley Hall/Cupples II no-water-use order still has no posted lift (~10 days past 10/31 end) and the Jolley north entrance sewer repair has no completion notice (3+ days past 11/6 5 PM); both Facilities pages rechecked ~12:35 AM 11/10, unchanged. Confirm with EPO Utility Operations; EH&S confirm eyewash/shower coverage."
+    "run_at": "2026-11-10T07:40:00Z",
+    "top_incident": "Jolley Hall/Cupples II no-water-use order still has no posted lift (~10 days past 10/31 end) and the Jolley north entrance sewer repair has no completion notice (~3.5 days past 11/6 5 PM); both Facilities pages rechecked ~1:35 AM 11/10, unchanged. Since 11/1, Danforth outage notices go to Key Management Contacts by phone/text, so the public page is a weak signal. Confirm with EPO Utility Operations; EH&S confirm eyewash/shower coverage."
   },
   "incidents": [
     {
@@ -194,18 +194,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 5:40 AM CT 11/7 (Lane 1): new American Water alert 144274, planned valve repair on N Montello Dr, Peoria, Mon 11/9, ~4-6 hr; tracked under this record. No lift posted for the 11/6 main-break boil order (144257/144267); IAW alert pages did not load this run. ~150 mi NNE of St. Louis; separate system; no WashU asset. Impact none. Monitor; resolve when a boil-order lift is posted. Owner: Emergency Management (track only).",
+      "assessment": "Updated 1:40 AM CT 11/10 (Lane 1, ID probe): new Illinois American Water alert 144361 reports a boil order lifted on N Merrimac Ave, Peoria. Not confirmed to be the same event as the 11/6 main break (144257/144267 published no street), so kept open rather than resolved. ~150 mi NNE of St. Louis; separate system; no WashU asset. Impact none. Resolve once a lift is tied to the 11/6 event. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-07T00:40:00Z",
       "id": "ilaw-peoria-unlocated-20261106",
-      "last_updated": "2026-11-07T11:40:00Z",
+      "last_updated": "2026-11-10T07:40:00Z",
       "location": "Peoria, IL (Peoria County; street not published by utility)",
       "ring": 3,
       "single_source": true,
       "sources": [
         "https://alertsdetail.awapps.com/alert/144257",
         "https://alertsdetail.awapps.com/alert/144267",
-        "https://alertsdetail.awapps.com/alert/144274"
+        "https://alertsdetail.awapps.com/alert/144274",
+        "https://alertsdetail.awapps.com/alert/144361"
       ],
       "status": "open",
       "title": "Illinois American Water main break, Peoria, IL — emergency repairs, boil order on restoration (alerts 144257, 144267)",
