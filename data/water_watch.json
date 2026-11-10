@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "7:40 AM CST 11/10 four-lane run: nothing new in St. Louis City/County or Metro East. City Water table (7:30 AM) shows no active outages; Eichelberger & Alaska repair still listed, no status. MAW 144457, 144507, 144448 (Wellston, 8 AM-2 PM today), 144021 Clayton, 143300 Richmond Heights still posted unchanged. No boil order in St. Louis City/County (City, MAW, MO DNR pages). KFVS list (updated 3:43 PM 11/9): Cape Girardeau and Millstone x3 still active. MAW 144528 is Dickson City PA (out of region); 144522-144525, 144529-144532, 144535, 144540 blank. No WashU Alert or Facilities water notice; Facilities building outage alerts now go to Key Management Contacts by phone/text, so web silence is not proof of no outage. Gaps: MAW index did not render; MSD, Kirkwood, BJC, Cortex, MoDOT, Forest Park, municipal pages not reached. Next probe MAW IDs 144529+.",
+    "note": "8:40 AM CST 11/10 four-lane run: nothing new or changed in St. Louis City/County or Ring 1. City Water /outages page (stamped 12:30 AM) still shows Sublette & Wilson, already resolved 3:40 AM per wateroos table; Eichelberger & Alaska and Morganford & Humphrey repairs still listed, no status; new routine hydrant repairs 11/9 at 4200 Gravois, 3901 Keokuk, 5801 Oleatha (no outage). MO DNR dataset: no St. Louis metro boil order. West Plains citywide boil order, Millstone x3, Cape Girardeau still active (KFVS 11/9). WashU Alert none; Facilities: no Jolley lift, Wallace Dr work 11/12-13 unchanged; Med Campus Facilities no water items. Unverified leads: FOX 2 video 'water main break in north St. Louis' (date/location unconfirmed); KSDK Ferguson/Haplin Dr article (date unconfirmed). Gaps: MAW alert-detail pages and index did not render (IDs 144529+ unprobed; 144457/144507/144021/143300 not re-verified); IAW alerts failed; MSD, BJC, Cortex, MoDOT, Forest Park, Metro not reached.",
     "open_count": 82,
-    "run_at": "2026-11-10T13:40:00Z",
-    "top_incident": "No change: MAW 144457 and 144507 University City main breaks (11/9, no street, no boil advisory) still posted past their estimates — impact possible (low) for North Campus, Loop and U City-side Danforth; Jolley Hall/Cupples II no-water-use order still has no posted lift (Lane 3 rechecked 7:40 AM 11/10)."
+    "run_at": "2026-11-10T14:40:00Z",
+    "top_incident": "No change: MAW 144457 and 144507 University City main breaks (11/9, no street, no boil advisory) — impact possible (low) for North Campus, Loop and U City-side Danforth; status not re-verified this run (MAW alert pages unreachable). Jolley Hall/Cupples II no-water-use order still has no posted lift (posted end times 10/31 and 11/6 passed, no extension)."
   },
   "incidents": [
     {
