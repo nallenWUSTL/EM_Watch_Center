@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "1:45 PM CST 11/10 four-lane run: nothing new, no status changes. Reopened MAW 144457, 144507 (U City), 144021 (Clayton), 143300 (Richmond Heights), 144570/144564 (Overland), 144571 (Pine Lawn), 144448 (Wellston): unchanged, no completion text. MAW probe sampled 144621-144680 (12 IDs, all blank; 144624/626/628/629 and most of 631-679 not opened). MAW boil page none; City Water no boil advisory; MO DNR newest 10/28, none in City/County. Stale /outages page still shows Sublette (already resolved). KFVS list (modified 11/9 3:43 PM): Millstone three orders and Cape Girardeau unchanged; PWSD#1 Jackson lift already recorded. WashU Alert none; Facilities: no Jolley lift, Jolley sewer repair past 11/6 end with no closeout, Wallace Dr 11/12-13 unchanged; Med Campus Facilities electrical only. Unverified leads not adopted: KSDK south County 'possible main break' and Yahoo 'Berkeley main break' (pages failed, undated). Gaps: MSD, Kirkwood, municipal pages, BJC/Cortex/Loop, MoDOT/City closures not reached. Next MAW probe from 144621 (fill skipped IDs).",
-    "open_count": 86,
-    "run_at": "2026-11-10T19:45:00Z",
-    "top_incident": "No change: MAW 144457 and 144507 University City main breaks (11/9, no street, no boil advisory) still posted, well past 6-hr estimates — impact possible (low) for North Campus, Loop and U City-side Danforth. Jolley Hall/Cupples II no-water-use order still has no posted lift."
+    "note": "2:45 PM CST 11/10 four-lane run: new MAW Fenton main break 144626 (Ring 2, impact none) and Warrensburg planned valve work 144623 (Ring 3). IAW Peoria lift 144621 noted on Peoria group (not tied to a specific event). Reopened 144457/144507: unchanged. City work-order table no longer lists N 2nd & Withers or Union Blvd (not confirmed complete, left open); Eichelberger & Alaska still listed; Sublette still shown (already resolved). MO DNR none in City/County; stlwater no boil advisory. WashU Alert none; Facilities: no Jolley lift, Jolley sewer repair no closeout, Wallace Dr 11/12-13 still scheduled; Med Campus Facilities electrical only (North Bldg 11/14). Leads closed as stale: KSDK south County 'possible main break' (Aug 2024 event); Berkeley main break unverified (page failed). Gaps: MSD, Kirkwood, MAW boil page, BJC/Cortex/Loop, MoDOT/City closures, Eureka/Ladue/Brentwood/Maplewood pages not reached. Next MAW probe from 144629.",
+    "open_count": 88,
+    "run_at": "2026-11-10T20:45:00Z",
+    "top_incident": "No change: MAW 144457 and 144507 University City main breaks (11/9, no street, no boil advisory) still posted with no completion text, well past 6-hr estimates — impact possible (low) for North Campus, Loop and U City-side Danforth. Jolley Hall/Cupples II no-water-use order still has no posted lift."
   },
   "incidents": [
     {
@@ -195,11 +195,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 12:40 PM CT 11/10 (Lane 1): new IAW Peoria alert 144609, main break with boil order on restoration, repairs from 11:45 AM 11/10, ~12 hr estimate; added to this group. Earlier: six 11/10 Peoria boil-order alerts incl. 144527 valve replacement. ~150 mi NNE; separate system; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 2:45 PM CT 11/10 (Lane 1): new IAW alert 144621 posts a Peoria boil order lift (no date or street on page); it cannot be tied to a specific tracked Peoria alert, so no Peoria record is resolved yet. Earlier: 144609 main break with boil order on restoration (from 11:45 AM 11/10, ~12 hr), plus six 11/10 boil-order alerts incl. 144527 valve replacement. ~150 mi NNE; separate system; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-10T12:40:00Z",
       "id": "ilaw-peoria-group-20261110",
-      "last_updated": "2026-11-10T18:40:00Z",
+      "last_updated": "2026-11-10T20:45:00Z",
       "location": "Peoria, IL (Peoria County; streets not published in Lane report)",
       "ring": 3,
       "single_source": true,
@@ -210,7 +210,8 @@
         "https://alertsdetail.awapps.com/alert/144513",
         "https://alertsdetail.awapps.com/alert/144514",
         "https://alertsdetail.awapps.com/alert/144527",
-        "https://alertsdetail.awapps.com/alert/144609"
+        "https://alertsdetail.awapps.com/alert/144609",
+        "https://alertsdetail.awapps.com/alert/144621"
       ],
       "status": "open",
       "title": "Illinois American Water boil orders and valve replacement, Peoria, IL (alerts 144481, 144505, 144511, 144513, 144514, 144527)",
@@ -761,6 +762,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Fenton — emergency repairs (alert 144085)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 2:45 PM CT 11/10 (Lane 1 only, ID probe): MAW alert 144626, main-break repairs began 2:30 PM 11/10, ~6 hr estimate (~8:30 PM); possible discolored water, low or no pressure; no street; no boil advisory (MO DNR none in St. Louis City/County). Separate from tracked 144085 (11/5). ~14 mi SW of Danforth; Tyson ~8-10 mi W but on well water; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-10T20:45:00Z",
+      "id": "maw-fenton-unlocated-20261110",
+      "last_updated": "2026-11-10T20:45:00Z",
+      "location": "Fenton, MO (southwest St. Louis County; street not published, alert refers to MAW map)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144626"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Fenton — emergency repairs (alert 144626)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -1982,6 +2001,24 @@
       ],
       "status": "monitoring",
       "title": "Missouri American Water planned main tie-in, location unpublished (alert 144250)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 2:45 PM CT 11/10 (Lane 1 only, ID probe): MAW alert 144623, planned valve installation 2-4 PM 11/10. ~200 mi W of St. Louis; separate system; no WashU asset. Impact none. Resolve after the window when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-10T20:45:00Z",
+      "id": "maw-warrensburg-planned-20261110",
+      "last_updated": "2026-11-10T20:45:00Z",
+      "location": "Warrensburg, MO (Johnson County; street not reported)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144623"
+      ],
+      "status": "open",
+      "title": "Missouri American Water planned valve installation, Warrensburg (alert 144623)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
