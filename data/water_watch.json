@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "3:40 AM CST 11/10 four-lane run: one new Ring 1 item (Wallace Dr South 40 planned water-line exploratory work 11/12-13, lane closures, no outage). Sublette Ave outage resolved (City Water table 3:30 AM: no active outages). No boil order in St. Louis City/County (City boil page none; MO DNR newest New Hope 11/5). MAW 144021 Clayton and 143300 Richmond Heights still posted, no street. ID probe 144364-144380 spot-checked: not issued. KFVS: Cape Girardeau and Millstone x3 still active; West Plains lift unconfirmed. KSDK Ferguson/Haplin lead is a Jan 2025 story, dropped. False positive avoided: WashU 620 S Taylor outage pages edited 11/9 describe a 2017 event. Gaps: MAW alerts index and boil page did not render; BJC, Cortex, Loop, Forest Park, MoDOT and municipal pages not checked; X/Facebook/Nextdoor only via search.",
-    "open_count": 70,
-    "run_at": "2026-11-10T09:40:00Z",
-    "top_incident": "Jolley Hall/Cupples II no-water-use order still has no posted lift (~10 days past 10/31 end) and Jolley north entrance sewer repair has no completion notice (Lane 3 rechecked ~3:40 AM 11/10, unchanged). Confirm with EPO Utility Operations; EH&S confirm eyewash/shower coverage. New: planned Wallace Dr (South 40) water-line exploratory work with lane closures Thu-Fri 11/12-13, 6 AM-4 PM, no interruption announced."
+    "note": "4:40 AM CST 11/10 four-lane run: three new Ring 2 MAW County alerts found by ID probe (Frontenac 144399; Northwoods 144402/144404/144410; Maryland Heights 144395), body dates 11/8, no streets, impact none. City Water table 4:30 AM: no active outages; Eichelberger & Alaska work order still listed. No boil order in St. Louis City/County (MO DNR newest New Hope 11/5). MAW 144021 Clayton and 143300 Richmond Heights unchanged. West Plains, Cape Girardeau, Millstone x3 still active. False leads rejected: emergency.washu.edu ?p=2173 (2015 BJH/Euclid), ?p=26742 Cortex One (2019), St. Louis American ?p=228402 (2020), KTRS ?p=67901 (undated). Gaps: MAW index and boil page did not render; MSD, Kirkwood, BJC, Cortex, Loop, MoDOT not opened; social only via search. Next probe MAW IDs 144413+.",
+    "open_count": 73,
+    "run_at": "2026-11-10T10:40:00Z",
+    "top_incident": "Jolley Hall/Cupples II no-water-use order still has no posted lift (~10 days past 10/31 end) and Jolley north entrance sewer repair has no completion notice (Lane 3 rechecked 4:35 AM 11/10, unchanged). Confirm with EPO Utility Operations; EH&S confirm eyewash/shower coverage. Wallace Dr (South 40) water-line exploratory work 11/12-13 unchanged, no shutdown announced."
   },
   "incidents": [
     {
@@ -855,6 +855,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 4:40 AM CT 11/10 (Lane 1 only, ID probe): MAW alert 144399, emergency repairs with possible discolored water; body dates start 11/8 8:00 AM, ~1 hr estimate (date may be a placeholder; Last Updated blank; may be complete). No street; no boil advisory (MO DNR newest 11/5). ~5 mi W of South Campus and Danforth (estimate); different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Monitor; resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-10T10:40:00Z",
+      "id": "maw-frontenac-unlocated-20261108",
+      "last_updated": "2026-11-10T10:40:00Z",
+      "location": "Frontenac, MO (mid St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144399"
+      ],
+      "status": "open",
+      "title": "Missouri American Water emergency repairs with discoloration, Frontenac (alert 144399)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 10:40 AM CT 10/22: alert 142176 no longer appears on the MAW active alerts index (Lane 1) and its detail URL returns only the generic welcome page, after showing an empty shell since 10/21 morning. Treated as repair complete / alert expired per utility index. No street ever published, no boil advisory. Hazelwood is north St. Louis County, roughly 15 mi from Danforth and the Medical Campus; no WashU asset; impact none.",
       "confidence": "Medium",
       "first_seen": "2026-10-21T00:40:00Z",
@@ -1061,6 +1079,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 4:40 AM CT 11/10 (Lane 1 only, ID probe): MAW alert 144395, emergency repairs, possible discoloration and low pressure; body dates start 11/8 8:00 AM, ~8 hr estimate (date may be a placeholder; Last Updated blank). Separate from tracked 142753 and 143355. No street; no boil advisory. ~7-9 mi NW of Danforth; no WashU asset; no Ring 1 corridor. Impact none. Monitor; resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-10T10:40:00Z",
+      "id": "maw-marylandheights-unlocated-20261108",
+      "last_updated": "2026-11-10T10:40:00Z",
+      "location": "Maryland Heights, MO (street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144395"
+      ],
+      "status": "open",
+      "title": "Missouri American Water emergency repairs, Maryland Heights — discoloration / low pressure (alert 144395)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 4:40 PM CT 11/5 (Lane 1 only): MAW alert 144132, broken valve repair began 11/5, ~6-7 hr estimate; no street; no boil advisory. ~110 mi NW of St. Louis; separate system; no WashU asset. Impact none. Monitor; resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-05T22:40:00Z",
@@ -1093,6 +1129,26 @@
       "status": "open",
       "title": "Missouri American Water main break, North St. Louis County (municipality unspecified) — emergency repairs (alert 143411)",
       "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 4:40 AM CT 11/10 (Lane 1 only, ID probe): MAW 144404 emergency repairs with discoloration, dated 11/8, ~8 hr estimate; 144402 and 144410 are investigations, likely the same event. Last Updated blank; start date may be a placeholder. No street; no boil advisory. ~3-4 mi N of North Campus and Danforth (estimate); different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Escalate if a street toward Delmar/University City is published. Monitor; resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-10T10:40:00Z",
+      "id": "maw-northwoods-unlocated-20261108",
+      "last_updated": "2026-11-10T10:40:00Z",
+      "location": "Northwoods, MO (north St. Louis County near Normandy; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144402",
+        "https://alertsdetail.awapps.com/alert/144404",
+        "https://alertsdetail.awapps.com/alert/144410"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break and investigations, Northwoods (alerts 144402, 144404, 144410)",
+      "utility": "Missouri American Water (probable; alert links missouriamwater.com, no state named)",
       "washu_impact": "none"
     },
     {
