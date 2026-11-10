@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "2:45 PM CST 11/10 four-lane run: new MAW Fenton main break 144626 (Ring 2, impact none) and Warrensburg planned valve work 144623 (Ring 3). IAW Peoria lift 144621 noted on Peoria group (not tied to a specific event). Reopened 144457/144507: unchanged. City work-order table no longer lists N 2nd & Withers or Union Blvd (not confirmed complete, left open); Eichelberger & Alaska still listed; Sublette still shown (already resolved). MO DNR none in City/County; stlwater no boil advisory. WashU Alert none; Facilities: no Jolley lift, Jolley sewer repair no closeout, Wallace Dr 11/12-13 still scheduled; Med Campus Facilities electrical only (North Bldg 11/14). Leads closed as stale: KSDK south County 'possible main break' (Aug 2024 event); Berkeley main break unverified (page failed). Gaps: MSD, Kirkwood, MAW boil page, BJC/Cortex/Loop, MoDOT/City closures, Eureka/Ladue/Brentwood/Maplewood pages not reached. Next MAW probe from 144629.",
-    "open_count": 88,
-    "run_at": "2026-11-10T20:45:00Z",
-    "top_incident": "No change: MAW 144457 and 144507 University City main breaks (11/9, no street, no boil advisory) still posted with no completion text, well past 6-hr estimates — impact possible (low) for North Campus, Loop and U City-side Danforth. Jolley Hall/Cupples II no-water-use order still has no posted lift."
+    "note": "3:40 PM CST 11/10 four-lane run: one new item, MAW 144631 St. Louis County unplaced main break (3:15 PM start, ~6 hr; Ring 2, impact none). ID probe 144629-144640: 144629/144630 Dunmore and 144632 Noblesville investigations (out of region), 144633-144640 empty; next probe from 144633. City Water: Eichelberger & Alaska still listed; N 2nd & Withers and Union Blvd still absent (not confirmed complete, left open); Sublette still shown with stale 12:30 AM stamp (already resolved, not reopened). MO DNR newest 11/5 (none in City/County); stlwater no boil advisory or street closures. WashU Alert none (modified 11/2); Facilities: no Jolley lift or sewer closeout; Wallace Dr 11/12-13 unchanged; Med Campus electrical/HVAC only. KFVS: Millstone and Cape Girardeau unchanged. Stale leads rejected: Fox2 March 2026 freeze breaks (Linden/Pershing U City), undated Lindell 30-inch break, 2025 Kirkwood advisory, 2019 Clayton S Central. Gaps: MSD, Kirkwood, MAW index/boil page (script-loaded), municipal pages for U City/Clayton/Richmond Heights/Ladue/Eureka, BJC/Cortex/Loop, MoDOT.",
+    "open_count": 89,
+    "run_at": "2026-11-10T21:40:00Z",
+    "top_incident": "No change: MAW 144457 and 144507 University City main breaks (11/9, no street, no boil advisory) still posted with blank end/Last Updated, well past 6-hr estimates — impact possible (low) for North Campus, Loop and U City-side Danforth. Jolley Hall/Cupples II no-water-use order still has no posted lift."
   },
   "incidents": [
     {
@@ -1816,6 +1816,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, St. Louis County (unplaced) — emergency repairs (alert 144478)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 3:40 PM CT 11/10 (Lane 1 only, ID probe): MAW alert 144631, main-break emergency repairs began 3:15 PM 11/10, ~6 hr estimate (~9:15 PM); no municipality or street; no boil advisory (MO DNR none in St. Louis City/County). No WashU Alert or Facilities notice (Lane 3); no news or social corroboration (Lanes 2, 4). No WashU link identified. Impact none. Escalate if a Clayton, University City, Richmond Heights or Ladue street is published. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-10T21:40:00Z",
+      "id": "maw-stlouiscounty-unlocated-20261110",
+      "last_updated": "2026-11-10T21:40:00Z",
+      "location": "St. Louis County, MO (municipality and street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144631"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, St. Louis County (unplaced) — emergency repairs (alert 144631)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
