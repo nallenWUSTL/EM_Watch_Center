@@ -1,0 +1,197 @@
+{
+  "bluf": "No local threshold event: no NWS product for St. Louis, no Ring 1 violence in 24 h, no threat naming WashU, no health advisory or diversion, no outage at a WashU asset. Cyber leads: Vanderbilt ransomware since Nov 9 and an attack on French blood-bank freezer controllers drawing a Health-ISAC warning point to checks for IT, EHS and Medical Campus Security before the Veterans Day overnight. Wed afternoon NW gusts near 30 mph affect the 6200 Forsyth crane and Tyson; Sat Nov 14 is the only stacked day.",
+  "briefing_url": "https://claude.ai/artifact/3uREPznPmTmJXkw7GCzeJv",
+  "date": "2026-11-10",
+  "dissents": [
+    {
+      "note": "Overrules Cyber lane; verified via AP; moved to Today at Sev 4.",
+      "title": "Underrated: cold-chain controller attacks",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Verified via Student Life (Nov 3-5); This week, Sev 3; tied to Sat event security planning.",
+      "title": "Underrated: WashU OneDrive exposure",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Lapse Dec 11 is outside horizon; Monitor with Dec 1 contingency check.",
+      "title": "Overrated: federal shutdown",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Region 7 lowest in Week 42; Missouri low and steady.",
+      "title": "Overrated: flu surge at Medical Campus",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Sev 4-5, Low likelihood, Low confidence; mitigation folded into Today item 2.",
+      "title": "Scenario: freezer controller attack on Veterans Day overnight",
+      "verdict": "carried"
+    }
+  ],
+  "lanes_quiet": [
+    1,
+    2,
+    3,
+    6
+  ],
+  "lookahead": [
+    {
+      "date": "2026-11-10",
+      "dow": "Tue",
+      "loads": "Registration opens 8 AM; Blues vs Detroit 7 PM; cyber peer-lesson actions",
+      "stacked": true,
+      "wx": "Sunny, 71/48"
+    },
+    {
+      "date": "2026-11-11",
+      "dow": "Wed",
+      "loads": "Veterans Day holiday; registration day 2; Vaccine Center Symposium (Medical Campus); crane limits, Tyson fire caution",
+      "stacked": false,
+      "wx": "68/44, NW gusts 28-30 mph PM"
+    },
+    {
+      "date": "2026-11-12",
+      "dow": "Thu",
+      "loads": "Registration day 3; Graham Chapel talk 4 PM; KEV federal deadline",
+      "stacked": false,
+      "wx": "51/34, gusts 22-25, PM sprinkles"
+    },
+    {
+      "date": "2026-11-13",
+      "dow": "Fri",
+      "loads": "Registration day 4; NCAA soccer 1 PM Francis Olympic Field; Knight Center lectures 4-6 PM; Fox opening",
+      "stacked": true,
+      "wx": "Sunny 46, hard freeze overnight (28)"
+    },
+    {
+      "date": "2026-11-14",
+      "dow": "Sat",
+      "loads": "Forest Park 5K 8:30 AM; football vs Wooster 1 PM; NCAA soccer 6 PM if advancing; basketball 7 PM; Blues 6 PM; Fox",
+      "stacked": true,
+      "wx": "Sunny 49/33, cold start"
+    },
+    {
+      "date": "2026-11-15",
+      "dow": "Sun",
+      "loads": "Fox shows",
+      "stacked": false,
+      "wx": "Mostly sunny 53/38"
+    },
+    {
+      "date": "2026-11-16",
+      "dow": "Mon",
+      "loads": "International Education Week; Global Research Showcase; MetroLink downtown work Nov 16-22",
+      "stacked": false,
+      "wx": "Mostly sunny 57"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "watch",
+      "summary": "No NWS product for St. Louis; no quakes. Wed gusty front; hard freeze Fri night (~28F)."
+    },
+    {
+      "name": "Life safety",
+      "pir": 2,
+      "status": "watch",
+      "summary": "Nothing at threshold in 24 h. Off-campus party-shooting pattern (CWE Nov 1, Delaware, IWU); Sacramento State dorm shots Nov 8; SLMPD fatal OIS Nov 9 (Ring 2), no protests."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "quiet",
+      "summary": "No advisory, outbreak or diversion. Missouri respiratory low; measles background 21 MO cases, none active nearby."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "active",
+      "summary": "Vanderbilt ransomware; CISA KEV adds Nov 9 (OpenSSH, Aspera, FreeSWITCH, GPUStack); WashU OneDrive exposure (This week); Kingshighway closed Page-Minerva through Nov 30; Blue Line truncated through Dec 23."
+    },
+    {
+      "name": "Scheduled activity",
+      "pir": 5,
+      "status": "watch",
+      "summary": "No event over 5,000 in Ring 1. Registration Nov 10-13. Sat Nov 14 stacked: 5K, football, NCAA soccer, basketball."
+    },
+    {
+      "name": "Policy, legal, funding",
+      "pir": 6,
+      "status": "quiet",
+      "summary": "CR runs to Dec 11; EAS national test Nov 17; no Level 3/4 advisory changes."
+    }
+  ],
+  "posture": "Normal",
+  "published_at": "2026-11-10T11:59:00Z",
+  "run_note": "Charter read (rev 10). All 7 lanes reported; cycle 05:53-06:00 CT, published ~06:00 CT. Severity 4 cold-chain item verified against AP; Health-ISAC warning single-source (NPR/STLPR).",
+  "title": "WashU EM Daily Intelligence Briefing, November 10, 2026",
+  "today_items": [
+    {
+      "action": "WashU IT checks published indicators; note peer lesson on faculty-before-student notification gap.",
+      "confidence": "Medium-High",
+      "likelihood": "Occurring",
+      "owner": "EM (with WashU IT), Communications",
+      "pir": 4,
+      "rank": 1,
+      "severity": 2,
+      "source": "https://therecord.media/vanderbilt-cyberattack-ransomware-alert",
+      "title": "Vanderbilt University ransomware incident (peer, Ring 3)",
+      "ttd": "Today"
+    },
+    {
+      "action": "Confirm no networked freezer or cold-room controller is internet-exposed; test independent alarms and on-call roster before Nov 11 holiday overnight.",
+      "confidence": "Medium",
+      "likelihood": "Low-Medium",
+      "owner": "EHS, Facilities, Medical Campus Security",
+      "pir": 4,
+      "rank": 2,
+      "severity": 4,
+      "source": "https://abc11.com/story/cyberattack-hits-french-blood-bank-site-no-products-are-compromised/20015587/",
+      "title": "Cyberattacks on refrigeration / cold-storage controllers",
+      "ttd": "Today"
+    },
+    {
+      "action": "6200 Forsyth contractor applies crane wind limits Wed afternoon; secure temporary signage and loose material.",
+      "confidence": "Medium",
+      "likelihood": "High",
+      "owner": "Facilities",
+      "pir": 1,
+      "rank": 3,
+      "severity": 2,
+      "source": "https://forecast.weather.gov/MapClick.php?lat=38.6488&lon=-90.3108",
+      "title": "Gusty cold front Wed Nov 11, NW gusts 28-30 mph noon-7 PM",
+      "ttd": "Today"
+    },
+    {
+      "action": "No burns or spark-producing fieldwork Wed 11 AM-6 PM; check LSX fire-weather products Wed morning.",
+      "confidence": "Low",
+      "likelihood": "Low-Medium",
+      "owner": "EHS / Tyson management",
+      "pir": 1,
+      "rank": 4,
+      "severity": 2,
+      "source": "https://forecast.weather.gov/MapClick.php?zoneid=MOZ064",
+      "title": "Fire-spread risk at Tyson Research Center, Wed afternoon",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "Vanderbilt ransomware (peer, occurring): WashU IT to check the group's indicators; EM/Communications to take the peer notification lesson.",
+  "unreachable": [
+    "api.weather.gov active alerts",
+    "SPC outlooks / current LSX AFD / LSX fire weather",
+    "AirNow AQI",
+    "Mississippi River stage at St. Louis",
+    "cisa.gov KEV and directives",
+    "REN-ISAC / Health-ISAC public advisories",
+    "USDA FSIS recalls",
+    "CDC NWSS Missouri values",
+    "Clayton, University City, County PD releases",
+    "SLMPD DeBaliviere Place teen shooting details",
+    "happenings.washu.edu Nov 14-15",
+    "Education Dept Clery/Title IX newsroom (undated)",
+    "NPR, BleepingComputer (blocked)"
+  ]
+}
