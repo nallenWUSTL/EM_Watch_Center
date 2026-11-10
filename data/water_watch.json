@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "2:40 AM CST 11/10 four-lane run: nothing new or changed. No new St. Louis City/County or Ring 1 incident; no boil order in St. Louis City or County (MO DNR newest New Hope 11/5; MAW boil page none). City Water table (2:30 AM): Sublette Ave Wilson-Elizabeth outage still the only active outage, est. restore 6:19 AM; Eichelberger & Alaska repair still listed; new rows only routine hydrant repairs (4200 Gravois, 3901 Keokuk). MAW 144021 Clayton and 143300 Richmond Heights still posted, no street or completion. ID probe 144362-144375: 144362 CA, 144363 KY, rest not issued. Regional: Millstone x3 and Cape Girardeau unchanged; West Plains lift not confirmed. WashU Alert none; Facilities and Med Campus Facilities no new water notices; Metro reroutes near BJH are paving, not water. Gaps: MAW alerts index did not render; Reddit blocked; MSD, Kirkwood, MoDOT not opened; KSDK Ferguson/Haplin Dr 'Monday' story would not load, date unverified.",
+    "note": "3:40 AM CST 11/10 four-lane run: one new Ring 1 item (Wallace Dr South 40 planned water-line exploratory work 11/12-13, lane closures, no outage). Sublette Ave outage resolved (City Water table 3:30 AM: no active outages). No boil order in St. Louis City/County (City boil page none; MO DNR newest New Hope 11/5). MAW 144021 Clayton and 143300 Richmond Heights still posted, no street. ID probe 144364-144380 spot-checked: not issued. KFVS: Cape Girardeau and Millstone x3 still active; West Plains lift unconfirmed. KSDK Ferguson/Haplin lead is a Jan 2025 story, dropped. False positive avoided: WashU 620 S Taylor outage pages edited 11/9 describe a 2017 event. Gaps: MAW alerts index and boil page did not render; BJC, Cortex, Loop, Forest Park, MoDOT and municipal pages not checked; X/Facebook/Nextdoor only via search.",
     "open_count": 70,
-    "run_at": "2026-11-10T08:40:00Z",
-    "top_incident": "Jolley Hall/Cupples II no-water-use order still has no posted lift (~10 days past 10/31 end) and the Jolley north entrance sewer repair has no completion notice (~3.5 days past 11/6 5 PM); both Facilities pages rechecked ~2:35 AM 11/10, unchanged. EPO now notifies Key Management Contacts by phone/text, so the public page is a weak signal. Confirm with EPO Utility Operations; EH&S confirm eyewash/shower coverage."
+    "run_at": "2026-11-10T09:40:00Z",
+    "top_incident": "Jolley Hall/Cupples II no-water-use order still has no posted lift (~10 days past 10/31 end) and Jolley north entrance sewer repair has no completion notice (Lane 3 rechecked ~3:40 AM 11/10, unchanged). Confirm with EPO Utility Operations; EH&S confirm eyewash/shower coverage. New: planned Wallace Dr (South 40) water-line exploratory work with lane closures Thu-Fri 11/12-13, 6 AM-4 PM, no interruption announced."
   },
   "incidents": [
     {
@@ -2500,18 +2500,20 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 6:40 PM CT 11/9 (Lanes 1 and 4, City Water outage table stamped 6:30 PM 11/9): water off since 6:19 PM 11/9, estimated restoration 6:19 AM 11/10; cause and customer count not stated; no boil advisory posted. ~2-3 mi from South Campus and Medical Campus (estimate); not on a Ring 1 corridor; separate from Medical Campus feed as far as known. Impact none. No news or social corroboration. Monitor; resolve when dropped from the outage table. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 3:40 AM CT 11/10 (Lanes 1 and 4): City Water outage table (wateroos.php, stamped 3:30 AM 11/10) states no active water main outages; Sublette row gone ~2h50m before the 6:19 AM estimate. /outages page still shows it but is stamped 12:30 AM (stale). Treated as restored per utility page; restoration not explicitly stated. No boil advisory (City boil page none). Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-10T00:40:00Z",
       "id": "stlwater-stlouiscity-sublette-20261109",
-      "last_updated": "2026-11-10T00:40:00Z",
+      "last_updated": "2026-11-10T09:40:00Z",
       "location": "Sublette Ave between Wilson Ave and Elizabeth Ave, St. Louis City (Hill / Clifton Heights area south of I-64; table spells it 'Sublettle')",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/wateroos.php"
+        "https://www.stlwater.com/wateroos.php",
+        "https://www.stlwater.com/outages",
+        "https://stlwater.com/water-quality/boil-advisory.php"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "City of St. Louis Water Division service outage, Sublette Ave between Wilson Ave and Elizabeth Ave (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -2638,6 +2640,26 @@
       "title": "WashU Facilities no-water-use order, Jolley Hall and Cupples II Hall (Danforth Campus)",
       "utility": "WashU Facilities / Utility Operations (building water service)",
       "washu_impact": "confirmed"
+    },
+    {
+      "affected_assets": [
+        "Danforth Campus — South 40 (McLeod House, Wallace Dr)"
+      ],
+      "assessment": "New 3:40 AM CT 11/10 (Lane 3, Facilities notice posted 11/9): planned exploratory work for a future domestic water line connection to McLeod House, Thu 11/12 and Fri 11/13, 6 AM-4 PM. Southbound lane and northbound left-turn onto Forsyth closed; one northbound lane open. No water service interruption or boil notice announced. Not an outage. Impact possible (low): South 40 traffic, move-in/deliveries and emergency vehicle access via Wallace; small chance of unplanned interruption if an existing line is struck. Action: Residential Life and Dining note closures; WUPD/EM confirm emergency access route; Facilities notify EM if any shutdown becomes necessary. Resolve after 11/13 4 PM if no shutdown posted. Owner: Facilities / Residential Life.",
+      "confidence": "Medium",
+      "first_seen": "2026-11-10T09:40:00Z",
+      "id": "washufacilities-danforth-wallacedr-20261112",
+      "last_updated": "2026-11-10T09:40:00Z",
+      "location": "Wallace Dr between Forsyth Blvd and Shepley Dr, South 40, Danforth Campus",
+      "ring": 1,
+      "single_source": true,
+      "sources": [
+        "https://facilities.wustl.edu/11-12-11-13-south-40-wallace-drive-lane-closures-for-water-line-exploratory-work/"
+      ],
+      "status": "open",
+      "title": "WashU Facilities planned water-line exploratory work and lane closures, Wallace Dr (South 40), Nov 12-13",
+      "utility": "WashU Facilities / EPO-Danforth (campus domestic water)",
+      "washu_impact": "possible"
     },
     {
       "affected_assets": [],
