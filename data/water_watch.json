@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "9:40 AM CST 11/10 four-lane run: nothing new or changed in St. Louis City/County or Ring 1. City Water wateroos.php (9:30 AM) shows no active outages; Eichelberger & Alaska and Morganford & Humphrey remain only as repair work orders; Sublette & Wilson already resolved. MAW detail pages re-verified: 144457, 144507, 144021 (Clayton), 143300 (Richmond Heights) still posted, no completion text; 144448 Wellston planned work today 8 AM-2 PM unchanged. MAW IDs 144528 (Dickson City, out of region) and 144529-144540 blank/irrelevant. MO DNR: no St. Louis City/County boil order. WashU Alert none; Facilities: no Jolley lift, Wallace Dr 11/12-13 unchanged; Med Campus Facilities no water items. KSDK Ferguson/Haplin Dr lead still unfetchable/undated; FOX 2 north St. Louis lead unconfirmed. Gaps: MAW alerts index and boil page did not render; MSD, Kirkwood, BJC, Cortex, MoDOT, Forest Park, municipal pages beyond U City not reached; social search thin.",
-    "open_count": 82,
-    "run_at": "2026-11-10T15:40:00Z",
-    "top_incident": "No change: MAW 144457 and 144507 University City main breaks (11/9, no street, no boil advisory) still posted as active past their ~6 hr windows — impact possible (low) for North Campus, Loop and U City-side Danforth. Jolley Hall/Cupples II no-water-use order still has no posted lift."
+    "note": "10:40 AM CST 11/10 four-lane run: two new Ring 2 MAW main breaks, impact none — Overland (144570, 8:15 AM, ~6 hr; 144564, 11 AM, ~3 hr) and Pine Lawn (144571, 8:15 AM, ~6 hr); no streets, no boil advisory. MAW 144457, 144507, 144021, 143300 unchanged; Wellston 144448 still in window. City Water wateroos (10:30 AM): no active outages. MO DNR: no St. Louis City/County boil order. WashU Alert none; Facilities: no Jolley lift, Wallace Dr 11/12-13 unchanged; Med Campus Facilities no water items. IAW alert 144583 reports a Peoria boil-order lift (not tied to a tracked record). KSDK Ferguson/Haplin and FOX 2 north St. Louis leads still unloadable/undated; undated Hanley Rd stories treated as old. Gaps: MAW alerts index and boil page did not render; MSD, Kirkwood, IAW Metro East, MoDOT, BJC not reached; social thin. Next MAW probe from 144585.",
+    "open_count": 84,
+    "run_at": "2026-11-10T16:40:00Z",
+    "top_incident": "No change: MAW 144457 and 144507 University City main breaks (11/9, no street, no boil advisory) still posted with no completion text — impact possible (low) for North Campus, Loop and U City-side Danforth. Jolley Hall/Cupples II no-water-use order still has no posted lift."
   },
   "incidents": [
     {
@@ -1290,6 +1290,25 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 10:40 AM CT 11/10 (Lane 1 only, ID probe): MAW 144570, main break, repairs began 8:15 AM 11/10, ~6 hr estimate (~2:15 PM); MAW 144564, main break, started 11:00 AM 11/10, ~3 hr estimate — second break or reissue, not confirmed. No street; no boil advisory (MO DNR none in St. Louis City/County). Separate from tracked 142890 (10/26). ~4-5 mi NW of Danforth and North Campus; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-10T16:40:00Z",
+      "id": "maw-overland-unlocated-20261110",
+      "last_updated": "2026-11-10T16:40:00Z",
+      "location": "Overland, MO (mid St. Louis County; street not published, alert refers to MAW website map)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144570",
+        "https://alertsdetail.awapps.com/alert/144564"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break(s), Overland — emergency repairs (alerts 144570, 144564)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 8:40 AM CT 11/5 (Lane 1 only): MAW alert 144074, pump station emergency repair, ~2 hr on 11/5; no boil advisory stated. ~100 mi N of St. Louis near Hannibal; separate system; no WashU asset. Impact none. Monitor; resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-05T14:40:00Z",
@@ -1303,6 +1322,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water pump station emergency repair, Palmyra — Highland Rd / N and S Clearview Dr (alert 144074)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 10:40 AM CT 11/10 (Lane 1 only, ID probe): MAW 144571, main break, repairs began 8:15 AM 11/10, ~6 hr estimate (~2:15 PM); no street; no boil advisory. Same area as Wellston planned work 144448 and Northwoods 144404 (cluster north of the Loop). ~2.5-3 mi N of North Campus and Delmar Loop properties (estimate); different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. Escalate if a street toward Delmar is published. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-10T16:40:00Z",
+      "id": "maw-pinelawn-unlocated-20261110",
+      "last_updated": "2026-11-10T16:40:00Z",
+      "location": "Pine Lawn, MO (north-central St. Louis County, next to Wellston/Northwoods; street not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144571"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Pine Lawn — emergency repairs (alert 144571)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
