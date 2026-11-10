@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "3:40 PM CST 11/10 four-lane run: one new item, MAW 144631 St. Louis County unplaced main break (3:15 PM start, ~6 hr; Ring 2, impact none). ID probe 144629-144640: 144629/144630 Dunmore and 144632 Noblesville investigations (out of region), 144633-144640 empty; next probe from 144633. City Water: Eichelberger & Alaska still listed; N 2nd & Withers and Union Blvd still absent (not confirmed complete, left open); Sublette still shown with stale 12:30 AM stamp (already resolved, not reopened). MO DNR newest 11/5 (none in City/County); stlwater no boil advisory or street closures. WashU Alert none (modified 11/2); Facilities: no Jolley lift or sewer closeout; Wallace Dr 11/12-13 unchanged; Med Campus electrical/HVAC only. KFVS: Millstone and Cape Girardeau unchanged. Stale leads rejected: Fox2 March 2026 freeze breaks (Linden/Pershing U City), undated Lindell 30-inch break, 2025 Kirkwood advisory, 2019 Clayton S Central. Gaps: MSD, Kirkwood, MAW index/boil page (script-loaded), municipal pages for U City/Clayton/Richmond Heights/Ladue/Eureka, BJC/Cortex/Loop, MoDOT.",
-    "open_count": 89,
-    "run_at": "2026-11-10T21:40:00Z",
-    "top_incident": "No change: MAW 144457 and 144507 University City main breaks (11/9, no street, no boil advisory) still posted with blank end/Last Updated, well past 6-hr estimates — impact possible (low) for North Campus, Loop and U City-side Danforth. Jolley Hall/Cupples II no-water-use order still has no posted lift."
+    "note": "4:40 PM CST 11/10 four-lane run: new MAW 144635 Breckenridge Hills main break (3:30 PM, ~6 hr; Ring 2, none) and 144633 Wellston planned cut-and-cap 11/12 5:30-9 PM (Ring 2, none); City Water outage N 2nd St Talcott–Adelaide (2:13 PM) added to the N 2nd & Withers record; Ring 3 boil orders Carterville IL and Murphysboro IL (KFVS). ID probe 144633-144642: 144634 McHenry IL, 144636/144637 PA, 144638-144642 empty; next probe from 144638. City Water table 4:30 PM: only N 2nd outage; Union Blvd and Eichelberger & Alaska unchanged; city boil page none (an undated stlwater ?p=9725 page citing Chain of Rocks matches the Aug 2026 advisory, treated as stale). MO DNR newest 11/5. WashU Alert none; Facilities: no Jolley lift or sewer closeout; Wallace Dr 11/12-13 unchanged; Med Campus no water items. West Plains order not yet lifted. Gaps: municipal pages for U City/Clayton/Richmond Heights/Ladue/Eureka, MSD, Kirkwood, BJC/Cortex/Loop direct pages.",
+    "open_count": 93,
+    "run_at": "2026-11-10T22:40:00Z",
+    "top_incident": "No change: MAW 144457 and 144507 University City main breaks (11/9, no street, no boil advisory) still posted with blank end/Last Updated — impact possible (low) for North Campus, Loop and U City-side Danforth. Jolley Hall/Cupples II no-water-use order still has no posted lift."
   },
   "incidents": [
     {
@@ -24,6 +24,24 @@
       "status": "open",
       "title": "City of Cape Girardeau boil water advisory and 6-inch main break, SportsPlex to Hopper Rd",
       "utility": "City of Cape Girardeau",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 4:40 PM CT 11/10 (Lane 2 only, KFVS Heartland boil list modified ~4:02 PM CT 11/10): boil order issued 11/10 until further notice after a valve failed during main replacement on Ridge St; no restoration estimate. ~110 mi SE of St. Louis; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-10T22:40:00Z",
+      "id": "carterville-carterville-ridgest-20261110",
+      "last_updated": "2026-11-10T22:40:00Z",
+      "location": "Ridge St, Allen Rd, Alta Dr, Birch Ln, Sycamore Rd east from 5012 and other streets, Carterville, IL (Williamson County)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
+      ],
+      "status": "open",
+      "title": "City of Carterville, IL boil order and outage after valve failure, Ridge St main replacement",
+      "utility": "City of Carterville, IL",
       "washu_impact": "none"
     },
     {
@@ -406,6 +424,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Ballwin — emergency repairs (alerts 144491, 144486)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 4:40 PM CT 11/10 (Lane 1 only, ID probe): MAW alert 144635, main-break emergency repairs began 3:30 PM 11/10, ~6 hr estimate (~9:30 PM); no street; no boil advisory (MO DNR none in St. Louis City/County). ~5 mi NW of North Campus and Danforth (estimate); different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-10T22:40:00Z",
+      "id": "maw-breckenridgehills-unlocated-20261110",
+      "last_updated": "2026-11-10T22:40:00Z",
+      "location": "Breckenridge Hills, MO (mid St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144635"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Breckenridge Hills — emergency repairs (alert 144635)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -2099,6 +2135,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 4:40 PM CT 11/10 (Lane 1 only, ID probe): MAW alert 144633, planned cut-and-cap Thu 11/12 5:30 PM to ~9:00 PM, weather permitting; no street; no boil advisory. Possibly the same project as tracked 144448 (11/10 daytime), not confirmed. ~1.5-2 mi N of the Delmar Loop and North Campus (estimate); no WashU asset; no Ring 1 corridor. Impact none. Escalate if a street toward Delmar is published. Resolve after the window when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-10T22:40:00Z",
+      "id": "maw-wellston-planned-20261112",
+      "last_updated": "2026-11-10T22:40:00Z",
+      "location": "Wellston, MO (north-central St. Louis County; street not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144633"
+      ],
+      "status": "open",
+      "title": "Missouri American Water planned cut-and-cap work, Wellston, Nov 12 evening (alert 144633)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 9:40 AM CT 10/26: alert 142488 no longer appears on the MAW active alerts index (Lanes 1 and 3, all 12 previously tracked MAW IDs gone; Lanes 2 and 4 consistent). Treated as repair complete / alert expired per utility index. No street change, no boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). No WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-10-23T12:40:00Z",
@@ -2186,6 +2240,24 @@
       "status": "open",
       "title": "Millstone Water District boil order, Mt. Shelter Rd to Murrie Ln and Carr Rd (Pope County, IL)",
       "utility": "Millstone Water District",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 4:40 PM CT 11/10 (Lane 2 only, KFVS Heartland boil list): boil order issued 11/10 until further notice; cause not stated. ~90 mi SE of St. Louis; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-10T22:40:00Z",
+      "id": "murphysboro-murphysboro-tinadr-20261110",
+      "last_updated": "2026-11-10T22:40:00Z",
+      "location": "All of Tina Dr, Murphysboro, IL (Jackson County)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
+      ],
+      "status": "open",
+      "title": "City of Murphysboro, IL boil order, all of Tina Dr",
+      "utility": "City of Murphysboro, IL",
       "washu_impact": "none"
     },
     {
@@ -2631,19 +2703,21 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 12:40 PM CT 11/10 (Lane 3 only, City Water work-order table updated 12:30 PM): main repair logged 12:28 PM 11/10; no block, cause, outage or restoration time; same page shows no active water main outages; no boil advisory. North riverfront, >6 mi from Medical Campus (estimate); no WashU asset; no Ring 1 corridor. Impact none. Resolve under the 48-hour rule if no outage is posted. Owner: Emergency Management (track only).",
-      "confidence": "Low",
+      "assessment": "Updated 4:40 PM CT 11/10 (Lanes 1 and 4, City Water table stamped 4:30 PM 11/10): a service outage was posted on N 2nd St between Talcott Ave and Adelaide Ave, taken out of service 2:13 PM 11/10, no restoration time; it is the only active City outage. Very likely the customer outage for this 12:28 PM main repair (inferred from location, not stated). No boil advisory. North riverfront, ~5-6 mi NE of Medical Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when the outage drops from the table. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
       "first_seen": "2026-11-10T18:40:00Z",
       "id": "stlwater-stlouiscity-n2ndst-withers-20261110",
-      "last_updated": "2026-11-10T18:40:00Z",
-      "location": "N 2nd St & Withers Ave, St. Louis City (north riverfront; block not published)",
+      "last_updated": "2026-11-10T22:40:00Z",
+      "location": "N 2nd St & Withers Ave repair; outage on N 2nd St between Talcott Ave and Adelaide Ave, St. Louis City (north riverfront)",
       "ring": 2,
-      "single_source": true,
+      "single_source": false,
       "sources": [
-        "https://www.stlwater.com/wateroos.php"
+        "https://www.stlwater.com/wateroos.php",
+        "https://www.stlwater.com/wateroos.php?t=L1x1110p",
+        "https://www.stlwater.com/wateroos.php?t=L4x1110p"
       ],
       "status": "open",
-      "title": "City of St. Louis Water Division main repair, N 2nd St & Withers Ave (north riverfront)",
+      "title": "City of St. Louis Water Division main repair and service outage, N 2nd St (Withers Ave / Talcott–Adelaide), north riverfront",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
