@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "8:45 PM CST 11/10 four-lane run: no new St. Louis-region incidents and no status changes. MAW ID probe 144649-144655, 144657, 144660: 144649 Irvington investigation (no state), 144650 California American Water Oakhurst planned 11/11, both out of region, not tracked; others empty. Next probe from 144651, include 144656, 144658-144659, 144661+. MAW 144457, 144507, 144021, 143300, 144635, 144631, 144626, 144638, 144639 reopened, unchanged. City Water table 8:30 PM: only active outage N 2nd St Talcott-Adelaide (2:13 PM, crews working, no ETA); Withers/N 2nd, Union Blvd valve (segment unpublished), Eichelberger/Alaska unchanged; 11/9 hydrant repairs at 4200 Gravois, 3901 Keokuk, 5801 Oleatha (routine, not tracked). City offices closed 11/11 (Veterans Day). KFVS list (modified ~4 PM): Carterville, Murphysboro, Pope County (incl. 11/9 Clark Rd) unchanged; PWSD1 Cape-Perry lift 11/8 already resolved. WashU Alert none (modified 11/2); Facilities: no Jolley lift or sewer completion posted, Wallace Dr 11/12-13 unchanged; Med Campus Facilities no water items (North Building electrical interruption Sat 11/14 6-10 AM, not water). Not adopted: undated KSDK St. Louis County break stories (fetch failed), undated Maryland Heights/Bridgeton/Earth City MAW boil advisory stories (reported lifted), Jan 2026 U City Delmar tap work (ended). Gaps: MO DNR list, MSD, Kirkwood, IAW alerts, MoDOT/Cortex/Forest Park not directly checked; KSDK unreachable.",
-    "open_count": 95,
-    "run_at": "2026-11-11T02:45:00Z",
-    "top_incident": "No change: MAW 144457 and 144507 University City main breaks (11/9, no street, no boil advisory) still posted with no completion text, now ~28-35 hr past start; impact possible (low) for North Campus, Loop and U City-side Danforth. Jolley Hall/Cupples II no-water-use order still has no posted lift (scheduled end 10/31 4 PM passed)."
+    "note": "9:40 PM CST 11/10 four-lane run: 2 new Ring 2 items, impact none: City Water outage William Pl between Ashland and Lexington (8:31 PM, est. restore 2:31 AM 11/11; Lanes 1, 4) and MAW 144651 Florissant break being located. MAW probe: 144656, 144658-144665 empty; next probe from 144666, recheck 144657. MAW 144457, 144507, 144021 reopened, still posted, unchanged. City table 9:30 PM: N 2nd St Talcott-Adelaide still active, no ETA; Lane 1 reports Union Blvd valve and Withers repair still listed (Lane 4 did not see them; not resolved). Facilities: no Jolley lift; Wallace Dr 11/12-13 unchanged, no shutdown announced; Med Campus no water items. KFVS list (modified ~4 PM): Carterville, Murphysboro, Pope County unchanged; Cape Girardeau Hopper Rd no longer listed, lift unconfirmed. No boil order in St. Louis City or County. Gaps: MO DNR, MSD, Kirkwood, IAW, BJC/Cortex/MoDOT, municipal pages not checked; Collinsville status pages failed to load.",
+    "open_count": 97,
+    "run_at": "2026-11-11T03:40:00Z",
+    "top_incident": "No change: MAW 144457 and 144507 University City main breaks (11/9, no street, no boil advisory) still posted with no completion text; impact possible (low) for North Campus, Loop and U City-side Danforth. Jolley Hall/Cupples II no-water-use order still has no posted lift."
   },
   "incidents": [
     {
@@ -985,6 +985,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Florissant — emergency repairs (alert 144506)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 9:40 PM CT 11/10 (Lane 1 only, ID probe): MAW alert 144651, main break reported, crews still locating it; no street, start or end time; page to be updated once found. May relate to tracked 144506 (11/9), not confirmed. No boil advisory. ~8+ mi N of Danforth and North Campus (estimate); no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-11T03:40:00Z",
+      "id": "maw-florissant-unlocated-20261110",
+      "last_updated": "2026-11-11T03:40:00Z",
+      "location": "Florissant, MO (north St. Louis County; street not published, break still being located)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144651"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Florissant — crews locating break (alert 144651)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -3123,6 +3141,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division main break, Whittier St at Maffitt Ave (The Ville) — Metro #42 Sarah reroute",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 9:40 PM CT 11/10 (Lanes 1 and 4, City Water outage table updated 9:30 PM): water service out since 8:31 PM 11/10, crews working, estimated restoration 2:31 AM 11/11; no cause, customer count or boil advisory listed. North City, roughly 3.5-4.5 mi NE of the Medical Campus (estimate); no WashU asset; not a Ring 1 corridor. Impact none. Resolve when it drops from the outage table. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-11T03:40:00Z",
+      "id": "stlwater-stlouiscity-williampl-ashland-20261110",
+      "last_updated": "2026-11-11T03:40:00Z",
+      "location": "William Pl between Ashland Ave and Lexington Ave, north St. Louis City",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outage, William Pl between Ashland Ave and Lexington Ave (north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
