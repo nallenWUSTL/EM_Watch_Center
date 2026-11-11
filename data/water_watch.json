@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "9:40 PM CST 11/10 four-lane run: 2 new Ring 2 items, impact none: City Water outage William Pl between Ashland and Lexington (8:31 PM, est. restore 2:31 AM 11/11; Lanes 1, 4) and MAW 144651 Florissant break being located. MAW probe: 144656, 144658-144665 empty; next probe from 144666, recheck 144657. MAW 144457, 144507, 144021 reopened, still posted, unchanged. City table 9:30 PM: N 2nd St Talcott-Adelaide still active, no ETA; Lane 1 reports Union Blvd valve and Withers repair still listed (Lane 4 did not see them; not resolved). Facilities: no Jolley lift; Wallace Dr 11/12-13 unchanged, no shutdown announced; Med Campus no water items. KFVS list (modified ~4 PM): Carterville, Murphysboro, Pope County unchanged; Cape Girardeau Hopper Rd no longer listed, lift unconfirmed. No boil order in St. Louis City or County. Gaps: MO DNR, MSD, Kirkwood, IAW, BJC/Cortex/MoDOT, municipal pages not checked; Collinsville status pages failed to load.",
-    "open_count": 97,
-    "run_at": "2026-11-11T03:40:00Z",
-    "top_incident": "No change: MAW 144457 and 144507 University City main breaks (11/9, no street, no boil advisory) still posted with no completion text; impact possible (low) for North Campus, Loop and U City-side Danforth. Jolley Hall/Cupples II no-water-use order still has no posted lift."
+    "note": "10:40 PM CST 11/10 four-lane run: no new incidents. Resolved: City William Pl outage (dropped from 10:30 PM City table). City N 2nd St Talcott-Adelaide still the only current outage, no ETA; Union Blvd valve and Eichelberger/Alaska repairs still listed; new routine south City hydrant repairs not tracked. KFVS list (modified ~4 PM): Carterville, Murphysboro, Pope County (3 orders) unchanged. Facilities/WashU Alert: no change, no lift for Jolley; Med Campus planned power outage North Building Sat 11/14 6-10 AM (not water). No boil order in St. Louis City or County. Discarded: undated FOX 2/Yahoo story on U City Linden/Pershing break (old winter event). Gaps: MAW alerts index and detail pages returned empty shells this run (144665-144669), so no MAW new/lift confirmation; MO DNR, MSD, Kirkwood, BJC/Cortex/MoDOT, municipal pages not checked.",
+    "open_count": 96,
+    "run_at": "2026-11-11T04:40:00Z",
+    "top_incident": "No change: MAW 144457 and 144507 University City main breaks (11/9, no street, no boil advisory) still tracked, impact possible (low) for North Campus, Loop and U City-side Danforth; Jolley Hall/Cupples II no-water-use order still has no posted lift; Wallace Dr (South 40) water-line exploratory work and lane closures Thu-Fri 11/12-13, 6 AM-4 PM, no shutdown announced."
   },
   "incidents": [
     {
@@ -3146,18 +3146,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 9:40 PM CT 11/10 (Lanes 1 and 4, City Water outage table updated 9:30 PM): water service out since 8:31 PM 11/10, crews working, estimated restoration 2:31 AM 11/11; no cause, customer count or boil advisory listed. North City, roughly 3.5-4.5 mi NE of the Medical Campus (estimate); no WashU asset; not a Ring 1 corridor. Impact none. Resolve when it drops from the outage table. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 10:40 PM CT 11/10 (Lane 1, City Water table wateroos.php stamped 10:30 PM 11/10): William Pl (Ashland-Lexington) outage no longer listed, ~4 hr ahead of the 2:31 AM estimate; N 2nd St (Talcott-Adelaide) now the only current outage. Treated as restored per utility table. No boil advisory. North City, Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-11T03:40:00Z",
       "id": "stlwater-stlouiscity-williampl-ashland-20261110",
-      "last_updated": "2026-11-11T03:40:00Z",
+      "last_updated": "2026-11-11T04:40:00Z",
       "location": "William Pl between Ashland Ave and Lexington Ave, north St. Louis City",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/wateroos.php"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "City of St. Louis Water Division service outage, William Pl between Ashland Ave and Lexington Ave (north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
