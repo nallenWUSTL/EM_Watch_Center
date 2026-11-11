@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "1:40 AM CST 11/11 four-lane run: nothing new. MAW probe 144654-144660 empty; 144653 Lordhill Dr still active (est. 3:30-5:30 AM); 144651 Florissant and 144652 Shrewsbury still locating. stlwater.com/outages (12:30 AM): only active outage N 2nd St Talcott-Adelaide; no City boil advisory; Union Blvd valve repair listing conflicting between lanes (no change recorded). KFVS list unchanged (modified ~4 PM 11/10); PWSD#1 Cape-Perry Hwy V lift 11/8 already reflected. WashU Alert, Danforth and Med Facilities: no water items. No boil order in St. Louis City or County. Set aside as old/undated: FOX 2 cold-weather breaks (Mar 2026), KSDK Lindell sinkhole, KSDK Olive Blvd and Manchester Rd breaks, City south-city boil advisory (Mar 2026). Gaps: MAW alerts index and boil page script-rendered or erroring; MO DNR, Illinois American, MSD, Kirkwood, BJC/Cortex/MoDOT not opened; social platforms not directly searchable.",
-    "open_count": 98,
-    "run_at": "2026-11-11T07:40:00Z",
-    "top_incident": "No change: MAW 144457/144507 University City main breaks (11/9, no street, no boil advisory) still posted well past their repair estimates; impact possible (low) for North Campus, Loop and U City-side Danforth. Jolley Hall/Cupples II no-water-use order still has no posted lift (verify with Facilities). Wallace Dr (South 40) water-line exploratory work and lane closures Thu-Fri 11/12-13, 6 AM-4 PM, no shutdown announced."
+    "note": "2:40 AM CST 11/11 four-lane run: nothing new affecting WashU. MAW probe 144654-144668: only 144659 resolved (Scranton, out of state); 144653 Lordhill Dr still active (est. 3:30-5:30 AM); 144651 Florissant and 144652 Shrewsbury still locating. stlwater.com/outages (12:30 AM): N 2nd St Talcott-Adelaide outage still the only active outage; Union Blvd and Eichelberger/Alaska still open; Morganford/Humphrey reappeared as open (moved back to monitoring). No City or County boil advisory. City offices closed for Veterans Day, so postings may lag. WashU Alert and Danforth/Med Facilities: no water items (BJC IHS 11/14 heating-water shutdown is building heat, not domestic water). Lane 2 saw a KFVS Heartland list copy dated 11/9 that lacked Carterville, Murphysboro and West Plains; it is older than the 11/10 copy used last run, so no changes were made. Lane 4: an unverified, undated 'water tap installation' notice for LOCAL on Delmar apartments (U City) was not adopted. Gaps: MAW alerts index and boil page script-rendered or erroring; MO DNR, MSD, Kirkwood, Illinois American, MoDOT and City street closures not opened; social platforms not directly searchable.",
+    "open_count": 99,
+    "run_at": "2026-11-11T08:40:00Z",
+    "top_incident": "No change: MAW 144457/144507 University City main breaks (11/9, no street, no boil advisory) are still posted well past their repair estimates; impact possible (low) for North Campus, the Loop and U City-side Danforth. The Jolley Hall/Cupples II no-water-use order still has no posted lift, and the Jolley north entrance sewer repair has no completion notice (verify both with Facilities). Wallace Dr (South 40) water-line exploratory work and lane closures run Thu-Fri 11/12-13, 6 AM-4 PM, with no shutdown announced."
   },
   "incidents": [
     {
@@ -2774,20 +2774,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Resolved 4:40 AM CT 11/7 (Lanes 1 and 4, City Water table stamped 4:30 AM 11/7): Morganford Rd & Humphrey St absent again, the second consecutive absent read after 1:30 and 3:30 AM; resolved under its stated rule. Restoration not explicitly stated; no outage or boil advisory ever posted. South City, Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
+      "assessment": "Reopened to monitoring 2:40 AM CT 11/11 (Lane 4, City Water work-order table stamped 12:30 AM 11/11): the Morganford Rd & Humphrey St main repair (opened 11/5 2:39 PM) is listed as open again with no completion time, after it was absent on 11/7. This could be a table artifact or work that is still going on; no outage or boil advisory is posted. South City (Tower Grove South), about 3 mi from the Medical Campus, Ring 2; no WashU asset; impact none. Resolve when it is absent on two consecutive reads. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-05T20:50:00Z",
       "id": "stlwater-stlouiscity-morganford-humphrey-20261105",
-      "last_updated": "2026-11-07T10:40:00Z",
+      "last_updated": "2026-11-11T08:40:00Z",
       "location": "Morganford Rd & Humphrey St, St. Louis City (Tower Grove South, south City; cross street as published)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/wateroos.php",
-        "https://www.stlwater.com/wateroos.php?t=L4x1106d",
-        "https://www.stlwater.com/wateroos.php?t=L4x1106e"
+        "https://www.stlwater.com/outages"
       ],
-      "status": "resolved",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division main repair, Morganford Rd & Humphrey St (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
