@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "6:40 AM CST 11/11 four-lane run: nothing new, no tracked incident status changed. City Water wateroos.php (6:30 AM): Delmar Blvd T.E. Huntley-Compton (est 9:52 PM), T.E. Huntley Ave Locust-Franklin (9:51 PM), Sam Shepard Dr (9:55 PM), N 2nd St Talcott-Adelaide (no estimate); Union Blvd valve, Eichelberger & Alaska, Morganford & Humphrey still open work orders. MAW 144653 Lordhill Dr still posted past 4-6 hr estimate; probe 144654-144670 empty. No boil advisory found in St. Louis City or County (City pages none; MAW boil page errored; MO DNR not reached this run). WashU Alert: cybersecurity notice only; Danforth and Medical Facilities 11/9-10 posts: no domestic water items (BJCIH basement heating-water work 11/14). KFVS Heartland list: Illinois section shows only Pope County; Murphysboro, Carterville, Du Quoin not listed but no primary-source lift, so not resolved. Stale/undated items rejected: Yahoo/FOX 2 cold-snap breaks (Linden Ave U City etc., likely March 2026), KSDK MAW boil-advisory-lifted story (date unknown), 2020 Lindell/Kingshighway break. Gaps: MAW index JS-rendered, MSD, Kirkwood, MO DNR, Illinois American, Cortex, Loop, Forest Park, MoDOT, BJC, Clayton news page not reached; social coverage thin.",
+    "note": "7:40 AM CST 11/11 four-lane run: nothing new. One change: City Water N 2nd St Talcott–Adelaide outage dropped off the outage list (7:30 AM table), so that record moved to monitoring; the Withers & N 2nd repair work order is still listed. Midtown outages (Delmar Blvd T.E. Huntley–Compton, T.E. Huntley Ave Locust–Franklin, Sam Shepard Dr) still out, restoration est. 9:51-9:55 PM tonight; ~2 mi E of Medical Campus. MO DNR boil data: no St. Louis-area entries (newest Park Hills facility 11/5). KFVS Heartland list unchanged since 5:02 PM 11/10. WashU Alert, Danforth and Medical Facilities: no new water items. Rejected undated items: stlwater.com ?p=9725 city-wide precautionary boil advisory (Chain of Rocks power outage, no date, uncorroborated), KSDK Olive Blvd/Fee Fee 20-inch break, AOL Bridgeton/Maryland Heights boil advisory, Yahoo cold-snap breaks. Gaps: MAW alert pages JS-rendered/proxy-blocked so no MAW updates verifiable (IDs 144654+ unchecked); MSD, Kirkwood, Illinois American, Clayton news, BJC, Cortex, Loop, MoDOT not reached; social coverage thin.",
     "open_count": 101,
-    "run_at": "2026-11-11T12:40:00Z",
-    "top_incident": "No change: MAW 144457/144507 University City main breaks (11/9, no street, no boil advisory) still posted past repair estimates; impact possible (low) for North Campus, the Loop and U City-side Danforth. Jolley Hall/Cupples II no-water-use order (scheduled end 10/31) still has no posted lift; Jolley north entrance sewer repair no completion post. Wallace Dr (South 40) water-line exploratory work for a future McLeod House domestic connection, lane closures Thu-Fri 11/12-13, 6 AM-4 PM (Facilities post 11/9)."
+    "run_at": "2026-11-11T13:40:00Z",
+    "top_incident": "No change: MAW 144457/144507 University City main breaks (11/9, no street, no boil advisory) still posted past repair estimates; impact possible (low) for North Campus, the Loop and U City-side Danforth. Jolley Hall/Cupples II no-water-use order (scheduled end 10/31) still has no posted lift. Wallace Dr (South 40) water-line exploratory work with lane closures Thu-Fri 11/12-13, 6 AM-4 PM (Facilities post 11/9)."
   },
   "incidents": [
     {
@@ -2792,11 +2792,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 4:40 PM CT 11/10 (Lanes 1 and 4, City Water table stamped 4:30 PM 11/10): a service outage was posted on N 2nd St between Talcott Ave and Adelaide Ave, taken out of service 2:13 PM 11/10, no restoration time; it is the only active City outage. Very likely the customer outage for this 12:28 PM main repair (inferred from location, not stated). No boil advisory. North riverfront, ~5-6 mi NE of Medical Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when the outage drops from the table. Owner: Emergency Management (track only).",
+      "assessment": "Updated 7:40 AM CT 11/11 (Lane 1, City Water table stamped 7:30 AM 11/11): the N 2nd St Talcott–Adelaide service outage no longer appears on the outage list, so service appears restored; no completion notice posted. The Withers Ave & N 2nd St main repair work order (opened 12:28 PM 11/10) is still listed with no status. Moved to monitoring; resolve when the work order drops. No boil advisory. North riverfront, ~5-6 mi NE of Medical Campus; no WashU asset; no Ring 1 corridor. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-10T18:40:00Z",
       "id": "stlwater-stlouiscity-n2ndst-withers-20261110",
-      "last_updated": "2026-11-10T22:40:00Z",
+      "last_updated": "2026-11-11T13:40:00Z",
       "location": "N 2nd St & Withers Ave repair; outage on N 2nd St between Talcott Ave and Adelaide Ave, St. Louis City (north riverfront)",
       "ring": 2,
       "single_source": false,
@@ -2805,7 +2805,7 @@
         "https://www.stlwater.com/wateroos.php?t=L1x1110p",
         "https://www.stlwater.com/wateroos.php?t=L4x1110p"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division main repair and service outage, N 2nd St (Withers Ave / Talcott–Adelaide), north riverfront",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
