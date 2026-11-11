@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "8:40 AM CST 11/11 four-lane run: nothing new, no status changes. City Water outage table (8:30 AM): only the three tracked Midtown outages (Delmar Blvd T.E. Huntley-Compton, T.E. Huntley Ave Locust-Franklin, Sam Shepard Dr), restoration est. 9:51-9:55 PM tonight; no new work orders in 24 h. City boil page: none. MAW 144457, 144507, 144021 still posted unchanged; probed IDs 144654-144656, 144658, 144660, 144665, 144675 blank (no new alerts seen; other IDs to 144700 unprobed). WashU Alert: no active alert; Danforth/Medical Facilities: no new domestic-water posts (FYI: BJCIH heating-water shutdown Sat 11/14 6 AM-3 PM, not potable). Rejected: Nexstar/Yahoo 'water main breaks reported throughout' story (U City Linden/Pershing, Webster Groves Lafayette/Atalanta, S Grand/Juniata) undated, image paths indicate March 2026, and no matching City outage today; KMOX Lindell/Forest Park (2020); KTRS undated Thursday break; Patch Richmond Heights (2010). Gaps: MSD, Kirkwood, MO DNR dataset, MAW boil page (error), City street closings (error), BJC, Cortex, Loop, Forest Park, MoDOT not reached; social coverage thin.",
+    "note": "9:40 AM CST 11/11 four-lane run. Change: City Water Midtown outages (Delmar/T.E. Huntley/Sam Shepard) gone from the 9:30 AM outage page, moved to monitoring (restoration unconfirmed). No new incidents. MAW 144457, 144507, 144021, 144653 still posted unchanged; probed IDs 144654-144656, 144660, 144665, 144680 blank. City work orders unchanged (Withers/N 2nd, Union Blvd valve, Eichelberger/Alaska, Morganford/Humphrey); no City or MAW boil advisory. WashU Alert: no water item (cyber banner only); Danforth and Medical Facilities: nothing new. KFVS: Murphysboro, Carterville, Millstone (Pope Co IL) orders still active; no change to tracked records. Rejected: AOL/KSDK Maryland Heights/Bridgeton boil advisory (undated), KSDK Granite City Nameoki Rd (undated), KSDK Delmar Loop trolley break (July 2023), stlwater.com/?p=9725 Chain of Rocks boil page (undated, stale), emergency.washu.edu/?p=23396 (2017). Gaps: Lanes 1 and 4 got a cached 12:30 AM City outage page; MAW alerts index empty; MAW boil page and wateroos page failed; BJC, Cortex, Loop, Forest Park, MoDOT not reached; social coverage thin.",
     "open_count": 101,
-    "run_at": "2026-11-11T14:40:00Z",
-    "top_incident": "No change: MAW 144457/144507 University City main breaks (11/9, no street, no boil advisory) still posted past repair estimates; impact possible (low) for North Campus, the Loop and U City-side Danforth. Jolley Hall/Cupples II no-water-use order still has no posted lift. Wallace Dr (South 40) water-line exploratory work with lane closures Thu-Fri 11/12-13, 6 AM-4 PM."
+    "run_at": "2026-11-11T15:40:00Z",
+    "top_incident": "No new WashU-affecting incidents. Standing: MAW 144457/144507 University City main breaks (11/9, no street, no boil advisory) still posted past repair estimates, impact possible (low) for North Campus, the Loop and U City-side Danforth; Jolley Hall/Cupples II no-water-use order still has no posted lift; Wallace Dr (South 40) water-line exploratory work with lane closures Thu-Fri 11/12-13, 6 AM-4 PM."
   },
   "incidents": [
     {
@@ -3087,18 +3087,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 3:40 AM CT 11/11 (Lane 1; verified by supervisor on City Water outage table stamped 3:30 AM 11/11): three adjacent service outages taken out of service 1:51-1:55 AM 11/11, estimated restoration 9:51-9:55 PM 11/11 (~20 hr, suggests a larger main job); no matching work order or cause posted; no boil advisory (City boil page none; MO DNR none in St. Louis City/County). This eastern Delmar segment is ~3 mi E of the Delmar Loop and not a Ring 1 corridor; ~1-1.5 mi NE of Cortex properties and ~2.5 mi E of the Medical Campus (estimates); Medical Campus and Cortex are not inside the outage blocks. Impact none. Possible street closures on Delmar/T.E. Huntley/Sam Shepard during the morning commute; minor relevance to Medical Campus routes from downtown. Escalate if the outage area expands toward Grand/Forest Park Ave or Cortex, or a boil advisory is posted. Lane 4 opened the same table and did not report it; no news or social corroboration (Lanes 2, 4). Resolve when dropped from the outage table. Owner: Emergency Management (track only).",
+      "assessment": "Updated 9:40 AM CT 11/11 (Lane 3, City Water outage page stamped 9:30 AM 11/11): the three Midtown outages (Delmar Blvd T.E. Huntley–Compton, T.E. Huntley Ave Locust–Franklin, Sam Shepard Dr) no longer appear, and the page lists no current outages; the earlier estimate was ~9:51 PM tonight. No restoration notice or cause posted, so moved to monitoring, not resolved. Lanes 1 and 4 received a cached 12:30 AM copy of the page and could not confirm either way. No boil advisory (City boil page none). ~2.5 mi E of the Medical Campus, ~1-1.5 mi NE of Cortex; no WashU or Cortex effect seen. Impact none. Resolve once restoration is confirmed or the item stays off the table through the next runs. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-11T09:40:00Z",
       "id": "stlwater-stlouiscity-tehuntley-delmar-20261111",
-      "last_updated": "2026-11-11T09:40:00Z",
+      "last_updated": "2026-11-11T15:40:00Z",
       "location": "Delmar Blvd between T.E. Huntley Ave and Compton Ave; T.E. Huntley Ave between Locust Blvd and Franklin Ave; Sam Shepard Dr between T.E. Huntley Ave and Beaumont St, St. Louis City (Midtown, near Harris-Stowe / SLU)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/wateroos.php"
+        "https://www.stlwater.com/outages",
+        "https://www.stlwater.com/outages.php"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division service outages, Midtown — Delmar Blvd, T.E. Huntley Ave and Sam Shepard Dr",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
