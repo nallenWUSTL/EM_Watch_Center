@@ -1,19 +1,19 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "12:50 PM CST 11/11 four-lane run. No new or changed incidents; no DB incident writes. City outage page (Lanes 1, 3, 4 got copy stamped 12:30 AM 11/11, likely cached): N 2nd St/Talcott outage plus Withers/N 2nd, Union Blvd, Eichelberger/Alaska, Morganford/Humphrey work orders, all tracked; Midtown Delmar/T.E. Huntley outages absent, already at monitoring; City boil page none. MAW 144457, 144507, 144021 reopened, unchanged. Probed MAW 144677-144680: blank shells; 144681+ not probed. MO DNR: no St. Louis-area boil order (newest New Hope RCF 11/5). WashU Alert none; Danforth Facilities Jolley/Cupples order still has no lift post; Wallace Dr 11/12-13 unchanged; Med Campus 11/14 is heating water only. KFVS list (modified 11/10 22:02 UTC): Millstone x3, Murphysboro, Carterville still active; PWSD#1 Cape-Perry lift already recorded. Not adopted: Granite City IL Iowa St sinkhole with IAW contractor on site (First Alert 4 headline, 11/9, water involvement and boil order unconfirmed, Ring 3). Rejected stale: stlwater.com/?p=9725, KSDK Lindell and Granite City Nameoki Rd (undated), Jan 2026 multi-break story, March 2026 South City advisory. Gaps: MAW alerts index and boil page failed to load; Reddit blocked; X, Nextdoor, Facebook nothing indexed; Post-Dispatch, RFT, Eureka/Richmond Heights/Brentwood/Maplewood/Ladue pages, MoDOT, City street closures (site error), BJC/Cortex/Loop/Forest Park own pages not opened.",
-    "open_count": 101,
-    "run_at": "2026-11-11T18:50:00Z",
+    "note": "1:40 PM CST 11/11 four-lane run. New: City Water hydrant-replacement excavation near Jamieson/Arsenal (KMOV 11/10; minivan drove into hole; no outage or boil advisory; Ring 2, impact none). Updated: Union Blvd valve repair dropped from City Water table (Lane 4, page stamped 1:30 PM, 'no active water main outages') -> monitoring; Cape Girardeau Hopper Rd dropped from KFVS list -> monitoring. City outage page: Lanes 1 and 3 still saw a 12:30 AM copy listing N 2nd/Talcott; Lane 4 got the 1:30 PM copy with no active outages; work orders Withers/N 2nd, Eichelberger/Alaska, Morganford/Humphrey remain. MAW 144457, 144507, 144021 reopened, unchanged. MAW 144681-144683, 144690, 144700 blank shells; 144684-144689, 144691-144699 not probed (curl sweep failed). MO DNR: no St. Louis-area boil order (newest New Hope RCF 11/5); City boil page none. WashU Alert none; no Jolley/Cupples lift post (original end 10/31); Wallace Dr 11/12-13 unchanged; Med Campus 11/14 heating water only. KFVS: Millstone x3, Murphysboro, Carterville still active. Rejected undated KSDK items (Olive Blvd Creve Coeur, MRH boil order, Hawkins-Fuchs, 11th & Market). Gaps: MSD, Kirkwood, Post-Dispatch/STLPR/RFT pages, MoDOT, City street closures not opened; social coverage thin.",
+    "open_count": 102,
+    "run_at": "2026-11-11T19:40:00Z",
     "top_incident": "No new WashU-affecting incidents. Standing: MAW 144457/144507 University City main breaks (11/9, no street, no boil advisory) and MAW 144021 Clayton (11/5) still posted unchanged with blank Last Updated (likely stale), impact possible (low); Wallace Dr (South 40) water-line exploratory work with lane closures Thu-Fri 11/12-13, 6 AM-4 PM, no service interruption announced."
   },
   "incidents": [
     {
       "affected_assets": [],
-      "assessment": "Updated 12:40 PM CT 11/3 (Lane 2, KFVS Heartland boil-order list updated ~12:13 PM CT 11/3): Cape Girardeau advisory still listed as active (issued 11/1, ~737 addresses, main break repairs under way); no restoration estimate; streets not named on the list. ~110+ mi from any WashU asset; separate system. Impact none. Monitor; resolve when lift reported. Owner: Emergency Management (track only).",
+      "assessment": "Updated 1:40 PM CT 11/11 (Lane 2): Cape Girardeau advisory no longer appears on the KFVS Heartland boil list (page modified ~4:02 PM CT 11/10); lift not confirmed by the city, so moved to monitoring, not resolved. ~110+ mi from any WashU asset; separate system. Impact none. Resolve once a lift is confirmed. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-03T00:40:00Z",
       "id": "capegirardeau-capegirardeau-hopperrd-20261101",
-      "last_updated": "2026-11-03T18:40:00Z",
+      "last_updated": "2026-11-11T19:40:00Z",
       "location": "East of I-55 from the SportsPlex south to Hopper Rd, plus some subdivisions west of I-55, Cape Girardeau, MO",
       "ring": 3,
       "single_source": true,
@@ -21,7 +21,7 @@
         "https://www.kfvs12.com/2026/11/02/boil-water-advisory-water-main-break-impacting-hundreds-cape-girardeau/",
         "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of Cape Girardeau boil water advisory and 6-inch main break, SportsPlex to Hopper Rd",
       "utility": "City of Cape Girardeau",
       "washu_impact": "none"
@@ -2661,6 +2661,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 1:40 PM CT 11/11 (Lane 2 only, KMOV/First Alert 4 published 2:15 PM CT 11/10): a minivan drove into a City Water excavation open since ~11/4 for replacing a leaking hydrant that had flooded a nearby business; driver hospitalized, stable. Barriers doubled; hole to stay under steel plates until another utility finishes, then filled and paved. No service outage, boil advisory or road closure reported. Separate from the resolved 3137 Jamieson main repair. ~2.5-3 mi from South Campus and Danforth; no WashU asset; no Ring 1 corridor. Impact none. Resolve when site is restored. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-11T19:40:00Z",
+      "id": "stlwater-stlouiscity-jamieson-arsenal-hydrant-20261110",
+      "last_updated": "2026-11-11T19:40:00Z",
+      "location": "Near Jamieson Ave and Arsenal St, St. Louis City (south City; exact address not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.firstalert4.com/2026/11/10/car-falls-into-sinkhole-st-louis-city/"
+      ],
+      "status": "monitoring",
+      "title": "City of St. Louis Water Division hydrant-replacement excavation near Jamieson Ave & Arsenal St; vehicle drove into open hole",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 11:40 PM CT 10/22: the January Ave (Nottingham–Devonshire) outage, out of service since 6:51 PM 10/22 with a 2:51 AM 10/23 estimate, no longer appears on the live City Water Division outage table (stlwater.com/wateroos.php, stamped 11:30 PM 10/22; confirmed by all four lanes and by supervisor). Treated as restored per utility page, roughly 4.5 hours after the outage began and ahead of estimate. No boil advisory was ever posted. Lindenwood Park / St. Louis Hills, south City, Ring 2; no WashU asset; impact none.",
       "confidence": "High",
       "first_seen": "2026-10-23T00:40:00Z",
@@ -3144,18 +3162,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 11:40 AM CT 11/10 (Lane 4 only, City Water work-order table updated 11:30 AM): valve repair logged 10:51 AM 11/10; no time out, estimate, block or cross street; the same page shows no active water main outages, and no boil advisory is posted. Union Blvd runs ~1-1.5 mi E of Danforth and the Delmar Loop and ~2 mi NW of the Medical Campus; not a Ring 1 corridor; pressure-zone effect on WashU not indicated. Impact none. Escalate if an outage near Delmar/Union or Forest Park Pkwy/Union is posted. Resolve under the 48-hour rule if no outage is posted. Owner: Emergency Management (track only).",
+      "assessment": "Updated 1:40 PM CT 11/11 (Lane 4, City Water outage page stamped 1:30 PM 11/11): Union Blvd valve repair (logged 10:51 AM 11/10) no longer listed; page states no active water main outages; no boil advisory. First read of the drop, so moved to monitoring, not resolved; resolve on a second consistent read. ~1-1.5 mi E of Danforth and the Delmar Loop; not a Ring 1 corridor. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-10T17:40:00Z",
       "id": "stlwater-stlouiscity-unionblvd-20261110",
-      "last_updated": "2026-11-10T17:40:00Z",
+      "last_updated": "2026-11-11T19:40:00Z",
       "location": "Union Blvd, St. Louis City (block and cross street not published on work-order table)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/wateroos.php?t=L4x1110a"
+        "https://www.stlwater.com/wateroos.php?t=L4x1110a",
+        "https://www.stlwater.com/outages.php"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division valve repair, Union Blvd (block not published)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
