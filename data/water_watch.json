@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "11:40 PM CST 11/10 four-lane run: no new or changed incidents. Lane 1 saw Sublette Ave outage on the stale /outages page (stamped 12:30 AM 11/10); already resolved at 3:40 AM 11/10, no change. New routine south City hydrant work orders (Gravois, Keokuk, Oleatha, Potomac, Marquette, Fyler) not tracked. KFVS list unchanged (last modified ~11/9 per Lane 2); Pope County Clark Rd expansion already tracked. WashU Alert, Danforth and Med Campus Facilities, Source: no water items. No boil order in St. Louis City or County. Set aside: undated MAW Maryland Heights/Bridgeton/Earth City boil advisory issue-and-lift stories (date unverified, likely older); undated KSDK Ferguson Haplin Dr break and Granite City Nameoki Rd break; old Lindell/Kingshighway (2020) and South City (3/2026) items. Gaps: MAW alerts index empty and alert detail pages blocked or shell-only (144660-144700), so no MAW new/lift confirmation; MAW boil page, MO DNR, MSD, Kirkwood, Illinois American, BJC/Cortex/MoDOT, social platforms not reachable or not checked.",
-    "open_count": 96,
-    "run_at": "2026-11-11T05:40:00Z",
-    "top_incident": "No change: MAW 144457 and 144507 University City main breaks (11/9, no street, no boil advisory) still tracked, impact possible (low) for North Campus, Loop and U City-side Danforth; Jolley Hall/Cupples II no-water-use order still has no posted lift (Facilities contact: Utility Operations); Wallace Dr (South 40) water-line exploratory work and lane closures Thu-Fri 11/12-13, 6 AM-4 PM, no shutdown announced."
+    "note": "12:40 AM CST 11/11 four-lane run: two new Ring 2 MAW items, impact none: Lordhill Dr main break 144653 (11:30 PM 11/10, ~4-6 hr; municipality unverified) and Shrewsbury investigation 144652. No change to tracked items: City N 2nd St (Talcott-Adelaide) outage still listed on stlwater.com/outages (12:30 AM 11/11); William Pl already resolved. KFVS list unchanged (modified ~4 PM 11/10); Pope County, Carterville, Murphysboro orders still in effect. WashU Alert, Danforth and Med Facilities: no water items (Med Campus North Building planned power outage 11/14 6-10 AM, not water). No boil order in St. Louis City or County. Set aside: undated Yahoo/FOX 2 cold-weather story (Linden/Pershing U City, Lafayette/Atalanta Webster Groves, S Grand/Juniata) — reads as a past winter event; old U City boil advisory 6/2026 (alert 126114). Gaps: MAW alerts index empty (script-rendered), IDs 144654-144657 empty, higher probes blocked; MO DNR, Illinois American, KSDK/FOX 2 article pages unreachable; BJC/Cortex/MoDOT not checked in depth.",
+    "open_count": 98,
+    "run_at": "2026-11-11T06:40:00Z",
+    "top_incident": "No change: MAW 144457 and 144507 University City main breaks (11/9, no street, no boil advisory) still posted, impact possible (low) for North Campus, Loop and U City-side Danforth; Jolley Hall/Cupples II no-water-use order still has no posted lift (scheduled end was 10/31 4 PM; verify with EPO); Wallace Dr (South 40) water-line exploratory work and lane closures Thu-Fri 11/12-13, 6 AM-4 PM, no shutdown announced."
   },
   "incidents": [
     {
@@ -1497,6 +1497,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 12:40 AM CT 11/11 (Lane 1 only): MAW alert 144652, investigation, crews locating a break; no start time, street or estimate; no boil advisory. Separate from tracked 143953 (11/4). ~3-4 mi S of South Campus (estimate); pressure zone unknown; no WashU asset; no Ring 1 corridor. Impact none. Escalate if a street near Big Bend/Clayton Rd or a boil advisory is published. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-11T06:40:00Z",
+      "id": "maw-shrewsbury-investigation-20261110",
+      "last_updated": "2026-11-11T06:40:00Z",
+      "location": "Shrewsbury, MO (south-central St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144652"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main-break investigation, Shrewsbury — crews locating break (alert 144652)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 9:40 AM CT 11/4 (Lane 1 only): MAW alert 143953, main-break repairs began 8:15 AM CT 11/4, ~7 hr estimate (~3:15 PM); no street; no boil advisory. Shrewsbury is ~3-4 mi S of South Campus (estimate); pressure zone unknown; no WashU asset; no Ring 1 corridor. Impact none. Escalate if a street near Big Bend/Clayton Rd or a boil advisory is published. No news or social corroboration. Monitor; resolve when dropped from MAW index. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-04T15:40:00Z",
@@ -1624,6 +1642,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water service investigation, 'St. Louis' (unplaced) — possible low/no pressure (alert 142786)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:40 AM CT 11/11 (Lane 1 only): MAW alert 144653, main break 11:30 PM 11/10, emergency repairs ~4-6 hr (~3:30-5:30 AM 11/11); no cross street; no boil advisory. MAW serves County, not City proper; exact place not verified. No WashU asset identified; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-11T06:40:00Z",
+      "id": "maw-stlouis-lordhilldr-20261110",
+      "last_updated": "2026-11-11T06:40:00Z",
+      "location": "Lordhill Dr, municipality labeled 'St Louis' by utility (likely unincorporated St. Louis County; cross street and municipality not published; location unverified)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144653"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, 'St Louis' — Lordhill Dr, emergency repairs (alert 144653)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
