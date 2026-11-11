@@ -1,0 +1,183 @@
+{
+  "bluf": "Posture Normal. No hazard, threat or outage touches a WashU asset. Lead item: BYOD extortion group hit Vanderbilt (Nov 9) two weeks after UNM medical (Oct 26); WashU IT and BJC should confirm BYOD indicator coverage today. Dry front brings W/NW gusts 28-30 mph from ~1 PM: check 6200 Forsyth crane limits, no burning at Tyson. Undated Skinker-DeBaliviere carjacking needs a WUPD date check. Sat Nov 14 is the stacked day.",
+  "briefing_url": "https://claude.ai/artifact/KKqPEYATpucc6eQ7jiarkM",
+  "date": "2026-11-11",
+  "dissents": [
+    {
+      "note": "Converged with Lane 4; leads the briefing.",
+      "title": "BYOD campaign underrated",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "No-burn action adopted; severity kept at 2 pending LSX fire-weather read.",
+      "title": "Tyson fire weather underrated",
+      "verdict": "Partly adopted, dissent carried"
+    },
+    {
+      "note": "Routine Facilities work only.",
+      "title": "Friday freeze overrated",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Sept CWE story excluded; Waterman carjacking kept at Low confidence.",
+      "title": "Old Ring 1 crime stories overrated",
+      "verdict": "Adopted in part"
+    },
+    {
+      "note": "Sev 5, Low likelihood; tabletop the shutdown-and-diversion decision this week.",
+      "title": "Scenario: BYOD-style intrusion at WashU Medicine/BJC",
+      "verdict": "Carried as planning scenario"
+    }
+  ],
+  "lanes_quiet": [
+    3,
+    6
+  ],
+  "lookahead": [
+    {
+      "date": "2026-11-11",
+      "dow": "Wed",
+      "loads": "Veterans Day; registration; Vaccine Center Symposium; Flyover may open",
+      "stacked": false,
+      "wx": "68/44, gusts ~30 mph PM"
+    },
+    {
+      "date": "2026-11-12",
+      "dow": "Thu",
+      "loads": "Registration; Flyover evening shows",
+      "stacked": false,
+      "wx": "51/34, NW gusts ~25 mph"
+    },
+    {
+      "date": "2026-11-13",
+      "dow": "Fri",
+      "loads": "Last registration day; men's basketball 7 PM; Flyover",
+      "stacked": true,
+      "wx": "46/28, hard freeze overnight"
+    },
+    {
+      "date": "2026-11-14",
+      "dow": "Sat",
+      "loads": "Girls on the Run 5K Forest Park AM; football Senior Day 1 PM; Blues 6 PM; Roy Wood Jr. at Pageant 7 PM",
+      "stacked": true,
+      "wx": "49/33, sunny"
+    },
+    {
+      "date": "2026-11-15",
+      "dow": "Sun",
+      "loads": "Flyover closes; MetroLink single-tracking",
+      "stacked": false,
+      "wx": "53/38, 20% rain overnight"
+    },
+    {
+      "date": "2026-11-16",
+      "dow": "Mon",
+      "loads": "Global Research Excellence Showcase; counter-drone grant deadline (state)",
+      "stacked": false,
+      "wx": "57, mostly sunny"
+    },
+    {
+      "date": "2026-11-17",
+      "dow": "Tue",
+      "loads": "National EAS test ~1:20 PM; Blues 7 PM",
+      "stacked": false,
+      "wx": "No forecast yet"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "watch",
+      "summary": "No NWS product found (alert list unreadable); gusts ~30 mph today; hard freeze Fri night; no M2+ quakes within 150 mi."
+    },
+    {
+      "name": "Life safety and threat",
+      "pir": 2,
+      "status": "quiet",
+      "summary": "No confirmed Ring 1 violence or threat naming WashU; WSSU homecoming shooting is a copycat watch for Sat."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "watch",
+      "summary": "No advisory or outbreak; Missouri measles spread warrants pre-Thanksgiving MMR messaging; flu at baseline."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "active",
+      "summary": "BYOD campaign vs peer universities; KEV adds Aspera Faspex/OpenSSH; MetroLink Blue Line cutback through Dec 23; no utility outages."
+    },
+    {
+      "name": "Scheduled activity",
+      "pir": 5,
+      "status": "watch",
+      "summary": "Sat Nov 14 stacks Forest Park 5K, home football, Loop comedy fest, Blues; registration Nov 10-13."
+    },
+    {
+      "name": "Policy, legal, funding",
+      "pir": 6,
+      "status": "quiet",
+      "summary": "No program changes; stopgap expires Dec 11; EAS national test Nov 17; no new L3/L4 advisories."
+    }
+  ],
+  "posture": "Normal",
+  "published_at": "2026-11-11T12:00:00Z",
+  "run_note": "All 7 lanes reported; charter rev 10 read. Sev 4 item re-verified (The Record, The Register). NWS forecast used is from Nov 10 03:21; live alert list, SPC/WPC, AirNow unreachable. Run 05:53-06:00 CT.",
+  "title": "WashU EM Daily Intelligence Briefing, November 11, 2026",
+  "today_items": [
+    {
+      "action": "IT security and BJC confirm BYOD indicator and identity monitoring; verify WashU Alert reach without email/Wi-Fi; Communications holding statement.",
+      "confidence": "High",
+      "likelihood": "Low-Med (WashU)",
+      "owner": "WashU IT, EM, Medical Campus Security, Communications",
+      "pir": 4,
+      "rank": 1,
+      "severity": 4,
+      "source": "https://therecord.media/vanderbilt-cyberattack-ransomware-alert",
+      "title": "BYOD extortion campaign against peer universities",
+      "ttd": "Today"
+    },
+    {
+      "action": "Check crane wind limits at 6200 Forsyth, secure loose material and tents; no burning or hot work at Tyson this afternoon.",
+      "confidence": "Medium",
+      "likelihood": "High",
+      "owner": "Facilities, EH&S, Tyson staff",
+      "pir": 1,
+      "rank": 2,
+      "severity": 2,
+      "source": "https://forecast.weather.gov/MapClick.php?lat=38.6488&lon=-90.3108",
+      "title": "Gusty post-frontal winds, dry air",
+      "ttd": "Today"
+    },
+    {
+      "action": "Confirm date with SLMPD 7th District; if Nov 10, review patrol and escort messaging.",
+      "confidence": "Low",
+      "likelihood": "Unconfirmed",
+      "owner": "WUPD",
+      "pir": 2,
+      "rank": 3,
+      "severity": 3,
+      "source": "https://www.ksdk.com/article/news/local/man-carjacked-in-skinker-debaliviere-neighborhood-tuesday-night/63-dddb6e94-bf8c-4b2f-b92b-94249828050b",
+      "title": "Armed carjacking, 6100 block Waterman (undated)",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "BYOD extortion campaign vs peer universities (Vanderbilt Nov 9, UNM Oct 26): WashU IT/BJC confirm indicator coverage and out-of-band alerting today.",
+  "unreachable": [
+    "NWS alerts API",
+    "LSX watch/warning list",
+    "SPC/WPC current products",
+    "AirNow",
+    "CISA KEV page",
+    "Ameren/Spire outage maps",
+    "REN-ISAC/Health-ISAC",
+    "Vendor status pages",
+    "Police department releases",
+    "events.washu.edu",
+    "St. Louis County DPH flu page",
+    "stltoday (paywall)",
+    "BJC diversion status (no public source)"
+  ]
+}
