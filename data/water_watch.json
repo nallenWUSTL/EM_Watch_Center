@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "5:40 PM CST 11/10 four-lane run: new MAW 144639 Manchester investigation (Ring 2, none) and 144638/144640 Jefferson City main break (Ring 3, none); 144641 is California American Water (out of region, not tracked). ID probe 144638-144650: 144642-144650 empty; next probe from 144642. MAW 144635 Breckenridge Hills and 144631 County unchanged (3:30/3:15 PM starts, ~6 hr). City Water: Lane 1 read the stale /outages page (12:30 AM stamp, shows resolved Sublette) so no City records changed; N 2nd St and Union Blvd left open pending the current table. MO DNR: none in St. Louis City/County. KFVS list: no new lifts; West Plains still not lifted. WashU Alert none; Facilities: no Jolley lift or sewer closeout; Wallace Dr 11/12-13 unchanged; Med Campus no water items (North Building power outage 11/14 6-10 AM, non-water). stlwater ?p=9725 confirmed as the lifted Aug 2026 advisory. Gaps: municipal pages for U City/Clayton/Richmond Heights/Ladue/Eureka, MSD, Kirkwood, wateroos.php current table.",
+    "note": "6:45 PM CST 11/10 four-lane run: no new St. Louis-region incidents. ID probe 144642-144653: 144642 Rosemead CA, 144643 Muncie IN, 144644 Harlan KY, 144645 Bethel Park PA (all out of region, not tracked); 144646-144653 empty; next probe from 144646. MAW 144457, 144507, 144635, 144631 reopened, unchanged. City Water table 6:30 PM: only active outage N 2nd St Talcott-Adelaide (2:13 PM, crews working); work orders Withers/N 2nd and Union Blvd unchanged; 11/8-11/9 hydrant repairs on Oleatha/Potomac/Marquette/Fyler (Ring 2, not outages, not tracked). MO DNR: none in St. Louis City/County (newest 11/5). KFVS list: West Plains and Sedalia off list, no lift found (West Plains moved to monitoring); PWSD1 Cape-Perry lift 11/8 already resolved. WashU Alert none (modified 11/2); Facilities: no Jolley lift, Wallace Dr 11/12-13 unchanged; Med Campus no water items. Gaps: municipal pages U City/Clayton/Richmond Heights/Ladue/Eureka, MSD, Kirkwood, IAW, BJC/Cortex/Loop; social lane thin. MAW alerts index renders empty without JS.",
     "open_count": 95,
-    "run_at": "2026-11-10T23:40:00Z",
-    "top_incident": "No change: MAW 144457 and 144507 University City main breaks (11/9, no street, no boil advisory) still posted with no completion text — impact possible (low) for North Campus, Loop and U City-side Danforth. Jolley Hall/Cupples II no-water-use order still has no posted lift."
+    "run_at": "2026-11-11T00:45:00Z",
+    "top_incident": "No change: MAW 144457 and 144507 University City main breaks (11/9, no street, no boil advisory) still posted with no completion text, now ~26-33 hr past start — impact possible (low) for North Campus, Loop and U City-side Danforth. Jolley Hall/Cupples II no-water-use order still has no posted lift (scheduled end 10/31 4 PM passed)."
   },
   "incidents": [
     {
@@ -3194,19 +3194,20 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 12:40 PM CT 11/9 (Lane 2, city page opened): Missouri DNR upgraded the 11/8 citywide advisory to a Boil Water Order at 9:00 PM 11/8; city posted ~11:29 AM 11/9. Cause was a failed polymer feed unit causing a brief turbidity rise; repaired, turbidity normal. Sampling continues through Tue 11/10; order stays until DNR approves a lift. ~170 mi SSW of Tyson; separate system; no WashU asset. Impact none. Monitor; resolve when lift reported. Owner: Emergency Management (track only).",
+      "assessment": "Updated 6:45 PM CT 11/10 (Lane 2): West Plains no longer appears on the KFVS Heartland boil list (page updated ~4:02 PM CT 11/10; Missouri section shows only Cape Girardeau County). No lift notice from the city or MO DNR found, so moved to monitoring, not resolved. Earlier: DNR boil water order from 9 PM 11/8 after a polymer feed failure; sampling through 11/10. ~170 mi SSW of Tyson; separate system; no WashU asset. Impact none. Resolve once a lift is confirmed. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-08T22:40:00Z",
       "id": "westplains-westplains-citywide-20261108",
-      "last_updated": "2026-11-09T18:40:00Z",
+      "last_updated": "2026-11-11T00:45:00Z",
       "location": "Entire West Plains water system, West Plains, MO (Howell County)",
       "ring": 3,
       "single_source": true,
       "sources": [
         "https://westplains.gov/citywide-boil-water-order/",
-        "https://www.ky3.com/2026/11/08/west-plains-mo-under-citywide-boil-water-advisory/"
+        "https://www.ky3.com/2026/11/08/west-plains-mo-under-citywide-boil-water-advisory/",
+        "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of West Plains citywide boil water order (upgraded from advisory) — treatment plant polymer feed failure",
       "utility": "City of West Plains (West Plains Utilities)",
       "washu_impact": "none"
