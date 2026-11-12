@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "12:40 AM CST 11/12 four-lane run. New, Ring 3 only, impact none: MAW Jefferson City planned work 144801 (11/12 8 AM-3 PM); IAW Champaign IL main break 144805/144808 with boil order on restoration. Update: Black Jack 144809 retitled main break (body unchanged). MAW IDs 144812-144840 empty (144811 newest). No boil orders in St. Louis City/County found; City Water page timestamp stale (12:30 AM 11/11) so Sutherland/Sulphur, Jamieson/Arsenal, Delmar/T.E. Huntley absences not treated as restoration. Lane 3: WashU Alert quiet; no Facilities water notices; Med Campus BJCIH basement heating water off 11/14 6 AM-3 PM (building heating, not utility). Lanes 2 and 4: nothing new; KFVS list unchanged since 11/10. Gaps: MO DNR feed blocked (403); MSD, Kirkwood, BJC/Cortex/Forest Park/MoDOT not opened; social only via search.",
+    "note": "1:40 AM CST 11/12 four-lane run. Nothing new in any lane. Update: City Water Sutherland Ave (Sulphur to January) now an active outage 1:29-9:29 AM 11/12, Ring 2, impact none (3 lanes). City Water board refreshed 1:30 AM: Delmar/T.E. Huntley outages and Jamieson/Arsenal hydrant no longer listed (no restoration notice; left in monitoring). No boil orders in St. Louis City/County; stlwater ?p=9725 boil page is the stale July Chain of Rocks item. WashU Alert quiet; no new Facilities water notices. Gaps: MAW ID probe covered only 144812-144825 sample (curl blocked); MO DNR table did not load; MSD, Kirkwood, BJC/Cortex/Forest Park/MoDOT not opened.",
     "open_count": 116,
-    "run_at": "2026-11-12T06:40:00Z",
-    "top_incident": "No new WashU-affecting incidents. Standing: MAW 144457/144507 University City main breaks (11/9, no street, still posted, likely stale), impact possible (low); MAW 144021 Clayton and 143300 Richmond Heights still tracked (likely stale); Jolley/Cupples II no-water-use order still has no posted lift (call-down recommended); Wallace Dr (South 40) water-line exploratory work with lane closures today-Fri 11/12-13, 6 AM-4 PM, no shutoff announced (reconfirmed)."
+    "run_at": "2026-11-12T07:40:00Z",
+    "top_incident": "No new WashU-affecting incidents. Standing: MAW 144457/144507 University City main breaks (11/9, no street, still posted, likely stale), impact possible (low); MAW 144021 Clayton and 143300 Richmond Heights still posted with no end time (likely stale); Jolley/Cupples II no-water-use order (scheduled end 10/31 4 PM) still has no posted lift; Wallace Dr (South 40) water-line exploratory work with lane closures 11/12-13, 6 AM-4 PM, no shutoff announced (reconfirmed)."
   },
   "incidents": [
     {
@@ -3318,19 +3318,20 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 6:40 PM CT 11/11 (Lane 1 only, City Water outage page live, stamped 6:30 PM 11/11): main repair work order dated 4:00 PM 11/11; no status or restoration time; not listed as an active outage; no boil advisory. ~2.5-3 mi E of South Campus (estimate); City system, not the pressure zone serving Clayton-side assets; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when the work order drops. Owner: Emergency Management (track only).",
-      "confidence": "Medium",
+      "assessment": "Updated 1:40 AM CT 11/12 (Lanes 1, 3, 4; City Water outage page stamped 1:30 AM 11/12): active service outage on Sutherland Ave between Sulphur and January since 1:29 AM 11/12, estimated restoration 9:29 AM 11/12; tied to the main-repair work order opened 4:00 PM 11/11. Only outage on the board. No boil advisory. ~2.5-3 mi E of South Campus (estimate); City system, not the zone serving Clayton-side assets; no Ring 1 corridor. Impact none. Resolve when the outage and work order drop. Owner: Emergency Management (track only).",
+      "confidence": "High",
       "first_seen": "2026-11-12T00:40:00Z",
       "id": "stlwater-stlouiscity-sutherland-sulphur-20261111",
-      "last_updated": "2026-11-12T00:40:00Z",
-      "location": "Sutherland Ave & Sulphur Ave, St. Louis City (Lindenwood Park / Ellendale area, south of Arsenal)",
+      "last_updated": "2026-11-12T07:40:00Z",
+      "location": "Sutherland Ave between Sulphur Ave and January Ave, St. Louis City (Lindenwood Park / Ellendale area, south of Arsenal)",
       "ring": 2,
-      "single_source": true,
+      "single_source": false,
       "sources": [
-        "https://www.stlwater.com/outages.php"
+        "https://www.stlwater.com/outages.php",
+        "https://www.stlwater.com/outages"
       ],
       "status": "open",
-      "title": "City Water main repair work order, Sutherland Ave & Sulphur Ave",
+      "title": "City Water main repair and service outage, Sutherland Ave (Sulphur Ave to January Ave)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
