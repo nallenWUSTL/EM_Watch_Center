@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "9:40 AM CST 11/12 four-lane run. New: City Water main repair at 6815 Dale Ave (work order 7:44 AM, not an outage), Ring 2, impact none. Sutherland Ave outage still listed past its 9:29 AM estimate (page stamped 9:30 AM). Resolved per KFVS list: Carterville IL Ridge St and Millstone Mt. Shelter Rd boil orders (both lifted 11/12). Jamieson/Arsenal hydrant job no longer on City list (not changed; unconfirmed). MO DNR: newest 11/5, none in St. Louis City/County. WashU Alert: no active alerts. Undated stlwater.com page ?p=9725 still says a Chain of Rocks precautionary boil advisory is in effect (Hi-Pointe, Shaw, Grand Center, etc.); no date and no matching news item, treated as a stale archived page, not tracked; worth a quick check with City Water. MAW alerts index and detail pages (144845-144855) still unreadable without JS; MAW status unverified. Context: MAW moving Eureka customers to County supply Nov through spring with zone flushing (Tyson on well water). Gaps: social platforms not indexed; FOX 2 'north St. Louis main break' video undated, unopened; MSD and Kirkwood not reached.",
-    "open_count": 115,
-    "run_at": "2026-11-12T15:40:00Z",
-    "top_incident": "No new WashU-affecting incidents. Standing: Jolley/Cupples II no-water-use order still has no posted lift (confirm with EPO Utility Operations); Wallace Dr (South 40) water-line exploratory work proceeding today and 11/13, 6 AM-4 PM, lane closures, no shutoff announced; MAW University City 144457/144507, Clayton 144021 and Richmond Heights 143300 unverified (likely stale), impact possible (low)."
+    "note": "10:40 AM CST 11/12 four-lane run. New (all impact none): MAW 144857 unplaced St. Louis County main-break investigation (Ring 2); MAW 144867 Saint Charles main break, ~1 PM est. (Ring 3); IAW 144868 East St. Louis IL planned valve work with boil order on restoration (Ring 3). Sutherland Ave outage still listed past its 9:29 AM estimate, but the copy fetched was stamped 1:30 AM and lacked the 7:44 AM Dale Ave work order, so likely a stale cache; restoration unconfirmed, not changed. KFVS: Millstone Bert Rd and Clark Rd and Murphysboro Tina Dr still active. MO DNR: none in St. Louis City/County. City boil-advisory page: none. WashU Alert: no active alerts; no new Facilities water notices since 11/10. Undated stlwater.com ?p=9725 boil banner judged leftover from the Aug 17 advisory, not tracked. Gaps: MAW index needs JS (144850/144855/144856 unreadable); MSD, Kirkwood and MAW boil page not checked; no social posts indexed for 11/11-12.",
+    "open_count": 118,
+    "run_at": "2026-11-12T16:40:00Z",
+    "top_incident": "No new WashU-affecting incidents. Standing: Jolley/Cupples II no-water-use order still has no posted lift (confirm with Utility Operations); Wallace Dr (South 40) water-line exploratory work in progress today and 11/13, 6 AM-4 PM, lane closures, no shutoff posted; MAW University City 144457/144507, Clayton 144021 and Richmond Heights 143300 unverified (likely stale), impact possible (low)."
   },
   "incidents": [
     {
@@ -189,6 +189,24 @@
       ],
       "status": "open",
       "title": "Illinois American Water main break with boil order on restoration, Champaign, IL (alerts 144805, 144808)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 10:40 AM CT 11/12 (Lane 1 only, ID probe): IAW alert 144868, planned valve replacement 7:30 AM to ~5:00 PM 11/12; boil order takes effect once service is restored, no lift time. Planned work. Metro East across the river, ~8-9 mi E of the Medical Campus; separate utility system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-12T16:40:00Z",
+      "id": "ilaw-eaststlouis-planned-20261112",
+      "last_updated": "2026-11-12T16:40:00Z",
+      "location": "East St. Louis, IL (St. Clair County, Metro East; streets not published by utility)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144868"
+      ],
+      "status": "open",
+      "title": "Illinois American Water planned valve replacement with boil order on restoration, East St. Louis, IL (alert 144868)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
     },
@@ -1771,6 +1789,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 10:40 AM CT 11/12 (Lane 1 only, ID probe): MAW alert 144867, main-break emergency repairs began 8:30 AM 11/12, ~4.5 hr estimate (~1:00 PM); no street; no boil advisory. Appears separate from tracked planned leak repair 144593 (same day). >15 mi from any WashU asset; separate service area. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-12T16:40:00Z",
+      "id": "maw-stcharles-unlocated-20261112",
+      "last_updated": "2026-11-12T16:40:00Z",
+      "location": "Saint Charles, MO (St. Charles County; street not published by utility)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144867"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Saint Charles — emergency repairs (alert 144867)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 9:40 AM CT 10/26: alert 142472/142473 no longer appears on the MAW active alerts index (Lanes 1 and 3, all 12 previously tracked MAW IDs gone; Lanes 2 and 4 consistent). Treated as repair complete / alert expired per utility index. No street change, no boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). No WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-10-23T03:35:00Z",
@@ -1956,6 +1992,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water investigation, St. Louis County (unplaced) — possible low/no pressure (alert 144501)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 10:40 AM CT 11/12 (Lane 1 only, ID probe): MAW alert 144857, main-break investigation; some customers may see low or no pressure; no street, start or restoration time; no boil advisory (MO DNR none in St. Louis City/County). Unplaced; no WashU asset can be tied to it. Impact none. Escalate if a street in Clayton, University City, Richmond Heights or near a Ring 1 corridor is published. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-12T16:40:00Z",
+      "id": "maw-stlouiscounty-investigation-20261112",
+      "last_updated": "2026-11-12T16:40:00Z",
+      "location": "St. Louis County, MO (municipality and street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144857"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main-break investigation, St. Louis County (unplaced) — possible low/no pressure (alert 144857)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
