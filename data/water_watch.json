@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "9:50 PM CST 11/11 four-lane run. Lane 1 ID probe found 5 new MAW alerts, none Ring 1, no boil advisories: Shrewsbury 144735, unplaced St. Louis County 144730, Manchester 144770 (Ring 2); Jefferson City investigation 144728, Parkville 144780 (Ring 3). Newest MAW IDs ~144810-144820. No boil orders in St. Louis City/County (MO DNR newest Nov entry St. Francois Co 11/5; City advisories none). City outage page still stale (12:30 AM 11/11): N 2nd St Talcott-Adelaide outage still listed; Midtown Delmar/T.E. Huntley outages absent. Lane 3: no WashU Alert; Facilities 11/12-13 notices are elevator/fire alarm/exhaust fan, no water; Jolley/Cupples II lift still not posted; Wallace Dr unchanged. Lanes 2 and 4 NOTHING NEW; rejected undated KSDK boil-advisory stories and Mar 2026 Maryland Heights advisory. Gaps: KSDK, KFVS, Kirkwood, MSD, Clayton/Richmond Heights municipal pages not reached; social platforms poorly indexed.",
-    "open_count": 108,
-    "run_at": "2026-11-12T03:50:00Z",
-    "top_incident": "No new WashU-affecting incidents. Standing: MAW 144457/144507 University City main breaks (11/9, no street, no boil advisory), impact possible (low); MAW 144021 Clayton and 143300 Richmond Heights still tracked (likely stale); Jolley/Cupples II no-water-use order still has no posted lift; Wallace Dr (South 40) water-line exploratory work with lane closures Thu-Fri 11/12-13, 6 AM-4 PM, no shutoff announced."
+    "note": "10:40 PM CST 11/11 four-lane run. Only new item: Greenville IL planned citywide precautionary boil order starting 11/16 (Ring 3, impact none). No boil orders in St. Louis City/County (MO DNR: only Nov entry St. Francois Co 11/5). City Water outage page (10:30 PM 11/11): no active main outages; N 2nd St, Midtown Delmar/T.E. Huntley and Jamieson hydrant still absent; open work orders Union Blvd valve, Eichelberger & Alaska, Morganford & Humphrey, Sutherland & Sulphur, Withers & N 2nd. Lane 3: no WashU Alert; no WashU water notices for 11/12-14 (Med Campus 11/14 BJCIH heating-water outage is not domestic water). Lanes 2 and 4 nothing new in Ring 1/2. Gaps: MAW alert pages are script-rendered and could not be read this run (no MAW new/closed check); Reddit blocked; Clayton/Richmond Heights/Ladue municipal pages, MSD, Kirkwood not opened.",
+    "open_count": 109,
+    "run_at": "2026-11-12T04:40:00Z",
+    "top_incident": "No new WashU-affecting incidents. Standing: MAW 144457/144507 University City main breaks (11/9, no street, no boil advisory), impact possible (low); MAW 144021 Clayton and 143300 Richmond Heights still tracked (likely stale); Jolley/Cupples II no-water-use order (scheduled end 10/31 4 PM) still has no posted lift; Wallace Dr (South 40) water-line exploratory work with lane closures Thu-Fri 11/12-13, 6 AM-4 PM, no shutoff announced (unchanged)."
   },
   "incidents": [
     {
@@ -114,6 +114,24 @@
       "status": "monitoring",
       "title": "City of Fulton, KY water main break, KY 116 / W State Line St and KY 129 / E State Line St",
       "utility": "City of Fulton, KY",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 10:40 PM CT 11/11 (Lane 2 only, WGEL published 11/11): planned precautionary boil order begins Mon 11/16 when the new treatment plant is connected and the old plant taken offline (work 11/16-17); remains until bacteria samples pass, typically ~30 hr after sampling. Planned work, not a failure. ~50 mi E of St. Louis; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-12T04:40:00Z",
+      "id": "greenville-greenvilleil-citywide-20261116",
+      "last_updated": "2026-11-12T04:40:00Z",
+      "location": "Citywide Greenville, IL plus outlying areas served (Bond County; no streets named)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://wgel.com/news/2026/11/city-announces-upcoming-boil-order-2/"
+      ],
+      "status": "open",
+      "title": "City of Greenville, IL planned citywide precautionary boil order for treatment plant changeover (starts Mon 11/16)",
+      "utility": "City of Greenville, IL",
       "washu_impact": "none"
     },
     {
