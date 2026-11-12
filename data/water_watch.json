@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "11:45 PM CST 11/11 four-lane run. New, all Ring 2, impact none: MAW Webster Groves 144786, unplaced County 144788, Fenton 144797/144798, Black Jack investigation 144809, Florissant planned work 144787 (11/12 12-8 AM). No boil orders in St. Louis City/County (MO DNR: only Nov entry Park Hills/St. Francois Co 11/5). City Water wateroos (11:30 PM 11/11): no active main outages. Lane 3: no WashU Alert; no new Facilities water notices; Jolley/Cupples and Wallace Dr unchanged. Lanes 2 and 4: nothing new in Ring 1/2; KFVS copy Lane 2 saw was stale (Nov 10) so no Ring 3 status changes adopted. Gaps: MAW index and boil page script-rendered; MAW IDs 144814-144840 partly unchecked; MSD, Kirkwood, municipal pages, BJC/Cortex/Forest Park not opened; X/Nextdoor/Reddit only via search.",
-    "open_count": 114,
-    "run_at": "2026-11-12T05:45:00Z",
-    "top_incident": "No new WashU-affecting incidents. Standing: MAW 144457/144507 University City main breaks (11/9, no street, still posted, no boil advisory), impact possible (low); MAW 144021 Clayton and 143300 Richmond Heights still tracked (likely stale); Jolley/Cupples II no-water-use order still has no posted lift (call-down recommended); Wallace Dr (South 40) water-line exploratory work with lane closures Thu-Fri 11/12-13, 6 AM-4 PM, no shutoff announced (unchanged)."
+    "note": "12:40 AM CST 11/12 four-lane run. New, Ring 3 only, impact none: MAW Jefferson City planned work 144801 (11/12 8 AM-3 PM); IAW Champaign IL main break 144805/144808 with boil order on restoration. Update: Black Jack 144809 retitled main break (body unchanged). MAW IDs 144812-144840 empty (144811 newest). No boil orders in St. Louis City/County found; City Water page timestamp stale (12:30 AM 11/11) so Sutherland/Sulphur, Jamieson/Arsenal, Delmar/T.E. Huntley absences not treated as restoration. Lane 3: WashU Alert quiet; no Facilities water notices; Med Campus BJCIH basement heating water off 11/14 6 AM-3 PM (building heating, not utility). Lanes 2 and 4: nothing new; KFVS list unchanged since 11/10. Gaps: MO DNR feed blocked (403); MSD, Kirkwood, BJC/Cortex/Forest Park/MoDOT not opened; social only via search.",
+    "open_count": 116,
+    "run_at": "2026-11-12T06:40:00Z",
+    "top_incident": "No new WashU-affecting incidents. Standing: MAW 144457/144507 University City main breaks (11/9, no street, still posted, likely stale), impact possible (low); MAW 144021 Clayton and 143300 Richmond Heights still tracked (likely stale); Jolley/Cupples II no-water-use order still has no posted lift (call-down recommended); Wallace Dr (South 40) water-line exploratory work with lane closures today-Fri 11/12-13, 6 AM-4 PM, no shutoff announced (reconfirmed)."
   },
   "incidents": [
     {
@@ -170,6 +170,25 @@
       ],
       "status": "open",
       "title": "Illinois American Water main break and boil order, Belleville, IL (alerts 144035, 144065, 144073)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:40 AM CT 11/12 (Lane 1 only, ID probe): IAW alert 144805, main break from 6:35 PM 11/11, boil order to follow restoration; 144808 a related Champaign alert. ~170 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-12T06:40:00Z",
+      "id": "ilaw-champaign-unlocated-20261111",
+      "last_updated": "2026-11-12T06:40:00Z",
+      "location": "Champaign, IL (Champaign County; street not published in Lane report)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144805",
+        "https://alertsdetail.awapps.com/alert/144808"
+      ],
+      "status": "open",
+      "title": "Illinois American Water main break with boil order on restoration, Champaign, IL (alerts 144805, 144808)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
     },
@@ -447,11 +466,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 11:45 PM CT 11/11 (Lane 1 only, ID probe): MAW alert 144809, titled main break but body describes investigation of a possible service issue with low or no pressure; no start, end or street. No boil advisory. ~11 mi N of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "assessment": "Updated 12:40 AM CT 11/12 (Lane 1): MAW alert 144809 title now 'Black Jack: Main Break'; body still describes investigation of a possible service issue with low or no pressure; no street, times or boil advisory. ~11 mi N of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-12T05:45:00Z",
       "id": "maw-blackjack-investigation-20261111",
-      "last_updated": "2026-11-12T05:45:00Z",
+      "last_updated": "2026-11-12T06:40:00Z",
       "location": "Black Jack, MO (north St. Louis County; street not published by utility)",
       "ring": 2,
       "single_source": true,
@@ -459,7 +478,7 @@
         "https://alertsdetail.awapps.com/alert/144809"
       ],
       "status": "open",
-      "title": "Missouri American Water main-break investigation, Black Jack — possible low/no pressure (alert 144809)",
+      "title": "Missouri American Water main break, Black Jack — possible low/no pressure (alert 144809)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -1150,6 +1169,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water service investigation, Jefferson City (alert 144728)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:40 AM CT 11/12 (Lane 1 only, ID probe): MAW alert 144801, planned work Thu 11/12 8:00 AM to ~3:00 PM; no street; no boil advisory. Planned, not a failure. Separate from tracked 144728 and 144638/144640. ~120 mi W; separate system; no WashU asset. Impact none. Resolve after the window if dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-12T06:40:00Z",
+      "id": "maw-jeffersoncity-planned-20261112",
+      "last_updated": "2026-11-12T06:40:00Z",
+      "location": "Jefferson City, MO (Cole County; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144801"
+      ],
+      "status": "open",
+      "title": "Missouri American Water planned water system improvement, Jefferson City, Nov 12 (alert 144801)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
