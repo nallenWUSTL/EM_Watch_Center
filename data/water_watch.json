@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "6:40 PM CST 11/11 four-lane run. City outage page live (stamped 6:30 PM 11/11): no active main outages; new work order Sutherland Ave & Sulphur Ave (4 PM 11/11, Ring 2, impact none) added; Jamieson/Arsenal hydrant dropped from list; Delmar/T.E. Huntley still absent (kept monitoring, no completion notice). N 2nd/Withers, Union Blvd, Eichelberger/Alaska, Morganford/Humphrey work orders still listed. Small City hydrant repairs 11/5-11/9 (Gravois, Keokuk, Oleatha, etc.) not tracked, no outages. MAW alerts 144654-144660 returned empty pages; no alert newer than 144653 found. MO DNR none in St. Louis region (newest 11/5 St. Francois Co.). KFVS list unchanged since 4:02 PM 11/10. WashU Alert none; Facilities: Wallace Dr unchanged, Jolley lift not posted; Med Campus 11/14 heating water/power interruptions unchanged. Rejected undated/old: AOL Bridgeton/Maryland Heights/Earth City advisory, Kirkwood 2025, Granite City Nameoki (undated), Sikeston April 2026, Yahoo Jan 2026 breaks. Gaps: MSD, MAW boil page, municipal pages (Clayton, Richmond Heights, etc.), BJC, Cortex/Loop, MoDOT not opened; social platforms not indexed.",
+    "note": "7:40 PM CST 11/11 four-lane run; all lanes NOTHING NEW for St. Louis region. MAW IDs 144654-144668, 144670, 144680 probed: only 144659 (Scranton investigation, out of region); 144669 and 144671-144679 not checked. MAW alerts landing page empty; boil page site error. City outage page fetched stale (stamped 12:30 AM 11/11) showing N 2nd St & Talcott (likely the tracked N 2nd/Withers job); no City records changed. KFVS Heartland list updated ~2:30 AM 11/11: MO and KY none; IL only Devil's Kitchen WD (Grassy Rd, dated 11/3, untracked, Ring 3). Carterville and Murphysboro moved to monitoring (dropped from list, lift unconfirmed). WashU Alert none (cyber notice only); Facilities: Wallace Dr unchanged, Jolley lift not posted, Med Campus 11/14 heating water/power unchanged, no new water notices. Rejected old: KTRS Lindell 30-inch break (2017-21), WashU 2015 Shriners/Maternity notices, City Mar 2026 south city boil advisory, Jan 2026 U City/Webster breaks, KMOX 2019-2020 stories; Fox C-6 and I-44 geyser stories undated. Gaps: MSD, MO DNR, city news releases, BJC, Cortex/Loop, MoDOT not reached; social platforms poorly indexed.",
     "open_count": 103,
-    "run_at": "2026-11-12T00:40:00Z",
-    "top_incident": "No new WashU-affecting incidents. Standing: MAW 144457/144507 University City main breaks (11/9, still Active, no street, no boil advisory), impact possible (low); MAW 144021 Clayton standing; Jolley/Cupples II no-water-use order (scheduled end 10/31) still has no posted lift; Wallace Dr (South 40) water-line exploratory work with lane closures Thu-Fri 11/12-13, 6 AM-4 PM, no service interruption announced."
+    "run_at": "2026-11-12T01:40:00Z",
+    "top_incident": "No new WashU-affecting incidents. Standing: MAW 144457/144507 University City main breaks (11/9, pages still posted, no street, no boil advisory), impact possible (low); MAW 144021 Clayton and 143300 Richmond Heights still posted (likely stale); Jolley/Cupples II no-water-use order still has no posted lift; Wallace Dr (South 40) water-line exploratory work with lane closures Thu-Fri 11/12-13, 6 AM-4 PM, no shutoff announced."
   },
   "incidents": [
     {
@@ -28,18 +28,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 4:40 PM CT 11/10 (Lane 2 only, KFVS Heartland boil list modified ~4:02 PM CT 11/10): boil order issued 11/10 until further notice after a valve failed during main replacement on Ridge St; no restoration estimate. ~110 mi SE of St. Louis; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "assessment": "Updated 7:40 PM CT 11/11 (Lane 2): Carterville no longer appears on the KFVS Heartland boil list (page updated ~2:30 AM CT 11/11; Illinois section now shows only Devil's Kitchen Water District). Lift not confirmed by the city, so moved to monitoring, not resolved. ~110 mi SE; separate system; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-10T22:40:00Z",
       "id": "carterville-carterville-ridgest-20261110",
-      "last_updated": "2026-11-10T22:40:00Z",
+      "last_updated": "2026-11-12T01:40:00Z",
       "location": "Ridge St, Allen Rd, Alta Dr, Birch Ln, Sycamore Rd east from 5012 and other streets, Carterville, IL (Williamson County)",
       "ring": 3,
       "single_source": true,
       "sources": [
         "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of Carterville, IL boil order and outage after valve failure, Ridge St main replacement",
       "utility": "City of Carterville, IL",
       "washu_impact": "none"
@@ -2335,18 +2335,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 4:40 PM CT 11/10 (Lane 2 only, KFVS Heartland boil list): boil order issued 11/10 until further notice; cause not stated. ~90 mi SE of St. Louis; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "assessment": "Updated 7:40 PM CT 11/11 (Lane 2): Murphysboro no longer appears on the KFVS Heartland boil list (page updated ~2:30 AM CT 11/11). Lift not confirmed by the city, so moved to monitoring, not resolved. ~90 mi SE; separate system; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-10T22:40:00Z",
       "id": "murphysboro-murphysboro-tinadr-20261110",
-      "last_updated": "2026-11-10T22:40:00Z",
+      "last_updated": "2026-11-12T01:40:00Z",
       "location": "All of Tina Dr, Murphysboro, IL (Jackson County)",
       "ring": 3,
       "single_source": true,
       "sources": [
         "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of Murphysboro, IL boil order, all of Tina Dr",
       "utility": "City of Murphysboro, IL",
       "washu_impact": "none"
