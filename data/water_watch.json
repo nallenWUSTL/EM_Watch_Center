@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "2:40 AM CST 11/12 four-lane run. Nothing new in any lane. No status changes: City Water Sutherland Ave (Sulphur to January) outage still active, est. restoration 9:29 AM (page stamped 2:30 AM); Florissant planned work 144787 still posted. No boil orders in St. Louis City/County (MO DNR data.mo.gov recent records none; City Water boil list empty; stlwater ?p=9725 is the stale Aug Chain of Rocks page). WashU Alert quiet; Medical Campus Facilities lists only non-water work (BJCIH heating-water outage 11/14). Gaps: MAW alerts index and boil page render via JavaScript (dropped-off status unverifiable); MAW ID probe found no new Missouri alerts in sampled 144812-144860 (not all IDs opened); MSD, Kirkwood, BJC/Cortex/Forest Park/MoDOT not opened; social lane low coverage.",
+    "note": "3:40 AM CST 11/12 four-lane run. Nothing new in any lane; no status changes. City Water Sutherland Ave (Sulphur to January) outage still the only active outage, est. restoration 9:29 AM (page stamped 3:30 AM). MAW highest valid ID 144811 (144810/144811 are Pennsylvania); 144858-144867, 144880, 144895 unissued; next run start probing at 144812. Florissant planned 144787 still posted. No boil orders in St. Louis City/County (City Water homepage says no advisory; stlwater ?p=9725 is the stale July Chain of Rocks page). KFVS Heartland list unchanged (page last updated 11/10 4:02 PM). WashU Alert quiet. Gaps: MSD, Kirkwood, MO DNR data.mo.gov and MAW boil page not opened; Clayton news page errored; BJC/Cortex/Forest Park/MoDOT not opened; social coverage thin (no indexed posts in window).",
     "open_count": 116,
-    "run_at": "2026-11-12T08:40:00Z",
-    "top_incident": "No new WashU-affecting incidents. Standing: MAW 144457/144507 University City main breaks (11/9, no street, still posted, likely stale), impact possible (low); MAW 144021/144012 Clayton and 143300 Richmond Heights still posted unchanged (likely stale); Jolley/Cupples II no-water-use order still has no posted lift; Wallace Dr (South 40) water-line exploratory work with lane closures today and 11/13, 6 AM-4 PM, no shutoff announced (reconfirmed by Facilities page)."
+    "run_at": "2026-11-12T09:40:00Z",
+    "top_incident": "No new WashU-affecting incidents. Standing: MAW 144457/144507 University City main breaks (11/9, no street, still posted, likely stale), impact possible (low); MAW 144021/144012 Clayton and 143300 Richmond Heights still posted unchanged (likely stale); Jolley/Cupples II no-water-use order (Oct 29-31 notice) still has no posted lift, confirm with Facilities; Wallace Dr (South 40) water-line exploratory work with lane closures today and 11/13, 6 AM-4 PM, no shutoff announced."
   },
   "incidents": [
     {
