@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "8:40 PM CST 11/11 four-lane run; all lanes NOTHING NEW for St. Louis City/County. No boil orders in St. Louis City/County (MO DNR newest 11/5 Park Hills; stlwater boil page none). City outage page still stale (stamped 12:30 AM 11/11); N 2nd St Talcott-Adelaide outage still listed (tracked N 2nd/Withers job). MAW alert detail pages 144669, 144671-144720 returned only a generic welcome page (gap); MAW alerts landing page empty. Lane 3: Med Campus 11/14 notices are BJCIH basement heating water and North Building electric, no domestic water. Lane 2: KFVS list (seen stamped 11/10 4:02 PM, older than prior run's 11/11 copy) still shows Carterville/Murphysboro/Pope County; no records changed on that basis. Granite City IL Iowa St sinkhole (IAW contractor, 11/9) and undated Nameoki Rd break not adopted. Rejected old: Jan 2026 Linden/Pershing U City break, June 2026 MAW 126114 U City boil advisory. Gaps: MSD, BJC, Cortex/Loop, MoDOT, Clayton notices not reached; social platforms poorly indexed.",
-    "open_count": 103,
-    "run_at": "2026-11-12T02:40:00Z",
-    "top_incident": "No new WashU-affecting incidents. Standing: MAW 144457/144507 University City main breaks (11/9, no street, no boil advisory), impact possible (low); MAW 144021 Clayton and 143300 Richmond Heights still tracked (likely stale); Jolley/Cupples II no-water-use order (scheduled end 10/31 4 PM) still has no posted lift; Wallace Dr (South 40) water-line exploratory work with lane closures Thu-Fri 11/12-13, 6 AM-4 PM, no shutoff announced."
+    "note": "9:50 PM CST 11/11 four-lane run. Lane 1 ID probe found 5 new MAW alerts, none Ring 1, no boil advisories: Shrewsbury 144735, unplaced St. Louis County 144730, Manchester 144770 (Ring 2); Jefferson City investigation 144728, Parkville 144780 (Ring 3). Newest MAW IDs ~144810-144820. No boil orders in St. Louis City/County (MO DNR newest Nov entry St. Francois Co 11/5; City advisories none). City outage page still stale (12:30 AM 11/11): N 2nd St Talcott-Adelaide outage still listed; Midtown Delmar/T.E. Huntley outages absent. Lane 3: no WashU Alert; Facilities 11/12-13 notices are elevator/fire alarm/exhaust fan, no water; Jolley/Cupples II lift still not posted; Wallace Dr unchanged. Lanes 2 and 4 NOTHING NEW; rejected undated KSDK boil-advisory stories and Mar 2026 Maryland Heights advisory. Gaps: KSDK, KFVS, Kirkwood, MSD, Clayton/Richmond Heights municipal pages not reached; social platforms poorly indexed.",
+    "open_count": 108,
+    "run_at": "2026-11-12T03:50:00Z",
+    "top_incident": "No new WashU-affecting incidents. Standing: MAW 144457/144507 University City main breaks (11/9, no street, no boil advisory), impact possible (low); MAW 144021 Clayton and 143300 Richmond Heights still tracked (likely stale); Jolley/Cupples II no-water-use order still has no posted lift; Wallace Dr (South 40) water-line exploratory work with lane closures Thu-Fri 11/12-13, 6 AM-4 PM, no shutoff announced."
   },
   "incidents": [
     {
@@ -1064,6 +1064,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 9:50 PM CT 11/11 (Lane 1 only, ID probe): MAW alert 144728, investigation of a possible service issue; no times or street; no boil advisory. Separate from tracked 144638/144640. ~120 mi W; separate system; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-12T03:50:00Z",
+      "id": "maw-jeffersoncity-investigation-20261111",
+      "last_updated": "2026-11-12T03:50:00Z",
+      "location": "Jefferson City, MO (Cole County; street not published by utility)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144728"
+      ],
+      "status": "open",
+      "title": "Missouri American Water service investigation, Jefferson City (alert 144728)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 5:40 PM CT 11/10 (Lane 1 only, ID probe): MAW alerts 144638 and 144640 (apparent duplicates), main-break emergency repairs 11/10, completion expected ~11:30 PM; no street; no boil advisory stated. ~120 mi W of St. Louis; separate system; no WashU asset. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-10T23:40:00Z",
@@ -1171,6 +1189,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Manchester — emergency repairs (alerts 144160, 144171)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 9:50 PM CT 11/11 (Lane 1 only, ID probe): MAW alert 144770, main-break emergency repairs began 12:00 PM 11/11, ~8 hr estimate (~8 PM); no street; no boil advisory. Separate ID from tracked investigation 144639 (new break or follow-on, not confirmed). ~12 mi W of Danforth, West and South Campus; Tyson on well water; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-12T03:50:00Z",
+      "id": "maw-manchester-unlocated-20261111",
+      "last_updated": "2026-11-12T03:50:00Z",
+      "location": "Manchester, MO (west St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144770"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Manchester — emergency repairs (alert 144770)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -1439,6 +1475,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 9:50 PM CT 11/11 (Lane 1 only, ID probe): alert 144780, main-break emergency repairs began 1:30 PM 11/11, ~6-8 hr estimate; no boil advisory. ~240 mi W; separate system; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-12T03:50:00Z",
+      "id": "maw-parkville-unlocated-20261111",
+      "last_updated": "2026-11-12T03:50:00Z",
+      "location": "Parkville, MO (Platte County, Kansas City area; street not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144780"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Parkville — emergency repairs (alert 144780)",
+      "utility": "Missouri American Water (probable; Missouri marker not checked)",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 10:40 AM CT 11/10 (Lane 1 only, ID probe): MAW 144571, main break, repairs began 8:15 AM 11/10, ~6 hr estimate (~2:15 PM); no street; no boil advisory. Same area as Wellston planned work 144448 and Northwoods 144404 (cluster north of the Loop). ~2.5-3 mi N of North Campus and Delmar Loop properties (estimate); different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. Escalate if a street toward Delmar is published. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-10T16:40:00Z",
@@ -1528,6 +1582,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Shrewsbury — emergency repairs (alert 143953)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 9:50 PM CT 11/11 (Lane 1 only, ID probe): MAW alert 144735, main-break emergency repairs began 8:00 AM 11/11, ~8 hr estimate (~4 PM); no street, no completion text; no boil advisory (MO DNR none in St. Louis City/County). May be the follow-on to tracked investigation 144652, not confirmed. ~3-4 mi S of South Campus (estimate); pressure zone unknown; no WashU asset; no Ring 1 corridor. Impact none. Escalate if a street near Big Bend/Clayton Rd or a boil advisory is published. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-12T03:50:00Z",
+      "id": "maw-shrewsbury-unlocated-20261111",
+      "last_updated": "2026-11-12T03:50:00Z",
+      "location": "Shrewsbury, MO (south-central St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144735"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Shrewsbury — emergency repairs (alert 144735)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -1961,6 +2033,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, St. Louis County (unplaced) — emergency repairs (alert 144631)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 9:50 PM CT 11/11 (Lane 1 only, ID probe): MAW alert 144730, main-break emergency repairs began 8:00 AM 11/11, ~8 hr estimate; no municipality or street; no boil advisory. Nothing ties it to Clayton, University City or Richmond Heights; no WashU Alert or Facilities water notice (Lane 3). Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-12T03:50:00Z",
+      "id": "maw-stlouiscounty-unlocated-20261111",
+      "last_updated": "2026-11-12T03:50:00Z",
+      "location": "St. Louis County, MO (municipality and street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144730"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, 'Saint Louis County' (municipality unspecified) — emergency repairs (alert 144730)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
