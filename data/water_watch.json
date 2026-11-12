@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "1:40 PM CST 11/12 four-lane run. New: City Water hydrant repair Halliday Ave & S Compton Ave (Ring 2, impact none). Updated: Murphysboro IL Tina Dr boil order back on KFVS list as active (Ring 3). City page 1:30 PM: Dale Ave/Central Ave outages still active, est. restore ~10:35 PM; N Grand, Sutherland, Withers/N 2nd, Union, Eichelberger, Morganford WOs still listed; no boil advisories. MAW probed to 144908 (highest live 144899; 144897-144899 out of region): nothing new in Missouri. MO DNR: none in St. Louis City/County. WashU Alert: none; Facilities newest post 11/10. Gaps: social platforms showed nothing datable to 11/11-12; MSD, Kirkwood and individual municipal pages for Clayton/Eureka/Richmond Heights/Brentwood/Maplewood/Ladue not opened.",
-    "open_count": 123,
-    "run_at": "2026-11-12T19:40:00Z",
-    "top_incident": "No new WashU-affecting incidents. Standing: Jolley/Cupples II no-water-use order has no posted lift (Lane 3: notice appears lapsed on schedule 10/31; confirm with Utility Operations); Wallace Dr (South 40) water-line exploratory work in progress 11/12-13, 6 AM-4 PM, SB lane Forsyth-Shepley and NB left turn onto Forsyth closed, no shutoff; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 static pages, likely stale, impact possible (low)."
+    "note": "2:40 PM CST 11/12 four-lane run. New (Ring 3, impact none): IAW Lincoln IL planned tie-over 11/13 with boil order on restoration (144902); MAW Joplin planned work 11/13 (144903). MAW/IAW probed to 144910 (highest live 144903; 144900-144901 Indiana). City outages page 2:30 PM: Dale Ave/Central Ave outages still active, est. restore ~10:32-10:35 PM; Halliday & Compton still listed; Jamieson/Arsenal and Delmar (T.E. Huntley-Compton) no longer in recent work orders (completion not confirmed, left in monitoring); no boil advisories. Ballwin 144880 unchanged (~5:30 PM est.); East St. Louis 144868 boil order begins on restoration ~5 PM. KFVS list: Pope County Mt. Shelter lift and Carterville lift already recorded. WashU Alert none; Facilities newest posts 11/10 (Med Campus: BJC IHS heating water off 11/14, not potable). Gaps: MAW alerts index and boil page did not load; MSD, Kirkwood, MO DNR not reached; social platforms not directly searchable; one lane saw a cached City page stamped 1:30 AM (superseded by the 2:30 PM copy).",
+    "open_count": 125,
+    "run_at": "2026-11-12T20:40:00Z",
+    "top_incident": "No new WashU-affecting incidents. Standing: Wallace Dr (South 40) water-line exploratory work 11/12-13, 6 AM-4 PM, lane closures at Forsyth, no shutoff (Facilities, unchanged); Jolley/Cupples II no-water-use order lapsed on its own terms 10/31, no lift posted; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 static pages, likely stale, impact possible (low)."
   },
   "incidents": [
     {
@@ -226,6 +226,24 @@
       ],
       "status": "resolved",
       "title": "Illinois American Water main break with boil order on restoration, Granite City, IL (alert 144227)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 2:40 PM CT 11/12 (Lane 1 only, ID probe): IAW alert 144902, planned tie-over Fri 11/13 7:00 AM to ~12:00 PM; boil order applies after restoration. Planned work. ~150 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-12T20:40:00Z",
+      "id": "ilaw-lincoln-planned-20261113",
+      "last_updated": "2026-11-12T20:40:00Z",
+      "location": "Lincoln, IL (Logan County; streets not published by utility)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144902"
+      ],
+      "status": "open",
+      "title": "Illinois American Water planned tie-over with boil order on restoration, Lincoln, IL, Nov 13 (alert 144902)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
     },
@@ -1260,6 +1278,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Jefferson City — emergency repairs (alerts 144638, 144640)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 2:40 PM CT 11/12 (Lane 1 only, ID probe): MAW alert 144903, planned work Fri 11/13 9:00 AM to ~2:00 PM; no boil advisory. Planned, not a failure. ~250 mi SW; separate system; no WashU asset. Impact none. Resolve after the window if dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-12T20:40:00Z",
+      "id": "maw-joplin-planned-20261113",
+      "last_updated": "2026-11-12T20:40:00Z",
+      "location": "Joplin, MO (Jasper County; streets not published by utility)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144903"
+      ],
+      "status": "open",
+      "title": "Missouri American Water planned water system improvements, Joplin, Nov 13 (alert 144903)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
