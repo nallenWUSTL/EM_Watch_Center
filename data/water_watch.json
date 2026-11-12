@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "5:40 PM CST 11/11 four-lane run. Nothing new; no tracked incident changed. City outages page still the 12:30 AM 11/11 copy: only N 2nd St Talcott-Adelaide outage active (since 2:13 PM 11/10); repair list Withers/N 2nd, Union Blvd valve, Eichelberger/Alaska, Morganford/Humphrey; Delmar/T.E. Huntley and Jamieson/Arsenal absent but unconfirmed, records unchanged. City boil advisories none; City Water news newest Aug 25. MO DNR (data.mo.gov) nothing issued or lifted 11/10-11 in St. Louis City/County/St. Charles/Jefferson/Franklin. KFVS list unchanged since 4:02 PM 11/10. WashU Alert none; Facilities: Jolley/Cupples no new notice, Wallace Dr unchanged; Med Campus 11/14 heating water and North Building power interruption 6-10 AM (not potable water). Metro Kingshighway BJH Plaza detours through 11/30; Blue Line cut back to Forest Park-DeBaliviere through 12/23. Rejected undated/old: AOL Bridgeton/Maryland Heights/Earth City MAW boil advisory ('Sunday', no date), KSDK north county boil advisory archive, Yahoo Jan 28 2026 freeze breaks, Patch 2010 Richmond Heights, emergency.washu.edu 2017 Taylor. Gaps: MAW alert pages script-loaded (IDs 144654-144660 returned empty frames; 144654+ unverified), MAW index empty to fetch; MSD, Kirkwood, ILAW, municipal pages, BJC, Cortex/Loop, MoDOT not opened; social platforms not indexed.",
-    "open_count": 102,
-    "run_at": "2026-11-11T23:40:00Z",
-    "top_incident": "No new WashU-affecting incidents. Standing: MAW 144457/144507 University City main breaks (11/9, no street, no boil advisory), impact possible (low); MAW 144021 Clayton standing; Jolley/Cupples II no-water-use order had a scheduled end of 10/31 and still has no posted lift; Wallace Dr (South 40) water-line exploratory work with lane closures Thu-Fri 11/12-13, 6 AM-4 PM, no service interruption announced."
+    "note": "6:40 PM CST 11/11 four-lane run. City outage page live (stamped 6:30 PM 11/11): no active main outages; new work order Sutherland Ave & Sulphur Ave (4 PM 11/11, Ring 2, impact none) added; Jamieson/Arsenal hydrant dropped from list; Delmar/T.E. Huntley still absent (kept monitoring, no completion notice). N 2nd/Withers, Union Blvd, Eichelberger/Alaska, Morganford/Humphrey work orders still listed. Small City hydrant repairs 11/5-11/9 (Gravois, Keokuk, Oleatha, etc.) not tracked, no outages. MAW alerts 144654-144660 returned empty pages; no alert newer than 144653 found. MO DNR none in St. Louis region (newest 11/5 St. Francois Co.). KFVS list unchanged since 4:02 PM 11/10. WashU Alert none; Facilities: Wallace Dr unchanged, Jolley lift not posted; Med Campus 11/14 heating water/power interruptions unchanged. Rejected undated/old: AOL Bridgeton/Maryland Heights/Earth City advisory, Kirkwood 2025, Granite City Nameoki (undated), Sikeston April 2026, Yahoo Jan 2026 breaks. Gaps: MSD, MAW boil page, municipal pages (Clayton, Richmond Heights, etc.), BJC, Cortex/Loop, MoDOT not opened; social platforms not indexed.",
+    "open_count": 103,
+    "run_at": "2026-11-12T00:40:00Z",
+    "top_incident": "No new WashU-affecting incidents. Standing: MAW 144457/144507 University City main breaks (11/9, still Active, no street, no boil advisory), impact possible (low); MAW 144021 Clayton standing; Jolley/Cupples II no-water-use order (scheduled end 10/31) still has no posted lift; Wallace Dr (South 40) water-line exploratory work with lane closures Thu-Fri 11/12-13, 6 AM-4 PM, no service interruption announced."
   },
   "incidents": [
     {
@@ -2661,11 +2661,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 1:40 PM CT 11/11 (Lane 2 only, KMOV/First Alert 4 published 2:15 PM CT 11/10): a minivan drove into a City Water excavation open since ~11/4 for replacing a leaking hydrant that had flooded a nearby business; driver hospitalized, stable. Barriers doubled; hole to stay under steel plates until another utility finishes, then filled and paved. No service outage, boil advisory or road closure reported. Separate from the resolved 3137 Jamieson main repair. ~2.5-3 mi from South Campus and Danforth; no WashU asset; no Ring 1 corridor. Impact none. Resolve when site is restored. Owner: Emergency Management (track only).",
+      "assessment": "Updated 6:40 PM CT 11/11 (Lane 1, live City Water page stamped 6:30 PM 11/11): the Jamieson/Arsenal hydrant item no longer appears on the work-order list; no completion notice, so kept in monitoring. No outage or boil advisory. South City, Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-11T19:40:00Z",
       "id": "stlwater-stlouiscity-jamieson-arsenal-hydrant-20261110",
-      "last_updated": "2026-11-11T19:40:00Z",
+      "last_updated": "2026-11-12T00:40:00Z",
       "location": "Near Jamieson Ave and Arsenal St, St. Louis City (south City; exact address not published)",
       "ring": 2,
       "single_source": true,
@@ -3081,6 +3081,24 @@
       "washu_impact": "none"
     },
     {
+      "affected_assets": [],
+      "assessment": "New 6:40 PM CT 11/11 (Lane 1 only, City Water outage page live, stamped 6:30 PM 11/11): main repair work order dated 4:00 PM 11/11; no status or restoration time; not listed as an active outage; no boil advisory. ~2.5-3 mi E of South Campus (estimate); City system, not the pressure zone serving Clayton-side assets; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when the work order drops. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-12T00:40:00Z",
+      "id": "stlwater-stlouiscity-sutherland-sulphur-20261111",
+      "last_updated": "2026-11-12T00:40:00Z",
+      "location": "Sutherland Ave & Sulphur Ave, St. Louis City (Lindenwood Park / Ellendale area, south of Arsenal)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City Water main repair work order, Sutherland Ave & Sulphur Ave",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
       "affected_assets": [
         "Medical Campus"
       ],
@@ -3105,11 +3123,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 9:40 AM CT 11/11 (Lane 3, City Water outage page stamped 9:30 AM 11/11): the three Midtown outages (Delmar Blvd T.E. Huntley–Compton, T.E. Huntley Ave Locust–Franklin, Sam Shepard Dr) no longer appear, and the page lists no current outages; the earlier estimate was ~9:51 PM tonight. No restoration notice or cause posted, so moved to monitoring, not resolved. Lanes 1 and 4 received a cached 12:30 AM copy of the page and could not confirm either way. No boil advisory (City boil page none). ~2.5 mi E of the Medical Campus, ~1-1.5 mi NE of Cortex; no WashU or Cortex effect seen. Impact none. Resolve once restoration is confirmed or the item stays off the table through the next runs. Owner: Emergency Management (track only).",
+      "assessment": "Updated 6:40 PM CT 11/11 (Lane 1, live City Water outage page stamped 6:30 PM 11/11; Lane 3 consistent): page lists no active water main outages, so the Midtown outages (Delmar Blvd T.E. Huntley–Compton, T.E. Huntley Ave Locust–Franklin, Sam Shepard Dr) remain absent on a fresh copy. No restoration notice or cause posted, so kept in monitoring rather than resolved. No boil advisory. ~2.5 mi E of the Medical Campus, ~1-1.5 mi NE of Cortex; no WashU or Cortex effect seen. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-11T09:40:00Z",
       "id": "stlwater-stlouiscity-tehuntley-delmar-20261111",
-      "last_updated": "2026-11-11T15:40:00Z",
+      "last_updated": "2026-11-12T00:40:00Z",
       "location": "Delmar Blvd between T.E. Huntley Ave and Compton Ave; T.E. Huntley Ave between Locust Blvd and Franklin Ave; Sam Shepard Dr between T.E. Huntley Ave and Beaumont St, St. Louis City (Midtown, near Harris-Stowe / SLU)",
       "ring": 2,
       "single_source": true,
