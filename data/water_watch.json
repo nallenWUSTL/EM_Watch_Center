@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "8:40 AM CST 11/12 four-lane run. Nothing new in any lane; no incident records changed. City Water: Sutherland Ave (Sulphur to January) still the only current outage (page stamped 1:30 AM; est. restoration 9:29 AM; recheck next run). Delmar/T.E. Huntley and Union Blvd still off the board (monitoring; restoration not confirmed). City boil advisories: none. MO DNR: newest 11/5, none in St. Louis City/County. KFVS list last updated 11/10; Carterville, Murphysboro and Millstone still listed. A KFVS 11/8 lift for PWSD #1 Cape Girardeau-Perry (Hwy V to Rt 177, Jackson area) is a different system from the tracked City of Jackson Walton Dr advisory, so that record was not changed. MAW alerts index, detail pages (144835, 144845) and boil page still unreadable without JS; new MAW IDs and drop-offs unverified. WashU Alert: no active alerts; Danforth and Medical Campus Facilities: no domestic-water notices beyond tracked items (Med Campus BJCIH heating-water interruption 11/14 is not domestic water). Gaps: KSDK/FOX 2 pages failed to fetch; Reddit, Nextdoor and X blocked or not indexed; possible U City water tap notice at The LOCAL on Delmar not confirmed.",
-    "open_count": 116,
-    "run_at": "2026-11-12T14:40:00Z",
-    "top_incident": "No new WashU-affecting incidents. Standing: Jolley/Cupples II no-water-use order (scheduled end 10/31 4 PM) still has no posted lift, so confirm with EPO Utility Operations; Wallace Dr (South 40) water-line exploratory work active today and 11/13, 6 AM-4 PM, lane closures, no shutoff announced; MAW University City 144457/144507, Clayton 144021 and Richmond Heights 143300 unverified (likely stale), impact possible (low)."
+    "note": "9:40 AM CST 11/12 four-lane run. New: City Water main repair at 6815 Dale Ave (work order 7:44 AM, not an outage), Ring 2, impact none. Sutherland Ave outage still listed past its 9:29 AM estimate (page stamped 9:30 AM). Resolved per KFVS list: Carterville IL Ridge St and Millstone Mt. Shelter Rd boil orders (both lifted 11/12). Jamieson/Arsenal hydrant job no longer on City list (not changed; unconfirmed). MO DNR: newest 11/5, none in St. Louis City/County. WashU Alert: no active alerts. Undated stlwater.com page ?p=9725 still says a Chain of Rocks precautionary boil advisory is in effect (Hi-Pointe, Shaw, Grand Center, etc.); no date and no matching news item, treated as a stale archived page, not tracked; worth a quick check with City Water. MAW alerts index and detail pages (144845-144855) still unreadable without JS; MAW status unverified. Context: MAW moving Eureka customers to County supply Nov through spring with zone flushing (Tyson on well water). Gaps: social platforms not indexed; FOX 2 'north St. Louis main break' video undated, unopened; MSD and Kirkwood not reached.",
+    "open_count": 115,
+    "run_at": "2026-11-12T15:40:00Z",
+    "top_incident": "No new WashU-affecting incidents. Standing: Jolley/Cupples II no-water-use order still has no posted lift (confirm with EPO Utility Operations); Wallace Dr (South 40) water-line exploratory work proceeding today and 11/13, 6 AM-4 PM, lane closures, no shutoff announced; MAW University City 144457/144507, Clayton 144021 and Richmond Heights 143300 unverified (likely stale), impact possible (low)."
   },
   "incidents": [
     {
@@ -28,18 +28,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 7:40 PM CT 11/11 (Lane 2): Carterville no longer appears on the KFVS Heartland boil list (page updated ~2:30 AM CT 11/11; Illinois section now shows only Devil's Kitchen Water District). Lift not confirmed by the city, so moved to monitoring, not resolved. ~110 mi SE; separate system; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 9:40 AM CT 11/12 (Lane 2): KFVS Heartland boil list (modified 14:49 UTC 11/12) shows the Carterville Ridge St area boil order (Allen Rd, Alta Dr, Sycamore Rd east from 5012) lifted 11/12. ~110 mi SE; separate system; no WashU asset. Impact none. Owner: Emergency Management (closed).",
       "confidence": "Low",
       "first_seen": "2026-11-10T22:40:00Z",
       "id": "carterville-carterville-ridgest-20261110",
-      "last_updated": "2026-11-12T01:40:00Z",
+      "last_updated": "2026-11-12T15:40:00Z",
       "location": "Ridge St, Allen Rd, Alta Dr, Birch Ln, Sycamore Rd east from 5012 and other streets, Carterville, IL (Williamson County)",
       "ring": 3,
       "single_source": true,
       "sources": [
         "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
       ],
-      "status": "monitoring",
+      "status": "resolved",
       "title": "City of Carterville, IL boil order and outage after valve failure, Ridge St main replacement",
       "utility": "City of Carterville, IL",
       "washu_impact": "none"
@@ -2553,18 +2553,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 3:40 PM CT 11/5 (Lane 2 only, KFVS Heartland boil list): second Millstone boil order, dated 11/5, until further notice; separate from tracked 11/4 Bert Rd/Hazel Rd order. ~140 mi SE of St. Louis; separate system; no WashU asset. Impact none. Monitor; resolve when lift reported. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 9:40 AM CT 11/12 (Lane 2): KFVS Heartland boil list (modified 14:49 UTC 11/12) shows the Millstone Mt. Shelter Rd to Murrie Ln / Carr Rd boil order lifted 11/12. Bert Rd/Hazel Rd (11/4) and Clark Rd (11/9) orders remain in effect under their own records. ~140 mi SE; separate system; no WashU asset. Impact none. Owner: Emergency Management (closed).",
       "confidence": "Low",
       "first_seen": "2026-11-05T21:40:00Z",
       "id": "millstone-popecounty-mtshelterrd-20261105",
-      "last_updated": "2026-11-05T21:40:00Z",
+      "last_updated": "2026-11-12T15:40:00Z",
       "location": "3290 Mt. Shelter Rd south to Murrie Ln, plus Carr Rd up to 1300 Carr Rd, Pope County, IL",
       "ring": 3,
       "single_source": true,
       "sources": [
         "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "Millstone Water District boil order, Mt. Shelter Rd to Murrie Ln and Carr Rd (Pope County, IL)",
       "utility": "Millstone Water District",
       "washu_impact": "none"
@@ -2716,6 +2716,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division service outages, Branch St & Blair Ave and Blair Ave & Buchanan St (north City)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 9:40 AM CT 11/12 (Lane 1 only, City Water outages page): main-repair work order opened 7:44 AM 11/12 at 6815 Dale Ave; listed as maintenance/repair only, not a service outage; no restoration time; no boil advisory. ~2 mi SE of Danforth and South Campus (estimate, not measured); City system; no Ring 1 corridor; no WashU asset. Impact none. Resolve when the work order drops. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-12T15:40:00Z",
+      "id": "stlwater-stlouiscity-dale-20261112",
+      "last_updated": "2026-11-12T15:40:00Z",
+      "location": "6815 Dale Ave, St. Louis City 63139 (Ellendale / Clifton Heights area near Hampton Ave; cross street not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division main repair, 6815 Dale Ave",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
@@ -3318,11 +3336,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 1:40 AM CT 11/12 (Lanes 1, 3, 4; City Water outage page stamped 1:30 AM 11/12): active service outage on Sutherland Ave between Sulphur and January since 1:29 AM 11/12, estimated restoration 9:29 AM 11/12; tied to the main-repair work order opened 4:00 PM 11/11. Only outage on the board. No boil advisory. ~2.5-3 mi E of South Campus (estimate); City system, not the zone serving Clayton-side assets; no Ring 1 corridor. Impact none. Resolve when the outage and work order drop. Owner: Emergency Management (track only).",
+      "assessment": "Updated 9:40 AM CT 11/12 (Lanes 1 and 3, City Water outage page stamped 9:30 AM 11/12): Sutherland Ave between Sulphur and January still listed as the only active City outage, now past its 9:29 AM estimated restoration (out since 1:29 AM; main-repair work order opened 4:00 PM 11/11). No new estimate posted. No boil advisory. ~2.5-3 mi E of South Campus (estimate); City system, not the zone serving Clayton-side assets; no Ring 1 corridor. Impact none. Resolve when the outage and work order drop. Owner: Emergency Management (track only).",
       "confidence": "High",
       "first_seen": "2026-11-12T00:40:00Z",
       "id": "stlwater-stlouiscity-sutherland-sulphur-20261111",
-      "last_updated": "2026-11-12T07:40:00Z",
+      "last_updated": "2026-11-12T15:40:00Z",
       "location": "Sutherland Ave between Sulphur Ave and January Ave, St. Louis City (Lindenwood Park / Ellendale area, south of Arsenal)",
       "ring": 2,
       "single_source": false,
