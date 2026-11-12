@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "10:40 AM CST 11/12 four-lane run. New (all impact none): MAW 144857 unplaced St. Louis County main-break investigation (Ring 2); MAW 144867 Saint Charles main break, ~1 PM est. (Ring 3); IAW 144868 East St. Louis IL planned valve work with boil order on restoration (Ring 3). Sutherland Ave outage still listed past its 9:29 AM estimate, but the copy fetched was stamped 1:30 AM and lacked the 7:44 AM Dale Ave work order, so likely a stale cache; restoration unconfirmed, not changed. KFVS: Millstone Bert Rd and Clark Rd and Murphysboro Tina Dr still active. MO DNR: none in St. Louis City/County. City boil-advisory page: none. WashU Alert: no active alerts; no new Facilities water notices since 11/10. Undated stlwater.com ?p=9725 boil banner judged leftover from the Aug 17 advisory, not tracked. Gaps: MAW index needs JS (144850/144855/144856 unreadable); MSD, Kirkwood and MAW boil page not checked; no social posts indexed for 11/11-12.",
-    "open_count": 118,
-    "run_at": "2026-11-12T16:40:00Z",
-    "top_incident": "No new WashU-affecting incidents. Standing: Jolley/Cupples II no-water-use order still has no posted lift (confirm with Utility Operations); Wallace Dr (South 40) water-line exploratory work in progress today and 11/13, 6 AM-4 PM, lane closures, no shutoff posted; MAW University City 144457/144507, Clayton 144021 and Richmond Heights 143300 unverified (likely stale), impact possible (low)."
+    "note": "11:50 AM CST 11/12 four-lane run. New (all impact none): MAW 144881-144883 unplaced St. Louis County main break from 9:30 AM, ~5:30 PM est.; MAW 144880 Ballwin main break; 144893 'Winchester' investigation (state unconfirmed); IAW 144869 Pekin IL boil on restoration. Resolved: West Plains citywide boil order lifted (KY3). Sutherland Ave outage still listed past 9:29 AM estimate; City table stamped 1:30 AM, restoration unconfirmed. Midtown Delmar/T.E. Huntley outages gone from City table (left at monitoring). MO DNR: none in St. Louis City/County. WashU Alert: no active alerts; no new Facilities water notices. KFVS: Millstone Bert Rd and Clark Rd and Murphysboro Tina Dr still active. Gaps: MAW index and boil page need JS; MSD/Kirkwood nothing found; social platforms not indexed for 11/11-12.",
+    "open_count": 121,
+    "run_at": "2026-11-12T17:50:00Z",
+    "top_incident": "No new WashU-affecting incidents. Standing: Jolley/Cupples II no-water-use order has no posted lift (posting window ended 10/31 4 PM; confirm with Utility Operations); Wallace Dr (South 40) water-line exploratory work 11/12-13, 6 AM-4 PM, lane closures, no shutoff; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 static pages, likely stale, impact possible (low)."
   },
   "incidents": [
     {
@@ -268,6 +268,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 11:50 AM CT 11/12 (Lane 1 only): IAW alert 144869, main break from 8:15 AM 11/12, boil order to follow restoration. ~150 mi NNE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-12T17:50:00Z",
+      "id": "ilaw-pekin-unlocated-20261112",
+      "last_updated": "2026-11-12T17:50:00Z",
+      "location": "Pekin, IL (Tazewell County; street not published in Lane report)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144869"
+      ],
+      "status": "open",
+      "title": "Illinois American Water main break with boil order on restoration, Pekin, IL (alert 144869)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Updated 2:45 PM CT 11/10 (Lane 1): new IAW alert 144621 posts a Peoria boil order lift (no date or street on page); it cannot be tied to a specific tracked Peoria alert, so no Peoria record is resolved yet. Earlier: 144609 main break with boil order on restoration (from 11:45 AM 11/10, ~12 hr), plus six 11/10 boil-order alerts incl. 144527 valve replacement. ~150 mi NNE; separate system; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-10T12:40:00Z",
@@ -479,6 +497,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Ballwin — emergency repairs (alerts 144491, 144486)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 11:50 AM CT 11/12 (Lane 1 only): MAW alert 144880, main break from 9:30 AM 11/12, ~8 hr estimate (~5:30 PM); no street; no boil advisory. ~13-15 mi W of Danforth; Tyson on well water; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-12T17:50:00Z",
+      "id": "maw-ballwin-unlocated-20261112",
+      "last_updated": "2026-11-12T17:50:00Z",
+      "location": "Ballwin, MO (west St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144880"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Ballwin — emergency repairs (alert 144880)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -2238,6 +2274,26 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 11:50 AM CT 11/12 (Lane 1 only, ID probe): three identical MAW alerts, main break from 9:30 AM 11/12, ~8 hr estimate (~5:30 PM); no street or municipality; no boil advisory (MO DNR none in St. Louis City/County). Separate from tracked investigation 144857 by ID. Not placed; no evidence it is in Clayton, University City, Richmond Heights or on a Ring 1 corridor. No news, social or WashU corroboration (Lanes 2-4). Impact none pending location. Escalate if streets near Forsyth, Big Bend, Clayton Rd, Skinker or Delmar are published. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-12T17:50:00Z",
+      "id": "maw-stlouiscounty-unlocated-20261112",
+      "last_updated": "2026-11-12T17:50:00Z",
+      "location": "St. Louis County, MO (municipality and street not published; area only on MAW JS map)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144881",
+        "https://alertsdetail.awapps.com/alert/144882",
+        "https://alertsdetail.awapps.com/alert/144883"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, St. Louis County (unplaced) — emergency repairs (alerts 144881, 144882, 144883)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 11:40 AM CT 11/4 (Lane 1 only): MAW alert 143982, main-break repairs began 10:30 AM CT 11/4, ~6 hr estimate (~4:30 PM); no street; no boil advisory. ~9-11 mi W of West Campus and Danforth (estimate); different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Monitor; resolve when dropped from MAW index. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-04T17:40:00Z",
@@ -2567,6 +2623,24 @@
       "status": "open",
       "title": "Missouri American Water main break, Wildwood — emergency repairs (alert 143345)",
       "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 11:50 AM CT 11/12 (Lane 1 only): alert 144893, main-break investigation, possible low or no pressure; state not named, may not be Missouri. If Winchester MO, ~13 mi W of Danforth; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-12T17:50:00Z",
+      "id": "maw-winchester-investigation-20261112",
+      "last_updated": "2026-11-12T17:50:00Z",
+      "location": "Winchester (possibly Winchester, MO, west St. Louis County; state and street not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144893"
+      ],
+      "status": "open",
+      "title": "American Water main-break investigation, 'Winchester' (state unconfirmed) — possible low/no pressure (alert 144893)",
+      "utility": "Missouri American Water (unconfirmed; state not named on alert)",
       "washu_impact": "none"
     },
     {
@@ -3629,20 +3703,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 6:45 PM CT 11/10 (Lane 2): West Plains no longer appears on the KFVS Heartland boil list (page updated ~4:02 PM CT 11/10; Missouri section shows only Cape Girardeau County). No lift notice from the city or MO DNR found, so moved to monitoring, not resolved. Earlier: DNR boil water order from 9 PM 11/8 after a polymer feed failure; sampling through 11/10. ~170 mi SSW of Tyson; separate system; no WashU asset. Impact none. Resolve once a lift is confirmed. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 11:50 AM CT 11/12 (Lane 2): KY3 reported at 4:45 AM 11/12 that the West Plains citywide boil order was lifted after samples met MO DNR requirements. ~170 mi SSW of Tyson; separate system; no WashU asset. Impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-08T22:40:00Z",
       "id": "westplains-westplains-citywide-20261108",
-      "last_updated": "2026-11-11T00:45:00Z",
+      "last_updated": "2026-11-12T17:50:00Z",
       "location": "Entire West Plains water system, West Plains, MO (Howell County)",
       "ring": 3,
       "single_source": true,
       "sources": [
         "https://westplains.gov/citywide-boil-water-order/",
-        "https://www.ky3.com/2026/11/08/west-plains-mo-under-citywide-boil-water-advisory/",
-        "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
+        "https://www.ky3.com/2026/11/12/west-plains-boil-order-lifted/"
       ],
-      "status": "monitoring",
+      "status": "resolved",
       "title": "City of West Plains citywide boil water order (upgraded from advisory) — treatment plant polymer feed failure",
       "utility": "City of West Plains (West Plains Utilities)",
       "washu_impact": "none"
