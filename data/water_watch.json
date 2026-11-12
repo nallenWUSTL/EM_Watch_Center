@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "12:40 PM CST 11/12 four-lane run. New: City Water main repair N Grand Ave & Palm Pl (Ring 2, impact none). Updated: 6815 Dale Ave now has two active outages (Central Ave Dale-Nashville, Dale Ave Central-McCausland) until ~10:30 PM; Sutherland Ave outage cleared from active list (repair WO still listed). City board shows no boil advisories. MAW alerts probed to 144902 (highest live 144896): nothing new in Missouri. MO DNR: none in St. Louis City/County. WashU Alert: none; no new Facilities water notices. Ring 3 lifts (already tracked or untracked): West Plains, Carterville, Millstone Mt. Shelter, Fairfield IL. Gaps: MAW index needs JS; social platforms not indexed for 11/11-12; municipal pages for Clayton/Eureka/Richmond Heights/Brentwood/Maplewood/Ladue not individually opened.",
-    "open_count": 122,
-    "run_at": "2026-11-12T18:40:00Z",
-    "top_incident": "No new WashU-affecting incidents. Standing: Jolley/Cupples II no-water-use order still has no posted lift (confirm with Utility Operations); Wallace Dr (South 40) water-line exploratory work 11/12-13, 6 AM-4 PM, lane closures, no shutoff; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 static pages, likely stale, impact possible (low)."
+    "note": "1:40 PM CST 11/12 four-lane run. New: City Water hydrant repair Halliday Ave & S Compton Ave (Ring 2, impact none). Updated: Murphysboro IL Tina Dr boil order back on KFVS list as active (Ring 3). City page 1:30 PM: Dale Ave/Central Ave outages still active, est. restore ~10:35 PM; N Grand, Sutherland, Withers/N 2nd, Union, Eichelberger, Morganford WOs still listed; no boil advisories. MAW probed to 144908 (highest live 144899; 144897-144899 out of region): nothing new in Missouri. MO DNR: none in St. Louis City/County. WashU Alert: none; Facilities newest post 11/10. Gaps: social platforms showed nothing datable to 11/11-12; MSD, Kirkwood and individual municipal pages for Clayton/Eureka/Richmond Heights/Brentwood/Maplewood/Ladue not opened.",
+    "open_count": 123,
+    "run_at": "2026-11-12T19:40:00Z",
+    "top_incident": "No new WashU-affecting incidents. Standing: Jolley/Cupples II no-water-use order has no posted lift (Lane 3: notice appears lapsed on schedule 10/31; confirm with Utility Operations); Wallace Dr (South 40) water-line exploratory work in progress 11/12-13, 6 AM-4 PM, SB lane Forsyth-Shepley and NB left turn onto Forsyth closed, no shutoff; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 static pages, likely stale, impact possible (low)."
   },
   "incidents": [
     {
@@ -2699,18 +2699,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 7:40 PM CT 11/11 (Lane 2): Murphysboro no longer appears on the KFVS Heartland boil list (page updated ~2:30 AM CT 11/11). Lift not confirmed by the city, so moved to monitoring, not resolved. ~90 mi SE; separate system; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 1:40 PM CT 11/12 (Lane 2): KFVS Heartland boil list (modified ~8:49 AM CT 11/12) again shows the Murphysboro Tina Dr boil order (issued Tue 11/10, all of Tina Dr) as active until further notice, so returned from monitoring to open. ~90 mi SE; separate system; no WashU asset. Impact none. Resolve when the lift is reported. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-10T22:40:00Z",
       "id": "murphysboro-murphysboro-tinadr-20261110",
-      "last_updated": "2026-11-12T01:40:00Z",
+      "last_updated": "2026-11-12T19:40:00Z",
       "location": "All of Tina Dr, Murphysboro, IL (Jackson County)",
       "ring": 3,
       "single_source": true,
       "sources": [
         "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
       ],
-      "status": "monitoring",
+      "status": "open",
       "title": "City of Murphysboro, IL boil order, all of Tina Dr",
       "utility": "City of Murphysboro, IL",
       "washu_impact": "none"
@@ -2978,6 +2978,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division service outage, Forest Park Ave & Union Dr (Forest Park, Union to Jewel Box)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 1:40 PM CT 11/12 (Lanes 1 and 4, same City outages page stamped 1:30 PM): hydrant-repair work order opened 1:03 PM 11/12; not a main break; no service outage, restoration time or boil advisory listed. ~2.5-3 mi SE of the Medical Campus (estimate); City system; not on a Ring 1 corridor or Medical Campus route; no WashU asset. Impact none. Resolve when the work order drops. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-12T19:40:00Z",
+      "id": "stlwater-stlouiscity-halliday-compton-20261112",
+      "last_updated": "2026-11-12T19:40:00Z",
+      "location": "Halliday Ave at S Compton Ave, St. Louis City (south City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division fire hydrant repair, Halliday Ave & S Compton Ave (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
