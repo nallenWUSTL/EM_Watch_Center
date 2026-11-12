@@ -1,0 +1,198 @@
+{
+  "bluf": "Posture Normal. Top concern is cyber: BYOD ransomware hit Vanderbilt Nov 9 and targets R1 universities with medical centers; Node2Shell RCE is on CISA KEV, so IT should confirm patching today. First hard freeze Fri night (low 20s) lands on a stacked Fri-Sat athletics weekend; protect exposed water lines. UIUC swatting hoax Nov 11 raises copycat risk. No Ring 1 violence, health advisory, outage or policy change in 24 h.",
+  "briefing_url": "https://claude.ai/artifact/9TTV5p1JDzyP2nxhVEUdD5",
+  "date": "2026-11-12",
+  "dissents": [
+    {
+      "note": "Elements verified; no WashU-specific indicator, kept at Sev 3; item 1 action covers it.",
+      "title": "Red Team: exploit-driven downtime at WashU Medicine/BJC (Sev 4-5)",
+      "verdict": "carried"
+    },
+    {
+      "note": "No Red Flag; cold air limits spread. No open burning, confirm check-in; recheck before Tue-Wed warm-up.",
+      "title": "Red Team: Tyson fire risk underrated",
+      "verdict": "carried"
+    },
+    {
+      "note": "Converges with Weather lane; ranked Today.",
+      "title": "Red Team: hard freeze underrated",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Outside horizon, no WashU link; context only.",
+      "title": "Red Team: Nov 1 CWE shooting overrated",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Only month-old national data; Monitor.",
+      "title": "Red Team: respiratory surge overrated",
+      "verdict": "adopted"
+    }
+  ],
+  "lanes_quiet": [
+    2,
+    6
+  ],
+  "lookahead": [
+    {
+      "date": "2026-11-12",
+      "dow": "Thu",
+      "loads": "Classes; FEMA PA webinar 1:30 PM; Pageant; SLIFF and Flyover festivals",
+      "stacked": false,
+      "wx": "Cloudy, ~50F, isolated drizzle IL, NW gusts 20-25"
+    },
+    {
+      "date": "2026-11-13",
+      "dow": "Fri",
+      "loads": "Classes; registration closes; NCAA W soccer 1 PM; M basketball 7 PM; Stifel and Pageant shows",
+      "stacked": true,
+      "wx": "Mid-40s; hard freeze overnight, low 20s"
+    },
+    {
+      "date": "2026-11-14",
+      "dow": "Sat",
+      "loads": "Football Senior Day 1 PM; Blues vs Florida 6 PM; Delmar Hall; MetroLink single-tracking",
+      "stacked": true,
+      "wx": "Freeze to ~9 AM; dry, upper 40s"
+    },
+    {
+      "date": "2026-11-15",
+      "dow": "Sun",
+      "loads": "Possible NCAA soccer 2nd round (unconfirmed); Loop shows; festivals close",
+      "stacked": false,
+      "wx": "Dry, ~50F"
+    },
+    {
+      "date": "2026-11-16",
+      "dow": "Mon",
+      "loads": "Journey at Enterprise Center; Pageant and Loop shows",
+      "stacked": false,
+      "wx": "Dry, mid-50s"
+    },
+    {
+      "date": "2026-11-17",
+      "dow": "Tue",
+      "loads": "Blues vs Anaheim 7 PM; national EAS test ~1:20 PM per FEMA",
+      "stacked": false,
+      "wx": "Dry, near average"
+    },
+    {
+      "date": "2026-11-18",
+      "dow": "Wed",
+      "loads": "SLMPD range noise study begins (location unconfirmed); Tyson fire-weather check",
+      "stacked": false,
+      "wx": "Dry, above average, southerly wind"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "watch",
+      "summary": "No NWS products in effect. Hard freeze Fri night. Dry through Nov 18. No quakes, AQI Good, river low. Drought 52.9% of County; Tyson fire watch."
+    },
+    {
+      "name": "Life safety",
+      "pir": 2,
+      "status": "watch",
+      "summary": "No Ring 1 violence, threats or large demonstrations. UIUC swatting copycat risk. Predatory flyers on Danforth (single source)."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "watch",
+      "summary": "Gateway Regional (Granite City) on ambulance bypass; transfers possible. Measles circulating in Missouri, no St. Louis exposure. Flu early nationally."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "active",
+      "summary": "BYOD ransomware vs peers; Node2Shell and Nov 9 KEV additions (Aspera, GPUStack). Blue Line truncated, airport stations closed, Kingshighway closed Page-Minerva to Nov 30. No utility outages."
+    },
+    {
+      "name": "Scheduled activity",
+      "pir": 5,
+      "status": "watch",
+      "summary": "Fri-Sat athletics stack; Blues home Sat and Tue. No Ring 1 event over 5,000 or notable speaker. Registration closes Fri."
+    },
+    {
+      "name": "Policy, legal, funding",
+      "pir": 6,
+      "status": "quiet",
+      "summary": "No change in 24 h. CR expires Dec 11. FEMA FMA closes Feb 26, 2027. No State Dept Level 3/4 change."
+    }
+  ],
+  "posture": "Normal",
+  "published_at": "2026-11-12T11:59:27Z",
+  "run_note": "All 7 lanes reported; charter read (rev 10). Sev 4-5 Red Team scenario re-verified (KEV Oct 27, Vanderbilt Nov 9; UNM diversion secondhand only). Run 05:53-05:59 CT.",
+  "title": "WashU EM Daily Intelligence Briefing, November 12, 2026",
+  "today_items": [
+    {
+      "action": "Confirm Node2Shell patching on internet-facing systems, check BYOD indicators via REN-ISAC/Health-ISAC, confirm offline/downtime playbooks; coordinate with BJC IS.",
+      "confidence": "Medium-High",
+      "likelihood": "Low-Medium",
+      "owner": "EM with WashU IT/CISO; Medical Campus Security",
+      "pir": 4,
+      "rank": 1,
+      "severity": 3,
+      "source": "https://therecord.media/vanderbilt-cyberattack-ransomware-alert",
+      "title": "BYOD ransomware campaign vs R1 universities / academic medical centers; Node2Shell (CVE-2026-111497) on KEV",
+      "ttd": "Today"
+    },
+    {
+      "action": "Winterize exposed water lines, irrigation and temporary construction water at 6200 Forsyth and Tyson before Fri afternoon; check unconditioned spaces.",
+      "confidence": "Medium",
+      "likelihood": "High",
+      "owner": "Facilities; EM",
+      "pir": 1,
+      "rank": 2,
+      "severity": 2,
+      "source": "https://forecast.weather.gov/product.php?site=LSX&issuedby=LSX&product=AFD",
+      "title": "First hard freeze Fri night into Sat ~9 AM (low 20s, upper teens sheltered)",
+      "ttd": "Today"
+    },
+    {
+      "action": "Brief WUPD dispatch on hoax indicators; pre-stage 'being verified' and all-clear templates.",
+      "confidence": "Medium",
+      "likelihood": "Low-Medium",
+      "owner": "WUPD; Communications; EM",
+      "pir": 2,
+      "rank": 3,
+      "severity": 3,
+      "source": "https://dailyillini.com/news-stories/champaign-urbana/crime/2026/11/11/false-bomb-threat-foellinger/",
+      "title": "Swatting / false-threat copycat risk after UIUC hoax Nov 11",
+      "ttd": "Today"
+    },
+    {
+      "action": "Confirm crowd, parking and medical staffing; cold-exposure messaging; confirm whether NCAA second round is hosted Sun.",
+      "confidence": "Medium",
+      "likelihood": "High",
+      "owner": "Athletics; WUPD; Facilities",
+      "pir": 5,
+      "rank": 4,
+      "severity": 2,
+      "source": "https://washubears.com/sports/football/schedule",
+      "title": "Stacked athletics on Francis Olympic Field: NCAA W soccer Fri 1 PM, M basketball Fri 7 PM, football Senior Day Sat 1 PM",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "BYOD ransomware vs R1 universities/AMCs (Vanderbilt down since Nov 9) plus Node2Shell KEV: WashU IT/CISO confirm patch status and BYOD indicator coverage today.",
+  "unreachable": [
+    "NWS alerts API (blocked)",
+    "SPC Day 1-2 (stale cache)",
+    "AirNow",
+    "Tyson fire-weather forecast",
+    "Drought Monitor category",
+    "Clayton/U City/County PD releases",
+    "WashU Alert archive",
+    "MO flu and CDC/County wastewater dashboards",
+    "REN-ISAC/Health-ISAC",
+    "Ameren/Spire live outage maps",
+    "Water Division boil pages",
+    "MoDOT I-64 work zones",
+    "washubears composite calendar",
+    "NCAA bracket",
+    "city permits",
+    "travel.state.gov (not opened directly)"
+  ]
+}
