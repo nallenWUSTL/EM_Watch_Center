@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "2:40 PM CST 11/12 four-lane run. New (Ring 3, impact none): IAW Lincoln IL planned tie-over 11/13 with boil order on restoration (144902); MAW Joplin planned work 11/13 (144903). MAW/IAW probed to 144910 (highest live 144903; 144900-144901 Indiana). City outages page 2:30 PM: Dale Ave/Central Ave outages still active, est. restore ~10:32-10:35 PM; Halliday & Compton still listed; Jamieson/Arsenal and Delmar (T.E. Huntley-Compton) no longer in recent work orders (completion not confirmed, left in monitoring); no boil advisories. Ballwin 144880 unchanged (~5:30 PM est.); East St. Louis 144868 boil order begins on restoration ~5 PM. KFVS list: Pope County Mt. Shelter lift and Carterville lift already recorded. WashU Alert none; Facilities newest posts 11/10 (Med Campus: BJC IHS heating water off 11/14, not potable). Gaps: MAW alerts index and boil page did not load; MSD, Kirkwood, MO DNR not reached; social platforms not directly searchable; one lane saw a cached City page stamped 1:30 AM (superseded by the 2:30 PM copy).",
-    "open_count": 125,
-    "run_at": "2026-11-12T20:40:00Z",
-    "top_incident": "No new WashU-affecting incidents. Standing: Wallace Dr (South 40) water-line exploratory work 11/12-13, 6 AM-4 PM, lane closures at Forsyth, no shutoff (Facilities, unchanged); Jolley/Cupples II no-water-use order lapsed on its own terms 10/31, no lift posted; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 static pages, likely stale, impact possible (low)."
+    "note": "3:40 PM CST 11/12 four-lane run. New (Ring 3, impact none): MAW Jefferson City investigation 144907. MAW/IAW probed to ~144920 (highest live 144910; 144904-144910 other than 144907 out of region). City outages page 3:30 PM: Dale Ave/Central Ave outages unchanged, est. restore ~10:32-10:35 PM; Halliday & Compton, N Grand & Palm, Sutherland, Withers & N 2nd, Union Blvd, Eichelberger & Alaska still listed; Morganford & Humphrey also no longer listed (with Jamieson/Arsenal and Delmar; completion not confirmed, left in monitoring); no City boil advisories. Ballwin 144880 still posted (~5:30 PM est.); Wellston cut-and-cap 144633 on for 5:30-9 PM tonight (N of Delmar Loop, impact none); East St. Louis 144868 boil order on restoration, no lift. MAW boil page none; MO DNR none in St. Louis City/County. WashU Alert none (cyber banner only); Facilities no new water notices; Med Campus North Building power cutover 11/14 6-10 AM (not water). KFVS: Carterville and Pope County Mt. Shelter lifts already recorded. Gaps: MAW alerts index (JS), MSD, Kirkwood, City news releases, KSDK article pages, Cortex/Loop/Forest Park/MoDOT feeds not reached; no dated social posts found.",
+    "open_count": 126,
+    "run_at": "2026-11-12T21:40:00Z",
+    "top_incident": "No new WashU-affecting incidents. Standing: Wallace Dr (South 40) water-line exploratory work 11/12-13, 6 AM-4 PM, lane closures at Forsyth, no shutoff (Facilities, unchanged, no completion notice); Jolley/Cupples II no-water-use order lapsed by date 10/31, no lift posted; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 static pages, likely stale, impact possible (low)."
   },
   "incidents": [
     {
@@ -1241,6 +1241,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water service investigation, Jefferson City (alert 144728)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 3:40 PM CT 11/12 (Lane 1 only, ID probe): MAW alert 144907, investigation of a possible service issue; no streets, start or restoration time; no boil advisory. May be a new ID for tracked Jefferson City events (144728, 144801), not confirmed. ~120 mi W; separate system; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-12T21:40:00Z",
+      "id": "maw-jeffersoncity-investigation-20261112",
+      "last_updated": "2026-11-12T21:40:00Z",
+      "location": "Jefferson City, MO (Cole County; street not published by utility)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144907"
+      ],
+      "status": "open",
+      "title": "Missouri American Water service investigation, Jefferson City (alert 144907)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
