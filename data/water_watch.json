@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "11:40 AM CST 11/13 four-lane run. City outages.php now refreshed (11:30 AM stamp): 3 new Ring 2 outages, Cabanne outage cleared, Halliday & Compton hydrant work order cleared (resolved), Halliday & Michigan still overdue. Not logged: KSDK story on 36-inch break at Penrose St & Blair Ave (north City) — article undated, not on City outage board; verify date. MAW IDs 145028-145037: none in MO/IL. MO DNR: newest 11/5, none in STL City/County. KFVS: Murphysboro Enterprise Ave reissued 11/13, Tina Dr still active. WashU Alert/Facilities: no new water notice. Gaps: MSD not checked; social sources undatable.",
+    "note": "12:45 PM CST 11/13 four-lane run. Lane 1: City outages.php (12:30 PM stamp) unchanged; boil advisories none; MAW alert pages returned no content to the reader (145038/145040 blank) — American Water coverage unverified this cycle. Lane 2: KSDK Penrose St & Blair Ave 36-inch break dated to ~late April 2024 (KSDK follow-up cites 2024 counts as of May 1; Perigon 5/2/2024 roundup) — stale, not logged. KFVS (modified 15:51 UTC 11/13): Murphysboro Enterprise Ave and Tina Dr still in effect; Millstone areas lifted 11/12-11/13, Bert Rd still active. Lane 3: WashU Alert only M365 outage 11/12; Med Campus Facilities lists electrical/heat work 11/14, no water. Lane 4: no dated social reports. Gaps: MSD, Kirkwood, MO DNR, BJC/Cortex/Loop/MoDOT not checked; social sources poorly indexed.",
     "open_count": 132,
-    "run_at": "2026-11-13T17:40:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU. New Ring 2 City outages: Union Blvd (Bircher–Brown), Halliday (Compton–Virginia), Compton (Magnolia–Pestalozzi). Cabanne Ave outage cleared (repair continuing). Standing: Wallace Dr (South 40) water-line work final day until 4 PM, no shutoff; Jolley/Cupples II no-water-use order (no public lift); MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 still posted, likely stale, impact possible (low)."
+    "run_at": "2026-11-13T18:45:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU. City outages still active: Union Blvd (Bircher–Brown, est 7:58 PM), Halliday (Compton–Virginia, est 10:31 PM), S Compton (Magnolia–Pestalozzi, est 10:26 PM), Halliday & Michigan (~5.5 hr overdue). No City boil advisory. Standing: Wallace Dr (South 40) water-line work ends 4 PM today, no shutoff; Jolley/Cupples II no-water-use order (no public lift; Facilities page still shows only the 10/31 scheduled end); MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 still tracked, impact possible (low)."
   },
   "incidents": [
     {
