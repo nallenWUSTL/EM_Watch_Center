@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "2:35 PM CST 11/13 four-lane run. Lane 1: outages.php 2:30 PM stamp; MAW alertsdetail and alerts index JS-rendered and unreadable (IDs 145034+ unverified); MAW boil page failed; MSD, Kirkwood, MO DNR not checked. Lane 2: KSDK Penrose/Blair (undated); KFVS changes already reflected (Murphysboro Enterprise Ave, Millstone lifts). Old KSDK Lindell/Union and south County MAW boil stories judged stale. Lane 3: WashU Alert, Facilities, Med Campus unchanged; Med Campus 11/14 BJC IH basement heating-water outage 6 AM–3 PM (incl. vivarium) noted, non-potable. Lane 4: no dated social reports; Reddit blocked. Gaps: BJC, Cortex, Forest Park Forever, MoDOT feeds not opened.",
+    "note": "3:40 PM CST 11/13 four-lane run. Lane 1: outages.php 3:30 PM stamp; MAW IDs probed through 145035 (145014-145033 mostly other states; 145029 Jefferson City planned 11/16, 145024 IAW East Peoria lift, both Ring 3, not recorded); City news releases, MAW boil page, MSD, Kirkwood, MO DNR, IAW regional not checked. Lane 2: nothing new; City Public Utilities news latest 8/25. Lane 3: WashU Alert, Facilities, Med Campus unchanged; BJC, Cortex, Forest Park Forever, MoDOT feeds not opened. Lane 4: no dated social reports.",
     "open_count": 131,
-    "run_at": "2026-11-13T20:40:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU. City outages: S Compton (Magnolia–Pestalozzi) and Halliday (Compton–Virginia) cleared from outages.php (2:30 PM stamp); Union Blvd (Bircher–Brown, est 7:58 PM) and Halliday & Michigan (overdue) still active. New Ring 2: probable 11/13 36-inch main break at Penrose & Blair, north City (KSDK, undated; no boil order; water reportedly on). No City or County boil advisory. Standing: Wallace Dr (South 40) work window ends 4 PM today; Jolley/Cupples II no-water-use order (no public lift); MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 tracked, impact possible (low)."
+    "run_at": "2026-11-13T21:40:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU. City outages (3:30 PM stamp): Union Blvd (Bircher–Brown, est 7:58 PM) still active; Halliday & Michigan ~8.5 hr overdue. Penrose & Blair dropped from City lists and likely a May 2024 story; moved to monitoring. MAW 145020 added to unplaced St. Louis County break record (likely repost of 145019). No City or County boil advisory. Standing: Wallace Dr (South 40) work window ends 4 PM today, no completion notice yet; Jolley/Cupples II notice covered only through 10/31 (no public lift); MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 tracked, impact possible (low)."
   },
   "incidents": [
     {
@@ -2463,20 +2463,21 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 10:45 AM CT 11/13 (Lane 1 only, ID probe): MAW 145019 main break from 10:00 AM 11/13 and 145027 from 10:30 AM 11/13, each ~8 hr estimate (~6-6:30 PM); one break posted twice or two breaks, not confirmed. No municipality, street or boil advisory (MO DNR none in St. Louis City/County). Cannot be placed relative to WashU assets; no evidence of a Ring 1 location. Impact none pending location. Escalate if a University City, Clayton, Richmond Heights or Ring 1 corridor street is published. No news or social corroboration (Lanes 2, 4). Resolve when dropped. Owner: Emergency Management (track only).",
+      "assessment": "Updated 3:40 PM CT 11/13 (Lane 1, ID probe): MAW alert 145020 also posts a St. Louis County main break from 10:00 AM 11/13, ~8 hr (~6 PM); same start as 145019, so likely the same break re-posted. 145027 (10:30 AM, ~6:30 PM) unchanged. No municipality, street or boil advisory. Cannot be placed relative to WashU assets; no evidence of a Ring 1 location. Impact none pending location. Escalate if a University City, Clayton, Richmond Heights or Ring 1 corridor street is published. No news or social corroboration (Lanes 2, 4). Resolve when dropped. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-13T16:45:00Z",
       "id": "maw-stlouiscounty-unlocated-20261113",
-      "last_updated": "2026-11-13T16:45:00Z",
+      "last_updated": "2026-11-13T21:40:00Z",
       "location": "Saint Louis County, MO (municipality and street not published by utility)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://alertsdetail.awapps.com/alert/145019",
+        "https://alertsdetail.awapps.com/alert/145020",
         "https://alertsdetail.awapps.com/alert/145027"
       ],
       "status": "open",
-      "title": "Missouri American Water main break(s), St. Louis County (unplaced) — emergency repairs (alerts 145019, 145027)",
+      "title": "Missouri American Water main break(s), St. Louis County (unplaced) — emergency repairs (alerts 145019, 145020, 145027)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -3658,19 +3659,21 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 2:40 PM CT 11/13 (Lane 2 only, KSDK): 36-inch main break before 6 AM 'Friday'; intersection closed while crews isolate and excavate; City not planning a boil order as of 8 AM; residents reported running water by 1 PM. KSDK pages carry no publish date, so Nov 13 is probable (likely the FOX 2 'north St. Louis' item flagged last run) but unconfirmed; not on outages.php at 2:30 PM. ~4-5 mi NE of the Medical Campus; separate from Ring 1 corridors; no WashU asset. Impact none. Confirm date; resolve when the intersection reopens. Owner: Emergency Management (track only).",
+      "assessment": "Updated 3:40 PM CT 11/13 (Lanes 1, 2): not on stlwater.com outages or main-repair lists (3:30 PM stamp). A companion KSDK investigations piece on the same intersection cites data as of May 1, pointing to an early-May 2024 break (aged valve), so the KSDK story is probably not a current incident. No 2026 source found. Moved to monitoring, not resolved; close if no current-date source appears. ~4-5 mi NE of the Medical Campus; Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-13T20:40:00Z",
       "id": "stlwater-stlouiscity-penrose-blair-20261113",
-      "last_updated": "2026-11-13T20:40:00Z",
+      "last_updated": "2026-11-13T21:40:00Z",
       "location": "Penrose St & Blair Ave, edge of Windsor Park, north St. Louis City",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://ksdk.com/article/news/local/water-main-break-flooding-penrose-blair-north-st-louis/63-e6479b5a-3a5e-488a-ba98-dda01eb682a9",
-        "https://www.ksdk.com/video/news/local/massive-water-main-break-closes-north-st-louis-intersection-friday/63-441c7b48-0c98-40da-8474-13e80960af8a"
+        "https://www.ksdk.com/video/news/local/massive-water-main-break-closes-north-st-louis-intersection-friday/63-441c7b48-0c98-40da-8474-13e80960af8a",
+        "https://www.ksdk.com/article/news/investigations/north-st-louis-water-main-break-sparks-urgent-calls-insfrastructure-overhaul/63-74e3b575-e3bd-4dd5-9e34-872e24a667f3",
+        "https://www.stlwater.com/outages.php"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City Water 36-inch main break closes Penrose St & Blair Ave, north St. Louis (date unconfirmed)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
