@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "6:45 AM CST 11/13 four-lane run: nothing new in Rings 1-3. City /outages stamped 6:30 AM: Cabanne Ave outage cleared (work order at 5017 Cabanne remains) -> monitoring; Halliday/Michigan still the only current outage (est 7:08 AM); Morganford/Humphrey gone from page (already monitoring). MAW 144457, 144507, 144021 still Active with no update; probes 144971/144975/144980 empty. MO DNR: no St. Louis City/County boil order. WashU Alert (M365 outage only) and Facilities: no new water notice; BJCIH heating-water shutdown Sat 11/14 6 AM-3 PM (HVAC), North Bldg power outage 6-10 AM same day. KFVS Heartland list unchanged since 11/12 (Pope Co Bert Rd and Clark Rd, Murphysboro Tina Dr still in effect). Gaps: MAW IDs >144980, MSD, Kirkwood, MAW boil page, Reddit/X/Facebook/Nextdoor, Post-Dispatch, municipal pages, MoDOT not reached.",
-    "open_count": 127,
-    "run_at": "2026-11-13T12:45:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU. Standing: Wallace Dr (South 40) water-line exploratory work final day Fri 11/13 6 AM-4 PM, lane closures, no shutoff; Jolley/Cupples II no-water-use order still has no public lift; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 still posted, likely stale, impact possible (low)."
+    "note": "10:10 AM CST 11/13 four-lane run. New Ring 2: MAW Ferguson 144998/145012 and Ballwin 144997 main breaks (no streets, no boil advisory). New Ring 3: IAW Alton 145001 (boil order on restoration), Dunlap 145013, Lemont 144992; Murphysboro Enterprise Ave boil order (KFVS). Resolved: IAW Pekin (145008) and Champaign (145007) lifts; City Morganford & Humphrey (absent on consecutive reads). City /outages stamped 9:45 AM: Halliday & Michigan outage still active, ~2.5 hr past its 7:08 AM estimate; 5017 Cabanne work order remains. MO DNR and MAW boil page: no St. Louis City/County boil order; City South City boil advisory found in search is from March 2026 (lifted). WashU Alert (M365 outage only) and Facilities: no new water notice; BJCIH heating-water shutdown Sat 11/14 6 AM-3 PM unchanged. Gaps: MSD nothing current; Kirkwood page stale; no datable social posts; KFVS page has no year.",
+    "open_count": 130,
+    "run_at": "2026-11-13T16:10:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU. Standing: Wallace Dr (South 40) water-line exploratory work final day today until 4 PM, lane closures, no shutoff; Jolley/Cupples II no-water-use order still has no public lift; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 still posted unchanged, likely stale, impact possible (low)."
   },
   "incidents": [
     {
@@ -156,6 +156,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 10:10 AM CT 11/13 (Lane 1 only): IAW alert 145001, main-break repairs from 7:30 AM 11/13, ~7 hr estimate; boil order for the affected area once service is restored. ~20 mi N of Danforth; separate utility system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-13T16:10:00Z",
+      "id": "ilaw-alton-unlocated-20261113",
+      "last_updated": "2026-11-13T16:10:00Z",
+      "location": "Alton, IL (Madison County, Metro East; streets not published by utility)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145001"
+      ],
+      "status": "open",
+      "title": "Illinois American Water main break with boil order on restoration, Alton, IL (alert 145001)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Updated 7:40 AM CT 11/5 (Lane 1 only): investigation 144035 now followed by alert 144073 (main break, emergency repairs from ~6:00 AM CT 11/5, ~2 hr estimate, discolored water, boil order once service restored) and alert 144065 (boil order for a main break, no street or lift time); likely one event. No street published. Metro East, ~15 mi SE of downtown St. Louis; separate utility system; no WashU asset. Impact none. Monitor; resolve when boil-order lift is posted. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-05T04:40:00Z",
@@ -176,20 +194,39 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 12:40 AM CT 11/12 (Lane 1 only, ID probe): IAW alert 144805, main break from 6:35 PM 11/11, boil order to follow restoration; 144808 a related Champaign alert. ~170 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 10:10 AM CT 11/13 (Lane 1): IAW alert 145007 posts the Champaign boil order lift; 144805/144808 are the only tracked Champaign events, so treated as their lift. ~170 mi NE; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Low",
       "first_seen": "2026-11-12T06:40:00Z",
       "id": "ilaw-champaign-unlocated-20261111",
-      "last_updated": "2026-11-12T06:40:00Z",
+      "last_updated": "2026-11-13T16:10:00Z",
       "location": "Champaign, IL (Champaign County; street not published in Lane report)",
       "ring": 3,
       "single_source": true,
       "sources": [
         "https://alertsdetail.awapps.com/alert/144805",
-        "https://alertsdetail.awapps.com/alert/144808"
+        "https://alertsdetail.awapps.com/alert/144808",
+        "https://alertsdetail.awapps.com/alert/145007"
+      ],
+      "status": "resolved",
+      "title": "Illinois American Water main break with boil order on restoration, Champaign, IL (alerts 144805, 144808)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 10:10 AM CT 11/13 (Lane 1 only, one-line view): IAW alert 145013, repairs with boil order from 9:45 AM 11/13. ~160 mi NNE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-13T16:10:00Z",
+      "id": "ilaw-dunlap-unlocated-20261113",
+      "last_updated": "2026-11-13T16:10:00Z",
+      "location": "Dunlap, IL (Peoria County; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145013"
       ],
       "status": "open",
-      "title": "Illinois American Water main break with boil order on restoration, Champaign, IL (alerts 144805, 144808)",
+      "title": "Illinois American Water repairs and boil order, Dunlap, IL (alert 145013)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
     },
@@ -228,6 +265,24 @@
       ],
       "status": "resolved",
       "title": "Illinois American Water main break with boil order on restoration, Granite City, IL (alert 144227)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 10:10 AM CT 11/13 (Lane 1 only, one-line view): IAW alert 144992, boil order; details not pulled. ~270 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-13T16:10:00Z",
+      "id": "ilaw-lemont-unlocated-20261113",
+      "last_updated": "2026-11-13T16:10:00Z",
+      "location": "Lemont, IL (Cook/Will County, Chicago area; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144992"
+      ],
+      "status": "open",
+      "title": "Illinois American Water boil order, Lemont, IL (alert 144992)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
     },
@@ -289,18 +344,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 11:50 AM CT 11/12 (Lane 1 only): IAW alert 144869, main break from 8:15 AM 11/12, boil order to follow restoration. ~150 mi NNE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 10:10 AM CT 11/13 (Lane 1): IAW alert 145008 posts the Pekin boil order lift; 144869 is the only tracked Pekin event, so treated as its lift. ~150 mi NNE; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Low",
       "first_seen": "2026-11-12T17:50:00Z",
       "id": "ilaw-pekin-unlocated-20261112",
-      "last_updated": "2026-11-12T17:50:00Z",
+      "last_updated": "2026-11-13T16:10:00Z",
       "location": "Pekin, IL (Tazewell County; street not published in Lane report)",
       "ring": 3,
       "single_source": true,
       "sources": [
-        "https://alertsdetail.awapps.com/alert/144869"
+        "https://alertsdetail.awapps.com/alert/144869",
+        "https://alertsdetail.awapps.com/alert/145008"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "Illinois American Water main break with boil order on restoration, Pekin, IL (alert 144869)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
@@ -537,6 +593,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Ballwin — emergency repairs (alert 144880)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 10:10 AM CT 11/13 (Lane 1 only, ID probe): MAW alert 144997, main break from 8:00 AM 11/13, ~8 hr estimate (~4 PM); no street; no boil advisory. Separate from earlier tracked Ballwin alerts by start date. ~12 mi W of West Campus; Tyson on well water; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-13T16:10:00Z",
+      "id": "maw-ballwin-unlocated-20261113",
+      "last_updated": "2026-11-13T16:10:00Z",
+      "location": "Ballwin, MO (west St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144997"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Ballwin — emergency repairs (alert 144997)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -966,6 +1040,25 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Fenton — emergency repairs (alerts 144797, 144798)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 10:10 AM CT 11/13 (Lane 1 only, ID probe): MAW alerts 144998 (start 8:00 AM 11/13) and 145012 (start 9:45 AM 11/13), ~8 hr repair estimates; possibly one event or two breaks; no street; no boil advisory (MO DNR none in St. Louis City/County). ~8-9 mi N of North Campus; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-13T16:10:00Z",
+      "id": "maw-ferguson-unlocated-20261113",
+      "last_updated": "2026-11-13T16:10:00Z",
+      "location": "Ferguson, MO (north St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/144998",
+        "https://alertsdetail.awapps.com/alert/145012"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Ferguson — emergency repairs (alerts 144998, 145012)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -2793,6 +2886,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 10:10 AM CT 11/13 (Lane 2 only, KFVS Heartland list): boil order for all of Enterprise Ave issued 11/13, until further notice; start time not given. KFVS page shows no year (treated as 2026 from sequence). ~90 mi SE; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-13T16:10:00Z",
+      "id": "murphysboro-murphysboro-enterpriseave-20261113",
+      "last_updated": "2026-11-13T16:10:00Z",
+      "location": "All of Enterprise Ave, Murphysboro, IL (Jackson County)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
+      ],
+      "status": "open",
+      "title": "City of Murphysboro, IL boil order, Enterprise Ave",
+      "utility": "City of Murphysboro, IL",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Updated 1:40 PM CT 11/12 (Lane 2): KFVS Heartland boil list (modified ~8:49 AM CT 11/12) again shows the Murphysboro Tina Dr boil order (issued Tue 11/10, all of Tina Dr) as active until further notice, so returned from monitoring to open. ~90 mi SE; separate system; no WashU asset. Impact none. Resolve when the lift is reported. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-10T22:40:00Z",
@@ -3113,14 +3224,14 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 10:45 PM CT 11/12 (Lane 1 only, City outages page): water off 9:08 PM 11/12, estimated restoration 7:08 AM 11/13; no boil order (City Current Advisories empty). Separate from tracked Halliday & S Compton hydrant repair. ~4-5 mi SE of the Medical Campus; not a Ring 1 corridor; no WashU asset. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from outages page after restoration. Owner: Emergency Management (track only).",
+      "assessment": "Updated 10:10 AM CT 11/13 (Lanes 1 and 4, City outages page stamped 9:45 AM): still the only current outage; 7:08 AM restoration estimate passed, crews still working, overdue ~2.5 hr. No boil order. ~4-5 mi SE of the Medical Campus; not a Ring 1 corridor; no WashU asset. Impact none. Resolve when dropped from outages page. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-13T04:45:00Z",
       "id": "stlwater-stlouiscity-halliday-michigan-20261112",
-      "last_updated": "2026-11-13T04:45:00Z",
+      "last_updated": "2026-11-13T16:10:00Z",
       "location": "Halliday Ave between/at Michigan Ave, St. Louis City 63118 (south City; block not published)",
       "ring": 2,
-      "single_source": true,
+      "single_source": false,
       "sources": [
         "https://www.stlwater.com/outages.php"
       ],
@@ -3323,18 +3434,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 4:35 AM CT 11/13 (Lane 4, City outages page stamped 1:30 AM 11/13): Morganford Rd & Humphrey St main repair absent again from the work-order table after reappearing 11/11. Kept in monitoring; resolve on a second consistent read. No outage or boil advisory. Tower Grove South, ~3 mi from the Medical Campus; Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 10:10 AM CT 11/13 (Lanes 1 and 4, City outages page stamped 9:45 AM): Morganford Rd & Humphrey St main repair absent from the work-order table on consecutive reads (1:30 AM and 9:45 AM 11/13), meeting the second-consistent-read rule. No outage or boil advisory ever posted. Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-05T20:50:00Z",
       "id": "stlwater-stlouiscity-morganford-humphrey-20261105",
-      "last_updated": "2026-11-13T10:35:00Z",
+      "last_updated": "2026-11-13T16:10:00Z",
       "location": "Morganford Rd & Humphrey St, St. Louis City (Tower Grove South, south City; cross street as published)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/outages"
       ],
-      "status": "monitoring",
+      "status": "resolved",
       "title": "City of St. Louis Water Division main repair, Morganford Rd & Humphrey St (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
