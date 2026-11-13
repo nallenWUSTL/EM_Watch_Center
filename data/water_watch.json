@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "8:40 PM CST 11/12 four-lane run: nothing new in St. Louis City/County. MAW/IAW ID probe 144924-144945 (partial): 144923 is Alexandria VA; others empty shells; next run start at 144924. MAW boil page none; MO DNR no St. Louis-area boil orders; stlwater.com outages again only a stale 1:30 AM 11/12 cache (Sutherland only), Current Advisories empty. Undated MAW Maryland Heights/Bridgeton/Earth City advisory ruled out (Sunday issue/Monday lift, outside window); not adopted. KFVS: Carterville and Millstone Mt. Shelter lifts already recorded; Bert Rd, Clark Rd, Murphysboro still active. WashU Alert none; Facilities Wallace Dr and BJCIH heating-water notice unchanged. No dated social or news reports 11/11-12. Gaps: live stlwater.com, MSD, Kirkwood, Clayton news (site error), X/Reddit/Nextdoor (blocked), Cortex/Loop/Forest Park/MoDOT.",
+    "note": "9:45 PM CST 11/12 four-lane run: nothing new in St. Louis City/County or Ring 1. Only change: IAW 144924 Peoria boil-order lift (untied, recorded on Peoria group). ID probe 144925-144932 empty; next run start at 144925. stlwater.com outages still a stale 1:30 AM 11/12 cache (Sutherland only; later 12:30 PM check showed it restored), Current Advisories empty. City Public Utilities news newest 8/25. WashU Alert none (modified 11/11); Facilities: no new water notices 11/12-16; BJCIH heating-water interruption Sat 11/14 6 AM-3 PM (basement incl. vivarium, not potable). Undated MAW Maryland Heights/Bridgeton/Earth City and KSDK 13th/Lucas stories ruled out (not datable to window). Gaps: MAW alerts index and boil page (load failure), MO DNR dataset (403), MSD, Clayton news (failed), KFVS list, X/Reddit (blocked), Nextdoor/Facebook.",
     "open_count": 128,
-    "run_at": "2026-11-13T02:40:00Z",
+    "run_at": "2026-11-13T03:45:00Z",
     "top_incident": "No new or changed water incidents affecting WashU. Standing: Wallace Dr (South 40) water-line exploratory work 11/12-13, no shutoff (Facilities, unchanged); Jolley/Cupples II no-water-use order expired by date (10/31), no lift posted; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 unverified, impact possible (low)."
   },
   "incidents": [
@@ -306,11 +306,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 2:45 PM CT 11/10 (Lane 1): new IAW alert 144621 posts a Peoria boil order lift (no date or street on page); it cannot be tied to a specific tracked Peoria alert, so no Peoria record is resolved yet. Earlier: 144609 main break with boil order on restoration (from 11:45 AM 11/10, ~12 hr), plus six 11/10 boil-order alerts incl. 144527 valve replacement. ~150 mi NNE; separate system; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 9:45 PM CT 11/12 (Lane 1, ID probe): IAW alert 144924 posts another Peoria boil order lift (no street, date or times on page); cannot be tied to a specific tracked Peoria alert, so kept open. Earlier: 144621 lift (11/10, untied); 144609 main break with boil order on restoration; six 11/10 boil-order alerts incl. 144527 valve replacement. ~150 mi NNE; separate system; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-10T12:40:00Z",
       "id": "ilaw-peoria-group-20261110",
-      "last_updated": "2026-11-10T20:45:00Z",
+      "last_updated": "2026-11-13T03:45:00Z",
       "location": "Peoria, IL (Peoria County; streets not published in Lane report)",
       "ring": 3,
       "single_source": true,
@@ -322,7 +322,8 @@
         "https://alertsdetail.awapps.com/alert/144514",
         "https://alertsdetail.awapps.com/alert/144527",
         "https://alertsdetail.awapps.com/alert/144609",
-        "https://alertsdetail.awapps.com/alert/144621"
+        "https://alertsdetail.awapps.com/alert/144621",
+        "https://alertsdetail.awapps.com/alert/144924"
       ],
       "status": "open",
       "title": "Illinois American Water boil orders and valve replacement, Peoria, IL (alerts 144481, 144505, 144511, 144513, 144514, 144527)",
