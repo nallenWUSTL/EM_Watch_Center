@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "10:45 PM CST 11/12 four-lane run: one new City Water outage, Halliday Ave & Michigan Ave (south City, Ring 2, off 9:08 PM, est. 7:08 AM 11/13). Updates: Cabanne Ave outage restoration pushed to 8:01 AM 11/13, repair at 5017 Cabanne; IAW 144925 Lincoln IL boil lift (untied; planned 144902 work not yet started). Dale Ave outages still listed at est. restoration time. No City or County boil order (City Current Advisories empty). stlwater.com/?p=9725 Chain of Rocks boil advisory page is stale (lifted 7/1/2026). ID probe 144925-144960: only 144925 exists; next run start at 144926. Med Campus Facilities: McDonnell Pediatric Research Bldg BAS interruption 11/13 and restroom closures 11/23-25 (not water). Gaps: stlwater advisories page, MAW alerts index (JS) and boil page, MO DNR, MSD, Clayton news, KFVS list, Reddit/X/Nextdoor/Facebook, BJC/Cortex/Loop sites.",
+    "note": "11:45 PM CST 11/12 four-lane run: nothing new. City outages page (11:30 PM stamp) shows only Cabanne Ave (Academy-Kingshighway, est. 8:01 AM 11/13) and Halliday & Michigan (est. 7:08 AM 11/13); Dale/Central outage cleared (moved to monitoring, work order still listed). City Current Advisories empty; MO DNR has no St. Louis City/County boil order. Plain /outages URL serves a stale 1:30 AM 11/12 cache; use a cache-busting fetch. ID probe 144926-144936: 144926 is California; rest empty; next run start at 144927. stlwater.com/?p=9725 boil page is the stale Aug 2026 Chain of Rocks advisory. KFVS list (11/12): Millstone Mt. Shelter Rd order lifted (untracked), Carterville lifted (already resolved), Murphysboro Tina Dr still in effect. Med Campus Facilities Sat 11/14: BJC IH basement/vivarium heating water off 6 AM-3 PM; North Building electric outage 6-10 AM (not domestic water). Gaps: MSD, Kirkwood, MAW boil page, BJC/Cortex/Loop/MoDOT/Clayton, earlier MAW IDs not re-checked.",
     "open_count": 129,
-    "run_at": "2026-11-13T04:45:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU. Standing: Wallace Dr (South 40) water-line exploratory work 11/12-13, no shutoff (Facilities, unchanged); Jolley/Cupples II no-water-use order expired by date (10/31), no lift posted; MAW University City 144457 (still active)/144507, Clayton 144021, Richmond Heights 143300 unverified, impact possible (low)."
+    "run_at": "2026-11-13T05:45:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU. Standing: Wallace Dr (South 40) water-line exploratory work through Fri 11/13 6 AM-4 PM, lane closures, no shutoff (Facilities, unchanged); Jolley/Cupples II no-water-use order expired by date, no lift posted; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 unverified, impact possible (low)."
   },
   "incidents": [
     {
@@ -2943,18 +2943,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 6:40 PM CT 11/12 (Lane 1, live City outages page updated 6:30 PM): Dale/Central outages (Dale-Nashville and Dale-McCausland) still out; estimated restoration 10:32-10:35 PM 11/12. No boil order. South City, Ring 2; no WashU asset; impact none. Resolve when dropped after restoration. Owner: Emergency Management (track only).",
+      "assessment": "Updated 11:45 PM CT 11/12 (Lane 1, City outages page stamped 11:30 PM): Dale/Central outages no longer on the active outage list, so service appears restored after the ~10:35 PM estimate; main-repair work order (7:44 AM) still listed. No completion notice, so moved to monitoring, not resolved. No boil order. South City, Ring 2; no WashU asset; impact none. Resolve when the work order drops. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-12T15:40:00Z",
       "id": "stlwater-stlouiscity-dale-20261112",
-      "last_updated": "2026-11-13T00:40:00Z",
+      "last_updated": "2026-11-13T05:45:00Z",
       "location": "6815 Dale Ave, St. Louis City 63139, with outages on Central Ave (Dale to Nashville) and Dale Ave (Central to McCausland)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/outages.php"
+        "https://www.stlwater.com/outages.php",
+        "https://www.stlwater.com/outages"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division main repair and service outages, 6815 Dale Ave / Central Ave",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
