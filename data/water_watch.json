@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "4:40 PM CST 11/13 four-lane run. Lane 1: outages.php 4:30 PM stamp; MAW IDs probed 145036-145074 (next run start 145075); MSD and Kirkwood not checked; pages read via summarizer (proxy blocked curl to stlwater.com). Lane 2: nothing new; KSDK undated week-summary (60+ City breaks, ~7 MAW County breaks) used as context only; MO DNR table, Clayton, Richmond Heights, Brentwood, Ladue, KFVS, WGEL not reached. Lane 3: WashU Alert, Facilities, Med Campus Facilities unchanged (11/14 non-water utility shutdowns at Med Campus); BJC, MoDOT feeds no items. Lane 4: nothing new; social platforms thinly indexed.",
+    "note": "5:40 PM CST 11/13 four-lane run. Lane 1: outages.php 5:30 PM stamp; MAW IDs probed 145073-145085 (145073 NJ, 145074 PA, 145075 Huntington non-MO; 145076+ empty; next run start 145076); MAW alerts/boil pages and IAW alerts did not render; MSD, Kirkwood, MO DNR not checked. Penrose & Blair also off repair list (already monitoring). Lane 2: nothing new; MO DNR table and KFVS list not reached; KSDK south County MAW and FOX 2 Overland boil articles undated/unopened. Lane 3: WashU Alert, Facilities, Med Campus Facilities unchanged (11/14 BJCIH heating water, not domestic). Lane 4: nothing new; stlwater.com/?p=9725 undated 'Boil Advisory in effect' page judged stale (Aug 17 Chain of Rocks event); City boil-advisory page lists none.",
     "open_count": 132,
-    "run_at": "2026-11-13T22:40:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU. New: MAW Bridgeton main break 145072 (Ring 2, est ~8:30 PM, impact none). Correction: MAW 145020 is Terre Haute IN, removed from unplaced St. Louis County record (145019/145027 remain). City outages (4:30 PM stamp): Union Blvd (Bircher–Brown, est 7:58 PM) active; Halliday & Michigan ~9.5 hr overdue. No City or County boil advisory. Standing: Wallace Dr (South 40) work window ended 4 PM, no completion notice; Jolley/Cupples II no public lift; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 impact possible (low)."
+    "run_at": "2026-11-13T23:40:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU. Update: City Halliday & Michigan outage dropped from outages and repair lists (moved to monitoring). Union Blvd (Bircher–Brown) still active, est 7:58 PM. MAW Bridgeton 145072 still active (est ~8:30 PM, impact none). No City or County boil advisory. Standing: Wallace Dr (South 40) window ended, no completion notice; Jolley/Cupples II no public lift; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 impact possible (low)."
   },
   "incidents": [
     {
@@ -3297,18 +3297,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 4:40 PM CT 11/13 (Lanes 1, 3; outages.php stamped 4:30 PM): still listed active, ~9.5 hr past its 7:08 AM estimate; no boil advisory. South City; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 5:40 PM CT 11/13 (Lane 1; stlwater.com/outages.php stamped 5:30 PM): Halliday & Michigan no longer listed as an outage or on the main-repair list; service appears restored, no completion notice posted. First read of the drop, so moved to monitoring, not resolved. No boil advisory. South City; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-13T04:45:00Z",
       "id": "stlwater-stlouiscity-halliday-michigan-20261112",
-      "last_updated": "2026-11-13T22:40:00Z",
+      "last_updated": "2026-11-13T23:40:00Z",
       "location": "Halliday Ave between/at Michigan Ave, St. Louis City 63118 (south City; block not published)",
       "ring": 2,
       "single_source": false,
       "sources": [
         "https://www.stlwater.com/outages.php"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division service outage, Halliday Ave & Michigan Ave (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
