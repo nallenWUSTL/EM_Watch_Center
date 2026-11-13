@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "7:40 PM CST 11/12 four-lane run. New: MAW 144920 (St. Louis County, unplaced). Updated: IAW East St. Louis valve work extended (144921, ~8 PM). MAW ID sweep 144905-144923: nothing else in region. City outages page only reachable as a stale 1:30 AM 11/12 cache (lists Sutherland only), so no status change recorded for Cabanne, Dale/Central or other City items. No boil advisory confirmed in St. Louis City/County; an undated AOL item on a MAW Maryland Heights/Bridgeton/Earth City advisory ('Sunday') could not be dated and was not adopted. KFVS: Carterville and Millstone Mt. Shelter lifts already recorded; Murphysboro, Bert Rd still active. WashU Alert none; Facilities Wallace Dr unchanged; BJCIH 11/14 is heating water. No dated social or news reports 11/11-12. Gaps: live stlwater.com page, MAW alerts index and boil page, MSD, Kirkwood, MO DNR, BJC/Cortex/Loop/Forest Park/MoDOT, Clayton notices.",
+    "note": "8:40 PM CST 11/12 four-lane run: nothing new in St. Louis City/County. MAW/IAW ID probe 144924-144945 (partial): 144923 is Alexandria VA; others empty shells; next run start at 144924. MAW boil page none; MO DNR no St. Louis-area boil orders; stlwater.com outages again only a stale 1:30 AM 11/12 cache (Sutherland only), Current Advisories empty. Undated MAW Maryland Heights/Bridgeton/Earth City advisory ruled out (Sunday issue/Monday lift, outside window); not adopted. KFVS: Carterville and Millstone Mt. Shelter lifts already recorded; Bert Rd, Clark Rd, Murphysboro still active. WashU Alert none; Facilities Wallace Dr and BJCIH heating-water notice unchanged. No dated social or news reports 11/11-12. Gaps: live stlwater.com, MSD, Kirkwood, Clayton news (site error), X/Reddit/Nextdoor (blocked), Cortex/Loop/Forest Park/MoDOT.",
     "open_count": 128,
-    "run_at": "2026-11-13T01:40:00Z",
-    "top_incident": "No new WashU-affecting incidents. New: MAW 144920 St. Louis County main break/investigation, unplaced, impact none. Standing: Wallace Dr (South 40) water-line exploratory work 11/12-13, no shutoff (Facilities, unchanged); Jolley/Cupples II no-water-use order expired by date (10/31), no lift posted; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 unverified, impact possible (low)."
+    "run_at": "2026-11-13T02:40:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU. Standing: Wallace Dr (South 40) water-line exploratory work 11/12-13, no shutoff (Facilities, unchanged); Jolley/Cupples II no-water-use order expired by date (10/31), no lift posted; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 unverified, impact possible (low)."
   },
   "incidents": [
     {
