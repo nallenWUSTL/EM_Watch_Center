@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "5:40 PM CST 11/12 four-lane run. No new or changed incidents in Rings 1-2; no tracked record updated. MAW probed 144907-144940: 144908-144918 all out of state (IA, KY, IN, WV, VA, PA; Jeffersonville IN boil issued and lifted same day), 144919+ placeholders. MAW UCity 144457/144507 still show active repairs with no end time. City outages page still a stale 1:30 AM 11/12 copy (Sutherland only); Dale/Central, Halliday/Compton, N Grand/Palm absent from it but not marked resolved because the page is stale. No boil advisory: City Water, MAW boil page none; MO DNR none in St. Louis City/County (newest Park Hills 11/5). WashU Alert none (page modified 11/11); Facilities no new water notices; Med Campus 11/14 items are HVAC/electrical, not potable. KFVS: Carterville, Millstone Mt. Shelter and PWSD#1 lifts already recorded; Murphysboro Tina Dr and Millstone Bert/Clark Rd still active; no IAW East St. Louis or Collinsville lift found. No local news or social reports dated 11/11-12 for St. Louis City/County. Gaps: live City outages page, MSD, Kirkwood, Clayton news page (would not load), BJC/Cortex/Loop/Forest Park/MoDOT feeds not directly checked.",
-    "open_count": 126,
-    "run_at": "2026-11-12T23:40:00Z",
-    "top_incident": "No new WashU-affecting incidents. Standing: Wallace Dr (South 40) water-line exploratory work 11/12-13, 6 AM-4 PM, lane closures at Forsyth, no shutoff (Facilities, unchanged); Jolley/Cupples II no-water-use order lapsed by date 10/31, no lift posted; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 static pages, likely stale, impact possible (low)."
+    "note": "6:40 PM CST 11/12 four-lane run. City outages page now live (6:30 PM): new Cabanne/Academy outage; Dale/Central still out, ETR ~10:35 PM; Delmar (Huntley-Compton), Morganford/Humphrey, Jamieson/Arsenal hydrant no longer listed but completion not confirmed, left as monitoring. Older hydrant work orders 11/7-11/9 (Gravois, Keokuk, Oleatha block, Potomac, Marquette, Fyler) seen, not tracked. No boil advisory: MO DNR none in St. Louis City/County; City news none since 8/25. WashU Alert none; Facilities Wallace Dr notice unchanged; Med Campus 11/14 BJCIH outage is heating water, not potable. KFVS: Carterville and Millstone Mt. Shelter lifts already recorded; Bert Rd, Clark Rd, Murphysboro still active. Greenville IL update posted, start 11/16 unchanged. No local news or social reports dated 11/11-12. Gaps: MAW and Illinois American alert pages unreadable (JS-rendered, ID probe blocked), MAW boil page, MSD, Kirkwood, Clayton news page, BJC/Cortex/Loop/Forest Park/MoDOT feeds.",
+    "open_count": 127,
+    "run_at": "2026-11-13T00:40:00Z",
+    "top_incident": "No new WashU-affecting incidents. New: City Water outage Cabanne Ave (Academy-Kingshighway), Ring 2, ~1.2-1.5 mi N of Medical Campus, ETR 2 AM 11/13, impact none. Standing: Wallace Dr (South 40) water-line exploratory work 11/12-13, no shutoff (Facilities, unchanged); Jolley/Cupples II no-water-use order lapsed by date, no lift posted; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 unverified this run, impact possible (low)."
   },
   "incidents": [
     {
@@ -118,16 +118,17 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 10:40 PM CT 11/11 (Lane 2 only, WGEL published 11/11): planned precautionary boil order begins Mon 11/16 when the new treatment plant is connected and the old plant taken offline (work 11/16-17); remains until bacteria samples pass, typically ~30 hr after sampling. Planned work, not a failure. ~50 mi E of St. Louis; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "assessment": "Updated 6:40 PM CT 11/12 (Lane 2): WGEL posted an update 11/12 confirming the citywide boil order for residents on city-processed water still begins Mon 11/16 (treatment plant changeover 11/16-17); article body did not load, so any other change is unknown. Planned work. ~50 mi E; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-12T04:40:00Z",
       "id": "greenville-greenvilleil-citywide-20261116",
-      "last_updated": "2026-11-12T04:40:00Z",
+      "last_updated": "2026-11-13T00:40:00Z",
       "location": "Citywide Greenville, IL plus outlying areas served (Bond County; no streets named)",
       "ring": 3,
       "single_source": true,
       "sources": [
-        "https://wgel.com/news/2026/11/city-announces-upcoming-boil-order-2/"
+        "https://wgel.com/news/2026/11/city-announces-upcoming-boil-order-2/",
+        "https://wgel.com/news/2026/11/update-on-city-wide-boil-order/"
       ],
       "status": "open",
       "title": "City of Greenville, IL planned citywide precautionary boil order for treatment plant changeover (starts Mon 11/16)",
@@ -2903,17 +2904,34 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 12:40 PM CT 11/12 (Lane 4, verified by supervisor; City outages page stamped 12:30 PM): two active service outages now posted beside the 6815 Dale Ave repair — Central Ave between Dale and Nashville (out since 10:35 AM, est. restore 10:35 PM 11/12) and Dale Ave between Central and McCausland (out since 10:32 AM, est. restore 10:32 PM). Likely the shutoff for the repair (inference). No boil advisory. ~1.5-2 mi SE of South Campus and Danforth (estimate); City system, not the zone serving Clayton-side assets; no Ring 1 corridor; no WashU asset. Impact none. Resolve when the outages and work order drop. Owner: Emergency Management (track only).",
+      "assessment": "New 6:40 PM CT 11/12 (Lane 1 only, City outages page updated 6:30 PM): main taken out of service 6:01 PM 11/12, estimated restoration 2:01 AM 11/13; no boil order. ~1.2-1.5 mi N of the Medical Campus (estimate), north of Delmar; not a Ring 1 corridor segment, though near Kingshighway; separate from Medical Campus mains as far as published. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from outages page after restoration. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-13T00:40:00Z",
+      "id": "stlwater-stlouiscity-cabanne-academy-20261112",
+      "last_updated": "2026-11-13T00:40:00Z",
+      "location": "Cabanne Ave between Academy Ave and Kingshighway Blvd, St. Louis City (West End / Visitation Park, north of Delmar; page also spells it 'Capanne')",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outage, Cabanne Ave between Academy Ave and Kingshighway",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "Updated 6:40 PM CT 11/12 (Lane 1, live City outages page updated 6:30 PM): Dale/Central outages (Dale-Nashville and Dale-McCausland) still out; estimated restoration 10:32-10:35 PM 11/12. No boil order. South City, Ring 2; no WashU asset; impact none. Resolve when dropped after restoration. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-12T15:40:00Z",
       "id": "stlwater-stlouiscity-dale-20261112",
-      "last_updated": "2026-11-12T18:40:00Z",
+      "last_updated": "2026-11-13T00:40:00Z",
       "location": "6815 Dale Ave, St. Louis City 63139, with outages on Central Ave (Dale to Nashville) and Dale Ave (Central to McCausland)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/outages.php",
-        "https://www.stlwater.com/outages"
+        "https://www.stlwater.com/outages.php"
       ],
       "status": "open",
       "title": "City of St. Louis Water Division main repair and service outages, 6815 Dale Ave / Central Ave",
