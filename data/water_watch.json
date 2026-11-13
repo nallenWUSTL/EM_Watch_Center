@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "10:10 AM CST 11/13 four-lane run. New Ring 2: MAW Ferguson 144998/145012 and Ballwin 144997 main breaks (no streets, no boil advisory). New Ring 3: IAW Alton 145001 (boil order on restoration), Dunlap 145013, Lemont 144992; Murphysboro Enterprise Ave boil order (KFVS). Resolved: IAW Pekin (145008) and Champaign (145007) lifts; City Morganford & Humphrey (absent on consecutive reads). City /outages stamped 9:45 AM: Halliday & Michigan outage still active, ~2.5 hr past its 7:08 AM estimate; 5017 Cabanne work order remains. MO DNR and MAW boil page: no St. Louis City/County boil order; City South City boil advisory found in search is from March 2026 (lifted). WashU Alert (M365 outage only) and Facilities: no new water notice; BJCIH heating-water shutdown Sat 11/14 6 AM-3 PM unchanged. Gaps: MSD nothing current; Kirkwood page stale; no datable social posts; KFVS page has no year.",
+    "note": "10:45 AM CST 11/13 four-lane run. New Ring 2: MAW St. Louis County unplaced main breaks 145019/145027 (10:00/10:30 AM, ~8 hr, no street, no boil advisory). Resolved: Millstone (Pope Co IL) Clark Rd/Eddyville boil order lifted 11/13. MAW 145029 Jefferson City planned work 11/16 noted, not logged (Ring 3, planned). City /outages page still stamped 1:30 AM: Halliday & Michigan and Cabanne outages listed, both past estimates. MO DNR (9 active, none in STL City/County/Jefferson/St. Charles/Franklin) and MAW boil page: none. WashU Alert (M365 only) and Facilities: no new water notice; BJCIH heating-water shutdown Sat 11/14 unchanged. Gaps: MAW alerts index rendered empty (ID probe used); MSD not checked; Kirkwood page stale; no datable social posts.",
     "open_count": 130,
-    "run_at": "2026-11-13T16:10:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU. Standing: Wallace Dr (South 40) water-line exploratory work final day today until 4 PM, lane closures, no shutoff; Jolley/Cupples II no-water-use order still has no public lift; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 still posted unchanged, likely stale, impact possible (low)."
+    "run_at": "2026-11-13T16:45:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU. Standing: City Water Cabanne Ave (Academy–Kingshighway) outage still listed ~2.7 hr past its 8:01 AM estimate on a stale 1:30 AM page snapshot; Wallace Dr (South 40) water-line work final day until 4 PM, no shutoff; Jolley/Cupples II no-water-use order (notice set an Oct 31 end; no public lift); MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 still posted unchanged, likely stale, impact possible (low)."
   },
   "incidents": [
     {
@@ -2463,6 +2463,25 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 10:45 AM CT 11/13 (Lane 1 only, ID probe): MAW 145019 main break from 10:00 AM 11/13 and 145027 from 10:30 AM 11/13, each ~8 hr estimate (~6-6:30 PM); one break posted twice or two breaks, not confirmed. No municipality, street or boil advisory (MO DNR none in St. Louis City/County). Cannot be placed relative to WashU assets; no evidence of a Ring 1 location. Impact none pending location. Escalate if a University City, Clayton, Richmond Heights or Ring 1 corridor street is published. No news or social corroboration (Lanes 2, 4). Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-13T16:45:00Z",
+      "id": "maw-stlouiscounty-unlocated-20261113",
+      "last_updated": "2026-11-13T16:45:00Z",
+      "location": "Saint Louis County, MO (municipality and street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145019",
+        "https://alertsdetail.awapps.com/alert/145027"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break(s), St. Louis County (unplaced) — emergency repairs (alerts 145019, 145027)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 11:40 AM CT 11/4 (Lane 1 only): MAW alert 143982, main-break repairs began 10:30 AM CT 11/4, ~6 hr estimate (~4:30 PM); no street; no boil advisory. ~9-11 mi W of West Campus and Danforth (estimate); different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Monitor; resolve when dropped from MAW index. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-04T17:40:00Z",
@@ -2832,18 +2851,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 4:40 PM CT 11/9 (Lane 2 only, KFVS Heartland boil list modified ~3:43 PM CT 11/9): third Millstone boil order, dated 11/9, until further notice; separate from tracked 11/4 Bert Rd/Hazel Rd and 11/5 Mt. Shelter Rd/Carr Rd orders. ~140-150 mi SE of St. Louis; separate system; no WashU asset. Impact none. Monitor; resolve when lift reported. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 10:45 AM CT 11/13 (Lane 2): KFVS Heartland boil list (updated ~9:51 AM CT 11/13) shows the Millstone boil order for 135 Eddyville Black Top and 59 Clark Rd to end of Clark Rd lifted 11/13. Bert Rd/Hazel Rd (11/4) order remains under its own record. ~140-150 mi SE; separate system; no WashU asset. Impact none. Owner: Emergency Management (closed).",
       "confidence": "Low",
       "first_seen": "2026-11-09T22:40:00Z",
       "id": "millstone-popecounty-clarkrd-20261109",
-      "last_updated": "2026-11-09T22:40:00Z",
+      "last_updated": "2026-11-13T16:45:00Z",
       "location": "135 Eddyville Black Top, plus 59 Clark Rd to the end of Clark Rd, Pope County, IL",
       "ring": 3,
       "single_source": true,
       "sources": [
         "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "Millstone Water District boil order, 135 Eddyville Black Top and Clark Rd (Pope County, IL)",
       "utility": "Millstone Water District",
       "washu_impact": "none"
