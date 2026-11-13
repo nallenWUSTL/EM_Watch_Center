@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "10:45 AM CST 11/13 four-lane run. New Ring 2: MAW St. Louis County unplaced main breaks 145019/145027 (10:00/10:30 AM, ~8 hr, no street, no boil advisory). Resolved: Millstone (Pope Co IL) Clark Rd/Eddyville boil order lifted 11/13. MAW 145029 Jefferson City planned work 11/16 noted, not logged (Ring 3, planned). City /outages page still stamped 1:30 AM: Halliday & Michigan and Cabanne outages listed, both past estimates. MO DNR (9 active, none in STL City/County/Jefferson/St. Charles/Franklin) and MAW boil page: none. WashU Alert (M365 only) and Facilities: no new water notice; BJCIH heating-water shutdown Sat 11/14 unchanged. Gaps: MAW alerts index rendered empty (ID probe used); MSD not checked; Kirkwood page stale; no datable social posts.",
-    "open_count": 130,
-    "run_at": "2026-11-13T16:45:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU. Standing: City Water Cabanne Ave (Academy–Kingshighway) outage still listed ~2.7 hr past its 8:01 AM estimate on a stale 1:30 AM page snapshot; Wallace Dr (South 40) water-line work final day until 4 PM, no shutoff; Jolley/Cupples II no-water-use order (notice set an Oct 31 end; no public lift); MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 still posted unchanged, likely stale, impact possible (low)."
+    "note": "11:40 AM CST 11/13 four-lane run. City outages.php now refreshed (11:30 AM stamp): 3 new Ring 2 outages, Cabanne outage cleared, Halliday & Compton hydrant work order cleared (resolved), Halliday & Michigan still overdue. Not logged: KSDK story on 36-inch break at Penrose St & Blair Ave (north City) — article undated, not on City outage board; verify date. MAW IDs 145028-145037: none in MO/IL. MO DNR: newest 11/5, none in STL City/County. KFVS: Murphysboro Enterprise Ave reissued 11/13, Tina Dr still active. WashU Alert/Facilities: no new water notice. Gaps: MSD not checked; social sources undatable.",
+    "open_count": 132,
+    "run_at": "2026-11-13T17:40:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU. New Ring 2 City outages: Union Blvd (Bircher–Brown), Halliday (Compton–Virginia), Compton (Magnolia–Pestalozzi). Cabanne Ave outage cleared (repair continuing). Standing: Wallace Dr (South 40) water-line work final day until 4 PM, no shutoff; Jolley/Cupples II no-water-use order (no public lift); MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 still posted, likely stale, impact possible (low)."
   },
   "incidents": [
     {
@@ -3073,11 +3073,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 6:45 AM CT 11/13 (Lanes 1 and 3, City outages page stamped 6:30 AM): Cabanne Ave Academy–Kingshighway no longer listed as a current service outage, ahead of the 8:01 AM estimate; main repair work order at 5017 Cabanne Ave (63113, opened 8:34 PM 11/12) still listed. Service presumed restored, not explicitly confirmed, so moved to monitoring. No boil order. ~1.2-1.5 mi N of the Medical Campus, north of Delmar; Ring 2. Impact none. Resolve when the work order clears. Owner: Emergency Management (track only).",
+      "assessment": "Updated 11:40 AM CT 11/13 (Lane 3; supervisor verified on outages.php stamped 11:30 AM): Cabanne Ave (Academy–Kingshighway) no longer listed as a service outage; only the main repair work order at 5017 Cabanne Ave remains. Service appears restored; repair continuing. ~1-1.5 mi N of the Medical Campus; Ring 2. Impact none. Resolve when the work order clears. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-13T00:40:00Z",
       "id": "stlwater-stlouiscity-cabanne-academy-20261112",
-      "last_updated": "2026-11-13T12:45:00Z",
+      "last_updated": "2026-11-13T17:40:00Z",
       "location": "Cabanne Ave between Academy Ave and Kingshighway Blvd (repair at 5017 Cabanne Ave, 63113), St. Louis City (West End / Visitation Park, north of Delmar)",
       "ring": 2,
       "single_source": true,
@@ -3086,6 +3086,24 @@
       ],
       "status": "monitoring",
       "title": "City of St. Louis Water Division service outage, Cabanne Ave between Academy Ave and Kingshighway",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 11:40 AM CT 11/13 (Lane 3; supervisor verified on outages.php stamped 11:30 AM): water off since 10:26 AM 11/13, estimated restoration 10:26 PM; no boil advisory. ~2.5-3 mi SE of the Medical Campus (estimate); no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from the outage list. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-13T17:40:00Z",
+      "id": "stlwater-stlouiscity-compton-magnolia-20261113",
+      "last_updated": "2026-11-13T17:40:00Z",
+      "location": "S Compton Ave between Magnolia Ave and Pestalozzi St, St. Louis City (south City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outage, S Compton Ave between Magnolia Ave and Pestalozzi St (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
@@ -3225,29 +3243,47 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 1:40 PM CT 11/12 (Lanes 1 and 4, same City outages page stamped 1:30 PM): hydrant-repair work order opened 1:03 PM 11/12; not a main break; no service outage, restoration time or boil advisory listed. ~2.5-3 mi SE of the Medical Campus (estimate); City system; not on a Ring 1 corridor or Medical Campus route; no WashU asset. Impact none. Resolve when the work order drops. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 11:40 AM CT 11/13: Halliday & Compton fire hydrant repair no longer appears on the City active work-order list (outages.php stamped 11:30 AM; supervisor verified). Treated as complete per utility list. A new Halliday outage between Compton and Virginia is tracked separately. Impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-12T19:40:00Z",
       "id": "stlwater-stlouiscity-halliday-compton-20261112",
-      "last_updated": "2026-11-12T19:40:00Z",
+      "last_updated": "2026-11-13T17:40:00Z",
       "location": "Halliday Ave at S Compton Ave, St. Louis City (south City)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/outages.php"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "City of St. Louis Water Division fire hydrant repair, Halliday Ave & S Compton Ave (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 10:10 AM CT 11/13 (Lanes 1 and 4, City outages page stamped 9:45 AM): still the only current outage; 7:08 AM restoration estimate passed, crews still working, overdue ~2.5 hr. No boil order. ~4-5 mi SE of the Medical Campus; not a Ring 1 corridor; no WashU asset. Impact none. Resolve when dropped from outages page. Owner: Emergency Management (track only).",
+      "assessment": "New 11:40 AM CT 11/13 (Lane 3; supervisor verified on outages.php stamped 11:30 AM): water off since 10:31 AM 11/13, estimated restoration 10:31 PM; no boil advisory. Same street as the tracked Halliday & Michigan outage and the Halliday & Compton hydrant repair (now off the work-order list); possibly related. ~3 mi SE of the Medical Campus (estimate); no WashU asset; no Ring 1 corridor. Impact none. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-13T17:40:00Z",
+      "id": "stlwater-stlouiscity-halliday-compton-virginia-20261113",
+      "last_updated": "2026-11-13T17:40:00Z",
+      "location": "Halliday Ave between S Compton Ave and E Virginia Ave, St. Louis City (south City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outage, Halliday Ave between S Compton Ave and E Virginia Ave (south City)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "Updated 11:40 AM CT 11/13 (Lanes 1, 3; supervisor verified on refreshed outages.php stamped 11:30 AM): still listed active, ~4.5 hr past its 7:08 AM estimate; no boil advisory. South City; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-13T04:45:00Z",
       "id": "stlwater-stlouiscity-halliday-michigan-20261112",
-      "last_updated": "2026-11-13T16:10:00Z",
+      "last_updated": "2026-11-13T17:40:00Z",
       "location": "Halliday Ave between/at Michigan Ave, St. Louis City 63118 (south City; block not published)",
       "ring": 2,
       "single_source": false,
@@ -3855,6 +3891,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division main break, Thekla Ave & Plover Ave — Metro #41 Lee reroute",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 11:40 AM CT 11/13 (Lane 3; supervisor verified on stlwater.com/outages.php stamped 11:30 AM): water off since 9:58 AM 11/13, estimated restoration 7:58 PM; no boil advisory. May relate to tracked Union Blvd valve repair (block unpublished), not confirmed. ~3 mi N of the Medical Campus and NE of North Campus (estimate); not a Ring 1 corridor; no WashU asset. Impact none. Resolve when dropped from the outage list. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-13T17:40:00Z",
+      "id": "stlwater-stlouiscity-union-bircher-20261113",
+      "last_updated": "2026-11-13T17:40:00Z",
+      "location": "Union Blvd between Bircher Blvd and Brown Ave, St. Louis City (north City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outage, Union Blvd between Bircher Blvd and Brown Ave (north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
