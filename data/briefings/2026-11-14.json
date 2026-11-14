@@ -1,0 +1,210 @@
+{
+  "bluf": "Normal posture. No confirmed life-safety threat, NWS hazard or outage touching a WashU asset. Main load is the Francis Olympic Field doubleheader (football 1 PM, NCAA women's soccer regional final 6 PM) overlapping Blues and Garden Glow in Ring 2, with a hard freeze after dark. Verify an unconfirmed aggregator report of a shooting on S. Kingshighway (Nov 13, 03:38). Week watch: H1N1 flu and measles before Thanksgiving, BYOD extortion group, nationwide EAS test Tue Nov 17.",
+  "briefing_url": "https://claude.ai/artifact/Wt6rxhJ46VBxAjKLUA2HLg",
+  "date": "2026-11-14",
+  "dissents": [
+    {
+      "note": "Moved Monitor to This week; pre-draft travel-disruption message before Thanksgiving.",
+      "title": "FAA ground stop fallout underrated",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Supervisor Sev 3 This week; Red Team Sev 4 carried as dissent.",
+      "title": "Measles importation underrated",
+      "verdict": "Partly adopted / carried"
+    },
+    {
+      "note": "Weather lane already Sev 1.",
+      "title": "Weather and Tyson fire overrated",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Moved to Monitor; recheck Dec 1; Dec 11 deadline stands.",
+      "title": "Shutdown risk overrated near term",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Sev 5 Low; only low-cost readiness check adopted.",
+      "title": "Weekend extortion attack on Medical Campus",
+      "verdict": "Carried"
+    },
+    {
+      "note": "Single aggregator source; Red Team and supervisor found no confirmation.",
+      "title": "Kingshighway shooting",
+      "verdict": "Contested"
+    }
+  ],
+  "lanes_quiet": [
+    1
+  ],
+  "lookahead": [
+    {
+      "date": "2026-11-14",
+      "dow": "Sat",
+      "loads": "Football 1 PM + NCAA soccer regional final 6 PM (Francis Olympic Field); Blues 6 PM; Garden Glow opens",
+      "stacked": true,
+      "wx": "Sunny, ~50F, low mid-20s, hard freeze"
+    },
+    {
+      "date": "2026-11-15",
+      "dow": "Sun",
+      "loads": "NCAA football bracket likely announced",
+      "stacked": false,
+      "wx": "Sunny, low-mid 50s, low upper 20s"
+    },
+    {
+      "date": "2026-11-16",
+      "dow": "Mon",
+      "loads": "None found; FEMA C-UAS grant closes (state only)",
+      "stacked": false,
+      "wx": "Sunny, mid-50s, low ~30"
+    },
+    {
+      "date": "2026-11-17",
+      "dow": "Tue",
+      "loads": "Nationwide EAS test ~1:20 PM; Blues 7 PM",
+      "stacked": false,
+      "wx": "Sunny, mid-upper 50s"
+    },
+    {
+      "date": "2026-11-18",
+      "dow": "Wed",
+      "loads": "None found",
+      "stacked": false,
+      "wx": "Sunny, low 60s"
+    },
+    {
+      "date": "2026-11-19",
+      "dow": "Thu",
+      "loads": "Aldermen jail-deaths follow-up meeting; no protest announced",
+      "stacked": false,
+      "wx": "Partly sunny, mid-60s, 20% rain"
+    },
+    {
+      "date": "2026-11-20",
+      "dow": "Fri",
+      "loads": "Early Thanksgiving departures; watch Nov 21-22 for NCAA home games stack",
+      "stacked": false,
+      "wx": "Mild, possible front (low confidence)"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "quiet",
+      "summary": "No NWS products for STL City/County; dry through Tue; hard freezes mid-20s (Sev 1); no M3+ quakes; first rain chance Thu 20%."
+    },
+    {
+      "name": "Life safety",
+      "pir": 2,
+      "status": "watch",
+      "summary": "Unverified Kingshighway shooting report (contested); UIUC swatting Nov 11 copycat risk; peer homecoming/party shootings; no demonstrations >100 found."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "watch",
+      "summary": "Early H1N1 flu wave nationally, region still low; Missouri measles 21 cases, no STL exposures; no diversion or local advisory found."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "watch",
+      "summary": "BYOD group active vs universities/hospitals; CISA KEV Aspera/OpenSSH; FAA ground stop Nov 13 resolved; Ring 1 utilities not observed."
+    },
+    {
+      "name": "Scheduled activity",
+      "pir": 5,
+      "status": "watch",
+      "summary": "Today stacked; NCAA brackets Sun Nov 15 may bring home playoff games Nov 20-22; Thanksgiving break Nov 25-29."
+    },
+    {
+      "name": "Policy, legal, funding",
+      "pir": 6,
+      "status": "watch",
+      "summary": "Nationwide EAS test Tue Nov 17 ~1:20 PM CT; federal funding deadline Dec 11 (monitor); no grant program changes."
+    }
+  ],
+  "posture": "Normal",
+  "published_at": "2026-11-14T11:58:00Z",
+  "run_note": "Charter read 05:54 CST; all 7 lanes reported; published ~06:00 CST. Ring 1 utility/transit live status not observed (gap).",
+  "title": "WashU EM Daily Intelligence Briefing, November 14, 2026",
+  "today_items": [
+    {
+      "action": "Run staffing, lighting, parking as one operation 11 AM-9 PM; plan for title celebration; cold-exposure brief.",
+      "confidence": "High",
+      "likelihood": "Occurring",
+      "owner": "WUPD, Facilities",
+      "pir": 5,
+      "rank": 1,
+      "severity": 2,
+      "source": "https://washubears.com/sports/football/schedule",
+      "title": "Francis Olympic Field doubleheader: football Senior Day 1 PM + NCAA women's soccer regional final 6 PM",
+      "ttd": "Today"
+    },
+    {
+      "action": "Check travel registry for WashU travelers in Gulf/Levant and contact them.",
+      "confidence": "High",
+      "likelihood": "Occurring",
+      "owner": "Global Programs, Provost",
+      "pir": 6,
+      "rank": 2,
+      "severity": 2,
+      "source": "https://sa.usembassy.gov/security-alert-u-s-mission-to-saudi-arabia-november-13-2026/",
+      "title": "Houthi strikes on Saudi airports; Saudi Arabia Level 3 with ordered departure",
+      "ttd": "Today"
+    },
+    {
+      "action": "Confirm with SLMPD District 2 and BJC Security; advisory only if on-scene.",
+      "confidence": "Low",
+      "likelihood": "Medium",
+      "owner": "Medical Campus Security, WUPD",
+      "pir": 2,
+      "rank": 3,
+      "severity": 3,
+      "source": "https://spotcrime.com/MO/St.%20Louis/Skinker-Debaliviere",
+      "title": "Possible shooting, 40X S. Kingshighway (Medical Campus edge), Nov 13 03:38 — unverified",
+      "ttd": "Today"
+    },
+    {
+      "action": "Confirm mail queues cleared; check for lost EM/WUPD notifications; confirm alerting does not depend only on Exchange.",
+      "confidence": "High",
+      "likelihood": "Occurring",
+      "owner": "WashU IT, EM",
+      "pir": 4,
+      "rank": 4,
+      "severity": 2,
+      "source": "https://emergency.washu.edu",
+      "title": "Microsoft 365 outage aftermath (Nov 12-13)",
+      "ttd": "Today"
+    },
+    {
+      "action": "Confirm weekend on-call IT/security contacts and downtime procedures.",
+      "confidence": "Medium",
+      "likelihood": "Low",
+      "owner": "Medical Campus Security, EM",
+      "pir": 4,
+      "rank": 5,
+      "severity": 5,
+      "source": "https://helpnetsecurity.com/2026/10/27/university-of-new-mexico-hospitals-cyberattack",
+      "title": "Red Team scenario: weekend extortion attack on Medical Campus (UNM Health precedent)",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "Francis Olympic Field doubleheader today (football 1 PM, NCAA soccer regional final 6 PM): run as one continuous operation with freeze after dark.",
+  "unreachable": [
+    "NWS alerts API",
+    "LSX point forecast/AFD",
+    "SPC/WPC outlooks",
+    "AirNow",
+    "NWS river gauges",
+    "poweroutage.us / Ameren / Spire / Metro / MoDOT live status",
+    "cisa.gov (stale) and Nov 13 KEV alert",
+    "Post-Dispatch (paywall)",
+    "KSDK",
+    "travel.state.gov advisory list",
+    "CDC FluView Wk 44",
+    "BJC diversion status (not public)"
+  ]
+}
