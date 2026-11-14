@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "9:35 AM CST 11/14 four-lane run. Lane 1: stlwater /outages/ shows only Union Blvd active; main-repair work orders for 5017 Cabanne, N Grand & Palm, 6815 Dale, Sutherland & Sulphur, Withers & N 2nd, Eichelberger & Alaska still listed; MAW alerts and alertsdetail pages returned empty shells (ID probes 145093+ not possible); MO DNR none in Rings 1-2; MSD and Kirkwood not checked. Lane 2: nothing dated 11/13-14 in Rings 1-2; KFVS list shows Murphysboro Enterprise Ave and Millstone (Pope Co) still in effect, Missouri none. Lane 3: no WashU Alert water item; Facilities Nov 9 notice describes Wallace Dr as exploratory water-line work; Med Campus no domestic water shutdowns 11/13-16. Lane 4: no dated social reports; open count recomputed from database (non-resolved records).",
+    "note": "10:35 AM CST 11/14 four-lane run. Lane 1: stlwater /outages/ unchanged apart from Penrose & Blair dropping off; no City boil advisory listed; MAW alerts page showed no alerts and alertsdetail ID probes (145094+) were blocked or returned empty, so new MAW County alerts cannot be ruled out. Lane 2: nothing new in local news or University City notices; KFVS Heartland list would not load; stlwater boil page shows a stale Aug 17 advisory. Lane 3: no WashU Alert water item; Med Campus shows a heating-water (not domestic) shutdown at BJC Institute of Health 6 AM-3 PM today. Lane 4: no dated social reports.",
     "open_count": 133,
-    "run_at": "2026-11-14T15:45:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU. City Water Union Blvd (Bircher–Brown) outage still listed active, ~14 hr past its 7:58 PM 11/13 estimate (Ring 2, impact none). No City or County boil advisory (stlwater boil page none; MO DNR none in St. Louis City/County). Jolley/Cupples II still has no lift notice (monitoring). Wallace Dr (South 40) clarified as planned exploratory water-line work for McLeod House; Nov 12-13 window ended, no completion notice. MAW University City 144457/144507, Clayton 144021 and Richmond Heights 143300 still tracked (likely stale), impact possible (low)."
+    "run_at": "2026-11-14T16:40:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU. City Water Union Blvd (Bircher–Brown) outage still listed active, ~15 hr past its 7:58 PM 11/13 estimate (Ring 2, impact none). Penrose & Blair 36-inch work order dropped off the City list (completion unconfirmed). No City or County boil advisory. Jolley/Cupples II order's posted window ended Oct 31 with no lift notice (monitoring). Wallace Dr (South 40) work window ended 11/13, no completion notice. MAW University City 144457/144507, Clayton 144021 and Richmond Heights 143300 still tracked (likely stale), impact possible (low)."
   },
   "incidents": [
     {
@@ -3785,19 +3785,16 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 6:45 AM CT 11/14 (Lane 1): Penrose & Blair no longer appears among the 18 recent work orders on the stlwater outages/repairs list; likely closed but the City has not confirmed completion, so kept in monitoring. North City, Ring 2; no WashU asset; impact none. Resolve when completion is confirmed. Owner: Emergency Management (track only).",
+      "assessment": "Updated 10:40 AM CT 11/14 (Lane 1): Penrose & Blair work order no longer appears among the 18 recent work orders on stlwater.com/outages; the City has posted no completion notice, so repair is likely done but unconfirmed. Kept in monitoring. North City, Ring 2; no WashU asset. Impact none. Resolve when completion is confirmed. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-13T20:40:00Z",
       "id": "stlwater-stlouiscity-penrose-blair-20261113",
-      "last_updated": "2026-11-14T12:45:00Z",
+      "last_updated": "2026-11-14T16:40:00Z",
       "location": "Penrose St & Blair Ave, edge of Windsor Park, north St. Louis City",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://ksdk.com/article/news/local/water-main-break-flooding-penrose-blair-north-st-louis/63-e6479b5a-3a5e-488a-ba98-dda01eb682a9",
-        "https://www.ksdk.com/video/news/local/massive-water-main-break-closes-north-st-louis-intersection-friday/63-441c7b48-0c98-40da-8474-13e80960af8a",
-        "https://www.ksdk.com/article/news/investigations/north-st-louis-water-main-break-sparks-urgent-calls-insfrastructure-overhaul/63-74e3b575-e3bd-4dd5-9e34-872e24a667f3",
-        "https://www.stlwater.com/outages.php"
+        "https://www.stlwater.com/outages"
       ],
       "status": "monitoring",
       "title": "City Water 36-inch main break closes Penrose St & Blair Ave, north St. Louis (date unconfirmed)",
