@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "9:40 PM CST 11/13 four-lane run. Lane 1: outages.php 9:30 PM stamp, 1 active outage (Union Blvd) and 18 work orders, all tracked; Halliday & Michigan outage and Halliday & Compton hydrant off list; Penrose & Blair not in work orders (already monitoring). MAW 145072 Bridgeton still posted past ~8:30 PM estimate. MAW ID probe 145084-145088, 145090 empty; 145081-145082 California; next run start 145084. MAW alerts and boil pages script-rendered (no confirmed none); data.mo.gov no St. Louis entries 11/12-14; Kirkwood fetch failed; MSD not checked. Lane 2: nothing dated 11/12-13 in St. Louis; KFVS Missouri none; Murphysboro Enterprise Ave in effect, Tina Dr absent; Greenville IL order confirmed for 11/16. Lane 3: no water notices; Facilities pages unchanged; BJC/Cortex/Loop/MoDOT not checked. Lane 4: social site searches rejected by search proxy, lane effectively unsearched; read stale 1:30 AM stlwater cache.",
+    "note": "10:40 PM CST 11/13 four-lane run. Lane 1: outages.php updated 10:30 PM, Union Blvd only active outage; 18 work orders, Marcus/St. Louis Ave hydrant already tracked; Penrose & Blair, Halliday, Compton & Magnolia, Jamieson, Morganford, TE Huntley & Delmar absent from work orders (not confirmed closed). IAW 145084 Lemont lift (resolved). MAW ID probe 145085-145090 empty; next run start 145085. MAW alerts/boil pages did not render; data.mo.gov no St. Louis City/County records; MSD and Kirkwood not checked. Lane 2: nothing dated 11/13 in St. Louis; undated KSDK north City 'Friday' break clip not adopted; Murphysboro Enterprise Ave in effect, Tina Dr absent (unconfirmed lift); Pope County Millstone in effect. Lane 3: no water notices; BIH basement heating-water outage 11/14 6 AM-3 PM (not potable); Facilities pages unchanged; BJC/Cortex/Loop/MoDOT not checked. Lane 4: nothing dated 11/12-14; social sources thin.",
     "open_count": 135,
-    "run_at": "2026-11-14T03:40:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU. Union Blvd (Bircher–Brown) City outage still active at 9:30 PM, ~1.5 hr past estimate (Ring 2, impact none). Cabanne Ave outage remains off the active list; 5017 Cabanne repair still open. No City or County boil advisory. Standing: Jolley/Cupples II no-water-use order and Wallace Dr work window ended with no completion notice; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 still posted (likely stale), impact possible (low)."
+    "run_at": "2026-11-14T04:40:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU. Union Blvd (Bircher–Brown) City outage still being worked at 10:30 PM, ~2.5 hr past 7:58 PM estimate (Ring 2, impact none). No City or County boil advisory. Standing: Jolley/Cupples II no-water-use order (no lift posted) and Wallace Dr work window ended with no completion notice; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 still posted (likely stale), impact possible (low)."
   },
   "incidents": [
     {
@@ -270,18 +270,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 10:10 AM CT 11/13 (Lane 1 only, one-line view): IAW alert 144992, boil order; details not pulled. ~270 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 10:40 PM CT 11/13 (Lane 1): IAW alert 145084 posts the Lemont Rd boil order lift (no timestamp); 144992 is the only tracked Lemont event, so treated as its lift. ~270 mi NE; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Low",
       "first_seen": "2026-11-13T16:10:00Z",
       "id": "ilaw-lemont-unlocated-20261113",
-      "last_updated": "2026-11-13T16:10:00Z",
+      "last_updated": "2026-11-14T04:40:00Z",
       "location": "Lemont, IL (Cook/Will County, Chicago area; streets not published)",
       "ring": 3,
       "single_source": true,
       "sources": [
-        "https://alertsdetail.awapps.com/alert/144992"
+        "https://alertsdetail.awapps.com/alert/144992",
+        "https://alertsdetail.awapps.com/alert/145084"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "Illinois American Water boil order, Lemont, IL (alert 144992)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
