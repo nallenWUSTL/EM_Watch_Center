@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "8:40 AM CST 11/14 four-lane run. Lane 1: stlwater /outages/ (page stamp 2:30 AM) shows only Union Blvd active; wateroos.php is a stale 2014 test page, so use /outages/; MAW alert IDs 145089-145092 and the MAW alerts list are script-rendered and unverifiable; MSD, Kirkwood and MO DNR not reached. Lane 2: nothing dated 11/13-14 in Rings 1-2; KFVS list shows Murphysboro Enterprise Ave (tracked) still in effect, Missouri none; U City newsflash has no water items. Lane 3: WashU Alert shows only the M365 notice; no Facilities lift for Jolley/Cupples II and no Wallace Dr completion notice; Med Campus BJC IOH heating-water and North Building power work today (not domestic water). Lane 4: no dated social reports.",
-    "open_count": 136,
-    "run_at": "2026-11-14T14:40:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU. City Water Union Blvd (Bircher–Brown) outage still listed active, ~13 hr past its 7:58 PM 11/13 estimate (Ring 2, impact none). No City or County boil advisory found. Jolley/Cupples II no-water-use window (Oct 29–31) passed with no lift notice (monitoring); Wallace Dr work window ended with no completion notice. MAW University City 144457/144507, Clayton 144021 and Richmond Heights 143300 still tracked (likely stale), impact possible (low)."
+    "note": "9:35 AM CST 11/14 four-lane run. Lane 1: stlwater /outages/ shows only Union Blvd active; main-repair work orders for 5017 Cabanne, N Grand & Palm, 6815 Dale, Sutherland & Sulphur, Withers & N 2nd, Eichelberger & Alaska still listed; MAW alerts and alertsdetail pages returned empty shells (ID probes 145093+ not possible); MO DNR none in Rings 1-2; MSD and Kirkwood not checked. Lane 2: nothing dated 11/13-14 in Rings 1-2; KFVS list shows Murphysboro Enterprise Ave and Millstone (Pope Co) still in effect, Missouri none. Lane 3: no WashU Alert water item; Facilities Nov 9 notice describes Wallace Dr as exploratory water-line work; Med Campus no domestic water shutdowns 11/13-16. Lane 4: no dated social reports; open count recomputed from database (non-resolved records).",
+    "open_count": 133,
+    "run_at": "2026-11-14T15:45:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU. City Water Union Blvd (Bircher–Brown) outage still listed active, ~14 hr past its 7:58 PM 11/13 estimate (Ring 2, impact none). No City or County boil advisory (stlwater boil page none; MO DNR none in St. Louis City/County). Jolley/Cupples II still has no lift notice (monitoring). Wallace Dr (South 40) clarified as planned exploratory water-line work for McLeod House; Nov 12-13 window ended, no completion notice. MAW University City 144457/144507, Clayton 144021 and Richmond Heights 143300 still tracked (likely stale), impact possible (low)."
   },
   "incidents": [
     {
