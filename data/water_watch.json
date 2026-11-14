@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "6:40 PM CST 11/13 four-lane run. Lane 1: outages.php 6:30 PM stamp, Current Advisories empty; Halliday & Michigan and Penrose & Blair still off lists (already monitoring); hydrant repairs listed (Gravois, Keokuk, Oleatha/Potomac/Marquette/Fyler, E Carrie & Hall) routine, not tracked. MAW IDs probed 145076-145088: 145076 Branson investigation (not tracked), 145078 Pittsburgh, 145081-82 Oakhurst CA, 145083+ empty; next run start 145083. MAW alerts index did not render; IAW, MSD, Kirkwood not checked. MO DNR dataset: none in STL City/County. Lane 2: nothing dated 11/12-13; undated MAW Bridgeton/Maryland Heights boil story judged old; KFVS list not reached. Lane 3: WashU Alert, Facilities, Med Campus Facilities unchanged; no water items near Ring 1. Lane 4: nothing new; City water news newest 8/25.",
+    "note": "7:40 PM CST 11/13 four-lane run. Lane 1: outages.php 7:30 PM stamp, Current Advisories empty; Union Blvd only outage; Halliday & Michigan, Penrose & Blair, Academy off repair list; Cabanne, N Grand & Palm, Dale, Sutherland still listed. MAW 145072 Bridgeton and 145080 still posted; other tracked MAW IDs not reopened. IDs 145084-145090, 145095 empty; next run start 145084. MO DNR none in STL City/County; MSD, Kirkwood not checked. Lane 2: nothing dated 11/12-13; KFVS list Missouri none. Lanes 2 and 4: stlwater.com 'Boil Advisory Currently In Effect' page (?p=9725) is the stale Aug 17 Chain of Rocks advisory lifted Aug 18; do not treat as active. Lane 3: WashU Alert, Danforth and Med Campus Facilities no water notices; Med Campus BJCIH heating-water shutdown 11/14 6 AM-3 PM (heating loop, not domestic). Lane 4: nothing new; City water news newest 8/25.",
     "open_count": 135,
-    "run_at": "2026-11-14T00:40:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU. New: three unplaced MAW St. Louis County alerts (main breaks 145077, 145080; investigation 145079), impact none. City Union Blvd (Bircher–Brown) still out, est 7:58 PM. MAW Bridgeton 145072 still active (~8:30 PM). No City or County boil advisory. Standing: Wallace Dr (South 40) window ended, no completion notice; Jolley/Cupples II no public lift; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 impact possible (low)."
+    "run_at": "2026-11-14T01:40:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU. New: IAW Peoria 145083 main break with boil on restoration (Ring 3, impact none). Resolved: City Halliday & Michigan (off lists 3 reads). City Union Blvd (Bircher–Brown) still listed at 7:30 PM, est 7:58 PM. No City or County boil advisory. Standing: Wallace Dr (South 40) and Jolley/Cupples II windows ended with no completion notice; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 impact possible (low)."
   },
   "incidents": [
     {
@@ -423,6 +423,24 @@
       ],
       "status": "open",
       "title": "Illinois American Water main break with boil order, Peoria, IL (alert 144452)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 7:40 PM CT 11/13 (Lane 1 only, ID probe): IAW alert 145083, main-break repairs from 7:00 PM 11/13, ~4 hr estimate; service returns under a boil order until a lift is posted. Separate from tracked Peoria events by start time. ~150 mi NNE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-14T01:40:00Z",
+      "id": "ilaw-peoria-unlocated-20261113",
+      "last_updated": "2026-11-14T01:40:00Z",
+      "location": "Peoria, IL (Peoria County; streets not published by utility)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145083"
+      ],
+      "status": "open",
+      "title": "Illinois American Water main break with boil order on restoration, Peoria, IL (alert 145083)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
     },
@@ -3351,18 +3369,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 5:40 PM CT 11/13 (Lane 1; stlwater.com/outages.php stamped 5:30 PM): Halliday & Michigan no longer listed as an outage or on the main-repair list; service appears restored, no completion notice posted. First read of the drop, so moved to monitoring, not resolved. No boil advisory. South City; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 7:40 PM CT 11/13 (Lane 1; stlwater.com/outages.php stamped 7:30 PM): Halliday & Michigan absent from both the outage and main-repair lists on a third consecutive read since 5:30 PM; treated as repair complete per utility list (no completion notice posted). No boil advisory. South City, Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-13T04:45:00Z",
       "id": "stlwater-stlouiscity-halliday-michigan-20261112",
-      "last_updated": "2026-11-13T23:40:00Z",
+      "last_updated": "2026-11-14T01:40:00Z",
       "location": "Halliday Ave between/at Michigan Ave, St. Louis City 63118 (south City; block not published)",
       "ring": 2,
       "single_source": false,
       "sources": [
         "https://www.stlwater.com/outages.php"
       ],
-      "status": "monitoring",
+      "status": "resolved",
       "title": "City of St. Louis Water Division service outage, Halliday Ave & Michigan Ave (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"

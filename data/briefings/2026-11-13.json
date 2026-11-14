@@ -1,183 +1,196 @@
 {
-  "bluf": "Posture Normal. No weather hazard, Ring 1 violence, WashU-named threat, health advisory or Ring 1 outage in the next 72 h; cold, dry, sunny week with sub-freezing nights Fri-Mon. Today's decision is cyber: BYOD ransomware hit Vanderbilt Nov 9 and claims the UNM HSC attack that caused trauma diversion. A reported internal OneDrive exposure included event emergency plans; EM should confirm whether its plans were affected. Saturday is the peak load day; early flu season rising ahead of Thanksgiving.",
-  "briefing_url": "https://claude.ai/artifact/9kbjzXjj83HxF1rhF2GDRY",
+  "bluf": "Posture Elevated, low end. No life-safety threat in Ring 1. First hard freeze of the season is under way tonight through Sunday morning with no NWS product. Saturday stacks a Forest Park 5K, 1 PM football and a 6 PM NCAA soccer regional final. The global Microsoft 365 outage that began Thursday is recovering but not confirmed resolved; the FAA nationwide ground stop was lifted after about four hours with cancellations into the weekend.",
+  "briefing_url": "https://claude.ai/artifact/88vScgvWamxbhfMsLBGKWE",
   "date": "2026-11-13",
   "dissents": [
     {
-      "note": "Raised to Sev 4/Today over Cyber lane's Sev 3/This week; likelihood kept Low.",
-      "title": "BYOD campaign underrated",
+      "note": "Set Sev 2, Now, overruling Weather lane's Sev 1, Monitor on timing.",
+      "title": "First hard freeze underrated",
       "verdict": "adopted in part"
     },
     {
-      "note": "Kept Sev 2; isolation-housing and BJC trend actions added.",
-      "title": "Flu and measles before Thanksgiving underrated",
-      "verdict": "adopted in part"
-    },
-    {
-      "note": "Consistent with Weather lane.",
-      "title": "Weather/freeze overrated",
+      "note": "This-week item; single-source (Student Life), Medium confidence.",
+      "title": "Exposed event security plans underrated",
       "verdict": "adopted"
     },
     {
-      "note": "Monitor; consistent with Policy lane.",
-      "title": "Dec 11 CR deadline overrated",
+      "note": "Kept Sev 3, Today: fixes failed once and email-dependent alerting is worth checking.",
+      "title": "Microsoft 365 outage overrated",
+      "verdict": "rejected, carried as dissent"
+    },
+    {
+      "note": "Sev 1, Monitor; only touchpoint is a patient at Children's.",
+      "title": "Warrenton stabbing overrated",
       "verdict": "adopted"
     },
     {
-      "note": "Sev 5, Low/Low. Strengthened: BYOD claims UNM HSC attack that caused diversion. Suggest EHR-downtime/diversion tabletop with BJC this week.",
-      "title": "Ransomware at BJC/WashU Medicine causes diversion during flu ramp",
+      "note": "Sev 5, Low. Vanderbilt confirmed an incident, not the group; vector undisclosed.",
+      "title": "Scenario: weekend ransomware on WashU or Medical Campus during M365 degradation",
       "verdict": "carried as dissent"
     }
   ],
   "lanes_quiet": [
-    1,
     2,
     6
   ],
   "lookahead": [
     {
-      "date": "2026-11-13",
-      "dow": "Fri",
-      "loads": "MBB vs Millikin 7 PM Field House; SLAM events Forest Park; Fox, SLIFF, Flyover",
-      "stacked": true,
-      "wx": "Sunny, 46/28F, N wind 7-10"
-    },
-    {
       "date": "2026-11-14",
       "dow": "Sat",
-      "loads": "Football vs Wooster (Senior Day) 1 PM; Blues vs FLA 6 PM Enterprise; Roy Wood Jr. 7 PM Pageant",
+      "loads": "Forest Park 5K 8:30-11 AM with closures; football vs Wooster 1 PM; NCAA soccer regional final 6 PM; Diwali at Edison; Pageant 7 PM; Blues 6 PM; Lambert backlog",
       "stacked": true,
-      "wx": "Sunny, calm, 49/29F"
+      "wx": "Sunny, 49/28F"
     },
     {
       "date": "2026-11-15",
       "dow": "Sun",
-      "loads": "SLU vs High Point 2 PM Chaifetz; last day Fox/SLIFF/Flyover; Shaun Cassidy Pageant 8 PM (unconfirmed)",
-      "stacked": true,
-      "wx": "Sunny, 51/31F"
+      "loads": "D-III football selection show 4 PM; Pageant 8 PM; MetroLink downtown single-tracking ends",
+      "stacked": false,
+      "wx": "Sunny, 53/31F"
     },
     {
       "date": "2026-11-16",
       "dow": "Mon",
-      "loads": "Journey 7:30 PM Enterprise",
+      "loads": "Journey 7:30 PM Enterprise Center",
       "stacked": false,
-      "wx": "Sunny, 53/32F"
+      "wx": "Sunny, 56/32F"
     },
     {
       "date": "2026-11-17",
       "dow": "Tue",
-      "loads": "National EAS/WEA test ~1:20 PM; Blues vs ANA 7 PM; Alter Bridge Pageant (unconfirmed)",
+      "loads": "Gateway Regional CMS termination date; Blues 7 PM",
       "stacked": false,
-      "wx": "Sunny, 57/34F"
+      "wx": "Sunny, 58/35F"
     },
     {
       "date": "2026-11-18",
       "dow": "Wed",
-      "loads": "No confirmed loads",
+      "loads": "Nothing found",
       "stacked": false,
-      "wx": "Sunny, 61/43F"
+      "wx": "Sunny, 63/45F"
     },
     {
       "date": "2026-11-19",
       "dow": "Thu",
-      "loads": "No confirmed loads",
+      "loads": "Nothing found",
       "stacked": false,
-      "wx": "Mostly sunny, 65F"
+      "wx": "20% rain, 64/51F"
+    },
+    {
+      "date": "2026-11-20",
+      "dow": "Fri",
+      "loads": "Pageant 8 PM; possible home football playoff next day",
+      "stacked": false,
+      "wx": "20% rain then sun, 69F"
     }
   ],
   "pirs": [
     {
       "name": "Weather and natural hazards",
       "pir": 1,
-      "status": "quiet",
-      "summary": "No NWS hazards; sunny and dry through Thu, lows 28-32F Fri-Mon nights, highs 46 to 65F. Tyson dry-stretch grass fire watch below Red Flag. No regional M2.5+ quakes."
+      "status": "watch",
+      "summary": "No NWS product seen; hard-freeze nights through Sun AM, dry and sunny to Wed, 20% rain Thu-Fri. Rivers low, no quakes, AQI Good."
     },
     {
       "name": "Life-safety threats",
       "pir": 2,
-      "status": "watch",
-      "summary": "No Ring 1 violent incident, threat or large demonstration. WUPD investigating Oct 21 predatory flyers (Women's Building, DUC). Copycat/hoax watch after Nov 12 Warrenton school stabbing; Feb 2026 swatting precedent."
+      "status": "quiet",
+      "summary": "No Ring 1 violent incident, WashU-named threat or large demonstration found (media sources, not police feeds). Warrenton stabbing patient at Children's; WUPD flyer investigation continues."
     },
     {
       "name": "Public health and Medical Campus",
       "pir": 3,
       "status": "watch",
-      "summary": "Early, rising flu season (CDC Wk 42; City ILI 51 cases Oct 25-31), no advisory; push vaccination before Nov 25 break. MO measles 21 cases YTD, no active exposures. BJC diversion status unconfirmed."
+      "summary": "Gateway Regional (Granite City) on ambulance bypass with CMS termination date Tue Nov 17; possible cross-river demand. Respiratory illness low, flu rising; no active measles exposures."
     },
     {
       "name": "Cyber and infrastructure",
       "pir": 4,
       "status": "active",
-      "summary": "BYOD ransomware campaign (Sev 4, Today); KEV patching; OneDrive exposure of event plans; Health-ISAC refrigeration-controller warning (This week). No Ring 1 utility/transit outage found."
+      "summary": "Microsoft 365 outage recovering; FAA ground stop lifted with weekend backlog. Vanderbilt/BYOD ransomware and reported OneDrive exposure of event plans are This-week items. Blue Line truncated through Dec 23. No Ring 1 utility outage found."
     },
     {
       "name": "Scheduled activity",
       "pir": 5,
       "status": "watch",
-      "summary": "Sat 11/14 peak stack: football Senior Day 1 PM, Blues 6 PM, Roy Wood Jr. at Pageant 7 PM. No Ring 1 event over 5,000. Possible D3 playoff hosting Sat 11/21 (unconfirmed)."
+      "summary": "Sat Nov 14 is the only stacked day. Possible home football playoff Sat Nov 21, decided Sun 4 PM. No Ring 1 event confirmed over 5,000."
     },
     {
       "name": "Policy, legal, funding",
       "pir": 6,
       "status": "quiet",
-      "summary": "No change to programs WashU draws on. CR expires Dec 11 (monitor). Oct 23 Middle East L3/L4 advisories stand. Nationwide EAS/WEA test Tue 11/17 ~1:20 PM CT (single source)."
+      "summary": "No program change. CR and NFIP expire Dec 11. Saudi Arabia remains Level 3; no November advisory level change found. MSU alerting review pending."
     }
   ],
-  "posture": "Normal",
-  "published_at": "2026-11-13T12:00:32Z",
-  "run_note": "Charter read (rev 10). All 7 lanes reported by ~06:00 CT; none cut off. Sev 4 item re-verified at source. Several live status pages (NWS LSX text products, SPC, river gauges, AQI, police releases, utility/vendor status) unreachable or not opened.",
+  "posture": "Elevated",
+  "published_at": "2026-11-14T01:45:00Z",
+  "run_note": "Evening re-run (about 7:37-7:45 PM CT) requested by the Emergency Manager; replaces the morning Nov 13 record. Charter read (rev 10). All 7 lanes reported. Sev 5 Red Team scenario re-checked against BleepingComputer; FAA and Microsoft status updated from search headlines only. Many live status pages unreachable (see unreachable).",
   "title": "WashU EM Daily Intelligence Briefing, November 13, 2026",
   "today_items": [
     {
-      "action": "IT/CISO confirm REN-ISAC/Health-ISAC BYOD indicators checked, offline backups validated, credential-stuffing monitoring on; EM confirm continuity plan covers campus-wide 'devices off' with out-of-band comms.",
+      "action": "Weekend freeze walk-down: confirm heat or drain-down for temporary water at 6200 Forsyth and spaces above West Campus basement archives; cold-exposure note to Tyson crews.",
       "confidence": "Medium",
-      "likelihood": "Low",
-      "owner": "WashU IT; EM",
-      "pir": 4,
+      "likelihood": "Occurring",
+      "owner": "Facilities; EM",
+      "pir": 1,
       "rank": 1,
-      "severity": 4,
-      "source": "https://bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed",
-      "title": "BYOD ransomware campaign vs universities and academic medical centers",
-      "ttd": "Today"
+      "severity": 2,
+      "source": "https://forecast.weather.gov/MapClick.php?zoneid=MOZ064",
+      "title": "First hard freeze tonight through Sun AM (lows 25-29F; upper teens possible at Tyson)",
+      "ttd": "Now"
     },
     {
-      "action": "Inventory and patch or confirm not in use.",
-      "confidence": "Medium",
-      "likelihood": "Medium",
-      "owner": "WashU IT",
-      "pir": 4,
+      "action": "Confirm parking, EMS and staffing turnover between the 1 PM and 6 PM events; advise commuters to avoid Forest Park cut-throughs before 11 AM.",
+      "confidence": "High",
+      "likelihood": "High",
+      "owner": "WUPD; EM; Student Affairs",
+      "pir": 5,
       "rank": 2,
       "severity": 2,
-      "source": "https://www.esecurityplanet.com/vulnerabilities/news-cisa-kev-gpustack-freeswitch-openssh-ibm-november-2026/",
-      "title": "CISA KEV additions (GPUStack, FreeSWITCH, OpenSSH musl, IBM Aspera Faspex), Nov 12 federal deadline",
-      "ttd": "Today"
+      "source": "https://washubears.com/news/2026/11/12/preview-no-3-washu-womens-soccer-to-host-ncaa-regional-this-weekend-at-francis-olympic-field.aspx",
+      "title": "Saturday stack: Forest Park 5K 8:30-11 AM, football vs Wooster 1 PM, NCAA soccer regional final 6 PM",
+      "ttd": "Now"
     },
     {
-      "action": "Ask IT whether EM/WUPD event security plans were exposed; if so, review security details for Saturday's game and upcoming events.",
-      "confidence": "Medium",
-      "likelihood": "Low",
-      "owner": "EM; WashU IT",
+      "action": "Confirm with WashU IT whether the tenant is affected; verify WashU Alert SMS and voice work without email; confirm an out-of-band weekend call tree.",
+      "confidence": "High on event, Low on current status",
+      "likelihood": "Occurring",
+      "owner": "EM; Communications",
       "pir": 4,
       "rank": 3,
       "severity": 3,
-      "source": "https://www.studlife.com/news/2026/11/03/data-exposure-revealed-hundreds-of-internal-university-documents-to-students-faculty-and-staff",
-      "title": "Event emergency plans among files in internal OneDrive exposure (reported Nov 3)",
+      "source": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
+      "title": "Microsoft 365 global outage (MO1550821), recovering, not confirmed resolved",
+      "ttd": "Today"
+    },
+    {
+      "action": "Check weekend team, guest and speaker air travel; warn Medical Campus units about time-critical air shipments through Saturday.",
+      "confidence": "Medium",
+      "likelihood": "Occurring",
+      "owner": "EM; Student Affairs; Medical Campus Security",
+      "pir": 4,
+      "rank": 4,
+      "severity": 2,
+      "source": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+      "title": "FAA ground stop aftermath at Lambert; cancellations into the weekend",
       "ttd": "Today"
     }
   ],
-  "top_item": "BYOD ransomware campaign vs universities/AMCs (Vanderbilt Nov 9; claims UNM HSC diversion attack): WashU IT/CISO confirm indicator checks, offline backups, and EM 'devices off' continuity today.",
+  "top_item": "Freeze tonight plus stacked Saturday while Microsoft 365 and air travel recover: run a freeze walk-down (6200 Forsyth, West Campus archives), confirm the football-to-soccer turnover plan, and verify WashU Alert works without email.",
   "unreachable": [
-    "NWS LSX AFD/HWO/fire products (stale cache; api.weather.gov blocked)",
-    "SPC current outlooks",
-    "NOAA river gauges",
-    "AirNow / MO DNR AQI",
-    "SLMPD, U City PD, County PD releases (not opened)",
-    "Ameren, Spire, Metro, MoDOT, Lambert, vendor status pages (not opened)",
-    "BJC diversion status (no public source)",
-    "MO DHSS flu dashboard",
-    "CDC NWSS state values",
-    "happenings.washu.edu calendar",
-    "CNN FEMA security funding story",
-    "Brown safety review (not opened)"
+    "NWS alerts feed and Friday LSX discussion",
+    "SPC Day 1-2 pages",
+    "AirNow",
+    "NOAA river forecasts",
+    "SLMPD, Clayton, University City, County PD releases",
+    "WashU Alert archive",
+    "St. Louis County health",
+    "BJC/SSM diversion status",
+    "Ameren outage map and Spire",
+    "MoDOT current work zones",
+    "travel.state.gov",
+    "federalregister.gov",
+    "FEMA press releases",
+    "WashU events calendar"
   ]
 }
