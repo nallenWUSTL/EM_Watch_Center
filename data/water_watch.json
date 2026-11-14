@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "7:40 PM CST 11/13 four-lane run. Lane 1: outages.php 7:30 PM stamp, Current Advisories empty; Union Blvd only outage; Halliday & Michigan, Penrose & Blair, Academy off repair list; Cabanne, N Grand & Palm, Dale, Sutherland still listed. MAW 145072 Bridgeton and 145080 still posted; other tracked MAW IDs not reopened. IDs 145084-145090, 145095 empty; next run start 145084. MO DNR none in STL City/County; MSD, Kirkwood not checked. Lane 2: nothing dated 11/12-13; KFVS list Missouri none. Lanes 2 and 4: stlwater.com 'Boil Advisory Currently In Effect' page (?p=9725) is the stale Aug 17 Chain of Rocks advisory lifted Aug 18; do not treat as active. Lane 3: WashU Alert, Danforth and Med Campus Facilities no water notices; Med Campus BJCIH heating-water shutdown 11/14 6 AM-3 PM (heating loop, not domestic). Lane 4: nothing new; City water news newest 8/25.",
+    "note": "8:40 PM CST 11/13 four-lane run. Lane 1: outages.php 8:30 PM stamp; Union Blvd only outage; repair list unchanged except new hydrant Marcus & St. Louis Ave; Penrose & Blair not listed (already monitoring). MAW 145072 Bridgeton (due ~8:30 PM) and 145080 still posted. MAW ID probe 145088, 145091-145101, 145105, 145110 empty; next run start 145084. MAW boil page, Kirkwood failed to load; data.mo.gov blocked; MSD not checked. Lane 2: nothing dated 11/12-13; KFVS Missouri none; Murphysboro Enterprise Ave listed, Tina Dr gone. Lane 3: no water notices; Med Campus North Building electrical shutdown 11/14 6-10 AM (not water); BJCIH heating-water shutdown 11/14 confirmed (not domestic). Lane 4: nothing new.",
     "open_count": 135,
-    "run_at": "2026-11-14T01:40:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU. New: IAW Peoria 145083 main break with boil on restoration (Ring 3, impact none). Resolved: City Halliday & Michigan (off lists 3 reads). City Union Blvd (Bircher–Brown) still listed at 7:30 PM, est 7:58 PM. No City or County boil advisory. Standing: Wallace Dr (South 40) and Jolley/Cupples II windows ended with no completion notice; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 impact possible (low)."
+    "run_at": "2026-11-14T02:40:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU. New: City hydrant repair Marcus & St. Louis Ave (Ring 2, impact none). Union Blvd (Bircher–Brown) outage past 7:58 PM estimate, still listed 8:30 PM. Murphysboro IL Tina Dr off KFVS list (monitoring). No City or County boil advisory. Standing: Wallace Dr (South 40) and Jolley/Cupples II windows ended with no completion notice; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 impact possible (low)."
   },
   "incidents": [
     {
@@ -3013,18 +3013,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 1:40 PM CT 11/12 (Lane 2): KFVS Heartland boil list (modified ~8:49 AM CT 11/12) again shows the Murphysboro Tina Dr boil order (issued Tue 11/10, all of Tina Dr) as active until further notice, so returned from monitoring to open. ~90 mi SE; separate system; no WashU asset. Impact none. Resolve when the lift is reported. Owner: Emergency Management (track only).",
+      "assessment": "Updated 8:40 PM CT 11/13 (Lane 2): Tina Dr no longer appears on the KFVS Heartland boil list (modified ~3:37 PM CT 11/13; Enterprise Ave listed instead); lift not confirmed by the city, so moved to monitoring, not resolved. ~90 mi SE; separate system; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-10T22:40:00Z",
       "id": "murphysboro-murphysboro-tinadr-20261110",
-      "last_updated": "2026-11-12T19:40:00Z",
+      "last_updated": "2026-11-14T02:40:00Z",
       "location": "All of Tina Dr, Murphysboro, IL (Jackson County)",
       "ring": 3,
       "single_source": true,
       "sources": [
         "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of Murphysboro, IL boil order, all of Tina Dr",
       "utility": "City of Murphysboro, IL",
       "washu_impact": "none"
@@ -3541,6 +3541,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 8:40 PM CT 11/13 (Lane 1 only): hydrant repair work order opened 7:42 PM 11/13 on the City repair list (page stamped 8:30 PM); not a main break or outage; no restoration time; no boil order. ~3 mi NW of the Medical Campus (estimate); no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from the City list. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-14T02:40:00Z",
+      "id": "stlwater-stlouiscity-marcus-stlouisave-hydrant-20261113",
+      "last_updated": "2026-11-14T02:40:00Z",
+      "location": "Marcus Ave & St. Louis Ave, St. Louis City (north City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division fire hydrant repair, Marcus Ave & St. Louis Ave (north City)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 9:40 AM CT 10/26: live City Water Division outage table (stlwater.com/wateroos.php, stamped 9:30 AM 10/26) states no active water main outages; both Marquette Ave & Ivanhoe Ave rows are gone from the active table and only the 10/22 1:41 PM Main - Repair work order remains in the recent-repairs history (all four lanes). Treated as restored per utility page; exact restoration time not published (between 10/23 11:30 AM and 10/26 9:30 AM). No boil advisory was ever posted. Lindenwood Park, south City, Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "High",
       "first_seen": "2026-10-22T19:40:00Z",
@@ -4007,11 +4025,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 11:40 AM CT 11/13 (Lane 3; supervisor verified on stlwater.com/outages.php stamped 11:30 AM): water off since 9:58 AM 11/13, estimated restoration 7:58 PM; no boil advisory. May relate to tracked Union Blvd valve repair (block unpublished), not confirmed. ~3 mi N of the Medical Campus and NE of North Campus (estimate); not a Ring 1 corridor; no WashU asset. Impact none. Resolve when dropped from the outage list. Owner: Emergency Management (track only).",
+      "assessment": "Updated 8:40 PM CT 11/13 (Lane 1): still the only active City outage on outages.php at 8:30 PM, past its 7:58 PM restoration estimate; crews working; outage began 9:58 AM 11/13; no new estimate; no boil order. North City, Ring 2; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from the outage list. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-13T17:40:00Z",
       "id": "stlwater-stlouiscity-union-bircher-20261113",
-      "last_updated": "2026-11-13T17:40:00Z",
+      "last_updated": "2026-11-14T02:40:00Z",
       "location": "Union Blvd between Bircher Blvd and Brown Ave, St. Louis City (north City)",
       "ring": 2,
       "single_source": true,
