@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "8:40 PM CST 11/13 four-lane run. Lane 1: outages.php 8:30 PM stamp; Union Blvd only outage; repair list unchanged except new hydrant Marcus & St. Louis Ave; Penrose & Blair not listed (already monitoring). MAW 145072 Bridgeton (due ~8:30 PM) and 145080 still posted. MAW ID probe 145088, 145091-145101, 145105, 145110 empty; next run start 145084. MAW boil page, Kirkwood failed to load; data.mo.gov blocked; MSD not checked. Lane 2: nothing dated 11/12-13; KFVS Missouri none; Murphysboro Enterprise Ave listed, Tina Dr gone. Lane 3: no water notices; Med Campus North Building electrical shutdown 11/14 6-10 AM (not water); BJCIH heating-water shutdown 11/14 confirmed (not domestic). Lane 4: nothing new.",
+    "note": "9:40 PM CST 11/13 four-lane run. Lane 1: outages.php 9:30 PM stamp, 1 active outage (Union Blvd) and 18 work orders, all tracked; Halliday & Michigan outage and Halliday & Compton hydrant off list; Penrose & Blair not in work orders (already monitoring). MAW 145072 Bridgeton still posted past ~8:30 PM estimate. MAW ID probe 145084-145088, 145090 empty; 145081-145082 California; next run start 145084. MAW alerts and boil pages script-rendered (no confirmed none); data.mo.gov no St. Louis entries 11/12-14; Kirkwood fetch failed; MSD not checked. Lane 2: nothing dated 11/12-13 in St. Louis; KFVS Missouri none; Murphysboro Enterprise Ave in effect, Tina Dr absent; Greenville IL order confirmed for 11/16. Lane 3: no water notices; Facilities pages unchanged; BJC/Cortex/Loop/MoDOT not checked. Lane 4: social site searches rejected by search proxy, lane effectively unsearched; read stale 1:30 AM stlwater cache.",
     "open_count": 135,
-    "run_at": "2026-11-14T02:40:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU. New: City hydrant repair Marcus & St. Louis Ave (Ring 2, impact none). Union Blvd (Bircher–Brown) outage past 7:58 PM estimate, still listed 8:30 PM. Murphysboro IL Tina Dr off KFVS list (monitoring). No City or County boil advisory. Standing: Wallace Dr (South 40) and Jolley/Cupples II windows ended with no completion notice; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 impact possible (low)."
+    "run_at": "2026-11-14T03:40:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU. Union Blvd (Bircher–Brown) City outage still active at 9:30 PM, ~1.5 hr past estimate (Ring 2, impact none). Cabanne Ave outage remains off the active list; 5017 Cabanne repair still open. No City or County boil advisory. Standing: Jolley/Cupples II no-water-use order and Wallace Dr work window ended with no completion notice; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 still posted (likely stale), impact possible (low)."
   },
   "incidents": [
     {
@@ -4025,11 +4025,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 8:40 PM CT 11/13 (Lane 1): still the only active City outage on outages.php at 8:30 PM, past its 7:58 PM restoration estimate; crews working; outage began 9:58 AM 11/13; no new estimate; no boil order. North City, Ring 2; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from the outage list. Owner: Emergency Management (track only).",
+      "assessment": "Updated 9:40 PM CT 11/13 (Lane 1): still the only active City outage on outages.php at the 9:30 PM update, about 1.5 hr past its 7:58 PM restoration estimate; no revised time; outage began 9:58 AM 11/13; no boil order. North City, Ring 2, ~3 mi NE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from the outage list. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-13T17:40:00Z",
       "id": "stlwater-stlouiscity-union-bircher-20261113",
-      "last_updated": "2026-11-14T02:40:00Z",
+      "last_updated": "2026-11-14T03:40:00Z",
       "location": "Union Blvd between Bircher Blvd and Brown Ave, St. Louis City (north City)",
       "ring": 2,
       "single_source": true,
