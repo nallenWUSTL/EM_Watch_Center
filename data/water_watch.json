@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "3:33 AM CST 11/14 four-lane run. Lane 1: stlwater outages (updated 2:30 AM) unchanged; MAW alerts page shows nothing to outside fetch; ID probe 145085 = Sea Bright NJ (out of region), 145086-87 not posted; MSD, Kirkwood, MO DNR not reached. Lane 2: nothing dated 11/13-14; KFVS list unchanged (Murphysboro Enterprise Ave, Pope Co. Millstone; Missouri none); U City CivicAlerts errored, MO DNR table and data.mo.gov blocked. Lane 3: no WashU Alert water notices; Med Campus North Building planned electric outage 11/14 6-10 AM (non-water, awareness); BJC IOH heating-water outage unchanged. Lane 4: no dated social reports.",
-    "open_count": 135,
-    "run_at": "2026-11-14T09:45:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU. Union Blvd (Bircher–Brown) City outage still listed active at 2:30 AM, ~7.5 hr past its 7:58 PM estimate (Ring 2, impact none). No City or County boil advisory. Standing: Jolley/Cupples II no-water-use order (scheduled end 10/31 4 PM, no lift posted) and Jolley sewer repair; Wallace Dr exploratory work window ended, no completion notice; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 still tracked (likely stale), impact possible (low)."
+    "note": "4:45 AM CST 11/14 four-lane run. Lane 1: stlwater outages (updated 4:30 AM) only Union/Bircher active, repair list unchanged since Marcus hydrant 7:42 PM; ID probe found 145088 (new, untracked); 145087 now empty; 145089-92, 145095 empty; MAW alerts index, MAW boil page and ILAW alerts errored; MSD, Kirkwood, MO DNR not checked. Lane 2: nothing dated 11/13-14; KFVS list unreachable. Lane 3: no WashU Alert water notices; Jolley/Cupples II and Wallace Dr unchanged; Med Campus North Building electric outage 6-10 AM and BJC IOH basement heating-water outage 6 AM-3 PM today (non-water-main, awareness). Lane 4: no dated social reports; Reddit blocked.",
+    "open_count": 136,
+    "run_at": "2026-11-14T10:45:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU. New: MAW 145088 South St. Louis County main-break investigation (no street; Ring 2; impact none). Union Blvd (Bircher–Brown) City outage still active at 4:30 AM, ~9 hr past estimate (Ring 2, impact none). No City or County boil advisory. Standing: Jolley/Cupples II no-water-use order (no lift posted) and Jolley sewer repair; Wallace Dr work window ended 11/13, no completion notice; MAW University City 144457/144507, Clayton 144021, Richmond Heights 143300 still posted (likely stale), impact possible (low)."
   },
   "incidents": [
     {
@@ -1952,6 +1952,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Shrewsbury — emergency repairs (alert 144735)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 4:45 AM CT 11/14 (Lane 1 only, ID probe): MAW alert 145088 reports a main break in South St. Louis County with crews still locating it; no municipality, street, start or end time; Last Updated blank. Not matched to tracked 143422 or 145079. No boil advisory (City advisory list none). Ring 2; too vague to place relative to South Campus; Tyson on well water; no Ring 1 corridor named. Impact none. Escalate if a street near Clayton Rd, Big Bend or Brentwood Blvd is published. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-14T10:45:00Z",
+      "id": "maw-southstlouiscounty-investigation-20261114",
+      "last_updated": "2026-11-14T10:45:00Z",
+      "location": "South St. Louis County, MO (municipality and street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145088"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break investigation, South St. Louis County — crews locating break (alert 145088)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -4026,11 +4044,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 2:50 AM CT 11/14 (Lane 1): still Active on the City outages page at the 2:30 AM refresh, crews still working; restoration estimate still 7:58 PM 11/13 (~6.5-7 hr overdue), no revised time; began 9:58 AM 11/13; no boil advisory (City boil-advisory page shows none). A separate Union Blvd valve repair (11/10) is still listed. North City, ~3 mi NE of North Campus (estimate); Ring 2; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from the outage list. Owner: Emergency Management (track only).",
+      "assessment": "Updated 4:45 AM CT 11/14 (Lane 1): still the only Active outage on the City outages page at the 4:30 AM refresh; restoration estimate still 7:58 PM 11/13 (~9 hr overdue), no revised time; began 9:58 AM 11/13; City Current Advisories lists no boil advisory. North City, ~3 mi NE of North Campus (estimate); Ring 2; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from the outage list. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-13T17:40:00Z",
       "id": "stlwater-stlouiscity-union-bircher-20261113",
-      "last_updated": "2026-11-14T08:50:00Z",
+      "last_updated": "2026-11-14T10:45:00Z",
       "location": "Union Blvd between Bircher Blvd and Brown Ave, St. Louis City (north City)",
       "ring": 2,
       "single_source": false,
