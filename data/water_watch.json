@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "1:40 AM CST 11/15 four-lane run. Lane 1: City repair list unchanged (newest still Marcus/St. Louis Ave hydrant 11/13 7:42 PM); Penrose/Blair still absent (monitoring). MAW alerts index returned no entries (JS); detail IDs 145170-145173 showed generic page; proxy refused direct alertsdetail fetches, so MAW IDs 145163-145200 unverified. MAW boil page, MSD, Kirkwood, MO DNR not reached. Lane 2: nothing dated 11/14-15; KFVS list (updated 11/13) shows no Missouri orders, Murphysboro Enterprise Ave (already tracked) and Millstone Pope County still listed; undated KSDK Lansdowne/Chippewa 20-inch main story not logged (date unconfirmed). Lane 3: WashU Alert only 11/12 M365 notice; Facilities no new water notices; Med Campus BJCIH basement heating-water (not potable) interruption 11/14 6 AM-3 PM noted for context only; UCity, Clayton no water items; BJC, Cortex, Loop, Forest Park Forever, MoDOT not opened. Lane 4: nothing new; social platforms poorly indexed. No incident writes this run.",
+    "note": "2:40 AM CST 11/15 four-lane run. Lane 1: City repair list unchanged (newest Marcus/St. Louis Ave hydrant 11/13); MAW 145162 Florissant St Joan Dr still posted past estimate; ID sweep 145154-145180: 145169+ blank, 145163 Joplin W Belle Center Rd added (Ring 3), 145165 Lincoln IL Oak Park Dr lift resolves ilaw-lincoln-planned; others out of region. MAW alerts index and boil page loaded without entries; MSD, Kirkwood, IAW Metro East list not checked. Lane 2: nothing dated 11/14-15; KFVS list stale (modified 11/13 3:37 PM). Lane 3: WashU Alert only 11/12 M365; Facilities, Med Campus Facilities, UCity no water items; Clayton news page unreachable. Lane 4: nothing new; undated KSDK Lindell and Lansdowne/Chippewa stories ruled out as old. Writes: 1 new, 1 resolved.",
     "open_count": 140,
-    "run_at": "2026-11-15T07:48:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU. City Water Union Blvd (Bircher–Brown) outage remains the only active City outage (outages.php 1:30 AM 11/15; restoration estimate 11/13 7:58 PM never revised, ~30 hr overdue; Ring 2, impact none). No City boil advisory (stlwater current advisories empty); no St. Louis County boil advisory found. Jolley/Cupples II no-water-use order and Wallace Dr (South 40) work: still no lift/completion notice. MAW University City 144457/144507, Clayton 144021 and Richmond Heights 143300 still carried (likely stale), impact possible (low)."
+    "run_at": "2026-11-15T08:45:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU. City Water Union Blvd (Bircher–Brown) outage still the only active City outage (outages.php 2:30 AM 11/15; restoration estimate 11/13 7:58 PM never revised, ~31 hr overdue; Ring 2, impact none). No City boil advisory (outages page lists none; stlwater ?p=9725 'in effect' page is a stale Aug 2026 post, lifted 8/18). No St. Louis County boil advisory found (MO DNR newest 11/5 St Francois Co). Jolley/Cupples II no-water-use order and Wallace Dr (South 40) work: still no lift/completion notice. MAW University City 144457/144507, Clayton 144021 and Richmond Heights 143300 still carried (likely stale), impact possible (low)."
   },
   "incidents": [
     {
@@ -309,19 +309,20 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 10:45 PM CT 11/12 (Lane 1, ID probe): IAW alert 144925 posts a Lincoln IL boil order lift (samples met standards, no timestamp). The planned tie-over (144902) is scheduled to start 7:00 AM 11/13, so the lift cannot yet apply to it; likely a lift for another Lincoln event. Kept open. ~150 mi NE; separate system; no WashU asset. Impact none. Resolve when a lift after the 11/13 work is posted. Owner: Emergency Management (track only).",
-      "confidence": "Medium",
+      "assessment": "Resolved 2:40 AM CT 11/15 (Lane 1): IAW alert 145165 posts a Lincoln IL boil order lift on Oak Park Dr, issued after the 11/13 tie-over; 144902 is the only open tracked Lincoln event, so treated as its lift (144902 published no street). ~150 mi NE; no WashU asset; impact none. Owner: Emergency Management (closed).",
+      "confidence": "Low",
       "first_seen": "2026-11-12T20:40:00Z",
       "id": "ilaw-lincoln-planned-20261113",
-      "last_updated": "2026-11-13T04:45:00Z",
+      "last_updated": "2026-11-15T08:40:00Z",
       "location": "Lincoln, IL (Logan County; streets not published by utility)",
       "ring": 3,
       "single_source": true,
       "sources": [
         "https://alertsdetail.awapps.com/alert/144902",
-        "https://alertsdetail.awapps.com/alert/144925"
+        "https://alertsdetail.awapps.com/alert/144925",
+        "https://alertsdetail.awapps.com/alert/145165"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "Illinois American Water planned tie-over with boil order on restoration, Lincoln, IL, Nov 13 (alert 144902)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
@@ -1542,6 +1543,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Joplin — emergency repairs (alert 143954)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 2:40 AM CT 11/15 (Lane 1 only, ID probe): MAW alert 145163, main break from 9:15 PM 11/14; no boil advisory noted. ~250 mi SW; separate system; no WashU asset. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-15T08:40:00Z",
+      "id": "maw-joplin-wbellecenterrd-20261114",
+      "last_updated": "2026-11-15T08:40:00Z",
+      "location": "W Belle Center Rd, Joplin, MO (Jasper County; cross street not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145163"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Joplin — W Belle Center Rd (alert 145163)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
