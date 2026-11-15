@@ -1,0 +1,172 @@
+{
+  "bluf": "Posture Normal; nothing meets a charter threshold. Top item is a BYOD ransomware watch: peer research universities with medical centers hit since late October (UNM Health diversion Oct 26, Vanderbilt Nov 9). Confirm indicators, MFA monitoring and downtime procedures before Monday. Hard freeze tonight (upper 20s) before the Monday commute. Early H1N1 flu and regional measles call for prevention messaging before Thanksgiving break (starts Wed 11/25).",
+  "briefing_url": "https://claude.ai/artifact/HJXhDyfqopbCVr4CuhZnCE",
+  "date": "2026-11-15",
+  "dissents": [
+    {
+      "note": "Raised from This week to Today, overruling the Cyber analyst on timing.",
+      "title": "Underrated: BYOD ransomware, with Monday as the likely day",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Raised from Monitor to This week; severity kept at 2; burn hold only.",
+      "title": "Underrated: Tyson dry fuels",
+      "verdict": "partly adopted"
+    },
+    {
+      "note": "Freeze kept at Severity 1 as a Facilities task.",
+      "title": "Overrated: weekend cold and Code Blue",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Undated or out-of-horizon items excluded.",
+      "title": "Overrated: recycled local headlines",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Sev 5, Likelihood Low; check non-IT alerting paths and pre-coordinate with BJC EM.",
+      "title": "Scenario: ransomware forces BJC diversion on Monday",
+      "verdict": "carried as dissent"
+    }
+  ],
+  "lanes_quiet": [
+    5
+  ],
+  "lookahead": [
+    {
+      "date": "2026-11-15",
+      "dow": "Sun",
+      "loads": "Light; Kemper tour 14:00",
+      "stacked": false,
+      "wx": "Sunny, mid-50s; hard freeze tonight"
+    },
+    {
+      "date": "2026-11-16",
+      "dow": "Mon",
+      "loads": "Research showcase at Clark-Fox 13:30-17:00; Journey at Enterprise Center (evening)",
+      "stacked": false,
+      "wx": "Sunny, upper 50s; commute below freezing"
+    },
+    {
+      "date": "2026-11-17",
+      "dow": "Tue",
+      "loads": "EAS test about 13:20; Blues vs. Anaheim 19:00",
+      "stacked": false,
+      "wx": "Clear, low 60s"
+    },
+    {
+      "date": "2026-11-18",
+      "dow": "Wed",
+      "loads": "Nothing found",
+      "stacked": false,
+      "wx": "Clear, low 60s"
+    },
+    {
+      "date": "2026-11-19",
+      "dow": "Thu",
+      "loads": "Top Girls opens at Hotchner 19:30",
+      "stacked": false,
+      "wx": "Mostly sunny, mid-60s; 20% morning rain"
+    },
+    {
+      "date": "2026-11-20",
+      "dow": "Fri",
+      "loads": "Top Girls; Wee Weekend at the Art Museum; Symphony at Powell Hall",
+      "stacked": false,
+      "wx": "Partly sunny, upper 60s"
+    },
+    {
+      "date": "2026-11-21",
+      "dow": "Sat",
+      "loads": "Blues 18:00, Musial Awards and Winterfest opening downtown; Top Girls x2; possible MetroLink short-turns at Forest Park-DeBaliviere",
+      "stacked": true,
+      "wx": "Low 70s; 40% afternoon rain"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "watch",
+      "summary": "No NWS products; freeze tonight; dry through Wed; 40% rain Sat 11/21; Tyson dry-fuels precaution this week."
+    },
+    {
+      "name": "Life safety",
+      "pir": 2,
+      "status": "watch",
+      "summary": "No WashU Alert or threats. Marketplace-lure armed robbery of a staff member on McPherson (11/12); officer-involved shooting on 4100 Lindell (11/14), no injuries."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "watch",
+      "summary": "Early H1N1 flu rising nationally; measles at 21 cases in MO and 29 in IL; no advisories or diversion found."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "active",
+      "summary": "BYOD ransomware watch; Nov 9 KEV additions and exploited Outlook and Barracuda bugs to patch; no Ring 1 outages."
+    },
+    {
+      "name": "Scheduled activity",
+      "pir": 5,
+      "status": "quiet",
+      "summary": "No Ring 1 event over 5,000; downtown loads; Sat 11/21 stacked (Blues, Musial Awards, Winterfest)."
+    },
+    {
+      "name": "Policy, legal, funding",
+      "pir": 6,
+      "status": "watch",
+      "summary": "Federal CR expires Dec 11 (DHS unresolved, NFIP lapse); national EAS test Tue 11/17 about 13:20 CT; Level 4 list reiterated."
+    }
+  ],
+  "posture": "Normal",
+  "published_at": "2026-11-15T11:59:00Z",
+  "run_note": "All 7 lanes reported; charter read 05:53 CT; published ~06:05 CT. No lane crossed a reporting threshold. Several primary sources unreachable or stale (see unreachable).",
+  "title": "WashU EM Daily Intelligence Briefing, November 15, 2026",
+  "today_items": [
+    {
+      "action": "Before 08:00 Mon, IT pulls BYOD indicators from REN-ISAC and Health-ISAC, reviews weekend MFA and domain-admin activity, and confirms offline backups. Medical Campus confirms downtime and diversion procedures with BJC.",
+      "confidence": "Medium",
+      "likelihood": "Low",
+      "owner": "EM (coord.), WashU IT, Medical Campus Security",
+      "pir": 4,
+      "rank": 1,
+      "severity": 4,
+      "source": "https://www.malwarebytes.com/blog/news/2026/11/vanderbilt-restores-systems-after-cyberattack-as-hackers-claim-data-theft",
+      "title": "BYOD ransomware campaign against peer university and medical systems",
+      "ttd": "Today"
+    },
+    {
+      "action": "Check irrigation and exposed lines, treat shaded stairs and bridges for frost, and notify the 6200 Forsyth contractor.",
+      "confidence": "Medium",
+      "likelihood": "High",
+      "owner": "Facilities",
+      "pir": 1,
+      "rank": 2,
+      "severity": 1,
+      "source": "https://forecast.weather.gov/MapClick.php?zoneid=MOZ063",
+      "title": "Hard freeze tonight, upper 20s, before Monday commute",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "BYOD ransomware campaign against peer universities and medical systems: IT and Medical Campus check indicators, MFA and downtime procedures before Monday 08:00.",
+  "unreachable": [
+    "api.weather.gov alerts",
+    "SPC outlooks (stale)",
+    "AirNow/river stages/WPC",
+    "cisa.gov",
+    "travel.state.gov index",
+    "fema.gov press releases",
+    "congress.gov",
+    "events.washu.edu",
+    "washubears composite calendar",
+    "DHSS flu/wastewater dashboards",
+    "St. Louis County DPH",
+    "Clayton PD / University City PD",
+    "Post-Dispatch (paywall)",
+    "Fox 2",
+    "Ameren/Spire/MoDOT/Lambert/vendor status pages"
+  ]
+}
