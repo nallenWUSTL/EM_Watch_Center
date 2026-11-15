@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "3:45 AM CST 11/15 four-lane run. Lane 1: MAW IDs 145166-145168 out of region (Peters Twp PA, Davenport IA, Fleetwood); 145169-145175 blank; City repair list unchanged (17 entries); Belleville IAW 145161 unchanged; MAW boil page and data.mo.gov DNR feed failed to load; Kirkwood no outages. Lane 2: nothing dated 11/14-15; undated MAW Bridgeton/Maryland Heights boil advisory stories set aside (cannot be today). Lane 3: WashU Alert only 11/12 M365; Med Campus Facilities only planned BJCIH heating-water shutdown 11/14 (non-potable, window passed); Wallace Dr moved to monitoring. Lane 4: nothing new. Writes: 1 updated.",
+    "note": "4:45 AM CST 11/15 four-lane run. Lane 1: American Water IDs 145164-145168 out of region (Antelope CA, Lincoln IL lift already tracked, Peters Twp PA, Davenport IA, Fleetwood); 145169-145180 blank; Florissant St Joan Dr 145162 and Belleville N 98th St 145161 unchanged; data.mo.gov DNR feed loaded, nothing 11/13-15; MAW and IAW list pages loaded without content. Lane 2: nothing dated 11/14-15; KFVS list last modified 11/13; Greenville IL boil order still set for Mon 11/16. Lane 3: WashU Alert only 11/12 M365; Facilities notices unchanged; Metro Blue Line short-turn is planned service, not water. Lane 4: nothing new; Reddit blocked. Writes: meta only.",
     "open_count": 140,
-    "run_at": "2026-11-15T09:45:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU. City Water Union Blvd (Bircher–Brown) outage still the only active City outage (outages.php 3:30 AM 11/15; restoration estimate 11/13 7:58 PM never revised, ~32 hr overdue; Ring 2, impact none). 5017 Cabanne Ave repair still on City list. No City or County boil advisory found (MO DNR and MAW boil pages failed to load this run). Jolley/Cupples II no-water-use order: original end 10/31, no lift notice. MAW University City, Clayton, Richmond Heights alerts still carried (likely stale), impact possible (low)."
+    "run_at": "2026-11-15T10:45:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU. City Water Union Blvd (Bircher–Brown) outage still listed (outages page 4:30 AM 11/15; restoration estimate 11/13 7:58 PM never revised, ~33 hr overdue; Ring 2, impact none). City repair list unchanged (17 jobs). No City or County boil advisory (MO DNR newest record 11/5 Park Hills). MAW Clayton 144021, University City 144457/144507, Richmond Heights 143300 still posted with original text, likely stale; impact possible (low). Jolley/Cupples II no-water-use order: original end 10/31, no lift notice."
   },
   "incidents": [
     {
