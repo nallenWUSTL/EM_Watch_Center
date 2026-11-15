@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "5:45 AM CST 11/15 four-lane run. Lane 1: City repair list still 17 jobs; Penrose & Blair 36-inch no longer listed (possible completion, unconfirmed, record left at monitoring); 145168 = Fleetwood (likely PA) investigation; 145169/145175/145185 blank; MAW list page script-loaded, no entries; MSD/Kirkwood not checked. Lane 2: nothing dated 11/14-15; KFVS/WGEL not reached. Lane 3: WashU Alert newest 11/12 M365; Medical Campus 11/14 planned BJCIH heating-water shutdown (not potable); Wallace Dr window 11/12-13 passed, no completion notice. Lane 4: nothing; social feeds not indexed. Writes: meta only.",
+    "note": "6:35 AM CST 11/15 four-lane run. Lane 1: City repair list now 6 jobs; Marcus & St. Louis Ave hydrant dropped (moved to monitoring), Penrose & Blair and Union Blvd valve also absent (already monitoring); MAW/IAW alert pages script-loaded, IDs 145186+ unverified; MSD/Kirkwood not checked. Lane 2: nothing dated 11/14-15; municipal pages and KFVS list not opened. Lane 3: WashU Alert newest 11/12; Facilities newest 11/12; no water notices. Lane 4: nothing; social feeds not indexed. Writes: Marcus hydrant status, meta.",
     "open_count": 140,
-    "run_at": "2026-11-15T11:45:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU. City Water Union Blvd (Bircher–Brown) outage still listed (outages page 4:30 AM 11/15; 11/13 7:58 PM restoration estimate unrevised, ~34 hr overdue; Ring 2, impact none). No City or County boil advisory (stlwater.com none; MO DNR newest record 10/28). MAW Clayton 144021, University City 144457/144507, Richmond Heights 143300 still carried as likely stale; impact possible (low). Jolley/Cupples II no-water-use order: original end 10/31, no lift notice."
+    "run_at": "2026-11-15T12:45:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU. City Water Union Blvd (Bircher–Brown) outage still listed as of 4:30 AM 11/15 (11/13 7:58 PM restoration estimate ~35 hr overdue; Ring 2, impact none). No City or County boil advisory (MO DNR data.mo.gov newest 11/05, none in St. Louis region; stlwater.com ?p=9725 'in effect' page is a stale August advisory, lifted 8/18). MAW Clayton 144021, University City 144457/144507, Richmond Heights 143300 still carried as likely stale; impact possible (low). Jolley/Cupples II no-water-use order: no lift notice."
   },
   "incidents": [
     {
@@ -3690,18 +3690,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 8:40 PM CT 11/13 (Lane 1 only): hydrant repair work order opened 7:42 PM 11/13 on the City repair list (page stamped 8:30 PM); not a main break or outage; no restoration time; no boil order. ~3 mi NW of the Medical Campus (estimate); no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from the City list. Owner: Emergency Management (track only).",
+      "assessment": "Updated 6:45 AM CT 11/15 (Lane 1): no longer on the City Water repair list shown on stlwater.com/outages (as of 4:30 AM 11/15); suggests completion but not confirmed, so moved to monitoring, not resolved. North City, Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-14T02:40:00Z",
       "id": "stlwater-stlouiscity-marcus-stlouisave-hydrant-20261113",
-      "last_updated": "2026-11-14T02:40:00Z",
+      "last_updated": "2026-11-15T12:45:00Z",
       "location": "Marcus Ave & St. Louis Ave, St. Louis City (north City)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/outages.php"
+        "https://www.stlwater.com/outages"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division fire hydrant repair, Marcus Ave & St. Louis Ave (north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
