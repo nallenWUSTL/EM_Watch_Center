@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "1:40 PM CST 11/15 four-lane run. Lane 1: stlwater outages page last updated 4:30 AM 11/15; Union Blvd only current outage; recent-repairs list (17 items) no longer shows S Spring/Park, Penrose/Blair, Potomac (not treated as resolved; list may have rolled); MO DNR none in region (newest 11/05 Park Hills); MAW alertsdetail host not reachable this run, MAW status after 145208 unknown; MSD, Kirkwood not checked. Lane 2: no dated 11/14-15 local news; stlwater 'Boil Advisory Currently In Effect' page is the stale 8/17 advisory (lifted 8/18). Lane 3: WashU Alert none (last mod 11/12); Facilities Danforth/Medical newest 11/12, no water items; Jolley/Cupples II and Wallace Dr no lift or completion posted. Lane 4: Reddit, Nextdoor blocked; nothing. Writes: meta only.",
+    "note": "2:40 PM CST 11/15 four-lane run. Lane 1: stlwater outages page still timestamped 4:30 AM 11/15; Union Blvd only active outage; S Spring/Park, Penrose/Blair and Potomac main repair absent from page (not treated as resolved). MAW alertsdetail host reachable again: new IDs 145208 (Clinton IA), 145209 (Antelope CA), 145210 (West Charleston WV), none in MO/IL; 145211+ not yet issued. MO DNR none in St. Louis region; MAW boil page errored; MSD, Kirkwood not checked. Lane 2: no dated 11/14-15 local news; KFVS list last modified 11/13 (Pope County, Murphysboro Enterprise Ave only). Lane 3: WashU Alert none (last mod 11/12); Facilities Danforth/Medical newest 11/12, no domestic-water items; Jolley/Cupples II and Wallace Dr no completion posted (Wallace Dr window 11/12-13 ended); 5017 Cabanne repair 11/12 not on active outage list. Lane 4: Reddit, X blocked; nothing. Writes: meta only.",
     "open_count": 147,
-    "run_at": "2026-11-15T19:40:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU. Union Blvd (Bircher–Brown) remains the only active City outage, restoration estimate stale since 11/13. No City or County boil advisory (MO DNR none in region). MAW Clayton 144021, University City 144457/144507 and Richmond Heights 143300 still carried as likely stale, impact possible (low)."
+    "run_at": "2026-11-15T20:40:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU. Union Blvd (Bircher–Brown) remains the only active City outage, restoration estimate stale since 11/13. No City or County boil advisory (stlwater Current Advisories empty; MO DNR none in region). MAW Clayton 144021, University City 144457/144507 and Richmond Heights 143300 still carried as likely stale, impact possible (low)."
   },
   "incidents": [
     {
