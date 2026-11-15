@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "10:40 AM CST 11/15 four-lane run. Lane 1: stlwater wateroos stamped 10:30 AM (Potomac outage added; Union Blvd unchanged); MAW IDs 145198-145207, 145210/145220/145230/145240 probed, issued through ~145203 (145201 Urbana IL, 145202 Maryland Heights MO; others PA/WV); IAW Belleville 145161/145157 unchanged, no lift; MO DNR checked; stlwater advisories, MAW boil page, MSD, Kirkwood not checked; MAW alerts index did not render list. Lane 2: KMOV, KSDK, FOX 2, STLPR, UCity nothing new; KFVS, claytonmo.gov errors; Post-Dispatch paywalled; RFT, Patch, Eureka, Richmond Heights, Brentwood, Maplewood, Ladue not checked. Lane 3: WashU Alert none (last mod 11/12); Facilities Danforth/Medical no water items (BJCIH heating water 11/14 is HVAC); Metro no water work; BJC, Cortex, Loop, Forest Park, MoDOT, city closures not directly checked. Lane 4: nothing; Reddit blocked, X/Nextdoor/Facebook not reachable. Writes: 2 new (Maryland Heights 145202, Urbana IL 145201), 1 update (Potomac), meta.",
-    "open_count": 143,
-    "run_at": "2026-11-15T16:40:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU. City Water Potomac (January–Sulphur) now a service outage, out 9:21 AM, est. 5:21 PM 11/15 (Ring 2, impact none). New MAW Maryland Heights emergency repairs 145202 (10:30 AM, ~8 hr; Ring 2, impact none). Union Blvd (Bircher–Brown) outage still listed, estimate ~39 hr stale. No City or County boil advisory (MO DNR newest 11/5, none in region). MAW Clayton 144021, University City 144457/144507 and Richmond Heights 143300 still carried as likely stale, impact possible (low). Jolley/Cupples II and Wallace Dr: no lift or completion notice."
+    "note": "11:40 AM CST 11/15 four-lane run. Lane 1: stlwater outages tables 11:30 AM (S Spring & Park repair new; Potomac, Union Blvd unchanged); MAW IDs 145203-145210 probed, issued through 145204 (145203 WV; 145204 St. Louis County investigation); MAW 145202 unchanged; IAW Belleville 145161/145157 no lift; MO DNR newest 11/5; MAW alerts/boil pages did not render; Kirkwood none; MSD blocked. Lane 2: KSDK and FOX 2 article pages failed (403); undated KSDK Delmar Loop trolley main-break result judged old, not adopted; nothing new. Lane 3: WashU Alert none (last mod 11/12); Facilities Danforth newest 11/9, Medical newest 11/12, no potable items; Metro, UCity, Forest Park, stlwater newsroom nothing; BJC, Cortex, MoDOT, city closures not opened. Lane 4: nothing; social posts not indexed. Writes: 2 new (S Spring & Park, MAW 145204), meta.",
+    "open_count": 145,
+    "run_at": "2026-11-15T17:40:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU. New City Water main repair at S Spring Ave & Park Ave (11:15 AM, no outage; Ring 2, impact none). New MAW St. Louis County investigation 145204, crews locating a break, unplaced (Ring 2, impact none). City Potomac (January–Sulphur) outage unchanged, est. 5:21 PM; Union Blvd (Bircher–Brown) outage still listed, estimate stale. No City or County boil advisory (MO DNR newest 11/5). MAW Clayton 144021, University City 144457/144507 and Richmond Heights 143300 still carried as likely stale, impact possible (low). Jolley/Cupples II and Wallace Dr: no lift or completion notice."
   },
   "incidents": [
     {
@@ -2441,6 +2441,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 11:40 AM CT 11/15 (Lane 1 only, ID probe): MAW alert 145204, reported main break, crews locating it; no town, street, start or end time; no boil advisory (MO DNR newest 11/5, none in region). Unplaced within the MAW St. Louis County district; nothing ties it to Clayton, University City, Richmond Heights or a Ring 1 corridor. Impact none. Escalate if located near a WashU asset. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-15T17:40:00Z",
+      "id": "maw-stlouiscounty-investigation-20261115",
+      "last_updated": "2026-11-15T17:40:00Z",
+      "location": "St. Louis County, MO (municipality and street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145204"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main-break investigation, St. Louis County (unplaced) — crews locating break (alert 145204)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Cleared: at ~10:40 AM CT 10/21 alerts 142100 and 142108 no longer appear on the MAW active alerts index (Lane 1; detail pages still load unchanged, 6 hr estimates from 10/20 morning, no streets, no boil advisory). Treated as repair complete / alert expired per utility index. Municipality never published; no WashU impact observed.",
       "confidence": "Low",
       "first_seen": "2026-10-20T21:40:00Z",
@@ -4103,6 +4121,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division service outage, Sidney St & Michigan Ave / Minnesota Ave & Sidney St (Benton Park / Marine Villa)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 11:40 AM CT 11/15 (Lane 1 only; stlwater outages page tables stamped 11:30 AM): main-repair work order opened 11:15 AM 11/15; not listed as a service outage; no restoration time; no City boil advisory. Roughly 2 mi E/SE of the Medical Campus (estimate); not on a Ring 1 corridor; no WashU asset identified. Impact none. Escalate if a service outage or boil advisory is posted near Kingshighway/Forest Park Ave. No news or social corroboration (Lanes 2, 4). Resolve when dropped from the work-order list with no outage. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-15T17:40:00Z",
+      "id": "stlwater-stlouiscity-sspring-park-20261115",
+      "last_updated": "2026-11-15T17:40:00Z",
+      "location": "S Spring Ave & Park Ave, St. Louis City (midtown/south-central City, east of Grand area; cross street as published on work-order table)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division main repair, S Spring Ave & Park Ave",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
