@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "11:40 AM CST 11/15 four-lane run. Lane 1: stlwater outages tables 11:30 AM (S Spring & Park repair new; Potomac, Union Blvd unchanged); MAW IDs 145203-145210 probed, issued through 145204 (145203 WV; 145204 St. Louis County investigation); MAW 145202 unchanged; IAW Belleville 145161/145157 no lift; MO DNR newest 11/5; MAW alerts/boil pages did not render; Kirkwood none; MSD blocked. Lane 2: KSDK and FOX 2 article pages failed (403); undated KSDK Delmar Loop trolley main-break result judged old, not adopted; nothing new. Lane 3: WashU Alert none (last mod 11/12); Facilities Danforth newest 11/9, Medical newest 11/12, no potable items; Metro, UCity, Forest Park, stlwater newsroom nothing; BJC, Cortex, MoDOT, city closures not opened. Lane 4: nothing; social posts not indexed. Writes: 2 new (S Spring & Park, MAW 145204), meta.",
-    "open_count": 145,
-    "run_at": "2026-11-15T17:40:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU. New City Water main repair at S Spring Ave & Park Ave (11:15 AM, no outage; Ring 2, impact none). New MAW St. Louis County investigation 145204, crews locating a break, unplaced (Ring 2, impact none). City Potomac (January–Sulphur) outage unchanged, est. 5:21 PM; Union Blvd (Bircher–Brown) outage still listed, estimate stale. No City or County boil advisory (MO DNR newest 11/5). MAW Clayton 144021, University City 144457/144507 and Richmond Heights 143300 still carried as likely stale, impact possible (low). Jolley/Cupples II and Wallace Dr: no lift or completion notice."
+    "note": "12:40 PM CST 11/15 four-lane run. Lane 1: MAW IDs probed through 145213, issued through 145208 (145205 Florissant, 145206 St. Louis County new; 145207 Mountain Top PA, 145208 Clinton IA out of region); 145204 still investigating; stlwater outages shows only Union Blvd active, Potomac gone, S Spring/Park and Penrose/Blair gone from recent repairs (not treated as resolved); MO DNR none in region; MAW alerts/boil pages did not render; MSD, Kirkwood not checked. Lane 2: KFVS list (updated 11/13) shows nothing in Missouri; no Collinsville lift found; city utilities news newest 8/25; nothing new. Lane 3: WashU Alert none (last mod 11/12); Facilities Danforth newest 11/12 and Medical newest 11/12, no water items; Jolley/Cupples II notice window ended 10/31, no lift posted; Metro nothing water-related. Lane 4: Reddit blocked, social posts not indexed; nothing. Writes: 2 new, 1 update (Potomac to monitoring), meta.",
+    "open_count": 147,
+    "run_at": "2026-11-15T18:40:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU. Two new MAW main breaks, both from 11:45 AM: Florissant 145205 and unplaced St. Louis County 145206 (possibly the break investigation 145204 was locating). Both Ring 2, impact none, ~8 hr repairs. City Potomac St (January–Sulphur) outage dropped from the active list, moved to monitoring. Union Blvd (Bircher–Brown) is still the only active City outage, estimate stale. No City or County boil advisory (MO DNR none in region). MAW Clayton 144021, University City 144457/144507 and Richmond Heights 143300 still carried as likely stale, impact possible (low)."
   },
   "incidents": [
     {
@@ -1400,6 +1400,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 12:40 PM CT 11/15 (Lane 1 only): MAW alert 145205, main-break emergency repairs from 11:45 AM 11/15, ~8 hr estimate (~7:45 PM); no street; no boil advisory (MO DNR none in St. Louis City/County). Link to tracked Florissant alerts (145131, 145144, 145162 St Joan Dr) not established. ~10-12 mi N of North Campus and Danforth; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-15T18:40:00Z",
+      "id": "maw-florissant-unlocated-20261115",
+      "last_updated": "2026-11-15T18:40:00Z",
+      "location": "Florissant, MO (north St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145205"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Florissant — emergency repairs (alert 145205)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 4:40 AM CT 11/10 (Lane 1 only, ID probe): MAW alert 144399, emergency repairs with possible discolored water; body dates start 11/8 8:00 AM, ~1 hr estimate (date may be a placeholder; Last Updated blank; may be complete). No street; no boil advisory (MO DNR newest 11/5). ~5 mi W of South Campus and Danforth (estimate); different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Monitor; resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-10T10:40:00Z",
@@ -2775,6 +2793,25 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 12:40 PM CT 11/15 (Lane 1 only): MAW alert 145206, main-break emergency repairs from 11:45 AM 11/15, ~8 hr estimate (~7:45 PM); no municipality, street or customer count; no boil advisory. May be the break that open investigation 145204 was locating, not confirmed. Unplaced, so Ring 2 by default; nothing ties it to a Ring 1 corridor. Impact none. No corroboration (Lanes 2-4). Escalate if a Clayton, University City or Richmond Heights street is published. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-15T18:40:00Z",
+      "id": "maw-stlouiscounty-unlocated-20261115",
+      "last_updated": "2026-11-15T18:40:00Z",
+      "location": "St. Louis County, MO (municipality and street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145206",
+        "https://alertsdetail.awapps.com/alert/145204"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, St. Louis County (unplaced) — emergency repairs (alert 145206)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 11:40 AM CT 11/4 (Lane 1 only): MAW alert 143982, main-break repairs began 10:30 AM CT 11/4, ~6 hr estimate (~4:30 PM); no street; no boil advisory. ~9-11 mi W of West Campus and Danforth (estimate); different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Monitor; resolve when dropped from MAW index. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-04T17:40:00Z",
@@ -3988,19 +4025,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 10:40 AM CT 11/15 (Lane 1): stlwater outages page (stamped 10:30 AM) now lists a service outage on Potomac between January and Sulphur, out of service 9:21 AM 11/15, estimated restoration 5:21 PM 11/15; main repair work order opened 7:17 AM. No City boil advisory. ~2.5-3 mi SE of Danforth and SW of the Medical Campus (estimate); Ring 2; not a Ring 1 corridor; no WashU asset. Impact none. Resolve when it drops from the outage and repair lists. Owner: Emergency Management (track only).",
+      "assessment": "Updated 12:40 PM CT 11/15 (Lane 1): Potomac St (January–Sulphur) no longer listed as an active outage on stlwater.com/outages; restoration likely but not confirmed by the City, so moved to monitoring, not resolved. No City boil advisory. Ring 2, south City; no WashU asset. Impact none. Resolve once completion is confirmed. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-15T13:40:00Z",
       "id": "stlwater-stlouiscity-potomac-sulphur-20261115",
-      "last_updated": "2026-11-15T16:40:00Z",
+      "last_updated": "2026-11-15T18:40:00Z",
       "location": "Potomac St between January Ave and Sulphur Ave, St. Louis City (Lindenwood Park / Clifton Heights area)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/outages.php",
-        "https://www.stlwater.com/wateroos.php"
+        "https://www.stlwater.com/outages"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division main repair and service outage, Potomac St between January Ave and Sulphur Ave (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
