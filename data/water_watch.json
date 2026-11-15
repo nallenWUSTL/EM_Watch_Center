@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "3:33 PM CST 11/15 four-lane run. Lane 1: stlwater outages page still stamped 4:30 AM 11/15; Union Blvd and N 2nd/Withers listed; S Spring/Park, Potomac, Penrose/Blair absent (not treated as resolved). MAW/IAW new IDs 145211 (Fayetteville WV), 145212 (New Albany IN), none in MO/IL; 145213-145217 not yet issued. Tracked 145202, 145205, 145206, IAW 145161 and 145201 still active, no lift. MO DNR none in St. Louis region; MAW boil page errored; Kirkwood stale; MSD not checked. Lane 2: no dated 11/14-15 local news; KFVS list unchanged (Murphysboro Enterprise Ave, Pope County). Lane 3: WashU Alert none; Facilities newest 11/12, no domestic-water items; Jolley/Cupples II window ended 10/31 with no completion notice (kept monitoring). Lane 4: X, Facebook, Reddit blocked; nothing. Writes: meta only.",
-    "open_count": 147,
-    "run_at": "2026-11-15T21:33:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU. Union Blvd (Bircher–Brown) remains the only active City outage on stlwater (estimate stale since 11/13). No City or County boil advisory (stlwater advisories empty; MO DNR none in region). MAW Clayton 144021, University City 144457/144507 and Richmond Heights 143300 still carried as likely stale, impact possible (low)."
+    "note": "4:40 PM CST 11/15 four-lane run. Lane 1: stlwater page stamped 4:30 PM, 14 work orders, none new since 11:15 AM; Potomac relisted Active (ETA 5:21 PM); Union Blvd still Active. New AW IDs 145213 (New Albany IN, boil advisory), 145214 (Charleston, likely WV); 145215-145216 not issued; none in MO/IL. Tracked MAW 145202, 145204, 145205, 145206, 145131, 145144, 145162 unchanged. MO DNR none in region. MAW index empty; MSD, Kirkwood, MAW boil page not checked. Lane 2: no dated 11/14-15 local news; KFVS list unchanged (Pope County, Murphysboro); FOX 2 blocked, KSDK errored. Lane 3: WashU Alert none; Facilities (Danforth and Medical) newest 11/12, no domestic-water items; Wallace Dr no follow-up. Lane 4: Reddit blocked, X/Facebook not retried; nothing dated. Writes: Potomac update, meta.",
+    "open_count": 148,
+    "run_at": "2026-11-15T22:40:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU. No City or County boil advisory (stlwater none; MO DNR none in region, newest 11/5). Potomac St (January–Sulphur) back to Active on stlwater, ETA 5:21 PM; Union Blvd (Bircher–Brown) still Active with stale 11/13 estimate. MAW Clayton 144021, University City 144457/144507 and Richmond Heights 143300 still carried as likely stale, impact possible (low)."
   },
   "incidents": [
     {
@@ -4025,18 +4025,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 12:40 PM CT 11/15 (Lane 1): Potomac St (January–Sulphur) no longer listed as an active outage on stlwater.com/outages; restoration likely but not confirmed by the City, so moved to monitoring, not resolved. No City boil advisory. Ring 2, south City; no WashU asset. Impact none. Resolve once completion is confirmed. Owner: Emergency Management (track only).",
+      "assessment": "Updated 4:40 PM CT 11/15 (Lane 1): Potomac St (January–Sulphur) listed again as an Active service outage on stlwater.com/outages (page stamped 4:30 PM): out of service since 9:21 AM 11/15, estimated restoration 5:21 PM 11/15. Returned to open from monitoring. No City boil advisory. Ring 2, south City, ~4-5 mi from Danforth; no WashU asset; not a Ring 1 corridor. Impact none. Resolve once completion is confirmed. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-15T13:40:00Z",
       "id": "stlwater-stlouiscity-potomac-sulphur-20261115",
-      "last_updated": "2026-11-15T18:40:00Z",
+      "last_updated": "2026-11-15T22:40:00Z",
       "location": "Potomac St between January Ave and Sulphur Ave, St. Louis City (Lindenwood Park / Clifton Heights area)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/outages"
+        "https://www.stlwater.com/outages",
+        "https://www.stlwater.com/outages.php"
       ],
-      "status": "monitoring",
+      "status": "open",
       "title": "City of St. Louis Water Division main repair and service outage, Potomac St between January Ave and Sulphur Ave (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
