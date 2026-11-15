@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "9:45 AM CST 11/15 four-lane run. Lane 1: stlwater outages page (stamped 4:30 AM, possibly cached; Potomac & Sulphur not shown); tracked repair orders unchanged; MAW IDs 145186-145200 plus 145210/145220/145230 probed, issued ones all out of state (KY/WV/IN/PA), newest ~145197; MAW boil page failed; MSD and Kirkwood not checked. Lane 2: nothing dated 11/14-15 on KSDK, FOX 2, KMOV/FirstAlert4, STLPR or UCity; KFVS list returned an error; Post-Dispatch, RFT, Patch and several municipal pages not checked; West Plains citywide boil order (11/8, Ring 3) seen but not added. Lane 3: WashU Alert newest 11/12; Facilities (Danforth and Medical) has no new water items; Wallace Dr window ended with no completion notice (left in monitoring); claytonmo.gov loaded with nothing new; BJC, Cortex, MoDOT and city closures not checked. Lane 4: nothing; Reddit and Nextdoor blocked, X/Facebook not indexed. Writes: meta only.",
-    "open_count": 141,
-    "run_at": "2026-11-15T15:45:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU. City Water Union Blvd (Bircher–Brown) outage is still the City's only listed service outage, now ~38 hr past its 11/13 7:58 PM estimate (Ring 2, impact none). No City or County boil advisory (stlwater advisories none; MAW alerts index empty; MO DNR j2a5-itxh none in St. Louis region). MAW Clayton 144021, University City 144457/144507 and Richmond Heights 143300 are still carried as likely stale, impact possible (low). Jolley/Cupples II no-water-use order and Wallace Dr work: no lift or completion notice."
+    "note": "10:40 AM CST 11/15 four-lane run. Lane 1: stlwater wateroos stamped 10:30 AM (Potomac outage added; Union Blvd unchanged); MAW IDs 145198-145207, 145210/145220/145230/145240 probed, issued through ~145203 (145201 Urbana IL, 145202 Maryland Heights MO; others PA/WV); IAW Belleville 145161/145157 unchanged, no lift; MO DNR checked; stlwater advisories, MAW boil page, MSD, Kirkwood not checked; MAW alerts index did not render list. Lane 2: KMOV, KSDK, FOX 2, STLPR, UCity nothing new; KFVS, claytonmo.gov errors; Post-Dispatch paywalled; RFT, Patch, Eureka, Richmond Heights, Brentwood, Maplewood, Ladue not checked. Lane 3: WashU Alert none (last mod 11/12); Facilities Danforth/Medical no water items (BJCIH heating water 11/14 is HVAC); Metro no water work; BJC, Cortex, Loop, Forest Park, MoDOT, city closures not directly checked. Lane 4: nothing; Reddit blocked, X/Nextdoor/Facebook not reachable. Writes: 2 new (Maryland Heights 145202, Urbana IL 145201), 1 update (Potomac), meta.",
+    "open_count": 143,
+    "run_at": "2026-11-15T16:40:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU. City Water Potomac (January–Sulphur) now a service outage, out 9:21 AM, est. 5:21 PM 11/15 (Ring 2, impact none). New MAW Maryland Heights emergency repairs 145202 (10:30 AM, ~8 hr; Ring 2, impact none). Union Blvd (Bircher–Brown) outage still listed, estimate ~39 hr stale. No City or County boil advisory (MO DNR newest 11/5, none in region). MAW Clayton 144021, University City 144457/144507 and Richmond Heights 143300 still carried as likely stale, impact possible (low). Jolley/Cupples II and Wallace Dr: no lift or completion notice."
   },
   "incidents": [
     {
@@ -464,6 +464,24 @@
       ],
       "status": "resolved",
       "title": "Illinois American Water main break with boil order on restoration, Peoria, IL (alert 145083)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 10:40 AM CT 11/15 (Lane 1 only): IAW alert 145201, main-break repairs from 9:55 AM 11/15, ~4-6 hr estimate; boil order applies once service is restored. ~170 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-15T16:40:00Z",
+      "id": "ilaw-urbana-sracest-20261115",
+      "last_updated": "2026-11-15T16:40:00Z",
+      "location": "S Race St, Urbana, IL (Champaign County; cross street not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145201"
+      ],
+      "status": "open",
+      "title": "Illinois American Water main break with boil order on restoration, S Race St, Urbana, IL (alert 145201)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
     },
@@ -1764,6 +1782,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water emergency repairs, Maryland Heights — discoloration / low pressure (alert 144395)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 10:40 AM CT 11/15 (Lane 1 only): MAW alert 145202, emergency repairs from 10:30 AM 11/15, ~8 hr estimate (~6:30 PM); possible discolored/cloudy water and low pressure; no street; no boil advisory (MO DNR none in St. Louis City/County). Separate from tracked 142753, 143355 and 144395. ~8-9 mi NW of Danforth and North Campus (estimate); different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-15T16:40:00Z",
+      "id": "maw-marylandheights-unlocated-20261115",
+      "last_updated": "2026-11-15T16:40:00Z",
+      "location": "Maryland Heights, MO (mid St. Louis County west of I-270; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145202"
+      ],
+      "status": "open",
+      "title": "Missouri American Water emergency repairs, Maryland Heights — discoloration / low pressure (alert 145202)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -3934,19 +3970,20 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 7:40 AM CT 11/15 (Lane 1 only): stlwater outages.php (updated 7:30 AM 11/15) lists a main repair at Potomac & Sulphur, work order opened 7:17 AM 11/15; no restoration estimate; no service outage listed for it; no City boil advisory. Nearby hydrant jobs on Oleatha, Potomac (5701) and Marquette (5700) dated 11/8-9 also newly shown, likely one maintenance area. ~2.5-3 mi SE of Danforth and SW of the Medical Campus (estimate); Ring 2; not a Ring 1 corridor; no WashU asset. Impact none. Resolve when it drops from the list. Owner: Emergency Management (track only).",
+      "assessment": "Updated 10:40 AM CT 11/15 (Lane 1): stlwater outages page (stamped 10:30 AM) now lists a service outage on Potomac between January and Sulphur, out of service 9:21 AM 11/15, estimated restoration 5:21 PM 11/15; main repair work order opened 7:17 AM. No City boil advisory. ~2.5-3 mi SE of Danforth and SW of the Medical Campus (estimate); Ring 2; not a Ring 1 corridor; no WashU asset. Impact none. Resolve when it drops from the outage and repair lists. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-15T13:40:00Z",
       "id": "stlwater-stlouiscity-potomac-sulphur-20261115",
-      "last_updated": "2026-11-15T13:40:00Z",
-      "location": "Potomac St & Sulphur Ave, St. Louis City (Lindenwood Park / Clifton Heights area)",
+      "last_updated": "2026-11-15T16:40:00Z",
+      "location": "Potomac St between January Ave and Sulphur Ave, St. Louis City (Lindenwood Park / Clifton Heights area)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/outages.php"
+        "https://www.stlwater.com/outages.php",
+        "https://www.stlwater.com/wateroos.php"
       ],
       "status": "open",
-      "title": "City of St. Louis Water Division main repair, Potomac St & Sulphur Ave (south City)",
+      "title": "City of St. Louis Water Division main repair and service outage, Potomac St between January Ave and Sulphur Ave (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
