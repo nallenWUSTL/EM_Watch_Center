@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "8:45 PM CST 11/14 four-lane run. Lane 1: new MAW 145155 (St. Louis County investigation, unplaced), 145129 (St. Louis County break, unplaced), Florissant 145131 and 145144; new IAW Belleville N 98th St 145161 (boil on restoration, investigation 145157); Alton (145159) and Peoria (145156) boil orders lifted, resolved. MAW 145088 still active. MAW alerts index blank; many probe IDs blank (possible rate limiting); MSD, Kirkwood not checked. Lanes 2-4: NOTHING NEW; KSDK Hampton boil advisory and south County break pages unloaded/undated, not adopted. open_count 139 (+5 new, -2 resolved).",
-    "open_count": 139,
-    "run_at": "2026-11-15T02:45:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU. City Water Union Blvd (Bircher–Brown) outage still the only listing on stlwater (8:30 PM), past its 11/13 estimate (Ring 2, impact none). No City or County boil advisory (stlwater none; MAW boil page none; MO DNR none in St. Louis City/County). Jolley/Cupples II no-water-use order and Wallace Dr (South 40) work: still no lift/completion notice. MAW University City 144457/144507, Clayton 144021 and Richmond Heights 143300 still carried (likely stale), impact possible (low)."
+    "note": "9:45 PM CST 11/14 four-lane run. Lane 1: new MAW Florissant St Joan Dr 145162 (8 PM start, ~3-4 hr); out-of-area 145163 (Joplin W Belle Center Rd) and 145164 (California) not tracked; probes 145165-145170, 145172, 145175 blank; MAW alerts index blank; no new City work orders (newest Marcus/St. Louis Ave hydrant 11/13). MSD, Kirkwood not checked. Lanes 2-4: NOTHING NEW; KSDK south County break page dated to Aug 2024 (stale); Hampton boil advisory still undated; Richmond Heights PD Nextdoor post blocked, undated. open_count 140 (+1 new).",
+    "open_count": 140,
+    "run_at": "2026-11-15T03:45:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU. City Water Union Blvd (Bircher–Brown) outage still listed as active on stlwater (page updated 9:30 PM), restoration estimate 11/13 7:58 PM never revised (Ring 2, impact none). No City or County boil advisory (stlwater none; MAW boil page none; MO DNR none in St. Louis City/County). Jolley/Cupples II no-water-use order and Wallace Dr (South 40) work: still no lift/completion notice. MAW University City 144457/144507, Clayton 144021 and Richmond Heights 143300 still carried (likely stale), impact possible (low)."
   },
   "incidents": [
     {
@@ -1154,6 +1154,24 @@
       ],
       "status": "resolved",
       "title": "Missouri American Water leak investigation, Florissant — St Catherine St (alert 142475)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 9:45 PM CT 11/14 (Lane 1 only): MAW alert 145162, main-break emergency repairs on St Joan Dr from 8:00 PM 11/14, ~3-4 hr estimate (~11 PM-midnight); no boil advisory. Separate from tracked Florissant 145131/145144 by street and start time. ~11-12 mi N of North Campus and Danforth (estimate); different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-15T03:45:00Z",
+      "id": "maw-florissant-stjoandr-20261114",
+      "last_updated": "2026-11-15T03:45:00Z",
+      "location": "St Joan Dr, Florissant, MO (north St. Louis County; cross street not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145162"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Florissant — St Joan Dr, emergency repairs (alert 145162)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
