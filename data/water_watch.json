@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "7:50 AM CST 11/16 four-lane run. Lane 1: stlwater outages.php lists the same 3 outages, no current advisories; IAW 145255 Champaign Cynthia Dr filed under the tracked 145221 record; other new IDs 145253-145260 are out of region; MAW index still an empty JS shell, so 145217/145205/145202/145162 unverified. MAW boil page, MSD, Kirkwood, MO DNR not checked (DNR report did not load). Lane 2: no water stories dated 11/15-16 on KSDK, FOX 2, KMOV, STLPR, U City or Clayton; KFVS list unchanged since 11/13; no new WGEL post on Greenville IL boil order. Lane 3: no WashU Alert; no new Facilities water notice; no lift for Jolley/Cupples II; no completion for Wallace Dr. Lane 4: no dated social posts; undated MAW Bridgeton/Maryland Heights/Earth City boil advisory stories and stale stlwater ?p=9725 page screened out again.",
-    "open_count": 151,
-    "run_at": "2026-11-16T13:50:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU, and no City or County boil advisory. City Water outages still listed (page updated 7:30 AM): S Spring Ave (Vista to Park, ETA 9:38 AM, ~2.5 mi E of Medical Campus), Potomac St (January to Sulphur, overdue), Union Blvd (Bircher to Brown, overdue). All Ring 2, impact none. Stale MAW alerts for Clayton, University City and Richmond Heights still carried at impact possible (low)."
+    "note": "8:45 AM CST 11/16 four-lane run. Lane 1: outages.php (supervisor-verified, updated 8:30 AM) lists 3 outages and 13 work orders, no advisories; MAW IDs 145256-145272 probed, St. Louis-area new ones 145265-145268; IAW 145269 Belleville lift (untied) and 145270 East St. Louis boil order extended. MAW index, MAW boil page, MSD, Kirkwood, MO DNR not reached. Lane 2: no dated St. Louis water stories 11/15-16; KFVS list (11/13) unchanged; Greenville IL boil order began today per WGEL 11/12. Lane 3: no WashU Alert or Facilities water notice; still no lift for Jolley/Cupples II; Wallace Dr exploratory work window (11/12-13) passed without follow-up. Lane 4: no dated social posts; its report that S Spring and Potomac had dropped was contradicted by the supervisor's read.",
+    "open_count": 156,
+    "run_at": "2026-11-16T14:45:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU, and no City or County boil advisory. Five new items, all impact none: City Water main repair at Riverview Blvd & W Florissant Ave (north City, repair only); MAW main breaks in Crestwood (145267), Bellefontaine Neighbors (145266) and Florissant (145268), all from 8 AM with ~6 hr estimates; MAW St. Charles leak repair (145265). City outages still listed at 8:30 AM: S Spring Ave (ETA 9:38 AM, ~2 mi E of Medical Campus), Potomac St (~15 hr overdue), Union Blvd (overdue). Stale MAW alerts for Clayton, University City and Richmond Heights still carried at impact possible (low)."
   },
   "incidents": [
     {
@@ -195,17 +195,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 8:45 PM CT 11/14 (Lane 1 only): IAW alert 145161, main-break repairs from 8:00 PM 11/14, ~12 hr estimate (~8 AM 11/15); boil order applies once service is restored. Related Belleville investigation alert 145157 also open. Metro East, ~15 mi SE of downtown St. Louis; separate utility system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "assessment": "Updated 8:45 AM CT 11/16 (Lane 1): IAW alert 145269 posts a Belleville boil order lift with no street or date; may be the N 98th St order (145161/145157) but not confirmed, and 145161 is still posted unchanged, so kept open. Metro East, ~15 mi SE of downtown St. Louis; separate system; no WashU asset. Impact none. Resolve when a lift is tied to this event. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-15T02:45:00Z",
       "id": "ilaw-belleville-n98thst-20261114",
-      "last_updated": "2026-11-15T02:45:00Z",
+      "last_updated": "2026-11-16T14:45:00Z",
       "location": "N 98th St, Belleville, IL (St. Clair County, Metro East; cross street not published)",
       "ring": 3,
       "single_source": true,
       "sources": [
         "https://alertsdetail.awapps.com/alert/145161",
-        "https://alertsdetail.awapps.com/alert/145157"
+        "https://alertsdetail.awapps.com/alert/145157",
+        "https://alertsdetail.awapps.com/alert/145269"
       ],
       "status": "open",
       "title": "Illinois American Water main break with boil order on restoration, N 98th St, Belleville, IL (alert 145161)",
@@ -271,17 +272,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 7:40 PM CT 11/12 (Lane 1, ID probe): IAW alert 144921 reports the East St. Louis valve work (likely the tracked 144868) running longer than expected; emergency repair from 5:00 PM 11/12, ~3 hr (~8 PM). Boil order applies once service is restored; no lift time. Metro East, ~8-9 mi E of the Medical Campus; separate utility system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "assessment": "Updated 8:45 AM CT 11/16 (Lane 1): IAW alert 145270 reports the East St. Louis boil order extended; no lift date or streets. Metro East, ~8-9 mi E of the Medical Campus; separate utility system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-12T16:40:00Z",
       "id": "ilaw-eaststlouis-planned-20261112",
-      "last_updated": "2026-11-13T01:40:00Z",
+      "last_updated": "2026-11-16T14:45:00Z",
       "location": "East St. Louis, IL (St. Clair County, Metro East; streets not published by utility)",
       "ring": 3,
       "single_source": true,
       "sources": [
         "https://alertsdetail.awapps.com/alert/144868",
-        "https://alertsdetail.awapps.com/alert/144921"
+        "https://alertsdetail.awapps.com/alert/144921",
+        "https://alertsdetail.awapps.com/alert/145270"
       ],
       "status": "open",
       "title": "Illinois American Water planned valve replacement with boil order on restoration, East St. Louis, IL (alert 144868)",
@@ -712,6 +714,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 8:45 AM CT 11/16 (Lane 1 only, ID probe): MAW alert 145266, main-break repairs from 8:00 AM 11/16, ~6 hr estimate (~2 PM); no street; no boil advisory. Lane 1 treats it as separate from the tracked 11/15 investigation 145217 (may be its follow-on; not confirmed). ~8-9 mi N/NE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-16T14:45:00Z",
+      "id": "maw-bellefontaineneighbors-unlocated-20261116",
+      "last_updated": "2026-11-16T14:45:00Z",
+      "location": "Bellefontaine Neighbors, MO (north St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145266"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Bellefontaine Neighbors — emergency repairs (alert 145266)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Updated 12:40 AM CT 11/12 (Lane 1): MAW alert 144809 title now 'Black Jack: Main Break'; body still describes investigation of a possible service issue with low or no pressure; no street, times or boil advisory. ~11 mi N of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-12T05:45:00Z",
@@ -970,6 +990,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Crestwood — emergency repairs (alert 143412)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 8:45 AM CT 11/16 (Lane 1 only, ID probe): MAW alert 145267, main-break repairs from 8:00 AM 11/16, ~6 hr estimate (~2 PM); no street; no boil advisory. Separate from tracked 143412 (10/30). ~6-7 mi SW of South Campus and Danforth; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-16T14:45:00Z",
+      "id": "maw-crestwood-unlocated-20261116",
+      "last_updated": "2026-11-16T14:45:00Z",
+      "location": "Crestwood, MO (south St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145267"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Crestwood — emergency repairs (alert 145267)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -1450,6 +1488,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Florissant — emergency repairs (alert 145205)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 8:45 AM CT 11/16 (Lane 1 only, ID probe): MAW alert 145268, main-break repairs from 8:00 AM 11/16, ~6 hr estimate (~2 PM); no street; no boil advisory. Separate from tracked Florissant alerts by start date. ~10-12 mi N of North Campus and Danforth; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-16T14:45:00Z",
+      "id": "maw-florissant-unlocated-20261116",
+      "last_updated": "2026-11-16T14:45:00Z",
+      "location": "Florissant, MO (north St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145268"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Florissant — emergency repairs (alert 145268)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -2193,6 +2249,24 @@
       ],
       "status": "resolved",
       "title": "Missouri American Water main break, St. Ann — second break, emergency repairs (alert 142388)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 8:45 AM CT 11/16 (Lane 1 only, ID probe): MAW alert 145265, leak repair starting 9:00 AM 11/16, ~5 hr estimate (~2 PM); no street; no boil advisory. ~18-20 mi NW of Danforth; separate service area; no WashU asset. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-16T14:45:00Z",
+      "id": "maw-stcharles-leak-20261116",
+      "last_updated": "2026-11-16T14:45:00Z",
+      "location": "St. Charles, MO (St. Charles County; street not published by utility)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145265"
+      ],
+      "status": "open",
+      "title": "Missouri American Water leak repair, St. Charles (alert 145265)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -4098,11 +4172,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 8:40 PM CT 11/15 (Lane 1): stlwater outages page (updated 8:30 PM) still lists Potomac St (January–Sulphur) as restoring; out since 9:21 AM, 5:21 PM ETA passed, ~3 hr overdue; Potomac & Sulphur main repair (7:17 AM) also listed. No City boil advisory. Ring 2, south City, ~4-5 mi from Danforth; no WashU asset. Impact none. Resolve once completion is confirmed. Owner: Emergency Management (track only).",
+      "assessment": "Updated 8:45 AM CT 11/16 (Lane 1; supervisor verified on outages.php updated 8:30 AM 11/16): Potomac St (January–Sulphur) still listed as an outage; out since 9:21 AM 11/15, 5:21 PM ETA never revised, now ~15 hr overdue; Potomac & Sulphur main repair (7:17 AM 11/15) still listed. Lane 4 report that it had dropped off was not borne out. No City boil advisory. Ring 2, south City, ~4-5 mi from Danforth; no WashU asset. Impact none. Resolve once completion is confirmed. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-15T13:40:00Z",
       "id": "stlwater-stlouiscity-potomac-sulphur-20261115",
-      "last_updated": "2026-11-16T02:40:00Z",
+      "last_updated": "2026-11-16T14:45:00Z",
       "location": "Potomac St between January Ave and Sulphur Ave, St. Louis City (Lindenwood Park / Clifton Heights area)",
       "ring": 2,
       "single_source": true,
@@ -4191,6 +4265,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division service outages, Riverview Dr & Spring Garden Dr (far north City)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 8:45 AM CT 11/16 (Lane 1; supervisor verified on outages.php updated 8:30 AM): Main - Repair work order opened 7:59 AM 11/16; repair only, no service outage or boil advisory listed; no restoration time. ~8 mi NE of North Campus (estimate); not a Ring 1 corridor or Medical Campus route; no WashU asset. Impact none. Resolve when the work order drops. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-16T14:45:00Z",
+      "id": "stlwater-stlouiscity-riverview-wflorissant-20261116",
+      "last_updated": "2026-11-16T14:45:00Z",
+      "location": "Riverview Blvd & W Florissant Ave, St. Louis City (far north City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division main repair, Riverview Blvd & W Florissant Ave (north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
