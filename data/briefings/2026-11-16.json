@@ -1,87 +1,86 @@
 {
-  "bluf": "Posture Normal. No weather product, life-safety threat, health advisory or outage touches a WashU asset; dry and mild through Friday. The one action today is cyber: the BYOD ransomware group has hit three universities in six weeks, two with academic medical centers (Vanderbilt still restoring; UNM Health diverted ambulances). Thanksgiving break (Nov 25-29) is a thin-staffing window. Pre-break flu and measles messaging this week; Sat Nov 21 is the heaviest Ring 2 load day.",
-  "briefing_url": "https://claude.ai/artifact/SfwiCD7h7iTpDs3QzjPu21",
+  "bluf": "Posture Normal. Nothing in the last 24 hours touches a WashU asset: no NWS product, no WashU Alert or Ring 1 violent incident, no local health advisory, no outage; dry and warming through Friday. The one decision today is cyber: the BYOD ransomware group has hit three universities with academic medical centers since late September (Vanderbilt Nov 9, Michigan State, UNM Health) and this is the last fully staffed week before Thanksgiving break (Nov 25-29), so task IT Security and the BJC liaison today. This week: pre-script a WashU Alert for exam-season hoax threats, confirm MMR documentation posture before travel, scope federal awards exposed to the Dec 11 funding deadline, and plan around a stacked downtown Saturday Nov 21.",
+  "briefing_url": "https://claude.ai/artifact/85T2LHAbJgjpob1R12c5DC",
   "date": "2026-11-16",
   "dissents": [
     {
-      "note": "Moved from This week to Today; overrules Cyber on timing.",
-      "title": "BYOD ransomware underrated",
+      "note": "Red Team Sev 4 over Cyber lane Sev 3; both said This week, supervisor moved to Today for pre-break tasking.",
+      "title": "BYOD campaign is a direct Ring 1 exposure, not sector news",
       "verdict": "Adopted"
     },
     {
-      "note": "Moved to This week for pre-break MMR checks; kept at Severity 3, not 4.",
-      "title": "Measles importation underrated",
-      "verdict": "Partly adopted"
+      "note": "Policy lane independently rated This week with a Nov 20 deadline; two lanes converge.",
+      "title": "Dec 11 funding deadline needs action before break",
+      "verdict": "Convergent"
     },
     {
-      "note": "Dec 11 lapse is outside the window; Monitor.",
-      "title": "Federal shutdown overrated",
+      "note": "Downgraded from Public Safety's Sev 2 Today to Sev 1 Monitor; no injuries, suspect in custody, outside 24 h window.",
+      "title": "Nov 14 Central West End shooting is a closed shots-fired call",
       "verdict": "Adopted"
     },
     {
-      "note": "9 days old, no St. Louis link, sourced only to a state-affiliated foreign outlet.",
-      "title": "Winston-Salem State copycat risk overrated",
-      "verdict": "Adopted"
+      "note": "Weather lane already at Sev 1; rain timing contested (Thu vs Sat onset), re-check Thursday.",
+      "title": "Late-week weather overrated",
+      "verdict": "Rejected as moot"
     },
     {
-      "note": "Sev 5, Low likelihood; pre-emptive step folded into action 1.",
-      "title": "Scenario: ransomware encrypts shared WashU Medicine/BJC clinical systems",
+      "note": "Sev 4, Low likelihood; pre-emptive downtime-kit and notification-list check folded into action 1.",
+      "title": "Scenario: encrypt-and-shutdown at the Medical Campus during an evening surge",
       "verdict": "Carried as dissent"
     }
   ],
   "lanes_quiet": [
-    1,
-    6
+    1
   ],
   "lookahead": [
     {
       "date": "2026-11-16",
       "dow": "Mon",
-      "loads": "Cyber pre-break checks; Garden Glow and Polar Express ongoing",
+      "loads": "Journey, Enterprise Center 19:30 (Ring 2); task IT on action 1",
       "stacked": false,
-      "wx": "Sunny, early fog, 33/57"
+      "wx": "Mostly sunny, 57/35, dry"
     },
     {
       "date": "2026-11-17",
       "dow": "Tue",
-      "loads": "Blues vs. Ducks 19:00, Enterprise Center",
+      "loads": "PAHO measles announcement expected; Blues vs. Ducks 19:00 (Ring 2)",
       "stacked": false,
-      "wx": "Sunny, 36/59"
+      "wx": "Sunny, upper 50s / upper 30s, dry"
     },
     {
       "date": "2026-11-18",
       "dow": "Wed",
       "loads": "No dated loads confirmed",
       "stacked": false,
-      "wx": "Mostly sunny, 39/63"
+      "wx": "Sunny, low 60s / near 40, dry"
     },
     {
       "date": "2026-11-19",
       "dow": "Thu",
-      "loads": "Re-check weekend forecast; confirm parade closures",
+      "loads": "Top Girls, Hotchner 19:30 (Ring 1, under 200); Forest Park Advisory Board 16:30; re-check weekend forecast and parade status",
       "stacked": false,
-      "wx": "Mostly sunny, 47/68"
+      "wx": "Mostly sunny, mid 60s / mid 40s, dry"
     },
     {
       "date": "2026-11-20",
       "dow": "Fri",
-      "loads": "Transgender Day of Remembrance (monitor)",
+      "loads": "Top Girls 19:30; deadline for Dec 11 funding exposure list",
       "stacked": false,
-      "wx": "Sunny, 49/69"
+      "wx": "Partly sunny, near 70 / upper 40s, 0-10% rain"
     },
     {
       "date": "2026-11-21",
       "dow": "Sat",
-      "loads": "Parade 14:00 Market St; Festival of Lights and Winterfest opening; Musial Awards 17:30; Blues vs. Devils 18:00; Fox shows 16:00 and 19:30 (Ring 2)",
+      "loads": "Winterfest 5K (morning); Festival of Lights 17:30, fireworks 19:00 Kiener Plaza; Musial Awards, Stifel; Blues vs. Devils 18:00; Brewery Lights opens (all Ring 2); Top Girls 14:00 and 19:30 (Ring 1); parade date unconfirmed",
       "stacked": true,
-      "wx": "Mostly sunny, high 69; rain 40% overnight"
+      "wx": "Clouds increasing, 65-70 / mid 40s, rain 30-40% afternoon into night"
     },
     {
       "date": "2026-11-22",
       "dow": "Sun",
-      "loads": "WashU women's basketball vs. Millikin 13:00 Field House; Blues vs. Oilers 18:00",
-      "stacked": true,
-      "wx": "Sunny, cooler, high 55"
+      "loads": "Blues vs. Oilers 18:00 (Ring 2); Top Girls 14:00; WashU women's basketball home game not confirmed",
+      "stacked": false,
+      "wx": "Cooler, mid 50s to 60 / upper 30s, rain 0-40% (outlets disagree)"
     }
   ],
   "pirs": [
@@ -89,82 +88,67 @@
       "name": "Weather and natural hazards",
       "pir": 1,
       "status": "quiet",
-      "summary": "No NWS products for St. Louis City/County; dry and mild through Fri; early valley fog today; light rain Sat night 40%. Rivers normal, no regional quakes, Tyson fire risk low."
+      "summary": "Nothing at threshold. Dry under high pressure through Fri; cold front brings 30-40% rain Sat afternoon into Sun, no severe signal. No New Madrid activity above M2.5, no AQI over 100 found, no fire-weather product for Tyson. Mississippi at St. Louis in low-water operations (Ring 2, no campus exposure)."
     },
     {
       "name": "Life safety",
       "pir": 2,
       "status": "watch",
-      "summary": "Nov 12 armed robbery during Marketplace sale from WashU apartments near McPherson, CWE (SLMPD open case); Nov 14 officer-involved shooting at 4100 Lindell, no injuries. No threat naming WashU, no planned demonstrations."
+      "summary": "Exam-season swatting at UIUC Nov 11 (Sev 3, This week, single-source): pre-script WashU Alert, brief dispatch, confirm exam-venue routes. Nov 12 marketplace-meetup armed robbery of a staff member on McPherson (Sev 2): reissue safe-exchange guidance. Nov 14 Lindell shots-fired reclassified, no injuries (Monitor). No WashU Alert, threat naming WashU, or planned demonstration found; WashU Alert archive and WUPD log not readable."
     },
     {
       "name": "Public health and Medical Campus",
       "pir": 3,
       "status": "watch",
-      "summary": "Early H1N1-dominant flu season rising nationally; slow Missouri measles spread (18+ cases, MMR 89.5%). Pre-break messaging and MMR checks this week. No local advisory or diversion found."
+      "summary": "US loses measles-elimination status, PAHO announcement expected Tue Nov 17 (Sev 2, This week): confirm MMR documentation posture and airborne-isolation readiness before break travel; Missouri 18 cases this year. Early H1N1-dominant flu season nationally, Missouri and Illinois not yet high (Monitor). No local advisory, college outbreak, or confirmed diversion found."
     },
     {
       "name": "Cyber and infrastructure",
       "pir": 4,
       "status": "active",
-      "summary": "BYOD ransomware campaign vs. universities with medical centers; KEV patches past due. No Ring 1 utility, transit or road disruption confirmed; Kingshighway repaving dates unconfirmed."
+      "summary": "BYOD ransomware campaign (action 1). CISA KEV additions Nov 9-10 (Cisco BroadWorks, OpenSSH, FreeSWITCH, GPUStack, Aspera) and joint cold-chain OT warning (Sev 2, This week): patch exposed hosts, segment lab freezers. MetroLink Blue Line truncated at Forest Park-DeBaliviere through Dec 23 (Monitor). University Hospitals Cleveland still restoring after Oct 22 incident. No Ameren, Spire, water, Lambert or corridor disruption found; status pages not readable."
     },
     {
       "name": "Scheduled activity",
       "pir": 5,
       "status": "watch",
-      "summary": "No Ring 1 event over 5,000. Stacked Sat Nov 21 downtown (parade, Blues, Musial Awards, Fox) and Sun Nov 22 (WashU WBB 13:00, Blues 18:00). Thanksgiving break Nov 25-29."
+      "summary": "Stacked downtown Sat Nov 21 (Ring 2, Sev 2): Winterfest 5K, Festival of Lights 17:30 and fireworks 19:00 at Kiener Plaza, Musial Awards at Stifel, Blues 18:00, Brewery Lights opens; 2026 parade date unconfirmed (2025 pattern would put it 14:00 Market St same day). Journey at Enterprise Center tonight 19:30. Last full instructional week before Thanksgiving break Nov 25-29. No Ring 1 event over 5,000 confirmed, but WashU calendars were not readable."
     },
     {
       "name": "Policy, legal and funding",
       "pir": 6,
-      "status": "quiet",
-      "summary": "Federal stopgap expires Dec 11 (monitor, re-check Dec 1); FEMA FMA NOFO due Feb 26, 2027; Uganda Level 4 reissued Nov 9. No Missouri, Clery or Title IX actions."
+      "status": "watch",
+      "summary": "Federal stopgap expires Fri Dec 11 with no deal as of Nov 11 (Sev 2, This week): by Fri Nov 20 list open federal awards and pending reimbursements a lapse would stall and pull forward submissions. Clery negotiated rulemaking listed to start Nov 2026, no notice found (Monitor). No FEMA grant, Missouri legislative, Clery/Title IX, or State Dept Level 3/4 change in the last 24 h."
     }
   ],
   "posture": "Normal",
-  "published_at": "2026-11-16T12:00:00Z",
-  "run_note": "All seven lanes reported by 06:02 CT; Sev 4 cyber item re-verified against primary reporting; several live feeds (api.weather.gov, AQI, ISACs, outage maps, WashU events calendar) unreachable.",
+  "published_at": "2026-11-16T16:05:00Z",
+  "run_note": "Midday re-run requested by the Emergency Manager, produced by Claude Fable 5.1; supersedes the 06:00 CT edition. All seven lanes reported 09:48-09:55 CT; run about 24 minutes. Session network policy blocked every direct page fetch, so all lanes worked from search results and confidence is capped at Medium; the Sev 4 cyber item was re-verified against six independent reports but Vanderbilt's own incident page could not be opened.",
   "title": "WashU EM Daily Intelligence Briefing, November 16, 2026",
   "today_items": [
     {
-      "action": "Check for MSU-style credential abuse and Vanderbilt indicators; confirm offline backups; confirm WashU Medicine/BJC clinical downtime procedures and cyber EOC activation trigger before break.",
+      "action": "Task today, complete before Nov 25: run BYOD and Vanderbilt indicator and credential-abuse checks; confirm offline backup of the identity tier (SSO, MFA, directory); pre-stage a disconnect-and-reset communications template; with BJC, confirm Epic downtime kits are staged and the out-of-band notification list is current.",
       "confidence": "Medium",
       "likelihood": "Medium",
-      "owner": "WashU IT / CISO with BJC liaison; EM",
+      "owner": "WashU IT Security / CISO; Medical Campus EM with BJC IS; EM for communications",
       "pir": 4,
       "rank": 1,
       "severity": 4,
-      "source": "https://www.malwarebytes.com/blog/news/2026/11/vanderbilt-restores-systems-after-cyberattack-as-hackers-claim-data-theft",
+      "source": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed",
       "title": "BYOD ransomware campaign against universities with medical centers",
-      "ttd": "Today"
-    },
-    {
-      "action": "Confirm patch status on internet-exposed research servers and file-transfer hosts.",
-      "confidence": "High",
-      "likelihood": "Medium",
-      "owner": "IT Security / Research Infrastructure Services",
-      "pir": 4,
-      "rank": 2,
-      "severity": 3,
-      "source": "https://content.govdelivery.com/accounts/USDHSCISA/bulletins/4323900",
-      "title": "CISA KEV additions of Nov 9 past federal deadline (OpenSSH, IBM Aspera Faspex, FreeSWITCH, GPUStack)",
       "ttd": "Today"
     }
   ],
-  "top_item": "BYOD ransomware campaign against universities with medical centers: IT/CISO to check credential abuse and Vanderbilt indicators, confirm offline backups and WashU Medicine/BJC downtime procedures before break.",
+  "top_item": "BYOD ransomware campaign against universities with medical centers: task IT Security/CISO today to run indicator and credential-abuse checks, confirm offline identity-tier backups, and with BJC confirm Epic downtime kits and out-of-band notification lists before the Nov 25 break.",
   "unreachable": [
-    "api.weather.gov (proxy blocked)",
-    "SPC and NWS alert-map pages (stale caches)",
-    "AirNow and Missouri DNR AQI",
-    "REN-ISAC and Health-ISAC",
-    "Live Ameren/Spire/Metro/MoDOT/Lambert views",
-    "events.wustl.edu and happenings.washu.edu",
-    "travel.state.gov",
-    "Post-Dispatch (paywall)",
-    "KSDK pages",
-    "CDC FluView weeks 43-45",
-    "St. Louis County DPH feed",
-    "WashU Alert not checked directly"
+    "All direct page fetches blocked by session network policy; findings from search results only",
+    "NWS LSX, SPC, WPC, USGS, AirNow",
+    "WashU Alert archive, WUPD log, Student Life, WashU events, athletics and Source pages",
+    "SLMPD and local news pages (Post-Dispatch, KSDK, KMOV, FOX 2, STLPR)",
+    "CDC, Missouri DHSS, St. Louis City and County health pages",
+    "CISA, Metro Transit, Ameren, Spire, MoDOT, Lambert, vendor status pages",
+    "Enterprise Center, Stifel, Fox, Chaifetz, Explore St. Louis",
+    "FEMA, SEMA, ED, travel.state.gov, congress.gov",
+    "Vanderbilt incident page (Sev 4 item verified via independent press only)"
   ]
 }
