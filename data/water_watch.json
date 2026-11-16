@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "7:45 PM CST 11/15 four-lane run. Lane 1: AW IDs 145216-145224/145227 probed; 145217 Bellefontaine Neighbors new; 145216/145218/145219 NJ; rest empty. 145215 'Saint Louis' investigation unchanged. MAW alerts index loads blank; MO DNR unreachable. stlwater outages page still 'last updated 4:30 AM 11/15' (stalled ~15 hr); Union Blvd Bircher-Brown still the only active outage, ~48 hr past ETA; Potomac, S Spring/Park, Penrose/Blair absent but page stale, so not resolved. Lane 2: Moberly logged; Festus S Mill St boil advisory and Moberly S 4th/5th St undated, not logged. Lane 3: WashU Alert none (modified 11/12); Facilities restates Jolley/Cupples window ended 10/31 and Wallace Dr lane closures ended 11/13 (no new info; statuses unchanged); Med Campus heating-water outage BJC IH 11/14 past, not domestic water. Lane 4: nothing dated; undated FOX 2 north City break video not logged.",
-    "open_count": 151,
-    "run_at": "2026-11-16T01:45:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU. No City or County boil advisory (stlwater boil page shows none; MO DNR not reachable). New: MAW Bellefontaine Neighbors investigation 145217 (Ring 2, impact none) and Moberly MO 48-hr boil advisory (Ring 3, impact none). MAW Clayton 144021, University City 144457/144507 and Richmond Heights 143300 still carried as likely stale, impact possible (low)."
+    "note": "8:40 PM CST 11/15 four-lane run. Lane 1: AW IDs 145225-145240/145242/145245 empty (not yet issued); 145215 and 145217 unchanged; 144021 Clayton page still shows 11/5 window (likely stale). stlwater outages page refreshed 8:30 PM: Union-Bircher and Potomac outages still restoring; Penrose/Blair and Cabanne Academy-Kingshighway segment no longer listed (left in monitoring, no completion notice); routine hydrant work orders 4200 Gravois, 3901 Keokuk, 5801 Oleatha seen, no outage, not logged. Lane 2: nothing dated 11/14-15; Festus S Mill St and Moberly S 4th/5th still undated, not logged; stlwater ?p=9725 boil page is an old undated advisory, not current. Lane 3: WashU Alert unchanged (11/12); Facilities nothing after 11/12; Med Facilities McDonnell Pediatric Research Bldg service interruption planned 11/23-25 (utility unnamed) — check whether domestic water. Lane 4: nothing dated. MO DNR, data.mo.gov, KFVS unreachable this run.",
+    "open_count": 150,
+    "run_at": "2026-11-16T02:40:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU. No City or County boil advisory (stlwater 0 current advisories; MAW none found; MO DNR not reachable). City outages Union Blvd Bircher–Brown (>48 hr overdue) and Potomac St (~3 hr overdue) continue, Ring 2, impact none. MAW Clayton 144021, University City 144457/144507 and Richmond Heights 143300 still carried as likely stale, impact possible (low)."
   },
   "incidents": [
     {
@@ -4079,11 +4079,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 5:40 PM CT 11/15 (Lane 1): stlwater.com outage table (updated 5:30 PM) still lists Potomac St (January–Sulphur) as active restoration; 5:21 PM ETA passed with no revised time (overdue). Out of service since 9:21 AM. No City boil advisory. Ring 2, south City, ~4-5 mi from Danforth; no WashU asset; not a Ring 1 corridor. Impact none. Resolve once completion is confirmed. Owner: Emergency Management (track only).",
+      "assessment": "Updated 8:40 PM CT 11/15 (Lane 1): stlwater outages page (updated 8:30 PM) still lists Potomac St (January–Sulphur) as restoring; out since 9:21 AM, 5:21 PM ETA passed, ~3 hr overdue; Potomac & Sulphur main repair (7:17 AM) also listed. No City boil advisory. Ring 2, south City, ~4-5 mi from Danforth; no WashU asset. Impact none. Resolve once completion is confirmed. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-15T13:40:00Z",
       "id": "stlwater-stlouiscity-potomac-sulphur-20261115",
-      "last_updated": "2026-11-15T23:40:00Z",
+      "last_updated": "2026-11-16T02:40:00Z",
       "location": "Potomac St between January Ave and Sulphur Ave, St. Louis City (Lindenwood Park / Clifton Heights area)",
       "ring": 2,
       "single_source": true,
@@ -4354,11 +4354,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 7:40 AM CT 11/15 (Lane 1): stlwater outages.php (updated 7:30 AM 11/15) still lists the Union Blvd (Bircher–Brown) outage as the City's only current service outage; began 9:58 AM 11/13, estimate 7:58 PM 11/13 never revised, now ~36 hr overdue. Separate Union Blvd valve repair (11/10) also still listed. No City boil advisory (current advisories empty). North City, ~1.5-2.5 mi from North Campus; Ring 2; not a Ring 1 corridor; no WashU asset. Impact none. Resolve when it drops from the outage list. Owner: Emergency Management (track only).",
+      "assessment": "Updated 8:40 PM CT 11/15 (Lane 1): stlwater outages page refreshed (last updated 8:30 PM 11/15) and still lists Union Blvd (Bircher–Brown) as restoring; began 9:58 AM 11/13, ETA 7:58 PM 11/13 never revised, now >48 hr overdue. Union Blvd valve repair also still listed. No City boil advisory (0 current). North City, Ring 2, ~1.5-2.5 mi from North Campus; no WashU asset. Impact none. Resolve when dropped or completion confirmed. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-13T17:40:00Z",
       "id": "stlwater-stlouiscity-union-bircher-20261113",
-      "last_updated": "2026-11-15T13:40:00Z",
+      "last_updated": "2026-11-16T02:40:00Z",
       "location": "Union Blvd between Bircher Blvd and Brown Ave, St. Louis City (north City)",
       "ring": 2,
       "single_source": false,
