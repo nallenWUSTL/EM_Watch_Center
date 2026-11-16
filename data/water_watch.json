@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "3:45 AM CST 11/16 four-lane run. Lane 1: stlwater outages page still the 4:30 AM 11/15 copy; Union Blvd Bircher–Brown still active/overdue; Cabanne, N Grand & Palm, 6815 Dale, Sutherland, Eichelberger & Alaska unchanged; Withers/N 2nd already tracked. No City boil advisory (?p=9725 page is an old Chain of Rocks event). MO DNR dataset: no St. Louis-area boil orders. MAW alerts index, boil page and detail pages 145222-145260 JS-only or proxy-blocked, so new MAW County alerts may be unseen. MSD, Kirkwood not checked. Lane 2: nothing dated 11/15-16; undated AOL Maryland Heights/Bridgeton/Earth City boil-advisory story could not be dated, not logged; Greenville IL 11/16 boil order not re-confirmed; municipal pages and KFVS list not opened. Lane 3: WashU Alert none; both Facilities news pages newest 11/12; Jolley/Cupples II and Wallace Dr windows passed, no completion notices; BJC/Cortex/Loop/Forest Park/MoDOT primary pages not opened. Lane 4: no dated social posts; stale Jan 2026 and Jun-Jul 2026 items screened out.",
+    "note": "4:40 AM CST 11/16 four-lane run. Lane 1: stlwater outages.php updated 4:30 AM. One new outage, S Spring Ave Vista-Park (3:38 AM, ETA 9:38 AM), filed as an update to the S Spring & Park repair. Potomac and Union Blvd outages unchanged and overdue. Older hydrant work orders (4200 Gravois, 3901 Keokuk, 5801 Oleatha, all 11/9) seen but not logged. MO DNR: no St. Louis-area boil orders (newest 11/5). MAW alerts index and detail pages 145225 and 145230 returned an empty shell, so new MAW County alerts may be unseen. MSD and Kirkwood not checked. Lane 2: nothing dated 11/15-16. KFVS list last updated 11/13 shows Millstone Water District (Pope Co. IL) and Murphysboro IL Enterprise Ave, both Ring 3, older than 24 hr, not logged. Greenville IL boil order starts today per WGEL 11/12. Lane 3: no WashU Alert; both Facilities news pages still newest 11/12 (planned generator-test interruptions 11/18-25, not domestic water); no lift posted for Jolley/Cupples II. Lane 4: no dated social posts; stale items screened out.",
     "open_count": 151,
-    "run_at": "2026-11-16T09:45:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU. No City or County boil advisory confirmed. City outage Union Blvd Bircher–Brown (restoration est. 11/13 7:58 PM, now >30 hr overdue) still listed, Ring 2, impact none. MAW Clayton 144021, University City 144457/144507 and Richmond Heights 143300 still carried at impact possible (low), stale."
+    "run_at": "2026-11-16T10:40:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU, and no City or County boil advisory. City Water posted a new service outage on S Spring Ave (Vista to Park), 3:38-9:38 AM 11/16, for the tracked S Spring & Park repair: Ring 2, about 1.5-2 mi from the Medical Campus, impact none. Union Blvd Bircher-Brown and Potomac St outages are still listed and overdue. MAW Clayton, University City and Richmond Heights stale alerts are still carried at impact possible (low)."
   },
   "incidents": [
     {
@@ -4235,19 +4235,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 11:40 AM CT 11/15 (Lane 1 only; stlwater outages page tables stamped 11:30 AM): main-repair work order opened 11:15 AM 11/15; not listed as a service outage; no restoration time; no City boil advisory. Roughly 2 mi E/SE of the Medical Campus (estimate); not on a Ring 1 corridor; no WashU asset identified. Impact none. Escalate if a service outage or boil advisory is posted near Kingshighway/Forest Park Ave. No news or social corroboration (Lanes 2, 4). Resolve when dropped from the work-order list with no outage. Owner: Emergency Management (track only).",
+      "assessment": "Updated 4:40 AM CT 11/16 (Lane 1; stlwater outages.php updated 4:30 AM 11/16): a service outage is now listed on S Spring Ave from Vista Ave to Park Ave, starting 3:38 AM 11/16 with restoration estimated at 9:38 AM. This is very likely the shutoff for the main repair tracked here (work order 11:15 AM 11/15). No City boil advisory. The Medical Campus is about 1.5-2 mi WNW (estimate). Not on a Ring 1 corridor or a Medical Campus route; no WashU asset. Impact none. Escalate if the outage expands west toward Kingshighway or Forest Park Ave, or if a boil advisory is posted. Resolve when the outage and the work order both drop. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-15T17:40:00Z",
       "id": "stlwater-stlouiscity-sspring-park-20261115",
-      "last_updated": "2026-11-15T17:40:00Z",
-      "location": "S Spring Ave & Park Ave, St. Louis City (midtown/south-central City, east of Grand area; cross street as published on work-order table)",
+      "last_updated": "2026-11-16T10:40:00Z",
+      "location": "S Spring Ave between Vista Ave and Park Ave, St. Louis City (Midtown / Gate District area)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/outages.php"
       ],
       "status": "open",
-      "title": "City of St. Louis Water Division main repair, S Spring Ave & Park Ave",
+      "title": "City of St. Louis Water Division main repair and service outage, S Spring Ave (Vista Ave to Park Ave)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
