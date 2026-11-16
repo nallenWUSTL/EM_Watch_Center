@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "normal",
-    "note": "9:40 AM CST 11/16 four-lane run. Lane 1: outages.php (updated 9:30 AM) unchanged, 3 outages and 13 work orders, no advisories; MAW IDs 145271-145287 probed, St. Louis-area new ones 145275/145282 (Maryland Heights planned) and 145276 (Florissant); City newsroom nothing after 11/5; Kirkwood page stale. MAW index showed no list; MAW boil page, MO DNR, MSD not reached. Lane 2: no dated St. Louis water stories 11/15-16; Greenville IL boil order began today, expected through ~11/19-20 (WGEL); KFVS boil list, FOX 2 tag page and Post-Dispatch not reached. Lane 3: no WashU Alert (last modified 11/12) or Facilities water notice; Jolley/Cupples II and Wallace Dr still without follow-up; Cortex blocked. Lane 4: no dated social posts.",
-    "open_count": 158,
-    "run_at": "2026-11-16T15:40:00Z",
-    "top_incident": "No new or changed water incidents affecting WashU, and no City or County boil advisory. Two new items, both impact none: MAW main break in Florissant (145276, from 8:30 AM, ~6 hr) and MAW planned work in Maryland Heights Tue 11/17 6 AM-4 PM (145275/145282). City outages still listed at 9:30 AM: S Spring Ave (ETA 9:38 AM, clearance unconfirmed, ~2 mi E of Medical Campus), Potomac St (overdue), Union Blvd (overdue). Stale MAW alerts for Clayton, University City and Richmond Heights still carried at impact possible (low)."
+    "note": "10:40 AM CST 11/16 four-lane run. Lane 1: outages.php (updated 10:30 AM) lists Greer/Newstead outage and Cleveland/Tower Grove repair as new; Eichelberger & Alaska and Penrose & Blair dropped (Eichelberger moved to monitoring); City boil advisories none (wateroos.php redirects); MAW IDs 145283-145295 and 145300 opened, none St. Louis-area (series appears to end at 145292); MAW alerts and boil pages render empty (JS); MO DNR none in St. Louis area; MSD and Kirkwood not checked. Lane 2: no dated St. Louis stories 11/15-16; KFVS list last updated 11/13; FOX 2 cache stale, Post-Dispatch paywalled. Lane 3: WashU Alert no active alerts; no Danforth or Medical Campus domestic water notices; Jolley/Cupples II and Wallace Dr still without follow-up. Lane 4: no dated social posts. Lanes 2 and 4 both flagged undated stlwater.com/?p=9725 Chain of Rocks boil advisory page; matches the Aug 17 advisory and outages page lists no current advisory, so treated as stale, not adopted.",
+    "open_count": 160,
+    "run_at": "2026-11-16T16:40:00Z",
+    "top_incident": "No new or changed water incidents affecting WashU, and no City or County boil advisory. Two new City items, both Ring 2 and impact none: Greer Ave outage between N Newstead and Taylor (10:14 AM to ~6:14 PM, ~2.5-3 mi NE of Medical Campus) and a Cleveland Ave & Tower Grove Ave main repair (10:01 AM, no outage, ~2 mi SE of Medical Campus). S Spring Ave Vista-Park outage now past its 9:38 AM estimate; Potomac and Union Blvd outages still overdue. Stale MAW alerts for Clayton, University City and Richmond Heights still carried at impact possible (low)."
   },
   "incidents": [
     {
@@ -3605,6 +3605,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 10:40 AM CT 11/16 (Lane 1 only; stlwater outages.php updated 10:30 AM): Main - Repair work order opened 10:01 AM 11/16; no service outage or restoration time listed; no City boil advisory. ~2 mi SE of the Medical Campus (estimate); not on a Ring 1 corridor or Medical Campus route; no WashU asset. Impact none. Escalate if an outage is posted reaching Kingshighway or Vandeventer north of Manchester. Resolve when the work order drops. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-16T16:40:00Z",
+      "id": "stlwater-stlouiscity-cleveland-towergrove-20261116",
+      "last_updated": "2026-11-16T16:40:00Z",
+      "location": "Cleveland Ave & Tower Grove Ave, St. Louis City (Shaw / Southwest Garden area)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division main repair, Cleveland Ave & Tower Grove Ave (Shaw / Southwest Garden)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 2:40 PM CT 11/13 (Lane 1): no longer listed on City outages.php (2:30 PM stamp); was active at 1:30 PM, est. restoration 10:26 PM. Treated as restored per utility index; no reason given; no boil advisory. Ring 2, south City; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-13T17:40:00Z",
@@ -3701,18 +3719,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 11:40 AM CT 11/9 (Lane 4 only, City Water work-order list on wateroos.php stamped 11:30 AM 11/9): Main - Repair work order opened 10:01 AM 11/9; no service outage, street closure or boil advisory posted; no restoration time. ~6-7 mi SE of Danforth and Medical Campus (estimate); no WashU asset; no Ring 1 corridor. Impact none. Lane 1 could not confirm (reads /outages as stale 9:30 PM 11/8). Monitor; resolve under the 48-hour rule if no outage is posted. Owner: Emergency Management (track only).",
+      "assessment": "Updated 10:40 AM CT 11/16 (Lane 1): Eichelberger & Alaska work order no longer appears on stlwater outages.php (updated 10:30 AM 11/16); completion likely but not confirmed, so moved to monitoring rather than resolved. South City, Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-09T17:40:00Z",
       "id": "stlwater-stlouiscity-eichelberger-alaska-20261109",
-      "last_updated": "2026-11-09T17:40:00Z",
+      "last_updated": "2026-11-16T16:40:00Z",
       "location": "Eichelberger St & Alaska Ave, St. Louis City (Dutchtown / Carondelet area, south City; cross street as published)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/wateroos.php"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division main repair, Eichelberger St & Alaska Ave (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -3752,6 +3770,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division service outage, Forest Park Ave & Union Dr (Forest Park, Union to Jewel Box)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 10:40 AM CT 11/16 (Lanes 1 and 3, both from stlwater outages.php updated 10:30 AM): service outage from 10:14 AM 11/16, estimated restoration 6:14 PM 11/16; no City boil advisory. ~2.5-3 mi NE of the Medical Campus (estimate); not a Ring 1 corridor or Medical Campus route; no WashU asset. Impact none. Resolve when dropped from outages page. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-16T16:40:00Z",
+      "id": "stlwater-stlouiscity-greer-newstead-20261116",
+      "last_updated": "2026-11-16T16:40:00Z",
+      "location": "Greer Ave between N Newstead Ave and Taylor Ave, St. Louis City (north City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outage, Greer Ave between N Newstead Ave and Taylor Ave (north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
@@ -4365,14 +4401,14 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 4:40 AM CT 11/16 (Lane 1; stlwater outages.php updated 4:30 AM 11/16): a service outage is now listed on S Spring Ave from Vista Ave to Park Ave, starting 3:38 AM 11/16 with restoration estimated at 9:38 AM. This is very likely the shutoff for the main repair tracked here (work order 11:15 AM 11/15). No City boil advisory. The Medical Campus is about 1.5-2 mi WNW (estimate). Not on a Ring 1 corridor or a Medical Campus route; no WashU asset. Impact none. Escalate if the outage expands west toward Kingshighway or Forest Park Ave, or if a boil advisory is posted. Resolve when the outage and the work order both drop. Owner: Emergency Management (track only).",
+      "assessment": "Updated 10:40 AM CT 11/16 (Lanes 1 and 3; outages.php updated 10:30 AM): S Spring Ave Vista–Park outage still listed, now past its 9:38 AM estimate; related S Spring & Park main repair (11:15 AM 11/15) also still listed. No City boil advisory. Medical Campus ~1.5-2 mi WNW (estimate); not a Ring 1 corridor or Medical Campus route; no WashU asset. Impact none. Escalate if the outage expands west toward Kingshighway or Forest Park Ave, or a boil advisory is posted. Resolve when outage and work order both drop. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-15T17:40:00Z",
       "id": "stlwater-stlouiscity-sspring-park-20261115",
-      "last_updated": "2026-11-16T10:40:00Z",
+      "last_updated": "2026-11-16T16:40:00Z",
       "location": "S Spring Ave between Vista Ave and Park Ave, St. Louis City (Midtown / Gate District area)",
       "ring": 2,
-      "single_source": true,
+      "single_source": false,
       "sources": [
         "https://www.stlwater.com/outages.php"
       ],
