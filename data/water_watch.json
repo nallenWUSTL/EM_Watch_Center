@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "1:33 PM CST 11/16 four-lane run. Lane 1: City outages page (1:30 PM) adds North Point Blvd (Summit–Riverview) outage 11:35 AM-~11:35 PM, likely tied to Riverview/W Florissant, and Oleatha & Gustine main repair (11:39 AM); Cleveland & Tower Grove off outage list but work order remains (likely restored, unconfirmed); Greer est. 6:14 PM; S Spring, Potomac, Union still listed past estimates; Penrose/Blair and Eichelberger/Alaska work orders no longer shown (not resolved, unconfirmed). AW IDs 145315-145334 probed: real through 145329, none in MO or IL. 145313 and 145298 unchanged. MAW boil page and City advisories: none; MO DNR newest 15 rows none in St. Louis area. MSD and Kirkwood not checked. Lane 2: nothing dated new; Bridgeton/Maryland Heights boil-advisory articles undated, judged old. Lane 3: WashU Alert none; Danforth Facilities newest 11/12, none water; Medical Campus 11/13 and 11/23-25 McDonnell notices confirmed not water; Jolley/Cupples II and Wallace Dr no closure notice. Lane 4: no dated social posts; KSDK leads (Ferguson Haplin Dr, Breckenridge Hills, south County) unreachable and undated, not adopted.",
-    "open_count": 169,
-    "run_at": "2026-11-16T19:50:00Z",
+    "note": "2:45 PM CST 11/16 four-lane run. New, Ring 3 only: Dunklin County PWSD 3 precautionary boil (CR 418 N to 153 / Hwy M) and MAW 145332 Joplin main break. Lane 1: AW IDs probed to 145338 (145330-145333 real; only 145332 in MO); 145298 and 145313 unchanged, no streets. City outages page served a 9:30 AM snapshot (stale vs 1:30 PM view), so no City status changes adopted; untracked hydrant work orders 4200 Gravois and 3901 Keokuk (11/9) noted, not adopted. MAW index and boil pages rendered empty (dynamic); MO DNR newest rows outstate only. Lane 2: KTRS item on MAW boil advisory in Cottleville/O'Fallon/Weldon Spring undated, not adopted; Greenville IL boil unchanged. Lane 3: WashU Alert none; Jolley/Cupples II and Wallace Dr windows passed, no completion notice, kept monitoring; Cabanne off active outage list but repair remains. Lane 4: no dated social posts. MSD, Kirkwood, BJC, Cortex, MoDOT not checked.",
+    "open_count": 171,
+    "run_at": "2026-11-16T20:45:00Z",
     "top_incident": "Ring 1 planned work still pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM, streets still not published; impact possible (low). Unplaced St. Louis County main break 145313 (12 PM, ~6 hr) still has no municipality or street. No City or County boil advisory."
   },
   "incidents": [
@@ -78,6 +78,24 @@
       "status": "open",
       "title": "Columbia Water & Light main break and precautionary boil advisories, I-70 Dr SW / N West Blvd and Clinton Dr off W Ash St",
       "utility": "Columbia Water & Light",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 2:45 PM CT 11/16 (Lane 2 only, KFVS Heartland list modified 1:31 PM CT 11/16): precautionary boil order issued Mon 11/16 for some customers; no restoration estimate. ~170+ mi S of Danforth; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-16T20:45:00Z",
+      "id": "dunklinpwsd3-dunklincounty-cr418-20261116",
+      "last_updated": "2026-11-16T20:45:00Z",
+      "location": "Some customers from County Road 418 North to 153 and Highway M, Dunklin County, MO (Bootheel; town not named)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
+      ],
+      "status": "open",
+      "title": "Dunklin County PWSD 3 precautionary boil order, County Road 418 N to 153 and Highway M",
+      "utility": "Dunklin County Public Water Supply District 3",
       "washu_impact": "none"
     },
     {
@@ -1763,6 +1781,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Joplin — emergency repairs (alert 143954)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 2:45 PM CT 11/16 (Lane 1 only, ID probe): MAW alert 145332, main-break repairs from 2:15 PM 11/16, ~2 hr estimate; no street; no boil advisory. Separate from tracked 145163 (W Belle Center Rd). ~250 mi SW; separate system; no WashU asset. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-16T20:45:00Z",
+      "id": "maw-joplin-unlocated-20261116",
+      "last_updated": "2026-11-16T20:45:00Z",
+      "location": "Joplin, MO (Jasper County; street not published by utility)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145332"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Joplin — emergency repairs (alert 145332)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
