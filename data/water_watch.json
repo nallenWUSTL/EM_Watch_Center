@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "4:40 PM CST 11/16 four-lane run. No new or changed incidents in Rings 1-3; no record updates. Lane 1: AW IDs probed 145346-145358 (145346 Charleston WV, 145347 South Charleston WV, 145348 Mullooly St investigation, all out of region; 145349-145358 empty; start next run at 145359). 145313 unchanged. City outages page still the 9:30 AM snapshot (S Spring, Potomac, Union/Bircher listed past ETR); no City status changes adopted. MAW boil page none; MO DNR boil list not loaded (data.mo.gov 403). Lane 2: KFVS list modified 1:31 PM CT confirms tracked Dunklin Co PWSD 3 order, Murphysboro and Millstone unchanged; stlwater.com ?p=9725 'Boil Advisory Currently In Effect' is the undated Aug 17 Chain of Rocks page left up, not a new event. Lane 3: WashU Alert none (modified 11/12); Medical Campus Facilities no domestic water shutdowns; Jolley/Cupples II and Wallace Dr still no completion notice; KSDK Lindell Blvd 'large hole' headline unverified, not adopted. Lane 4: no dated social posts; KSDK 'possible main break south St. Louis County' fetch failed, not adopted. MSD, Kirkwood not checked.",
+    "note": "5:40 PM CST 11/16 four-lane run. New: MAW 145349 Mexico, MO main break (Ring 3, impact none). Updates: City Greer Ave outage dropped (resolved); Riverview/W Florissant and S Spring outages dropped, repair work orders still listed. N Pointe Blvd outage (ETR 11:35 PM) and Potomac St (ETR long passed) still active; Union/Bircher still listed. Lane 1 AW ID probe: 145349 Mexico MO live; 145350, 145354, 145358-145361 empty; 145351-145353 and 145355-145357 not opened; start next run at 145351. MAW boil page none. Lane 2: KFVS list unchanged (Dunklin PWSD 3, Murphysboro, Millstone). KSDK Lindell Blvd 'large hole' story ruled out as the July 2019 Lindell/Union break; KSDK 'possible main break south St. Louis County' ruled out (Aug 2024, Hawkins-Fuchs/Meramec Bottom). Lane 3: WashU Alert none (modified 11/12); Medical Campus Facilities no domestic water outages; Jolley/Cupples II and Wallace Dr still no completion notice; Clayton site would not load. Lane 4: no dated social posts. MSD, Kirkwood, BJC, Cortex not checked.",
     "open_count": 174,
-    "run_at": "2026-11-16T22:40:00Z",
-    "top_incident": "Ring 1 planned work still pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM, streets still not published (U City newsflash silent); impact possible (low). Unplaced St. Louis County main break 145313 (12 PM, ~6 hr) still has no municipality or street. No City or County boil advisory."
+    "run_at": "2026-11-16T23:40:00Z",
+    "top_incident": "Ring 1 planned work still pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still not published (U City newsflash silent); impact possible (low). Unplaced St. Louis County main break 145313 (12 PM, ~6 hr) still has no municipality or street. No City or County boil advisory."
   },
   "incidents": [
     {
@@ -2136,6 +2136,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 5:40 PM CT 11/16 (Lane 1 only, ID probe): MAW alert 145349, emergency main-break repairs from 5:30 PM 11/16, ~6 hr estimate (~11:30 PM); no street; no boil advisory. ~110 mi NW of Danforth; separate system; no WashU asset. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-16T23:40:00Z",
+      "id": "maw-mexico-unlocated-20261116",
+      "last_updated": "2026-11-16T23:40:00Z",
+      "location": "Mexico, MO (Audrain County; street not published by utility)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145349"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Mexico, MO — emergency repairs (alert 145349)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 4:40 PM CT 11/5 (Lane 1 only): MAW alert 144132, broken valve repair began 11/5, ~6-7 hr estimate; no street; no boil advisory. ~110 mi NW of St. Louis; separate system; no WashU asset. Impact none. Monitor; resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-05T22:40:00Z",
@@ -3998,18 +4016,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 1:50 PM CT 11/16 (Lane 1, City outages page updated 1:30 PM): outage on Greer Ave between N Newstead and Taylor still listed, estimated restoration 6:14 PM 11/16; no boil advisory. North City, Ring 2; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from the outages page. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 5:40 PM CT 11/16 (Lane 1, City outages page updated 5:30 PM): Greer Ave (N Newstead–Taylor) outage no longer listed, after its 6:14 PM ETR window; treated as restored per the utility page, the resolution rule set for this record. No boil advisory. North City, Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-16T16:40:00Z",
       "id": "stlwater-stlouiscity-greer-newstead-20261116",
-      "last_updated": "2026-11-16T19:50:00Z",
+      "last_updated": "2026-11-16T23:40:00Z",
       "location": "Greer Ave between N Newstead Ave and Taylor Ave, St. Louis City (north City)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/outages.php"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "City of St. Louis Water Division service outage, Greer Ave between N Newstead Ave and Taylor Ave (north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -4602,11 +4620,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 1:50 PM CT 11/16 (Lane 1, City outages page updated 1:30 PM): Riverview & W Florissant outage still listed, estimated restoration 11:30 PM 11/16; an adjacent North Point Blvd (Summit–Riverview) outage from 11:35 AM is tracked separately and is likely related. No boil advisory. Far north City, Ring 2; no WashU asset. Impact none. Resolve when dropped from the outages page. Owner: Emergency Management (track only).",
+      "assessment": "Updated 5:40 PM CT 11/16 (Lane 1, City outages page updated 5:30 PM): the Riverview & W Florissant service outage is no longer listed; only the main-repair work order remains, so service appears restored. Adjacent North Point Blvd outage (ETR 11:35 PM) still active and tracked separately. No boil advisory. Far north City, Ring 2; no WashU asset. Impact none. Resolve when the work order drops. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-16T14:45:00Z",
       "id": "stlwater-stlouiscity-riverview-wflorissant-20261116",
-      "last_updated": "2026-11-16T19:50:00Z",
+      "last_updated": "2026-11-16T23:40:00Z",
       "location": "Riverview Blvd between W Florissant Ave and Hi Pointe, St. Louis City (far north City)",
       "ring": 2,
       "single_source": true,
@@ -4660,11 +4678,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 10:40 AM CT 11/16 (Lanes 1 and 3; outages.php updated 10:30 AM): S Spring Ave Vista–Park outage still listed, now past its 9:38 AM estimate; related S Spring & Park main repair (11:15 AM 11/15) also still listed. No City boil advisory. Medical Campus ~1.5-2 mi WNW (estimate); not a Ring 1 corridor or Medical Campus route; no WashU asset. Impact none. Escalate if the outage expands west toward Kingshighway or Forest Park Ave, or a boil advisory is posted. Resolve when outage and work order both drop. Owner: Emergency Management (track only).",
+      "assessment": "Updated 5:40 PM CT 11/16 (Lane 1, City outages page updated 5:30 PM): S Spring Ave (Vista–Park) service outage no longer listed, so service appears restored; S Spring & Park main-repair work order (11:15 AM 11/15) still listed. No City boil advisory. Medical Campus ~1.5-2 mi WNW (estimate); not a Ring 1 corridor; no WashU asset. Impact none. Resolve when the work order drops. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-15T17:40:00Z",
       "id": "stlwater-stlouiscity-sspring-park-20261115",
-      "last_updated": "2026-11-16T16:40:00Z",
+      "last_updated": "2026-11-16T23:40:00Z",
       "location": "S Spring Ave between Vista Ave and Park Ave, St. Louis City (Midtown / Gate District area)",
       "ring": 2,
       "single_source": false,
