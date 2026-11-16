@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "11:40 AM CST 11/16 four-lane run. Lane 1: MAW IDs 145283-145310 probed (newest real ~145306); new St. Louis-area items: University City planned 11/18 (145298, Ring 1), Lemay planned 11/16 (145297), Flordell Hills main repair (145293); Champaign IL Greencroft Dr boil order (145305). City outages.php (11:30 AM): Riverview/W Florissant-Hi Pointe now an active outage; Sutherland outage absent (already noted 11/12); Eichelberger & Alaska and Penrose & Blair absent from work orders (already monitoring); no City boil advisory. MSD, Kirkwood, MO DNR not checked. Lane 2: no dated local stories; Bridgeton/Maryland Heights boil-advisory articles judged March 2026, not adopted. Lane 3: WashU Alert none; no Facilities domestic water notices; Jolley/Cupples II order notice shows end Oct 31; Wallace Dr window passed, no follow-up; BJC/Cortex/MoDOT not opened. Lane 4: no dated social posts.",
-    "open_count": 164,
-    "run_at": "2026-11-16T17:40:00Z",
-    "top_incident": "New Ring 1 planned work: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM, streets not published; possible low pressure or discoloration; impact possible (low). Facilities should ask MAW for the work area. No City or County boil advisory."
+    "note": "12:40 PM CST 11/16 four-lane run. Lane 1: AW IDs 145306-145321 probed (real through 145315); new St. Louis-area: Saint Louis County unplaced break 145313, Ballwin 145311; Jefferson City valve 145314; Champaign Greencroft 145312 folded into 145305. City outages.php still 'as of 9:30 AM' (S Spring, Potomac, Union Blvd still Active past restoration estimates; hydrant work at 4200 Gravois and 3901 Keokuk since 11/9 seen, not tracked as minor). MAW index and boil page did not load; MSD, Kirkwood, MO DNR not checked (DNR table did not load for Lane 2). Lane 2: nothing dated new; Greenville IL boil order underway as planned. Lane 3: WashU Alert none; Jolley/Cupples II and Wallace Dr unchanged; Medical Campus Facilities posted Nov 12 notices of service interruptions (Nov 13; Nov 23-25, McDonnell Pediatric Research Bldg) with utility unspecified, worth a manual check. Lane 4: no dated social posts; undated stlwater.com Chain of Rocks boil-advisory page judged archival, not adopted.",
+    "open_count": 167,
+    "run_at": "2026-11-16T18:40:00Z",
+    "top_incident": "Ring 1 planned work still pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM, streets not published (U City News Flash silent); impact possible (low). New unplaced St. Louis County main break 145313 (12 PM 11/16, ~6 hr) to recheck for a street. No City or County boil advisory."
   },
   "incidents": [
     {
@@ -234,16 +234,17 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 11:40 AM CT 11/16 (Lane 1 only, ID probe): IAW alert 145305, service-line repair with boil order. ~170 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "assessment": "Updated 12:40 PM CT 11/16 (Lane 1): IAW alert 145312 reports a Greencroft main break from 12:10 PM 11/16 with boil order on restoration; treated as the same event as 145305 (service-line repair with boil order), not confirmed. ~170 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-16T17:40:00Z",
       "id": "ilaw-champaign-greencroftdr-20261116",
-      "last_updated": "2026-11-16T17:40:00Z",
+      "last_updated": "2026-11-16T18:40:00Z",
       "location": "Greencroft Dr, Champaign, IL (Champaign County; cross street not published)",
       "ring": 3,
       "single_source": true,
       "sources": [
-        "https://alertsdetail.awapps.com/alert/145305"
+        "https://alertsdetail.awapps.com/alert/145305",
+        "https://alertsdetail.awapps.com/alert/145312"
       ],
       "status": "open",
       "title": "Illinois American Water service-line repair with boil order, Greencroft Dr, Champaign, IL (alert 145305)",
@@ -709,6 +710,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Ballwin — emergency repairs (alert 144997)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:40 PM CT 11/16 (Lane 1 only, ID probe): MAW alert 145311, main-break repairs from 11:30 AM 11/16, ~6 hr estimate (~5:30 PM); no street; no boil advisory. Separate from earlier tracked Ballwin alerts by start date. ~12-14 mi W of Danforth and West Campus; Tyson on well water; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-16T18:40:00Z",
+      "id": "maw-ballwin-unlocated-20261116",
+      "last_updated": "2026-11-16T18:40:00Z",
+      "location": "Ballwin, MO (west St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145311"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Ballwin — emergency repairs (alert 145311)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -1689,6 +1708,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Jefferson City — emergency repairs (alerts 144638, 144640)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:40 PM CT 11/16 (Lane 1 only, ID probe): MAW alert 145314, emergency valve replacement from 8:00 AM 11/16, ~7 hr estimate (~3 PM); no boil advisory. ~120 mi W; separate system; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-16T18:40:00Z",
+      "id": "maw-jeffersoncity-valve-20261116",
+      "last_updated": "2026-11-16T18:40:00Z",
+      "location": "Jefferson City, MO (Cole County; street not published in Lane report)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145314"
+      ],
+      "status": "open",
+      "title": "Missouri American Water emergency valve replacement, Jefferson City (alert 145314)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -3027,6 +3064,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, St. Louis County (unplaced) — emergency repairs (alert 145206)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:40 PM CT 11/16 (Lane 1 only, ID probe): MAW alert 145313, main-break repairs from 12:00 PM 11/16, ~6 hr estimate (~6 PM); no municipality or street; no boil advisory mentioned. Unplaced, so proximity to Clayton/University City/Richmond Heights-served WashU buildings cannot be ruled out, but no WashU Alert, Facilities, news or social corroboration (Lanes 2-4). Impact none unless placed near Ring 1. Action: next run recheck the alert for a street; escalate if near Forsyth, Big Bend, Skinker, Delmar or Clayton Rd. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-16T18:40:00Z",
+      "id": "maw-stlouiscounty-unlocated-20261116",
+      "last_updated": "2026-11-16T18:40:00Z",
+      "location": "St. Louis County, MO (no municipality or street published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145313"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, St. Louis County (unplaced) — emergency repairs (alert 145313)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
