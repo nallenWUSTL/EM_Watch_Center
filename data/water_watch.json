@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "2:45 PM CST 11/16 four-lane run. New, Ring 3 only: Dunklin County PWSD 3 precautionary boil (CR 418 N to 153 / Hwy M) and MAW 145332 Joplin main break. Lane 1: AW IDs probed to 145338 (145330-145333 real; only 145332 in MO); 145298 and 145313 unchanged, no streets. City outages page served a 9:30 AM snapshot (stale vs 1:30 PM view), so no City status changes adopted; untracked hydrant work orders 4200 Gravois and 3901 Keokuk (11/9) noted, not adopted. MAW index and boil pages rendered empty (dynamic); MO DNR newest rows outstate only. Lane 2: KTRS item on MAW boil advisory in Cottleville/O'Fallon/Weldon Spring undated, not adopted; Greenville IL boil unchanged. Lane 3: WashU Alert none; Jolley/Cupples II and Wallace Dr windows passed, no completion notice, kept monitoring; Cabanne off active outage list but repair remains. Lane 4: no dated social posts. MSD, Kirkwood, BJC, Cortex, MoDOT not checked.",
-    "open_count": 171,
-    "run_at": "2026-11-16T20:45:00Z",
-    "top_incident": "Ring 1 planned work still pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM, streets still not published; impact possible (low). Unplaced St. Louis County main break 145313 (12 PM, ~6 hr) still has no municipality or street. No City or County boil advisory."
+    "note": "3:40 PM CST 11/16 four-lane run. New, Ring 3 only: IAW 145339 Streator IL and 145345 Peoria IL main breaks with boil on restoration; MAW 145341/145344/145343 Jefferson City planned hydrant work 11/17-19. Lane 1: AW IDs probed to 145352 (145346-145350, 145352 empty; start next run at 145346); 145298 and 145313 unchanged. City outages page still a 9:30 AM snapshot; it no longer lists Cleveland & Tower Grove, Greer/Newstead, Oleatha & Gustine, Penrose & Blair, North Point/Riverview, but completion not confirmed and snapshot stale, so no City status changes adopted. MAW index rendered empty; MO DNR boil page unreachable; City boil-advisory page lists none. Lane 2: KTRS St. Charles County MAW boil item likely old (low post ID), not adopted; KFVS list unchanged apart from tracked Dunklin Co; Murphysboro IL Enterprise Ave (11/13) and Millstone WD Pope Co IL (11/4) seen, not adopted (outside window). Lane 3: WashU Alert none; no Danforth or Medical Campus Facilities water shutdowns; Jolley/Cupples II and Wallace Dr still no completion notice. Lane 4: no dated social posts; undated KSDK Ferguson Haplin Dr break headline not adopted. MSD, Kirkwood, BJC, Cortex, MoDOT returned nothing current.",
+    "open_count": 174,
+    "run_at": "2026-11-16T21:40:00Z",
+    "top_incident": "Ring 1 planned work still pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM, streets still not published (U City newsflash silent); impact possible (low). Unplaced St. Louis County main break 145313 (12 PM, ~6 hr) still has no municipality or street. No City or County boil advisory."
   },
   "incidents": [
     {
@@ -522,6 +522,42 @@
       ],
       "status": "resolved",
       "title": "Illinois American Water main break with boil order on restoration, Peoria, IL (alert 145083)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 3:40 PM CT 11/16 (Lane 1 only, ID probe): IAW alert 145345, main break from 3:15 PM 11/16, ~5 hr repair estimate, boil order once restored. Separate from earlier tracked Peoria events by start date. ~150 mi NNE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-16T21:40:00Z",
+      "id": "ilaw-peoria-unlocated-20261116",
+      "last_updated": "2026-11-16T21:40:00Z",
+      "location": "Peoria, IL (Peoria County; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145345"
+      ],
+      "status": "open",
+      "title": "Illinois American Water main break with boil order on restoration, Peoria, IL (alert 145345)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 3:40 PM CT 11/16 (Lane 1 only, ID probe): IAW alert 145339, main break from 3:00 PM 11/16, ~7 hr repair estimate, boil order once service is restored. ~200 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-16T21:40:00Z",
+      "id": "ilaw-streator-unlocated-20261116",
+      "last_updated": "2026-11-16T21:40:00Z",
+      "location": "Streator, IL (LaSalle/Livingston County; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145339"
+      ],
+      "status": "open",
+      "title": "Illinois American Water main break with boil order on restoration, Streator, IL (alert 145339)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
     },
@@ -1707,6 +1743,26 @@
       ],
       "status": "open",
       "title": "Missouri American Water planned water system improvement, Jefferson City, Nov 12 (alert 144801)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 3:40 PM CT 11/16 (Lane 1 only, ID probe): planned hydrant replacements Tue 11/17, Wed 11/18 and Thu 11/19, about 8 AM-3 PM each day, weather permitting; no streets; no boil advisory. Planned, not a failure. ~120 mi W; separate system; no WashU asset. Impact none. Resolve after 11/19 if dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-16T21:40:00Z",
+      "id": "maw-jeffersoncity-plannedhydrants-20261117",
+      "last_updated": "2026-11-16T21:40:00Z",
+      "location": "Jefferson City, MO (Cole County; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145341",
+        "https://alertsdetail.awapps.com/alert/145344",
+        "https://alertsdetail.awapps.com/alert/145343"
+      ],
+      "status": "open",
+      "title": "Missouri American Water planned hydrant replacements, Jefferson City, Nov 17-19 (alerts 145341, 145344, 145343)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
