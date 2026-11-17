@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "12:40 PM CST 11/17 four-lane run: 2 new Ring 2 items, impact none: MAW Chesterfield main break 145446 (12:15 PM, ~6 hr) and City outage Union Blvd Brown Ave-I-70 (ETR 11:45 AM 11/18). MAW/IAW probe 145441-145451 issued, only 145446 in region; 145452-145455 not issued; next run start 145452. City outages.php (12:30 PM): Union/Bircher, Potomac/January, North Point/Riverview still past ETR; Eichelberger, Greer, N 2nd/Withers, Penrose/Blair still absent (already monitoring). City boil page: none. MO DNR: none in St. Louis City/County. Lane 2: KFVS list unchanged since 11/16 1:31 PM; Greenville IL boil still in effect; Dunklin PWSD 3 still in effect. Lane 3: WashU Alert only national alert test; Facilities nothing new (Jolley/Cupples and Wallace Dr windows past, no completion notice). Lane 4: nothing dated 11/16-17; X, Facebook, Reddit, Nextdoor blocked. Gaps: MSD, Kirkwood, MAW alerts index and boil page (frame only), BJC, Cortex, MoDOT, Clayton and Richmond Heights news pages, FOX 2.",
-    "open_count": 166,
-    "run_at": "2026-11-17T18:40:00Z",
-    "top_incident": "Ring 1 planned work pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert, U City NewsFlash and CivicAlerts re-checked ~12:35 PM); impact possible (low). No City or County boil advisory."
+    "note": "1:40 PM CST 11/17 four-lane run: 1 new Ring 2 item, impact none: MAW planned work Florissant Thu 11/19 7 AM-3 PM (145460). MAW/IAW probe 145452-145466: only 145460 in region (145461 St. Joseph MO out of region); 145462-145466 not issued; next run start 145462. City outages.php (1:30 PM): Union/Bircher, Potomac/January, North Point still past ETR; Union/Brown-I-70 ETR 11:45 AM 11/18; Greer, Eichelberger/Alaska, N 2nd/Withers, Penrose/Blair still absent (monitoring). No boil notices on outages page; MO DNR none in St. Louis City/County. Lane 2: KFVS list unchanged since 11/16 1:31 PM; no new local news. Lane 3: WashU Alert only national IPAWS test; Facilities nothing new; Jolley/Cupples original notice ended 10/31 4 PM, no completion notice. Lane 4: nothing dated 11/16-17; Reddit, X, Facebook blocked. Gaps: MSD, Kirkwood, MAW alerts index, City boil page, BJC, Cortex, Loop, MoDOT, WGEL direct.",
+    "open_count": 167,
+    "run_at": "2026-11-17T19:40:00Z",
+    "top_incident": "Ring 1 planned work pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert, U City NewsFlash and CivicAlerts re-checked ~1:40 PM); impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -1485,6 +1485,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water planned water system improvements, Florissant, Nov 12 overnight (alert 144787)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 1:40 PM CT 11/17 (Lane 1 only, ID probe): MAW alert 145460, planned work Thu 11/19 ~7 AM to 3 PM, weather permitting; possible discolored water, low or no pressure; no streets; no boil order. Planned work, not a failure. ~10 mi N of North Campus and Danforth; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. Resolve after the window if dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-17T19:40:00Z",
+      "id": "maw-florissant-planned-20261119",
+      "last_updated": "2026-11-17T19:40:00Z",
+      "location": "Florissant, MO (north St. Louis County; streets not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145460"
+      ],
+      "status": "open",
+      "title": "Missouri American Water planned water system improvements, Florissant, Thu Nov 19 (alert 145460)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
