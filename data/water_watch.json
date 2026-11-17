@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "4:40 PM CST 11/17 four-lane run: new MAW 145479 Ladue main break (Ring 2, edge of Ring 1, no street, ETR ~9:45 PM, impact none) and alert 145481 Alton service investigation (Ring 3). Probe: 145478 Charleston WV, 145480 Peoria IL boil lift (not tied to a tracked Peoria event), 145482 Elrama (likely PA); 145483-145488 not issued; next run start 145483. City conflict explained: /outages is stale (11:30 AM); outages.php (4:30 PM, 4 outages, 14 repairs) is authoritative and lists Union/Brown-I-70; Withers/N 2nd repair dropped, resolved. Stale ETRs still listed: North Point, Potomac, Union/Bircher. MO DNR none in St. Louis City/County; MAW alerts index rendered empty. Lane 2: KFVS list (21:42 UTC) shows only Dunklin PWSD 3 and Millstone; Murphysboro Enterprise Ave moved to monitoring; Greenville IL boil order still in effect. Possible street for Granite City 145473 (Nameoki Rd, KSDK) undated, not adopted. Lane 3: WashU Alert only IPAWS test; no Danforth or Med Facilities water notices; Jolley/Cupples and Wallace Dr no follow-up posted. Lane 4: nothing dated 11/16-17. Gaps: Kirkwood fetch failed; Clayton/Richmond Heights/Brentwood/Maplewood/Ladue/Eureka municipal pages, BJC, Cortex, MoDOT not checked; Reddit blocked; X/Facebook/Nextdoor not indexed.",
-    "open_count": 168,
-    "run_at": "2026-11-17T22:40:00Z",
-    "top_incident": "Ring 1 planned work pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert and U City NewsFlash re-checked ~4:35 PM); impact possible (low). No City or County boil advisory."
+    "note": "5:40 PM CST 11/17 four-lane run: new MAW 145484 and 145485 (St. Louis County service investigations, no municipality or street; impact none pending location) and IAW 145487 Dunlap IL urgent main break with boil order (Ring 3). Probe: 145483 Norristown (PA, no impact), 145486 Shelbyville IN boil lifted; 145488-145491 not issued; next run start 145488. City outages.php (5:30 PM): 4 outages unchanged; Union/Brown-I-70 ETR 11:45 AM 11/18; North Point, Potomac, Union/Bircher still listed past ETR; no tracked City item dropped. MAW 145479 Ladue ETR ~9:45 PM, 145477 Brentwood ETR ~9:15 PM, no streets. MO DNR none in St. Louis City/County; City boil-advisory page unreachable; MAW alerts index rendered empty. Lane 2: Murphysboro absent from KFVS list (21:42 UTC), lift unconfirmed; Greenville IL boil order still in effect; Granite City Nameoki Rd (KSDK, undated) not adopted. Lane 3: WashU Alert only FEMA test; no Danforth or Med Facilities water notices; Jolley/Cupples and Wallace Dr no follow-up. Lane 4: nothing dated 11/16-17. Gaps: MSD, Kirkwood, Clayton news, BJC, Cortex, Delmar Loop, Forest Park not checked; Nextdoor/Reddit blocked.",
+    "open_count": 171,
+    "run_at": "2026-11-17T23:40:00Z",
+    "top_incident": "Ring 1 planned work pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert, U City NewsFlash and Alert Center re-checked ~5:35 PM); impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -342,6 +342,24 @@
       ],
       "status": "open",
       "title": "Illinois American Water repairs and boil order, Dunlap, IL (alert 145013)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 5:40 PM CT 11/17 (Lane 1, ID probe; seen by Lane 4): IAW alert 145487, urgent main break 11/17, ~14 hr repair estimate, boil order once service is restored. Separate from tracked 145013 (11/13). ~160 mi NNE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-17T23:40:00Z",
+      "id": "ilaw-dunlap-unlocated-20261117",
+      "last_updated": "2026-11-17T23:40:00Z",
+      "location": "Dunlap, IL (Peoria County; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145487"
+      ],
+      "status": "open",
+      "title": "Illinois American Water urgent main break with boil order on restoration, Dunlap, IL (alert 145487)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
     },
@@ -3114,6 +3132,42 @@
       ],
       "status": "open",
       "title": "Missouri American Water main-break investigation, St. Louis County (unplaced) — crews locating break (alert 145204)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 5:40 PM CT 11/17 (Lanes 1 and 4, ID probe): MAW alert 145484, investigation of a possible service issue; low or no pressure possible; no municipality, street, times or boil status. Cannot be placed relative to WashU assets; Ring 2 by default. No boil advisory (MO DNR none in St. Louis City/County). No news or social corroboration. Impact none pending location; escalate if a Clayton, University City, Richmond Heights or Ladue street is posted. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-17T23:40:00Z",
+      "id": "maw-stlouiscounty-investigation-20261117",
+      "last_updated": "2026-11-17T23:40:00Z",
+      "location": "St. Louis County, MO (municipality and street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145484"
+      ],
+      "status": "open",
+      "title": "Missouri American Water service investigation, St. Louis County — possible low/no pressure (alert 145484)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 5:40 PM CT 11/17 (Lanes 1 and 4, ID probe): MAW alert 145485, second investigation of a possible service issue posted alongside 145484; no municipality, street, times or boil status. Could be the same event posted twice. Cannot be placed relative to WashU assets; Ring 2 by default. No boil advisory. Impact none pending location. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-17T23:40:00Z",
+      "id": "maw-stlouiscounty-investigation-20261117b",
+      "last_updated": "2026-11-17T23:40:00Z",
+      "location": "St. Louis County, MO (municipality and street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145485"
+      ],
+      "status": "open",
+      "title": "Missouri American Water service investigation, St. Louis County — second, possible low/no pressure (alert 145485)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
