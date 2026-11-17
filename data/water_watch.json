@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "2:40 PM CST 11/17 four-lane run: no new Missouri or Metro East incidents. Updates: IAW Pontiac (145467) and Streator (145469) boil orders cancelled, both resolved (Ring 3). MAW/IAW probe 145462-145472 issued, only 145468 St. Joseph MO in Missouri (out of region); 145473-145478 not issued; next run start 145473. City outages.php (2:30 PM) unchanged: Union/Brown-I-70 ETR 11:45 AM 11/18; Union/Bircher, Potomac/January, North Point still past ETR. No boil notices; MO DNR none in St. Louis City/County. Lane 2: KFVS list unchanged since 11/16 1:31 PM; Greenville IL boil order still in effect; undated MAW Bridgeton/Maryland Heights/Earth City boil advisory articles (issued Sun, lifted Mon) not adopted, date unconfirmed. Lane 3: WashU Alert only IPAWS test; Facilities nothing new since 11/12. Lane 4: nothing dated 11/16-17; undated U City LOCAL-on-Delmar tap-installation notice seen in search, unconfirmed. Gaps: MSD, Kirkwood, MAW alerts index, City boil page, Reddit/X/Facebook blocked.",
-    "open_count": 165,
-    "run_at": "2026-11-17T20:40:00Z",
-    "top_incident": "Ring 1 planned work pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert, U City NewsFlash and CivicAlerts re-checked ~2:35 PM); impact possible (low). No City or County boil advisory."
+    "note": "3:40 PM CST 11/17 four-lane run: new MAW 145477 Brentwood main break (Ring 2, impact none, ETR ~9:15 PM) and IAW 145473 Granite City break with boil order on restoration (Ring 3). Probe: 145474 Bettendorf IA, 145475 Uniontown PA, 145476 St. Joseph MO (out of region); 145478-145481 not issued; next run start 145478. City outages page shows 'updated 11:30 AM' and omits Union/Brown-I-70, Chouteau/S 6th and Cabanne/Academy, conflicting with the 2:30 PM outages.php read; not resolved pending confirmation. MAW boil page none; MO DNR none in St. Louis City/County. Lane 2: KFVS list unchanged; Greenville IL boil order still in effect (WGEL 11/16); MAW Bridgeton/Maryland Heights boil advisory article still undated. Lane 3: WashU Alert only IPAWS test; Danforth Facilities nothing new since 11/12; Med Facilities no domestic water shutdowns. Lane 4: nothing dated 11/16-17. Gaps: MSD, Kirkwood, municipal pages for Clayton/Richmond Heights/Brentwood/Maplewood/Ladue/Eureka, BJC, Cortex, MoDOT; Reddit/X/Facebook/Nextdoor blocked.",
+    "open_count": 167,
+    "run_at": "2026-11-17T21:40:00Z",
+    "top_incident": "Ring 1 planned work pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert, U City NewsFlash and CivicAlerts re-checked ~3:35 PM); impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -364,6 +364,24 @@
       ],
       "status": "resolved",
       "title": "Illinois American Water main break with boil order on restoration, Granite City, IL (alert 144227)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 3:40 PM CT 11/17 (Lane 1 only, ID probe): IAW alert 145473, emergency repairs from 2:00 PM 11/17, ~6.5 hr estimate (~8:30 PM); boil order once service is restored, until lift notice. Metro East, ~10+ mi NE of Danforth; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-17T21:40:00Z",
+      "id": "ilaw-granitecity-unlocated-20261117",
+      "last_updated": "2026-11-17T21:40:00Z",
+      "location": "Granite City, IL (Madison County, Metro East; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145473"
+      ],
+      "status": "open",
+      "title": "Illinois American Water main break with boil order on restoration, Granite City, IL (alert 145473)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
     },
@@ -1023,6 +1041,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Brentwood — emergency repairs (alert 143960)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 3:40 PM CT 11/17 (Lane 1 only, ID probe): MAW alert 145477, main-break emergency repairs 11/17, restoration ~9:15 PM (wording garbled); possible discolored water; no street; no boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). Separate from tracked 143960 (11/4). ~2-3 mi S/SW of South, West and Danforth Campuses (city-level estimate); pressure zone unknown; no WashU asset; no Ring 1 corridor. Impact none. Escalate if a street near Clayton Rd, Big Bend or Brentwood Blvd north of I-64 is published. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-17T21:40:00Z",
+      "id": "maw-brentwood-unlocated-20261117",
+      "last_updated": "2026-11-17T21:40:00Z",
+      "location": "Brentwood, MO (mid St. Louis County; street not published; state field blank, Missouri inferred from MAW contact line)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145477"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Brentwood — emergency repairs (alert 145477)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
