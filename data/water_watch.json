@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "3:40 PM CST 11/17 four-lane run: new MAW 145477 Brentwood main break (Ring 2, impact none, ETR ~9:15 PM) and IAW 145473 Granite City break with boil order on restoration (Ring 3). Probe: 145474 Bettendorf IA, 145475 Uniontown PA, 145476 St. Joseph MO (out of region); 145478-145481 not issued; next run start 145478. City outages page shows 'updated 11:30 AM' and omits Union/Brown-I-70, Chouteau/S 6th and Cabanne/Academy, conflicting with the 2:30 PM outages.php read; not resolved pending confirmation. MAW boil page none; MO DNR none in St. Louis City/County. Lane 2: KFVS list unchanged; Greenville IL boil order still in effect (WGEL 11/16); MAW Bridgeton/Maryland Heights boil advisory article still undated. Lane 3: WashU Alert only IPAWS test; Danforth Facilities nothing new since 11/12; Med Facilities no domestic water shutdowns. Lane 4: nothing dated 11/16-17. Gaps: MSD, Kirkwood, municipal pages for Clayton/Richmond Heights/Brentwood/Maplewood/Ladue/Eureka, BJC, Cortex, MoDOT; Reddit/X/Facebook/Nextdoor blocked.",
-    "open_count": 167,
-    "run_at": "2026-11-17T21:40:00Z",
-    "top_incident": "Ring 1 planned work pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert, U City NewsFlash and CivicAlerts re-checked ~3:35 PM); impact possible (low). No City or County boil advisory."
+    "note": "4:40 PM CST 11/17 four-lane run: new MAW 145479 Ladue main break (Ring 2, edge of Ring 1, no street, ETR ~9:45 PM, impact none) and alert 145481 Alton service investigation (Ring 3). Probe: 145478 Charleston WV, 145480 Peoria IL boil lift (not tied to a tracked Peoria event), 145482 Elrama (likely PA); 145483-145488 not issued; next run start 145483. City conflict explained: /outages is stale (11:30 AM); outages.php (4:30 PM, 4 outages, 14 repairs) is authoritative and lists Union/Brown-I-70; Withers/N 2nd repair dropped, resolved. Stale ETRs still listed: North Point, Potomac, Union/Bircher. MO DNR none in St. Louis City/County; MAW alerts index rendered empty. Lane 2: KFVS list (21:42 UTC) shows only Dunklin PWSD 3 and Millstone; Murphysboro Enterprise Ave moved to monitoring; Greenville IL boil order still in effect. Possible street for Granite City 145473 (Nameoki Rd, KSDK) undated, not adopted. Lane 3: WashU Alert only IPAWS test; no Danforth or Med Facilities water notices; Jolley/Cupples and Wallace Dr no follow-up posted. Lane 4: nothing dated 11/16-17. Gaps: Kirkwood fetch failed; Clayton/Richmond Heights/Brentwood/Maplewood/Ladue/Eureka municipal pages, BJC, Cortex, MoDOT not checked; Reddit blocked; X/Facebook/Nextdoor not indexed.",
+    "open_count": 168,
+    "run_at": "2026-11-17T22:40:00Z",
+    "top_incident": "Ring 1 planned work pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert and U City NewsFlash re-checked ~4:35 PM); impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -172,6 +172,24 @@
       "status": "monitoring",
       "title": "Hannibal Board of Public Works 48-hour precautionary boil advisory, Suellen St / Bar-Mar St / West Ely St",
       "utility": "Hannibal Board of Public Works",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 4:40 PM CT 11/17 (Lane 1 only, ID probe): alert 145481, investigation of a possible service issue, low or no pressure possible; no state, street, times or boil order. ~20 mi N of Danforth; separate system; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-17T22:40:00Z",
+      "id": "ilaw-alton-investigation-20261117",
+      "last_updated": "2026-11-17T22:40:00Z",
+      "location": "Alton (state not printed; most likely Alton, IL, Madison County, Metro East; street not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145481"
+      ],
+      "status": "open",
+      "title": "American Water service investigation, Alton — possible low/no pressure (alert 145481)",
+      "utility": "Illinois American Water",
       "washu_impact": "none"
     },
     {
@@ -2118,6 +2136,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 4:40 PM CT 11/17 (Lane 1 only, ID probe): MAW alert 145479, main-break emergency repairs 11/17, restoration ~9:45 PM (wording ambiguous); no street, no start time; no boil advisory (MO DNR none in St. Louis City/County). Ladue borders Clayton; ~1-3 mi W of West Campus, Danforth and South Campus depending on location; pressure zone unknown; no WashU asset; not on a Ring 1 corridor as far as known. Impact none. Escalate if a street east of Lindbergh near Clayton Rd, Litzsinger, Warson or Brentwood Blvd is published, or a boil advisory is posted. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-17T22:40:00Z",
+      "id": "maw-ladue-unlocated-20261117",
+      "last_updated": "2026-11-17T22:40:00Z",
+      "location": "Ladue, MO (mid St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145479"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Ladue — emergency repairs (alert 145479)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 3:40 AM CT 11/8 (Lane 1 only): MAW alert 144296, main-break emergency repairs on Lenhardt Ave, Lemay, start shown as 11/7 (time likely a placeholder), ~8 hr estimate; no boil advisory. ~7-9 mi SE of South Campus and Danforth (estimate); different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Monitor; resolve when dropped from MAW index. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-08T09:40:00Z",
@@ -3936,18 +3972,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 10:10 AM CT 11/13 (Lane 2 only, KFVS Heartland list): boil order for all of Enterprise Ave issued 11/13, until further notice; start time not given. KFVS page shows no year (treated as 2026 from sequence). ~90 mi SE; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "assessment": "Updated 4:40 PM CT 11/17 (Lane 2): Murphysboro Enterprise Ave no longer appears on the KFVS Heartland boil list (page modified 21:42 UTC 11/17, which lists only Dunklin County PWSD 3 and Millstone); lift not confirmed by a primary source, so moved to monitoring, not resolved. ~90 mi SE; separate system; no WashU asset. Impact none. Resolve once a lift is confirmed. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-13T16:10:00Z",
       "id": "murphysboro-murphysboro-enterpriseave-20261113",
-      "last_updated": "2026-11-13T16:10:00Z",
+      "last_updated": "2026-11-17T22:40:00Z",
       "location": "All of Enterprise Ave, Murphysboro, IL (Jackson County)",
       "ring": 3,
       "single_source": true,
       "sources": [
         "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of Murphysboro, IL boil order, Enterprise Ave",
       "utility": "City of Murphysboro, IL",
       "washu_impact": "none"
@@ -4630,20 +4666,21 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 7:40 AM CT 11/11 (Lane 1, City Water table stamped 7:30 AM 11/11): the N 2nd St Talcott–Adelaide service outage no longer appears on the outage list, so service appears restored; no completion notice posted. The Withers Ave & N 2nd St main repair work order (opened 12:28 PM 11/10) is still listed with no status. Moved to monitoring; resolve when the work order drops. No boil advisory. North riverfront, ~5-6 mi NE of Medical Campus; no WashU asset; no Ring 1 corridor. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 4:40 PM CT 11/17 (Lane 1): the Withers Ave & N 2nd St main repair work order no longer appears on City outages.php (updated 4:30 PM 11/17; still shown only on the stale /outages page stamped 11:30 AM). Service outage had cleared 11/11. Treated as repair complete per the authoritative utility list. North City; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-10T18:40:00Z",
       "id": "stlwater-stlouiscity-n2ndst-withers-20261110",
-      "last_updated": "2026-11-11T13:40:00Z",
+      "last_updated": "2026-11-17T22:40:00Z",
       "location": "N 2nd St & Withers Ave repair; outage on N 2nd St between Talcott Ave and Adelaide Ave, St. Louis City (north riverfront)",
       "ring": 2,
       "single_source": false,
       "sources": [
         "https://www.stlwater.com/wateroos.php",
         "https://www.stlwater.com/wateroos.php?t=L1x1110p",
-        "https://www.stlwater.com/wateroos.php?t=L4x1110p"
+        "https://www.stlwater.com/wateroos.php?t=L4x1110p",
+        "https://www.stlwater.com/outages.php"
       ],
-      "status": "monitoring",
+      "status": "resolved",
       "title": "City of St. Louis Water Division main repair and service outage, N 2nd St (Withers Ave / Talcott–Adelaide), north riverfront",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -5185,16 +5222,17 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 12:40 PM CT 11/17 (Lane 1 only, outages.php updated 12:30 PM): service outage from 11:45 AM 11/17, ETR 11:45 AM 11/18; no boil advisory. Adjacent to but separate segment from tracked Union/Bircher outage (Bircher–Brown, still overdue). ~5 mi NE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from outages.php and confirmed. Owner: Emergency Management (track only).",
+      "assessment": "Updated 4:40 PM CT 11/17 (Lane 1): confirmed still listed on City outages.php updated 4:30 PM; out of service since 11:45 AM 11/17, ETR 11:45 AM 11/18; no boil advisory. Earlier conflict explained: the /outages page is stale (11:30 AM) and omits it; outages.php is authoritative. Adjacent to tracked Union/Bircher outage. ~5 mi NE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from outages.php. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-17T18:40:00Z",
       "id": "stlwater-stlouiscity-unionblvd-brown-20261117",
-      "last_updated": "2026-11-17T18:40:00Z",
+      "last_updated": "2026-11-17T22:40:00Z",
       "location": "Union Blvd between Brown Ave and Hwy 70 (I-70), St. Louis City (north City)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/outages.php"
+        "https://www.stlwater.com/outages.php",
+        "https://www.stlwater.com/outages"
       ],
       "status": "open",
       "title": "City of St. Louis Water service outage, Union Blvd between Brown Ave and I-70",
