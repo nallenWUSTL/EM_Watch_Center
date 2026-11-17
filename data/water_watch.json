@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "8:50 PM CST 11/16 four-lane run. No new or changed incidents in Rings 1-3 affecting WashU; no incident records changed. Lane 1: AW ID probe 145354-145377, 145389, 145401, 145415 all empty (sequence still ~145351); 145373-74, 145376, 145391-99, 145402-14, 145416-30 not opened, start next run at 145352. City outages page still stamped 9:30 AM 11/16: active rows only S Spring (Vista-Park), Potomac (January-Sulphur), Union/Bircher, all past estimated restoration; Riverview/W Florissant now on repair-work list; Cleveland/Tower Grove, Oleatha/Gustine, North Point, Penrose/Blair not listed (not resolved without confirmation). stlwater.com/?p=9725 Chain of Rocks boil advisory is an undated archive (likely Aug 2026), not current. MAW alerts/boil pages render empty. Lane 3: WashU Alert none (last modified 11/12); Danforth and Medical Facilities no new water notices; Jolley/Cupples II and Wallace Dr kept at monitoring. Lane 2: KFVS list (1:31 PM) Dunklin PWSD3, Murphysboro, Millstone remain; Greenville IL boil order still in effect (council special meeting 11/17 5 PM); undated KSDK Lindell Blvd 30-inch main story treated as old, not logged. Lane 4: no dated 11/15-17 social reports; KSDK Ferguson/Haplin Dr and south County MAW investigation headlines failed to load, unverified. Gaps: MSD, Kirkwood, BJC, Cortex, Delmar Loop, MoDOT, Clayton and several municipal pages.",
+    "note": "9:40 PM CST 11/16 four-lane run. No new incidents in Rings 1-3 affecting WashU. One record changed: Greenville IL boil order (plant changeover done early; awaiting sample results). Lane 1: City outages page still stamped 9:30 AM 11/16, same 3 active outages (S Spring, Potomac, Union/Bircher) all past ETA; AW ID probe 145352-145355 non-regional (PA, WV), 145356-62/64/66/68/71 empty, head ~145355; 145363/65/67/69/70 and 145372+ not opened, start next run at 145356. MAW alerts/boil pages render empty. Lane 3: WashU Alert none (last modified 11/12); Facilities pages show Jolley/Cupples II no-water-use window ended 10/31 and Wallace Dr work ended 11/13 with no extensions (kept at monitoring pending confirmation); emergency.washu.edu ?p=23396 shows modified 11/16 but is a Jan 2017 Taylor Ave notice, not current. Lane 2: KFVS list (19:31 UTC) Dunklin PWSD3, Millstone, Murphysboro Enterprise Ave; undated KSDK River Des Peres/Chippewa and Lindell stories not logged. Lane 4: no dated 11/15-16 social reports; KSDK south County Hawkins-Fuchs story appears to be 2024, not logged; Ferguson/Halpin Dr unverified. Gaps: MSD, Kirkwood, BJC, Cortex, Delmar Loop, MoDOT, Clayton city news.",
     "open_count": 174,
-    "run_at": "2026-11-17T02:50:00Z",
-    "top_incident": "Ring 1 planned work still pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still not published (MAW alert and U City pages silent); impact possible (low). No City or County boil advisory (MO DNR dataset: none in St. Louis region; stlwater.com shows none)."
+    "run_at": "2026-11-17T03:40:00Z",
+    "top_incident": "Ring 1 planned work still pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still not published (MAW alert and U City pages silent); impact possible (low). No City or County boil advisory (MO DNR newest record 11/5, none in St. Louis region; stlwater.com shows none)."
   },
   "incidents": [
     {
@@ -136,17 +136,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 6:40 PM CT 11/16 (Lane 2): WGEL 'City Wide Boil Order Update' dated 11/16 says the city and everyone on its system remain under the boil order until further notice (treatment plant changeover). ~50 mi E; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "assessment": "Updated 9:40 PM CT 11/16 (Lane 2): WGEL 11/16 update says the switch to the new treatment plant finished Monday, earlier than expected; samples taken, results may take several days; boil order stays in effect until negative results, lift to be announced by WGEL. ~50 mi E; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-12T04:40:00Z",
       "id": "greenville-greenvilleil-citywide-20261116",
-      "last_updated": "2026-11-17T00:40:00Z",
+      "last_updated": "2026-11-17T03:40:00Z",
       "location": "Citywide Greenville, IL plus outlying areas served (Bond County; no streets named)",
       "ring": 3,
       "single_source": true,
       "sources": [
         "https://wgel.com/news/2026/11/city-announces-upcoming-boil-order-2/",
         "https://wgel.com/news/2026/11/update-on-city-wide-boil-order/",
+        "https://wgel.com/news/2026/11/city-wide-boil-order-update/",
         "https://www.wgel.com/"
       ],
       "status": "open",
