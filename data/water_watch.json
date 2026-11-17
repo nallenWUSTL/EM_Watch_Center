@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "7:45 AM CST 11/17 four-lane run. No new incidents. Updates: five City work orders gone from outages.php (7:30 AM): Riverview/W Florissant, S Spring/Park, 6815 Dale Ave, N Grand/Palm, Marcus/St Louis Ave hydrant; moved to monitoring, not resolved. Still listed, active and overdue: North Point Blvd, Potomac St, Union Blvd (Bircher-Brown). MAW IDs 145372-145400 probed, none in Missouri; 145312-145371 not reached; MAW index showed no entries. Lane 2: Greenville IL boil still in effect pending tests; KFVS list shows Murphysboro and Millstone WD unchanged. Lane 3: WashU Alert none; Facilities nothing water-related since 11/12. Lane 4: nothing indexed for 11/16-17; undated stlwater boil-advisory post not adopted. Counts: 150 open, 25 monitoring. Gaps: MSD, Kirkwood, MO DNR (no data), BJC, Cortex, MoDOT, social platforms.",
-    "open_count": 150,
-    "run_at": "2026-11-17T13:45:00Z",
-    "top_incident": "Ring 1 planned work pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert and U City NewsFlash re-checked 7:40 AM); impact possible (low). No City or County boil advisory."
+    "note": "8:45 AM CST 11/17 four-lane run. New (all impact none): MAW Olivette 145409 (~3 mi W of West Campus, Ring 2), Crestwood 145405, County-level 145406/145410 (location unpublished), Joplin 145407; City N Grand/Windsor valve and 903/920 N Grand hydrant work orders (Ring 2, ~2 mi E of Medical Campus); IAW Urbana W Beardsley 145412 and Pontiac 145413 boil orders. Updates: East St. Louis boil order lifted (IAW 145401) -> resolved; Moberly dropped from KFVS list -> monitoring. City outages.php: North Point, Potomac, Union (Bircher-Brown) still active and overdue. Greenville IL boil still in effect. Lane 3: WashU Alert none (only 11/17 national alert test notice); Facilities nothing water-related. Lane 4: nothing for 11/16-17; undated stlwater ?p=9725 boil-advisory page judged stale, not adopted. MAW probe edge ~145413; next run start 145414. Counts: 155 open, 26 monitoring. Gaps: MSD, Kirkwood, MO DNR, BJC, Cortex, MoDOT.",
+    "open_count": 155,
+    "run_at": "2026-11-17T14:45:00Z",
+    "top_incident": "Ring 1 planned work pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert and U City NewsFlash re-checked 8:40 AM); impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -311,20 +311,21 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 8:45 AM CT 11/16 (Lane 1): IAW alert 145270 reports the East St. Louis boil order extended; no lift date or streets. Metro East, ~8-9 mi E of the Medical Campus; separate utility system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 8:45 AM CT 11/17 (Lane 1): IAW alert 145401 posts the East St. Louis boil order lift (normal use may resume; no date on page); this is the only open tracked East St. Louis event, so treated as its lift. Metro East; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-12T16:40:00Z",
       "id": "ilaw-eaststlouis-planned-20261112",
-      "last_updated": "2026-11-16T14:45:00Z",
+      "last_updated": "2026-11-17T14:45:00Z",
       "location": "East St. Louis, IL (St. Clair County, Metro East; streets not published by utility)",
       "ring": 3,
       "single_source": true,
       "sources": [
         "https://alertsdetail.awapps.com/alert/144868",
         "https://alertsdetail.awapps.com/alert/144921",
-        "https://alertsdetail.awapps.com/alert/145270"
+        "https://alertsdetail.awapps.com/alert/145270",
+        "https://alertsdetail.awapps.com/alert/145401"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "Illinois American Water planned valve replacement with boil order on restoration, East St. Louis, IL (alert 144868)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
@@ -547,6 +548,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 8:45 AM CT 11/17 (Lane 1 only, ID probe): IAW alert 145413, emergency repairs with boil order. ~190 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-17T14:45:00Z",
+      "id": "ilaw-pontiac-unlocated-20261117",
+      "last_updated": "2026-11-17T14:45:00Z",
+      "location": "Pontiac, IL (Livingston County; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145413"
+      ],
+      "status": "open",
+      "title": "Illinois American Water emergency repairs with boil order, Pontiac, IL (alert 145413)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 3:40 PM CT 11/16 (Lane 1 only, ID probe): IAW alert 145339, main break from 3:00 PM 11/16, ~7 hr repair estimate, boil order once service is restored. ~200 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-16T21:40:00Z",
@@ -578,6 +597,24 @@
       ],
       "status": "open",
       "title": "Illinois American Water main break with boil order on restoration, S Race St, Urbana, IL (alert 145201)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 8:45 AM CT 11/17 (Lane 1 only, ID probe): IAW alert 145412, main break with boil order. ~170 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-17T14:45:00Z",
+      "id": "ilaw-urbana-wbeardsleyave-20261117",
+      "last_updated": "2026-11-17T14:45:00Z",
+      "location": "W Beardsley Ave, Urbana, IL (Champaign County; cross street not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145412"
+      ],
+      "status": "open",
+      "title": "Illinois American Water main break with boil order, W Beardsley Ave, Urbana, IL (alert 145412)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
     },
@@ -1101,6 +1138,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Crestwood — emergency repairs (alert 145267)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 8:45 AM CT 11/17 (Lane 1 only, ID probe): MAW alert 145405, main-break repairs from 8:15 AM 11/17, ~6 hr estimate (~2:15 PM); no street; no boil advisory. Separate from tracked 145267 (11/16) by start date. ~6-7 mi SW of South Campus; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-17T14:45:00Z",
+      "id": "maw-crestwood-unlocated-20261117",
+      "last_updated": "2026-11-17T14:45:00Z",
+      "location": "Crestwood, MO (south St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145405"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Crestwood — emergency repairs (alert 145405)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -1862,6 +1917,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 8:45 AM CT 11/17 (Lane 1 only, ID probe): MAW alert 145407, repairs from 9:00 AM 11/17, ~6 hr estimate. ~250 mi SW; separate system; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-17T14:45:00Z",
+      "id": "maw-joplin-unlocated-20261117",
+      "last_updated": "2026-11-17T14:45:00Z",
+      "location": "Joplin, MO (Jasper County; street not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145407"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Joplin — emergency repairs (alert 145407)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 2:40 AM CT 11/15 (Lane 1 only, ID probe): MAW alert 145163, main break from 9:15 PM 11/14; no boil advisory noted. ~250 mi SW; separate system; no WashU asset. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-15T08:40:00Z",
@@ -2247,6 +2320,24 @@
       ],
       "status": "resolved",
       "title": "Missouri American Water main breaks, Olivette — emergency repairs (alerts 142126, 142133; investigation 142122)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 8:45 AM CT 11/17 (Lane 1 only, ID probe): MAW alert 145409, main-break repairs from 8:15 AM 11/17, ~6 hr estimate (~2:15 PM); no street; no boil advisory. ~3 mi W of West Campus and Danforth (estimate); pressure zone unknown; no WashU asset; no Ring 1 corridor. Impact none. Escalate if a street east of I-170 near Olive/Delmar or a boil advisory is published. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-17T14:45:00Z",
+      "id": "maw-olivette-unlocated-20261117",
+      "last_updated": "2026-11-17T14:45:00Z",
+      "location": "Olivette, MO (mid St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145409"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Olivette — emergency repairs (alert 145409)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -3199,6 +3290,25 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 8:45 AM CT 11/17 (Lane 1 only, ID probe): MAW alerts 145406 and 145410, identical county-level text, main-break repairs from 8:15 AM 11/17, ~6 hr estimate; no town or street; no boil advisory. Possibly county-level duplicates of Olivette 145409 or Crestwood 145405 (same start time), not confirmed. Impact none unless a Ring 1 location is published. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-17T14:45:00Z",
+      "id": "maw-stlouiscounty-unlocated-20261117",
+      "last_updated": "2026-11-17T14:45:00Z",
+      "location": "St. Louis County, MO (municipality and street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145406",
+        "https://alertsdetail.awapps.com/alert/145410"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, St. Louis County — emergency repairs (alerts 145406, 145410)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 11:40 AM CT 11/4 (Lane 1 only): MAW alert 143982, main-break repairs began 10:30 AM CT 11/4, ~6 hr estimate (~4:30 PM); no street; no boil advisory. ~9-11 mi W of West Campus and Danforth (estimate); different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Monitor; resolve when dropped from MAW index. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-04T17:40:00Z",
@@ -3644,18 +3754,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 7:45 PM CT 11/15 (Lane 2 only): main break with service disruption; boil advisory issued shortly before 10 AM 11/15 for customers who lost pressure, 48 hours after service returns; restoration not stated. ~130 mi NW of Danforth; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "assessment": "Updated 8:45 AM CT 11/17 (Lane 2): Moberly no longer on the KFVS Heartland boil list (modified 1:31 PM CT 11/16); lift not confirmed by the city, so moved to monitoring, not resolved. ~140 mi W; separate system; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-16T01:45:00Z",
       "id": "moberly-moberly-buchananst-20261115",
-      "last_updated": "2026-11-16T01:45:00Z",
+      "last_updated": "2026-11-17T14:45:00Z",
       "location": "1200 block of Buchanan St and nearby, Moberly, MO (Randolph County)",
       "ring": 3,
       "single_source": true,
       "sources": [
         "https://www.centralmoinfo.com/news/city-of-moberly-public-utilities-issues-boil-advisory/article_bf7f7b51-3930-45ab-bc2f-c9b3cdc14b5c.html"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of Moberly main break and 48-hour boil advisory, 1200 block Buchanan St",
       "utility": "City of Moberly Public Utilities",
       "washu_impact": "none"
@@ -4408,6 +4518,24 @@
       ],
       "status": "monitoring",
       "title": "City of St. Louis Water Division main repair, N Grand Ave & Palm Pl (north City)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 8:45 AM CT 11/17 (Lane 1 only, City outages.php): three work orders opened 8:14-8:26 AM 11/17 (valve repair N Grand & Windsor; hydrant repairs 903 and 920 N Grand); no outage or restoration time listed. Possibly linked to the tracked N Grand/Palm repair. ~2 mi E of the Medical Campus; not on a Ring 1 corridor; no WashU asset. Impact none; possible lane restrictions on N Grand. Resolve when dropped from outages.php. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-17T14:45:00Z",
+      "id": "stlwater-stlouiscity-ngrand-windsor-20261117",
+      "last_updated": "2026-11-17T14:45:00Z",
+      "location": "N Grand Blvd at Windsor Pl, plus hydrants at 903 and 920 N Grand Blvd (63106), Grand Center / SLU, St. Louis City",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division valve and hydrant repairs, N Grand Blvd (Windsor Pl, 903 and 920 N Grand)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
