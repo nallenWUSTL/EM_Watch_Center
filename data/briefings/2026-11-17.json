@@ -1,0 +1,195 @@
+{
+  "bluf": "Posture Normal; no weather, life-safety, health or events threshold met. Lead concern is cyber: an actively exploited Check Point gateway chain that ends in ESXi wipers, plus the BYOD ransomware campaign against university health systems. Nationwide EAS test at 1:20 PM CT today. Thanksgiving departures and an early H1N1 flu season shape the week; Sat 21 and Mon 23 are stacked days.",
+  "briefing_url": "https://claude.ai/artifact/Ut1M8HQU4axRdqERpk9Pf4",
+  "date": "2026-11-17",
+  "dissents": [
+    {
+      "note": "Overrules Cyber lane Monitor rating; set to Sev 3, Today, for downtime pre-check.",
+      "title": "BYOD campaign underrated",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Converges with Weather lane; carried in PIR 1.",
+      "title": "Tyson dry fuels underrated",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Agrees with Weather lane.",
+      "title": "Severe weather / New Madrid overrated",
+      "verdict": "adopted"
+    },
+    {
+      "note": "No pattern aimed at WashU; Monitor.",
+      "title": "Isolated Ring 1 shootings overrated as WashU threat",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Sev 5, Low likelihood, Low confidence; no evidence under way; item 2 is the hedge.",
+      "title": "Scenario: shared-identity compromise forces EHR downtime at Barnes-Jewish",
+      "verdict": "carried"
+    }
+  ],
+  "lanes_quiet": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "lookahead": [
+    {
+      "date": "2026-11-17",
+      "dow": "Tue",
+      "loads": "EAS test 1:20 PM; Blues home 7 PM",
+      "stacked": false,
+      "wx": "Sunny, upper 50s, morning fog"
+    },
+    {
+      "date": "2026-11-18",
+      "dow": "Wed",
+      "loads": "Nothing found",
+      "stacked": false,
+      "wx": "Sunny, low 60s"
+    },
+    {
+      "date": "2026-11-19",
+      "dow": "Thu",
+      "loads": "Recheck SPC Day 3; Tyson fire-weather window opens",
+      "stacked": false,
+      "wx": "Mostly clear, upper 60s, dry"
+    },
+    {
+      "date": "2026-11-20",
+      "dow": "Fri",
+      "loads": "Thanksgiving departures begin; SLAM family program; SonicWall KEV due",
+      "stacked": false,
+      "wx": "Dry, upper 60s"
+    },
+    {
+      "date": "2026-11-21",
+      "dow": "Sat",
+      "loads": "Thanks-For-Giving Parade 2 PM; Festival of Lights; Blues 6 PM; Fox shows 4 and 7:30 PM",
+      "stacked": true,
+      "wx": "Upper 60s; front, 40% light evening showers"
+    },
+    {
+      "date": "2026-11-22",
+      "dow": "Sun",
+      "loads": "WashU women's basketball 1 PM; Blues 6 PM (minor stack)",
+      "stacked": true,
+      "wx": "Sunny, cooler, mid 50s"
+    },
+    {
+      "date": "2026-11-23",
+      "dow": "Mon",
+      "loads": "City SC MLS playoff home vs LAFC; peak pre-break departures on I-64",
+      "stacked": true,
+      "wx": "Cooler; no NWS forecast yet"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "watch",
+      "summary": "No NWS product; dry and warm through Fri. Sat 21 weak front with light evening showers. Tyson dry fuels Thu-Sat (converged with Red Team)."
+    },
+    {
+      "name": "Life safety",
+      "pir": 2,
+      "status": "watch",
+      "summary": "No Ring 1 violent incident in 24 h, no threat naming WashU. Swatting copycat risk after UIUC Nov 11 hoax; review verification protocol. Marketplace robbery memo (Nov 12)."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "watch",
+      "summary": "No advisory, outbreak or diversion. Early H1N1 flu season ahead of Thanksgiving travel; push vaccination and pre-break messaging."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "active",
+      "summary": "Check Point exploit chain and BYOD campaign; KEV deadlines Nov 20 (SonicWall) and Nov 24 (Outlook, Chromium). No confirmed outage at a WashU asset; utility pages not checked."
+    },
+    {
+      "name": "Scheduled activity",
+      "pir": 5,
+      "status": "watch",
+      "summary": "No Ring 1 event over 5,000. Thanksgiving break Nov 25-29, departures from Fri 20. Ring 2 stacks Sat 21 and Mon 23."
+    },
+    {
+      "name": "Policy, legal, funding",
+      "pir": 6,
+      "status": "watch",
+      "summary": "EAS test today. Stopgap funding through Dec 11 (contested, Medium confidence). No State Dept level changes."
+    }
+  ],
+  "posture": "Normal",
+  "published_at": "2026-11-17T11:59:40Z",
+  "run_note": "Charter read OK; all 7 lanes reported; cycle 05:53-06:05 CT. Sev 4 item re-verified (two sources); CISA KEV page unreachable.",
+  "title": "WashU EM Daily Intelligence Briefing, November 17, 2026",
+  "today_items": [
+    {
+      "action": "Confirm whether WashU/BJC run Check Point Mobile Access or Security Gateways; verify patches; hunt per SK1000362.",
+      "confidence": "Medium",
+      "likelihood": "Medium",
+      "owner": "IT / InfoSec",
+      "pir": 4,
+      "rank": 1,
+      "severity": 4,
+      "source": "https://innovatecybersecurity.com/security-threat-advisory/top-10-cybersecurity-news-november-16-2026-and-more/",
+      "title": "Check Point gateway exploit chain ending in ESXi wiper",
+      "ttd": "Today"
+    },
+    {
+      "action": "With WashU and BJC CISOs, confirm offline backups and current EHR downtime procedures before holiday drawdown.",
+      "confidence": "Medium",
+      "likelihood": "Low-Medium",
+      "owner": "IT / CISO; Medical Campus EM",
+      "pir": 4,
+      "rank": 2,
+      "severity": 3,
+      "source": "https://bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed",
+      "title": "BYOD ransomware campaign against university health systems (UNM Health, Vanderbilt)",
+      "ttd": "Today"
+    },
+    {
+      "action": "Brief WUPD and Medical Campus dispatch before 1:20 PM; no WashU Alert test in window; be ready to rebut blackout rumor.",
+      "confidence": "High",
+      "likelihood": "Occurring",
+      "owner": "EM; Communications; WUPD",
+      "pir": 6,
+      "rank": 3,
+      "severity": 1,
+      "source": "https://content.govdelivery.com/accounts/USDHSFEMA/bulletins/43181ad",
+      "title": "Nationwide EAS test 1:20-1:50 PM CT",
+      "ttd": "Today"
+    },
+    {
+      "action": "Dining contractor to check breakfast items against FSIS product list.",
+      "confidence": "Medium",
+      "likelihood": "Low",
+      "owner": "EHS; Student Affairs / Dining",
+      "pir": 3,
+      "rank": 4,
+      "severity": 2,
+      "source": "https://www.foodsafetynews.com/2026/11/usda-issues-alert-for-biscuit-and-sausage-gravy-products-because-of-listeria-risk/",
+      "title": "USDA Listeria alert on meat products made with recalled biscuits",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "Check Point gateway exploit chain (CVE-2026-123039 + PHP2Shell) ending in ESXi wiper: IT/InfoSec to confirm WashU/BJC exposure, patch, and hunt per SK1000362 today.",
+  "unreachable": [
+    "api.weather.gov alerts",
+    "SPC outlooks (stale cache)",
+    "AirNow St. Louis AQI",
+    "CISA KEV catalog",
+    "Health-ISAC Nov 17 digest",
+    "St. Louis County flu page",
+    "Missouri DHSS flu dashboard",
+    "stltoday (paywall)",
+    "ncaa.com bracket",
+    "Steptoe newsletter",
+    "Campus Safety Magazine"
+  ]
+}
