@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "12:40 AM CST 11/17 four-lane run. No new incidents in Rings 1-3; no records changed. Lane 1: City outage page still 'last updated 9:30 AM 11/16' (S Spring, Potomac, Union/Bircher listed past ETR; page appears stale); 6815 Dale Ave repair order still on work-order table (record stays resolved, verify); MAW/IAW IDs 145356-145359, 145373-145376, 145378 empty; next run probe 145377 and 145379+; MO DNR newest 11/05; 145298 still no streets. Lane 2: Greenville IL boil order unchanged (awaiting lab results); KFVS list unchanged (Dunklin PWSD3, Millstone, Murphysboro); three KSDK search hits (Ferguson Haplin Dr, south County MAW, I-44 geyser) unopened and undated. Lane 3: WashU Alert none; Facilities no new posts; Jolley/Cupples II and Wallace Dr notice windows long past with no follow-on (kept monitoring; no confirmation of close). Lane 4: no dated 11/16-17 social reports. Gaps: MAW alerts index (script-rendered), Clayton news, MSD, Kirkwood, IAW index, BJC, Cortex, MoDOT.",
-    "open_count": 173,
-    "run_at": "2026-11-17T06:40:00Z",
-    "top_incident": "Ring 1 planned work still pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still not published (MAW alert and U City NewsFlash silent); impact possible (low). No City or County boil advisory."
+    "note": "1:40 AM CST 11/17 four-lane run. No new incidents. Updates: City North Point Blvd outage past 11:35 PM ETR (still active); Potomac (~32 hr overdue) and Union (>3 days overdue) still active; Greer & Newstead off both City lists -> monitoring; Eichelberger & Alaska still absent (kept monitoring). City boil-advisory page none; MO DNR no St. Louis-area entries. Untracked City work orders seen (not outages, 11/10-11/12): 5017 Cabanne Ave (~1.5-2 mi N of Medical Campus), N Grand & Palm, Sutherland & Sulphur, Withers & N 2nd; verify next run. Lane 2: Greenville IL boil unchanged (lab results pending); KFVS list unchanged; prior KSDK hits dated stale (Hawkins-Fuchs ~2024, I-44 June 2026), Ferguson Haplin Dr undated/unverified. Lane 3: WashU Alert none; Facilities no water notices; Jolley/Cupples II notice windows ended Oct 31/Nov 6. Lane 4: nothing dated 11/16-17. Gaps: MAW/IAW alert pages script-rendered (IDs 145377, 145379-145400 empty), IAW, BJC, Cortex, MoDOT, Clayton/Eureka municipal pages.",
+    "open_count": 172,
+    "run_at": "2026-11-17T07:40:00Z",
+    "top_incident": "Ring 1 planned work pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (MAW, U City NewsFlash silent); impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -4019,18 +4019,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Resolved 5:40 PM CT 11/16 (Lane 1, City outages page updated 5:30 PM): Greer Ave (N Newstead–Taylor) outage no longer listed, after its 6:14 PM ETR window; treated as restored per the utility page, the resolution rule set for this record. No boil advisory. North City, Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
+      "assessment": "Updated 1:40 AM CT 11/17 (Lane 1, outages.php stamped 1:30 AM 11/17): Greer & Newstead no longer appears on either the outage list or the work-order list; completion likely but not confirmed, so moved to monitoring rather than resolved. North City, Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-16T16:40:00Z",
       "id": "stlwater-stlouiscity-greer-newstead-20261116",
-      "last_updated": "2026-11-16T23:40:00Z",
+      "last_updated": "2026-11-17T07:40:00Z",
       "location": "Greer Ave between N Newstead Ave and Taylor Ave, St. Louis City (north City)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/outages.php"
       ],
-      "status": "resolved",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division service outage, Greer Ave between N Newstead Ave and Taylor Ave (north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -4396,11 +4396,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 1:50 PM CT 11/16 (Lane 1 only, City outages page updated 1:30 PM): service outage from 11:35 AM 11/16, estimated restoration 11:35 PM 11/16; no boil advisory. Adjacent to tracked Riverview Blvd & W Florissant repair and likely the same incident or its spillover (not confirmed). ~6-7 mi NE of North Campus (estimate); no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from the outages page. Owner: Emergency Management (track only).",
+      "assessment": "Updated 1:40 AM CT 11/17 (Lane 1, outages.php stamped 1:30 AM 11/17): North Point Blvd (Summit–Riverview) still listed as an active outage; out since 11:35 AM 11/16, 11:35 PM ETR now ~2 hr past and not revised. No boil advisory. Far north City, Ring 2; no WashU asset. Impact none. Resolve when dropped from the outage list. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-16T19:50:00Z",
       "id": "stlwater-stlouiscity-northpoint-riverview-20261116",
-      "last_updated": "2026-11-16T19:50:00Z",
+      "last_updated": "2026-11-17T07:40:00Z",
       "location": "North Point Blvd between Summit Ave and Riverview Blvd, St. Louis City (far north City)",
       "ring": 2,
       "single_source": true,
@@ -4525,11 +4525,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 8:45 AM CT 11/16 (Lane 1; supervisor verified on outages.php updated 8:30 AM 11/16): Potomac St (January–Sulphur) still listed as an outage; out since 9:21 AM 11/15, 5:21 PM ETA never revised, now ~15 hr overdue; Potomac & Sulphur main repair (7:17 AM 11/15) still listed. Lane 4 report that it had dropped off was not borne out. No City boil advisory. Ring 2, south City, ~4-5 mi from Danforth; no WashU asset. Impact none. Resolve once completion is confirmed. Owner: Emergency Management (track only).",
+      "assessment": "Updated 1:40 AM CT 11/17 (Lane 1, outages.php stamped 1:30 AM 11/17): Potomac St (January–Sulphur) still listed as an active outage; out since 9:21 AM 11/15, 5:21 PM 11/15 ETR now ~32 hr overdue and never revised. No City boil advisory (boil-advisory.php none). Southwest City, Ring 2, ~3 mi S of Danforth; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-15T13:40:00Z",
       "id": "stlwater-stlouiscity-potomac-sulphur-20261115",
-      "last_updated": "2026-11-16T14:45:00Z",
+      "last_updated": "2026-11-17T07:40:00Z",
       "location": "Potomac St between January Ave and Sulphur Ave, St. Louis City (Lindenwood Park / Clifton Heights area)",
       "ring": 2,
       "single_source": true,
@@ -4818,11 +4818,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 8:40 PM CT 11/15 (Lane 1): stlwater outages page refreshed (last updated 8:30 PM 11/15) and still lists Union Blvd (Bircher–Brown) as restoring; began 9:58 AM 11/13, ETA 7:58 PM 11/13 never revised, now >48 hr overdue. Union Blvd valve repair also still listed. No City boil advisory (0 current). North City, Ring 2, ~1.5-2.5 mi from North Campus; no WashU asset. Impact none. Resolve when dropped or completion confirmed. Owner: Emergency Management (track only).",
+      "assessment": "Updated 1:40 AM CT 11/17 (Lane 1, outages.php stamped 1:30 AM 11/17): Union Blvd (Bircher–Brown) still listed as an active outage; began 9:58 AM 11/13, 7:58 PM 11/13 ETR now >3 days overdue; Union Blvd valve repair work order also still listed. No boil advisory. North City, Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-13T17:40:00Z",
       "id": "stlwater-stlouiscity-union-bircher-20261113",
-      "last_updated": "2026-11-16T02:40:00Z",
+      "last_updated": "2026-11-17T07:40:00Z",
       "location": "Union Blvd between Bircher Blvd and Brown Ave, St. Louis City (north City)",
       "ring": 2,
       "single_source": false,
