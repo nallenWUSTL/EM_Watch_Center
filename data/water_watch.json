@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "8:45 AM CST 11/17 four-lane run. New (all impact none): MAW Olivette 145409 (~3 mi W of West Campus, Ring 2), Crestwood 145405, County-level 145406/145410 (location unpublished), Joplin 145407; City N Grand/Windsor valve and 903/920 N Grand hydrant work orders (Ring 2, ~2 mi E of Medical Campus); IAW Urbana W Beardsley 145412 and Pontiac 145413 boil orders. Updates: East St. Louis boil order lifted (IAW 145401) -> resolved; Moberly dropped from KFVS list -> monitoring. City outages.php: North Point, Potomac, Union (Bircher-Brown) still active and overdue. Greenville IL boil still in effect. Lane 3: WashU Alert none (only 11/17 national alert test notice); Facilities nothing water-related. Lane 4: nothing for 11/16-17; undated stlwater ?p=9725 boil-advisory page judged stale, not adopted. MAW probe edge ~145413; next run start 145414. Counts: 155 open, 26 monitoring. Gaps: MSD, Kirkwood, MO DNR, BJC, Cortex, MoDOT.",
-    "open_count": 155,
-    "run_at": "2026-11-17T14:45:00Z",
-    "top_incident": "Ring 1 planned work pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert and U City NewsFlash re-checked 8:40 AM); impact possible (low). No City or County boil advisory."
+    "note": "9:40 AM CST 11/17 four-lane run. New (all impact none): City hydrant repair Chouteau Ave & S 6th St (Ring 2, opened 9:00 AM); IAW Lincoln IL planned valve with boil on restoration 145414; IAW Streator IL main break with boil 145422. No updates to tracked items: City outages North Point (~10 hr past ETR), Potomac, Union still active; N Grand/Windsor work still listed; Greenville IL boil still in effect (samples pending); Dunklin PWSD 3 unchanged. Lane 3: WashU Alert only national test notice; Facilities nothing water-related; Metro no water detours. Lanes 2 and 4: nothing dated 11/16-17 in St. Louis area. City boil page and MO DNR: no St. Louis City/County advisory. MAW probe edge ~145423; next run start 145424. Gaps: MSD, Kirkwood, BJC, Cortex, MoDOT not opened; MAW index page returns no entries (script-loaded).",
+    "open_count": 158,
+    "run_at": "2026-11-17T15:40:00Z",
+    "top_incident": "Ring 1 planned work pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert, U City NewsFlash/CivicAlerts and Clayton re-checked 9:35 AM); impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -390,6 +390,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 9:40 AM CT 11/17 (Lane 1 only, ID probe): IAW alert 145414, planned valve replacement 8:30 AM to ~2 PM 11/17; boil order once service is restored. ~150 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-17T15:40:00Z",
+      "id": "ilaw-lincoln-planned-20261117",
+      "last_updated": "2026-11-17T15:40:00Z",
+      "location": "Lincoln, IL (Logan County; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145414"
+      ],
+      "status": "open",
+      "title": "Illinois American Water planned valve replacement with boil order on restoration, Lincoln, IL, Nov 17 (alert 145414)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 4:40 PM CT 11/5 (Lane 1): Illinois American Water alert 144131 states the Lincoln IL boil order is lifted; original alert 144017 still shows the boil-order text. ~150 mi NE of St. Louis; separate system; no WashU asset. Impact none. Owner: Emergency Management (closed).",
       "confidence": "Low",
       "first_seen": "2026-11-05T04:40:00Z",
@@ -579,6 +597,24 @@
       ],
       "status": "open",
       "title": "Illinois American Water main break with boil order on restoration, Streator, IL (alert 145339)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 9:40 AM CT 11/17 (Lane 1 only, ID probe): IAW alert 145422, main break from 9:30 AM 11/17, ~5.5 hr repair estimate, boil order. Separate from tracked 145339 (11/16) by start date. ~200 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-17T15:40:00Z",
+      "id": "ilaw-streator-unlocated-20261117",
+      "last_updated": "2026-11-17T15:40:00Z",
+      "location": "Streator, IL (LaSalle/Livingston County; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145422"
+      ],
+      "status": "open",
+      "title": "Illinois American Water main break with boil order, Streator, IL (alert 145422)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
     },
@@ -3953,6 +3989,24 @@
       ],
       "status": "monitoring",
       "title": "City of St. Louis Water Division service outage, Cabanne Ave between Academy Ave and Kingshighway",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 9:40 AM CT 11/17 (Lane 1 only, City outages.php updated 9:30 AM): hydrant repair work order opened 9:00 AM 11/17; not listed as a service outage; no restoration time. Downtown, ~4 mi E of the Medical Campus; not a Ring 1 corridor; no WashU asset. Impact none; possible lane restriction on Chouteau. Resolve when dropped from outages.php. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-17T15:40:00Z",
+      "id": "stlwater-stlouiscity-chouteau-s6th-20261117",
+      "last_updated": "2026-11-17T15:40:00Z",
+      "location": "Chouteau Ave & S 6th St, downtown St. Louis City",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division fire hydrant repair, Chouteau Ave & S 6th St (downtown)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
