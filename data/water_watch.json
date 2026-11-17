@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "10:40 PM CST 11/16 four-lane run. No new incidents in Rings 1-3. One record changed: City Water Dale Ave repair order dropped from table, resolved. City outage table (10:30 PM 11/16) shows only 3 active outages: North Point Blvd (est. 11:35 PM), Potomac St and Union/Bircher (both past ETA). S Spring, Sutherland, Riverview, Cabanne not active (repair orders remain for some). Lane 1 MAW ID probe: 145354-145355 WV; 145356-61/65/70 empty; 145362-64, 145366-69 not opened; start next run at 145356. MO DNR no new St. Louis records; Kirkwood none. Lane 2: KFVS list (19:31 UTC 11/16) Dunklin PWSD3, Millstone, Murphysboro Enterprise Ave; Greenville IL boil order still in effect; Yahoo Clayton item unreadable, undated. Lane 3: WashU Alert none (modified 11/12); Facilities no new water notices; Jolley/Cupples II and Wallace Dr unchanged (monitoring). Lane 4: no dated 11/15-16 social reports; undated stlwater ?p=9725 boil page (Chain of Rocks) judged legacy, not logged; undated KSDK Granite City Nameoki Rd story not logged. Gaps: MSD, BJC, Cortex, Delmar Loop, Forest Park Forever, MoDOT, city street-closure feeds.",
+    "note": "11:40 PM CST 11/16 four-lane run. No new incidents in Rings 1-3. One record changed: City Water Oleatha Ave outage row cleared (repair order remains), moved to monitoring. City outage table (11:30 PM 11/16) lists 3 outages: North Point Blvd (at ETR 11:35 PM), Potomac St and Union/Bircher (both overdue). Lane 1 noted 6815 Dale Ave repair order listed again (record resolved last run; not reopened, verify next run). MAW ID probe: 145360-145372 empty; 145356-145359 and 145373+ not opened; start next run at 145356. MAW alert 145298 still no streets. Lane 2: Greenville IL boil order still in effect (WGEL 11/16); KFVS list unchanged (Dunklin PWSD3, Millstone, Murphysboro). Lane 3: WashU Alert none (modified 11/12); Facilities no new water notices; Jolley/Cupples II and Wallace Dr unchanged. Lane 4: no dated 11/15-17 social reports; undated stlwater ?p=9725 boil page and undated Yahoo Clayton item not logged. Gaps: MO DNR, Kirkwood, MSD, IAW, BJC, Cortex, Delmar Loop, Forest Park Forever, MoDOT, Clayton city news.",
     "open_count": 173,
-    "run_at": "2026-11-17T04:40:00Z",
-    "top_incident": "Ring 1 planned work still pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still not published (MAW alert and U City NewsFlash silent); impact possible (low). No City or County boil advisory (MO DNR newest regional none; stlwater shows none)."
+    "run_at": "2026-11-17T05:40:00Z",
+    "top_incident": "Ring 1 planned work still pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still not published (MAW alert and U City NewsFlash silent); impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -4489,18 +4489,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 6:40 PM CT 11/16 (Lane 1, outages page updated 6:30 PM): new service-outage row on Oleatha Ave between Gustine Ave and Roger, from 6:23 PM 11/16, estimated restoration 12:23 AM 11/17; repair work order (11:39 AM) still listed. No City boil advisory. South City, Ring 2, ~5 mi from the Medical Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from the outages page. Owner: Emergency Management (track only).",
+      "assessment": "Updated 11:40 PM CT 11/16 (Lane 1, outages page updated 11:30 PM): Oleatha Ave (Gustine–Roger) service-outage row no longer listed, so service appears restored ahead of the 12:23 AM ETR; Oleatha & Gustine main-repair work order (11:39 AM 11/16) still listed. No City boil advisory. South City, Ring 2, ~5 mi from the Medical Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when the work order drops. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-16T19:50:00Z",
       "id": "stlwater-stlouiscity-oleatha-gustine-20261116",
-      "last_updated": "2026-11-17T00:40:00Z",
+      "last_updated": "2026-11-17T05:40:00Z",
       "location": "Oleatha Ave & Gustine Ave, St. Louis City (Southampton / Bevo area, south City)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/outages.php"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division main repair, Oleatha Ave & Gustine Ave (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
