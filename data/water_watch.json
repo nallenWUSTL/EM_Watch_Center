@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "1:40 AM CST 11/17 four-lane run. No new incidents. Updates: City North Point Blvd outage past 11:35 PM ETR (still active); Potomac (~32 hr overdue) and Union (>3 days overdue) still active; Greer & Newstead off both City lists -> monitoring; Eichelberger & Alaska still absent (kept monitoring). City boil-advisory page none; MO DNR no St. Louis-area entries. Untracked City work orders seen (not outages, 11/10-11/12): 5017 Cabanne Ave (~1.5-2 mi N of Medical Campus), N Grand & Palm, Sutherland & Sulphur, Withers & N 2nd; verify next run. Lane 2: Greenville IL boil unchanged (lab results pending); KFVS list unchanged; prior KSDK hits dated stale (Hawkins-Fuchs ~2024, I-44 June 2026), Ferguson Haplin Dr undated/unverified. Lane 3: WashU Alert none; Facilities no water notices; Jolley/Cupples II notice windows ended Oct 31/Nov 6. Lane 4: nothing dated 11/16-17. Gaps: MAW/IAW alert pages script-rendered (IDs 145377, 145379-145400 empty), IAW, BJC, Cortex, MoDOT, Clayton/Eureka municipal pages.",
-    "open_count": 172,
-    "run_at": "2026-11-17T07:40:00Z",
+    "note": "2:45 AM CST 11/17 four-lane run. New: City main-repair work order at 6815 Dale Ave (63139), started 11/12, repair only, no outage, impact none (missed by earlier runs). No status changes: City outages North Point Blvd, Potomac and Union Blvd still Active and past ETR; City repair list unchanged; no City boil advisory on outages page (boil-advisory.php did not load). MAW: IDs 145346-145405 all out of state or empty; no new Missouri alerts. Lane 2: Greenville IL boil order still in effect per WGEL 11/16; Maryland Heights/Bridgeton, Festus and South City boil stories undated, not adopted. Lane 3: WashU Alert none; Danforth and Medical Facilities no water notices; Wallace Dr and Jolley/Cupples windows ended, no closure confirmation (kept monitoring). Lane 4: nothing dated 11/16-17. Count is now open only (157 open, 18 monitoring). Gaps: MSD, Kirkwood, MO DNR table, BJC, Cortex, MoDOT, KMOV/Post-Dispatch/STLPR direct.",
+    "open_count": 157,
+    "run_at": "2026-11-17T08:45:00Z",
     "top_incident": "Ring 1 planned work pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (MAW, U City NewsFlash silent); impact possible (low). No City or County boil advisory."
   },
   "incidents": [
@@ -3899,6 +3899,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division main repair and service outages, 6815 Dale Ave / Central Ave",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 2:45 AM CT 11/17 (Lane 1 only; missed by earlier runs): City outages.php (updated 2:30 AM 11/17) lists a main-repair work order at 6815 Dale Ave started 7:44 AM 11/12; repair only, no service outage attached, no boil advisory. Roughly 1.5-2 mi S of Danforth and South Campus (estimate); not on a Ring 1 corridor; City system, but no indication it touches a WashU feed. Impact none. Resolve when dropped from the work-order list and confirmed. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-17T08:45:00Z",
+      "id": "stlwater-stlouiscity-daleave-20261112",
+      "last_updated": "2026-11-17T08:45:00Z",
+      "location": "6815 Dale Ave, St. Louis City 63139 (Clayton-Tamm / Franz Park area near the Richmond Heights line; cross street not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division main repair, 6815 Dale Ave (63139)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
