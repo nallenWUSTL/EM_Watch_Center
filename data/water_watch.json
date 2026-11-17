@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "2:45 AM CST 11/17 four-lane run. New: City main-repair work order at 6815 Dale Ave (63139), started 11/12, repair only, no outage, impact none (missed by earlier runs). No status changes: City outages North Point Blvd, Potomac and Union Blvd still Active and past ETR; City repair list unchanged; no City boil advisory on outages page (boil-advisory.php did not load). MAW: IDs 145346-145405 all out of state or empty; no new Missouri alerts. Lane 2: Greenville IL boil order still in effect per WGEL 11/16; Maryland Heights/Bridgeton, Festus and South City boil stories undated, not adopted. Lane 3: WashU Alert none; Danforth and Medical Facilities no water notices; Wallace Dr and Jolley/Cupples windows ended, no closure confirmation (kept monitoring). Lane 4: nothing dated 11/16-17. Count is now open only (157 open, 18 monitoring). Gaps: MSD, Kirkwood, MO DNR table, BJC, Cortex, MoDOT, KMOV/Post-Dispatch/STLPR direct.",
-    "open_count": 157,
-    "run_at": "2026-11-17T08:45:00Z",
+    "note": "3:45 AM CST 11/17 four-lane run. No new incidents in Rings 1-2. MAW newest live alert ID is 145355 (145356+ empty); no new St. Louis County alerts; Ballwin 145311 and County 145313 past estimates, still posted. City outages page stale since 9:30 AM 11/16: North Point Blvd and Sutherland outages and Cleveland/Tower Grove repair dropped off, moved to monitoring; Greer, Oleatha/Gustine and Cabanne (5017 Cabanne) also off lists, already monitoring. City boil advisories none current (undated stlwater ?p=9725 page is an old Chain of Rocks post, not adopted). Lane 2: Greenville IL boil still in effect; Dunklin PWSD 3 confirmed; KSDK Maplewood Manchester/Laclede Station break undated, not adopted. Lane 3: WashU Alert none; Facilities no water notices; Jolley/Cupples and Wallace Dr windows ended, no closure notice (kept monitoring). Lane 4: nothing dated 11/16-17. Counts: 154 open, 21 monitoring. Gaps: MSD, Kirkwood, MO DNR table, BJC, Cortex, MoDOT, MAW alerts index (did not render).",
+    "open_count": 154,
+    "run_at": "2026-11-17T09:45:00Z",
     "top_incident": "Ring 1 planned work pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (MAW, U City NewsFlash silent); impact possible (low). No City or County boil advisory."
   },
   "incidents": [
@@ -3848,18 +3848,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 1:50 PM CT 11/16 (Lanes 1-3, City outages page updated 1:30 PM): the Cleveland & Tower Grove outage is no longer on the outage list, but the 10:01 AM main-repair work order is still listed. Likely restored; not confirmed, so kept open. Shaw / Southwest Garden, ~2-3 mi SE of the Medical Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when the work order drops. Owner: Emergency Management (track only).",
+      "assessment": "Updated 3:45 AM CT 11/17 (Lane 1): Cleveland Ave & Tower Grove Ave dropped off the City repairs list (page last refreshed 9:30 AM 11/16); probably complete, but no completion notice, so moved to monitoring. Shaw / Southwest Garden, Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-16T16:40:00Z",
       "id": "stlwater-stlouiscity-cleveland-towergrove-20261116",
-      "last_updated": "2026-11-16T19:50:00Z",
+      "last_updated": "2026-11-17T09:45:00Z",
       "location": "Cleveland Ave & Tower Grove Ave, St. Louis City (Shaw / Southwest Garden area)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/outages.php"
+        "https://www.stlwater.com/outages"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division main repair, Cleveland Ave & Tower Grove Ave (Shaw / Southwest Garden)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -4414,18 +4414,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 1:40 AM CT 11/17 (Lane 1, outages.php stamped 1:30 AM 11/17): North Point Blvd (Summit–Riverview) still listed as an active outage; out since 11:35 AM 11/16, 11:35 PM ETR now ~2 hr past and not revised. No boil advisory. Far north City, Ring 2; no WashU asset. Impact none. Resolve when dropped from the outage list. Owner: Emergency Management (track only).",
+      "assessment": "Updated 3:45 AM CT 11/17 (Lane 1): North Point Blvd outage no longer on the City outages list (page last refreshed 9:30 AM 11/16); probably restored, but no completion notice, so moved to monitoring, not resolved. North City, Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-16T19:50:00Z",
       "id": "stlwater-stlouiscity-northpoint-riverview-20261116",
-      "last_updated": "2026-11-17T07:40:00Z",
+      "last_updated": "2026-11-17T09:45:00Z",
       "location": "North Point Blvd between Summit Ave and Riverview Blvd, St. Louis City (far north City)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/outages.php"
+        "https://www.stlwater.com/outages"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division service outage, North Point Blvd (Summit Ave to Riverview Blvd), north City",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -4737,19 +4737,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 12:40 PM CT 11/12 (Lane 4, verified by supervisor; City outages page stamped 12:30 PM): Sutherland Ave no longer listed as an active service outage, so service appears restored; main-repair work order (posted 4:00 PM 11/11) still listed. No boil advisory. ~2.5-3 mi E of South Campus (estimate); City system; no Ring 1 corridor; no WashU asset. Impact none. Resolve when the work order drops. Owner: Emergency Management (track only).",
+      "assessment": "Updated 3:45 AM CT 11/17 (Lane 1): Sutherland Ave outage no longer on the City outages list (page last refreshed 9:30 AM 11/16); probably restored, but no completion notice, so moved to monitoring. South City, Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "High",
       "first_seen": "2026-11-12T00:40:00Z",
       "id": "stlwater-stlouiscity-sutherland-sulphur-20261111",
-      "last_updated": "2026-11-12T18:40:00Z",
+      "last_updated": "2026-11-17T09:45:00Z",
       "location": "Sutherland Ave between Sulphur Ave and January Ave, St. Louis City (Lindenwood Park / Ellendale area, south of Arsenal)",
       "ring": 2,
       "single_source": false,
       "sources": [
-        "https://www.stlwater.com/outages.php",
         "https://www.stlwater.com/outages"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City Water main repair and service outage, Sutherland Ave (Sulphur Ave to January Ave)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
