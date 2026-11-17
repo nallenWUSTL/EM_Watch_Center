@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "5:40 PM CST 11/16 four-lane run. New: MAW 145349 Mexico, MO main break (Ring 3, impact none). Updates: City Greer Ave outage dropped (resolved); Riverview/W Florissant and S Spring outages dropped, repair work orders still listed. N Pointe Blvd outage (ETR 11:35 PM) and Potomac St (ETR long passed) still active; Union/Bircher still listed. Lane 1 AW ID probe: 145349 Mexico MO live; 145350, 145354, 145358-145361 empty; 145351-145353 and 145355-145357 not opened; start next run at 145351. MAW boil page none. Lane 2: KFVS list unchanged (Dunklin PWSD 3, Murphysboro, Millstone). KSDK Lindell Blvd 'large hole' story ruled out as the July 2019 Lindell/Union break; KSDK 'possible main break south St. Louis County' ruled out (Aug 2024, Hawkins-Fuchs/Meramec Bottom). Lane 3: WashU Alert none (modified 11/12); Medical Campus Facilities no domestic water outages; Jolley/Cupples II and Wallace Dr still no completion notice; Clayton site would not load. Lane 4: no dated social posts. MSD, Kirkwood, BJC, Cortex not checked.",
+    "note": "6:40 PM CST 11/16 four-lane run. No new incidents in Rings 1-2. Updates: City Oleatha Ave (Gustine-Roger) new outage row 6:23 PM, ETR 12:23 AM 11/17; MAW 145349 Mexico MO start 5:30 PM, ~6 hr; Greenville IL boil order confirmed still in effect (WGEL 11/16). City outages page (6:30 PM): North Point Blvd still listed (ETR 11:35 PM); Potomac and Union/Bircher outages still listed, ETAs long passed; S Spring and Sutherland outage rows, Eichelberger/Alaska and Penrose/Blair no longer listed (not resolved without confirmation). Lane 1 AW ID probe: 145346-145347 WV, 145348 unplaced (Mullooly St); 145350-145358, 145360, 145365, 145370, 145380 empty; start next run at 145359. KFVS list: Dunklin PWSD 3, Murphysboro, Millstone remain; Cape Girardeau and Du Quoin absent (lifts unconfirmed). Ruled out as stale: Maryland Heights/Bridgeton/Earth City boil advisory (undated, likely Mar 2026), stlwater ?p=9725 boil page (Aug 2026), Jan 2026 freeze breaks. Lane 3: WashU Alert none; Facilities no water notices (Jolley/Cupples II, Wallace Dr still no completion); Med Campus BJC IH heating-water shutdown 11/14 passed. Lane 4: no dated social posts. Gaps: MSD, BJC, Cortex, Clayton site, Kirkwood current status.",
     "open_count": 174,
-    "run_at": "2026-11-16T23:40:00Z",
-    "top_incident": "Ring 1 planned work still pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still not published (U City newsflash silent); impact possible (low). Unplaced St. Louis County main break 145313 (12 PM, ~6 hr) still has no municipality or street. No City or County boil advisory."
+    "run_at": "2026-11-17T00:40:00Z",
+    "top_incident": "Ring 1 planned work still pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still not published (U City alerts and newsflash silent); impact possible (low). Unplaced St. Louis County main break 145313 still has no municipality or street. No City or County boil advisory (MAW boil page none; MO DNR dataset none)."
   },
   "incidents": [
     {
@@ -136,17 +136,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 6:40 PM CT 11/12 (Lane 2): WGEL posted an update 11/12 confirming the citywide boil order for residents on city-processed water still begins Mon 11/16 (treatment plant changeover 11/16-17); article body did not load, so any other change is unknown. Planned work. ~50 mi E; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "assessment": "Updated 6:40 PM CT 11/16 (Lane 2): WGEL 'City Wide Boil Order Update' dated 11/16 says the city and everyone on its system remain under the boil order until further notice (treatment plant changeover). ~50 mi E; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-12T04:40:00Z",
       "id": "greenville-greenvilleil-citywide-20261116",
-      "last_updated": "2026-11-13T00:40:00Z",
+      "last_updated": "2026-11-17T00:40:00Z",
       "location": "Citywide Greenville, IL plus outlying areas served (Bond County; no streets named)",
       "ring": 3,
       "single_source": true,
       "sources": [
         "https://wgel.com/news/2026/11/city-announces-upcoming-boil-order-2/",
-        "https://wgel.com/news/2026/11/update-on-city-wide-boil-order/"
+        "https://wgel.com/news/2026/11/update-on-city-wide-boil-order/",
+        "https://www.wgel.com/"
       ],
       "status": "open",
       "title": "City of Greenville, IL planned citywide precautionary boil order for treatment plant changeover (starts Mon 11/16)",
@@ -2136,11 +2137,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 5:40 PM CT 11/16 (Lane 1 only, ID probe): MAW alert 145349, emergency main-break repairs from 5:30 PM 11/16, ~6 hr estimate (~11:30 PM); no street; no boil advisory. ~110 mi NW of Danforth; separate system; no WashU asset. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "assessment": "Updated 6:40 PM CT 11/16 (Lane 1): MAW alert 145349 detail now gives start 5:30 PM 11/16, ~6 hr repair estimate (~11:30 PM); no streets; no boil advisory. ~110 mi NW; separate system; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-16T23:40:00Z",
       "id": "maw-mexico-unlocated-20261116",
-      "last_updated": "2026-11-16T23:40:00Z",
+      "last_updated": "2026-11-17T00:40:00Z",
       "location": "Mexico, MO (Audrain County; street not published by utility)",
       "ring": 3,
       "single_source": true,
@@ -4486,11 +4487,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 1:50 PM CT 11/16 (Lane 1 only, City outages page updated 1:30 PM): main-repair work order opened 11:39 AM 11/16; no service outage listed and no restoration estimate; no boil advisory. ~3-4 mi SE of South Campus and S of the Medical Campus (estimate); not on a Ring 1 corridor; no WashU asset. Impact none. Resolve when dropped from the outages page. Owner: Emergency Management (track only).",
+      "assessment": "Updated 6:40 PM CT 11/16 (Lane 1, outages page updated 6:30 PM): new service-outage row on Oleatha Ave between Gustine Ave and Roger, from 6:23 PM 11/16, estimated restoration 12:23 AM 11/17; repair work order (11:39 AM) still listed. No City boil advisory. South City, Ring 2, ~5 mi from the Medical Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from the outages page. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-16T19:50:00Z",
       "id": "stlwater-stlouiscity-oleatha-gustine-20261116",
-      "last_updated": "2026-11-16T19:50:00Z",
+      "last_updated": "2026-11-17T00:40:00Z",
       "location": "Oleatha Ave & Gustine Ave, St. Louis City (Southampton / Bevo area, south City)",
       "ring": 2,
       "single_source": true,
