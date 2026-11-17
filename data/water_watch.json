@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "6:45 AM CST 11/17 four-lane run. One update: City North Point Blvd outage back on outages.php (6:30 AM) as active and overdue, returned to open (Ring 2, impact none). No new incidents. Lane 1: Potomac St and Union Blvd (Bircher-Brown) outages still active and overdue; Greer/Newstead still off list; no City boil advisory; MAW 145298 streets unpublished; MAW IDs 145365-145380 spot-checked, landing page only; MAW index and boil page, MO DNR, MSD unreachable or unchecked. Lane 2: Greenville IL boil still in effect; KFVS list copy fetched showed Murphysboro IL (Enterprise Ave, 11/13) and Millstone WD (Pope Co., 11/4) boil orders, but the copy may be stale (stamped 11/13), so not adopted; old Maryland Heights/Bridgeton MAW boil and Jan 2026 FOX 2 stories not adopted. Lane 3: WashU Alert none; Facilities nothing newer than 11/12; Jolley/Cupples II and Wallace Dr unchanged. Lane 4: nothing indexed for 11/16-17. Counts: 155 open, 20 monitoring. Gaps: MAW alerts index and boil page, MO DNR, MSD, Clayton site, BJC, MoDOT, social platforms.",
-    "open_count": 155,
-    "run_at": "2026-11-17T12:45:00Z",
-    "top_incident": "Ring 1 planned work pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert and U City NewsFlash re-checked 6:40 AM); impact possible (low). No City or County boil advisory."
+    "note": "7:45 AM CST 11/17 four-lane run. No new incidents. Updates: five City work orders gone from outages.php (7:30 AM): Riverview/W Florissant, S Spring/Park, 6815 Dale Ave, N Grand/Palm, Marcus/St Louis Ave hydrant; moved to monitoring, not resolved. Still listed, active and overdue: North Point Blvd, Potomac St, Union Blvd (Bircher-Brown). MAW IDs 145372-145400 probed, none in Missouri; 145312-145371 not reached; MAW index showed no entries. Lane 2: Greenville IL boil still in effect pending tests; KFVS list shows Murphysboro and Millstone WD unchanged. Lane 3: WashU Alert none; Facilities nothing water-related since 11/12. Lane 4: nothing indexed for 11/16-17; undated stlwater boil-advisory post not adopted. Counts: 150 open, 25 monitoring. Gaps: MSD, Kirkwood, MO DNR (no data), BJC, Cortex, MoDOT, social platforms.",
+    "open_count": 150,
+    "run_at": "2026-11-17T13:45:00Z",
+    "top_incident": "Ring 1 planned work pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert and U City NewsFlash re-checked 7:40 AM); impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -3904,18 +3904,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 2:45 AM CT 11/17 (Lane 1 only; missed by earlier runs): City outages.php (updated 2:30 AM 11/17) lists a main-repair work order at 6815 Dale Ave started 7:44 AM 11/12; repair only, no service outage attached, no boil advisory. Roughly 1.5-2 mi S of Danforth and South Campus (estimate); not on a Ring 1 corridor; City system, but no indication it touches a WashU feed. Impact none. Resolve when dropped from the work-order list and confirmed. Owner: Emergency Management (track only).",
+      "assessment": "Updated 7:45 AM CT 11/17 (Lane 1): 6815 Dale Ave work order no longer on City outages.php (updated 7:30 AM 11/17). Likely complete but not confirmed, so moved to monitoring. No boil advisory. ~1.5-2 mi S of Danforth and South Campus (estimate); not a Ring 1 corridor. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-17T08:45:00Z",
       "id": "stlwater-stlouiscity-daleave-20261112",
-      "last_updated": "2026-11-17T08:45:00Z",
+      "last_updated": "2026-11-17T13:45:00Z",
       "location": "6815 Dale Ave, St. Louis City 63139 (Clayton-Tamm / Franz Park area near the Richmond Heights line; cross street not published)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/outages.php"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division main repair, 6815 Dale Ave (63139)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -4263,19 +4263,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 7:40 AM CT 11/15 (Lane 1): back on the City repair list at stlwater outages.php (updated 7:30 AM 11/15), start 7:42 PM 11/13; earlier drop-off was not a completion. Returned to open. North City, Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 7:45 AM CT 11/17 (Lane 1): Marcus & St. Louis Ave hydrant work no longer on City outages.php (updated 7:30 AM 11/17). It dropped off once before and returned, so moved to monitoring, not resolved. North City, Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-14T02:40:00Z",
       "id": "stlwater-stlouiscity-marcus-stlouisave-hydrant-20261113",
-      "last_updated": "2026-11-15T13:40:00Z",
+      "last_updated": "2026-11-17T13:45:00Z",
       "location": "Marcus Ave & St. Louis Ave, St. Louis City (north City)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/outages",
         "https://www.stlwater.com/outages.php"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division fire hydrant repair, Marcus Ave & St. Louis Ave (north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -4396,18 +4395,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 12:40 PM CT 11/12 (Lane 4, verified by supervisor on City outages page stamped 12:30 PM): main-repair work order posted 10:58 AM 11/12; listed as repair only, not an active service outage; no restoration time; no boil advisory. ~4-5 mi NE of the Medical Campus (estimate); City system; not on a Ring 1 corridor or Medical Campus route; no WashU asset. Impact none. Resolve when the work order drops. Owner: Emergency Management (track only).",
+      "assessment": "Updated 7:45 AM CT 11/17 (Lane 1): N Grand & Palm work order no longer on City outages.php (updated 7:30 AM 11/17). Likely complete but not confirmed, so moved to monitoring. No boil advisory. ~4-5 mi NE of the Medical Campus (estimate); no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-12T18:40:00Z",
       "id": "stlwater-stlouiscity-ngrand-palm-20261112",
-      "last_updated": "2026-11-12T18:40:00Z",
+      "last_updated": "2026-11-17T13:45:00Z",
       "location": "N Grand Ave at Palm Pl, St. Louis City (north City, near O'Fallon Park / College Hill)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/outages.php"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division main repair, N Grand Ave & Palm Pl (north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -4642,18 +4641,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 5:40 PM CT 11/16 (Lane 1, City outages page updated 5:30 PM): the Riverview & W Florissant service outage is no longer listed; only the main-repair work order remains, so service appears restored. Adjacent North Point Blvd outage (ETR 11:35 PM) still active and tracked separately. No boil advisory. Far north City, Ring 2; no WashU asset. Impact none. Resolve when the work order drops. Owner: Emergency Management (track only).",
+      "assessment": "Updated 7:45 AM CT 11/17 (Lane 1): City outages.php (updated 7:30 AM 11/17) no longer lists the Riverview & W Florissant item; only North Point, Potomac and Union remain. Likely restored but completion not confirmed, so moved to monitoring, not resolved. No boil advisory. Far north City, Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-16T14:45:00Z",
       "id": "stlwater-stlouiscity-riverview-wflorissant-20261116",
-      "last_updated": "2026-11-16T23:40:00Z",
+      "last_updated": "2026-11-17T13:45:00Z",
       "location": "Riverview Blvd between W Florissant Ave and Hi Pointe, St. Louis City (far north City)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/outages.php"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division main repair, Riverview Blvd & W Florissant Ave (north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -4700,18 +4699,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 5:40 PM CT 11/16 (Lane 1, City outages page updated 5:30 PM): S Spring Ave (Vista–Park) service outage no longer listed, so service appears restored; S Spring & Park main-repair work order (11:15 AM 11/15) still listed. No City boil advisory. Medical Campus ~1.5-2 mi WNW (estimate); not a Ring 1 corridor; no WashU asset. Impact none. Resolve when the work order drops. Owner: Emergency Management (track only).",
+      "assessment": "Updated 7:45 AM CT 11/17 (Lane 1): S Spring & Park work order no longer on City outages.php (updated 7:30 AM 11/17). Likely complete but not confirmed, so moved to monitoring. No City boil advisory. Medical Campus ~1.5-2 mi WNW (estimate); not a Ring 1 corridor; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-15T17:40:00Z",
       "id": "stlwater-stlouiscity-sspring-park-20261115",
-      "last_updated": "2026-11-16T23:40:00Z",
+      "last_updated": "2026-11-17T13:45:00Z",
       "location": "S Spring Ave between Vista Ave and Park Ave, St. Louis City (Midtown / Gate District area)",
       "ring": 2,
       "single_source": false,
       "sources": [
         "https://www.stlwater.com/outages.php"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division main repair and service outage, S Spring Ave (Vista Ave to Park Ave)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
