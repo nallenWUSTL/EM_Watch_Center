@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "5:40 AM CST 11/17 four-lane run. No new or changed incidents. Lane 1: City outages page still stamped 9:30 AM 11/16 (S Spring/Vista, Potomac/January, Union/Bircher still listed past estimates, restoration unconfirmed); no City boil advisory; MAW 145298 streets unpublished; MAW IDs 145364-145368 and 145370 rendered empty; MAW index, MAW boil page, MO DNR boil table and MSD unreachable; Kirkwood stale. Lane 2: Greenville IL boil still in effect (WGEL 11/16); Dunklin PWSD 3 unchanged (KFVS modified 11/16 19:31 UTC); FOX 2 unreachable. Lane 3: WashU Alert none; Danforth Facilities generator/transfer-switch testing 11/17-25 across many buildings (power, not water); Jolley/Cupples II and Wallace Dr Facilities items have no newer posts (left in monitoring, no lift confirmation); Medical Campus Facilities nothing new. Lane 4: nothing indexed for 11/16-17; undated KSDK Ferguson/Haplin Dr main-break story could not be dated, not adopted. Undated stlwater ?p=9725 Chain of Rocks advisory again not adopted. Counts: 154 open, 21 monitoring. Gaps: MAW alerts index and boil page, MO DNR, MSD, FOX 2, MoDOT, social platforms.",
-    "open_count": 154,
-    "run_at": "2026-11-17T11:40:00Z",
-    "top_incident": "Ring 1 planned work pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (MAW alert and U City NewsFlash re-checked 5:35 AM); impact possible (low). No City or County boil advisory."
+    "note": "6:45 AM CST 11/17 four-lane run. One update: City North Point Blvd outage back on outages.php (6:30 AM) as active and overdue, returned to open (Ring 2, impact none). No new incidents. Lane 1: Potomac St and Union Blvd (Bircher-Brown) outages still active and overdue; Greer/Newstead still off list; no City boil advisory; MAW 145298 streets unpublished; MAW IDs 145365-145380 spot-checked, landing page only; MAW index and boil page, MO DNR, MSD unreachable or unchecked. Lane 2: Greenville IL boil still in effect; KFVS list copy fetched showed Murphysboro IL (Enterprise Ave, 11/13) and Millstone WD (Pope Co., 11/4) boil orders, but the copy may be stale (stamped 11/13), so not adopted; old Maryland Heights/Bridgeton MAW boil and Jan 2026 FOX 2 stories not adopted. Lane 3: WashU Alert none; Facilities nothing newer than 11/12; Jolley/Cupples II and Wallace Dr unchanged. Lane 4: nothing indexed for 11/16-17. Counts: 155 open, 20 monitoring. Gaps: MAW alerts index and boil page, MO DNR, MSD, Clayton site, BJC, MoDOT, social platforms.",
+    "open_count": 155,
+    "run_at": "2026-11-17T12:45:00Z",
+    "top_incident": "Ring 1 planned work pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert and U City NewsFlash re-checked 6:40 AM); impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -4414,18 +4414,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 3:45 AM CT 11/17 (Lane 1): North Point Blvd outage no longer on the City outages list (page last refreshed 9:30 AM 11/16); probably restored, but no completion notice, so moved to monitoring, not resolved. North City, Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 6:45 AM CT 11/17 (Lane 1, outages.php stamped 6:30 AM 11/17): North Point Blvd (Summit–Riverview) is listed again as an active service outage; began 11:35 AM 11/16, 11:35 PM 11/16 ETR now ~7 hr overdue. Earlier drop-off was not a restoration. Returned to open. No City boil advisory. Far north City, ~9-10 mi from Danforth; Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-16T19:50:00Z",
       "id": "stlwater-stlouiscity-northpoint-riverview-20261116",
-      "last_updated": "2026-11-17T09:45:00Z",
+      "last_updated": "2026-11-17T12:45:00Z",
       "location": "North Point Blvd between Summit Ave and Riverview Blvd, St. Louis City (far north City)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/outages"
+        "https://www.stlwater.com/outages",
+        "https://www.stlwater.com/outages.php"
       ],
-      "status": "monitoring",
+      "status": "open",
       "title": "City of St. Louis Water Division service outage, North Point Blvd (Summit Ave to Riverview Blvd), north City",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
