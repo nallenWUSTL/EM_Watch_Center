@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "12:45 PM CST 11/18 four-lane run. No new Ring 1 or Ring 2 incidents. New Ring 3: IAW 145573 Urbana IL main break with boil order on restoration. Updated: City Union Blvd Brown-I-70 outage past 11:45 AM ETR. Unchanged: Rock Hill 145558 (11 AM, ~8 hr, no street), U City 145298, Plover and Union Bircher-Brown outages still listed past ETR, 16 City repair orders unchanged, North Point still absent. MAW probe: 145568 WV lift, 145569 Hershey PA, 145571 Mt. Lebanon PA, 145572 Lowell IN lift, 145573 Urbana IL, 145574 Westfield NJ; 145576-79, 145581, 145583, 145586, 145590 blank (frontier ~145574; next probe 145575+). No boil advisory: MAW boil page, MO DNR feed, City utilities news (newest 8/25). KFVS list unchanged (Dunklin PWSD 3, Millstone active). WashU Alert empty; Danforth and Med Campus Facilities: no water notices. Leads closed: U City Delmar water tap is a Jan 2026 notice; Ferguson Haplin Dr unconfirmed, dropped; stlwater ?p=9725 boil page undated, matches Aug 2026 event (stale). Gaps: MSD, Kirkwood, County health, BJC, Cortex, Loop, Forest Park Forever, MoDOT not opened; X/Reddit unreachable; FOX 2 north City main break video undated.",
-    "open_count": 192,
-    "run_at": "2026-11-18T18:45:00Z",
-    "top_incident": "Ring 1 planned work today: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished, no completion notice (re-opened ~12:40 PM); impact possible (low). No City or County boil advisory."
+    "note": "1:45 PM CST 11/18 four-lane run. No new Ring 1 incidents; no boil advisory (stlwater advisories empty, MAW boil page none, MO DNR none). New Ring 2: City Water outages Carter Ave (N Euclid-Shreve) and Penrose St (Euclid-N Kingshighway), north City, both off ~12:33 PM with ETR 11/26 (likely one job, ~3.5 mi N of Med Campus); MAW 145581 Maryland Heights main break 1:30 PM ~6 hr. New Ring 3: IAW 145580 Champaign N Willis Ave, 145577 Peoria (boil on restoration). Unchanged: 145298 U City, 145558 Rock Hill, 145532 Brentwood, 145531 Creve Coeur, 145479 Ladue; Plover and Union Brown/Bircher outages still listed past ETR; North Point still absent. Cabanne 5017 now shown only as a recent repair, off the outage list (tracked as monitoring; no completion notice). KFVS: Dunklin PWSD 3 and Millstone active; Lakeside lifted (already resolved). WashU Alert no active alerts; Danforth and Med Campus Facilities no water notices (Lane 3 found only the 10/29 Jolley/Cupples notice; record start date worth checking). Probe frontier ~145581 (145582-94, 145596, 145600 blank; next probe 145582+). Gaps: MSD, Kirkwood, BJC, Cortex, Loop, Forest Park Forever, MoDOT, Clayton news not opened; X/Reddit blocked; KSDK 'low pressure Tuesday night, advisory lifted' story would not load (date unconfirmed).",
+    "open_count": 197,
+    "run_at": "2026-11-18T19:45:00Z",
+    "top_incident": "Ring 1 planned work today: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets unpublished, no completion notice (re-opened ~1:40 PM); impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -306,6 +306,24 @@
       ],
       "status": "open",
       "title": "Illinois American Water service-line repair with boil order, Greencroft Dr, Champaign, IL (alert 145305)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 1:45 PM CT 11/18 (Lane 1 only, ID probe): IAW alert 145580, main break from 1:10 PM 11/18, ~6-8 hr estimate, boil order once service is restored. ~170 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-18T19:45:00Z",
+      "id": "ilaw-champaign-nwillisave-20261118",
+      "last_updated": "2026-11-18T19:45:00Z",
+      "location": "N Willis Ave, Champaign, IL (Champaign County; cross street not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145580"
+      ],
+      "status": "open",
+      "title": "Illinois American Water main break with boil order on restoration, N Willis Ave, Champaign, IL (alert 145580)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
     },
@@ -672,6 +690,24 @@
       ],
       "status": "open",
       "title": "Illinois American Water main break with boil order on restoration, Peoria, IL (alert 145345)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 1:45 PM CT 11/18 (Lane 1 only, ID probe): IAW alert 145577, emergency repairs from 12:30 PM 11/18, boil order once service is restored. Separate from earlier tracked Peoria events by start date. ~150 mi NNE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-18T19:45:00Z",
+      "id": "ilaw-peoria-unlocated-20261118",
+      "last_updated": "2026-11-18T19:45:00Z",
+      "location": "Peoria, IL (Peoria County; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145577"
+      ],
+      "status": "open",
+      "title": "Illinois American Water emergency repairs with boil order on restoration, Peoria, IL (alert 145577)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
     },
@@ -2649,6 +2685,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 1:45 PM CT 11/18 (Lane 1 only, ID probe): MAW alert 145581, main break from 1:30 PM 11/18, ~6 hr estimate (~7:30 PM); no street; no boil advisory. ~8-10 mi NW of Danforth; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-18T19:45:00Z",
+      "id": "maw-marylandheights-unlocated-20261118",
+      "last_updated": "2026-11-18T19:45:00Z",
+      "location": "Maryland Heights, MO (mid-west St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145581"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Maryland Heights — emergency repairs (alert 145581)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Updated 6:40 PM CT 11/16 (Lane 1): MAW alert 145349 detail now gives start 5:30 PM 11/16, ~6 hr repair estimate (~11:30 PM); no streets; no boil advisory. ~110 mi NW; separate system; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-16T23:40:00Z",
@@ -4522,6 +4576,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 1:45 PM CT 11/18 (Lanes 1 and 3, stlwater outage page updated 1:30 PM): service off since 12:34 PM 11/18; city ETR 8:34 PM 11/26 (unusually long, possibly a data-entry error). Likely the same job as the new Penrose St / Euclid outage. North end of Euclid, not the Medical Campus corridor; roughly 3.5-4 mi N of the Medical Campus (estimate, not geocoded). No boil advisory. Impact none. Resolve when dropped from the outage list. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-18T19:45:00Z",
+      "id": "stlwater-stlouiscity-carter-neuclid-20261118",
+      "last_updated": "2026-11-18T19:45:00Z",
+      "location": "Carter Ave between N Euclid Ave and Shreve Ave, St. Louis City (north City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outage, Carter Ave between N Euclid Ave and Shreve Ave (north City)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 9:40 AM CT 11/17 (Lane 1 only, City outages.php updated 9:30 AM): hydrant repair work order opened 9:00 AM 11/17; not listed as a service outage; no restoration time. Downtown, ~4 mi E of the Medical Campus; not a Ring 1 corridor; no WashU asset. Impact none; possible lane restriction on Chouteau. Resolve when dropped from outages.php. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-17T15:40:00Z",
@@ -5286,6 +5358,24 @@
       ],
       "status": "monitoring",
       "title": "City Water 36-inch main break closes Penrose St & Blair Ave, north St. Louis (date unconfirmed)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 1:45 PM CT 11/18 (Lanes 1 and 3, stlwater outage page updated 1:30 PM): service off since 12:32 PM 11/18; city ETR 8:32 PM 11/26. Probably the same job as Carter Ave / N Euclid. Separate from tracked Penrose & Blair 36-inch main. North Kingshighway, not the Medical Campus stretch; ~3.5 mi N of the Medical Campus (estimate). No boil advisory. Impact none. Resolve when dropped from the outage list. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-18T19:45:00Z",
+      "id": "stlwater-stlouiscity-penrose-euclid-20261118",
+      "last_updated": "2026-11-18T19:45:00Z",
+      "location": "Penrose St between Euclid Ave and N Kingshighway Blvd, St. Louis City (north City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outage, Penrose St between Euclid Ave and N Kingshighway (north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
