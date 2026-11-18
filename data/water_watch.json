@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "8:45 AM CST 11/18 four-lane run: 8 new MAW main-break alerts all opened 8:00-8:30 AM 11/18 with ~8 hr estimates, no streets, no boil advisories: 145530 St. Louis County (unspecified), 145532 Brentwood, 145531 Creve Coeur, 145537 Florissant, 145538 Woodson Terrace, 145533 Ballwin, 145529 Chesterfield, 145535 Joplin; none Ring 1. 145528/145534/145536 out of state, discarded; 145539/145540/145560/145600 blank (next probe 145541-145559). 145298 U City and 145479 Ladue unchanged. stlwater outages.php (8:30 AM): Plover, Union Brown-I-70 (ETR 11:45 AM), Union Bircher-Brown still active; Potomac & Sulphur repair back on work orders (reopened). MAW boil page none; City boil advisory page lists none. KFVS list unchanged. WashU Alert, Danforth and Med Campus Facilities: no water notices; Jolley/Cupples II and Wallace Dr still lack completion posts. Social: nothing datable to 24 h. Gaps: MSD, Kirkwood, MO DNR, Illinois American Water lifts, Clayton/Ladue/Brentwood municipal pages, BJC, Cortex, Loop, Forest Park Forever, MoDOT not opened.",
-    "open_count": 183,
-    "run_at": "2026-11-18T14:45:00Z",
-    "top_incident": "Ring 1 planned work today: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert and U City NewsFlash re-checked ~8:40 AM); impact possible (low). New this run: MAW 145530 St. Louis County main break (area unspecified, 8:15 AM, ~8 hr) to watch for streets. No City or County boil advisory."
+    "note": "9:45 AM CST 11/18 four-lane run: no new St. Louis City/County incidents. MAW probe: 145539/145540 now Pennsylvania (discarded); 145541-145547, 145550, 145555, 145560, 145575, 145600 blank (next probe 145548-145599). 145298, 145530, 145479 unchanged. stlwater outages.php (9:30 AM): Plover, Union Brown-I-70 (ETR 11:45 AM), Union Bircher-Brown still listed; Dale, S Spring/Park, Marcus/St Louis, N Grand/Palm, Sutherland/Sulphur work orders listed again (reopened); North Point, Eichelberger/Alaska, Greer/Newstead, Penrose/Blair absent (stay monitoring). MAW boil page none; City boil page none; MO DNR newest 15 none local. KFVS list: only Dunklin PWSD 3 and Millstone active; Lakeside Water (IL) lift added as resolved. Unverified, not recorded: KQ2 search snippets of 11/18 boil advisories in Gower and DeKalb County (NW MO, Ring 3; pages blocked). WashU Alert, Danforth and Med Campus Facilities: no water notices (Danforth generator tests 11/18-11/25 noted, non-water). Social: nothing datable to 24 h. Gaps: MSD, Kirkwood, Clayton news (error), U City alert page (robots), BJC, Cortex, Loop, Forest Park Forever, MoDOT not opened.",
+    "open_count": 188,
+    "run_at": "2026-11-18T15:45:00Z",
+    "top_incident": "Ring 1 planned work today: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert and U City NewsFlash re-checked ~9:35 AM); impact possible (low). MAW 145530 St. Louis County main break (area unspecified, 8:15 AM, ~8 hr) still unplaced. No City or County boil advisory."
   },
   "incidents": [
     {
@@ -766,6 +766,24 @@
       "status": "monitoring",
       "title": "City of Jackson precautionary boil advisory, Walton Dr (main break at E Jackson Blvd & Walton Dr)",
       "utility": "City of Jackson, MO",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New and resolved 9:45 AM CT 11/18 (Lane 2 only, KFVS Heartland list modified 15:20 UTC 11/18): listed as a boil order lifted 11/18; issue date not given; not previously tracked. ~100+ mi SE; separate system; no WashU asset. Impact none. Owner: Emergency Management (closed).",
+      "confidence": "Low",
+      "first_seen": "2026-11-18T15:45:00Z",
+      "id": "lakesidewater-williamsoncounty-ncountylinerd-20261118",
+      "last_updated": "2026-11-18T15:45:00Z",
+      "location": "North County Line Rd south of McKinney Hill Ln and north of Marion Storage, plus customers east of County Line Rd to Brayfield Rd, Williamson/Jackson County, IL",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
+      ],
+      "status": "resolved",
+      "title": "Lakeside Water boil order, N County Line Rd to Brayfield Rd (lifted 11/18)",
+      "utility": "Lakeside Water (IL)",
       "washu_impact": "none"
     },
     {
@@ -4506,18 +4524,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 7:45 AM CT 11/17 (Lane 1): 6815 Dale Ave work order no longer on City outages.php (updated 7:30 AM 11/17). Likely complete but not confirmed, so moved to monitoring. No boil advisory. ~1.5-2 mi S of Danforth and South Campus (estimate); not a Ring 1 corridor. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 9:45 AM CT 11/18 (Lane 1, outages.php updated 9:30 AM 11/18): 6815 Dale Ave main-repair work order is listed again; not an active service outage. Returned to open as active repair work. No boil advisory. ~1.5-2 mi S of Danforth and South Campus (estimate); not a Ring 1 corridor; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-17T08:45:00Z",
       "id": "stlwater-stlouiscity-daleave-20261112",
-      "last_updated": "2026-11-17T13:45:00Z",
+      "last_updated": "2026-11-18T15:45:00Z",
       "location": "6815 Dale Ave, St. Louis City 63139 (Clayton-Tamm / Franz Park area near the Richmond Heights line; cross street not published)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/outages.php"
       ],
-      "status": "monitoring",
+      "status": "open",
       "title": "City of St. Louis Water Division main repair, 6815 Dale Ave (63139)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -4865,18 +4883,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 7:45 AM CT 11/17 (Lane 1): Marcus & St. Louis Ave hydrant work no longer on City outages.php (updated 7:30 AM 11/17). It dropped off once before and returned, so moved to monitoring, not resolved. North City, Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 9:45 AM CT 11/18 (Lane 1, outages.php updated 9:30 AM 11/18): Marcus & St. Louis Ave hydrant work order is listed again (second return). Returned to open. North City, Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-14T02:40:00Z",
       "id": "stlwater-stlouiscity-marcus-stlouisave-hydrant-20261113",
-      "last_updated": "2026-11-17T13:45:00Z",
+      "last_updated": "2026-11-18T15:45:00Z",
       "location": "Marcus Ave & St. Louis Ave, St. Louis City (north City)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/outages.php"
       ],
-      "status": "monitoring",
+      "status": "open",
       "title": "City of St. Louis Water Division fire hydrant repair, Marcus Ave & St. Louis Ave (north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -5016,18 +5034,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 7:45 AM CT 11/17 (Lane 1): N Grand & Palm work order no longer on City outages.php (updated 7:30 AM 11/17). Likely complete but not confirmed, so moved to monitoring. No boil advisory. ~4-5 mi NE of the Medical Campus (estimate); no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 9:45 AM CT 11/18 (Lane 1, outages.php updated 9:30 AM 11/18): N Grand & Palm work order is listed again, alongside the tracked N Grand/Windsor valve and 903/920 N Grand hydrant orders. Returned to open as active repair work. No boil advisory. ~4-5 mi NE of the Medical Campus (estimate); no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-12T18:40:00Z",
       "id": "stlwater-stlouiscity-ngrand-palm-20261112",
-      "last_updated": "2026-11-17T13:45:00Z",
+      "last_updated": "2026-11-18T15:45:00Z",
       "location": "N Grand Ave at Palm Pl, St. Louis City (north City, near O'Fallon Park / College Hill)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/outages.php"
       ],
-      "status": "monitoring",
+      "status": "open",
       "title": "City of St. Louis Water Division main repair, N Grand Ave & Palm Pl (north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -5355,18 +5373,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 7:45 AM CT 11/17 (Lane 1): S Spring & Park work order no longer on City outages.php (updated 7:30 AM 11/17). Likely complete but not confirmed, so moved to monitoring. No City boil advisory. Medical Campus ~1.5-2 mi WNW (estimate); not a Ring 1 corridor; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 9:45 AM CT 11/18 (Lane 1, outages.php updated 9:30 AM 11/18): S Spring & Park work order is listed again; not an active service outage. Returned to open as active repair work. No City boil advisory. Medical Campus ~1.5-2 mi WNW (estimate); not a Ring 1 corridor; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-15T17:40:00Z",
       "id": "stlwater-stlouiscity-sspring-park-20261115",
-      "last_updated": "2026-11-17T13:45:00Z",
+      "last_updated": "2026-11-18T15:45:00Z",
       "location": "S Spring Ave between Vista Ave and Park Ave, St. Louis City (Midtown / Gate District area)",
       "ring": 2,
       "single_source": false,
       "sources": [
         "https://www.stlwater.com/outages.php"
       ],
-      "status": "monitoring",
+      "status": "open",
       "title": "City of St. Louis Water Division main repair and service outage, S Spring Ave (Vista Ave to Park Ave)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -5393,18 +5411,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 3:45 AM CT 11/17 (Lane 1): Sutherland Ave outage no longer on the City outages list (page last refreshed 9:30 AM 11/16); probably restored, but no completion notice, so moved to monitoring. South City, Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 9:45 AM CT 11/18 (Lane 1, outages.php updated 9:30 AM 11/18): Sutherland & Sulphur work order is listed again; not shown as an active service outage. Returned to open as active repair work. South City, Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "High",
       "first_seen": "2026-11-12T00:40:00Z",
       "id": "stlwater-stlouiscity-sutherland-sulphur-20261111",
-      "last_updated": "2026-11-17T09:45:00Z",
+      "last_updated": "2026-11-18T15:45:00Z",
       "location": "Sutherland Ave between Sulphur Ave and January Ave, St. Louis City (Lindenwood Park / Ellendale area, south of Arsenal)",
       "ring": 2,
       "single_source": false,
       "sources": [
-        "https://www.stlwater.com/outages"
+        "https://www.stlwater.com/outages",
+        "https://www.stlwater.com/outages.php"
       ],
-      "status": "monitoring",
+      "status": "open",
       "title": "City Water main repair and service outage, Sutherland Ave (Sulphur Ave to January Ave)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
