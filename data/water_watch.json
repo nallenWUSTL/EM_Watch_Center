@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "11:45 PM CST 11/17 four-lane run: nothing new in Rings 1-3; no incident records changed. Lane 1: MAW 145298 unchanged; stlwater.com/outages snapshot stale (11:30 AM 11/17), N Pointe, Potomac, Union/Bircher still listed past ETR, Plover and Union/Brown absent from that snapshot (not resolved without confirmation); city outages.php failed to load; MAW alerts index script-only; MO DNR and MAW boil pages show none for St. Louis City/County; Kirkwood no incidents. ID probe 145509-145514 and 145516-145520 empty (145515 not probed); next run start 145515. Lane 2: no dated news 11/16-18; KFVS list modified 21:42 UTC 11/17 unchanged (Dunklin PWSD 3, Millstone); KSDK links failed, undated items not adopted; Clayton news page failed. Lane 3: WashU Alert only 11/17 IPAWS test; Facilities news unchanged since 11/12; Jolley/Cupples II no-water-use notice set an end of 10/31 4 PM with no extension posted (left in monitoring, no lift notice); Wallace Dr work window 11/12-13 passed, no follow-up. Lane 4: nothing dated 11/16-18; out-of-area Weston MO break (KQ2) not tracked. Gaps: MSD, BJC, Cortex, Forest Park Forever, MoDOT, Metro, several municipal pages not reached.",
-    "open_count": 174,
-    "run_at": "2026-11-18T05:45:00Z",
-    "top_incident": "Ring 1 planned work today: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert page and U City newsflash re-checked ~11:40 PM 11/17); impact possible (low). No City or County boil advisory."
+    "note": "12:45 AM CST 11/18 four-lane run: nothing new in Ring 1. New Ring 2: City Water valve repair N Broadway & Angelrodt (opened 11:39 PM 11/17, no outage). Updated: Plover/Lillian still out past 12:17 AM ETR. Unchanged: MAW 145493 Ballwin (no completion text), 145298 U City (no streets), Union/Brown out to ~11:45 AM; North Point, Potomac, Union/Bircher listed past ETR (table may be stale). Boil pages (MAW, City, MO DNR) none for St. Louis City/County. KFVS list unchanged (modified 21:42 UTC 11/17). WashU Alert only 11/17 IPAWS test; Facilities news unchanged; Jolley/Cupples II and Wallace Dr left in monitoring. Not adopted (undated): MAW Maryland Heights/Bridgeton/Earth City boil advisory and lift (Lane 4); KSDK Granite City Nameoki Rd break (Lane 2, likely tracked 145473). ID probe: highest populated 145493; 145515-145523, 145525, 145530 empty; next run start 145524. Gaps: MSD, BJC, Cortex, Forest Park Forever, MoDOT, several municipal pages; MAW alerts index script-only; stlwater.com/outages stale (11:30 AM 11/17).",
+    "open_count": 175,
+    "run_at": "2026-11-18T06:45:00Z",
+    "top_incident": "Ring 1 planned work today: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert page and U City newsflash re-checked ~12:40 AM 11/18); impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -4816,6 +4816,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 12:40 AM CT 11/18 (Lane 1 only, City wateroos.php repair table): valve-repair work order opened 11:39 PM 11/17; no outage, restoration time or boil advisory listed. Separate from the resolved 10/30 Angelrodt outages. ~5-6 mi NE of the Medical Campus; not on a Ring 1 corridor; no WashU asset. Impact none. Resolve when dropped from the repair table. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-18T06:40:00Z",
+      "id": "stlwater-stlouiscity-nbroadway-angelrodt-20261117",
+      "last_updated": "2026-11-18T06:40:00Z",
+      "location": "N Broadway & Angelrodt St, near north riverfront, St. Louis City",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division valve repair, N Broadway & Angelrodt St",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 2:45 PM CT 11/9 (Lanes 1 and 4, City Water wateroos.php stamped 2:30 PM 11/9, second consecutive consistent read after 1:30 PM): page states no active water main outages; N Broadway Convention Plaza–Carr St no longer listed. /outages copy is stale (frozen 9:30 PM 11/8) and was disregarded. Treated as restored per utility page; restoration time not stated. No boil advisory. Downtown, Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-02T16:31:00Z",
@@ -5002,16 +5020,16 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 6:40 PM CT 11/17 (Lane 1 only, City outages.php): service out from 6:17 PM 11/17, ETR 12:17 AM 11/18, being worked; no boil advisory listed. North City, ~7-9 mi NE of North Campus (estimate); separate from Ring 1 mains; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from outages list and confirmed. Owner: Emergency Management (track only).",
+      "assessment": "Updated 12:40 AM CT 11/18 (Lane 1, City wateroos.php table stamped 12:30 AM 11/18): Plover Ave between Lillian and Thrush still listed out of service past its 12:17 AM ETR; no revised estimate; no boil advisory. North City, ~7-9 mi NE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from the outage table. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-18T00:40:00Z",
       "id": "stlwater-stlouiscity-plover-lillian-20261117",
-      "last_updated": "2026-11-18T00:40:00Z",
+      "last_updated": "2026-11-18T06:40:00Z",
       "location": "Plover Ave between Lillian Ave and Thrush Ave, north St. Louis City",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/outages.php"
+        "https://www.stlwater.com/wateroos.php"
       ],
       "status": "open",
       "title": "City of St. Louis Water Division service outage, Plover Ave between Lillian Ave and Thrush Ave (north City)",
