@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "8:40 PM CST 11/17 four-lane run: one new Ring 2 item, MAW 145493 Ballwin urgent main break (~7:45 PM, ~6 hr), impact none; 145491 investigation linked. Lane 1: City outages page last updated 11:30 AM, lists only North Point, Potomac/January, Union/Bircher (all past ETR); Plover/Lillian and Union/Brown absent but page stale, so not resolved; no Ring 1 work orders. MAW probe: 145492 Kentucky (n/a); 145494-145500, 145505 empty; next run start 145494. Lane 2: no dated local news 11/17-18; KFVS list now only Dunklin PWSD 3 and Millstone (Cape Girardeau, Du Quoin, Jackson absent, lifts unconfirmed). Lane 3: WashU Alert only FEMA national test; no Danforth or Medical Campus potable-water notices; Wallace Dr and Jolley/Cupples no follow-up. Lane 4: nothing dated. Gaps: stlwater boil page, MO DNR boil report, data.mo.gov, claytonmo.gov/news failed; IAW Metro East, MSD, Kirkwood, BJC, Cortex, MoDOT not reached.",
+    "note": "9:40 PM CST 11/17 four-lane run: nothing new, no incident records changed. Lane 1: City outages.php (9:30 PM) lists Plover/Lillian (ETR 12:17 AM 11/18) and Union/Brown (ETR 11:45 AM 11/18) plus stale North Point, Potomac/January, Union/Bircher rows; N Grand and Chouteau hydrant/valve orders still listed. MAW 145298, 145477 Brentwood, 145491/145493 Ballwin, 145489 Florissant, 144457/144507 U City still posted unchanged. Probe 145492-145500: 145492 Harlan KY lift, 145494 Lexington KY, 145495 Union Beach, 145496 Mt Prospect IL boil order (out of region), 145497-145500 empty; next run start 145497. MAW boil page none; MO DNR newest 10/28. Lane 2: no dated news 11/16-17; KFVS list unchanged (Dunklin PWSD 3, Millstone). Lane 3: WashU Alert only IPAWS test; no Danforth/Medical Campus water notices; Jolley/Cupples and Wallace Dr no follow-up. Lane 4: nothing dated; Reddit and X blocked. Gaps: MSD, Kirkwood, BJC, Forest Park Forever, MoDOT, Clayton news not reached; stale undated stlwater.com/?p=9725 boil page noted, not adopted.",
     "open_count": 174,
-    "run_at": "2026-11-18T02:40:00Z",
-    "top_incident": "Ring 1 planned work pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert, U City newsflash re-checked ~8:40 PM); impact possible (low). No City or County boil advisory."
+    "run_at": "2026-11-18T03:40:00Z",
+    "top_incident": "Ring 1 planned work pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert, U City CivicAlerts/newsflash re-checked ~9:35 PM); impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
