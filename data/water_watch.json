@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "11:45 AM CST 11/18 four-lane run. New Ring 2 (impact none): City Water main repair Partridge Ave & McLaran Ave (work order 11:04 AM); MAW 145558 Rock Hill main break 11 AM, ~8 hr, no street (~3-4 mi from South Campus/Danforth). New Ring 3: alert 145557 Saint Charles leak repair (state inferred). Resolved: IAW Pekin 145431 via lift 145560. MAW probe: 145557-145567, 145570, 145575, 145580 opened; 145559 Dunkard PA, 145561 Center Twp PA, 145562 Barboursville WV, 145563 Brentwood PA (Pennsylvania American Water, not MO), 145564 Gary IN lift, 145565 Sissonville WV; 145566, 145567, 145570, 145575, 145580 blank; 145568-69, 145571-74, 145576-79, 145581+ not probed (next probe 145566+). 145298 and 145530 unchanged. stlwater outages.php (11:30 AM): Union Brown-I-70 (ETR 11:45 AM, not revised), Union Bircher-Brown, Plover still listed; North Point still absent (monitoring); other tracked City main repairs unchanged. No City boil advisory. KFVS list: Dunklin PWSD 3 and Millstone still active; Lakeside lift already recorded. WashU Alert empty; Danforth and Med Campus Facilities: no water notices (generator testing only). Unverified, not recorded: U City LOCAL-on-Delmar water tap snippet (not on newsflash page); Richmond Heights PD Nextdoor post (undated); KSDK Ferguson Haplin Dr headline (unopened, date unknown; possible match to tracked Ferguson). Gaps: MSD, Kirkwood, MO DNR, BJC, Cortex, Loop, Forest Park Forever, MoDOT not checked; X/Reddit/Nextdoor/Facebook not reachable.",
-    "open_count": 191,
-    "run_at": "2026-11-18T17:45:00Z",
-    "top_incident": "Ring 1 planned work today: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (re-opened ~11:35 AM, unchanged); impact possible (low). No City or County boil advisory."
+    "note": "12:45 PM CST 11/18 four-lane run. No new Ring 1 or Ring 2 incidents. New Ring 3: IAW 145573 Urbana IL main break with boil order on restoration. Updated: City Union Blvd Brown-I-70 outage past 11:45 AM ETR. Unchanged: Rock Hill 145558 (11 AM, ~8 hr, no street), U City 145298, Plover and Union Bircher-Brown outages still listed past ETR, 16 City repair orders unchanged, North Point still absent. MAW probe: 145568 WV lift, 145569 Hershey PA, 145571 Mt. Lebanon PA, 145572 Lowell IN lift, 145573 Urbana IL, 145574 Westfield NJ; 145576-79, 145581, 145583, 145586, 145590 blank (frontier ~145574; next probe 145575+). No boil advisory: MAW boil page, MO DNR feed, City utilities news (newest 8/25). KFVS list unchanged (Dunklin PWSD 3, Millstone active). WashU Alert empty; Danforth and Med Campus Facilities: no water notices. Leads closed: U City Delmar water tap is a Jan 2026 notice; Ferguson Haplin Dr unconfirmed, dropped; stlwater ?p=9725 boil page undated, matches Aug 2026 event (stale). Gaps: MSD, Kirkwood, County health, BJC, Cortex, Loop, Forest Park Forever, MoDOT not opened; X/Reddit unreachable; FOX 2 north City main break video undated.",
+    "open_count": 192,
+    "run_at": "2026-11-18T18:45:00Z",
+    "top_incident": "Ring 1 planned work today: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished, no completion notice (re-opened ~12:40 PM); impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -746,6 +746,24 @@
       ],
       "status": "open",
       "title": "Illinois American Water main break with boil order on restoration, S Race St, Urbana, IL (alert 145201)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:45 PM CT 11/18 (Lane 1 only, ID probe): IAW alert 145573, emergency main break from 12:30 PM 11/18, ~4-6 hr estimate, boil order once service is restored. Separate from tracked S Race St and W Beardsley Ave events (no street given). ~170 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-18T18:45:00Z",
+      "id": "ilaw-urbana-unlocated-20261118",
+      "last_updated": "2026-11-18T18:45:00Z",
+      "location": "Urbana, IL (Champaign County; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145573"
+      ],
+      "status": "open",
+      "title": "Illinois American Water emergency main break with boil order on restoration, Urbana, IL (alert 145573)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
     },
@@ -5622,11 +5640,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 4:40 PM CT 11/17 (Lane 1): confirmed still listed on City outages.php updated 4:30 PM; out of service since 11:45 AM 11/17, ETR 11:45 AM 11/18; no boil advisory. Earlier conflict explained: the /outages page is stale (11:30 AM) and omits it; outages.php is authoritative. Adjacent to tracked Union/Bircher outage. ~5 mi NE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from outages.php. Owner: Emergency Management (track only).",
+      "assessment": "Updated 12:45 PM CT 11/18 (Lane 1, outages.php updated 12:30 PM 11/18): Union Blvd between Brown Ave and I-70 still listed out of service, now past its 11:45 AM 11/18 ETR with no revised estimate; no boil advisory. Adjacent to tracked Union/Bircher outage. ~5 mi NE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from outages.php. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-17T18:40:00Z",
       "id": "stlwater-stlouiscity-unionblvd-brown-20261117",
-      "last_updated": "2026-11-17T22:40:00Z",
+      "last_updated": "2026-11-18T18:45:00Z",
       "location": "Union Blvd between Brown Ave and Hwy 70 (I-70), St. Louis City (north City)",
       "ring": 2,
       "single_source": true,
