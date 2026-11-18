@@ -1,0 +1,165 @@
+{
+  "bluf": "Posture Normal. No threshold item in 24 h: no NWS product, no Ring 1 violence, no WashU threat, no health advisory or diversion, no asset outage. Top item is the BYOD ransomware campaign against peer universities and academic medical centers (Vanderbilt, MSU, UNM Health); IT should confirm detection and holiday on-call today. Week turns on the first hard freeze Mon Nov 23 (~28F) and Thanksgiving break drawdown from Tue evening; low Tyson fire risk through Sat.",
+  "briefing_url": "https://claude.ai/artifact/NuZYKwv1BDqdSCpMRvWksT",
+  "date": "2026-11-18",
+  "dissents": [
+    {
+      "note": "Moved BYOD item from This week to Today; overrules Cyber on timing.",
+      "title": "Holiday-timed ransomware underrated",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Held Sev 2 not 3: Monday freeze precedes hall closures; Facilities to confirm break setpoints.",
+      "title": "Hard freeze during Thanksgiving drawdown underrated",
+      "verdict": "Adopted in part"
+    },
+    {
+      "note": "Only current NWS discussion and Nov 18 reporting used.",
+      "title": "Stale freeze forecasts overrated",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Shootings set to Monitor background; flu set to This week.",
+      "title": "Old CWE shootings and national flu headlines overrated",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Dry fuels and pre-frontal winds; kept at This week absent a Red Flag product.",
+      "title": "Scenario: fast leaf-litter fire at Tyson",
+      "verdict": "Carried as dissent"
+    }
+  ],
+  "lanes_quiet": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "lookahead": [
+    {
+      "date": "2026-11-18",
+      "dow": "Wed",
+      "loads": "Normal class day",
+      "stacked": false,
+      "wx": "65/44, clouds increasing, dry"
+    },
+    {
+      "date": "2026-11-19",
+      "dow": "Thu",
+      "loads": "Normal",
+      "stacked": false,
+      "wx": "68/48, sunny, dry"
+    },
+    {
+      "date": "2026-11-20",
+      "dow": "Fri",
+      "loads": "Garden Glow likely opens; Tyson fire-weather check",
+      "stacked": false,
+      "wx": "69/50, sunny, dry"
+    },
+    {
+      "date": "2026-11-21",
+      "dow": "Sat",
+      "loads": "Blues home (probable), downtown parade (unconfirmed), Garden Glow; peak Tyson fire window",
+      "stacked": true,
+      "wx": "~70, breezy S winds; rain 30-40% after midnight"
+    },
+    {
+      "date": "2026-11-22",
+      "dow": "Sun",
+      "loads": "Blues home (probable), WashU WBB vs Millikin 1 PM Field House, Garden Glow",
+      "stacked": true,
+      "wx": "58 falling to 33, light rain AM"
+    },
+    {
+      "date": "2026-11-23",
+      "dow": "Mon",
+      "loads": "First hard freeze before commute; recheck travel forecast",
+      "stacked": false,
+      "wx": "47/28, hard freeze AM"
+    },
+    {
+      "date": "2026-11-24",
+      "dow": "Tue",
+      "loads": "Last class day; break departures begin evening",
+      "stacked": false,
+      "wx": "~45, sunny"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "watch",
+      "summary": "Dry and warm through Sat; front Sat night brings light rain and first hard freeze Mon 3-8 AM (~28F). Low Tyson fire risk Thu-Sat, no Red Flag. No M2+ quakes."
+    },
+    {
+      "name": "Life-safety threats",
+      "pir": 2,
+      "status": "quiet",
+      "summary": "Nothing at threshold Nov 16-18; no WashU Alert. Copycat watch on Nov 11 U of Illinois swatting. Background: Nov 12 CWE armed Marketplace robbery of staff member."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "watch",
+      "summary": "Early H1N1 flu season rising nationally, still low in St. Louis; pre-break vaccination and travel messaging. Missouri measles activity, no local exposures. No diversion data found."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "watch",
+      "summary": "BYOD ransomware campaign at peers (Today item). MetroLink Blue Line truncated and Lambert stations closed into Dec. M365 Nov 12-13 outage resolved. No Ring 1 water or power issue."
+    },
+    {
+      "name": "Scheduled activity",
+      "pir": 5,
+      "status": "watch",
+      "summary": "No 5,000+ Ring 1 event. Stacked Sat-Sun (Blues home games probable, Garden Glow, parade, WashU WBB Sun). Thanksgiving break Nov 25-29; Turkey Trot Forest Park Nov 26."
+    },
+    {
+      "name": "Policy, legal and funding",
+      "pir": 6,
+      "status": "watch",
+      "summary": "FY27 stopgap expires Dec 11; no deal reported. Middle East Level 3/4 and Kenya Level 3 advisories for winter-break travel. No change to BRIC/NSGP/HSGP/UASI."
+    }
+  ],
+  "posture": "Normal",
+  "published_at": "2026-11-18T11:57:30Z",
+  "run_note": "All 7 lanes reported; charter read OK. No item met a reporting threshold in the last 24 h. One Sev 4 item (BYOD ransomware) re-verified by search across multiple outlets, not direct fetch. Several live feeds (NWS alerts/SPC, river gauge, AirNow, NWSS, outage maps, ISACs) unreachable or stale.",
+  "title": "WashU EM Daily Intelligence Briefing, November 18, 2026",
+  "today_items": [
+    {
+      "action": "Hunt BYOD IOCs; confirm MFA coverage and offline backups; confirm IT on-call Nov 25-29 and BJC downtime procedures.",
+      "confidence": "Medium",
+      "likelihood": "Low-Medium",
+      "owner": "WashU IT / CISO; Medical Campus Security",
+      "pir": 4,
+      "rank": 1,
+      "severity": 4,
+      "source": "https://bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed",
+      "title": "BYOD ransomware campaign against peer universities and academic medical centers",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "BYOD ransomware campaign vs peer universities/AMCs: IT/CISO to hunt IOCs, confirm MFA, offline backups and Nov 25-29 on-call today.",
+  "unreachable": [
+    "NWS point forecast, alerts API and SPC (stale cache)",
+    "NWS river gauge EADM7",
+    "AirNow AQI",
+    "CDC NWSS wastewater",
+    "St. Louis County DPH",
+    "BJC/SSM diversion status",
+    "CISA advisories page (stale)",
+    "Ameren and Spire outage maps",
+    "REN-ISAC and Health-ISAC",
+    "events.washu.edu (blocked)",
+    "missouribotanicalgarden.org (blocked)",
+    "washubears.com composite calendar",
+    "KSDK Wydown/CWE articles",
+    "fema.gov press releases (stale)",
+    "SEMA"
+  ]
+}
