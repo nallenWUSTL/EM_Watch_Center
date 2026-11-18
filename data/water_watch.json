@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "7:40 PM CST 11/17 four-lane run: no new or changed incidents in St. Louis City/County. Lane 1: City outages page (updated 7:30 PM) unchanged: Plover/Lillian (ETR 12:17 AM 11/18), Union/Brown-I-70 (ETR 11:45 AM 11/18), North Point, Potomac, Union/Bircher (last three past ETR, still listed); no new work orders. MAW 145298 still no streets. Probe: 145490/145492 Harlan Co KY lift (already noted); 145493-145496, 145498 empty; next run start 145493. MAW alerts index rendered empty; IAW alerts and stlwater boil page failed to load, so no IL lifts verified. Lane 2: no dated local news; KFVS list unchanged (Dunklin PWSD 3, Millstone); Collinsville lift unconfirmed; City Water news newest 8/25. Lane 3: WashU Alert only the national test; no Danforth or Medical Campus potable-water notices; Jolley/Cupples and Wallace Dr no follow-up; Clayton news page failed. Lane 4: nothing dated 11/16-17; undated stlwater ?p=9725 Chain of Rocks boil advisory page judged stale by Lanes 3 and 4 (not on newsroom or outages page). Gaps: MSD, Kirkwood, MO DNR, BJC, Cortex, Forest Park, MoDOT not reached.",
-    "open_count": 173,
-    "run_at": "2026-11-18T01:40:00Z",
-    "top_incident": "Ring 1 planned work pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert and U City NewsFlash re-checked ~7:40 PM); impact possible (low). No City or County boil advisory."
+    "note": "8:40 PM CST 11/17 four-lane run: one new Ring 2 item, MAW 145493 Ballwin urgent main break (~7:45 PM, ~6 hr), impact none; 145491 investigation linked. Lane 1: City outages page last updated 11:30 AM, lists only North Point, Potomac/January, Union/Bircher (all past ETR); Plover/Lillian and Union/Brown absent but page stale, so not resolved; no Ring 1 work orders. MAW probe: 145492 Kentucky (n/a); 145494-145500, 145505 empty; next run start 145494. Lane 2: no dated local news 11/17-18; KFVS list now only Dunklin PWSD 3 and Millstone (Cape Girardeau, Du Quoin, Jackson absent, lifts unconfirmed). Lane 3: WashU Alert only FEMA national test; no Danforth or Medical Campus potable-water notices; Wallace Dr and Jolley/Cupples no follow-up. Lane 4: nothing dated. Gaps: stlwater boil page, MO DNR boil report, data.mo.gov, claytonmo.gov/news failed; IAW Metro East, MSD, Kirkwood, BJC, Cortex, MoDOT not reached.",
+    "open_count": 174,
+    "run_at": "2026-11-18T02:40:00Z",
+    "top_incident": "Ring 1 planned work pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert, U City newsflash re-checked ~8:40 PM); impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -789,16 +789,17 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 6:40 PM CT 11/17 (Lane 1 only, ID probe): MAW alert 145491, service investigation, possible low or no pressure; no times or street; no boil advisory. ~12 mi W of Danforth and West Campus; Tyson on well water; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "assessment": "Updated 8:40 PM CT 11/17 (Lane 1): MAW alert 145491 still labeled an investigation, no streets or times; MAW then posted urgent Ballwin main break 145493 (~7:45 PM 11/17), likely the outcome of this investigation, tracked separately. ~12 mi W of Danforth; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-18T00:40:00Z",
       "id": "maw-ballwin-investigation-20261117",
-      "last_updated": "2026-11-18T00:40:00Z",
+      "last_updated": "2026-11-18T02:40:00Z",
       "location": "Ballwin, MO (west St. Louis County; street not published by utility)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://alertsdetail.awapps.com/alert/145491"
+        "https://alertsdetail.awapps.com/alert/145491",
+        "https://alertsdetail.awapps.com/alert/145493"
       ],
       "status": "open",
       "title": "Missouri American Water service investigation, Ballwin — possible low/no pressure (alert 145491)",
@@ -969,6 +970,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Ballwin — emergency repairs (alert 145311)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 8:40 PM CT 11/17 (Lane 1 only, ID probe): MAW alert 145493, urgent main break from ~7:45 PM 11/17, ~6 hr repair estimate (~1:45 AM 11/18); possible no water, low pressure or discoloration; no street; no boil advisory. Likely follow-on to tracked investigation 145491. ~12+ mi W of Danforth and West Campus; Tyson on well water; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-18T02:40:00Z",
+      "id": "maw-ballwin-unlocated-20261117",
+      "last_updated": "2026-11-18T02:40:00Z",
+      "location": "Ballwin, MO (west St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145493"
+      ],
+      "status": "open",
+      "title": "Missouri American Water urgent main break, Ballwin — emergency repairs (alert 145493)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
