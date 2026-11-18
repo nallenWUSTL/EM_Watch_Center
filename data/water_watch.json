@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "5:40 PM CST 11/17 four-lane run: new MAW 145484 and 145485 (St. Louis County service investigations, no municipality or street; impact none pending location) and IAW 145487 Dunlap IL urgent main break with boil order (Ring 3). Probe: 145483 Norristown (PA, no impact), 145486 Shelbyville IN boil lifted; 145488-145491 not issued; next run start 145488. City outages.php (5:30 PM): 4 outages unchanged; Union/Brown-I-70 ETR 11:45 AM 11/18; North Point, Potomac, Union/Bircher still listed past ETR; no tracked City item dropped. MAW 145479 Ladue ETR ~9:45 PM, 145477 Brentwood ETR ~9:15 PM, no streets. MO DNR none in St. Louis City/County; City boil-advisory page unreachable; MAW alerts index rendered empty. Lane 2: Murphysboro absent from KFVS list (21:42 UTC), lift unconfirmed; Greenville IL boil order still in effect; Granite City Nameoki Rd (KSDK, undated) not adopted. Lane 3: WashU Alert only FEMA test; no Danforth or Med Facilities water notices; Jolley/Cupples and Wallace Dr no follow-up. Lane 4: nothing dated 11/16-17. Gaps: MSD, Kirkwood, Clayton news, BJC, Cortex, Delmar Loop, Forest Park not checked; Nextdoor/Reddit blocked.",
-    "open_count": 171,
-    "run_at": "2026-11-17T23:40:00Z",
-    "top_incident": "Ring 1 planned work pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert, U City NewsFlash and Alert Center re-checked ~5:35 PM); impact possible (low). No City or County boil advisory."
+    "note": "6:40 PM CST 11/17 four-lane run: new City outage Plover Ave (Lillian-Thrush), ETR 12:17 AM 11/18; new MAW 145489 Florissant leak investigation and 145491 Ballwin service investigation (Ring 2, impact none). Greenville IL citywide boil order lifted ~6 PM 11/17 (WGEL), resolved. Probe: 145488 Chattanooga, 145490/145492 Harlan Co KY (lifted); 145493-145496 not issued; next run start 145493. City outages: 5 listed (Plover new; Union/Brown-I-70 ETR 11:45 AM 11/18; North Point, Potomac, Union/Bircher past ETR); Greer, Eichelberger/Alaska, Union valve dropped (already monitoring). MAW 145298, 145479 Ladue, 145477 Brentwood, 145484/145485 unchanged, no streets. MO DNR newest 10/28; MAW alerts index rendered empty. KFVS list now only Dunklin PWSD 3 and Millstone; Murphysboro, Cape Girardeau dropped (lifts unconfirmed). Lane 3: WashU Alert only national test; no Danforth/Med Facilities water notices; Jolley/Cupples and Wallace Dr no follow-up (likely expired, not closed). Lane 4: nothing dated 11/16-17. Gaps: MSD, Kirkwood, Clayton/Ladue/Brentwood municipal pages, Forest Park, MoDOT not opened; social platforms poorly indexed.",
+    "open_count": 173,
+    "run_at": "2026-11-18T00:40:00Z",
+    "top_incident": "Ring 1 planned work pending: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert, U City NewsFlash re-checked ~6:35 PM); impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -136,11 +136,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 9:40 PM CT 11/16 (Lane 2): WGEL 11/16 update says the switch to the new treatment plant finished Monday, earlier than expected; samples taken, results may take several days; boil order stays in effect until negative results, lift to be announced by WGEL. ~50 mi E; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 6:40 PM CT 11/17 (Lane 2): WGEL news index and homepage list a story that the citywide Greenville boil order was lifted just before 6 PM Tue 11/17 (article itself not opened); Greenville also absent from the KFVS Heartland list (modified 21:42 UTC 11/17). ~50 mi E; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-12T04:40:00Z",
       "id": "greenville-greenvilleil-citywide-20261116",
-      "last_updated": "2026-11-17T03:40:00Z",
+      "last_updated": "2026-11-18T00:40:00Z",
       "location": "Citywide Greenville, IL plus outlying areas served (Bond County; no streets named)",
       "ring": 3,
       "single_source": true,
@@ -148,9 +148,11 @@
         "https://wgel.com/news/2026/11/city-announces-upcoming-boil-order-2/",
         "https://wgel.com/news/2026/11/update-on-city-wide-boil-order/",
         "https://wgel.com/news/2026/11/city-wide-boil-order-update/",
-        "https://www.wgel.com/"
+        "https://www.wgel.com/",
+        "https://www.wgel.com/category/news/",
+        "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "City of Greenville, IL planned citywide precautionary boil order for treatment plant changeover (starts Mon 11/16)",
       "utility": "City of Greenville, IL",
       "washu_impact": "none"
@@ -782,6 +784,24 @@
       ],
       "status": "resolved",
       "title": "Missouri American Water main-break investigation, Ballwin — possible low/no pressure (alert 142484)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 6:40 PM CT 11/17 (Lane 1 only, ID probe): MAW alert 145491, service investigation, possible low or no pressure; no times or street; no boil advisory. ~12 mi W of Danforth and West Campus; Tyson on well water; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-18T00:40:00Z",
+      "id": "maw-ballwin-investigation-20261117",
+      "last_updated": "2026-11-18T00:40:00Z",
+      "location": "Ballwin, MO (west St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145491"
+      ],
+      "status": "open",
+      "title": "Missouri American Water service investigation, Ballwin — possible low/no pressure (alert 145491)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -1541,6 +1561,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Flordell Hills — emergency repairs (alert 145293)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 6:40 PM CT 11/17 (Lane 1 only, ID probe): MAW alert 145489, leak investigation, possible low or no pressure; no times or street; no boil advisory. ~10 mi N of North Campus; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-18T00:40:00Z",
+      "id": "maw-florissant-investigation-20261117",
+      "last_updated": "2026-11-18T00:40:00Z",
+      "location": "Florissant, MO (north St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145489"
+      ],
+      "status": "open",
+      "title": "Missouri American Water leak investigation, Florissant — possible low/no pressure (alert 145489)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -4940,6 +4978,24 @@
       ],
       "status": "monitoring",
       "title": "City Water 36-inch main break closes Penrose St & Blair Ave, north St. Louis (date unconfirmed)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 6:40 PM CT 11/17 (Lane 1 only, City outages.php): service out from 6:17 PM 11/17, ETR 12:17 AM 11/18, being worked; no boil advisory listed. North City, ~7-9 mi NE of North Campus (estimate); separate from Ring 1 mains; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from outages list and confirmed. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-18T00:40:00Z",
+      "id": "stlwater-stlouiscity-plover-lillian-20261117",
+      "last_updated": "2026-11-18T00:40:00Z",
+      "location": "Plover Ave between Lillian Ave and Thrush Ave, north St. Louis City",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outage, Plover Ave between Lillian Ave and Thrush Ave (north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
