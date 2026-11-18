@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "3:45 PM CST 11/18 four-lane run. No new Ring 1 incidents; no St. Louis City/County boil advisory confirmed. New Ring 2: MAW 145591 Vinita Park main break (2:45 PM, ~6 hr) and MAW 145593 Webster Groves main break (~7 hr; page shows 11/19 7:30 AM start, likely error). City outages (updated 1:30 PM): Carter/Euclid and Penrose/Euclid ETR 11/26 unchanged; Plover, Union/Brown, Union/Bircher still listed past ETR; Partridge/McLaran on maintenance list. WashU Alert no alerts; Danforth/Med Campus Facilities no water notices. KFVS: Dunklin PWSD 3 and Millstone still active; Collinsville IL off list (lift unconfirmed). Not adopted: undated AOL/KSDK MAW boil advisory for Bridgeton/Maryland Heights/Earth City (no date) and KSDK Overland boil story (page would not load), both likely archive. Out-of-region American Water IDs 145590, 145592, 145594-99 not logged (KY/PA/IA). Probe frontier: 145600-03, 145605, 145608, 145612 blank; 145604, 145606-07, 145609-11 unchecked; next probe 145600+. Gaps: MAW boil page error, MSD, Kirkwood, MO DNR, BJC, Cortex, Loop, Forest Park Forever, MoDOT not opened; Reddit blocked.",
+    "note": "4:40 PM CST 11/18 four-lane run. Nothing new in St. Louis City/County; no boil advisory (stlwater Current Advisories none). Updated: MAW 145593 Webster Groves now read as work starting 7:30 AM Thu 11/19. Vinita Park 145591 still active (ETR ~8:45 PM). City outages (updated 1:30 PM): Carter/Euclid and Penrose/Euclid ETR 11/26; Plover, Union/Brown, Union/Bircher still listed past ETR; Greer/Newstead, Cabanne/Academy, Eichelberger/Alaska, North Point/Riverview, Penrose/Blair no longer listed (no completion notice; left in monitoring). WashU Alert none; Danforth/Med Facilities no water notices; Jolley/Cupples II notice still dated through 10/31, no lift posted; Wallace Dr work window 11/12-13 presumed complete, unconfirmed. KFVS (9:20 AM): Dunklin PWSD 3 and Millstone still listed; Collinsville, Cape Girardeau, Du Quoin, Murphysboro off list (lifts unconfirmed). Archive, not adopted: undated AOL/KSDK Bridgeton/Maryland Heights boil advisory ('issued Sunday'); undated KSDK Lindell Blvd 30-inch break east of Union. Probe: 145604 West Charleston (likely WV, not logged); 145606-07, 145609-18, 145620, 145622, 145625 blank; 145619, 145621, 145623-24 unchecked; next probe 145619+. Gaps: MAW boil page, MO DNR, MSD, Kirkwood not reached; social search thin.",
     "open_count": 197,
-    "run_at": "2026-11-18T21:45:00Z",
-    "top_incident": "Ring 1 planned work: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; window passed, still no completion notice (re-opened ~3:40 PM); streets unpublished; impact possible (low). No City or County boil advisory."
+    "run_at": "2026-11-18T22:40:00Z",
+    "top_incident": "Ring 1 planned work: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; window passed, still no completion notice (re-opened ~4:35 PM); streets unpublished; impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -4227,11 +4227,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 3:40 PM CT 11/18 (Lane 1 only, ID probe): MAW alert 145593, main break, ~7 hr estimate; page lists start as 7:30 AM 11/19 (future date, likely an error or early posting; not confirmed). No street; no boil advisory. ~3-4 mi S/SE of South Campus (city-level estimate); no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "assessment": "Updated 4:40 PM CT 11/18 (Lane 1, page re-opened): MAW alert 145593 still lists start 7:30 AM Thu 11/19, ~7 hr estimate, labeled emergency repairs; read as repair work scheduled for Thursday morning rather than a page error. No street; no boil advisory. ~3-4 mi S/SE of South Campus (city-level estimate); no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-18T21:40:00Z",
       "id": "maw-webstergroves-unlocated-20261118",
-      "last_updated": "2026-11-18T21:40:00Z",
+      "last_updated": "2026-11-18T22:40:00Z",
       "location": "Webster Groves, MO (south-central St. Louis County; street not published by utility)",
       "ring": 2,
       "single_source": true,
