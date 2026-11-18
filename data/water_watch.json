@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "6:45 AM CST 11/18 four-lane run: nothing new; no incident records changed. American Water IDs 145503-145510, 145512, 145515, 145520, 145530, 145540 blank; nothing past 145493 published. MAW alerts index empty; MAW boil page failed to load. 145493 Ballwin, 145479 Ladue, 145477 Brentwood still posted past ETRs, no streets, not closed. stlwater.com/outages (stamped 11:30 AM 11/17, stale) no longer lists Plover/Lillian or Union Brown-I-70; the 5:30 AM outages.php still listed them, so not changed. stlwater 'Boil Advisory Currently In Effect' post undated (2024 Chain of Rocks), not current. KFVS list unchanged (modified 21:42 UTC 11/17: Dunklin PWSD 3, Millstone). WashU Alert, Danforth and Medical Campus Facilities: no water notices; Jolley/Cupples II (window ended 10/31) and Wallace Dr (11/12-13) still lack completion posts. Social: nothing datable to 24 h. Gaps: MSD, Kirkwood, MO DNR, BJC, Cortex, Loop, Forest Park Forever, MoDOT, Post-Dispatch, STLPR, and Clayton/Eureka/Brentwood/Maplewood/Ladue pages not opened.",
-    "open_count": 175,
-    "run_at": "2026-11-18T12:45:00Z",
-    "top_incident": "Ring 1 planned work today: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert page and U City NewsFlash re-checked ~6:40 AM 11/18); impact possible (low). No City or County boil advisory."
+    "note": "7:45 AM CST 11/18 four-lane run: no new St. Louis-area incidents. New: MAW 145519 Jefferson City main break (Ring 3). stlwater outages.php (7:30 AM 11/18) dropped North Point Blvd and Potomac/January without restoration notice -> both moved to monitoring; Plover/Lillian (ETR 12:17 AM passed), Union Blvd Brown-I-70 (ETR 11:45 AM) and Bircher-Brown still listed. American Water IDs to 145527 filled; new IL alerts are Chicago suburbs only (Mt Prospect 145496/145497/145499, Glen Ellyn 145498, Prospect Heights 145524), not tracked; 145528-145545 sampled blank. 145479 Ladue, 145477 Brentwood, 145493 Ballwin still posted, unchanged. KFVS list unchanged (Dunklin PWSD 3, Millstone). WashU Alert, Danforth and Medical Campus Facilities: no water notices; Jolley/Cupples II and Wallace Dr still lack completion posts. Social: nothing datable to 24 h; undated MAW Maryland Heights/Bridgeton/Earth City boil advisory reported lifted on a Monday (likely 11/16), not tracked. Gaps: MSD, Kirkwood, MO DNR, MAW boil page, Post-Dispatch (paywall), Forest Park Forever, Loop, MoDOT not opened; MAW alerts index returned empty.",
+    "open_count": 174,
+    "run_at": "2026-11-18T13:45:00Z",
+    "top_incident": "Ring 1 planned work today: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert and U City NewsFlash/Civic Alerts re-checked ~7:35 AM 11/18); impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -2078,6 +2078,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Jefferson City — emergency repairs (alerts 144638, 144640)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 7:45 AM CT 11/18 (Lane 1 only, ID probe): MAW alert 145519, main break from 7:00 AM 11/18, ~5 hr repair estimate (~noon); no boil advisory reported. Separate from tracked 145314 valve work (11/16). ~120 mi W; separate system; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-18T13:45:00Z",
+      "id": "maw-jeffersoncity-unlocated-20261118",
+      "last_updated": "2026-11-18T13:45:00Z",
+      "location": "Jefferson City, MO (Cole County; street not published in Lane report)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145519"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Jefferson City — emergency repairs (alert 145519)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -4890,11 +4908,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 6:45 AM CT 11/17 (Lane 1, outages.php stamped 6:30 AM 11/17): North Point Blvd (Summit–Riverview) is listed again as an active service outage; began 11:35 AM 11/16, 11:35 PM 11/16 ETR now ~7 hr overdue. Earlier drop-off was not a restoration. Returned to open. No City boil advisory. Far north City, ~9-10 mi from Danforth; Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 7:45 AM CT 11/18 (Lane 1, outages.php stamped 7:30 AM 11/18): North Point Blvd (Summit–Riverview) no longer listed as an active outage; no restoration notice. It dropped off once before (11/16) and reappeared, so moved to monitoring, not resolved. No City boil advisory. Far north City, ~9-10 mi from Danforth; Ring 2; no WashU asset. Impact none. Resolve if still absent next runs. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-16T19:50:00Z",
       "id": "stlwater-stlouiscity-northpoint-riverview-20261116",
-      "last_updated": "2026-11-17T12:45:00Z",
+      "last_updated": "2026-11-18T13:45:00Z",
       "location": "North Point Blvd between Summit Ave and Riverview Blvd, St. Louis City (far north City)",
       "ring": 2,
       "single_source": true,
@@ -4902,7 +4920,7 @@
         "https://www.stlwater.com/outages",
         "https://www.stlwater.com/outages.php"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division service outage, North Point Blvd (Summit Ave to Riverview Blvd), north City",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -5038,11 +5056,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 1:40 AM CT 11/17 (Lane 1, outages.php stamped 1:30 AM 11/17): Potomac St (January–Sulphur) still listed as an active outage; out since 9:21 AM 11/15, 5:21 PM 11/15 ETR now ~32 hr overdue and never revised. No City boil advisory (boil-advisory.php none). Southwest City, Ring 2, ~3 mi S of Danforth; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 7:45 AM CT 11/18 (Lane 1, outages.php stamped 7:30 AM 11/18): Potomac St (January–Sulphur) no longer listed as an active outage; no restoration notice, so moved to monitoring, not resolved. No City boil advisory. Southwest City, Ring 2, ~3 mi S of Danforth; no WashU asset. Impact none. Resolve if still absent next runs. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-15T13:40:00Z",
       "id": "stlwater-stlouiscity-potomac-sulphur-20261115",
-      "last_updated": "2026-11-17T07:40:00Z",
+      "last_updated": "2026-11-18T13:45:00Z",
       "location": "Potomac St between January Ave and Sulphur Ave, St. Louis City (Lindenwood Park / Clifton Heights area)",
       "ring": 2,
       "single_source": true,
@@ -5050,7 +5068,7 @@
         "https://www.stlwater.com/outages",
         "https://www.stlwater.com/outages.php"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division main repair and service outage, Potomac St between January Ave and Sulphur Ave (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
