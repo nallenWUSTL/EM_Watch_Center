@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "10:55 AM CST 11/18 four-lane run: no new St. Louis City/County incidents. New Ring 3: IAW 145550 Alton IL repairs 11/19 8 AM with boil order on restoration. MAW probe: 145541-145549, 145551-145556 all out of area (PA, IL lifts for Urbana/Champaign/Streator untied, Terre Haute, NJ, CA, MD); 145557-145561, 145565 blank (next probe 145557+). 145298 and 145530 unchanged. stlwater outages.php (10:30 AM): Union Brown-I-70 (ETR 11:45 AM), Plover, Union Bircher-Brown still listed; North Point absent (stays monitoring); 903/920 N Grand hydrants carried in N Grand/Windsor record; /outages page stale (11:30 AM 11/17). MAW boil page none; MO DNR none local; City boil page none. KFVS list (15:20 UTC): Dunklin PWSD 3 and Millstone active. Unverified, not recorded: KQ2 headline of DeKalb County MO boil advisory 11/18 (blocked); Richmond Heights PD Nextdoor 'Water Main Break' post (blocked, undated); U City snippet of water tap installation at LOCAL on Delmar (unconfirmed). WashU Alert, Danforth and Med Campus Facilities: no water notices. Gaps: BJC, Cortex, Loop, Forest Park Forever, MoDOT, MSD, Kirkwood not opened; X/Reddit not reachable.",
-    "open_count": 189,
-    "run_at": "2026-11-18T16:55:00Z",
-    "top_incident": "Ring 1 planned work today: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert re-opened ~10:45 AM; U City NewsFlash blocked); impact possible (low). MAW 145530 St. Louis County main break (8:15 AM, ~8 hr) still unplaced. No City or County boil advisory."
+    "note": "11:45 AM CST 11/18 four-lane run. New Ring 2 (impact none): City Water main repair Partridge Ave & McLaran Ave (work order 11:04 AM); MAW 145558 Rock Hill main break 11 AM, ~8 hr, no street (~3-4 mi from South Campus/Danforth). New Ring 3: alert 145557 Saint Charles leak repair (state inferred). Resolved: IAW Pekin 145431 via lift 145560. MAW probe: 145557-145567, 145570, 145575, 145580 opened; 145559 Dunkard PA, 145561 Center Twp PA, 145562 Barboursville WV, 145563 Brentwood PA (Pennsylvania American Water, not MO), 145564 Gary IN lift, 145565 Sissonville WV; 145566, 145567, 145570, 145575, 145580 blank; 145568-69, 145571-74, 145576-79, 145581+ not probed (next probe 145566+). 145298 and 145530 unchanged. stlwater outages.php (11:30 AM): Union Brown-I-70 (ETR 11:45 AM, not revised), Union Bircher-Brown, Plover still listed; North Point still absent (monitoring); other tracked City main repairs unchanged. No City boil advisory. KFVS list: Dunklin PWSD 3 and Millstone still active; Lakeside lift already recorded. WashU Alert empty; Danforth and Med Campus Facilities: no water notices (generator testing only). Unverified, not recorded: U City LOCAL-on-Delmar water tap snippet (not on newsflash page); Richmond Heights PD Nextdoor post (undated); KSDK Ferguson Haplin Dr headline (unopened, date unknown; possible match to tracked Ferguson). Gaps: MSD, Kirkwood, MO DNR, BJC, Cortex, Loop, Forest Park Forever, MoDOT not checked; X/Reddit/Nextdoor/Facebook not reachable.",
+    "open_count": 191,
+    "run_at": "2026-11-18T17:45:00Z",
+    "top_incident": "Ring 1 planned work today: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (re-opened ~11:35 AM, unchanged); impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -556,18 +556,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 10:40 AM CT 11/17 (Lane 1 only, ID probe): IAW alert 145431, main break listed at 11:30 AM 11/17 (time zone on page unclear), ~6 hr repair estimate, boil order once service is restored. ~150 mi NNE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 11:45 AM CT 11/18 (Lane 1, ID probe): IAW alert 145560 posts a Pekin boil order lift; 145431 is the only open tracked Pekin event, so treated as its lift (no street on either alert). ~150 mi NNE; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-17T16:40:00Z",
       "id": "ilaw-pekin-unlocated-20261117",
-      "last_updated": "2026-11-17T16:40:00Z",
+      "last_updated": "2026-11-18T17:45:00Z",
       "location": "Pekin, IL (Tazewell County; streets not published)",
       "ring": 3,
       "single_source": true,
       "sources": [
-        "https://alertsdetail.awapps.com/alert/145431"
+        "https://alertsdetail.awapps.com/alert/145431",
+        "https://alertsdetail.awapps.com/alert/145560"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "Illinois American Water main break with boil order on restoration, Pekin, IL (alert 145431)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
@@ -2894,6 +2895,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 11:45 AM CT 11/18 (Lane 1 only, ID probe): MAW alert 145558, main break from 11:00 AM 11/18, ~8 hr repair estimate (~7 PM); no street; no boil advisory. Rock Hill is ~3-4 mi S/SW of South Campus and Danforth (city-level estimate); pressure zone unknown; no WashU asset; no Ring 1 corridor. Impact none. Escalate if a street north of Manchester Rd toward Clayton Rd/Big Bend or a boil advisory is published. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-18T17:45:00Z",
+      "id": "maw-rockhill-unlocated-20261118",
+      "last_updated": "2026-11-18T17:45:00Z",
+      "location": "Rock Hill, MO (mid St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145558"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Rock Hill — emergency repairs (alert 145558)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 12:40 AM CT 11/11 (Lane 1 only): MAW alert 144652, investigation, crews locating a break; no start time, street or estimate; no boil advisory. Separate from tracked 143953 (11/4). ~3-4 mi S of South Campus (estimate); pressure zone unknown; no WashU asset; no Ring 1 corridor. Impact none. Escalate if a street near Big Bend/Clayton Rd or a boil advisory is published. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-11T06:40:00Z",
@@ -3017,6 +3036,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water leak repair, St. Charles (alert 145265)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 11:45 AM CT 11/18 (Lane 1 only, ID probe): alert 145557, leak repair from 11:00 AM 11/18, ~4 hr estimate (~3 PM); no street; no boil advisory. State inferred, not printed. St. Charles is ~20 mi NW of Danforth across the Missouri River; separate system; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-18T17:45:00Z",
+      "id": "maw-stcharles-leakrepair-20261118",
+      "last_updated": "2026-11-18T17:45:00Z",
+      "location": "Saint Charles (state inferred as MO from alert text; street not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145557"
+      ],
+      "status": "open",
+      "title": "American Water leak repair, Saint Charles (state inferred MO) (alert 145557)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -5195,6 +5232,24 @@
       ],
       "status": "open",
       "title": "City of St. Louis Water Division main repair, Oleatha Ave & Gustine Ave (south City)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 11:45 AM CT 11/18 (Lane 1 only, City outages.php): main repair work order opened 11:04 AM 11/18; listed as a main repair, not a service outage; no restoration estimate; no boil advisory. ~5+ mi NE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from outages.php. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-18T17:45:00Z",
+      "id": "stlwater-stlouiscity-partridge-mclaran-20261118",
+      "last_updated": "2026-11-18T17:45:00Z",
+      "location": "Partridge Ave & McLaran Ave, St. Louis City (Walnut Park area, far north City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division main repair, Partridge Ave & McLaran Ave (north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
