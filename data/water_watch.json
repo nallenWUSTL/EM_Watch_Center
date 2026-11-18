@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "2:45 PM CST 11/18 four-lane run. No new Ring 1 incidents; no St. Louis City/County boil advisory. New Ring 2: MAW 145586 Jennings main break (~6 hr, no street). New Ring 3: IAW 145588 Cairo IL (boil on restoration). City outages.php ~2:30 PM: Carter and Penrose ETR 11/26 unchanged; Plover, Union/Brown, Union/Bircher still listed past ETR; N Grand/Windsor, Chouteau/S 6th, N Broadway/Angelrodt and Marcus hydrant no longer listed (moved to monitoring); North Point still absent. KFVS: Dunklin PWSD 3 and Millstone still active. WashU Alert no alerts; Danforth/Med Campus Facilities no water notices (Jolley/Cupples 10/29-10/31 and Wallace Dr 11/12-13 windows long past, no completion posts). KSDK low-pressure lead dated to June 30-July 1 2026 Chain of Rocks event (historical, not logged). Probe frontier ~145589 (145590-95, 145600 blank; 145596-99 and 145601+ unchecked; next probe 145590+). Gaps: MAW boil page, MSD, Kirkwood, MO DNR, BJC, Cortex, Loop, Forest Park Forever, MoDOT, Post-Dispatch, Clayton/Richmond Heights/Brentwood/Maplewood/Ladue pages not opened; Reddit and X blocked.",
-    "open_count": 195,
-    "run_at": "2026-11-18T20:45:00Z",
-    "top_incident": "Ring 1 planned work: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; window passed, no completion notice (re-opened ~2:35 PM); streets unpublished; impact possible (low). No City or County boil advisory."
+    "note": "3:45 PM CST 11/18 four-lane run. No new Ring 1 incidents; no St. Louis City/County boil advisory confirmed. New Ring 2: MAW 145591 Vinita Park main break (2:45 PM, ~6 hr) and MAW 145593 Webster Groves main break (~7 hr; page shows 11/19 7:30 AM start, likely error). City outages (updated 1:30 PM): Carter/Euclid and Penrose/Euclid ETR 11/26 unchanged; Plover, Union/Brown, Union/Bircher still listed past ETR; Partridge/McLaran on maintenance list. WashU Alert no alerts; Danforth/Med Campus Facilities no water notices. KFVS: Dunklin PWSD 3 and Millstone still active; Collinsville IL off list (lift unconfirmed). Not adopted: undated AOL/KSDK MAW boil advisory for Bridgeton/Maryland Heights/Earth City (no date) and KSDK Overland boil story (page would not load), both likely archive. Out-of-region American Water IDs 145590, 145592, 145594-99 not logged (KY/PA/IA). Probe frontier: 145600-03, 145605, 145608, 145612 blank; 145604, 145606-07, 145609-11 unchecked; next probe 145600+. Gaps: MAW boil page error, MSD, Kirkwood, MO DNR, BJC, Cortex, Loop, Forest Park Forever, MoDOT not opened; Reddit blocked.",
+    "open_count": 197,
+    "run_at": "2026-11-18T21:45:00Z",
+    "top_incident": "Ring 1 planned work: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; window passed, still no completion notice (re-opened ~3:40 PM); streets unpublished; impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -4134,6 +4134,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 3:40 PM CT 11/18 (Lane 1 only, ID probe): MAW alert 145591, main break from 2:45 PM 11/18, ~6 hr estimate (~8:45 PM); no street; no boil advisory. ~3 mi NW of North Campus and Danforth (city-level estimate); no WashU asset; no Ring 1 corridor. Impact none. Escalate if a street toward Delmar/Forest Park Pkwy or a boil advisory is published. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-18T21:40:00Z",
+      "id": "maw-vinitapark-unlocated-20261118",
+      "last_updated": "2026-11-18T21:40:00Z",
+      "location": "Vinita Park, MO (mid St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145591"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Vinita Park — emergency repairs (alert 145591)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 2:45 PM CT 11/10 (Lane 1 only, ID probe): MAW alert 144623, planned valve installation 2-4 PM 11/10. ~200 mi W of St. Louis; separate system; no WashU asset. Impact none. Resolve after the window when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-10T20:45:00Z",
@@ -4204,6 +4222,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Webster Groves — emergency repairs (alert 144786)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 3:40 PM CT 11/18 (Lane 1 only, ID probe): MAW alert 145593, main break, ~7 hr estimate; page lists start as 7:30 AM 11/19 (future date, likely an error or early posting; not confirmed). No street; no boil advisory. ~3-4 mi S/SE of South Campus (city-level estimate); no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-18T21:40:00Z",
+      "id": "maw-webstergroves-unlocated-20261118",
+      "last_updated": "2026-11-18T21:40:00Z",
+      "location": "Webster Groves, MO (south-central St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145593"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Webster Groves — emergency repairs (alert 145593)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
