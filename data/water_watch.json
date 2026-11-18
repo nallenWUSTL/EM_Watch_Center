@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "9:45 AM CST 11/18 four-lane run: no new St. Louis City/County incidents. MAW probe: 145539/145540 now Pennsylvania (discarded); 145541-145547, 145550, 145555, 145560, 145575, 145600 blank (next probe 145548-145599). 145298, 145530, 145479 unchanged. stlwater outages.php (9:30 AM): Plover, Union Brown-I-70 (ETR 11:45 AM), Union Bircher-Brown still listed; Dale, S Spring/Park, Marcus/St Louis, N Grand/Palm, Sutherland/Sulphur work orders listed again (reopened); North Point, Eichelberger/Alaska, Greer/Newstead, Penrose/Blair absent (stay monitoring). MAW boil page none; City boil page none; MO DNR newest 15 none local. KFVS list: only Dunklin PWSD 3 and Millstone active; Lakeside Water (IL) lift added as resolved. Unverified, not recorded: KQ2 search snippets of 11/18 boil advisories in Gower and DeKalb County (NW MO, Ring 3; pages blocked). WashU Alert, Danforth and Med Campus Facilities: no water notices (Danforth generator tests 11/18-11/25 noted, non-water). Social: nothing datable to 24 h. Gaps: MSD, Kirkwood, Clayton news (error), U City alert page (robots), BJC, Cortex, Loop, Forest Park Forever, MoDOT not opened.",
-    "open_count": 188,
-    "run_at": "2026-11-18T15:45:00Z",
-    "top_incident": "Ring 1 planned work today: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert and U City NewsFlash re-checked ~9:35 AM); impact possible (low). MAW 145530 St. Louis County main break (area unspecified, 8:15 AM, ~8 hr) still unplaced. No City or County boil advisory."
+    "note": "10:55 AM CST 11/18 four-lane run: no new St. Louis City/County incidents. New Ring 3: IAW 145550 Alton IL repairs 11/19 8 AM with boil order on restoration. MAW probe: 145541-145549, 145551-145556 all out of area (PA, IL lifts for Urbana/Champaign/Streator untied, Terre Haute, NJ, CA, MD); 145557-145561, 145565 blank (next probe 145557+). 145298 and 145530 unchanged. stlwater outages.php (10:30 AM): Union Brown-I-70 (ETR 11:45 AM), Plover, Union Bircher-Brown still listed; North Point absent (stays monitoring); 903/920 N Grand hydrants carried in N Grand/Windsor record; /outages page stale (11:30 AM 11/17). MAW boil page none; MO DNR none local; City boil page none. KFVS list (15:20 UTC): Dunklin PWSD 3 and Millstone active. Unverified, not recorded: KQ2 headline of DeKalb County MO boil advisory 11/18 (blocked); Richmond Heights PD Nextdoor 'Water Main Break' post (blocked, undated); U City snippet of water tap installation at LOCAL on Delmar (unconfirmed). WashU Alert, Danforth and Med Campus Facilities: no water notices. Gaps: BJC, Cortex, Loop, Forest Park Forever, MoDOT, MSD, Kirkwood not opened; X/Reddit not reachable.",
+    "open_count": 189,
+    "run_at": "2026-11-18T16:55:00Z",
+    "top_incident": "Ring 1 planned work today: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; streets still unpublished (alert re-opened ~10:45 AM; U City NewsFlash blocked); impact possible (low). MAW 145530 St. Louis County main break (8:15 AM, ~8 hr) still unplaced. No City or County boil advisory."
   },
   "incidents": [
     {
@@ -191,6 +191,24 @@
       ],
       "status": "open",
       "title": "American Water service investigation, Alton — possible low/no pressure (alert 145481)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 10:55 AM CT 11/18 (Lane 1 only, ID probe): IAW alert 145550, emergency repairs starting 8:00 AM Thu 11/19, ~7 hr estimate, boil order once service is restored. Separate ID from tracked 145481. ~20 mi N of Danforth; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-18T16:55:00Z",
+      "id": "ilaw-alton-planned-20261119",
+      "last_updated": "2026-11-18T16:55:00Z",
+      "location": "Alton, IL (Madison County, Metro East; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145550"
+      ],
+      "status": "open",
+      "title": "Illinois American Water emergency repairs with boil order on restoration, Alton, IL, Thu Nov 19 (alert 145550)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
     },
