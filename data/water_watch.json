@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "4:40 PM CST 11/18 four-lane run. Nothing new in St. Louis City/County; no boil advisory (stlwater Current Advisories none). Updated: MAW 145593 Webster Groves now read as work starting 7:30 AM Thu 11/19. Vinita Park 145591 still active (ETR ~8:45 PM). City outages (updated 1:30 PM): Carter/Euclid and Penrose/Euclid ETR 11/26; Plover, Union/Brown, Union/Bircher still listed past ETR; Greer/Newstead, Cabanne/Academy, Eichelberger/Alaska, North Point/Riverview, Penrose/Blair no longer listed (no completion notice; left in monitoring). WashU Alert none; Danforth/Med Facilities no water notices; Jolley/Cupples II notice still dated through 10/31, no lift posted; Wallace Dr work window 11/12-13 presumed complete, unconfirmed. KFVS (9:20 AM): Dunklin PWSD 3 and Millstone still listed; Collinsville, Cape Girardeau, Du Quoin, Murphysboro off list (lifts unconfirmed). Archive, not adopted: undated AOL/KSDK Bridgeton/Maryland Heights boil advisory ('issued Sunday'); undated KSDK Lindell Blvd 30-inch break east of Union. Probe: 145604 West Charleston (likely WV, not logged); 145606-07, 145609-18, 145620, 145622, 145625 blank; 145619, 145621, 145623-24 unchecked; next probe 145619+. Gaps: MAW boil page, MO DNR, MSD, Kirkwood not reached; social search thin.",
+    "note": "5:40 PM CST 11/18 four-lane run. Nothing new in Rings 1-2; no City/County boil advisory (stlwater Current Advisories and boil page none). stlwater outages.php (5:30 PM): same 5 outages as 1:30 PM (Carter/N Euclid, Penrose/Euclid ETR 11/26; Plover, Union/Brown, Union/Bircher past ETR); Sutherland/Sulphur dropped from repairs (moved to monitoring). Repairs list also shows Oleatha/Gustine, Tower Grove/Cleveland, Riverview/W Florissant (11/16) and 5017 Cabanne (11/12) main repairs, not confirmed as tracked; Ring 2, no WashU asset. MAW 145298 and Vinita Park 145591 still posted. WashU Alert none; Danforth/Med Facilities no domestic water notices; Jolley/Cupples II and Wallace Dr unchanged. KFVS (9:20 AM): Dunklin PWSD 3, Millstone still listed; Collinsville lift still unconfirmed. Rejected as undated: Nextdoor U City Olive/Eastover and Richmond Heights PD main-break posts (blocked); stlwater ?p=9725 boil page (matches Aug 2026); AOL Bridgeton/Maryland Heights advisory. Probe: 145619, 145621, 145623-145631 blank; next probe 145625+. Gaps: MAW alerts index and boil page not loaded; MO DNR, MSD, Kirkwood not reached; X/Reddit/Nextdoor unreachable.",
     "open_count": 197,
-    "run_at": "2026-11-18T22:40:00Z",
-    "top_incident": "Ring 1 planned work: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; window passed, still no completion notice (re-opened ~4:35 PM); streets unpublished; impact possible (low). No City or County boil advisory."
+    "run_at": "2026-11-18T23:45:00Z",
+    "top_incident": "Ring 1 planned work: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; still posted with no completion notice at ~5:35 PM; streets unpublished; impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -5664,11 +5664,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 9:45 AM CT 11/18 (Lane 1, outages.php updated 9:30 AM 11/18): Sutherland & Sulphur work order is listed again; not shown as an active service outage. Returned to open as active repair work. South City, Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 5:45 PM CT 11/18 (Lane 1, outages.php updated 5:30 PM 11/18): Sutherland & Sulphur work order no longer listed on City repairs list; no completion notice. It has dropped and returned before, so moved to monitoring, not resolved. South City, Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "High",
       "first_seen": "2026-11-12T00:40:00Z",
       "id": "stlwater-stlouiscity-sutherland-sulphur-20261111",
-      "last_updated": "2026-11-18T15:45:00Z",
+      "last_updated": "2026-11-18T23:45:00Z",
       "location": "Sutherland Ave between Sulphur Ave and January Ave, St. Louis City (Lindenwood Park / Ellendale area, south of Arsenal)",
       "ring": 2,
       "single_source": false,
@@ -5676,7 +5676,7 @@
         "https://www.stlwater.com/outages",
         "https://www.stlwater.com/outages.php"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City Water main repair and service outage, Sutherland Ave (Sulphur Ave to January Ave)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
