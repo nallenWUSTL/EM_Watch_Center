@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "4:40 PM CST 11/19 four-lane run: no new or changed incidents. stlwater outages page unchanged since the 2:30 PM update (N Kingshighway Penrose-Lillian ETR 11/27; Penrose Euclid-Kingshighway ETR 11/26; Howard/19th ETR 9:37 PM; Plover/Lillian and Union Blvd still listed past ETR). The 5017 Cabanne Ave main repair (work order 11/12) is treated as the tracked Cabanne/Academy item. City Water news shows nothing since 8/25, so no City boil advisory. WashU Alert has no alerts. Danforth and Medical Facilities posted no water notices; Med Campus non-water items: MCC Link closure 11/20, McDonnell Pediatric restroom restriction 11/23-25. Jolley/Cupples: Facilities post covered 10/29-10/31 4 PM with no separate lift; EPO changed its notification method 11/1, so kept monitoring. KFVS list modified 11:37 AM: New Madrid PWSD 2 and Dunklin PWSD 3 still in effect; Lakeside lift already recorded. No local news or social reports dated 11/18-19. Gaps: American Water alert IDs from 145776 up were not verified because the pages render by JavaScript (blank shell via fetch) and curl is blocked; MAW alerts index and boil page did not render; MSD, Kirkwood and MO DNR were not checked (DNR report did not load); Post-Dispatch, STLPR, municipal pages, Cortex/Loop and MoDOT were not checked.",
-    "open_count": 239,
-    "run_at": "2026-11-19T22:40:00Z",
+    "note": "5:40 PM CST 11/19 four-lane run: 4 new Missouri American Water alerts found by ID probe (145765-145787; 145780 is the highest live ID): Ladue main break 145772 (4:30 PM, ~6 hr, no street, ~1-3 mi W of West/South Campus, impact none), unlocated St. Louis County break 145774, Florissant break 145775, Joplin break 145769. None are Ring 1 and none has a boil advisory; the MAW alerts index shows no boil advisories. stlwater outages page (2:30 PM update) unchanged: N Kingshighway Penrose-Lillian ETR 11/27, Penrose Euclid-Kingshighway ETR 11/26, Howard/19th ETR 9:37 PM; Plover/Lillian and the Union Blvd entries are still listed past their ETR. WashU Alert has no active alerts; Danforth and Medical Facilities posted no water notices (Med Campus non-water: BJ Plaza drop-off closed 11/21 6-9:30 AM for a crane; possible Forest Park prescribed burn 11/20). KFVS list modified 11:37 AM: New Madrid PWSD 2 (already tracked) and Dunklin PWSD 3 still in effect. No local news or social reports dated 11/18-19. Gaps: MAW boil page, MSD, Kirkwood, MO DNR, KMOV, Post-Dispatch, STLPR, BJC, Cortex/Loop, Forest Park Forever and MoDOT were not checked; claytonmo.gov and an undated KSDK City boil-advisory video were unreachable.",
+    "open_count": 243,
+    "run_at": "2026-11-19T23:40:00Z",
     "top_incident": "Ring 1: Missouri American Water alert 145298, University City planned work 11/18. It is still posted with no completion notice and stays in monitoring; impact possible (low). No City or County boil advisory."
   },
   "incidents": [
@@ -2207,6 +2207,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 5:40 PM CT 11/19 (Lane 1 only, ID probe): MAW alert 145775, main-break emergency repairs from 4:30 PM 11/19, ~6 hr estimate; no street; no boil advisory. Appears separate from tracked planned work 145460 (11/19, 7 AM-3 PM). ~10-12 mi N of North Campus; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-19T23:40:00Z",
+      "id": "maw-florissant-unlocated-20261119",
+      "last_updated": "2026-11-19T23:40:00Z",
+      "location": "Florissant, MO (north St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145775"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Florissant — emergency repairs (alert 145775)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 4:40 AM CT 11/10 (Lane 1 only, ID probe): MAW alert 144399, emergency repairs with possible discolored water; body dates start 11/8 8:00 AM, ~1 hr estimate (date may be a placeholder; Last Updated blank; may be complete). No street; no boil advisory (MO DNR newest 11/5). ~5 mi W of South Campus and Danforth (estimate); different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Monitor; resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-10T10:40:00Z",
@@ -2501,6 +2519,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 5:40 PM CT 11/19 (Lane 1 only, ID probe): MAW alert 145769, main break 11/19, ~3.5 hr estimate; no street. ~270 mi SW; separate system; no WashU asset. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-19T23:40:00Z",
+      "id": "maw-joplin-unlocated-20261119",
+      "last_updated": "2026-11-19T23:40:00Z",
+      "location": "Joplin, MO (Jasper County; street not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145769"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Joplin — emergency repairs (alert 145769)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 2:40 AM CT 11/15 (Lane 1 only, ID probe): MAW alert 145163, main break from 9:15 PM 11/14; no boil advisory noted. ~250 mi SW; separate system; no WashU asset. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-15T08:40:00Z",
@@ -2551,6 +2587,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Ladue — emergency repairs (alert 145479)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 5:40 PM CT 11/19 (Lane 1 only, ID probe): MAW alert 145772, main-break emergency repairs from 4:30 PM 11/19, ~6 hr estimate (~10:30 PM); no street; no boil advisory (MAW alerts index shows no boil advisories). Separate from tracked 145479 (11/17). Ladue borders Clayton; ~1-3 mi W of West Campus, South Campus and Danforth depending on location; pressure zone unknown; no WashU asset; no known Ring 1 corridor. Impact none. Escalate if a street east of Lindbergh near Clayton Rd, Warson, Litzsinger or Brentwood Blvd is published or a boil advisory is posted. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-19T23:40:00Z",
+      "id": "maw-ladue-unlocated-20261119",
+      "last_updated": "2026-11-19T23:40:00Z",
+      "location": "Ladue, MO (mid St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145772"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Ladue — emergency repairs (alert 145772)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -4123,6 +4177,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, St. Louis County (area unspecified) — emergency repairs (alert 145530)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 5:40 PM CT 11/19 (Lane 1 only, ID probe): MAW alert 145774, main-break emergency repairs from 4:30 PM 11/19, ~6 hr estimate; no municipality or street; no boil advisory. Same start time as Ladue 145772 and Florissant 145775, so it may duplicate one of them at county level (not confirmed). Location unknown; no WashU asset identified. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-19T23:40:00Z",
+      "id": "maw-stlouiscounty-unlocated-20261119",
+      "last_updated": "2026-11-19T23:40:00Z",
+      "location": "St. Louis County, MO (municipality and street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145774"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, St. Louis County (unlocated) — emergency repairs (alert 145774)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
