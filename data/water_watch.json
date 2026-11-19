@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "5:40 PM CST 11/18 four-lane run. Nothing new in Rings 1-2; no City/County boil advisory (stlwater Current Advisories and boil page none). stlwater outages.php (5:30 PM): same 5 outages as 1:30 PM (Carter/N Euclid, Penrose/Euclid ETR 11/26; Plover, Union/Brown, Union/Bircher past ETR); Sutherland/Sulphur dropped from repairs (moved to monitoring). Repairs list also shows Oleatha/Gustine, Tower Grove/Cleveland, Riverview/W Florissant (11/16) and 5017 Cabanne (11/12) main repairs, not confirmed as tracked; Ring 2, no WashU asset. MAW 145298 and Vinita Park 145591 still posted. WashU Alert none; Danforth/Med Facilities no domestic water notices; Jolley/Cupples II and Wallace Dr unchanged. KFVS (9:20 AM): Dunklin PWSD 3, Millstone still listed; Collinsville lift still unconfirmed. Rejected as undated: Nextdoor U City Olive/Eastover and Richmond Heights PD main-break posts (blocked); stlwater ?p=9725 boil page (matches Aug 2026); AOL Bridgeton/Maryland Heights advisory. Probe: 145619, 145621, 145623-145631 blank; next probe 145625+. Gaps: MAW alerts index and boil page not loaded; MO DNR, MSD, Kirkwood not reached; X/Reddit/Nextdoor unreachable.",
-    "open_count": 197,
-    "run_at": "2026-11-18T23:45:00Z",
-    "top_incident": "Ring 1 planned work: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; still posted with no completion notice at ~5:35 PM; streets unpublished; impact possible (low). No City or County boil advisory."
+    "note": "6:40 PM CST 11/18 four-lane run. New, all Ring 2-3, impact none: MAW Overland main break 145608/145609 (4:45 PM, ~6 hr); MAW Ballwin main break 145607 (4:45 PM); MAW Wellston investigation 145611 (~1-1.5 mi N of Loop/North Campus; no street); MAW Rock Hill investigation 145610; MAW St. Louis County investigation 145612 (no municipality); Belleville leak investigation 145606. No City/County boil advisory (stlwater boil page none; MO DNR none). stlwater outages unchanged since 1:30 PM (Carter/N Euclid, Penrose/Euclid ETR 11/26; Plover, Union/Brown, Union/Bircher past ETR; Partridge/McLaran repair). WashU Alert none; Danforth/Med Facilities no water notices; Jolley/Cupples II and Wallace Dr unchanged (no completion posted). KFVS (9:20 AM): Dunklin PWSD 3, Millstone still listed; Collinsville lift unconfirmed (secondary source notes Nov 17 valve job with ~48 hr boil order). Rejected as undated: KSDK Eureka boil advisory, KSDK Olive Blvd Creve Coeur break, stlwater ?p=9725. Probe: 145594-145626, 145630-145650 checked; highest regional ID 145612; next probe 145613+. Gaps: MAW alerts index and boil page unreadable; MSD, Kirkwood not reached; X/Reddit/Nextdoor/Facebook unreachable.",
+    "open_count": 226,
+    "run_at": "2026-11-19T00:40:00Z",
+    "top_incident": "Ring 1 planned work: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; still posted unchanged with no completion notice at ~6:35 PM; streets unpublished; impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -248,6 +248,24 @@
       ],
       "status": "open",
       "title": "Illinois American Water main break and boil order, Belleville, IL (alerts 144035, 144065, 144073)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 6:40 PM CT 11/18 (Lane 1; page re-opened by supervisor): alert 145606, leak investigation, low or no pressure possible; no times or street; no boil order. ~15 mi SE of downtown St. Louis; separate system; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-19T00:40:00Z",
+      "id": "ilaw-belleville-investigation-20261118",
+      "last_updated": "2026-11-19T00:40:00Z",
+      "location": "Belleville (state not printed; most likely Belleville, IL, St. Clair County, Metro East; street not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145606"
+      ],
+      "status": "open",
+      "title": "American Water leak investigation, Belleville — possible low/no pressure (alert 145606)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
     },
@@ -1115,6 +1133,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Ballwin — emergency repairs (alert 145533)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 6:40 PM CT 11/18 (Lane 1; page re-opened by supervisor): MAW alert 145607, main-break emergency repairs from 4:45 PM 11/18, ~6 hr estimate; possible discolored or low-pressure water; no street; no boil advisory. Separate from tracked 145533 (8:15 AM 11/18) by start time. ~12-14 mi W of Danforth; Tyson on well water; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-19T00:40:00Z",
+      "id": "maw-ballwin-unlocated-20261118b",
+      "last_updated": "2026-11-19T00:40:00Z",
+      "location": "Ballwin, MO (west St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145607"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Ballwin — emergency repairs (alert 145607)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -2909,6 +2945,25 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 6:40 PM CT 11/18 (Lane 1 only, ID probe): MAW alerts 145608/145609, main-break emergency repairs from 4:45 PM 11/18, ~6 hr estimate (~10:45 PM); no street; no boil advisory. Separate from earlier tracked Overland alerts by start date. ~4-5 mi NW of Danforth and North Campus; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-19T00:40:00Z",
+      "id": "maw-overland-unlocated-20261118",
+      "last_updated": "2026-11-19T00:40:00Z",
+      "location": "Overland, MO (mid St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145608",
+        "https://alertsdetail.awapps.com/alert/145609"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Overland — emergency repairs (alerts 145608, 145609)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 8:40 AM CT 11/5 (Lane 1 only): MAW alert 144074, pump station emergency repair, ~2 hr on 11/5; no boil advisory stated. ~100 mi N of St. Louis near Hannibal; separate system; no WashU asset. Impact none. Monitor; resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-05T14:40:00Z",
@@ -2981,6 +3036,24 @@
       "title": "Missouri American Water main break, Richmond Heights — emergency repairs (alert 143300)",
       "utility": "Missouri American Water",
       "washu_impact": "possible"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 6:40 PM CT 11/18 (Lane 1 only): MAW alert 145610, service investigation; no street or times; no boil advisory. Possibly a follow-on to tracked Rock Hill main break 145558 (not confirmed). ~3-4 mi S/SW of South Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-19T00:40:00Z",
+      "id": "maw-rockhill-investigation-20261118",
+      "last_updated": "2026-11-19T00:40:00Z",
+      "location": "Rock Hill, MO (mid St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145610"
+      ],
+      "status": "open",
+      "title": "Missouri American Water service investigation, Rock Hill — possible low/no pressure (alert 145610)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
     },
     {
       "affected_assets": [],
@@ -3532,6 +3605,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water service investigation, St. Louis County — second, possible low/no pressure (alert 145485)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 6:40 PM CT 11/18 (Lane 1 only): MAW alert 145612, county-level investigation; no municipality, street or times; no boil advisory. Location unknown, so WashU proximity cannot be assessed; no WashU water notice (Lane 3). Impact none. Escalate if a Ring 1 municipality or street is published. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-19T00:40:00Z",
+      "id": "maw-stlouiscounty-investigation-20261118",
+      "last_updated": "2026-11-19T00:40:00Z",
+      "location": "St. Louis County, MO (municipality and street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145612"
+      ],
+      "status": "open",
+      "title": "Missouri American Water service investigation, St. Louis County (alert 145612)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -4240,6 +4331,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Webster Groves — emergency repairs (alert 145593)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 6:40 PM CT 11/18 (Lane 1; page re-opened by supervisor): MAW alert 145611, investigation of a possible service issue, low or no pressure possible; no street, start or end time; no boil advisory. Wellston is ~1-1.5 mi N of the Delmar Loop and North Campus (city-level estimate), edge of Ring 1; North Campus and Loop properties are on separate service (City Water / U City MAW zones), so impact assessed none. Escalate if a street toward Delmar Blvd or the Loop is published or a boil advisory follows. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-19T00:40:00Z",
+      "id": "maw-wellston-investigation-20261118",
+      "last_updated": "2026-11-19T00:40:00Z",
+      "location": "Wellston, MO (north-central St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145611"
+      ],
+      "status": "open",
+      "title": "Missouri American Water service investigation, Wellston — possible low/no pressure (alert 145611)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
