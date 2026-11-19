@@ -1,0 +1,178 @@
+{
+  "bluf": "Quiet day locally: no NWS product, no Ring 1 violent incident in 72h, no health advisory or diversion, no outage at a WashU asset. Main attention item is the BYOD ransomware campaign against universities with medical centers (MSU, UNM Health, Vanderbilt) ahead of Thanksgiving-week staffing. Warm and dry through Sat; rain Sat night-Sun AM, then near-freezing and dry into break (starts Wed 11/25). This week: Dec 11 CR deadline and pre-break flu/measles messaging.",
+  "briefing_url": "https://claude.ai/artifact/C1e16xKrJ5DWi3J4RYh9bh",
+  "date": "2026-11-19",
+  "dissents": [
+    {
+      "note": "Moved to Today over Cyber lane's This week; severity held at 3, no WashU-specific indicator.",
+      "title": "Underrate: BYOD ransomware (Red Team Sev 4, Today)",
+      "verdict": "adopted in part"
+    },
+    {
+      "note": "Moved to This week. Contested whether a St. Louis County case exists this year.",
+      "title": "Underrate: Missouri measles before Thanksgiving travel",
+      "verdict": "adopted in part"
+    },
+    {
+      "note": "Wave reporting traces to Aug 2025; no posture change.",
+      "title": "Overrate: swatting wave",
+      "verdict": "adopted"
+    },
+    {
+      "note": "No emergency directive; Java alert kept at This week.",
+      "title": "Overrate: generic CISA vulnerability noise",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Sev 5 / Low / Low. First decision: EOC activation and next-day Medical Campus cancellations.",
+      "title": "Scenario: BYOD-style intrusion into WashU/BJC identity forcing EHR downtime and trauma diversion",
+      "verdict": "carried"
+    },
+    {
+      "note": "Red Team says Summit Dr staging meets threshold; Events lane found no closure notice. Revisit Wednesday.",
+      "title": "Turkey Trot Nov 26 corridor closure threshold",
+      "verdict": "carried"
+    }
+  ],
+  "lanes_quiet": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "lookahead": [
+    {
+      "date": "2026-11-19",
+      "dow": "Thu",
+      "loads": "Light; Blues away.",
+      "stacked": false,
+      "wx": "Sunny, 69/46"
+    },
+    {
+      "date": "2026-11-20",
+      "dow": "Fri",
+      "loads": "Foghat at The Pageant 8 PM (Loop).",
+      "stacked": false,
+      "wx": "Sunny, 71/49"
+    },
+    {
+      "date": "2026-11-21",
+      "dow": "Sat",
+      "loads": "Thanks-For-Giving Parade 2 PM + Winterfest opening (downtown); Blues vs NJ 6 PM; two Loop shows.",
+      "stacked": true,
+      "wx": "Mostly sunny 71; rain 50% after midnight"
+    },
+    {
+      "date": "2026-11-22",
+      "dow": "Sun",
+      "loads": "WashU women's basketball vs Millikin 1 PM Field House; Blues vs EDM 6 PM.",
+      "stacked": true,
+      "wx": "Rain likely before noon, 60, falling to 35"
+    },
+    {
+      "date": "2026-11-23",
+      "dow": "Mon",
+      "loads": "No confirmed loads; Blue Line evening service shortened for Thanksgiving week.",
+      "stacked": false,
+      "wx": "Sunny, 49/30"
+    },
+    {
+      "date": "2026-11-24",
+      "dow": "Tue",
+      "loads": "Students begin leaving in the evening.",
+      "stacked": false,
+      "wx": "Mostly sunny, 44/27"
+    },
+    {
+      "date": "2026-11-25",
+      "dow": "Wed",
+      "loads": "Thanksgiving break begins; peak Lambert travel day; Turkey Trot staging in Forest Park.",
+      "stacked": true,
+      "wx": "Mostly sunny, 42"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "quiet",
+      "summary": "No NWS products for St. Louis City/County; outside SPC risk; no New Madrid activity. Rain Sat night-Sun noon; lows near 30F Sun-Tue nights; Tyson drying, no red flag."
+    },
+    {
+      "name": "Life-safety threat",
+      "pir": 2,
+      "status": "quiet",
+      "summary": "Nothing at threshold in 72h. Background: Nov 12 gunpoint robbery during Marketplace sale near McPherson Ave (CWE), suspects at large. No verified current swatting wave."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "watch",
+      "summary": "H1N1 flu rising nationally and early; Missouri still low. Missouri measles 24 cases YTD, US lost elimination status Nov 17. Pre-break vaccination/MMR messaging this week. No diversion found (status unknown)."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "watch",
+      "summary": "BYOD campaign vs peer AMC universities (Today). CISA Java RCE alert Nov 17, patches available. MetroLink Blue Line ends at Forest Park-DeBaliviere through Dec 23."
+    },
+    {
+      "name": "Scheduled activity",
+      "pir": 5,
+      "status": "quiet",
+      "summary": "No Ring 1 event over 5,000, no named-corridor closure. Sat/Sun stacked in Ring 2 (parade, Blues). Thanksgiving break begins Wed 11/25; confirm break staffing and lockups."
+    },
+    {
+      "name": "Policy, legal, funding",
+      "pir": 6,
+      "status": "watch",
+      "summary": "CR expires Dec 11, no deal; list grants and research at risk. Europe embassy alert. FEMA FMA open to Feb 26, 2027. MO bill prefiling likely ~Dec 1."
+    }
+  ],
+  "posture": "Normal",
+  "published_at": "2026-11-19T11:58:47Z",
+  "run_note": "Charter read OK. All 7 lanes reported (05:53-06:35 CT). No Sev 4-5 items after supervision. Several primary sources unreachable (api.weather.gov, AirNow, cisa.gov, travel.state.gov, events.washu.edu, outage maps).",
+  "title": "WashU EM Daily Intelligence Briefing, November 19, 2026",
+  "today_items": [
+    {
+      "action": "Ask IT security for BYOD indicators and MFA coverage for remote access and help-desk resets; confirm WashU Medicine/BJC EHR downtime and diversion procedures before holiday staffing drop.",
+      "confidence": "Medium",
+      "likelihood": "Low-Medium",
+      "owner": "EM with central IT; Medical Campus Security",
+      "pir": 4,
+      "rank": 1,
+      "severity": 3,
+      "source": "https://www.malwarebytes.com/blog/news/2026/11/vanderbilt-restores-systems-after-cyberattack-as-hackers-claim-data-theft",
+      "title": "BYOD ransomware campaign against universities with academic medical centers",
+      "ttd": "Today"
+    },
+    {
+      "action": "Forward to students and faculty in European programs and registered holiday travelers; remind them to enroll in STEP.",
+      "confidence": "Medium",
+      "likelihood": "Medium",
+      "owner": "Provost (Global / Study Abroad); Student Affairs",
+      "pir": 6,
+      "rank": 2,
+      "severity": 2,
+      "source": "https://www.itv.com/news/2026-11-16/us-citizens-in-uk-warned-by-embassy-to-keep-a-low-profile-amid-terror-threat",
+      "title": "US Embassy security alert across Europe (Nov 16)",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "BYOD ransomware campaign vs universities with medical centers: EM with IT security to check BYOD indicators and MFA, confirm WashU Medicine/BJC downtime and diversion procedures before holiday staffing drop.",
+  "unreachable": [
+    "api.weather.gov alerts",
+    "AirNow St. Louis AQI",
+    "Mississippi River gauge",
+    "SPC Day 2 / WPC current",
+    "cisa.gov alert pages",
+    "travel.state.gov",
+    "events.washu.edu",
+    "Ameren/Spire outage maps",
+    "MoDOT traveler map",
+    "vendor status pages",
+    "City/DHSS flu dashboards",
+    "CDC wastewater maps",
+    "drought.gov"
+  ]
+}
