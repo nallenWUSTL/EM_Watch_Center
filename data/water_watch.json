@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "6:40 PM CST 11/18 four-lane run. New, all Ring 2-3, impact none: MAW Overland main break 145608/145609 (4:45 PM, ~6 hr); MAW Ballwin main break 145607 (4:45 PM); MAW Wellston investigation 145611 (~1-1.5 mi N of Loop/North Campus; no street); MAW Rock Hill investigation 145610; MAW St. Louis County investigation 145612 (no municipality); Belleville leak investigation 145606. No City/County boil advisory (stlwater boil page none; MO DNR none). stlwater outages unchanged since 1:30 PM (Carter/N Euclid, Penrose/Euclid ETR 11/26; Plover, Union/Brown, Union/Bircher past ETR; Partridge/McLaran repair). WashU Alert none; Danforth/Med Facilities no water notices; Jolley/Cupples II and Wallace Dr unchanged (no completion posted). KFVS (9:20 AM): Dunklin PWSD 3, Millstone still listed; Collinsville lift unconfirmed (secondary source notes Nov 17 valve job with ~48 hr boil order). Rejected as undated: KSDK Eureka boil advisory, KSDK Olive Blvd Creve Coeur break, stlwater ?p=9725. Probe: 145594-145626, 145630-145650 checked; highest regional ID 145612; next probe 145613+. Gaps: MAW alerts index and boil page unreadable; MSD, Kirkwood not reached; X/Reddit/Nextdoor/Facebook unreachable.",
+    "note": "7:45 PM CST 11/18 four-lane run. Nothing new in Rings 1-2. Ring 3 only: IAW 145614 Dunlap IL boil order lift (untied; Dunlap 11/17 record moved to monitoring). stlwater outages page updated 7:30 PM: 5 outages (Carter/N Euclid and Penrose/Euclid ETR 11/26; Plover, Union/Brown, Union/Bircher past ETR) plus 15 repair work orders unchanged; supervisor re-opened the page and rejected a Lane 1 claim that 8 work orders had cleared (they moved to the maintenance list, still listed). City boil advisories none. KFVS (modified 15:20 UTC 11/18): Dunlap PWSD 3 and Millstone still listed; Lakeside lift already recorded. Collinsville lift still unconfirmed. WashU Alert none; Danforth/Med Facilities no new water notices (latest 11/12 and 11/17). Probe: 145613-145629 checked (only 145614 regional), 145655 and 145680 empty; 145630-145654 and 145656-145679 not probed; next probe 145621+. Gaps: MAW alerts index script-rendered; MSD, Kirkwood, MO DNR, BJC, Cortex, MoDOT not reached; X/Reddit/Nextdoor/Facebook show nothing dated.",
     "open_count": 226,
-    "run_at": "2026-11-19T00:40:00Z",
-    "top_incident": "Ring 1 planned work: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; still posted unchanged with no completion notice at ~6:35 PM; streets unpublished; impact possible (low). No City or County boil advisory."
+    "run_at": "2026-11-19T01:45:00Z",
+    "top_incident": "Ring 1 planned work: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; still posted unchanged at ~7:35 PM with no completion notice; streets unpublished; impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -421,18 +421,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 5:40 PM CT 11/17 (Lane 1, ID probe; seen by Lane 4): IAW alert 145487, urgent main break 11/17, ~14 hr repair estimate, boil order once service is restored. Separate from tracked 145013 (11/13). ~160 mi NNE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "assessment": "Updated 7:45 PM CT 11/18 (Lane 1, ID probe): IAW alert 145614 posts a Dunlap boil order lift (no street, times or date). Two Dunlap events are tracked (145013 on 11/13 and 145487 on 11/17), so the lift cannot be tied with certainty; most likely this 11/17 urgent break. Moved to monitoring, not resolved. ~160 mi NNE; separate system; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-17T23:40:00Z",
       "id": "ilaw-dunlap-unlocated-20261117",
-      "last_updated": "2026-11-17T23:40:00Z",
+      "last_updated": "2026-11-19T01:45:00Z",
       "location": "Dunlap, IL (Peoria County; streets not published)",
       "ring": 3,
       "single_source": true,
       "sources": [
-        "https://alertsdetail.awapps.com/alert/145487"
+        "https://alertsdetail.awapps.com/alert/145487",
+        "https://alertsdetail.awapps.com/alert/145614"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "Illinois American Water urgent main break with boil order on restoration, Dunlap, IL (alert 145487)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
