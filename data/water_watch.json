@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "10:35 PM CST 11/18 four-lane run. Nothing new or changed in Rings 1-2; no incident records written. MAW 145298 (U City) still posted, no completion. stlwater /outages still stamped 1:30 PM 11/18 (same 5 outages); stlwater boil-advisory page none; MO DNR boil list newest 15 none in St. Louis City/County. WashU emergency site no active alerts; Danforth Facilities newest 11/12, Med Facilities 11/17 (no potable-water items); Jolley/Cupples and Wallace Dr completion still unconfirmed. KFVS unchanged since 15:20 UTC 11/18; Dunklin PWSD 3 still listed; Lakeside Water lift already recorded. Collinsville lift still unconfirmed. ID probe: 145622-145623 Mt Prospect IL lifts (out of region, not recorded); 145624-145630 and 145635 empty; 145631-145660 mostly unchecked; next probe 145624+. Gaps: MAW alerts index JS-only; IAW Metro East pages, MSD, Kirkwood, BJC/Cortex/MoDOT feeds and most municipal pages not opened; social shows nothing dated.",
-    "open_count": 226,
-    "run_at": "2026-11-19T04:40:00Z",
-    "top_incident": "Ring 1 planned work: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; still posted unchanged at ~10:35 PM with no completion notice; streets unpublished; impact possible (low). No City or County boil advisory."
+    "note": "11:40 PM CST 11/18 four-lane run. One new record: MAW 145624 St. Louis County leak investigation, no municipality or street (Ring 2 provisional, impact none). Nothing new in Ring 1. stlwater /outages still stamped 1:30 PM 11/18 (5 outages; Greer/Newstead, North Point, Cabanne/Academy not seen in fetch, not closed pending confirmation). stlwater, MAW and MO DNR boil lists show none in St. Louis City/County. WashU emergency site no active alerts; Danforth Facilities newest 11/12, Med Facilities 11/17, no potable-water items; Jolley/Cupples and Wallace Dr completion still unconfirmed. KFVS unchanged since 15:20 UTC 11/18; Collinsville lift still unconfirmed. ID probe: 145620-145623 out of region (PA, Glen Ellyn, Mt Prospect); 145625-145628, 145630, 145632, 145635, 145640, 145645 empty; next probe 145625+. Gaps: MAW index JS-only, alertsdetail blocked from shell; MSD, Kirkwood, MoDOT/City closure feeds and municipal pages not opened; MO DNR report page did not load; social shows nothing dated.",
+    "open_count": 227,
+    "run_at": "2026-11-19T05:40:00Z",
+    "top_incident": "Ring 1 planned work: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; still posted unchanged at ~11:35 PM with no completion notice; streets unpublished; impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -3624,6 +3624,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water service investigation, St. Louis County (alert 145612)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 11:40 PM CT 11/18 (Lane 1 only, ID probe): MAW alert 145624, leak investigation of a possible service issue; low or no pressure possible; no municipality, streets, start or end time; no boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). Cannot be placed against a WashU asset; carried as Ring 2 until located. No news or social corroboration (Lanes 2, 4); no WashU Alert or Facilities notice (Lane 3). Impact none pending location. Escalate if a Clayton, U City, Richmond Heights or Ring 1 corridor street is published. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-19T05:40:00Z",
+      "id": "maw-stlouiscounty-investigation-20261118b",
+      "last_updated": "2026-11-19T05:40:00Z",
+      "location": "St. Louis County, MO (municipality and street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145624"
+      ],
+      "status": "open",
+      "title": "Missouri American Water leak investigation, St. Louis County — possible low/no pressure (alert 145624)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
