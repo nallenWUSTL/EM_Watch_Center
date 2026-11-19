@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "4:40 AM CST 11/19 four-lane run. Two new Ring 2 items, no WashU impact: MAW 145624 St. Louis County leak investigation (no municipality/street; Low) and City Water outage Gasconade St / S Broadway (2:58 AM-ETR 2:58 PM). No tracked records changed. MAW ID probe worked: 145615-145625 checked, 145626+ not yet issued; others out of region. Ring 1 MAW alerts 145298, 144457, 144507, 144021, 144012, 143300 still posted, no completion text. stlwater: Carter and Penrose ETR 11/26; Plover, Union Blvd x2 past ETR but listed; 5017 Cabanne repair (tracked) still listed; City boil advisories none. MO DNR: nothing in region (newest 10/28). WashU emergency site no alerts; Facilities news unchanged (Jolley/Cupples, Wallace Dr unconfirmed); Med Facilities no water work. No news or social reports dated 11/18-19; Collinsville lift still unconfirmed. Gaps: MAW index and boil page not rendered; Reddit blocked; MSD, Kirkwood, BJC, Cortex, Forest Park Forever, MoDOT not opened.",
+    "note": "5:40 AM CST 11/19 four-lane run. Nothing new; no tracked records changed. MAW ID probe 145626-145631 all empty (next run start at 145626). Ring 1 MAW alerts 145298, 144457, 144507, 144021, 144012, 143300 re-opened: still posted, no completion text. stlwater outages.php (5:30 AM): Gasconade ETR 2:58 PM today; Carter and Penrose ETR 11/26; Plover, Union Blvd x2 past ETR but listed; all tracked main-repair work orders still listed. MO DNR: none in St. Louis City/County (newest 10/28). WashU emergency site no alerts; Facilities notices for Jolley/Cupples (window ended 10/31) and Wallace Dr (window ended 11/13) still posted, no lift/close notice, kept monitoring. KFVS Heartland: Dunklin PWSD 3 and Pope County Millstone still active; Lakeside Water already resolved. Collinsville lift still unconfirmed. No news or social items dated 11/18-19. Gaps: MAW index and boil page, stlwater boil-advisory list (FAQ only), Reddit, X, Facebook, MSD, Kirkwood, BJC, Cortex, Forest Park Forever, MoDOT, municipal pages not checked or unreachable.",
     "open_count": 229,
-    "run_at": "2026-11-19T10:40:00Z",
-    "top_incident": "Ring 1 planned work: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; completion still not confirmed (detail page loads, no completion text); streets unpublished; impact possible (low). No City or County boil advisory."
+    "run_at": "2026-11-19T11:40:00Z",
+    "top_incident": "Ring 1 planned work: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; still posted with no completion text; streets unpublished; impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
