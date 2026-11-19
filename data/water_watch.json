@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "3:40 AM CST 11/19 four-lane run. Nothing new; no incident records changed. American Water ID probe failed this run (alertsdetail pages returned only the Alerts1View shell), so IDs 145626+ and Ring 1 re-checks 145298, 144457, 144507, 144021, 144012, 143300 are unverified. stlwater /outages still stamped 1:30 PM 11/18; shows Carter/N Euclid and Penrose/Euclid (ETR 11/26), Plover, Union Blvd x2, all tracked; other tracked city items absent but restoration unconfirmed. MO DNR: nothing in St. Louis City/County. stlwater boil advisory page: none active. KFVS list unchanged (9:20 AM CST 11/18); Collinsville lift still unconfirmed. WashU emergency site no active alerts; Facilities news unchanged; Jolley/Cupples and Wallace Dr completion still unconfirmed. No news or social reports dated 11/18-19. Undated KSDK Lindell Blvd 30-inch main story not adopted (appears historical). Gaps: MAW index and boil page not rendered; MSD, Kirkwood, BJC, Cortex, Forest Park Forever, MoDOT not opened.",
-    "open_count": 227,
-    "run_at": "2026-11-19T09:40:00Z",
-    "top_incident": "Ring 1 planned work: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; completion not confirmed (alert not re-readable this run); streets unpublished; impact possible (low). No City or County boil advisory."
+    "note": "4:40 AM CST 11/19 four-lane run. Two new Ring 2 items, no WashU impact: MAW 145624 St. Louis County leak investigation (no municipality/street; Low) and City Water outage Gasconade St / S Broadway (2:58 AM-ETR 2:58 PM). No tracked records changed. MAW ID probe worked: 145615-145625 checked, 145626+ not yet issued; others out of region. Ring 1 MAW alerts 145298, 144457, 144507, 144021, 144012, 143300 still posted, no completion text. stlwater: Carter and Penrose ETR 11/26; Plover, Union Blvd x2 past ETR but listed; 5017 Cabanne repair (tracked) still listed; City boil advisories none. MO DNR: nothing in region (newest 10/28). WashU emergency site no alerts; Facilities news unchanged (Jolley/Cupples, Wallace Dr unconfirmed); Med Facilities no water work. No news or social reports dated 11/18-19; Collinsville lift still unconfirmed. Gaps: MAW index and boil page not rendered; Reddit blocked; MSD, Kirkwood, BJC, Cortex, Forest Park Forever, MoDOT not opened.",
+    "open_count": 229,
+    "run_at": "2026-11-19T10:40:00Z",
+    "top_incident": "Ring 1 planned work: Missouri American Water alert 145298, University City water system improvements Wed 11/18 8 AM-~2 PM; completion still not confirmed (detail page loads, no completion text); streets unpublished; impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -3647,6 +3647,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 4:40 AM CT 11/19 (Lane 1 only, ID probe): MAW alert 145624, leak investigation of a possible service issue somewhere in St. Louis County; low or no pressure possible; no municipality, street, start time, ETR or boil advisory. Location too vague to place; carried as Ring 2 but cannot rule out Ring 1 (Clayton, University City, Richmond Heights). No WashU Alert or Facilities notice (Lane 3); no news or social corroboration (Lanes 2, 4). Impact none on current evidence. Escalate if a Ring 1 municipality or corridor street is published. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-19T10:40:00Z",
+      "id": "maw-stlouiscounty-investigation-20261119",
+      "last_updated": "2026-11-19T10:40:00Z",
+      "location": "St. Louis County, MO (municipality and street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145624"
+      ],
+      "status": "open",
+      "title": "Missouri American Water leak investigation, St. Louis County — possible low/no pressure (alert 145624)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Cleared: at ~10:40 AM CT 10/21 alerts 142100 and 142108 no longer appear on the MAW active alerts index (Lane 1; detail pages still load unchanged, 6 hr estimates from 10/20 morning, no streets, no boil advisory). Treated as repair complete / alert expired per utility index. Municipality never published; no WashU impact observed.",
       "confidence": "Low",
       "first_seen": "2026-10-20T21:40:00Z",
@@ -4997,6 +5015,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division service outage, Forest Park Ave & Union Dr (Forest Park, Union to Jewel Box)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 4:40 AM CT 11/19 (Lanes 1 and 3, stlwater outages.php updated 4:30 AM): service off since 2:58 AM 11/19, city ETR 2:58 PM 11/19; no boil advisory (City Current Advisories empty). ~6-7 mi SE of the Medical Campus; separate from Ring 1 mains; no WashU asset. Impact none. Resolve when cleared from the outage list. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-19T10:40:00Z",
+      "id": "stlwater-stlouiscity-gasconade-sbroadway-20261119",
+      "last_updated": "2026-11-19T10:40:00Z",
+      "location": "Gasconade St between S Broadway and 1st St, St. Louis City (south riverfront)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outage, Gasconade St between S Broadway and 1st St (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
