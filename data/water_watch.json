@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "11:40 AM CST 11/19 four-lane run. No new incidents in any ring; no confirmed status change to tracked incidents. All City Water items Lane 1 reported from /outages (Union & Brown, Union & Bircher, Cabanne, Tower Grove/Cleveland, Oleatha/Gustine, Riverview/W Florissant, S Spring/Park, Potomac/Sulphur, N Grand/Palm, Sutherland/Sulphur) are already tracked; Carter/N Euclid and Penrose/Euclid still Active (ETR 11/26), Plover/Lillian past ETR. /outages page still stale since 1:30 PM 11/18, so Knapp, Howard, Gasconade and N Broadway absence there is not taken as restoration. MAW alerts and boil pages render shell only; ID probe at 145680 failed (next run start at 145666). MO DNR newest 10/28; stlwater boil page lists none. WashU Alert none; Danforth Facilities generator tests only; Medical Campus Facilities no potable-water notices (BJH drive crane lift 11/21 noted, non-water). Jolley Hall order's posted end was 10/31 but no completion notice; left monitoring. KFVS list: Millstone (tracked) and Dunklin PWSD 3 still in effect. Social: X/Facebook/Nextdoor/Reddit not reachable; no dated posts. Gaps: MAW/IAW alert detail, MSD, Kirkwood, BJC, Cortex, Delmar Loop, MoDOT, several County municipal pages.",
-    "open_count": 231,
-    "run_at": "2026-11-19T17:40:00Z",
-    "top_incident": "Ring 1: Missouri American Water alert 145298, University City planned work Wed 11/18 8 AM-~2 PM; not re-verified this run (MAW alert pages unreadable); impact possible (low). No City or County boil advisory."
+    "note": "12:45 PM CST 11/19 four-lane run. New: City Water outage N Kingshighway between Penrose and Lillian (11:14 AM 11/19, ETR 11/27; Ring 2, ~3.5 mi N of Medical Campus, likely same project as Penrose/Euclid and Carter/N Euclid); City Water hydrant repair St. Louis Ave & Norwood (Ring 2); New Madrid County WD #2 boil advisory west of Hwy 61 (Ring 3, KFVS). stlwater /outages is current via ?r=1119 (updated 12:30 PM 11/19; plain URL cached from 11/18): Gasconade/S Broadway no longer listed (left monitoring); Howard/19th and Knapp/Madison ETR ~9:40 PM tonight; Plover/Lillian, Union/Brown, Union/Bircher still listed past ETR. MAW probe 145620-145680 found only PA alerts or empty shells; next run probe 145681+. KFVS: Millstone and Dunklin PWSD 3 still in effect. City and County boil pages none. WashU Alert none; Danforth Facilities newest 11/12 (Jolley Hall left monitoring); Medical Campus Facilities no water notices. Social: no dated posts; Reddit/X/Facebook/Nextdoor unreachable. Gaps: MSD, Kirkwood, MO DNR dataset, BJC, Cortex, Delmar Loop, MoDOT, several County municipal pages.",
+    "open_count": 234,
+    "run_at": "2026-11-19T18:45:00Z",
+    "top_incident": "Ring 1: Missouri American Water alert 145298, University City planned work 11/18 — still posted, window passed, no completion notice; moved to monitoring; impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -4095,18 +4095,18 @@
         "North Campus",
         "Delmar Loop properties"
       ],
-      "assessment": "New 11:40 AM CT 11/16 (Lane 1 only, ID probe): MAW alert 145298, planned work Wed 11/18 8:00 AM to ~2:00 PM; discolored water, low or no pressure possible; no streets, customer count or boil advisory. Planned, not a failure. Ring 1 by municipality: University City borders Danforth (Forsyth/Big Bend, South 40 edge) and North Campus/Delmar Loop properties; whether any WashU service is in the work area is unknown. Impact possible (low). Action: Facilities ask MAW which streets/pressure zone are affected; if any WashU building is inside, pre-notify occupants and be ready to flush lines after 2 PM 11/18. Escalate if streets on Delmar, Forsyth, Big Bend or Skinker are named. Resolve after the window if dropped. Owner: Facilities / Emergency Management.",
+      "assessment": "Updated 12:45 PM CT 11/19 (Lane 1): MAW alert 145298 still posted unchanged (planned work 11/18 8 AM-~2 PM, weather permitting; no streets; no completion text; no boil advisory). Window passed ~23 hr ago; no WashU Alert or Facilities notice of pressure or discoloration (Lane 3). Moved to monitoring, not resolved. Ring 1 by municipality (Danforth University City edge, North Campus, Delmar Loop). Impact possible (low). Action: Facilities confirm no discoloration or pressure complaints at University City-side buildings; flush if needed. Resolve when dropped from MAW alerts. Owner: Facilities / Emergency Management.",
       "confidence": "Medium",
       "first_seen": "2026-11-16T17:40:00Z",
       "id": "maw-universitycity-planned-20261118",
-      "last_updated": "2026-11-16T17:40:00Z",
+      "last_updated": "2026-11-19T18:45:00Z",
       "location": "University City, MO (streets not published by utility)",
       "ring": 1,
       "single_source": true,
       "sources": [
         "https://alertsdetail.awapps.com/alert/145298"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "Missouri American Water planned water system improvements, University City, Wed Nov 18 (alert 145298)",
       "utility": "Missouri American Water",
       "washu_impact": "possible"
@@ -4658,6 +4658,24 @@
       "status": "open",
       "title": "New Hope Residential Care Facility boil order, no free chlorine at entry point (St. Francois County, MO)",
       "utility": "New Hope Residential Care Facility (private public water system)",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:45 PM CT 11/19 (Lane 2 only, KFVS Heartland list modified 17:37 UTC 11/19): boil advisory issued 11/19 after a main break; repair expected today; advisory until further notice. ~150 mi S of Danforth; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-19T18:45:00Z",
+      "id": "newmadridpwsd2-newmadridcounty-hwy61-20261119",
+      "last_updated": "2026-11-19T18:45:00Z",
+      "location": "Customers west of Hwy 61, New Madrid County, MO (Bootheel; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
+      ],
+      "status": "open",
+      "title": "New Madrid County Water District #2 boil water advisory after main break, west of Hwy 61",
+      "utility": "New Madrid County Water District #2",
       "washu_impact": "none"
     },
     {
@@ -5488,6 +5506,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 12:45 PM CT 11/19 (Lane 3; outages page re-opened by supervisor, updated 12:30 PM): out of service from 11:14 AM 11/19, estimated restoration 7:14 PM 11/27; no boil notice. Adjoins tracked Penrose/Euclid and Carter/N Euclid outages on the same multi-day timeline, likely one project. On Kingshighway but ~3.5 mi N of the Medical Campus, outside the Ring 1 corridor segment; different service area from WashU buildings. Impact none. Watch for traffic effects on N Kingshighway. Resolve when dropped from the outages table. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-19T18:45:00Z",
+      "id": "stlwater-stlouiscity-nkingshighway-penrose-20261119",
+      "last_updated": "2026-11-19T18:45:00Z",
+      "location": "N Kingshighway Blvd between Penrose St and Lillian Ave, St. Louis City (north City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages/?r=1119"
+      ],
+      "status": "open",
+      "title": "City Water service outage, N Kingshighway Blvd between Penrose St and Lillian Ave",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Updated 7:45 AM CT 11/18 (Lane 1, outages.php stamped 7:30 AM 11/18): North Point Blvd (Summit–Riverview) no longer listed as an active outage; no restoration notice. It dropped off once before (11/16) and reappeared, so moved to monitoring, not resolved. No City boil advisory. Far north City, ~9-10 mi from Danforth; Ring 2; no WashU asset. Impact none. Resolve if still absent next runs. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-16T19:50:00Z",
@@ -5840,6 +5876,24 @@
       ],
       "status": "open",
       "title": "City of St. Louis Water Division main repair and service outage, S Spring Ave (Vista Ave to Park Ave)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:45 PM CT 11/19 (Lane 3; outages page re-opened by supervisor): hydrant repair work order initiated 9:11 AM 11/19; no outage listed. ~4 mi NE of the Medical Campus; no WashU asset; not a Ring 1 corridor. Impact none. Resolve when dropped from work orders. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-19T18:45:00Z",
+      "id": "stlwater-stlouiscity-stlouisave-norwood-hydrant-20261119",
+      "last_updated": "2026-11-19T18:45:00Z",
+      "location": "St. Louis Ave & Norwood Ave, St. Louis City (north City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages/?r=1119"
+      ],
+      "status": "open",
+      "title": "City Water fire hydrant repair, St. Louis Ave & Norwood Ave",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
