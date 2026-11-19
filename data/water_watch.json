@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "1:50 PM CST 11/19 four-lane run. New: MAW Webster Groves main break 145690 (+145688 likely same; 8 AM 11/19, 6-8 hr; Ring 2, ~4-5 mi SSW of Danforth); MAW St. Louis County planned work 145722 (11 AM-4 PM, location unpublished); MAW Purcell 145700 and IAW Bartonville 145712 (Ring 3). Resolved: IAW Granite City boil order lifted (145687). stlwater outages page (1:30 PM 11/19, verified): Carter/N Euclid and Knapp/Madison outages dropped (monitoring); Dale Ave and N Grand/Palm work orders dropped (monitoring); N Grand/Windsor, Chouteau/S 6th, N Broadway/Angelrodt, Marcus/St. Louis Ave work orders relisted (open). No City/County boil advisory. WashU Alert none; Danforth and Medical Facilities no water notices; Jolley/Cupples lift still unposted. KFVS (11:37 AM): Millstone, Dunklin PWSD 3, New Madrid WD #2 still listed. Alton IAW 145550 status unconfirmed. Next MAW probe 145741+. Gaps: X, Reddit unreachable; MSD, Kirkwood, MO DNR, BJC, Cortex, Loop, MoDOT not checked; MAW boil page and wateroos.php failed to load.",
-    "open_count": 237,
-    "run_at": "2026-11-19T19:50:00Z",
+    "note": "2:45 PM CST 11/19 four-lane run. New: City Water main-repair work order Eichelberger St & Alaska Ave (1:30 PM 11/19; Ring 2, impact none). No new MAW/IAW St. Louis-area alerts (IDs 145740-145761 checked, all out of region; next probe ~145762). stlwater outages page (2:30 PM 11/19, verified): Carter/N Euclid outage not listed (already monitoring); Howard/19th still out, ETR 9:37 PM; N Kingshighway/Penrose-Lillian ETR 11/27; Plover/Lillian and Union/Bircher still listed past ETR. MAW 145690 Webster Groves (8 AM, 6-8 hr), 145722 County planned (11 AM-4 PM) and IAW 145550 Alton unchanged. No City/County boil advisory; WashU Alert none; Danforth and Medical Facilities no water notices; Jolley/Cupples lift still unposted. KFVS (11:37 AM) unchanged. No local news or social reports dated 11/18-19. Gaps: MSD, Kirkwood, MO DNR, BJC/Cortex/Loop own pages, MoDOT not checked; X/Facebook/Nextdoor indexing thin.",
+    "open_count": 238,
+    "run_at": "2026-11-19T20:45:00Z",
     "top_incident": "Ring 1: Missouri American Water alert 145298, University City planned work 11/18 — still posted, no completion notice; monitoring; impact possible (low). No City or County boil advisory."
   },
   "incidents": [
@@ -5071,6 +5071,24 @@
         "https://www.stlwater.com/wateroos.php"
       ],
       "status": "monitoring",
+      "title": "City of St. Louis Water Division main repair, Eichelberger St & Alaska Ave (south City)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 2:45 PM CT 11/19 (supervisor, stlwater outages page stamped 2:30 PM 11/19): main-repair work order initiated 1:30 PM 11/19; no service outage row listed; no City boil advisory. Same intersection as the 11/9 work order (monitoring), so possibly a repeat repair. South City, roughly 5 mi SE of Danforth and Medical Campus (estimate); no WashU asset; not a Ring 1 corridor. Impact none. Resolve when dropped from the page. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-19T20:45:00Z",
+      "id": "stlwater-stlouiscity-eichelberger-alaska-20261119",
+      "last_updated": "2026-11-19T20:45:00Z",
+      "location": "Eichelberger St & Alaska Ave, St. Louis City (south City, 63111/63116 area)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages/"
+      ],
+      "status": "open",
       "title": "City of St. Louis Water Division main repair, Eichelberger St & Alaska Ave (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
