@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "9:40 AM CST 11/19 four-lane run. Nothing new in Rings 1-3; no tracked incident changed. stlwater wateroos.php (9:30 AM 11/19) same 5 outages: Carter/N Euclid and Penrose/Euclid (ETR 11/26), Plover/Lillian, Union & Brown, Union & Bircher (last three past ETR, likely stale); no Street Closures on Ring 1 corridors. MAW 145298 unchanged. ID probe 145651-145665 all blank (145650 = Baldwin Boro PA, out of region); next run start at 145666. MAW alerts index rendered no entries (script-driven); MAW boil page returned client error this run. City news newest 8/25. WashU Alert none; Facilities: Jolley/Cupples and Wallace Dr unchanged; Medical Campus Facilities no potable-water shutdowns; Metro rider alerts no water-main detours near Ring 1. KFVS: Dunklin PWSD 3 and Pope Co. Millstone still active; Lakeside Water lift already resolved. Social lane: no dated posts. Gaps: MSD, Kirkwood, MO DNR dataset, BJC, Cortex, Delmar Loop, MoDOT, Post-Dispatch, STLPR, Reddit/X/Facebook/Nextdoor.",
-    "open_count": 229,
-    "run_at": "2026-11-19T15:40:00Z",
-    "top_incident": "Ring 1: Missouri American Water alert 145298, University City planned work Wed 11/18 8 AM-~2 PM; page still posted with no completion note (re-read 9:35 AM 11/19); impact possible (low). No City or County boil advisory."
+    "note": "10:40 AM CST 11/19 four-lane run. New Ring 2 only: City Water outages Knapp St (Madison-Howard) and Howard St (19th-20th), north downtown, both since ~9:40 AM, ETR ~9:40 PM, impact none. Nothing new in Ring 1; no tracked incident changed. wateroos.php (10:30 AM) still shows Carter/N Euclid and Penrose/Euclid (ETR 11/26), Plover/Lillian, Union & Brown, Union & Bircher (past ETR, likely stale); 6815 Dale Ave no longer on main-repair list (completion unconfirmed, left open). /outages page stale since 1:30 PM 11/18. MAW boil page: none; MO DNR newest 10/28. MAW/IAW alert ID probe 145666-145705 failed (detail pages render shell only); next run start at 145666. WashU Alert none; Danforth Facilities only generator tests; Medical Campus Facilities no potable-water notices; Metro no water-main detours near Ring 1. KFVS list unchanged. Social: Reddit blocked, no dated posts. Gaps: MAW/IAW alerts, MSD, Kirkwood, BJC, Cortex, Delmar Loop, MoDOT.",
+    "open_count": 231,
+    "run_at": "2026-11-19T16:40:00Z",
+    "top_incident": "Ring 1: Missouri American Water alert 145298, University City planned work Wed 11/18 8 AM-~2 PM; not re-verified this run (MAW alert pages unreadable); impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -5111,6 +5111,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 10:40 AM CT 11/19 (Lane 1 only, stlwater wateroos.php as of 10:30 AM): out of service since 9:37 AM 11/19, ETR 9:37 PM 11/19, crews working; no boil advisory. Few blocks from Knapp/Madison outage (possibly linked). ~4 mi E of Medical Campus; not a Ring 1 corridor; no WashU asset. Impact none. Resolve when dropped from the outages list. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-19T16:40:00Z",
+      "id": "stlwater-stlouiscity-howard-19th-20261119",
+      "last_updated": "2026-11-19T16:40:00Z",
+      "location": "Howard St between N 19th St and N 20th St, St. Louis City (63106)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outage, Howard St between 19th St and 20th St (near north downtown)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 7:45 AM CT 11/4 (Lane 4, verified by supervisor on City Water table stamped 7:30 AM 11/4): Itaska St Clifton–Tamm service outage (out since 6:32 PM 11/2) no longer appears in the Current Outage table; Itaska Dr & Clifton (11/2 2:07 PM) remains only in Recent Main Repairs. Treated as restored per utility page, ~37 hr after start; restoration time not stated. No boil advisory was ever posted. South City, Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-02T20:40:00Z",
@@ -5204,6 +5222,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division service outage, January Ave & Nottingham Ave (Lindenwood Park / St. Louis Hills)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 10:40 AM CT 11/19 (Lane 1 only, stlwater wateroos.php as of 10:30 AM): out of service since 9:42 AM 11/19, ETR 9:42 PM 11/19, crews working; no boil advisory. Few blocks from Howard/19th outage (possibly linked). ~4 mi E of Medical Campus; not a Ring 1 corridor; no WashU asset. Impact none. Resolve when dropped from the outages list. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-19T16:40:00Z",
+      "id": "stlwater-stlouiscity-knapp-madison-20261119",
+      "last_updated": "2026-11-19T16:40:00Z",
+      "location": "Knapp St between Madison St and Howard St, St. Louis City (63106)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outage, Knapp St between Madison St and Howard St (near north downtown)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
