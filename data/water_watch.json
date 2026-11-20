@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "2:40 AM CST 11/20 four-lane run: no new or changed incidents in any ring. New Madrid County PWSD 2 (Hwy 61) and Millstone (Pope Co IL) already tracked; KFVS list unchanged since 11:37 AM 11/19. City Water outage page still stamped 2:30 PM 11/19, all six tracked rows still listed (Howard/19th, Plover/Lillian, Union/Brown, Union/Bircher past ETR); missing rows not treated as cleared. New City repair rows Eichelberger/Alaska and St. Louis Ave/Norwood are routine, outside Ring 1. AW IDs 145798-145830 sampled, all empty; 145797 is South Charleston (out of region). MAW alerts index shows none. WashU Alert none active; Facilities: no new water items, Jolley/Cupples and Wallace Dr still unposted. Med Campus non-water: MCC pedestrian link closed 11/20 1:30-3 PM. stlwater.com 'Boil Advisory Currently In Effect' page (?p=9725) is an undated stale page from summer 2026, not current. Gaps: MAW boil page errored; MoDNR boil data did not load; MSD, Kirkwood, BJC, Cortex/Loop, MoDOT not opened; social lane thin.",
-    "open_count": 249,
-    "run_at": "2026-11-20T08:40:00Z",
+    "note": "3:40 AM CST 11/20 four-lane run: no new or changed incidents in Rings 1-2. New Ring 3 only: Warsaw MO citywide boil advisory (KY3 11/18), impact none. AW IDs 145794-145797 are out of region (CA, PA, WV); 145798-145840 sampled empty. MAW boil page none; MoDNR dataset newest 10/28 (Niangua), none in St. Louis region. City Water outage page still stamped 2:30 PM 11/19, rows unchanged; Union/Bircher, Plover/Lillian, Union/Brown, Howard/19th past ETR but still listed. Ring 1 MAW detail pages 145298, 144457, 144021, 143300 still load with no completion text (likely stale). KFVS list unchanged since 11:37 AM 11/19. WashU Alert none; Facilities: no water items; Jolley/Cupples post was titled 10/29-10/31 (window ended, no lift posted); Wallace Dr window 11/12-13 elapsed, no completion post. stlwater.com ?p=9725 boil page is the stale August 2026 event. Gaps: MAW alerts index did not render; BJC, Cortex, Forest Park Forever, MoDOT, Metro, Clayton news not opened; X/Facebook unreachable.",
+    "open_count": 250,
+    "run_at": "2026-11-20T09:40:00Z",
     "top_incident": "Ring 1: Missouri American Water alert 145298, University City planned work 11/18, still posted with no completion notice; impact possible (low). No City or County boil advisory."
   },
   "incidents": [
@@ -6427,6 +6427,24 @@
       "status": "resolved",
       "title": "City of St. Louis Water Division service outage, William Pl between Ashland Ave and Lexington Ave (north City)",
       "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 3:40 AM CT 11/20 (Lane 4 only, KY3 posted 1:05 PM CT 11/18): citywide boil advisory remains in effect until further notice; city awaiting repair parts, testing to follow. ~170 road mi WSW of St. Louis; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-20T09:40:00Z",
+      "id": "warsaw-warsaw-citywide-20261118",
+      "last_updated": "2026-11-20T09:40:00Z",
+      "location": "Citywide Warsaw, MO (Benton County; no streets listed)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://www.ky3.com/2026/11/18/boil-advisory-remains-effect-warsaw-mo/"
+      ],
+      "status": "open",
+      "title": "City of Warsaw, MO citywide boil advisory pending main repair parts",
+      "utility": "City of Warsaw, MO",
       "washu_impact": "none"
     },
     {
