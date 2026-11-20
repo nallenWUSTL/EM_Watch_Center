@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "7:40 PM CST 11/19 four-lane run: no new St. Louis City/County incidents. ID probe 145773-145787 all hits; 145774 (St. Louis County) and 145775 (Florissant) were already tracked; new Ring 3 item 145784 (Jefferson City investigation). IAW 145786 extends the Lincoln IL boil order; IAW 145787 posts an untied Peoria lift (11/18 event moved to monitoring). Other hits out of region (WV, PA, CA, IN). Misses 145788-145815 (partial). stlwater outages page unchanged since 2:30 PM (6 entries, all tracked); Current Advisories empty. WashU Alert no active alerts; no Danforth or Medical Facilities water notices. KFVS list (11:37 AM): New Madrid PWSD 2 (issued 11/19, tracked), Dunklin PWSD 3, Millstone still in effect. MO DNR recent orders all SW/central MO. Gaps: KSDK/FOX 2 blocked, Reddit blocked, X/Facebook not reachable, MSD and Kirkwood not checked; Gower MO boil advisory (KQ2, 11/18) unverified. Next probe starts at 145788.",
+    "note": "8:40 PM CST 11/19 four-lane run: no new or changed incidents in St. Louis City/County or Metro East. ID probe 145788-145790 all out of region (IA, CA); misses 145791-145799, 145801, 145803, 145805, 145810, 145815, 145820. Next probe starts at 145791. stlwater outages page unchanged since 2:30 PM (6 entries, all tracked; N Kingshighway/Penrose ETR 11/27 and Penrose/Euclid ETR 11/26 already recorded); Current Advisories empty. MO DNR dataset newest 10/28, none in region. WashU Alert no active alerts; Danforth and Medical Facilities news have no water items. KFVS list: New Madrid PWSD 2, Dunklin PWSD 3, Millstone still in effect (tracked); Lakeside Water lift already recorded. Gaps: KSDK index, Reddit, X/Facebook/Nextdoor not reachable; MSD, Kirkwood, BJC, Cortex, MoDOT not checked; claytonmo.gov failed to load; Gower MO advisory still unverified; undated FOX 2 N Hanley Rd/Forest Park Pkwy break story not tied to this week.",
     "open_count": 244,
-    "run_at": "2026-11-20T01:40:00Z",
+    "run_at": "2026-11-20T02:40:00Z",
     "top_incident": "Ring 1: Missouri American Water alert 145298, University City planned work 11/18. It is still in monitoring with no completion notice; impact possible (low). No City or County boil advisory."
   },
   "incidents": [
