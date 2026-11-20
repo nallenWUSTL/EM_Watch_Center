@@ -1,0 +1,186 @@
+{
+  "bluf": "Nothing crossed a charter threshold overnight: no NWS products for St. Louis, no Ring 1 violence in 72 h, no threat naming WashU, no outage at a WashU asset. Today is preparation: a stacked Saturday led by WashU hosting an NCAA women's soccer Sweet 16 on Francis Field at 11:00, MetroLink Lambert station closures ahead of break travel, and a Java4Shell patch decision for WashU IT. Sunday morning rain, then a hard freeze Mon-Thu as halls empty Wednesday.",
+  "briefing_url": "https://claude.ai/artifact/QEGTN5eobH9JB55h4r6Brj",
+  "date": "2026-11-20",
+  "dissents": [
+    {
+      "note": "Vanderbilt verified; scored Sev 3 absent WashU indicator. On-call and offline-backup checks adopted into Java4Shell action.",
+      "title": "Red Team: holiday ransomware underrated (Sev 4)",
+      "verdict": "Carried as dissent, partly adopted"
+    },
+    {
+      "note": "Freeze tied to Wed vacancy. Thunder/timing rejected: based on Nov 16-18 forecasts; today's NWS has rain ending Sun noon, no thunder.",
+      "title": "Red Team: Sunday front and freeze underrated",
+      "verdict": "Adopted in part"
+    },
+    {
+      "note": "Overrules Policy lane; Dec 11 outside window, moved to Monitor.",
+      "title": "Red Team: federal shutdown overrated",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Sev 2 kept; pre-break messaging window closes Tuesday so stays This week.",
+      "title": "Red Team: early flu surge overrated",
+      "verdict": "Rejected"
+    },
+    {
+      "note": "Unlikely: rain ends Sun noon, Sun low 34, Mon sunny. Recheck Sunday evening NWS.",
+      "title": "Red Team scenario: Monday flash freeze / black ice",
+      "verdict": "Carried as scenario"
+    }
+  ],
+  "lanes_quiet": [
+    2,
+    3,
+    6
+  ],
+  "lookahead": [
+    {
+      "date": "2026-11-20",
+      "dow": "Fri",
+      "loads": "Garden Glow 21+ night (R2); Loop shows",
+      "stacked": false,
+      "wx": "Sunny, 72/47"
+    },
+    {
+      "date": "2026-11-21",
+      "dow": "Sat",
+      "loads": "NCAA soccer Sweet 16 Francis Field 11:00 (R1); parade + Winterfest 14:00 (R2); Blues 18:00 (R2)",
+      "stacked": true,
+      "wx": "Sunny, 73/55; 30% rain after midnight"
+    },
+    {
+      "date": "2026-11-22",
+      "dow": "Sun",
+      "loads": "Possible Elite Eight 13:00 + women's basketball 13:00 (R1); Blues 18:00 (R2)",
+      "stacked": true,
+      "wx": "Rain to ~noon (90%), 62/34, NW gusts 23 mph"
+    },
+    {
+      "date": "2026-11-23",
+      "dow": "Mon",
+      "loads": "CITY SC playoff vs LAFC 19:00 (R2)",
+      "stacked": false,
+      "wx": "Sunny, 48/30"
+    },
+    {
+      "date": "2026-11-24",
+      "dow": "Tue",
+      "loads": "Pre-break departures begin",
+      "stacked": false,
+      "wx": "Mostly sunny, 45/28"
+    },
+    {
+      "date": "2026-11-25",
+      "dow": "Wed",
+      "loads": "Break starts, departure surge; travel-eve nightlife; freeze-protection deadline",
+      "stacked": true,
+      "wx": "Mostly sunny, 43/26"
+    },
+    {
+      "date": "2026-11-26",
+      "dow": "Thu",
+      "loads": "Thanksgiving; Turkey Trot Forest Park 08:00 (R1); holiday staffing",
+      "stacked": true,
+      "wx": "Mostly sunny, high 44"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "watch",
+      "summary": "No NWS products. Sunday rain to ~noon, NW gusts 23 mph; hard freeze Mon-Thu (lows 30/28/26) - freeze-protect vacated buildings before Wed. Dry fuels at Tyson."
+    },
+    {
+      "name": "Life-safety threats",
+      "pir": 2,
+      "status": "quiet",
+      "summary": "Nothing at threshold in 72 h. Hoax/swatting pattern (UIUC Nov 11) - refresh verification and alert templates this week."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "quiet",
+      "summary": "No advisories, college outbreaks or diversion found. Early national H1N1 rise; pre-break Habif messaging. MO measles 24 cases, no STL exposures."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "watch",
+      "summary": "Java4Shell patch decision today; MetroLink closures. Vanderbilt BYOD ransomware and Node2Shell exploitation - holiday cyber posture. No CISA ED found."
+    },
+    {
+      "name": "Scheduled activity, next 7 days",
+      "pir": 5,
+      "status": "watch",
+      "summary": "Stacked Sat and Sun on Danforth; CITY SC playoff Mon 19:00; break Wed Nov 25; Turkey Trot Thu 08:00 in Forest Park."
+    },
+    {
+      "name": "Policy, legal, funding",
+      "pir": 6,
+      "status": "quiet",
+      "summary": "Stopgap funding to Dec 11 (Monitor). MO pre-filing Dec 1. No new Level 3/4 advisories since Oct 23."
+    }
+  ],
+  "posture": "Normal",
+  "published_at": "2026-11-20T11:59:40Z",
+  "run_note": "All 7 lanes reported; charter read OK. Run 05:53-06:00 CT. Only Sev 4 (Red Team ransomware) re-verified and scored 3.",
+  "title": "WashU EM Daily Intelligence Briefing, November 20, 2026",
+  "today_items": [
+    {
+      "action": "Confirm game-day staffing and parking Sat; contingent plan for two simultaneous 13:00 events Sun.",
+      "confidence": "High",
+      "likelihood": "Occurring",
+      "owner": "WUPD, Facilities",
+      "pir": 5,
+      "rank": 1,
+      "severity": 2,
+      "source": "https://studlife.com/sports/2026/11/18/no-3-womens-soccer-dominates-in-tournament-doubleheader-moves-on-to-the-sweet-16",
+      "title": "Weekend stacked load, Danforth (NCAA soccer Sweet 16 Sat 11:00; possible Elite Eight + WBB Sun 13:00; Blues; parade)",
+      "ttd": "Today"
+    },
+    {
+      "action": "Add closures, North Hanley shuttle, extra travel time and accessible alternatives to pre-break student messaging.",
+      "confidence": "Medium",
+      "likelihood": "Occurring",
+      "owner": "Student Affairs, Communications",
+      "pir": 4,
+      "rank": 2,
+      "severity": 2,
+      "source": "https://www.metrostlouis.org/rider-alerts/",
+      "title": "MetroLink work during break departures (Lambert stations closed, Blue Line cut back, FP-DeBaliviere elevator out)",
+      "ttd": "Today"
+    },
+    {
+      "action": "Inventory Java runtimes incl. vendor-bundled; patch internet-facing first; coordinate with BJC; confirm holiday IT security on-call.",
+      "confidence": "High",
+      "likelihood": "Medium",
+      "owner": "WashU IT",
+      "pir": 4,
+      "rank": 3,
+      "severity": 3,
+      "source": "https://therecord.media/cisa-issues-java4shell-alert",
+      "title": "Java4Shell critical OpenJDK flaw (CVE-2026-114938)",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "Weekend stacked load: NCAA women's soccer Sweet 16 at Francis Field Sat 11:00 (possible Elite Eight Sun 13:00 overlapping women's basketball), Blues Sat/Sun, downtown parade Sat 14:00. WUPD/Facilities confirm staffing and parking.",
+  "unreachable": [
+    "cisa.gov news page",
+    "Health-ISAC Nov 20 headlines",
+    "SPC current outlooks",
+    "NWS river gauges",
+    "AirNow St. Louis AQI",
+    "api.weather.gov (proxy-blocked)",
+    "Ameren/Spire/water outage maps",
+    "MoDOT 2026 work zones",
+    "Clayton PD weekly report",
+    "U City PD and County PD releases (not checked)",
+    "calendar.washu.edu",
+    "NCAA bracket page",
+    "fox2now.com",
+    "CNBC funding article",
+    "BJC diversion status (not public)"
+  ]
+}
