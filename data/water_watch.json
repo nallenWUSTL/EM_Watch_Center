@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "1:40 AM CST 11/20 four-lane run: no new or changed incidents in Rings 1-2. New Ring 3 only: Lewistown MO 48-hr boil advisory (WGEM 11/19) and MAW Joplin 145793 (possible repost of 145769). City Water outage page still stamped 2:30 PM 11/19 (Kingshighway/Lillian ETR 11/27, Penrose/Euclid ETR 11/26; Howard/19th, Plover/Lillian, Union/Brown, Union/Bircher past ETR); missing rows not treated as cleared. MAW boil page none; KFVS list unchanged since 11:37 AM 11/19. WashU Alert none active; Facilities: no new water items, Jolley/Cupples and Wallace Dr still unposted. Non-water: Forest Park prescribed burn possible 11/20 8 AM-4 PM; Barnes-Jewish Plaza drop-off closed 11/21 6-9:30 AM (crane). AW IDs 145788-145797 live (out of state except 145793); 145798-145811 mostly empty. Gaps: MoDNR boil data returned nothing; IAW, MSD, Kirkwood, BJC, Cortex/Loop, MoDOT not opened; KSDK/KMOV/FOX 2 article pages mostly blocked; social lane found nothing dated.",
+    "note": "2:40 AM CST 11/20 four-lane run: no new or changed incidents in any ring. New Madrid County PWSD 2 (Hwy 61) and Millstone (Pope Co IL) already tracked; KFVS list unchanged since 11:37 AM 11/19. City Water outage page still stamped 2:30 PM 11/19, all six tracked rows still listed (Howard/19th, Plover/Lillian, Union/Brown, Union/Bircher past ETR); missing rows not treated as cleared. New City repair rows Eichelberger/Alaska and St. Louis Ave/Norwood are routine, outside Ring 1. AW IDs 145798-145830 sampled, all empty; 145797 is South Charleston (out of region). MAW alerts index shows none. WashU Alert none active; Facilities: no new water items, Jolley/Cupples and Wallace Dr still unposted. Med Campus non-water: MCC pedestrian link closed 11/20 1:30-3 PM. stlwater.com 'Boil Advisory Currently In Effect' page (?p=9725) is an undated stale page from summer 2026, not current. Gaps: MAW boil page errored; MoDNR boil data did not load; MSD, Kirkwood, BJC, Cortex/Loop, MoDOT not opened; social lane thin.",
     "open_count": 249,
-    "run_at": "2026-11-20T07:40:00Z",
+    "run_at": "2026-11-20T08:40:00Z",
     "top_incident": "Ring 1: Missouri American Water alert 145298, University City planned work 11/18, still posted with no completion notice; impact possible (low). No City or County boil advisory."
   },
   "incidents": [
