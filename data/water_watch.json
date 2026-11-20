@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "2:40 PM CST 11/20 four-lane run: no new incidents and no confirmed updates. The American Water ID probe found 145794-145797 (Sacramento CA, Citrus Heights CA, Camp Hill, South Charleston), all out of region and not tracked. The City Water outages page is still stamped 2:30 PM 11/19 (stale). Gasconade/S Broadway and the Union Blvd valve order are no longer listed, but they are kept open because the page is stale. MoDNR (latest 10/28), City news (latest 8/25) and KFVS (11:37 AM 11/19) show no St. Louis-area boil orders. New Madrid PWSD2, Dunklin PWSD3, Millstone and Warsaw are still in effect. WashU Alert has no active alerts. WashU Facilities has no new water notices. Jolley/Cupples has no posted lift (its notice gave an end time of 10/31; worth confirming with Facilities). The Wallace Dr window has passed with no completion notice. Medical Campus Facilities lists only non-water items. Social searches turned up nothing current. The undated Bridgeton/Maryland Heights MAW advisory and the March South City advisory are old. Not covered: the MAW alerts index (renders by script), MSD, Kirkwood, BJC, Cortex, Loop, MoDOT, and the Clayton and U City municipal pages.",
-    "open_count": 225,
-    "run_at": "2026-11-20T20:40:00Z",
-    "top_incident": "Ring 1: Missouri American Water alerts in University City (145298 planned 11/18; 144457, 144507), Clayton (144021) and Richmond Heights (143300) are still carried with no completion notice; impact possible (low). There is no City or County boil advisory."
+    "note": "3:45 PM CST 11/20 four-lane run. The City Water outage page is fresh (3:30 PM 11/20, 5 outages and 19 work orders), and the supervisor verified it. New Ring 2: the Riverview/Jordan outage (out 1:19 PM, restoration expected 1:19 AM 11/21) and a Lynch/S Broadway main repair. Reopened: the Riverview/N Broadway and Eichelberger/Alaska work orders, which are listed again; the 4:35 AM resolution was based on a truncated page. Resolved because they are no longer listed: Gasconade/S Broadway, Plover, Union Bircher-Brown and the Union valve. The N Kingshighway/Penrose and Penrose/Euclid restorations moved to 11/27 and 11/26. Howard and Union Brown-I-70 are still listed with lapsed estimates. New Ring 1: the Tao Tennis chilled-water repair. Jolley/Cupples has no lift notice and Wallace Dr has no completion notice. The MAW/IAW alert pages render by script, so 145798+ could not be probed. MoDNR is latest 10/28; KFVS is unchanged since 11:37 AM 11/19; WashU Alert has none active. Social searches found nothing current. Not covered: MSD, BJC, Cortex, the Loop, MoDOT, and the Clayton (failed) and U City pages.",
+    "open_count": 227,
+    "run_at": "2026-11-20T21:45:00Z",
+    "top_incident": "Ring 1 (new): WashU Facilities chilled-water leak repair west of Tao Tennis Courts, Danforth, Nov 25 to Dec 7, 7 AM-3 PM, with a partial fire-lane closure. It is not potable water; impact possible (low). MAW alerts in University City, Clayton and Richmond Heights are still carried. There is no City or County boil advisory."
   },
   "incidents": [
     {
@@ -5259,18 +5259,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Resolved 4:35 AM CT 11/20 (Lane 1): no longer listed on the City Water outage/repair table stamped 4:30 AM 11/20, which now shows only 7 rows; treated as restored per utility page (restoration not explicitly stated). No City boil advisory posted. Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
+      "assessment": "Reopened 3:45 PM CT 11/20 (Lane 1; verified by supervisor on City Water page stamped 3:30 PM 11/20): main repair work order (opened 1:30 PM 11/19) is listed again. The 4:35 AM 11/20 resolution relied on a truncated 7-row page and was premature. South City; no outage or boil order; no WashU asset; impact none. Resolve when dropped. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-19T20:45:00Z",
       "id": "stlwater-stlouiscity-eichelberger-alaska-20261119",
-      "last_updated": "2026-11-20T10:35:00Z",
+      "last_updated": "2026-11-20T21:45:00Z",
       "location": "Eichelberger St & Alaska Ave, St. Louis City (south City, 63111/63116 area)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/outages/"
       ],
-      "status": "resolved",
+      "status": "open",
       "title": "City of St. Louis Water Division main repair, Eichelberger St & Alaska Ave (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -5315,11 +5315,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 9:40 AM CT 11/20 (Lane 1): current City Water outage table (stamped 9:30 AM 11/20) still lists the row, start 1:57 AM 11/20, ETR 7:57 AM 11/20, now past its ETR with no completion shown. This resolves last run's stale-snapshot question. No boil advisory. South riverfront, ~4 mi from the Medical Campus; Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 3:45 PM CT 11/20 (Lane 1; supervisor re-opened the City Water outage page, refreshed and stamped 3:30 PM 11/20, 5 outages and 19 work orders listed): Gasconade/S Broadway outage no longer listed; treated as restored per utility page. No WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-19T10:40:00Z",
       "id": "stlwater-stlouiscity-gasconade-sbroadway-20261119",
-      "last_updated": "2026-11-20T15:40:00Z",
+      "last_updated": "2026-11-20T21:45:00Z",
       "location": "Gasconade St between S Broadway and 1st St, St. Louis City (south riverfront)",
       "ring": 2,
       "single_source": true,
@@ -5328,7 +5328,7 @@
         "https://www.stlwater.com/outages",
         "https://www.stlwater.com/outages.php"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "City of St. Louis Water Division service outage, Gasconade St between S Broadway and 1st St (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -5579,6 +5579,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 3:45 PM CT 11/20 (Lane 1; verified by supervisor): main repair work order opened 11:26 AM 11/20; no outage listed for it, no restoration time, no boil order. ~4-5 mi SE of the Medical Campus; not on a Medical Campus route corridor. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-20T21:45:00Z",
+      "id": "stlwater-stlouiscity-lynch-sbroadway-20261120",
+      "last_updated": "2026-11-20T21:45:00Z",
+      "location": "Lynch St & S Broadway, St. Louis City (Soulard / Benton Park)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division main repair work order, Lynch St & S Broadway (Soulard / Benton Park)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 11:40 PM CT 11/4 under the 48-hour rule (Lanes 1 and 4, City Water table stamped 11:30 PM 11/4): the 9:57 AM 11/2 main repair at Marcus Ave & Cupples Pl has stayed only in the repair list for ~61 hours; no service outage was ever posted and no boil advisory. Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-02T16:31:00Z",
@@ -5789,11 +5807,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 4:35 AM CT 11/20 (Lane 1): still listed on the City Water table (4:30 AM 11/20) with ETR 7:14 PM 11/27. North City; N Kingshighway here is ~4+ mi north of the Medical Campus, not the CWE segment; Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 3:45 PM CT 11/20 (Lane 1; verified by supervisor on page stamped 3:30 PM 11/20): still listed; out of service 11:14 AM 11/19, estimated restoration now 7:14 PM Thu 11/27 (multi-day). North City, north of Delmar; not the Central West End Kingshighway corridor serving the Medical Campus. No boil order. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-19T18:45:00Z",
       "id": "stlwater-stlouiscity-nkingshighway-penrose-20261119",
-      "last_updated": "2026-11-20T10:35:00Z",
+      "last_updated": "2026-11-20T21:45:00Z",
       "location": "N Kingshighway Blvd between Penrose St and Lillian Ave, St. Louis City (north City)",
       "ring": 2,
       "single_source": true,
@@ -5955,11 +5973,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 4:35 AM CT 11/20 (Lane 1): still listed on the City Water table (4:30 AM 11/20) with ETR 8:32 PM 11/26. North City; Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 3:45 PM CT 11/20 (Lane 1; verified by supervisor on page stamped 3:30 PM 11/20): still listed; out of service 12:32 PM 11/18, estimated restoration now 8:32 PM Thu 11/26 (multi-day). North City; no WashU asset; no boil order. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-18T19:45:00Z",
       "id": "stlwater-stlouiscity-penrose-euclid-20261118",
-      "last_updated": "2026-11-20T10:35:00Z",
+      "last_updated": "2026-11-20T21:45:00Z",
       "location": "Penrose St between Euclid Ave and N Kingshighway Blvd, St. Louis City (north City)",
       "ring": 2,
       "single_source": true,
@@ -5973,18 +5991,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 12:40 AM CT 11/18 (Lane 1, City wateroos.php table stamped 12:30 AM 11/18): Plover Ave between Lillian and Thrush still listed out of service past its 12:17 AM ETR; no revised estimate; no boil advisory. North City, ~7-9 mi NE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from the outage table. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 3:45 PM CT 11/20 (Lane 1; supervisor re-opened the City Water outage page, stamped 3:30 PM 11/20, full list): Plover Ave outage no longer listed; treated as restored per utility page. No WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-18T00:40:00Z",
       "id": "stlwater-stlouiscity-plover-lillian-20261117",
-      "last_updated": "2026-11-18T06:40:00Z",
+      "last_updated": "2026-11-20T21:45:00Z",
       "location": "Plover Ave between Lillian Ave and Thrush Ave, north St. Louis City",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/wateroos.php"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "City of St. Louis Water Division service outage, Plover Ave between Lillian Ave and Thrush Ave (north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -6067,18 +6085,36 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Resolved 4:35 AM CT 11/20 (Lane 1): no longer listed on the City Water outage/repair table stamped 4:30 AM 11/20, which now shows only 7 rows; treated as restored per utility page (restoration not explicitly stated). No City boil advisory posted. Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
+      "assessment": "New 3:45 PM CT 11/20 (Lane 1; outage page re-opened by supervisor, stamped 3:30 PM 11/20): taken out of service 1:19 PM 11/20, est. restoration 1:19 AM 11/21; no boil order posted. Likely tied to the Riverview & N Broadway main-repair work order (inference). Roughly 7-9 mi NE of North Campus; no WashU asset. Impact none. Resolve when dropped from the outage list. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-20T21:45:00Z",
+      "id": "stlwater-stlouiscity-riverview-jordan-20261120",
+      "last_updated": "2026-11-20T21:45:00Z",
+      "location": "Riverview Blvd between Jordan Ave and N Broadway, St. Louis City (far north City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division service outage, Riverview Blvd between Jordan Ave and Broadway (far north City)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "Reopened 3:45 PM CT 11/20 (Lane 1; verified by supervisor on City Water page stamped 3:30 PM 11/20): main repair work order (opened 5:35 PM 11/19) is listed again. The 4:35 AM 11/20 resolution relied on a truncated 7-row page and was premature. A new Riverview/Jordan outage (1:19 PM 11/20) is probably linked. ~7-9 mi NE of North Campus; no WashU asset; impact none. Resolve when dropped. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-20T03:40:00Z",
       "id": "stlwater-stlouiscity-riverview-nbroadway-20261119",
-      "last_updated": "2026-11-20T10:35:00Z",
+      "last_updated": "2026-11-20T21:45:00Z",
       "location": "Riverview Blvd & N Broadway, north St. Louis City (Baden / riverfront)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/outages"
       ],
-      "status": "resolved",
+      "status": "open",
       "title": "City of St. Louis Water Division main repair, Riverview Blvd & N Broadway",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -6319,11 +6355,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 1:40 AM CT 11/17 (Lane 1, outages.php stamped 1:30 AM 11/17): Union Blvd (Bircher–Brown) still listed as an active outage; began 9:58 AM 11/13, 7:58 PM 11/13 ETR now >3 days overdue; Union Blvd valve repair work order also still listed. No boil advisory. North City, Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 3:45 PM CT 11/20 (Lane 1; supervisor re-opened the City Water outage page, stamped 3:30 PM 11/20, full list): Union Blvd Bircher-Brown outage no longer listed; treated as restored per utility page. Union Blvd Brown-to-I-70 remains listed under its own record. No WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-13T17:40:00Z",
       "id": "stlwater-stlouiscity-union-bircher-20261113",
-      "last_updated": "2026-11-17T07:40:00Z",
+      "last_updated": "2026-11-20T21:45:00Z",
       "location": "Union Blvd between Bircher Blvd and Brown Ave, St. Louis City (north City)",
       "ring": 2,
       "single_source": false,
@@ -6332,18 +6368,18 @@
         "https://www.stlwater.com/wateroos.php",
         "https://www.stlwater.com/outages.php"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "City of St. Louis Water Division service outage, Union Blvd between Bircher Blvd and Brown Ave (north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 1:40 PM CT 11/11 (Lane 4, City Water outage page stamped 1:30 PM 11/11): Union Blvd valve repair (logged 10:51 AM 11/10) no longer listed; page states no active water main outages; no boil advisory. First read of the drop, so moved to monitoring, not resolved; resolve on a second consistent read. ~1-1.5 mi E of Danforth and the Delmar Loop; not a Ring 1 corridor. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 3:45 PM CT 11/20 (supervisor re-opened the City Water outage page, stamped 3:30 PM 11/20): no Union Blvd valve repair among the 19 listed work orders; treated as complete per utility page. No WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Low",
       "first_seen": "2026-11-10T17:40:00Z",
       "id": "stlwater-stlouiscity-unionblvd-20261110",
-      "last_updated": "2026-11-11T19:40:00Z",
+      "last_updated": "2026-11-20T21:45:00Z",
       "location": "Union Blvd, St. Louis City (block and cross street not published on work-order table)",
       "ring": 2,
       "single_source": true,
@@ -6351,7 +6387,7 @@
         "https://www.stlwater.com/wateroos.php?t=L4x1110a",
         "https://www.stlwater.com/outages.php"
       ],
-      "status": "monitoring",
+      "status": "resolved",
       "title": "City of St. Louis Water Division valve repair, Union Blvd (block not published)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -6472,6 +6508,27 @@
       "title": "WashU Facilities no-water-use order, Jolley Hall and Cupples II Hall (Danforth Campus)",
       "utility": "WashU Facilities / Utility Operations (building water service)",
       "washu_impact": "confirmed"
+    },
+    {
+      "affected_assets": [
+        "Danforth Campus"
+      ],
+      "assessment": "New 3:45 PM CT 11/20 (Lane 3 only, Facilities news listing posted 11/20): planned excavation to repair an underground chilled-water leak, Wed 11/25 to Mon 12/7, 7 AM-3 PM; part of the fire lane and sidewalk closed. Chilled-water (cooling) loop, not potable supply; no domestic water loss or boil order indicated. On-campus Ring 1. Impact possible (low): partial fire-lane closure may affect emergency vehicle access; cooling to served buildings could be affected if the loop is isolated. Action: confirm fire-lane detour and FD access with Facilities and WUPD before 11/25; ask whether any buildings lose chilled water during the repair. Detour text not retrieved. Owner: Facilities / Emergency Management.",
+      "confidence": "Medium",
+      "first_seen": "2026-11-20T21:45:00Z",
+      "id": "washufacilities-danforth-taotennis-chilledwater-20261120",
+      "last_updated": "2026-11-20T21:45:00Z",
+      "location": "Fire lane and sidewalk just west of the Tao Tennis Courts, Danforth Campus (no street or cross street published)",
+      "ring": 1,
+      "single_source": true,
+      "sources": [
+        "https://facilities.wustl.edu/news/",
+        "https://facilities.wustl.edu/11-25-12-7-tao-tennis-courts-fire-lane-and-sidewalk-closure-for-chilled-water-leak-repair/"
+      ],
+      "status": "open",
+      "title": "WashU Facilities chilled-water leak repair, fire lane and sidewalk closure west of Tao Tennis Courts (Danforth), Nov 25-Dec 7",
+      "utility": "WashU Facilities (campus chilled-water system)",
+      "washu_impact": "possible"
     },
     {
       "affected_assets": [
