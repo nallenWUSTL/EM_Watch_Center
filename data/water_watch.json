@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "4:45 PM CST 11/20 four-lane run. No new or changed incidents. City Water outages (3:30 PM) and wateroos (4:30 PM) show the same 5 outages and 19 work orders; no Ring 1 corridor entries; Howard and Union Brown-I-70 still listed past estimates. City boil page: none current; an undated stlwater ?p=9725 boil page appears to be a leftover from the Aug 17 advisory and was not treated as live. MAW ID probe highest populated 145797 (145798-145801, 145805 empty); new IDs are all out of region or already tracked (Joplin 145793, Peoria lift 145787). Lane 2 items New Madrid CWD #2 and Warsaw MO were already tracked. WashU Alert none active; Facilities news unchanged; MoDNR latest 10/28. Social found nothing current; Reddit blocked. Not covered: MSD, Kirkwood, BJC, Cortex, Loop, MoDOT, municipal pages.",
-    "open_count": 227,
-    "run_at": "2026-11-20T22:45:00Z",
+    "note": "5:40 PM CST 11/20 four-lane run. No new or changed incidents. City Water outages page (stamped 3:30 PM) shows the same 5 outages; newest work orders are Lynch/S Broadway (tracked) and a routine Angelica/N 11th hydrant repair (no service impact, not recorded). No Ring 1 corridor entries; City boil advisories empty; City Water news latest 8/25. WashU Alert none active; Danforth and Medical Campus Facilities news have no new water items. KFVS list unchanged (New Madrid CWD #2 and Dunklin PWSD 3 still active, already tracked). Social found nothing current. Gap: MAW alert ID probe not run; alertsdetail.awapps.com and amwater.com alerts render only a shell via WebFetch and are proxy-blocked for curl. Not covered: MSD, Kirkwood, MoDNR primary pages, BJC, Cortex, Loop, MoDOT. Unverifiable undated items set aside: Clayton PD Nextdoor water-main post (blocked), KSDK cold-snap and Penrose/Blair stories (blocked).",
+    "open_count": 226,
+    "run_at": "2026-11-20T23:40:00Z",
     "top_incident": "No new or changed incidents. Carried Ring 1: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25 to Dec 7, with partial fire-lane closure; impact possible (low). Stale MAW alerts in University City, Clayton and Richmond Heights still posted without completion text. No City or County boil advisory."
   },
   "incidents": [
