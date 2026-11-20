@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "12:50 AM CST 11/20 four-lane run: no new or changed incidents in Rings 1-2. City Water outage page still stamped 2:30 PM 11/19: Kingshighway/Lillian (ETR 11/27), Penrose/Euclid (ETR 11/26); Howard/19th, Plover/Lillian, Union/Brown-I-70, Union/Bircher past ETR and still listed. Several tracked City rows (Knapp/Madison, Greer/Newstead, Carter/N Euclid, Dale, Cabanne/Academy, Gasconade/S Broadway, Brooklyn/N 9th, 41 Dock) not on the page; not treated as confirmed clearance. stlwater.com/?p=9725 boil post matches the Aug 17 advisory, an old page. MO DNR: no St. Louis-area boil orders. MAW boil page none. WashU Alert none active; Facilities no water items (Jolley/Cupples lift and Wallace Dr completion still unposted). Non-water: Med Campus Facilities notes possible Forest Park prescribed burn 11/20 (smoke). KFVS list (modified 11:37 AM 11/19): New Madrid PWSD 2, Dunklin PWSD 3, Millstone still in effect; many Ring 3 items absent from the list but lifts unconfirmed, so left as is. Gaps: MAW IDs 145801/145820/145840 empty (likely not yet issued; others unprobed); MAW alerts index empty; MoDNR report page and data.mo.gov blocked for Lane 2; MSD, BJC, Cortex/Loop, MoDOT not opened; social lane found nothing dated.",
-    "open_count": 247,
-    "run_at": "2026-11-20T06:50:00Z",
+    "note": "1:40 AM CST 11/20 four-lane run: no new or changed incidents in Rings 1-2. New Ring 3 only: Lewistown MO 48-hr boil advisory (WGEM 11/19) and MAW Joplin 145793 (possible repost of 145769). City Water outage page still stamped 2:30 PM 11/19 (Kingshighway/Lillian ETR 11/27, Penrose/Euclid ETR 11/26; Howard/19th, Plover/Lillian, Union/Brown, Union/Bircher past ETR); missing rows not treated as cleared. MAW boil page none; KFVS list unchanged since 11:37 AM 11/19. WashU Alert none active; Facilities: no new water items, Jolley/Cupples and Wallace Dr still unposted. Non-water: Forest Park prescribed burn possible 11/20 8 AM-4 PM; Barnes-Jewish Plaza drop-off closed 11/21 6-9:30 AM (crane). AW IDs 145788-145797 live (out of state except 145793); 145798-145811 mostly empty. Gaps: MoDNR boil data returned nothing; IAW, MSD, Kirkwood, BJC, Cortex/Loop, MoDOT not opened; KSDK/KMOV/FOX 2 article pages mostly blocked; social lane found nothing dated.",
+    "open_count": 249,
+    "run_at": "2026-11-20T07:40:00Z",
     "top_incident": "Ring 1: Missouri American Water alert 145298, University City planned work 11/18, still posted with no completion notice; impact possible (low). No City or County boil advisory."
   },
   "incidents": [
@@ -933,6 +933,24 @@
       "status": "resolved",
       "title": "Lakeside Water boil order, N County Line Rd to Brayfield Rd (lifted 11/18)",
       "utility": "Lakeside Water (IL)",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 1:40 AM CT 11/20 (Lane 4 only, WGEM posted 5:57 PM CT 11/19): 48-hour boil advisory after a faulty valve broke and leaked; no end time given. ~130 mi N of St. Louis; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-20T07:40:00Z",
+      "id": "lewistown-lewiscounty-hwy6-20261119",
+      "last_updated": "2026-11-20T07:40:00Z",
+      "location": "Homes north of Highway 6 and west of Route H, Lewistown, MO (Lewis County; no streets listed)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://www.wgem.com/2026/11/19/48-hour-boil-advisory-issued-part-lewistown-missouri/"
+      ],
+      "status": "open",
+      "title": "City of Lewistown, MO 48-hour boil advisory after valve failure, north of Hwy 6 / west of Route H",
+      "utility": "City of Lewistown, MO",
       "washu_impact": "none"
     },
     {
@@ -2552,6 +2570,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Joplin — emergency repairs (alert 145769)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 1:40 AM CT 11/20 (Lane 1 only, ID probe): MAW alert 145793, emergency main break began 11/19; no times, street or boil advisory. May be a second posting of tracked 145769 (same day); not confirmed. ~250-270 mi SW; separate system; no WashU asset. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-20T07:40:00Z",
+      "id": "maw-joplin-unlocated-20261119b",
+      "last_updated": "2026-11-20T07:40:00Z",
+      "location": "Joplin, MO (Jasper County; street not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145793"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Joplin — emergency repairs (alert 145793)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
