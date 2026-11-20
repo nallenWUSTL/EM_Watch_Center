@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "8:40 AM CST 11/20 four-lane run: no new or changed incidents. The City Water outages page was served as an older snapshot (stamped 2:30 PM 11/19) without the Gasconade/S Broadway row. That page is older than the 7:30 AM copy seen last run, so the Gasconade row was left open. The other six City outage rows are unchanged; Penrose ETR 11/26, N Kingshighway ETR 11/27. stlwater ?p=9725 boil page is undated and matches the August 2026 Chain of Rocks advisory, so it is not current. MAW IDs 145807, 145811, 145816 and 145820 returned only the welcome shell, which may mean script-loaded content, not unused IDs. The probe still starts at 145807, unverified. The MAW index shows no alerts without a login. WashU Alert has no active alerts. Facilities: the Jolley/Cupples notice ended 10/31 and Wallace Dr work ran 11/12-13; neither has a newer notice, and both stay in monitoring until a source confirms them closed. Ring 3: New Madrid PWSD2, Dunklin PWSD3 and Millstone are still in effect per the KFVS list (11/19 11:37 AM). Unverified: Nextdoor U City post on a main break at Olive/Eastover, page blocked, date unknown; not logged. Gaps: MSD, MoDNR list, Kirkwood, BJC, Cortex, Loop, MoDOT, Metro; social media is poorly indexed.",
+    "note": "9:40 AM CST 11/20 four-lane run: no new incidents. The City Water outages page loaded current this run (stamped 9:30 AM 11/20) and lists the same seven rows. Gasconade/S Broadway is still listed past its 7:57 AM ETR, and that record was updated. Penrose ETR is 11/26 and N Kingshighway ETR is 11/27; Howard, Plover, Union/Brown and Union/Bircher are all listed past their ETRs. There is no City boil advisory: the advisories section is empty and the newest City news release is dated 8/25. The MAW alerts index loaded only its heading. Probes of IDs 145800, 145815 and 145830 returned only an empty shell; 145850 is South Charleston, most likely WV, and is not relevant. No Missouri MAW alert above 145793 has been verified, so a County boil advisory is unconfirmed. WashU Alert has no active alerts. The Facilities Jolley/Cupples and Wallace Dr notices have no follow-up, so they stay in monitoring. MoDNR dataset: nothing issued 11/18-20 in the region. KFVS list (modified 11/19 11:37 AM): New Madrid PWSD2, Dunklin PWSD3 and Millstone are still in effect. The Olive/Eastover Nextdoor rumor is still unverified and probably stale (it may echo the June 2026 MAW Olivette/U City advisory); not logged. Gaps: MSD, Kirkwood, Clayton/Richmond Heights/Brentwood/Maplewood/Ladue/Eureka municipal pages, BJC, Cortex, Loop, MoDOT; social media is poorly indexed.",
     "open_count": 225,
-    "run_at": "2026-11-20T14:40:00Z",
+    "run_at": "2026-11-20T15:40:00Z",
     "top_incident": "Ring 1: Missouri American Water alerts in University City (145298 planned 11/18; 144457, 144507), Clayton (144021) and Richmond Heights (143300) still carried with no completion notice; impact possible (low). No City or County boil advisory."
   },
   "incidents": [
@@ -5315,17 +5315,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 4:35 AM CT 11/20 (Lane 1): row re-stamped on the City Water outage table (4:30 AM 11/20) with start 1:57 AM 11/20, ETR 7:57 AM 11/20; may be a new break at the same spot or a reset of the earlier row. No boil advisory. South riverfront, ~4 mi from the Medical Campus; Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 9:40 AM CT 11/20 (Lane 1): current City Water outage table (stamped 9:30 AM 11/20) still lists the row, start 1:57 AM 11/20, ETR 7:57 AM 11/20, now past its ETR with no completion shown. This resolves last run's stale-snapshot question. No boil advisory. South riverfront, ~4 mi from the Medical Campus; Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-19T10:40:00Z",
       "id": "stlwater-stlouiscity-gasconade-sbroadway-20261119",
-      "last_updated": "2026-11-20T10:35:00Z",
+      "last_updated": "2026-11-20T15:40:00Z",
       "location": "Gasconade St between S Broadway and 1st St, St. Louis City (south riverfront)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/wateroos.php",
-        "https://www.stlwater.com/outages"
+        "https://www.stlwater.com/outages",
+        "https://www.stlwater.com/outages.php"
       ],
       "status": "open",
       "title": "City of St. Louis Water Division service outage, Gasconade St between S Broadway and 1st St (south City)",
