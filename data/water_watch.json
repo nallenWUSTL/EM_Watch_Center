@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "8:40 PM CST 11/19 four-lane run: no new or changed incidents in St. Louis City/County or Metro East. ID probe 145788-145790 all out of region (IA, CA); misses 145791-145799, 145801, 145803, 145805, 145810, 145815, 145820. Next probe starts at 145791. stlwater outages page unchanged since 2:30 PM (6 entries, all tracked; N Kingshighway/Penrose ETR 11/27 and Penrose/Euclid ETR 11/26 already recorded); Current Advisories empty. MO DNR dataset newest 10/28, none in region. WashU Alert no active alerts; Danforth and Medical Facilities news have no water items. KFVS list: New Madrid PWSD 2, Dunklin PWSD 3, Millstone still in effect (tracked); Lakeside Water lift already recorded. Gaps: KSDK index, Reddit, X/Facebook/Nextdoor not reachable; MSD, Kirkwood, BJC, Cortex, MoDOT not checked; claytonmo.gov failed to load; Gower MO advisory still unverified; undated FOX 2 N Hanley Rd/Forest Park Pkwy break story not tied to this week.",
-    "open_count": 244,
-    "run_at": "2026-11-20T02:40:00Z",
-    "top_incident": "Ring 1: Missouri American Water alert 145298, University City planned work 11/18. It is still in monitoring with no completion notice; impact possible (low). No City or County boil advisory."
+    "note": "9:40 PM CST 11/19 four-lane run: 3 new Ring 2 City Water repairs in North City (hydrant Brooklyn & N 9th, main Riverview & N Broadway, hydrant '41 Dock'), impact none. City Water outages table still 6 entries, all tracked (N Kingshighway/Penrose ETR 11/27, Penrose/Euclid ETR 11/26). No new Ring 1 incident; no boil order in St. Louis City/County (MO DNR newest 10/28). WashU Alert no active alerts; Danforth and Medical Facilities news no water items. ID probe: 145791-145793 out of region (WV, PA, Joplin MO); 145794, 145795, 145800 blank; 145796-145799 and 145801+ not probed. Next probe starts at 145794. KFVS list (modified 17:37 UTC 11/19): New Madrid PWSD 2, Dunklin PWSD 3, Millstone still in effect. Ruled out as stale: stlwater.com Aug 17 boil-advisory page, undated AOL Bridgeton/Maryland Heights advisory, Jan 28 FOX 2 Linden/Pershing story. Gaps: MAW alerts index empty and boil page errored; MSD, Kirkwood, KSDK/KMOV/Post-Dispatch indexes, Clayton/Richmond Heights/Brentwood/Maplewood/Ladue/Eureka pages, BJC/Cortex/Loop/MoDOT not opened; social lane thin. Undated FOX 2 N Hanley Rd/Forest Park Pkwy story still unverified.",
+    "open_count": 247,
+    "run_at": "2026-11-20T03:40:00Z",
+    "top_incident": "Ring 1: Missouri American Water alert 145298, University City planned work 11/18, still in monitoring with no completion notice; impact possible (low). No City or County boil advisory."
   },
   "incidents": [
     {
@@ -4900,6 +4900,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 9:40 PM CT 11/19 (Lane 1 only, City Water repair table updated 9:30 PM): hydrant repair started 4:45 PM 11/19; no ETR; location given only as 41 Dock. Likely riverfront, well away from WashU assets. Impact none. Resolve when dropped from the repair table. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-20T03:40:00Z",
+      "id": "stlwater-stlouiscity-41dock-hydrant-20261119",
+      "last_updated": "2026-11-20T03:40:00Z",
+      "location": "\"41 Dock\" as listed on the City Water repair table, St. Louis City (no cross street; likely riverfront, not independently placed)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division hydrant repair, \"41 Dock\" (location as published)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 4:40 PM CT 10/30 (Lanes 1 and 4): both Angelrodt St / N Broadway outages (out 9:21 and 9:23 AM, est. 5:21 / 5:23 PM) no longer appear on the live City Water outage table stamped 4:30 PM 10/30, which now lists only the two Riverview Dr outages. Treated as restored per utility page, ahead of estimate; restoration not explicitly stated. No boil advisory was ever posted. Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-10-30T14:40:00Z",
@@ -4973,6 +4991,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division service outages, Branch St & Blair Ave and Blair Ave & Buchanan St (north City)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 9:40 PM CT 11/19 (Lane 1 only, City Water repair table updated 9:30 PM): hydrant repair started 6:20 PM 11/19; no ETR; no boil advisory. ~6 mi NE of the Medical Campus; not on a Ring 1 corridor; no WashU asset. Impact none. Resolve when dropped from the repair table. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-20T03:40:00Z",
+      "id": "stlwater-stlouiscity-brooklyn-n9th-hydrant-20261119",
+      "last_updated": "2026-11-20T03:40:00Z",
+      "location": "Brooklyn St & N 9th St, north St. Louis City (near north riverfront)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division hydrant repair, Brooklyn St & N 9th St",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
@@ -5989,6 +6025,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division main break and road closure, Riverview Dr near Chambers Rd (far north City)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 9:40 PM CT 11/19 (Lane 1 only, City Water repair table updated 9:30 PM): main repair started 5:35 PM 11/19; no ETR; no boil advisory. Separate location from tracked Northpoint/Riverview and Riverview/W Florissant items. ~7-8 mi NE of the Medical Campus; no WashU asset; not a Ring 1 corridor. Impact none. Resolve when dropped from the repair table. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-20T03:40:00Z",
+      "id": "stlwater-stlouiscity-riverview-nbroadway-20261119",
+      "last_updated": "2026-11-20T03:40:00Z",
+      "location": "Riverview Blvd & N Broadway, north St. Louis City (Baden / riverfront)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division main repair, Riverview Blvd & N Broadway",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
