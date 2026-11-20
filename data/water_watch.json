@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "6:40 PM CST 11/19 four-lane run: nothing new and no status changes. MAW/IAW ID probe 145788-145795 plus spot checks of 145800 and 145810: all misses. 145780 is Rosemont, CA (California American Water; out of region). The stlwater outages page is still the 2:30 PM version: N Kingshighway Penrose-Lillian (ETR 11/27), Penrose Euclid-Kingshighway (ETR 11/26) and Howard/19th (ETR 9:37 PM tonight) are listed; Plover and both Union Blvd entries are still listed past their ETRs. Current Advisories is empty. Work-order rows were not re-read, and since the page is unchanged no records were altered. The undated stlwater ?p=9725 'Boil Advisory In Effect' page is the Aug 17 advisory, lifted 8/18; it is not active. WashU Alert has no active alerts; Danforth and Medical Facilities posted no water notices (Jolley/Cupples order was Oct 29-31 with no follow-up). KFVS list modified 11:37 AM: New Madrid PWSD 2 and Dunklin PWSD 3 still in effect; Millstone (Pope Co IL) still listed. No local news or social reports dated 11/18-19; KSDK pages failed to load. Gaps: MAW alerts and boil pages render dynamically and could not be read, so the County boil status is unverified; MSD, Kirkwood, MO DNR and MoDOT were not checked. Next probe starts at 145788.",
-    "open_count": 243,
-    "run_at": "2026-11-20T00:40:00Z",
+    "note": "7:40 PM CST 11/19 four-lane run: no new St. Louis City/County incidents. ID probe 145773-145787 all hits; 145774 (St. Louis County) and 145775 (Florissant) were already tracked; new Ring 3 item 145784 (Jefferson City investigation). IAW 145786 extends the Lincoln IL boil order; IAW 145787 posts an untied Peoria lift (11/18 event moved to monitoring). Other hits out of region (WV, PA, CA, IN). Misses 145788-145815 (partial). stlwater outages page unchanged since 2:30 PM (6 entries, all tracked); Current Advisories empty. WashU Alert no active alerts; no Danforth or Medical Facilities water notices. KFVS list (11:37 AM): New Madrid PWSD 2 (issued 11/19, tracked), Dunklin PWSD 3, Millstone still in effect. MO DNR recent orders all SW/central MO. Gaps: KSDK/FOX 2 blocked, Reddit blocked, X/Facebook not reachable, MSD and Kirkwood not checked; Gower MO boil advisory (KQ2, 11/18) unverified. Next probe starts at 145788.",
+    "open_count": 244,
+    "run_at": "2026-11-20T01:40:00Z",
     "top_incident": "Ring 1: Missouri American Water alert 145298, University City planned work 11/18. It is still in monitoring with no completion notice; impact possible (low). No City or County boil advisory."
   },
   "incidents": [
@@ -574,16 +574,17 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 9:40 AM CT 11/17 (Lane 1 only, ID probe): IAW alert 145414, planned valve replacement 8:30 AM to ~2 PM 11/17; boil order once service is restored. ~150 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "assessment": "Updated 7:40 PM CT 11/19 (Lane 1, ID probe): IAW alert 145786 says the Lincoln boil water order has been extended and remains in effect; treated as this event's order (only open tracked Lincoln event; no street on either alert). Earlier: alert 145414, planned valve replacement 11/17 with boil order on restoration. ~150 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-17T15:40:00Z",
       "id": "ilaw-lincoln-planned-20261117",
-      "last_updated": "2026-11-17T15:40:00Z",
+      "last_updated": "2026-11-20T01:40:00Z",
       "location": "Lincoln, IL (Logan County; streets not published)",
       "ring": 3,
       "single_source": true,
       "sources": [
-        "https://alertsdetail.awapps.com/alert/145414"
+        "https://alertsdetail.awapps.com/alert/145414",
+        "https://alertsdetail.awapps.com/alert/145786"
       ],
       "status": "open",
       "title": "Illinois American Water planned valve replacement with boil order on restoration, Lincoln, IL, Nov 17 (alert 145414)",
@@ -769,18 +770,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 1:45 PM CT 11/18 (Lane 1 only, ID probe): IAW alert 145577, emergency repairs from 12:30 PM 11/18, boil order once service is restored. Separate from earlier tracked Peoria events by start date. ~150 mi NNE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "assessment": "Updated 7:40 PM CT 11/19 (Lane 1, ID probe): IAW alert 145787 posts a Peoria boil order lift (no street or date). Several Peoria events are open, so the lift cannot be tied with certainty; most likely this newest 11/18 event (145577). Moved to monitoring, not resolved. ~150 mi NNE; separate system; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-18T19:45:00Z",
       "id": "ilaw-peoria-unlocated-20261118",
-      "last_updated": "2026-11-18T19:45:00Z",
+      "last_updated": "2026-11-20T01:40:00Z",
       "location": "Peoria, IL (Peoria County; streets not published)",
       "ring": 3,
       "single_source": true,
       "sources": [
-        "https://alertsdetail.awapps.com/alert/145577"
+        "https://alertsdetail.awapps.com/alert/145577",
+        "https://alertsdetail.awapps.com/alert/145787"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "Illinois American Water emergency repairs with boil order on restoration, Peoria, IL (alert 145577)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
@@ -2312,6 +2314,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water service investigation, Jefferson City (alert 144907)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 7:40 PM CT 11/19 (Lane 1 only, ID probe): alert 145784, investigation of a possible service issue, low or no pressure possible; no times, street or boil status. ~120 mi W; separate system; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-20T01:40:00Z",
+      "id": "maw-jeffersoncity-investigation-20261119",
+      "last_updated": "2026-11-20T01:40:00Z",
+      "location": "Jefferson City, MO (Cole County; street not published; utility and state not printed on page)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145784"
+      ],
+      "status": "open",
+      "title": "American Water service investigation, Jefferson City — possible low/no pressure (alert 145784)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
