@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "4:40 PM CST 11/21 four-lane run: nothing new or changed. AW ID probe 145978-145983: 145978 Larksville PA, 145979 Middletown (out of area), 145980-83 empty; highest live ID 145979; no new MAW/IAW alerts. City outages page refreshed (stamped 4:30 PM 11/21): N Kingshighway/Penrose, Penrose/Euclid, Howard/19th, Union/Brown still listed (all tracked; Howard and Union past ETR); no City boil advisory; Angelica/N 11th still absent (already monitoring). MAW alerts and boil pages show none; MO DNR (data.mo.gov) no St. Louis-area systems. KFVS list still stamped 11/19 (New Madrid PWSD 2 and Dunklin PWSD 3 tracked). WashU Alert none (last changed 11/18); Facilities newest is Tao Tennis notice; Med Campus Facilities only non-water items; Metro no water-related alerts. Local news and social: nothing dated 11/20-21. Not checked: MSD, Kirkwood, municipal pages individually, BJC/Cortex/Loop/Forest Park Forever; X/Reddit/Facebook not indexed.",
+    "note": "5:45 PM CST 11/21 four-lane run: nothing new affecting WashU. Changed: City outage on Riverview/Jordan is gone from the outages page (stamped 4:30 PM), so it moved to monitoring. N Kingshighway/Penrose (ETR 11/27) and Penrose/Euclid (ETR 11/26) are still active; Howard/19th and Union/Brown are still listed past their ETRs. City page also lists untracked Ring 2 main-repair work orders dated 11/15-11/18 with no outage (Tower Grove/Cleveland, S Spring/Park, Potomac/Sulphur, Oleatha/Gustine, Partridge/McLaran, Riverview/W Florissant); they are older than 24 h and were not added. AW alerts 145980-81 are a Greenwood leak investigation, probably IN and out of area; highest live ID is 145981. MAW alerts page shows none; the MAW boil page did not load. The stlwater.com boil advisory page (?p=9725) is undated and appears to be stale content from August; the City news index has nothing after 8/25. KFVS list is still stamped 11/19. WashU Alert none; Facilities and Med Campus Facilities show no water items; Metro has no water alerts. News and social: nothing dated 11/20-21. Not checked: MSD, Kirkwood, MO DNR table (did not load), individual municipal pages, BJC/Cortex/Loop/Forest Park Forever.",
     "open_count": 242,
-    "run_at": "2026-11-21T22:40:00Z",
+    "run_at": "2026-11-21T23:45:00Z",
     "top_incident": "No new or changed water incident affecting WashU; no City or County boil advisory. Carried Ring 1: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7, 7 AM-3 PM; impact possible (low)."
   },
   "incidents": [
@@ -6490,18 +6490,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 3:45 PM CT 11/20 (Lane 1; outage page re-opened by supervisor, stamped 3:30 PM 11/20): taken out of service 1:19 PM 11/20, est. restoration 1:19 AM 11/21; no boil order posted. Likely tied to the Riverview & N Broadway main-repair work order (inference). Roughly 7-9 mi NE of North Campus; no WashU asset. Impact none. Resolve when dropped from the outage list. Owner: Emergency Management (track only).",
+      "assessment": "Updated 5:45 PM CT 11/21 (Lane 1): outage no longer listed on the City outages page (stamped 4:30 PM 11/21); the restoration estimate of 1:19 AM 11/21 has passed and no boil order was posted. Restoration is not confirmed by the City, so this is moved to monitoring, not resolved. About 7-9 mi NE of North Campus; no WashU asset; impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-20T21:45:00Z",
       "id": "stlwater-stlouiscity-riverview-jordan-20261120",
-      "last_updated": "2026-11-20T21:45:00Z",
+      "last_updated": "2026-11-21T23:45:00Z",
       "location": "Riverview Blvd between Jordan Ave and N Broadway, St. Louis City (far north City)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/outages"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division service outage, Riverview Blvd between Jordan Ave and Broadway (far north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
