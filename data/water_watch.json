@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "11:45 PM CST 11/20 four-lane run. All lanes NOTHING NEW for the region. Lane 1 ID probe: 145939 (East Charleston WV) and 145940 (Duarte CA) are out of region; 145941-145946 and 145950 blank; 145947-145949 not probed. Highest checked 145950. City outages page still stamped 3:30 PM 11/20 (stale ~8 hr); no entries added or removed; Riverview/Jordan estimate 1:19 AM 11/21; Howard/19th and Union/Brown past estimates. MAW alerts index empty on fetch (script-loaded) and amwater.com returned a client error to Lane 3; MAW boil page and MO DNR (newest 10/28, SW/central MO) show nothing in City or County. KFVS list unchanged (11/19 11:37 AM). WashU Alert none (page modified 11/18); Facilities Tao Tennis unchanged; no Jolley/Cupples or Wallace Dr completion notice. City Water Division news newest 8/25/2026. Excluded stale or undated: stlwater.com boil page (Aug 17 event), KSDK Lansdowne/Chippewa, AOL/Yahoo Maryland Heights-Bridgeton-Earth City advisory, KSDK Maplewood-Richmond Heights schools boil order, Collinsville June/July 2026 lifts. Not covered: MSD, Kirkwood, BJC, Cortex, Delmar Loop, MoDOT, direct social platforms.",
+    "note": "12:45 AM CST 11/21 four-lane run. All lanes NOTHING NEW. One update: MAW 145928 (Breckenridge Hills) notice text places the area in Maryland Heights; past ~11 PM estimate, still Active. City outages page still stamped 3:30 PM 11/20; Riverview/Jordan ETR 1:19 AM 11/21 not yet confirmed restored. Untracked older City main repairs (11/15-11/18, Ring 2, none near campus): Partridge/McLaran, Oleatha/Gustine, Tower Grove/Cleveland, Riverview/W Florissant, S Spring/Park, Potomac/Sulphur. MAW IDs 145947-145953, 145955, 145957, 145960 blank. MAW alerts index and boil page did not load; MO DNR report did not load. KFVS list unchanged (11/19 11:37 AM). WashU Alert none (modified 11/18); Facilities: Tao Tennis notice confirmed, no Jolley/Cupples or Wallace Dr completion; Medical Campus no water notices. Excluded: undated AOL Maryland Heights/Bridgeton/Earth City advisory, Jan 2026 KSDK U City/Webster breaks, 2022 Clayton Rd project. Not covered: MSD, Kirkwood, BJC, Cortex, Delmar Loop, MoDOT, Clayton/U City municipal pages.",
     "open_count": 235,
-    "run_at": "2026-11-21T05:45:00Z",
-    "top_incident": "No new or changed water incidents since 10:40 PM. No Ring 1 incident and no City or County boil advisory. Carried Ring 1: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25 to Dec 7, partial fire-lane closure; impact possible (low)."
+    "run_at": "2026-11-21T06:45:00Z",
+    "top_incident": "No new water incidents since 11:45 PM. No Ring 1 incident and no City or County boil advisory. Carried Ring 1: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25 to Dec 7, partial fire-lane closure; impact possible (low)."
   },
   "incidents": [
     {
@@ -1327,12 +1327,12 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 9:50 PM CT 11/20 (Lane 1 only, ID probe): MAW alert 145928, main break from 4:00 PM 11/20; ~5 mi NW of North Campus and Danforth; no street; no boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). No WashU asset identified; no Ring 1 corridor named. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "assessment": "Updated 12:45 AM CT 11/21 (Lane 1, detail page reopened): MAW alert 145928 titled Breckenridge Hills but notice text places the affected area in Maryland Heights; repairs from 4:00 PM 11/20, ~7 hr estimate (~11 PM 11/20); still Active, no street, no completion text; no boil advisory found. ~6-7 mi NW of Danforth; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-21T03:50:00Z",
       "id": "maw-breckenridgehills-unlocated-20261120",
-      "last_updated": "2026-11-21T03:50:00Z",
-      "location": "Breckenridge Hills, MO (mid St. Louis County; street not published)",
+      "last_updated": "2026-11-21T06:45:00Z",
+      "location": "Maryland Heights, MO per alert notice text (alert titled Breckenridge Hills; mid/NW St. Louis County; street not published)",
       "ring": 2,
       "single_source": true,
       "sources": [
