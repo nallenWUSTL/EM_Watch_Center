@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "12:45 PM CST 11/21 four-lane run. City outages page unchanged (stamp 11/20 3:30 PM; 5 outages, 3 past estimate, left open). MAW 145964 (County main break, 11 AM, ~2-4 hr) still posted, no municipality. ID probe 145965-145972: Washington IL lift, Butler, Woodbridge, Runnemede NJ; 145969+ blank; none in region. MO DNR: no St. Louis-area notices. KFVS list unchanged since 11/19 (New Madrid PWSD 2 and Pope Co. Millstone already tracked). Penrose/Blair 36-inch KSDK still undated. Unconfirmed lead: U City notice 'Water Tap Installation at LOCAL on Delmar Apartments' (Delmar Loop, Ring 1), page not found; recheck. Old KSDK headline on lifted Clayton/U City boil advisory treated as historical (undated). WashU Alert none; Med Campus McDonnell Ped Research restroom block Nov 23-25 is badge wiring, not water. Not checked: MSD, Kirkwood, Reddit (blocked), X/Facebook.",
-    "open_count": 241,
-    "run_at": "2026-11-21T18:45:00Z",
+    "note": "1:40 PM CST 11/21 four-lane run. New (MAW ID probe, all low confidence, no WashU impact): 145971 Marlowe Ave 'St. Louis' investigation (municipality unconfirmed, Ring 2); 145969 Bellefontaine Neighbors leak investigation; 145973 Godfrey IL investigation. Resolved: Cairo IL boil order (lift 145970); Jolley/Cupples II no-water-use order (Facilities lists it expired Oct 31). MAW 145964 county break unchanged. City outages page still stamped 11/20 3:30 PM (Riverview, Howard, Union past estimates, left open). U City 'LOCAL on Delmar' tap notice confirmed historical (Jan 2026), dropped. KFVS list unchanged since 11/19. WashU Alert none. Not checked: MSD, Kirkwood, MO DNR; Reddit and X blocked.",
+    "open_count": 242,
+    "run_at": "2026-11-21T19:40:00Z",
     "top_incident": "No new or changed water incident affecting WashU; no City or County boil advisory. Carried Ring 1: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7, 7 AM-3 PM; impact possible (low)."
   },
   "incidents": [
@@ -329,18 +329,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 2:45 PM CT 11/18 (Lane 1 only, ID probe): IAW alert 145588, emergency repairs from 3:00 PM 11/18, boil order once service is restored. ~130 mi SSE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 1:40 PM CT 11/21 (Lane 1, ID probe): IAW alert 145970 posts a Cairo boil order lift; 145588 is the only tracked Cairo event, so treated as its lift. ~130 mi SSE; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-18T20:45:00Z",
       "id": "ilaw-cairo-unlocated-20261118",
-      "last_updated": "2026-11-18T20:45:00Z",
+      "last_updated": "2026-11-21T19:40:00Z",
       "location": "Cairo, IL (Alexander County; streets not published)",
       "ring": 3,
       "single_source": true,
       "sources": [
-        "https://alertsdetail.awapps.com/alert/145588"
+        "https://alertsdetail.awapps.com/alert/145588",
+        "https://alertsdetail.awapps.com/alert/145970"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "Illinois American Water emergency repairs with boil order on restoration, Cairo, IL (alert 145588)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
@@ -512,6 +513,24 @@
       ],
       "status": "resolved",
       "title": "Illinois American Water planned valve replacement with boil order on restoration, East St. Louis, IL (alert 144868)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 1:40 PM CT 11/21 (Lane 1 only, ID probe): alert 145973, service investigation; no times or boil order. ~25 mi N; separate system; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-21T19:40:00Z",
+      "id": "ilaw-godfrey-strongave-20261121",
+      "last_updated": "2026-11-21T19:40:00Z",
+      "location": "Strong Ave, Godfrey, IL (Madison County, Metro East; cross street not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145973"
+      ],
+      "status": "open",
+      "title": "American Water investigation, Strong Ave, Godfrey, IL (alert 145973)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
     },
@@ -1304,6 +1323,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water service investigation, Bellefontaine Neighbors — possible low/no pressure (alert 145217)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 1:40 PM CT 11/21 (Lane 1 only, ID probe): alert 145969, leak investigation, low or no pressure possible; no streets, times or boil order. ~8 mi NE of North Campus; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-21T19:40:00Z",
+      "id": "maw-bellefontaineneighbors-investigation-20261121",
+      "last_updated": "2026-11-21T19:40:00Z",
+      "location": "Bellefontaine Neighbors, MO (north St. Louis County; street not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145969"
+      ],
+      "status": "open",
+      "title": "Missouri American Water leak investigation, Bellefontaine Neighbors — possible low/no pressure (alert 145969)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -3698,6 +3735,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, 'St Louis' — Lordhill Dr, emergency repairs (alert 144653)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 1:40 PM CT 11/21 (Lane 1 only, ID probe): alert 145971, investigation of a possible service issue, low or no pressure possible; no cross street, times or boil order. MAW does not serve St. Louis City, so the Lindenwood Park (City) Marlowe Ave is unlikely; exact location unconfirmed. Not on a Ring 1 corridor; no WashU asset identified. Impact none. Escalate if a location near Clayton, Richmond Heights or U City is published. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-21T19:40:00Z",
+      "id": "maw-stlouis-marloweave-20261121",
+      "last_updated": "2026-11-21T19:40:00Z",
+      "location": "Marlowe Ave, 'St. Louis' per MAW label (likely unincorporated St. Louis County; municipality and cross street not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145971"
+      ],
+      "status": "open",
+      "title": "Missouri American Water service investigation, Marlowe Ave, 'St. Louis' — possible low/no pressure (alert 145971)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -6821,22 +6876,18 @@
         "Danforth Campus — Jolley Hall",
         "Danforth Campus — Cupples II Hall"
       ],
-      "assessment": "Updated 7:45 AM CT 11/14 (Lane 3, facilities.wustl.edu/news reopened): the Facilities posting gives the no-water-use order for Jolley and Cupples II a window of Oct 29–31, and the Jolley north entrance sewer-repair closure ran Oct 28 to Nov 6. Both windows have passed. No lift, completion or extension notice has been posted, and nothing new on Jolley or Cupples appeared 11/12-14. Moved to monitoring; not resolved because no lift is confirmed. Action: Facilities confirm water use is restored at Jolley and Cupples II, then close. Owner: Facilities / Emergency Management.",
+      "assessment": "Resolved 1:40 PM CT 11/21 (Lane 3): WashU Facilities news page now files the Jolley Hall / Cupples II no-water-use order under completed or expired; it was in effect Oct 29 through Oct 31 at 4 PM. The separate Jolley north-entrance sewer repair (Oct 28-Nov 6) has also passed. No further action. Owner: Facilities (closed).",
       "confidence": "High",
       "first_seen": "2026-10-30T19:45:00Z",
       "id": "washufacilities-danforth-jolleyhall-20261029",
-      "last_updated": "2026-11-14T13:45:00Z",
+      "last_updated": "2026-11-21T19:40:00Z",
       "location": "Jolley Hall and Cupples II Hall, Danforth Campus (engineering quad), St. Louis City/County line",
       "ring": 1,
       "single_source": true,
       "sources": [
-        "https://facilities.wustl.edu/10-29-10-31-jolley-hall-and-cupples-ii-hall-no-water-use/",
-        "https://facilities.wustl.edu/10-28-11-6-jolley-hall-north-entrance-closure-emergency-sewer-line-repair/",
-        "https://facilities.wustl.edu/news/",
-        "https://facilities.wustl.edu/sign-up-to-become-a-key-management-contact-kmc/",
-        "https://emergency.washu.edu/"
+        "https://facilities.wustl.edu/news/"
       ],
-      "status": "monitoring",
+      "status": "resolved",
       "title": "WashU Facilities no-water-use order, Jolley Hall and Cupples II Hall (Danforth Campus)",
       "utility": "WashU Facilities / Utility Operations (building water service)",
       "washu_impact": "confirmed"
