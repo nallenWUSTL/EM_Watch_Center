@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "3:40 PM CST 11/21 four-lane run: nothing new or changed. City outages page unchanged since 11/20 3:30 PM (5 listed; Riverview/Jordan, Howard, Union past ETR; page likely lagging). Tracked Ring 1 MAW alerts (U City 144457/144507/145298, Clayton 144021, Richmond Heights 143300) still posted with no completion text. Highest live alert ID 145977 (Chattanooga, out of area, not tracked). KFVS list unchanged since 11/19; tracked Millstone and Lakeside already recorded. WashU Alert none; Facilities Tao Tennis notice unchanged. MO DNR: no St. Louis-area systems. Not checked: MAW boil page, MSD, Kirkwood, wateroos.php, KMOV/Post-Dispatch/STLPR directly, municipal pages, BJC/Cortex/MoDOT; X/Reddit/Facebook not reached.",
+    "note": "4:40 PM CST 11/21 four-lane run: nothing new or changed. AW ID probe 145978-145983: 145978 Larksville PA, 145979 Middletown (out of area), 145980-83 empty; highest live ID 145979; no new MAW/IAW alerts. City outages page refreshed (stamped 4:30 PM 11/21): N Kingshighway/Penrose, Penrose/Euclid, Howard/19th, Union/Brown still listed (all tracked; Howard and Union past ETR); no City boil advisory; Angelica/N 11th still absent (already monitoring). MAW alerts and boil pages show none; MO DNR (data.mo.gov) no St. Louis-area systems. KFVS list still stamped 11/19 (New Madrid PWSD 2 and Dunklin PWSD 3 tracked). WashU Alert none (last changed 11/18); Facilities newest is Tao Tennis notice; Med Campus Facilities only non-water items; Metro no water-related alerts. Local news and social: nothing dated 11/20-21. Not checked: MSD, Kirkwood, municipal pages individually, BJC/Cortex/Loop/Forest Park Forever; X/Reddit/Facebook not indexed.",
     "open_count": 242,
-    "run_at": "2026-11-21T21:40:00Z",
+    "run_at": "2026-11-21T22:40:00Z",
     "top_incident": "No new or changed water incident affecting WashU; no City or County boil advisory. Carried Ring 1: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7, 7 AM-3 PM; impact possible (low)."
   },
   "incidents": [
