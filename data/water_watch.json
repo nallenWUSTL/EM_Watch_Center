@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "10:45 AM CST 11/21 four-lane run. Two new Ring 2 MAW items (no street, no boil advisory, impact none; County item could be Ring 1 if the MAW map places it in Clayton/U City/Richmond Heights, map not readable). City outages page still stamped 3:30 PM 11/20; Riverview/Jordan, Howard/19th and Union/Brown past their restoration estimates but still listed, so left open. City Water news has nothing after 8/25; stlwater.com ?p=9725 boil page still judged stale (Aug 17 advisory). KFVS list (11/19 copy) still shows Dunklin PWSD 3, New Madrid PWSD 2, Millstone; Lewistown and Warsaw absent but lift unconfirmed, left as is. KSDK video of a north St. Louis intersection main break 'Friday' is undated with no streets; not tracked. WashU Alert no change; Facilities: Tao Tennis unchanged, no Jolley/Cupples restoration notice; McDonnell Pediatric Research 11/23-25 restroom closure is badge wiring, not water. Not checked: MSD, Kirkwood, MO DNR, most municipal pages, Metro/MoDOT feeds.",
-    "open_count": 240,
-    "run_at": "2026-11-21T16:45:00Z",
-    "top_incident": "No Ring 1 water incident and no City or County boil advisory. New: MAW St. Louis County main break (145953/145956/145957, 8 AM 11/21, municipality unpublished) and MAW Florissant main break (145962). Carried Ring 1: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7, 7 AM-3 PM; impact possible (low)."
+    "note": "11:45 AM CST 11/21 four-lane run. City outages page refreshed 11:30 AM 11/21: 5 active outages (Riverview/Jordan, N Kingshighway/Penrose est. 11/27, Howard/19th, Penrose/Euclid est. 11/26, Union/Brown); Riverview & N Broadway now only a work order, moved to monitoring. Riverview/Jordan, Howard, Union past estimates but still listed, left open. Older City work orders 11/15-11/18 (Partridge/McLaran, Oleatha/Gustine, Tower Grove/Cleveland, Riverview/W Florissant, S Spring/Park, Potomac/Sulphur) have no listed outage; not tracked. KSDK 'Friday' north City video likely the 36-inch break at Penrose St & Blair Ave (Windsor Park; water back by 1 PM, no boil order) but neither page is dated, so not tracked; may relate to tracked Penrose outages. Other new awapps IDs 145963 (PA), 145965 (Washington IL lift), 145966 (Butler, state unknown) out of area; 145967+ blank. KFVS list unchanged since 11/19. WashU Alert no active alerts; no Jolley/Cupples restoration notice; BJC Plaza drop-off closure 11/21 AM was a crane lift, not water. Not checked: MSD, Kirkwood, MO DNR, MAW boil page (failed to load), X/Facebook/Nextdoor directly.",
+    "open_count": 241,
+    "run_at": "2026-11-21T17:45:00Z",
+    "top_incident": "No new Ring 1 water incident and no City or County boil advisory. New: MAW St. Louis County main break 145964 (11 AM 11/21, ~2-4 hr, municipality unpublished; Ring 2, impact none). Carried Ring 1: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7, 7 AM-3 PM; impact possible (low)."
   },
   "incidents": [
     {
@@ -4533,6 +4533,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 11:45 AM CT 11/21 (Lane 1 only): MAW alert 145964, emergency main-break repairs from 11:00 AM 11/21, ~2-4 hr estimate; no municipality, street or end time; no boil advisory found in St. Louis City/County. Separate from the 8 AM County break (145953/145956/145957). Cannot be placed relative to WashU; Ring 2 by default. Impact none on current information; escalate if the MAW map or a later alert places it in Clayton, University City, Richmond Heights or along a Ring 1 corridor. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-21T17:45:00Z",
+      "id": "maw-stlouiscounty-unlocated-20261121b",
+      "last_updated": "2026-11-21T17:45:00Z",
+      "location": "St. Louis County, MO (municipality and street not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145964"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, St. Louis County — emergency repairs (alert 145964)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 9:50 PM CT 11/20 (Lane 1 only, ID probe): MAW alert 145929, investigation of a possible service issue; ~10 mi W of Danforth; no street; no boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). No WashU asset identified; no Ring 1 corridor named. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-21T03:50:00Z",
@@ -6416,18 +6434,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Reopened 3:45 PM CT 11/20 (Lane 1; verified by supervisor on City Water page stamped 3:30 PM 11/20): main repair work order (opened 5:35 PM 11/19) is listed again. The 4:35 AM 11/20 resolution relied on a truncated 7-row page and was premature. A new Riverview/Jordan outage (1:19 PM 11/20) is probably linked. ~7-9 mi NE of North Campus; no WashU asset; impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "assessment": "Updated 11:45 AM CT 11/21 (Lane 1): City outages page (stamped 11:30 AM 11/21) no longer lists a service outage at Riverview & N Broadway; it appears only as a main-break work order opened 5:35 PM 11/19, so service likely restored but repair not confirmed complete. Moved to monitoring. North City, Ring 2, several miles from any WashU asset; impact none. Resolve when the work order clears. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-20T03:40:00Z",
       "id": "stlwater-stlouiscity-riverview-nbroadway-20261119",
-      "last_updated": "2026-11-20T21:45:00Z",
+      "last_updated": "2026-11-21T17:45:00Z",
       "location": "Riverview Blvd & N Broadway, north St. Louis City (Baden / riverfront)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/outages"
+        "https://www.stlwater.com/outages",
+        "https://www.stlwater.com/outages.php"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division main repair, Riverview Blvd & N Broadway",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
