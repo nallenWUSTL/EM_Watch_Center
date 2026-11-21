@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "9:45 AM CST 11/21 four-lane run; nothing new, no tracked incident status changed. New Madrid PWSD 2 and Millstone (Pope Co.) reported by Lane 2 are already tracked; Dunklin PWSD 3 still active on KFVS list (11/19 copy). City outages page (Lane 1) showed 3:30 PM 11/20 stamp without Angelica/N 11th, Eichelberger/Alaska, Lynch/S Broadway, but an earlier run saw a 3:30 AM 11/21 copy listing Angelica, and a truncated page caused a premature resolve on 11/20, so those three are left open. stlwater.com 'Boil Advisory Currently In Effect' post (?p=9725, Hi-Pointe/Clayton-Tamm/Franz Park/Penrose) is undated and matches the Aug 17, 2026 Chain of Rocks advisory; City outages page lists no current advisories; treated as stale page, not tracked, recommend a phone check with City Water if in doubt. MAW alertsdetail now responds via WebFetch: 145950/145955/145960 are out of state (PA etc.), IDs 145963-146000 sampled empty; MAW alerts index still an empty shell and MAW boil page errored, so Ring 1 MAW items (Clayton 144021/144012, Richmond Heights 143300, U City 144457/144507/145298) not rechecked. Not checked: MSD, Kirkwood, MO DNR, municipal pages. WashU Alert no change (last edit 11/18); Facilities: Tao Tennis notice unchanged, Wallace Dr work window ended 11/13, no Jolley/Cupples restoration notice; Medical Campus Facilities no water items. Social: no dated posts; two FOX 2 'north St. Louis main break' videos would not load (date/location unverified, not tracked).",
-    "open_count": 238,
-    "run_at": "2026-11-21T15:45:00Z",
-    "top_incident": "No new Ring 1 or Ring 2 water incidents affecting WashU; no City or County boil advisory. Carried Ring 1: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25 to Dec 7, 7 AM-3 PM, fire-lane and partial sidewalk removal; impact possible (low)."
+    "note": "10:45 AM CST 11/21 four-lane run. Two new Ring 2 MAW items (no street, no boil advisory, impact none; County item could be Ring 1 if the MAW map places it in Clayton/U City/Richmond Heights, map not readable). City outages page still stamped 3:30 PM 11/20; Riverview/Jordan, Howard/19th and Union/Brown past their restoration estimates but still listed, so left open. City Water news has nothing after 8/25; stlwater.com ?p=9725 boil page still judged stale (Aug 17 advisory). KFVS list (11/19 copy) still shows Dunklin PWSD 3, New Madrid PWSD 2, Millstone; Lewistown and Warsaw absent but lift unconfirmed, left as is. KSDK video of a north St. Louis intersection main break 'Friday' is undated with no streets; not tracked. WashU Alert no change; Facilities: Tao Tennis unchanged, no Jolley/Cupples restoration notice; McDonnell Pediatric Research 11/23-25 restroom closure is badge wiring, not water. Not checked: MSD, Kirkwood, MO DNR, most municipal pages, Metro/MoDOT feeds.",
+    "open_count": 240,
+    "run_at": "2026-11-21T16:45:00Z",
+    "top_incident": "No Ring 1 water incident and no City or County boil advisory. New: MAW St. Louis County main break (145953/145956/145957, 8 AM 11/21, municipality unpublished) and MAW Florissant main break (145962). Carried Ring 1: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7, 7 AM-3 PM; impact possible (low)."
   },
   "incidents": [
     {
@@ -2340,6 +2340,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 10:45 AM CT 11/21 (Lane 1 only, ID probe): MAW alert 145962, main break from ~9:00 AM 11/21, ~2-4 hr repair estimate; no street; no boil advisory. Separate from earlier tracked Florissant alerts. ~10+ mi N of Danforth and North Campus; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-21T16:45:00Z",
+      "id": "maw-florissant-unlocated-20261121",
+      "last_updated": "2026-11-21T16:45:00Z",
+      "location": "Florissant, MO (north St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145962"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Florissant — emergency repairs (alert 145962)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 4:40 AM CT 11/10 (Lane 1 only, ID probe): MAW alert 144399, emergency repairs with possible discolored water; body dates start 11/8 8:00 AM, ~1 hr estimate (date may be a placeholder; Last Updated blank; may be complete). No street; no boil advisory (MO DNR newest 11/5). ~5 mi W of South Campus and Danforth (estimate); different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Monitor; resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-10T10:40:00Z",
@@ -4490,6 +4508,26 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, St. Louis County (alert 145914)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 10:45 AM CT 11/21 (Lane 1 ID probe; 145953 re-opened by supervisor): three identically worded alerts, main break from 8:00 AM 11/21, ~2-4 hr repair estimate (~10 AM-noon); possible discolored or cloudy water, low or no pressure; no boil advisory. Municipality not given, so ring is Ring 2 by default; could be Ring 1 if it falls in Clayton, University City or Richmond Heights. No WashU Alert or Facilities notice (Lane 3); no news or social corroboration (Lanes 2, 4). Impact none on current evidence. Escalate if the MAW map places it on a Ring 1 corridor. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-21T16:45:00Z",
+      "id": "maw-stlouiscounty-unlocated-20261121",
+      "last_updated": "2026-11-21T16:45:00Z",
+      "location": "St. Louis County, MO (municipality and street not published; alert refers to MAW map)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145953",
+        "https://alertsdetail.awapps.com/alert/145956",
+        "https://alertsdetail.awapps.com/alert/145957"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, St. Louis County — emergency repairs (alerts 145953, 145956, 145957)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
