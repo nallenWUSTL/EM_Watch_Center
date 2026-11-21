@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "3:45 AM CST 11/21 four-lane run. City outages page stamped 3:30 AM 11/21: same 5 outages (Riverview/Jordan and Union/Brown past estimate, still listed); work orders unchanged except new Angelica St & N 11th St hydrant repair (11/20, Ring 2, added). No City boil advisory. MAW/American Water alert pages did not render (script-only), so MAW status of 145928 and IDs 145943-145990 unchecked this run. KFVS list: New Madrid PWSD 2, Dunklin PWSD 3, Millstone still active; Lewistown, Warsaw, Collinsville absent but not confirmed lifted. WashU Alert none; Facilities and Medical Campus Facilities: no new water notices. Undated Maryland Heights/Bridgeton/Earth City advisory and Jan 2026 stories excluded. Not covered: MSD, Kirkwood, MO DNR, BJC, Cortex, Delmar Loop, MoDOT, most municipal pages.",
+    "note": "4:50 AM CST 11/21 four-lane run; nothing new. City outages page still stamped 3:30 PM 11/20 (not refreshed overnight): same 5 outages; Riverview/Jordan, Howard/19th, Union/Brown past estimate but still listed, restoration unconfirmed. Work-order list unchanged (all entries already tracked). No City boil advisory (Water Division news newest 8/25/2026). MAW/American Water alert pages render as an empty script shell; IDs 145943-145990 unverified for second straight run. KFVS list (stamped 11/19 11:37 AM): New Madrid PWSD 2, Dunklin PWSD 3, Millstone still listed; Lewistown, Warsaw, Collinsville absent but lift unconfirmed. WashU Alert: none (page changed 11/18). Facilities: Tao Tennis notice confirmed, no other water notices; Medical Campus Facilities: no water notices (BJ Plaza crane lane closure 11/21 6-9:30 AM, not water). Jolley/Cupples and Wallace Dr have no newer notices; left at monitoring pending confirmation. Old items excluded: Jan 2026 FOX2 regional breaks, May 2025 Kirkwood, Jul 2020 Lindell. Not covered: MO DNR list (did not load), MSD, Kirkwood, Cortex, Delmar Loop, MoDOT, BJC press, social platforms (no results).",
     "open_count": 238,
-    "run_at": "2026-11-21T09:45:00Z",
-    "top_incident": "No new Ring 1 or Ring 2 water incidents affecting WashU; no City or County boil advisory. Carried Ring 1: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25 to Dec 7, partial fire-lane closure; impact possible (low)."
+    "run_at": "2026-11-21T10:50:00Z",
+    "top_incident": "No new Ring 1 or Ring 2 water incidents affecting WashU; no City or County boil advisory. Carried Ring 1: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25 to Dec 7, 7 AM-3 PM, partial fire-lane closure; impact possible (low)."
   },
   "incidents": [
     {
