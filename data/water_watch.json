@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "1:40 PM CST 11/21 four-lane run. New (MAW ID probe, all low confidence, no WashU impact): 145971 Marlowe Ave 'St. Louis' investigation (municipality unconfirmed, Ring 2); 145969 Bellefontaine Neighbors leak investigation; 145973 Godfrey IL investigation. Resolved: Cairo IL boil order (lift 145970); Jolley/Cupples II no-water-use order (Facilities lists it expired Oct 31). MAW 145964 county break unchanged. City outages page still stamped 11/20 3:30 PM (Riverview, Howard, Union past estimates, left open). U City 'LOCAL on Delmar' tap notice confirmed historical (Jan 2026), dropped. KFVS list unchanged since 11/19. WashU Alert none. Not checked: MSD, Kirkwood, MO DNR; Reddit and X blocked.",
+    "note": "2:40 PM CST 11/21 four-lane run. New: IAW 145974 Bolingbrook IL main break, boil on restoration (Ring 3). Resolved: Joliet IL boil order (lift 145976). City outages page now lists 5 (Riverview/Jordan, N Kingshighway Penrose-Lillian, Howard, Penrose, Union); Eichelberger/Alaska, Lynch/S Broadway, Angelica hydrant moved to monitoring (dropped from page, timestamp still 11/20 3:30 PM). Out-of-area WV American Water 145975 not tracked. WashU Alert none; Facilities Tao Tennis notice unchanged. Highest live alert ID 145976. Not checked: MSD, Kirkwood, MO DNR; MAW alerts/boil pages render empty outside a browser; Reddit/X not fetched.",
     "open_count": 242,
-    "run_at": "2026-11-21T19:40:00Z",
+    "run_at": "2026-11-21T20:40:00Z",
     "top_incident": "No new or changed water incident affecting WashU; no City or County boil advisory. Carried Ring 1: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7, 7 AM-3 PM; impact possible (low)."
   },
   "incidents": [
@@ -329,6 +329,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 2:40 PM CT 11/21 (Lane 1 only, ID probe): IAW alert 145974, emergency main-break repairs from 12:00 PM 11/21, ~11.5 hr estimate; boil order once service restored. ~280 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-21T20:40:00Z",
+      "id": "ilaw-bolingbrook-unlocated-20261121",
+      "last_updated": "2026-11-21T20:40:00Z",
+      "location": "Bolingbrook, IL (Will County, Chicago area; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/145974"
+      ],
+      "status": "open",
+      "title": "Illinois American Water main break with boil order on restoration, Bolingbrook, IL (alert 145974)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 1:40 PM CT 11/21 (Lane 1, ID probe): IAW alert 145970 posts a Cairo boil order lift; 145588 is the only tracked Cairo event, so treated as its lift. ~130 mi SSE; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-18T20:45:00Z",
@@ -574,18 +592,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 9:50 PM CT 11/20 (Lane 1 only, ID probe): IAW alert 145907, emergency repairs from 1:00 PM 11/20 with boil order. ~260 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 2:40 PM CT 11/21 (Lane 1, ID probe): IAW alert 145976 posts the Joliet boil order lift; 145907 is the only tracked Joliet event, so treated as its lift. ~260 mi NE; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-21T03:50:00Z",
       "id": "ilaw-joliet-unlocated-20261120",
-      "last_updated": "2026-11-21T03:50:00Z",
+      "last_updated": "2026-11-21T20:40:00Z",
       "location": "Joliet, IL (Will County, Chicago area; streets not published)",
       "ring": 3,
       "single_source": true,
       "sources": [
-        "https://alertsdetail.awapps.com/alert/145907"
+        "https://alertsdetail.awapps.com/alert/145907",
+        "https://alertsdetail.awapps.com/alert/145976"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "Illinois American Water emergency repairs with boil order, Joliet, IL (alert 145907)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
@@ -5322,18 +5341,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 3:45 AM CT 11/21 (supervisor, City Water page stamped 3:30 AM 11/21): fire hydrant repair work order opened 11:18 AM 11/20; no outage or boil order listed for it. Near north St. Louis, ~5-6 mi NE of the Medical Campus; not on a Ring 1 corridor; no WashU asset. Impact none. Resolve when dropped from the work-order list. Owner: Emergency Management (track only).",
+      "assessment": "Updated 2:40 PM CT 11/21 (Lane 1): entry no longer on the City outages page (5 listed, down from 9; timestamp still 11/20 3:30 PM). Likely repaired but not confirmed; moved to monitoring. Near north riverfront, Ring 2; no WashU asset; impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-21T09:45:00Z",
       "id": "stlwater-stlouiscity-angelica-n11th-hydrant-20261120",
-      "last_updated": "2026-11-21T09:45:00Z",
+      "last_updated": "2026-11-21T20:40:00Z",
       "location": "Angelica St & N 11th St, St. Louis City (near north side, Hyde Park/riverfront area)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/outages.php"
+        "https://www.stlwater.com/outages"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division fire hydrant repair, Angelica St & N 11th St (near north riverfront)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -5645,18 +5664,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Reopened 3:45 PM CT 11/20 (Lane 1; verified by supervisor on City Water page stamped 3:30 PM 11/20): main repair work order (opened 1:30 PM 11/19) is listed again. The 4:35 AM 11/20 resolution relied on a truncated 7-row page and was premature. South City; no outage or boil order; no WashU asset; impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "assessment": "Updated 2:40 PM CT 11/21 (Lane 1): entry no longer on the City outages page, which now lists 5 outages (down from 9) though its timestamp is still 11/20 3:30 PM. Likely repaired but not confirmed; moved to monitoring. South City, Ring 2; no WashU asset; impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-19T20:45:00Z",
       "id": "stlwater-stlouiscity-eichelberger-alaska-20261119",
-      "last_updated": "2026-11-20T21:45:00Z",
+      "last_updated": "2026-11-21T20:40:00Z",
       "location": "Eichelberger St & Alaska Ave, St. Louis City (south City, 63111/63116 area)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/outages/"
+        "https://www.stlwater.com/outages"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division main repair, Eichelberger St & Alaska Ave (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -5965,18 +5984,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 3:45 PM CT 11/20 (Lane 1; verified by supervisor): main repair work order opened 11:26 AM 11/20; no outage listed for it, no restoration time, no boil order. ~4-5 mi SE of the Medical Campus; not on a Medical Campus route corridor. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "assessment": "Updated 2:40 PM CT 11/21 (Lane 1): entry no longer on the City outages page (5 listed, down from 9; timestamp still 11/20 3:30 PM). Likely repaired but not confirmed; moved to monitoring. Soulard/Benton Park, Ring 2; no WashU asset; impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-20T21:45:00Z",
       "id": "stlwater-stlouiscity-lynch-sbroadway-20261120",
-      "last_updated": "2026-11-20T21:45:00Z",
+      "last_updated": "2026-11-21T20:40:00Z",
       "location": "Lynch St & S Broadway, St. Louis City (Soulard / Benton Park)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/outages"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division main repair work order, Lynch St & S Broadway (Soulard / Benton Park)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
