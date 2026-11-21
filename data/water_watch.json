@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "2:40 PM CST 11/21 four-lane run. New: IAW 145974 Bolingbrook IL main break, boil on restoration (Ring 3). Resolved: Joliet IL boil order (lift 145976). City outages page now lists 5 (Riverview/Jordan, N Kingshighway Penrose-Lillian, Howard, Penrose, Union); Eichelberger/Alaska, Lynch/S Broadway, Angelica hydrant moved to monitoring (dropped from page, timestamp still 11/20 3:30 PM). Out-of-area WV American Water 145975 not tracked. WashU Alert none; Facilities Tao Tennis notice unchanged. Highest live alert ID 145976. Not checked: MSD, Kirkwood, MO DNR; MAW alerts/boil pages render empty outside a browser; Reddit/X not fetched.",
+    "note": "3:40 PM CST 11/21 four-lane run: nothing new or changed. City outages page unchanged since 11/20 3:30 PM (5 listed; Riverview/Jordan, Howard, Union past ETR; page likely lagging). Tracked Ring 1 MAW alerts (U City 144457/144507/145298, Clayton 144021, Richmond Heights 143300) still posted with no completion text. Highest live alert ID 145977 (Chattanooga, out of area, not tracked). KFVS list unchanged since 11/19; tracked Millstone and Lakeside already recorded. WashU Alert none; Facilities Tao Tennis notice unchanged. MO DNR: no St. Louis-area systems. Not checked: MAW boil page, MSD, Kirkwood, wateroos.php, KMOV/Post-Dispatch/STLPR directly, municipal pages, BJC/Cortex/MoDOT; X/Reddit/Facebook not reached.",
     "open_count": 242,
-    "run_at": "2026-11-21T20:40:00Z",
+    "run_at": "2026-11-21T21:40:00Z",
     "top_incident": "No new or changed water incident affecting WashU; no City or County boil advisory. Carried Ring 1: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7, 7 AM-3 PM; impact possible (low)."
   },
   "incidents": [
