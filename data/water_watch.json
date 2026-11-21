@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "2:40 AM CST 11/21 four-lane run. New Ring 3 only: IAW-space 145941 Madison (state unconfirmed, main break) and 145942 Champaign investigation. Out of scope: 145939 East Charleston, 145940 Duarte CA. Blank IDs 145943-145945, 145950, 145960; 145946-145990 mostly unchecked. MAW 145928 still Active, no completion. City outages page still stamped 3:30 PM 11/20; Riverview/Jordan restoration unconfirmed; stlwater advisories page shows no City boil advisory. KFVS list unchanged (New Madrid PWSD 2, Dunklin PWSD 3, Millstone still active). WashU Alert none; Facilities: Tao Tennis unchanged; Jolley and Wallace Dr notice windows passed, no completion notice (not closed). Context: Barnes-Jewish Plaza drop-off lanes closed 6-9:30 AM 11/21 for crane delivery (not water). Undated Maryland Heights/Bridgeton/Earth City advisory and Jan 2026 breaks excluded. Not covered: MSD, Kirkwood, MO DNR, BJC, Cortex, Delmar Loop, MoDOT; MAW index and boil page did not render.",
-    "open_count": 237,
-    "run_at": "2026-11-21T08:40:00Z",
-    "top_incident": "No new Ring 1 or Ring 2 water incidents; no City or County boil advisory. Carried Ring 1: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25 to Dec 7, partial fire-lane closure; impact possible (low)."
+    "note": "3:45 AM CST 11/21 four-lane run. City outages page stamped 3:30 AM 11/21: same 5 outages (Riverview/Jordan and Union/Brown past estimate, still listed); work orders unchanged except new Angelica St & N 11th St hydrant repair (11/20, Ring 2, added). No City boil advisory. MAW/American Water alert pages did not render (script-only), so MAW status of 145928 and IDs 145943-145990 unchecked this run. KFVS list: New Madrid PWSD 2, Dunklin PWSD 3, Millstone still active; Lewistown, Warsaw, Collinsville absent but not confirmed lifted. WashU Alert none; Facilities and Medical Campus Facilities: no new water notices. Undated Maryland Heights/Bridgeton/Earth City advisory and Jan 2026 stories excluded. Not covered: MSD, Kirkwood, MO DNR, BJC, Cortex, Delmar Loop, MoDOT, most municipal pages.",
+    "open_count": 238,
+    "run_at": "2026-11-21T09:45:00Z",
+    "top_incident": "No new Ring 1 or Ring 2 water incidents affecting WashU; no City or County boil advisory. Carried Ring 1: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25 to Dec 7, partial fire-lane closure; impact possible (low)."
   },
   "incidents": [
     {
@@ -5206,6 +5206,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division hydrant repair, \"41 Dock\" (location as published)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 3:45 AM CT 11/21 (supervisor, City Water page stamped 3:30 AM 11/21): fire hydrant repair work order opened 11:18 AM 11/20; no outage or boil order listed for it. Near north St. Louis, ~5-6 mi NE of the Medical Campus; not on a Ring 1 corridor; no WashU asset. Impact none. Resolve when dropped from the work-order list. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-21T09:45:00Z",
+      "id": "stlwater-stlouiscity-angelica-n11th-hydrant-20261120",
+      "last_updated": "2026-11-21T09:45:00Z",
+      "location": "Angelica St & N 11th St, St. Louis City (near north side, Hyde Park/riverfront area)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division fire hydrant repair, Angelica St & N 11th St (near north riverfront)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
