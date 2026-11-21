@@ -1,0 +1,204 @@
+{
+  "bluf": "Quiet day; no hazard or threat threshold met in Ring 1. Today: NCAA women's soccer sectional on Danforth (Sat and Sun), prep for Sunday's cold front and first hard freeze Mon-Tue, and caution Tyson crews on dry afternoon fire conditions. Biggest watch item: BYOD ransomware campaign against R1 universities and academic medical centers; confirm holiday cyber coverage before break starts Wed Nov 25.",
+  "briefing_url": "https://claude.ai/artifact/5SMDL9YYQ9WrBRT4f5rcbY",
+  "date": "2026-11-21",
+  "dissents": [
+    {
+      "note": "Overrules Weather lane: raised to Sev 2, Today.",
+      "title": "Tyson fire weather underrated",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Kept This week (no targeting indicator); check must happen before Wed Nov 25.",
+      "title": "BYOD ransomware should be Today",
+      "verdict": "carried"
+    },
+    {
+      "note": "Moot; lanes already scored both Sev 1.",
+      "title": "Sunday front and measles overrated",
+      "verdict": "rejected"
+    },
+    {
+      "note": "Low-probability high-consequence scenario, Sev 5, Low likelihood.",
+      "title": "Holiday ransomware forces Medical Campus downtime",
+      "verdict": "carried"
+    }
+  ],
+  "lanes_quiet": [
+    2
+  ],
+  "lookahead": [
+    {
+      "date": "2026-11-21",
+      "dow": "Sat",
+      "loads": [
+        "NCAA soccer Sweet 16 Francis Olympic Field 11:00 and 13:30",
+        "Ameren parade 14:00",
+        "Musial Awards",
+        "Blues 18:00",
+        "SLU WBB",
+        "Kiener lights",
+        "Garden Glow"
+      ],
+      "stacked": true,
+      "wx": "Sunny, 73F; low 54F"
+    },
+    {
+      "date": "2026-11-22",
+      "dow": "Sun",
+      "loads": [
+        "NCAA soccer sectional final 13:00",
+        "WashU women's basketball 13:00",
+        "Blues 18:00",
+        "Garden Glow"
+      ],
+      "stacked": true,
+      "wx": "Rain before 2 PM, 63F falling; NW gusts ~22 mph; low 34F"
+    },
+    {
+      "date": "2026-11-23",
+      "dow": "Mon",
+      "loads": [
+        "CITY SC playoff vs LAFC 19:00",
+        "Garden Glow"
+      ],
+      "stacked": true,
+      "wx": "Sunny, 49F; low 28F (hard freeze)"
+    },
+    {
+      "date": "2026-11-24",
+      "dow": "Tue",
+      "loads": [
+        "Last class day before break; departures begin"
+      ],
+      "stacked": false,
+      "wx": "Mostly sunny, 45F; low 29F"
+    },
+    {
+      "date": "2026-11-25",
+      "dow": "Wed",
+      "loads": [
+        "Thanksgiving break begins; peak travel eve"
+      ],
+      "stacked": false,
+      "wx": "Partly sunny, 45F; low 26F"
+    },
+    {
+      "date": "2026-11-26",
+      "dow": "Thu",
+      "loads": [
+        "Turkey Trot, Forest Park 07:45-09:30"
+      ],
+      "stacked": false,
+      "wx": "Partly sunny, 46F; low 27F"
+    },
+    {
+      "date": "2026-11-27",
+      "dow": "Fri",
+      "loads": [
+        "Blues 13:00",
+        "Zoo Wild Lights opens",
+        "Black Friday traffic",
+        "Garden Glow"
+      ],
+      "stacked": true,
+      "wx": "Mostly sunny, 49F"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "watch",
+      "summary": "No NWS products for St. Louis. Light rain Sun AM, then hard freeze Mon-Tue (lows 26-29F). Tyson dry afternoon today. No regional quakes."
+    },
+    {
+      "name": "Life-safety threat",
+      "pir": 2,
+      "status": "quiet",
+      "summary": "Nothing reportable Nov 18-21 (Medium confidence; police release pages not reached). Background: Nov 14 Lindell shots-fired arrest, Nov 12 Marketplace robbery near McPherson."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "watch",
+      "summary": "Early national H1N1 flu season, low locally, holiday spike expected; Gateway Regional (Granite City) on bypass; measles no active St. Louis exposure."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "watch",
+      "summary": "BYOD ransomware campaign vs R1 universities/academic medicine (Sev 4 if hit, Low); Blue Line truncated, Forest Park-DeBaliviere elevator out Nov 19-29; Puppet KEV added."
+    },
+    {
+      "name": "Scheduled activity",
+      "pir": 5,
+      "status": "watch",
+      "summary": "NCAA soccer sectional Sat-Sun on Danforth; downtown parade and Blues this weekend; CITY SC playoff Mon; break Nov 25-29; Turkey Trot Thu; Wild Lights Fri; NCAA football home game listed Nov 28."
+    },
+    {
+      "name": "Policy, legal, funding",
+      "pir": 6,
+      "status": "watch",
+      "summary": "FEMA GO read-only for FIMS transition (single-source); CR expires Dec 11; GAO preparedness-grant report; MO pre-filing Dec 1; no State Dept L3/4 changes."
+    }
+  ],
+  "posture": "Normal",
+  "published_at": "2026-11-21T11:59:25Z",
+  "run_note": "All 7 lanes reported; charter read in full; started 05:52 CT, published ~06:05 CT. Supervisor added the NCAA soccer sectional the Events lane missed. BYOD Sev 4 item re-verified.",
+  "title": "WashU EM Daily Intelligence Briefing, November 21, 2026",
+  "today_items": [
+    {
+      "action": "Confirm event security, parking and crowd staffing Sat 11:00/13:30 and Sun 13:00 final; check overlap with Field House basketball Sun 13:00 and Sunday-morning rain.",
+      "confidence": "Medium",
+      "likelihood": "Occurring",
+      "owner": "Athletics, WUPD, Facilities",
+      "pir": 5,
+      "rank": 1,
+      "severity": 2,
+      "source": "https://washubears.com/news/2026/11/20/no-3-washu-womens-soccer-welcomes-ncaa-sectional-to-francis-olympic-field.aspx",
+      "title": "NCAA women's soccer sectional at Francis Olympic Field",
+      "ttd": "Today"
+    },
+    {
+      "action": "Freeze-protect irrigation, exposed piping and Tyson equipment by Sunday night; clear West Campus archive basement drains; brief 6200 Forsyth crane crew on Sunday NW gusts ~22 mph.",
+      "confidence": "High",
+      "likelihood": "High",
+      "owner": "Facilities, EM",
+      "pir": 1,
+      "rank": 2,
+      "severity": 1,
+      "source": "https://forecast.weather.gov/MapClick.php?lat=38.65&lon=-90.30",
+      "title": "Sunday cold front, then first hard freeze Mon-Tue",
+      "ttd": "Today"
+    },
+    {
+      "action": "Tell field crews: no open flame, keep vehicles off dry grass, keep evacuation check-in until Sunday rain.",
+      "confidence": "Medium",
+      "likelihood": "Low",
+      "owner": "Tyson mgmt, EHS",
+      "pir": 1,
+      "rank": 3,
+      "severity": 2,
+      "source": "https://www.drought.gov/states/missouri/county/st.%20louis",
+      "title": "Tyson fire weather window today",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "NCAA DIII women's soccer sectional at Francis Olympic Field: WashU vs UW-La Crosse Sat 11:00, North Central vs Trinity 13:30, final Sun 13:00 overlapping women's basketball. Athletics/WUPD/Facilities confirm staffing and parking.",
+  "unreachable": [
+    "SPC Day 1-3 outlooks (stale)",
+    "AirNow St. Louis AQI",
+    "Mississippi River gauge",
+    "NWS alerts API",
+    "SLMPD/Clayton/University City/County PD releases",
+    "emergency.washu.edu",
+    "KSDK and FOX 2 pages",
+    "happenings.washu.edu",
+    "MoDOT work zones",
+    "Ameren/Spire/water outage maps",
+    "REN-ISAC and Health-ISAC",
+    "MO DHSS flu dashboard",
+    "CDC wastewater data"
+  ]
+}
