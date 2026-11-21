@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "12:45 AM CST 11/21 four-lane run. All lanes NOTHING NEW. One update: MAW 145928 (Breckenridge Hills) notice text places the area in Maryland Heights; past ~11 PM estimate, still Active. City outages page still stamped 3:30 PM 11/20; Riverview/Jordan ETR 1:19 AM 11/21 not yet confirmed restored. Untracked older City main repairs (11/15-11/18, Ring 2, none near campus): Partridge/McLaran, Oleatha/Gustine, Tower Grove/Cleveland, Riverview/W Florissant, S Spring/Park, Potomac/Sulphur. MAW IDs 145947-145953, 145955, 145957, 145960 blank. MAW alerts index and boil page did not load; MO DNR report did not load. KFVS list unchanged (11/19 11:37 AM). WashU Alert none (modified 11/18); Facilities: Tao Tennis notice confirmed, no Jolley/Cupples or Wallace Dr completion; Medical Campus no water notices. Excluded: undated AOL Maryland Heights/Bridgeton/Earth City advisory, Jan 2026 KSDK U City/Webster breaks, 2022 Clayton Rd project. Not covered: MSD, Kirkwood, BJC, Cortex, Delmar Loop, MoDOT, Clayton/U City municipal pages.",
+    "note": "1:45 AM CST 11/21 four-lane run. All lanes NOTHING NEW; no incident records changed. MAW 145928 (Breckenridge Hills/Maryland Heights) still Active past ~11 PM estimate, no completion text. City outages page still stamped 3:30 PM 11/20; Riverview/Jordan ETR 1:19 AM 11/21 passed, restoration unconfirmed. MAW IDs 145960-145962, 145965 blank; MAW alerts index blank (login); MAW boil page none; City Water news newest 8/25. KFVS list unchanged (11/19); New Madrid PWSD 2 already tracked; Millstone (Pope Co IL, 11/4) on list, not re-checked. WashU Alert none (modified 11/18); Facilities: Tao Tennis unchanged, no Jolley/Cupples or Wallace Dr completion; Medical Campus no water notices. Excluded: Jan 2026 FOX2 U City/Webster breaks, undated Maryland Heights/Bridgeton/Earth City advisory, Jan 2026 U City Delmar tap. Not covered: MSD, Kirkwood, MO DNR, BJC, Cortex, Delmar Loop, MoDOT, social platforms (poorly indexed).",
     "open_count": 235,
-    "run_at": "2026-11-21T06:45:00Z",
-    "top_incident": "No new water incidents since 11:45 PM. No Ring 1 incident and no City or County boil advisory. Carried Ring 1: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25 to Dec 7, partial fire-lane closure; impact possible (low)."
+    "run_at": "2026-11-21T07:45:00Z",
+    "top_incident": "No new water incidents since 12:45 AM. No Ring 1 incident and no City or County boil advisory. Carried Ring 1: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25 to Dec 7, partial fire-lane closure; impact possible (low)."
   },
   "incidents": [
     {
