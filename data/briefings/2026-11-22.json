@@ -1,0 +1,177 @@
+{
+  "bluf": "Posture Normal; nothing at threshold. Today's decision: freeze protection as lows of 27-29F arrive Mon-Thu while Danforth empties for Thanksgiving break (Wed 25-Sun 29), West Campus basement archives first. Highest-consequence item: verified BYOD ransomware campaign against university health systems (Vanderbilt, UNM diversion); confirm IT/Medical Campus downtime readiness this week. Also this week: campus swatting pattern, Dec 11 federal funding deadline, post-break H1N1 flu import.",
+  "briefing_url": "https://claude.ai/artifact/CjX8KYa3wnWS8nVzTzy9mJ",
+  "date": "2026-11-22",
+  "dissents": [
+    {
+      "note": "Raised Sev 2 to 3, overrules Lane 1; lead action today.",
+      "title": "Underrated: first hard freeze as buildings empty",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Lane 3 already raised it; Red Team Sev 3 vs supervisor Sev 2 carried as dissent.",
+      "title": "Underrated: post-break flu import",
+      "verdict": "carried"
+    },
+    {
+      "note": "Consistent with Lane 1; Sev 1-2.",
+      "title": "Overrated: today's cold front / Thanksgiving snow",
+      "verdict": "adopted"
+    },
+    {
+      "note": "No St. Louis exposures since September; Monitor.",
+      "title": "Overrated: measles",
+      "verdict": "adopted"
+    },
+    {
+      "note": "~1% today, Sev 5, Low confidence; actions folded into PIR 4 item.",
+      "title": "Scenario: holiday-week ransomware into Medical Campus systems",
+      "verdict": "carried"
+    },
+    {
+      "note": "Red Team low 20s in sheltered spots vs NWS point 33F; action unchanged.",
+      "title": "Tonight's low",
+      "verdict": "unresolved"
+    }
+  ],
+  "lanes_quiet": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "lookahead": [
+    {
+      "date": "2026-11-22",
+      "dow": "Sun",
+      "loads": "Women's basketball 1 PM; possible NCAA soccer sectional final 1 PM (unconfirmed); Blues 6 PM; Pageant 8 PM",
+      "stacked": true,
+      "wx": "Rain ending ~2 PM, 60F falling to 50F, gusts 25 mph"
+    },
+    {
+      "date": "2026-11-23",
+      "dow": "Mon",
+      "loads": "Classes; first hard freeze tonight",
+      "stacked": false,
+      "wx": "Sunny, 48/28F"
+    },
+    {
+      "date": "2026-11-24",
+      "dow": "Tue",
+      "loads": "Classes; small Loop concert",
+      "stacked": false,
+      "wx": "Partly sunny, 43/28F"
+    },
+    {
+      "date": "2026-11-25",
+      "dow": "Wed",
+      "loads": "Break begins; Lambert peak with MetroLink stops closed; Winter Wonderland opens; Delmar Hall show",
+      "stacked": true,
+      "wx": "Mostly cloudy, 44/29F; slight rain/snow evening"
+    },
+    {
+      "date": "2026-11-26",
+      "dow": "Thu",
+      "loads": "Thanksgiving holiday staffing; Turkey Trot Forest Park 8 AM",
+      "stacked": true,
+      "wx": "Partly sunny, 46/27F"
+    },
+    {
+      "date": "2026-11-27",
+      "dow": "Fri",
+      "loads": "Blues 1 PM; Zoo Wild Lights opens; Delmar Hall 8 PM; Black Friday traffic",
+      "stacked": true,
+      "wx": "Mostly sunny, 48/33F"
+    },
+    {
+      "date": "2026-11-28",
+      "dow": "Sat",
+      "loads": "Blues 6 PM; holiday-lights traffic",
+      "stacked": true,
+      "wx": "Mostly sunny, high 54F"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "watch",
+      "summary": "No NWS product. Front with rain ends ~2 PM today, gusts 25 mph. Hard freezes Mon-Thu nights. Slight rain/snow mix Wed evening. Rivers low, no quakes, no red flag."
+    },
+    {
+      "name": "Life safety",
+      "pir": 2,
+      "status": "watch",
+      "summary": "No verified violent Ring 1 incident in 72 h; no threat naming WashU. National campus swatting pattern (Quinnipiac Nov 19, UIUC Nov 11): review hoax-call screening this week."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "watch",
+      "summary": "No advisory, outbreak or diversion. Early H1N1 season nationally; Region 7 low. Post-break import risk Nov 29-30 into finals. Measles: no St. Louis exposures."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "watch",
+      "summary": "BYOD ransomware hitting university health systems (Vanderbilt, UNM, MSU), Sev 4, This week. MetroLink Lambert stops closed; Blue Line evening cutback; FP-DeBaliviere elevator out. No utility outages found."
+    },
+    {
+      "name": "Scheduled activity",
+      "pir": 5,
+      "status": "watch",
+      "summary": "Thanksgiving break Wed 25-Sun 29 with partial break housing. Turkey Trot Thu 8 AM, Wild Lights opens Fri. No Ring 1 event over 5,000 confirmed."
+    },
+    {
+      "name": "Policy and funding",
+      "pir": 6,
+      "status": "watch",
+      "summary": "Federal stopgap expires 10:59 PM CT Fri Dec 11 during finals; start shutdown continuity review. No new FEMA grant notices."
+    }
+  ],
+  "posture": "Normal",
+  "published_at": "2026-11-22T11:58:00Z",
+  "run_note": "Charter read OK. All 7 lanes reported; run 05:52-06:00 CT. Sev 4 ransomware item re-verified (The Record, Malwarebytes). Possible NCAA soccer sectional final today 1 PM at Francis Olympic Field not confirmed by this run.",
+  "title": "WashU EM Daily Intelligence Briefing, November 22, 2026",
+  "today_items": [
+    {
+      "action": "Winterize irrigation and exposed piping before Mon night; confirm heat setpoints and heat tracing; schedule break walk-throughs of West Campus archives, South Campus, Tyson.",
+      "confidence": "Medium",
+      "likelihood": "High (freeze) / Medium (damage)",
+      "owner": "Facilities",
+      "pir": "PIR 1/4",
+      "rank": 1,
+      "severity": 3,
+      "source": "https://forecast.weather.gov/MapClick.php?lat=38.65&lon=-90.30&unit=0&lg=english&FcstType=text&TextType=1",
+      "title": "Hard freezes as buildings empty for break",
+      "ttd": "Today"
+    },
+    {
+      "action": "Add North Hanley shuttle transfer (+15-20 min) and Wed-evening weather line to break travel messages Mon-Tue.",
+      "confidence": "High",
+      "likelihood": "Occurring",
+      "owner": "Student Affairs, Communications",
+      "pir": "PIR 4/1",
+      "rank": 2,
+      "severity": 2,
+      "source": "https://metrostlouis.org/rider-alerts",
+      "title": "Departure travel messaging: MetroLink Lambert stops closed; Wed evening rain/snow chance",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "Hard freezes (27-29F lows Mon-Thu) as buildings empty for Thanksgiving break: Facilities to winterize irrigation, confirm heat setpoints and schedule break walk-throughs, West Campus basement archives first.",
+  "unreachable": [
+    "NWS alerts API",
+    "SPC current outlooks",
+    "AirNow St. Louis",
+    "Missouri DHSS flu dashboard",
+    "CDC wastewater Missouri",
+    "Ameren/Spire outage maps",
+    "WashU Alert archive",
+    "Clayton/U City/County PD releases",
+    "MoDOT 2026 weekly closures",
+    "Vendor status pages",
+    "travel.state.gov",
+    "Campus Safety Magazine"
+  ]
+}
