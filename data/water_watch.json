@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "5:45 PM CST 11/21 four-lane run: nothing new affecting WashU. Changed: City outage on Riverview/Jordan is gone from the outages page (stamped 4:30 PM), so it moved to monitoring. N Kingshighway/Penrose (ETR 11/27) and Penrose/Euclid (ETR 11/26) are still active; Howard/19th and Union/Brown are still listed past their ETRs. City page also lists untracked Ring 2 main-repair work orders dated 11/15-11/18 with no outage (Tower Grove/Cleveland, S Spring/Park, Potomac/Sulphur, Oleatha/Gustine, Partridge/McLaran, Riverview/W Florissant); they are older than 24 h and were not added. AW alerts 145980-81 are a Greenwood leak investigation, probably IN and out of area; highest live ID is 145981. MAW alerts page shows none; the MAW boil page did not load. The stlwater.com boil advisory page (?p=9725) is undated and appears to be stale content from August; the City news index has nothing after 8/25. KFVS list is still stamped 11/19. WashU Alert none; Facilities and Med Campus Facilities show no water items; Metro has no water alerts. News and social: nothing dated 11/20-21. Not checked: MSD, Kirkwood, MO DNR table (did not load), individual municipal pages, BJC/Cortex/Loop/Forest Park Forever.",
-    "open_count": 242,
-    "run_at": "2026-11-21T23:45:00Z",
+    "note": "6:40 PM CST 11/21 four-lane run: nothing new affecting WashU. New Ring 2 only: City hydrant repair at Louisiana/Cherokee (opened 1:10 PM 11/21, no outage). stlwater.com still stamped 4:30 PM; N Kingshighway/Penrose (ETR 11/27) and Penrose/Euclid (ETR 11/26) active; Howard/19th and Union/Brown still listed past ETR; Riverview/Jordan still off the page. AW alerts 145982 (Larksville PA) and 145983 (Pacific Grove CA) are out of area; 145984+ not yet issued. MAW alerts page unreadable as text. City news index nothing after 8/25. KFVS list still stamped 11/19 (New Madrid PWSD 2 already tracked). WashU Alert none (page last changed 11/18); Facilities shows only the Tao Tennis chilled-water item, Wallace Dr item, and a Jolley Hall sewer repair (not water supply); Med Campus Facilities no water items; Metro no water alerts. News and social: nothing dated 11/20-21; KSDK Penrose/Blair story would not load (date and match unconfirmed); Lindell/Union and Delmar Loop hits were 2020/2023 archives. Not checked: MSD, MO DNR, individual municipal pages, BJC/Cortex/Loop/Forest Park Forever.",
+    "open_count": 243,
+    "run_at": "2026-11-22T00:40:00Z",
     "top_incident": "No new or changed water incident affecting WashU; no City or County boil advisory. Carried Ring 1: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7, 7 AM-3 PM; impact possible (low)."
   },
   "incidents": [
@@ -5979,6 +5979,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division main repair and service outage, Leona St & Bowen St (Holly Hills, south City)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 6:40 PM CT 11/21 (Lane 1 only, stlwater.com outages page): hydrant repair work order opened 1:10 PM 11/21; no outage, restoration estimate or boil notice listed. ~3-4 mi SE of the Medical Campus (estimate); not on a Ring 1 corridor; no WashU asset. Impact none. Resolve when dropped from the outages page. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-22T00:40:00Z",
+      "id": "stlwater-stlouiscity-louisiana-cherokee-hydrant-20261121",
+      "last_updated": "2026-11-22T00:40:00Z",
+      "location": "Louisiana Ave & Cherokee St, St. Louis City (Benton Park West / Gravois Park)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages"
+      ],
+      "status": "open",
+      "title": "City of St. Louis Water Division fire hydrant repair, Louisiana Ave & Cherokee St (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
