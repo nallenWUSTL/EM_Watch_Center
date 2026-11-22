@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "6:40 PM CST 11/21 four-lane run: nothing new affecting WashU. New Ring 2 only: City hydrant repair at Louisiana/Cherokee (opened 1:10 PM 11/21, no outage). stlwater.com still stamped 4:30 PM; N Kingshighway/Penrose (ETR 11/27) and Penrose/Euclid (ETR 11/26) active; Howard/19th and Union/Brown still listed past ETR; Riverview/Jordan still off the page. AW alerts 145982 (Larksville PA) and 145983 (Pacific Grove CA) are out of area; 145984+ not yet issued. MAW alerts page unreadable as text. City news index nothing after 8/25. KFVS list still stamped 11/19 (New Madrid PWSD 2 already tracked). WashU Alert none (page last changed 11/18); Facilities shows only the Tao Tennis chilled-water item, Wallace Dr item, and a Jolley Hall sewer repair (not water supply); Med Campus Facilities no water items; Metro no water alerts. News and social: nothing dated 11/20-21; KSDK Penrose/Blair story would not load (date and match unconfirmed); Lindell/Union and Delmar Loop hits were 2020/2023 archives. Not checked: MSD, MO DNR, individual municipal pages, BJC/Cortex/Loop/Forest Park Forever.",
-    "open_count": 243,
-    "run_at": "2026-11-22T00:40:00Z",
+    "note": "7:40 PM CST 11/21 four-lane run: nothing new affecting WashU. stlwater.com still stamped 4:30 PM; N Kingshighway/Penrose (ETR 11/27) and Penrose/Euclid (ETR 11/26) active; Howard/19th and Union/Brown still listed past ETR; Louisiana/Cherokee hydrant newest work order; no Ring 1 entries. AW alerts 145984-145990 return blank pages; 145977-146010 effectively unchecked (fetch failures). MAW boil page shows none (may not render). City news index nothing after 8/25. KFVS list still stamped 11/19; added untracked Millstone WD (Pope Co IL, Ring 3, issued 11/4). WashU Alert none (last changed 11/18); Facilities only Tao Tennis chilled-water item plus non-water notices; Med Campus Facilities no water items; Metro no water alerts. News and social: nothing dated 11/20-21; stlwater ?p=9725 boil page appears stale (Aug 17 Chain of Rocks event); undated FOX2/AOL MAW Maryland Heights advisory and KSDK multi-city lift story treated as archives. Not checked: MSD, MO DNR, Kirkwood, individual municipal pages, BJC/Cortex/Loop/Forest Park Forever.",
+    "open_count": 244,
+    "run_at": "2026-11-22T01:40:00Z",
     "top_incident": "No new or changed water incident affecting WashU; no City or County boil advisory. Carried Ring 1: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7, 7 AM-3 PM; impact possible (low)."
   },
   "incidents": [
@@ -5193,6 +5193,24 @@
       "status": "resolved",
       "title": "Millstone Water District boil order, 3290 Mt. Shelter Rd south to Murrie Ln incl. Carr Rd (Pope County, IL)",
       "utility": "Millstone Water District, IL",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "Added 7:40 PM CT 11/21 (Lane 2 only, KFVS Heartland list stamped 11/19): boil order issued 11/4, until further notice; previously untracked. ~150 mi SE; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-22T01:40:00Z",
+      "id": "millstonewd-popecounty-bertrd-20261104",
+      "last_updated": "2026-11-22T01:40:00Z",
+      "location": "Bert Rd, Waltersburg Rd at Hazel Rd, and Hazel Rd north, Pope County, IL (far southern Illinois)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
+      ],
+      "status": "open",
+      "title": "Millstone Water District boil order, Bert Rd / Waltersburg Rd / Hazel Rd, Pope County, IL",
+      "utility": "Millstone Water District (IL)",
       "washu_impact": "none"
     },
     {
