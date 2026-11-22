@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "9:40 AM CST 11/22 four-lane run. One new: MAW 146045 St. Louis County main break (1 AM 11/22, ~8 hr, no street, no boil advisory), impact none. MAW 146020/146017 still posted past estimates, no completion text; 146013 still investigation. Probed 146036-146044, 146046-146055, 146060 blank (146056-146059 unchecked; next run probe 146056+). IAW Granite City 146014 boil order not lifted. City outages page still last updated 4:30 PM 11/21. KFVS list unchanged since 11/19 (Dunklin PWSD 3, New Madrid PWSD 2, Millstone WD in effect). Undated KSDK south County advisory story (Watson/McKenzie/Tesson Ferry/Grant) not adopted: no date, no matching MAW alert. WashU emergency site, Danforth and Medical Campus Facilities: no water items (MPRB restroom block Nov 23-25 is access work, not water). Unreachable/unchecked: MSD, Kirkwood, BJC, Cortex, Loop, MoDOT, MAW advisory map, Lewistown MO status.",
+    "note": "10:40 AM CST 11/22 four-lane run: nothing new in any lane. MAW 146045, 146020, 146017 still posted past repair estimates, no completion text; 146013 still investigation. ID probe 146055-146059, 146061, 146062, 146065, 146070 blank (next run probe 146063+ and 146071+). IAW Granite City 146014 boil order not lifted. City outages page unchanged since 4:30 PM 11/21; Howard St and Union Blvd outages past estimates; Brooklyn & N 9th hydrant, 41 Dock hydrant, St. Louis Ave & Norwood hydrant and N Broadway & Angelrodt valve (Nov 17-19, north City, Ring 2) listed on page but not tracked. No CWE/Skinker/Forest Park entries. KFVS list unchanged since 11/19. KSDK south County and I-44 stories still undated (fetch failed), not adopted. WashU emergency site and Facilities: no water items. Unreachable/unchecked: MAW and IAW alert index pages, MO DNR boil table, Reddit/X/Nextdoor, BJC, Cortex, Loop, Forest Park Forever.",
     "open_count": 249,
-    "run_at": "2026-11-22T15:40:00Z",
+    "run_at": "2026-11-22T16:40:00Z",
     "top_incident": "No new or changed water incident affecting WashU, and no City or County boil order. Carried Ring 1 item: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7; impact possible (low)."
   },
   "incidents": [
