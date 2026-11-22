@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "11:40 PM CST 11/21 four-lane run: nothing new. stlwater.com outages (stamped 4:30 PM 11/21) unchanged: N Kingshighway/Penrose-Lillian ETR 11/27, Penrose/Euclid ETR 11/26; Howard/19th and Union/Brown still listed past ETR; no City boil advisory. Louisiana/Cherokee hydrant not seen among active outages by Lane 1 but may sit in the work-order list; unconfirmed, status left open. City Water news newest 8/25. AW alert IDs 145984-146012 unreadable (script-loaded pages, proxy timeouts); MAW alerts index empty; tracked MAW Clayton/U City/Richmond Heights alerts not rechecked. KFVS Heartland list still stamped 11/19; New Madrid PWSD 2 and Millstone already tracked; Collinsville/Lewistown/Columbia absence not treated as lift (not KFVS-sourced). WashU Alert none (last change 11/18); Danforth Facilities Tao Tennis item unchanged; Med Campus MPRB work confirmed non-water. Undated KSDK Eureka boil advisory, FOX2/AOL Bridgeton/Maryland Heights advisory and Jan 2026 U City breaks treated as archive. Social: X/Nextdoor/Facebook/Reddit yielded nothing dated. Not checked: MSD, Kirkwood, MO DNR list, MAW boil page (fetch error), municipal pages, BJC/Cortex/Loop, Metro, MoDOT.",
-    "open_count": 244,
-    "run_at": "2026-11-22T05:40:00Z",
-    "top_incident": "No new or changed water incident affecting WashU; no City or County boil advisory. Carried Ring 1: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7, 7 AM-3 PM; impact possible (low)."
+    "note": "12:45 AM CST 11/22 four-lane run. New: MAW 146017 (8:45 PM 11/21, ~6 hr) and 146020 (9:45 PM, ~8 hr) 'Saint Louis' County main breaks, no streets, no boil order (both re-opened by supervisor); MAW investigation 146013; IAW Granite City 146014 boil order on restoration. MAW advisory map not readable; check streets next run. City outages page (4:30 PM 11/21) unchanged. KFVS list still 11/19. WashU Alert none; Facilities unchanged; Med Campus MPRB interruption 11/23-25 system unconfirmed. MO DNR, MAW boil page: none for City/County. Social: nothing dated. Undated Maryland Heights advisory stories treated as archive. Not checked: MSD, Kirkwood, municipal pages, BJC/Cortex/Forest Park feeds, MoDOT; AW IDs 146010, 146021-146026 blank.",
+    "open_count": 248,
+    "run_at": "2026-11-22T06:45:00Z",
+    "top_incident": "No new or changed water incident affecting WashU; no City or County boil order. New: two unlocated MAW St. Louis County main breaks (146017, 146020) and investigation 146013, streets unpublished. Carried Ring 1: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7; impact possible (low)."
   },
   "incidents": [
     {
@@ -587,6 +587,24 @@
       ],
       "status": "resolved",
       "title": "Illinois American Water main break with boil order on restoration, Granite City, IL (alert 145473)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:45 AM CT 11/22 (Lane 1 only): IAW alert 146014, emergency repairs from 7:30 PM 11/21, ~2 hr estimate; boil order on restoration, lift not posted. Metro East; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-22T06:45:00Z",
+      "id": "ilaw-granitecity-unlocated-20261121",
+      "last_updated": "2026-11-22T06:45:00Z",
+      "location": "Granite City, IL (Madison County, Metro East; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146014"
+      ],
+      "status": "open",
+      "title": "Illinois American Water emergency repairs with boil order, Granite City, IL (alert 146014)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
     },
@@ -4071,6 +4089,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 12:45 AM CT 11/22 (Lane 1 only): MAW alert 146013, investigation of a possible service issue, low or no pressure possible; no times, streets or boil order. May precede 146017 or 146020. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-22T06:45:00Z",
+      "id": "maw-stlouiscounty-investigation-20261121",
+      "last_updated": "2026-11-22T06:45:00Z",
+      "location": "St. Louis County, MO (streets not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146013"
+      ],
+      "status": "open",
+      "title": "Missouri American Water service investigation, St. Louis County — possible low/no pressure (alert 146013)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 1:50 PM CT 11/19 (Lane 1 only): planned work ~11 AM-4 PM 11/19; no streets or municipality; no boil advisory. Location unknown, so WashU proximity cannot be assessed; no WashU Alert or Facilities notice (Lane 3). Impact none. Escalate if the MAW map shows Clayton, University City or Richmond Heights. Resolve after window if dropped. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-19T19:50:00Z",
@@ -4620,6 +4656,42 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, St. Louis County — emergency repairs (alert 145964)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:45 AM CT 11/22 (Lane 1; page re-opened by supervisor): MAW alert 146017, emergency main-break repairs from 8:45 PM 11/21, ~6 hr estimate (~2:45 AM 11/22); discolored or cloudy water, low or no pressure possible; no streets; no boil order. Separate from tracked daytime County breaks 145953-57 and 145964 by start time. MAW does not serve St. Louis City; Clayton/U City/Richmond Heights cannot be ruled out until streets are known. Impact none on current evidence. Action: next run check MAW advisory map; escalate if in a Ring 1 municipality. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-22T06:45:00Z",
+      "id": "maw-stlouiscounty-unlocated-20261121c",
+      "last_updated": "2026-11-22T06:45:00Z",
+      "location": "St. Louis County, MO (city field 'Saint Louis', likely unincorporated County; streets not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146017"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, St. Louis County ('Saint Louis') — evening emergency repairs (alert 146017)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:45 AM CT 11/22 (Lane 1; page re-opened by supervisor): MAW alert 146020, urgent emergency main-break repairs from 9:45 PM 11/21, ~8 hr estimate (~5:45 AM 11/22); discolored water, low or no pressure possible; no streets; no boil order. Separate from 146017 by start time. Location unknown; Ring 1 municipalities cannot be ruled out. Impact none on current evidence. Action: next run check MAW advisory map; escalate if in Clayton, University City or Richmond Heights. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-22T06:45:00Z",
+      "id": "maw-stlouiscounty-unlocated-20261121d",
+      "last_updated": "2026-11-22T06:45:00Z",
+      "location": "St. Louis County, MO (city field 'Saint Louis', likely unincorporated County; streets not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146020"
+      ],
+      "status": "open",
+      "title": "Missouri American Water urgent main break, St. Louis County ('Saint Louis') — emergency repairs (alert 146020)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
