@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "4:40 PM CST 11/22 four-lane run: nothing new in any lane. MAW 146045, 146020, 146017 still posted (St. Louis County, no streets, past repair estimates, no closure text); IDs 146051-146055, 146058, 146062 blank; MAW alerts index rendered no entries; MAW boil page none; MO DNR none in St. Louis City/County. stlwater.com outages still stamped 4:30 PM 11/21 (feed lag): N Kingshighway Penrose-Lillian ETR 11/27, Penrose/Euclid ETR 11/26, Howard/19th and Union/Brown past ETR; Riverview/Jordan absent. City Water news newest Aug 25; stlwater.com ?p=9725 boil page is the stale Aug 17 Chain of Rocks advisory, not adopted. KFVS Heartland list unchanged since 11/19 (Dunklin PWSD 3, New Madrid WD 2, Millstone WD listed; Lewistown, Warsaw, Collinsville not shown, lifts unconfirmed so not resolved). WashU emergency site no alerts; Facilities: Tao Tennis chilled water unchanged; Med Campus Facilities no water shutdowns (non-water: BJ Plaza crane lane closure 11/21, McDonnell Pediatric restroom access 11/23-25). U City news flash no water items. Stale Jan 2026 FOX 2/Yahoo multi-break story rejected. Not reached: MSD, Kirkwood, IAW alerts page (failed), BJC, Cortex, Forest Park Forever, MoDOT; Reddit blocked, X/Facebook poorly indexed.",
-    "open_count": 249,
-    "run_at": "2026-11-22T22:40:00Z",
-    "top_incident": "No new or changed water incident affecting WashU, and no City or County boil order. Carried Ring 1 item: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7 (notice unchanged; internal chilled water, not domestic supply); impact possible (low)."
+    "note": "5:45 PM CST 11/22 four-lane run. New Ring 2 MAW items (all impact none, no boil order): Pine Lawn 146082, Burbeck Dr 146084 (likely Lemay), Maryland Heights 146079/146081, County unlocated 146083/146088. IAW 146097 West Suburban boil lift moves Bolingbrook 145974 to monitoring. 146045 still posted. stlwater.com outages still stamped 4:30 PM 11/21; Riverview/Jordan absent (unchanged). City boil-advisory page none; MO DNR none in City/County. KFVS list unchanged since 11/19. WashU emergency site and Facilities: no new water items. Lanes 2-4 nothing new; stale Jan 2026 and undated KSDK Olive Blvd stories rejected; Brentwood Nextdoor agency post unverifiable (blocked). Not reached: MSD, Kirkwood, IAW alerts page, Metro, MoDOT, Cortex, Forest Park Forever, BJC; X/Reddit/Facebook poorly indexed.",
+    "open_count": 254,
+    "run_at": "2026-11-22T23:45:00Z",
+    "top_incident": "No new or changed water incident affecting WashU, and no City or County boil order. Carried Ring 1 item: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7 (internal chilled water, not domestic supply); impact possible (low)."
   },
   "incidents": [
     {
@@ -329,18 +329,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 2:40 PM CT 11/21 (Lane 1 only, ID probe): IAW alert 145974, emergency main-break repairs from 12:00 PM 11/21, ~11.5 hr estimate; boil order once service restored. ~280 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "assessment": "Updated 5:45 PM CT 11/22 (Lane 1): IAW alert 146097 posts a 'West Suburban' boil order lift; Bolingbrook 145974 is likely the event lifted but the link is not confirmed, so moved to monitoring, not resolved. ~280 mi NE; no WashU asset; impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-21T20:40:00Z",
       "id": "ilaw-bolingbrook-unlocated-20261121",
-      "last_updated": "2026-11-21T20:40:00Z",
+      "last_updated": "2026-11-22T23:45:00Z",
       "location": "Bolingbrook, IL (Will County, Chicago area; streets not published)",
       "ring": 3,
       "single_source": true,
       "sources": [
-        "https://alertsdetail.awapps.com/alert/145974"
+        "https://alertsdetail.awapps.com/alert/145974",
+        "https://alertsdetail.awapps.com/alert/146097"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "Illinois American Water main break with boil order on restoration, Bolingbrook, IL (alert 145974)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
@@ -3164,6 +3165,25 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 5:45 PM CT 11/22 (Lane 1 only): MAW alerts 146079 and 146081, emergency main-break repairs from 8:00 AM, ~8 hr estimate; no streets; no boil order. May relate to tracked Maryland Heights alerts 145868/145928 (not confirmed). ~8 mi NW of Danforth; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-22T23:45:00Z",
+      "id": "maw-marylandheights-unlocated-20261122",
+      "last_updated": "2026-11-22T23:45:00Z",
+      "location": "Maryland Heights, MO (NW St. Louis County; streets not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146079",
+        "https://alertsdetail.awapps.com/alert/146081"
+      ],
+      "status": "open",
+      "title": "Missouri American Water emergency repairs, Maryland Heights — discolored water / low pressure (alerts 146079, 146081)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Updated 6:40 PM CT 11/16 (Lane 1): MAW alert 145349 detail now gives start 5:30 PM 11/16, ~6 hr repair estimate (~11:30 PM); no streets; no boil advisory. ~110 mi NW; separate system; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-16T23:40:00Z",
@@ -3402,6 +3422,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Pine Lawn — emergency repairs (alert 144571)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 5:45 PM CT 11/22 (Lane 1; page re-opened by supervisor): MAW alert 146082, main-break emergency repairs from 8:00 AM 11/22, ~8 hr estimate (~4 PM); possible discolored water, low or no pressure; no streets; no boil order. ~3-4 mi N of North Campus and Danforth (estimate); MAW County system, not the City-served campus portions; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2-4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-22T23:45:00Z",
+      "id": "maw-pinelawn-unlocated-20261122",
+      "last_updated": "2026-11-22T23:45:00Z",
+      "location": "Pine Lawn, MO (north St. Louis County; streets not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146082"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Pine Lawn — emergency repairs, discolored water (alert 146082)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -3810,6 +3848,24 @@
       ],
       "status": "resolved",
       "title": "Missouri American Water main break, 'St. Louis' — Trotter Way, emergency repairs (alert 142474)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 5:45 PM CT 11/22 (Lane 1; page re-opened by supervisor): MAW alert 146084, urgent main break on Burbeck Dr; crews locating the break, no start or end times; low pressure, discoloration or no water possible; no boil order. If 63125, ~9 mi SE of Danforth; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-22T23:45:00Z",
+      "id": "maw-stlouiscounty-burbeckdr-20261122",
+      "last_updated": "2026-11-22T23:45:00Z",
+      "location": "Burbeck Dr, St. Louis area (region code MO:STL; no municipality printed; likely ZIP 63125 Lemay/south County per web search, unconfirmed)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146084"
+      ],
+      "status": "open",
+      "title": "Missouri American Water urgent main break, Burbeck Dr (St. Louis County) — crews locating (alert 146084)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -4710,6 +4766,25 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, St. Louis County ('Saint Louis') — emergency repairs (alert 146045)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 5:45 PM CT 11/22 (Lane 1; 146088 re-opened by supervisor): two County main-break repairs, 146083 from 8:00 AM and 146088 from 9:30 AM 11/22, ~8 hr each; no municipality or streets; no boil order. Location unknown, so proximity to WashU cannot be assessed; no WashU Alert or Facilities notice (Lane 3). Impact none on available evidence. Escalate if a Clayton, University City, Richmond Heights or Ring 1 street is published. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-22T23:45:00Z",
+      "id": "maw-stlouiscounty-unlocated-20261122b",
+      "last_updated": "2026-11-22T23:45:00Z",
+      "location": "St. Louis County, MO (municipality and streets not published; utility map not opened)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146083",
+        "https://alertsdetail.awapps.com/alert/146088"
+      ],
+      "status": "open",
+      "title": "Missouri American Water emergency repairs, St. Louis County — discolored water (alerts 146083, 146088)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
