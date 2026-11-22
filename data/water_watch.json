@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "12:45 AM CST 11/22 four-lane run. New: MAW 146017 (8:45 PM 11/21, ~6 hr) and 146020 (9:45 PM, ~8 hr) 'Saint Louis' County main breaks, no streets, no boil order (both re-opened by supervisor); MAW investigation 146013; IAW Granite City 146014 boil order on restoration. MAW advisory map not readable; check streets next run. City outages page (4:30 PM 11/21) unchanged. KFVS list still 11/19. WashU Alert none; Facilities unchanged; Med Campus MPRB interruption 11/23-25 system unconfirmed. MO DNR, MAW boil page: none for City/County. Social: nothing dated. Undated Maryland Heights advisory stories treated as archive. Not checked: MSD, Kirkwood, municipal pages, BJC/Cortex/Forest Park feeds, MoDOT; AW IDs 146010, 146021-146026 blank.",
+    "note": "1:45 AM CST 11/22 four-lane run. No new incidents in Rings 1-2. MAW 146017 (~3 AM est.) and 146020 (~5:45 AM est.) still active, no streets; 146019 'Dunbar' investigation out of area; 146021-146023 blank. IAW Granite City 146014 boil order still pending. City outages page still stamped 4:30 PM 11/21; all listed outages already tracked; advisories empty. Med Campus MPRB 11/23-25 interruption confirmed as badge-access wiring, not domestic water (first-floor restrooms hard to reach). WashU Alert none (last modified 11/18). KFVS list still 11/19. MAW alerts index and boil page did not load; MSD, MO DNR, IAW index not checked; fox2now/ksdk pages failed to load. Social: nothing dated.",
     "open_count": 248,
-    "run_at": "2026-11-22T06:45:00Z",
-    "top_incident": "No new or changed water incident affecting WashU; no City or County boil order. New: two unlocated MAW St. Louis County main breaks (146017, 146020) and investigation 146013, streets unpublished. Carried Ring 1: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7; impact possible (low)."
+    "run_at": "2026-11-22T07:45:00Z",
+    "top_incident": "No new or changed water incident affecting WashU; no City or County boil order. Carried Ring 1: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7; impact possible (low)."
   },
   "incidents": [
     {
