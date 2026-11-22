@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "3:40 AM CST 11/22 four-lane run. No new incidents in Rings 1-2. MAW 146020 still posted (break 9:45 PM 11/21, ~8 hr est. to ~5:45 AM; no streets, no boil order; already tracked). IAW Granite City 146014 boil-order lift still pending. Probed 146015-146016 (Greenwood IN, out of area); 146021-146030 unassigned; 146031+ not checked. City outages page stamped 3:30 AM 11/22: all entries already tracked (N Kingshighway/Lillian est. 11/27; Penrose/Euclid est. 11/26; Howard/19th and Union/Brown past estimates, still listed). stlwater boil advisory page: none. City Water news newest 8/25. WashU Alert none (last modified 11/18); Facilities and Med Campus Facilities: no new water items. KFVS Heartland list unchanged since 11/19 (New Madrid PWSD 2, Dunklin PWSD 3, Millstone still active). Undated KSDK Eureka boil advisory and Maryland Heights/Bridgeton lift story not adopted. Social: nothing dated. Not checked: MSD, Kirkwood, MO DNR, MAW boil page, Cortex (blocked), BJC, Loop, MoDOT.",
+    "note": "4:40 AM CST 11/22 four-lane run. No new incidents and no status changes. MAW 146020 still active (estimate ~5:45 AM, no completion notice). IAW Granite City 146014 boil order not yet lifted. Probed IDs 146021, 146025, 146031-33, 146035 and 146040: none assigned. City outages table unchanged; Howard/19th and Union/Brown are past estimate but still listed. The City repair-projects list still shows Eichelberger/Alaska (already tracked, monitoring), plus older untracked Ring 2 south-City repairs from 11/15-11/18 with no outages; these were not adopted. City Water news newest is 8/25. WashU Alert none (last modified 11/18); Facilities and Med Campus Facilities show no new water items. KFVS list unchanged since 11/19. Undated KSDK Festus citywide boil advisory (contractor hit on S Mill St, Ring 3) not adopted; next run should verify its date. Social: nothing dated. Unreachable: MAW alerts index (dynamic) and boil page, stlwater boil page, Kirkwood, MO DNR, MSD, Cortex.",
     "open_count": 248,
-    "run_at": "2026-11-22T09:40:00Z",
-    "top_incident": "No new or changed water incident affecting WashU; no City or County boil order. Carried Ring 1: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7; impact possible (low)."
+    "run_at": "2026-11-22T10:40:00Z",
+    "top_incident": "No new or changed water incident affecting WashU, and no City or County boil order. Carried Ring 1 item: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7; impact possible (low)."
   },
   "incidents": [
     {
