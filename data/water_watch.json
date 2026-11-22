@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "8:45 AM CST 11/22 four-lane run. No new incidents. MAW 146020 and 146017 still posted past estimates, no completion text; 146013 still investigation; probed 146024, 146026-146029, 146031-146033, 146035 blank (next run probe 146036+). IAW Granite City 146014 boil order not lifted. City outages page still last updated 4:30 PM 11/21, no changes; older untracked main-repair work orders (Partridge/McLaran 11/18, Oleatha/Gustine 11/16, Tower Grove/Cleveland 11/16, Riverview/W Florissant, S Spring/Park, Potomac/Sulphur 11/15) are Ring 2, outside the 24 h window, not added. KFVS list: Dunklin PWSD 3, Millstone WD and New Madrid PWSD 2 (already tracked) still in effect. WashU emergency site no alerts (emergency.washu.edu/?p=2070 is a 2015 Shriners lab page re-touched 11/21, not live). Danforth Facilities newest 11/20 (generator tests Nov 23-25 are power, not water); Medical Campus Facilities no water items. All social and news hits archival. Unreachable/unchecked: MSD, Kirkwood, BJC, Cortex, Loop, Forest Park Forever, MoDOT, MAW advisory map.",
-    "open_count": 248,
-    "run_at": "2026-11-22T14:45:00Z",
+    "note": "9:40 AM CST 11/22 four-lane run. One new: MAW 146045 St. Louis County main break (1 AM 11/22, ~8 hr, no street, no boil advisory), impact none. MAW 146020/146017 still posted past estimates, no completion text; 146013 still investigation. Probed 146036-146044, 146046-146055, 146060 blank (146056-146059 unchecked; next run probe 146056+). IAW Granite City 146014 boil order not lifted. City outages page still last updated 4:30 PM 11/21. KFVS list unchanged since 11/19 (Dunklin PWSD 3, New Madrid PWSD 2, Millstone WD in effect). Undated KSDK south County advisory story (Watson/McKenzie/Tesson Ferry/Grant) not adopted: no date, no matching MAW alert. WashU emergency site, Danforth and Medical Campus Facilities: no water items (MPRB restroom block Nov 23-25 is access work, not water). Unreachable/unchecked: MSD, Kirkwood, BJC, Cortex, Loop, MoDOT, MAW advisory map, Lewistown MO status.",
+    "open_count": 249,
+    "run_at": "2026-11-22T15:40:00Z",
     "top_incident": "No new or changed water incident affecting WashU, and no City or County boil order. Carried Ring 1 item: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7; impact possible (low)."
   },
   "incidents": [
@@ -4692,6 +4692,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water urgent main break, St. Louis County ('Saint Louis') — emergency repairs (alert 146020)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 9:40 AM CT 11/22 (Lane 1 only, ID probe): MAW alert 146045, main break from 1:00 AM 11/22, ~8 hr repair estimate (~9 AM, supervisor arithmetic); possible low pressure, no water or discoloration; no street; no boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). Location unpublished, so no WashU asset or Ring 1 corridor identified. Impact none. No news or social corroboration (Lanes 2, 4). Escalate if a street near a Ring 1 corridor is published. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-22T15:40:00Z",
+      "id": "maw-stlouiscounty-unlocated-20261122",
+      "last_updated": "2026-11-22T15:40:00Z",
+      "location": "St. Louis County, MO (city field 'Saint Louis', likely unincorporated County; street and municipality not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146045"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, St. Louis County ('Saint Louis') — emergency repairs (alert 146045)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
