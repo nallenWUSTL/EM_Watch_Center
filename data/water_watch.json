@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "4:40 AM CST 11/22 four-lane run. No new incidents and no status changes. MAW 146020 still active (estimate ~5:45 AM, no completion notice). IAW Granite City 146014 boil order not yet lifted. Probed IDs 146021, 146025, 146031-33, 146035 and 146040: none assigned. City outages table unchanged; Howard/19th and Union/Brown are past estimate but still listed. The City repair-projects list still shows Eichelberger/Alaska (already tracked, monitoring), plus older untracked Ring 2 south-City repairs from 11/15-11/18 with no outages; these were not adopted. City Water news newest is 8/25. WashU Alert none (last modified 11/18); Facilities and Med Campus Facilities show no new water items. KFVS list unchanged since 11/19. Undated KSDK Festus citywide boil advisory (contractor hit on S Mill St, Ring 3) not adopted; next run should verify its date. Social: nothing dated. Unreachable: MAW alerts index (dynamic) and boil page, stlwater boil page, Kirkwood, MO DNR, MSD, Cortex.",
+    "note": "5:50 AM CST 11/22 four-lane run. No new St. Louis-area incidents. MAW 146020 still active at its ~5:45 AM estimate; 146017 past its ~2:45 AM estimate with no completion; 146013 still open; IDs 146021-146023 blank. Untracked out-of-area MAW/AW alerts 146018 (Greenwood, IN) and 146019 (Dunbar, state unknown) not adopted. IAW Granite City 146014 boil order not lifted. City outages page (5:30 AM 11/22): N Kingshighway/Penrose est. 11/27, Penrose/Euclid est. 11/26, Howard/19th and Union/Brown past estimate but listed; Riverview/Jordan still off the list (monitoring). City Water news newest 8/25. WashU Alert none; Facilities newest 11/20 (Tao Tennis unchanged; Danforth generator-test power interruptions Nov 23-25 are electrical, not water). KFVS list unchanged since 11/19; New Madrid County WD #2 boil (11/19, Ring 3) not adopted. Festus boil (KSDK) and Maplewood Manchester/Laclede Station break (KSDK) both undated; not adopted. Social: nothing dated. Unreachable: MAW boil page, Clayton news, MSD, Kirkwood, MO DNR, BJC, Cortex, Delmar Loop, MoDOT.",
     "open_count": 248,
-    "run_at": "2026-11-22T10:40:00Z",
+    "run_at": "2026-11-22T11:50:00Z",
     "top_incident": "No new or changed water incident affecting WashU, and no City or County boil order. Carried Ring 1 item: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7; impact possible (low)."
   },
   "incidents": [
@@ -4679,11 +4679,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 12:45 AM CT 11/22 (Lane 1; page re-opened by supervisor): MAW alert 146020, urgent emergency main-break repairs from 9:45 PM 11/21, ~8 hr estimate (~5:45 AM 11/22); discolored water, low or no pressure possible; no streets; no boil order. Separate from 146017 by start time. Location unknown; Ring 1 municipalities cannot be ruled out. Impact none on current evidence. Action: next run check MAW advisory map; escalate if in Clayton, University City or Richmond Heights. Resolve when dropped. Owner: Emergency Management (track only).",
+      "assessment": "Updated 5:50 AM CT 11/22 (Lane 1): MAW alert 146020 still active at its ~5:45 AM estimate (start 9:45 PM 11/21, ~8 hr); no completion text, no streets, no boil order. Probed IDs 146021-146023 blank, so no follow-on alert. Location unknown; Ring 1 municipalities cannot be ruled out but no WashU, news or social report of pressure loss near any asset. Impact none on current evidence. Escalate if a street in Clayton, University City or Richmond Heights is published. Resolve when dropped. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-22T06:45:00Z",
       "id": "maw-stlouiscounty-unlocated-20261121d",
-      "last_updated": "2026-11-22T06:45:00Z",
+      "last_updated": "2026-11-22T11:50:00Z",
       "location": "St. Louis County, MO (city field 'Saint Louis', likely unincorporated County; streets not published)",
       "ring": 2,
       "single_source": true,
