@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "5:45 PM CST 11/22 four-lane run. New Ring 2 MAW items (all impact none, no boil order): Pine Lawn 146082, Burbeck Dr 146084 (likely Lemay), Maryland Heights 146079/146081, County unlocated 146083/146088. IAW 146097 West Suburban boil lift moves Bolingbrook 145974 to monitoring. 146045 still posted. stlwater.com outages still stamped 4:30 PM 11/21; Riverview/Jordan absent (unchanged). City boil-advisory page none; MO DNR none in City/County. KFVS list unchanged since 11/19. WashU emergency site and Facilities: no new water items. Lanes 2-4 nothing new; stale Jan 2026 and undated KSDK Olive Blvd stories rejected; Brentwood Nextdoor agency post unverifiable (blocked). Not reached: MSD, Kirkwood, IAW alerts page, Metro, MoDOT, Cortex, Forest Park Forever, BJC; X/Reddit/Facebook poorly indexed.",
-    "open_count": 254,
-    "run_at": "2026-11-22T23:45:00Z",
+    "note": "6:40 PM CST 11/22 four-lane run. New: MAW 146100 'St. Louis' service investigation, unlocated, impact none. 146098/146099 are California American Water (ignored); 146101-146105 empty. stlwater.com outages page re-stamped 6:30 PM 11/22, no work orders after Louisiana/Cherokee (11/21); all listed outages already tracked. City boil-advisory none; City water news newest 8/25. WashU emergency site and Facilities: no new water items. Lanes 2-4 nothing new; undated AOL/Yahoo Maryland Heights/Bridgeton boil-advisory syndications, undated Hardin IL IAW story, June 2026 Olivette advisory and Jan 2026 FOX 2 breaks rejected as stale/unverifiable. Not reached: MAW boil page (error), MO DNR list, MSD, Kirkwood, Studlife, BJC, Cortex, Forest Park Forever, MoDOT; social platforms poorly indexed.",
+    "open_count": 255,
+    "run_at": "2026-11-23T00:40:00Z",
     "top_incident": "No new or changed water incident affecting WashU, and no City or County boil order. Carried Ring 1 item: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7 (internal chilled water, not domestic supply); impact possible (low)."
   },
   "incidents": [
@@ -3792,6 +3792,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water service investigation, 'Saint Louis' (unplaced) — possible low/no pressure (alert 145215)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 6:40 PM CT 11/22 (Lane 1 only, ID probe): alert 146100, investigation of a possible service issue, low or no pressure possible; no street, times or boil order; Customer Advisory Map not opened. Unlocated, so no WashU distance; no Ring 1 corridor named. Impact none. Escalate if located on a Ring 1 corridor or a boil advisory posts. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-23T00:40:00Z",
+      "id": "maw-stlouis-investigation-20261122",
+      "last_updated": "2026-11-23T00:40:00Z",
+      "location": "'St. Louis' per alert label (municipality, street and ZIP not published; likely St. Louis County service area)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146100"
+      ],
+      "status": "open",
+      "title": "Missouri American Water service investigation, 'St. Louis' — possible low/no pressure (alert 146100)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
