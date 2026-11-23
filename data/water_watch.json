@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "1:45 AM CST 11/23 four-lane run: nothing new. stlwater.com outages still stamped 6:30 PM 11/22, unchanged (Howard & 19th and Union/Brown past ETR, likely stale). MAW 146104 (County main break, 10 PM 11/22, ~6 AM ETR) unchanged; probes 146105, 146106, 146109, 146111-146113, 146115 empty; 146107/146108/146110/146114/146116+ not probed (proxy limits). WashU emergency, Danforth and Medical Campus Facilities: no new water items (MPRB restroom closure Nov 23-25 is badge wiring, not water). KFVS list last updated 11/19, unchanged. Undated Maryland Heights/Bridgeton boil and lift stories, Berkeley break, and Ferguson/Haplin KSDK item could not be dated, not adopted. Unreachable: MAW boil page, MAW alerts index (no entries rendered); MSD, Kirkwood, MO DNR not checked. Social: nothing dated.",
+    "note": "2:45 AM CST 11/23 four-lane run: nothing new. stlwater.com outages still stamped 6:30 PM 11/22, unchanged (Howard & 19th and Union/Brown past ETR, likely stale). MAW 146104 (County main break, 10 PM 11/22, ~6 AM ETR) still active; 146100, 146102, 146103 (Union, already tracked) unchanged. Probes 146105-146108, 146110, 146114, 146116, 146120 empty; 146117-146119 and 146121+ not probed. WashU emergency site and Danforth/Medical Campus Facilities: no new water items. KFVS list still stamped 11/19. City Water news newest 8/25. Lanes 2 and 4: nothing datable to 11/22-23; undated KSDK I-44 geyser, south County possible break, and County park closure items not adopted. Unreachable or empty: MAW alerts index (script-rendered), MAW boil page, MO DNR boil table; MSD, Kirkwood, IAW list, BJC, Cortex, Loop, MoDOT not checked.",
     "open_count": 257,
-    "run_at": "2026-11-23T07:45:00Z",
+    "run_at": "2026-11-23T08:45:00Z",
     "top_incident": "No new or changed water incident affecting WashU, and no City or County boil order confirmed. Carried Ring 1 item: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7; impact possible (low)."
   },
   "incidents": [
