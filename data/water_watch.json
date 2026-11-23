@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "9:45 PM CST 11/22 four-lane run: nothing new. stlwater.com outages (6:30 PM 11/22): N Kingshighway/Penrose (est. 11/27) and Penrose/Euclid (est. 11/26) unchanged; Howard/19th and Union/Brown still past estimates; Louisiana/Cherokee hydrant no longer listed (moved to monitoring); Angelica/N 11th and Riverview/Jordan still absent (monitoring). Older untracked City work orders listed (Tower Grove/Cleveland, Oleatha/Gustine, Partridge/McLaran, Riverview/W Florissant; none Ring 1); not added. WashU emergency site and Facilities: no water items; Facilities generator testing Nov 23-25 is power, not water. KFVS list: no new items. Rejected: undated Eureka and Bridgeton/Maryland Heights boil-advisory stories (earlier events), Jan 2026 FOX 2 breaks, stale Aug stlwater banner. MAW/IAW alert pages render empty to WebFetch, so IDs past 146102 were not checked this run. Not reached: MSD, Kirkwood, MO DNR, BJC, Cortex, Forest Park Forever, MoDOT, municipal pages; social search found nothing dated.",
-    "open_count": 255,
-    "run_at": "2026-11-23T03:45:00Z",
-    "top_incident": "No new or changed water incident affecting WashU, and no City or County boil order. Carried Ring 1 item: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7; impact possible (low)."
+    "note": "10:45 PM CST 11/22 four-lane run: 2 new (MAW 146104 St. Louis County main break, no street; MAW 146103 Union MO investigation, Ring 3). stlwater.com outages (6:30 PM 11/22) unchanged: Kingshighway/Lillian-Penrose (ETR 11/27), Penrose/Euclid (11/26), Howard and Union/Brown past ETR; no new City work orders 11/22. WashU emergency site and Facilities: no water items (McDonnell Pediatric restroom access 11/23-25 is wiring, not water). KFVS list unchanged since 11/19. IDs 146105-146112, 146114, 146116, 146120, 146140 empty; others to 146200 not probed. Unreachable: MAW list/boil page, IAW list, MO DNR, MSD, Kirkwood; undated KSDK Eureka boil story rejected. Social: nothing dated.",
+    "open_count": 257,
+    "run_at": "2026-11-23T04:45:00Z",
+    "top_incident": "No new or changed water incident affecting WashU, and no City or County boil order. New: MAW main break 146104 somewhere in St. Louis County (no street, 10 PM 11/22, ~8 hr); impact none pending location. Carried Ring 1 item: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7; impact possible (low)."
   },
   "incidents": [
     {
@@ -4826,6 +4826,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 10:45 PM CT 11/22 (Lane 1 only, ID probe): MAW alert 146104, main break with repairs from 10:00 PM 11/22, ~8 hr estimate (~6 AM 11/23); low or no pressure or discolored water possible; no street or municipality; no boil advisory. Location unknown so ring set at 2; no WashU Alert or Facilities water notice (Lane 3); no news or social corroboration (Lanes 2, 4). Impact none on current evidence. Escalate if a street in Clayton, University City, Richmond Heights or near a Ring 1 corridor is published. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-23T04:45:00Z",
+      "id": "maw-stlouiscounty-unlocated-20261122c",
+      "last_updated": "2026-11-23T04:45:00Z",
+      "location": "St. Louis County, MO (municipality and street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146104"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, St. Louis County — emergency repairs (alert 146104)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 9:50 PM CT 11/20 (Lane 1 only, ID probe): MAW alert 145929, investigation of a possible service issue; ~10 mi W of Danforth; no street; no boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). No WashU asset identified; no Ring 1 corridor named. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-21T03:50:00Z",
@@ -4875,6 +4893,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main-break investigation, unincorporated south St. Louis County — possible low/no pressure (alert 143422)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 10:45 PM CT 11/22 (Lane 1 only, ID probe): MAW alert 146103, investigation of a possible service issue, low or no pressure possible; no times, street or boil order. ~25+ mi W of Tyson (well water); separate system; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-23T04:45:00Z",
+      "id": "maw-union-investigation-20261122",
+      "last_updated": "2026-11-23T04:45:00Z",
+      "location": "Union, MO (Franklin County; street not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146103"
+      ],
+      "status": "open",
+      "title": "Missouri American Water service investigation, Union, MO — possible low/no pressure (alert 146103)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
