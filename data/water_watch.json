@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "11:45 PM CST 11/22 four-lane run: nothing new. stlwater.com outages (6:30 PM 11/22) unchanged: N Kingshighway Penrose-Lillian (ETR 11/27), Penrose/Euclid (11/26), Howard and Union/Brown past ETR; nothing in CWE or Skinker-DeBaliviere. WashU emergency, Danforth and Medical Campus Facilities: no new water items. KFVS list unchanged since 11/19 (New Madrid Co WD2 boil advisory 11/19 seen, Ring 3, not added). Undated FOX 2/AOL story on a MAW boil advisory for Bridgeton/Maryland Heights/Earth City (issued on a Sunday 2:45 PM) rejected: no date, a matching lift story exists, and no lane found it current; verify on the MAW map. Unreachable: MAW/IAW alert pages (JS-rendered, alertsdetail host blocked this run, so no ID probe past 146104), MAW boil page; MSD, Kirkwood and MO DNR not checked. Social: nothing dated.",
+    "note": "12:45 AM CST 11/23 four-lane run: nothing new. stlwater.com outages (6:30 PM 11/22) unchanged: N Kingshighway Penrose-Lillian (ETR 11/27), Penrose/Euclid (11/26), Howard and Union/Brown past ETR; City repair list newest is tracked Louisiana & Cherokee (11/21); nothing in CWE, Skinker-DeBaliviere or Forest Park. MAW 146104 (County main break, 10 PM 11/22, ~6 AM ETR) and 146102 Rock Hill investigation still posted, unchanged; probes 146105-146108 and 146110 empty. WashU emergency, Danforth and Medical Campus Facilities: no new water items (Tao Tennis notice unchanged; Wallace Dr Nov 12-13 window passed, no follow-up, left monitoring). KFVS list last updated 11/19, unchanged. Undated Maryland Heights/Bridgeton boil story and undated KTRS Metro East lift rejected again. Unreachable: MO DNR boil report, MAW boil page, MAW alerts index (no entries rendered); MSD not checked. Social: nothing dated; search index thin after 11/18.",
     "open_count": 257,
-    "run_at": "2026-11-23T05:45:00Z",
+    "run_at": "2026-11-23T06:45:00Z",
     "top_incident": "No new or changed water incident affecting WashU, and no City or County boil order confirmed. Carried Ring 1 item: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7; impact possible (low)."
   },
   "incidents": [
