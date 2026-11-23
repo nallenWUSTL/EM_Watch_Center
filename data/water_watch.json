@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "11:45 AM CST 11/23 four-lane run: three new items, none affecting WashU. MAW 146160 Rock Hill emergency repairs from 11:30 AM (~6 hr, no street, Ring 2, ~2-3 mi SE of South Campus); MAW 146153 Florissant from 11:00 AM (~6 hr, Ring 2); Devils Kitchen IL boil order Grassy Rd (Ring 3, KFVS 11/23). 146125 and 146141 re-opened: unchanged. Probe: 146153-146160 populated (146154/146156-146159 PA/IA/VA), 146161-146166 empty; next run restart at 146161. stlwater.com outages still stamped 6:30 PM 11/22 (N Kingshighway/Lillian, Penrose/Euclid, Howard/19th, Union/Brown; all tracked). MAW boil page none; MO DNR newest 10/28. WashU emergency site no alerts; Facilities Tao Tennis chilled-water repair Nov 25-Dec 7 unchanged; Med Facilities no water outages. KFVS: Lewistown MO no longer listed (lift unconfirmed); New Madrid Co WD #2 11/19 advisory seen, Ring 3, not added. No dated social posts 11/22-23; Richmond Heights PD Nextdoor 'water main break' post undated/blocked, not adopted. Not checked: MSD, Kirkwood, BJC, Cortex, Loop district, Post-Dispatch, RFT.",
-    "open_count": 270,
-    "run_at": "2026-11-23T17:45:00Z",
-    "top_incident": "Ring 1: MAW 146125 University City main break (from 7:30 AM, ~6 hr ETR ~1:30 PM CT) still active, no street, no boil advisory; impact possible (low) for North Campus, Loop properties and U City side of Danforth."
+    "note": "12:40 PM CST 11/23 four-lane run: two new items, none affecting WashU. MAW 146165 Clarkson Valley emergency repairs from 11:30 AM (~6 hr, no street, Ring 2); IAW 146170 Mt. Prospect IL boil order on restoration (Ring 3). 146125 and 146160 re-opened: still active, unchanged. Probe: 146161-146171 populated (others CA/MD/IN/PA/NJ; 146171 Greenwood IN lift), 146172-146177 empty; next run restart at 146172. stlwater.com outages still stamped 6:30 PM 11/22 (4 outages, all tracked). MO DNR newest 10/28; City Water news newest 8/25. WashU emergency site no alerts; Facilities Tao Tennis repair Nov 25-Dec 7 unchanged; Med Facilities no water outages. KFVS list modified 17:31 UTC 11/23, no new entries. Undated MAW Maryland Heights/Bridgeton/Earth City boil advisory stories (AOL/Yahoo) not adopted: date not tied to Nov 22-23. No dated social posts 11/22-23. Not checked/unreachable: MAW alerts index (script-rendered), KSDK, Rock Hill outage page, BJC, Cortex, Loop district, MoDOT.",
+    "open_count": 272,
+    "run_at": "2026-11-23T18:40:00Z",
+    "top_incident": "Ring 1: MAW 146125 University City main break (from 7:30 AM, ~6 hr ETR ~1:30 PM CT) still active at 12:35 PM, no street, no boil advisory; impact possible (low) for North Campus, Loop properties and U City side of Danforth."
   },
   "incidents": [
     {
@@ -777,6 +777,24 @@
       "status": "open",
       "title": "American Water emergency repairs (main break), Madison — state unconfirmed (alert 145941)",
       "utility": "American Water (likely Illinois American Water)",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:40 PM CT 11/23 (Lane 1 only, ID probe): IAW alert 146170, main break from 10:30 AM 11/23, ~9-10 hr estimate, boil order once service is restored. ~280 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-23T18:40:00Z",
+      "id": "ilaw-mtprospect-unlocated-20261123",
+      "last_updated": "2026-11-23T18:40:00Z",
+      "location": "Mt. Prospect, IL (Cook County, Chicago area; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146170"
+      ],
+      "status": "open",
+      "title": "Illinois American Water main break with boil order on restoration, Mt. Prospect, IL (alert 146170)",
+      "utility": "Illinois American Water",
       "washu_impact": "none"
     },
     {
@@ -1742,6 +1760,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Chesterfield — emergency repairs (alert 145529)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:40 PM CT 11/23 (Lane 1 only, ID probe): MAW alert 146165, main-break emergency repairs from 11:30 AM 11/23, ~6 hr estimate (~5:30 PM); no street; no boil advisory (MO DNR none in St. Louis City/County). ~10 mi from Tyson (well water), well W of Danforth; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-23T18:40:00Z",
+      "id": "maw-clarksonvalley-unlocated-20261123",
+      "last_updated": "2026-11-23T18:40:00Z",
+      "location": "Clarkson Valley, MO (west St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146165"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Clarkson Valley — emergency repairs (alert 146165)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
