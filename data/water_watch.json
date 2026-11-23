@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "4:50 PM CST 11/23 four-lane run. New: MAW 146193 University City (Ring 1, possible) and 146194 Ballwin (Ring 2, from 4:45 PM, none). MAW probe 146190-146200: 146190 Buchanan Co planned 11/24, 146191-146192 out of region, 146195-146200 empty; next run restart probing at 146195. 146125 U City and 146173 Ladue still posted unchanged. KFVS list (21:25 UTC) now shows only Anniston, Devils Kitchen, New Madrid CWD 2, Dunklin PWSD 3; Millstone dropped (moved to monitoring, lift unconfirmed). stlwater.com outages still stamped 6:30 PM 11/22 (Kingshighway/Lillian ETR 11/27, Penrose/Euclid ETR 11/26; no item near Medical Campus); no City boil advisory (stlwater ?p=9725 is the Aug 2026 advisory, lifted 8/18). WashU emergency site no alerts; Facilities only Tao Tennis chilled-water repair Nov 25-Dec 7; Med Facilities no water items. Rejected stale: KSDK Ferguson/Haplin Dr (Jan 13 2025 per NewsBreak copy), Jan 2026 U City Linden/Pershing and Delmar tap. Unverified: Nextdoor 'Olive and Eastover (University City)' post (blocked, undated), FOX 2 '3 water main breaks across St. Louis County' (undated). Not reached: MAW boil page, MAW alerts index (script-loaded), MO DNR list, Metro alerts, BJC, Cortex, Loop, Forest Park Forever, MoDOT.",
-    "open_count": 277,
-    "run_at": "2026-11-23T22:50:00Z",
-    "top_incident": "Ring 1: new MAW 146193 University City emergency repairs (main break, ~6 hr, no street, no start time) posted alongside 146125 (U City, from 7:30 AM, ~3 hr past ETR, still posted); impact possible (low) for North Campus, Loop properties and U City side of Danforth; no boil advisory."
+    "note": "5:45 PM CST 11/23 four-lane run. New: MAW 146195/146196 Webster Groves investigation (Ring 2, none). MAW probe: 146197/146199 Sacramento CA, 146198 PA (out of area); 146200-146205 empty; 146206-146230 unreachable (fetch blocked), not confirmed empty — next run restart probing at 146200. 146193/146125 U City, 146173 Ladue, 146194 Ballwin (4:45 PM start, ~10:45 PM ETR) still posted. KFVS list (21:25 UTC) unchanged: Anniston, Devils Kitchen, New Madrid CWD 2, Dunklin PWSD 3. stlwater.com outages still stamped 6:30 PM 11/22 (Kingshighway/Lillian ETR 11/27, Penrose/Euclid ETR 11/26; Howard and Union items past ETR, page likely stale); City Water news newest 8/25; no City or County boil advisory found. WashU emergency site no alerts; Facilities only Tao Tennis chilled-water repair Nov 25-Dec 7; Med Facilities no water items; Metro: Blue Line Shrewsbury-Forest Park only Nov 2-Dec 23 (maintenance, not water). Lane 4 opened MAW 134406 (U City investigation, blank dates) — old ID, not adopted. Rejected stale: Jan 2026 U City Linden/Pershing, Jun 2026 Olivette/U City boil advisory, 2013 Ladue Spoede, 2022 Frontenac Nixle. Not reached: MAW boil page (error), MSD, Kirkwood, MO DNR, IAW index, BJC/Cortex/Loop/Forest Park sites, MoDOT, municipal pages for Clayton/Eureka/Richmond Hts/Brentwood/Maplewood/Ladue.",
+    "open_count": 278,
+    "run_at": "2026-11-23T23:45:00Z",
+    "top_incident": "Ring 1: MAW 146193 and 146125 University City main-break repairs still posted (146125 ~6 hr window from 7:30 AM long passed; no street, no completion text); impact possible (low) for North Campus, Loop properties and U City side of Danforth; no boil advisory."
   },
   "incidents": [
     {
@@ -5470,6 +5470,25 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Webster Groves — Big Bend Blvd, emergency repairs (alert 144297)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 5:42 PM CT 11/23 (Lane 1 only, ID probe): MAW alerts 146195 and 146196 (identical text), investigation of a possible service issue, low or no pressure possible; no street, start or restoration time; no boil advisory mentioned. May be a follow-on to tracked 146124 (Webster Groves main break), not confirmed. ~4-5 mi S of Danforth and South Campus; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-23T23:42:00Z",
+      "id": "maw-webstergroves-investigation-20261123",
+      "last_updated": "2026-11-23T23:42:00Z",
+      "location": "Webster Groves, MO (mid St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146195",
+        "https://alertsdetail.awapps.com/alert/146196"
+      ],
+      "status": "open",
+      "title": "Missouri American Water service investigation, Webster Groves — possible low/no pressure (alerts 146195, 146196)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
