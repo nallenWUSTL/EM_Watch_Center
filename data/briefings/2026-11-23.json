@@ -1,0 +1,222 @@
+{
+  "bluf": "Nothing crossed a reporting threshold overnight. This week's risk is Thanksgiving break (Wed 11/25-Sun 11/29): near-empty buildings, thin staffing, below-freezing nights. Decide today on freeze protection for vacant buildings, briefing WUPD on peer-campus active-threat hoaxes, break-week IT on-call amid a ransomware campaign against research universities, and staffing Saturday's home NCAA playoff. Sat 11/28 is the most stacked day.",
+  "briefing_url": "https://claude.ai/artifact/JJCbAGXAUzgV21jxz5PVav",
+  "date": "2026-11-23",
+  "dissents": [
+    {
+      "note": "Overrules Weather Sev 1; now Today item at Sev 3.",
+      "title": "Underrated: hard freeze on vacant buildings",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Sev 4 for impact; likelihood held Low-Medium.",
+      "title": "Underrated: holiday-timed ransomware",
+      "verdict": "Adopted in part"
+    },
+    {
+      "note": "Precip odds rose to 50-70% but snow impacts still very unlikely; Monitor.",
+      "title": "Overrated: snow on Thanksgiving",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Matches Public Health Low/Monitor.",
+      "title": "Overrated: measles at Medical Campus",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Sev 4, Low likelihood; mitigation folded into freeze item.",
+      "title": "Scenario: freeze flooding of West Campus archives",
+      "verdict": "Carried"
+    }
+  ],
+  "lanes_quiet": [
+    6
+  ],
+  "lookahead": [
+    {
+      "date": "2026-11-23",
+      "dow": "Mon",
+      "loads": "No events over threshold",
+      "stacked": false,
+      "wx": "Hi upper 40s / Lo mid-teens-low 20s, dry"
+    },
+    {
+      "date": "2026-11-24",
+      "dow": "Tue",
+      "loads": "Student departures begin",
+      "stacked": false,
+      "wx": "Hi 40-45 / Lo mid-20s, dry"
+    },
+    {
+      "date": "2026-11-25",
+      "dow": "Wed",
+      "loads": "Break begins; travel peak",
+      "stacked": false,
+      "wx": "Hi mid-40s / Lo ~30, rain likely overnight"
+    },
+    {
+      "date": "2026-11-26",
+      "dow": "Thu",
+      "loads": "Thanksgiving; Turkey Trot Forest Park 7-11 AM",
+      "stacked": false,
+      "wx": "Hi 40s / Lo mid-20s, rain ending AM, brief mix possible"
+    },
+    {
+      "date": "2026-11-27",
+      "dow": "Fri",
+      "loads": "Blues 1 PM; SLAM Festive Friday; Wild Lights opens",
+      "stacked": true,
+      "wx": "Hi upper 40s / Lo upper 20s, dry"
+    },
+    {
+      "date": "2026-11-28",
+      "dow": "Sat",
+      "loads": "NCAA D3 playoff noon; Wild Lights; Blues 6 PM; break staffing",
+      "stacked": true,
+      "wx": "Hi 50s, mostly sunny"
+    },
+    {
+      "date": "2026-11-29",
+      "dow": "Sun",
+      "loads": "Student return via Lambert/I-64; buildings reopen",
+      "stacked": true,
+      "wx": "No NWS forecast yet; mild, dry (low conf.)"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "watch",
+      "summary": "No NWS products or SPC risk. Rain 50-70% Wed night-Thu AM, brief dawn snow mix possible, impacts unlikely. Freezing nights all week."
+    },
+    {
+      "name": "Life safety",
+      "pir": 2,
+      "status": "watch",
+      "summary": "No Ring 1 violence or WashU threat. Peer-campus hoax pattern; Midtown triple shooting 2 mi east of Medical Campus."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "watch",
+      "summary": "Nothing at threshold. Early H1N1 flu season; post-break residence-hall risk Nov 29-Dec 7. Measles: none in St. Louis."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "watch",
+      "summary": "No WashU outage or CISA ED. BYOD campaign vs universities; KEV deadline 11/23; Blue Line cut back and Forest Park-DeBaliviere elevator out; Lambert stations closed."
+    },
+    {
+      "name": "Scheduled activity",
+      "pir": 5,
+      "status": "watch",
+      "summary": "Thanksgiving break 11/25-29. Turkey Trot Thu; Fri and Sat stacked; home playoff Sat noon; return Sun."
+    },
+    {
+      "name": "Policy, legal, funding",
+      "pir": 6,
+      "status": "quiet",
+      "summary": "No program changes. Federal funding expires Dec 11; short CR likely; review shutdown playbook by Dec 4."
+    }
+  ],
+  "posture": "Normal",
+  "published_at": "2026-11-23T11:59:00Z",
+  "run_note": "All 7 lanes reported; charter read OK; no charter threshold crossed. Sev 4 re-check: Vanderbilt/BYOD confirmed multi-source; Quinnipiac/NCCU hoaxes not reconfirmed by supervisor (analyst-opened sources). Published 05:59 CT.",
+  "title": "WashU EM Daily Intelligence Briefing, November 23, 2026",
+  "today_items": [
+    {
+      "action": "Brief WUPD dispatch on swatting/fabricated-photo indicators; pre-stage verify-then-alert holding messages.",
+      "confidence": "Medium",
+      "likelihood": "Low-Medium",
+      "owner": "WUPD, EM, Communications",
+      "pir": 2,
+      "rank": 1,
+      "severity": 4,
+      "source": "https://www.ctpublic.org/news/2026-11-19/quinnipiac-university-lockdown-suspected-gunman-campus",
+      "title": "Copycat risk from peer-campus active-threat hoaxes",
+      "ttd": "Today"
+    },
+    {
+      "action": "Before Wed check heat setbacks, freeze-prone piping, leak alarms (West Campus archives first); confirm salvage vendor and on-call.",
+      "confidence": "Medium",
+      "likelihood": "Medium",
+      "owner": "Facilities, Libraries, EM",
+      "pir": 1,
+      "rank": 2,
+      "severity": 3,
+      "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202611231125-KLSX-FXUS63-AFDLSX",
+      "title": "Hard freeze over vacant buildings during break",
+      "ttd": "Today"
+    },
+    {
+      "action": "Confirm exposure/patching for Cisco Expressway, vCenter, Apache Roller, SAP NetWeaver; tighten help-desk resets; confirm break IR on-call and out-of-band comms.",
+      "confidence": "Medium",
+      "likelihood": "Low-Medium",
+      "owner": "WashU IT, EM, Communications",
+      "pir": 4,
+      "rank": 3,
+      "severity": 4,
+      "source": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed",
+      "title": "Holiday-timed ransomware (BYOD) and CISA KEV patch deadline",
+      "ttd": "Today"
+    },
+    {
+      "action": "Confirm event security, parking, EMS and weather plan against break staffing.",
+      "confidence": "Medium-High",
+      "likelihood": "High",
+      "owner": "WUPD, Athletics, Facilities, EM",
+      "pir": 5,
+      "rank": 4,
+      "severity": 2,
+      "source": "https://washubears.com/sports/football/schedule",
+      "title": "Home NCAA D3 playoff vs. Wartburg, Sat 11/28 noon",
+      "ttd": "Today"
+    },
+    {
+      "action": "Confirm patrol coverage, remaining-resident check-ins and lock schedules.",
+      "confidence": "High",
+      "likelihood": "Occurring",
+      "owner": "Student Affairs, WUPD, Facilities",
+      "pir": 5,
+      "rank": 5,
+      "severity": 2,
+      "source": "https://reslife.washu.edu/living-at-washu/for-students/academic-break-housing/",
+      "title": "Break-period residents and building security",
+      "ttd": "Today"
+    },
+    {
+      "action": "Add closure and shuttle to student/staff travel guidance.",
+      "confidence": "Medium",
+      "likelihood": "Occurring",
+      "owner": "Communications, Student Affairs",
+      "pir": 4,
+      "rank": 6,
+      "severity": 2,
+      "source": "https://www.metrostlouis.org/rider-alerts/",
+      "title": "MetroLink Lambert stations closed (shuttle from North Hanley)",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "Peer-campus active-threat hoaxes (Quinnipiac 11/19, NCCU 11/22) carry copycat risk during break staffing: brief WUPD dispatch on swatting indicators and pre-stage verify-then-alert messages.",
+  "unreachable": [
+    "api.weather.gov alerts",
+    "SPC Day 1 (stale)",
+    "Mississippi gauge at St. Louis",
+    "St. Louis AQI",
+    "WUPD crime log after 11/16",
+    "Clayton/U City/County PD releases",
+    "St. Louis County Public Health",
+    "DHSS flu dashboard",
+    "CDC FluView Wk 45",
+    "Ameren/Spire outage maps",
+    "Missouri American Water",
+    "MoDOT 2026 work zones",
+    "events.washu.edu",
+    "vendor status pages",
+    "SEMA",
+    "Federal Register",
+    "State Dept advisory feed (partial)"
+  ]
+}
