@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "12:40 PM CST 11/23 four-lane run: two new items, none affecting WashU. MAW 146165 Clarkson Valley emergency repairs from 11:30 AM (~6 hr, no street, Ring 2); IAW 146170 Mt. Prospect IL boil order on restoration (Ring 3). 146125 and 146160 re-opened: still active, unchanged. Probe: 146161-146171 populated (others CA/MD/IN/PA/NJ; 146171 Greenwood IN lift), 146172-146177 empty; next run restart at 146172. stlwater.com outages still stamped 6:30 PM 11/22 (4 outages, all tracked). MO DNR newest 10/28; City Water news newest 8/25. WashU emergency site no alerts; Facilities Tao Tennis repair Nov 25-Dec 7 unchanged; Med Facilities no water outages. KFVS list modified 17:31 UTC 11/23, no new entries. Undated MAW Maryland Heights/Bridgeton/Earth City boil advisory stories (AOL/Yahoo) not adopted: date not tied to Nov 22-23. No dated social posts 11/22-23. Not checked/unreachable: MAW alerts index (script-rendered), KSDK, Rock Hill outage page, BJC, Cortex, Loop district, MoDOT.",
-    "open_count": 272,
-    "run_at": "2026-11-23T18:40:00Z",
-    "top_incident": "Ring 1: MAW 146125 University City main break (from 7:30 AM, ~6 hr ETR ~1:30 PM CT) still active at 12:35 PM, no street, no boil advisory; impact possible (low) for North Campus, Loop properties and U City side of Danforth."
+    "note": "1:40 PM CST 11/23 four-lane run: one new St. Louis-area item. MAW 146173 Ladue emergency repairs from 12:45 PM (~6 hr, no street, Ring 2, impact none). Out of region: 146175/146176 MAW Joplin planned work 11/24 (Ring 3, not tracked); other new IDs CA/IN/PA/NJ. Probe: 146172-146179 populated, 146180-146185 empty; next run restart at 146180. 146125 re-opened: still active, unchanged. stlwater.com outages: same 4 tracked entries (Kingshighway/Lillian ETR 11/27, Penrose/Euclid ETR 11/26, Howard/19th and Union/Brown ETRs passed); lanes disagree on page stamp (6:30 PM 11/22 vs 1:30 PM 11/23). MAW boil page none; MO DNR newest 10/28; City Water news newest 8/25. WashU emergency site no alerts; Facilities Tao Tennis chilled-water repair Nov 25-Dec 7 unchanged; Med Facilities no water outages. KFVS list modified 17:31 UTC 11/23, no new entries. Rejected: U City Linden/Pershing break (Jan 28, 2026), undated Maryland Heights/Bridgeton boil stories (Feb 2026 event). No dated social posts 11/22-23. Not checked/unreachable: MAW alerts index (script-rendered), MSD, Kirkwood, BJC, Cortex, Loop district, Forest Park Forever, MoDOT; FOX 2/KSDK article pages would not load.",
+    "open_count": 273,
+    "run_at": "2026-11-23T19:40:00Z",
+    "top_incident": "Ring 1: MAW 146125 University City main break (from 7:30 AM, ~6 hr ETR ~1:30 PM CT) still active at 1:35 PM, no completion text, no street, no boil advisory; impact possible (low) for North Campus, Loop properties and U City side of Danforth."
   },
   "incidents": [
     {
@@ -3012,6 +3012,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Ladue — emergency repairs (alert 145772)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 1:40 PM CT 11/23 (Lane 1; page re-opened by supervisor): MAW alert 146173, main-break emergency repairs from 12:45 PM 11/23, ~6 hr estimate (~6:45 PM); possible discolored water, low or no pressure; no street; no boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). Ladue borders Clayton on the west; no WashU asset in Ladue; West Campus and Danforth west edge ~1.5-3 mi (city-level estimate); pressure zone unknown. Impact none. Escalate if a street east of Lindbergh near the Clayton line (Clayton Rd, Brentwood Blvd, Hanley, Wydown, Forsyth) or a boil advisory is published. No news or social corroboration (Lanes 2-4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-23T19:40:00Z",
+      "id": "maw-ladue-unlocated-20261123",
+      "last_updated": "2026-11-23T19:40:00Z",
+      "location": "Ladue, MO (mid St. Louis County; street not published; state field blank, Missouri inferred from MAW contact line)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146173"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Ladue — emergency repairs (alert 146173)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
