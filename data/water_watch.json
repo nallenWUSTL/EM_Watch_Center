@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "8:40 PM CST 11/22 four-lane run: one new item, MAW Rock Hill investigation 146102 (no street, no boil advisory). 146101 is NJ American Water (not regional); 146103 investigation with no location; other probed IDs to 146140 empty. stlwater.com outages (6:30 PM 11/22) unchanged: N Kingshighway/Penrose (est. 11/27), Penrose/Euclid (est. 11/26); Howard/19th and Union/Brown still past estimates; Riverview/Jordan still absent (monitoring). Several older (11/16-11/19) untracked City work orders listed (e.g., Tower Grove/Cleveland main, ~2 mi S of Medical Campus); not added. stlwater.com/?p=9725 banner is the Aug 17 advisory lifted Aug 18 — stale, not current. WashU emergency site, Facilities (Danforth, Medical): no water items; McDonnell Pediatric restroom interruption Nov 23-25 is wiring work, not utility. KFVS list unchanged since 11/19. Rejected: undated Bridgeton/Maryland Heights boil advisory syndications (earlier event), Jan 28 2026 FOX 2 breaks. MAW alerts index loaded empty; not reached: MSD, Kirkwood, MO DNR, BJC, Cortex, Forest Park Forever, MoDOT, X/Nextdoor/Facebook.",
+    "note": "9:45 PM CST 11/22 four-lane run: nothing new. stlwater.com outages (6:30 PM 11/22): N Kingshighway/Penrose (est. 11/27) and Penrose/Euclid (est. 11/26) unchanged; Howard/19th and Union/Brown still past estimates; Louisiana/Cherokee hydrant no longer listed (moved to monitoring); Angelica/N 11th and Riverview/Jordan still absent (monitoring). Older untracked City work orders listed (Tower Grove/Cleveland, Oleatha/Gustine, Partridge/McLaran, Riverview/W Florissant; none Ring 1); not added. WashU emergency site and Facilities: no water items; Facilities generator testing Nov 23-25 is power, not water. KFVS list: no new items. Rejected: undated Eureka and Bridgeton/Maryland Heights boil-advisory stories (earlier events), Jan 2026 FOX 2 breaks, stale Aug stlwater banner. MAW/IAW alert pages render empty to WebFetch, so IDs past 146102 were not checked this run. Not reached: MSD, Kirkwood, MO DNR, BJC, Cortex, Forest Park Forever, MoDOT, municipal pages; social search found nothing dated.",
     "open_count": 255,
-    "run_at": "2026-11-23T02:40:00Z",
-    "top_incident": "No new or changed water incident affecting WashU, and no City or County boil order. New Ring 2 item: MAW service investigation, Rock Hill (alert 146102), impact none. Carried Ring 1 item: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7; impact possible (low)."
+    "run_at": "2026-11-23T03:45:00Z",
+    "top_incident": "No new or changed water incident affecting WashU, and no City or County boil order. Carried Ring 1 item: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7; impact possible (low)."
   },
   "incidents": [
     {
@@ -6203,18 +6203,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 6:40 PM CT 11/21 (Lane 1 only, stlwater.com outages page): hydrant repair work order opened 1:10 PM 11/21; no outage, restoration estimate or boil notice listed. ~3-4 mi SE of the Medical Campus (estimate); not on a Ring 1 corridor; no WashU asset. Impact none. Resolve when dropped from the outages page. Owner: Emergency Management (track only).",
+      "assessment": "Updated 9:45 PM CT 11/22 (Lanes 1 and 3): hydrant work order no longer listed on the City outages page (stamped 6:30 PM 11/22). Likely repaired but the City has not confirmed it, so moved to monitoring, not resolved. ~3-4 mi SE of the Medical Campus; no WashU asset; impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-22T00:40:00Z",
       "id": "stlwater-stlouiscity-louisiana-cherokee-hydrant-20261121",
-      "last_updated": "2026-11-22T00:40:00Z",
+      "last_updated": "2026-11-23T03:45:00Z",
       "location": "Louisiana Ave & Cherokee St, St. Louis City (Benton Park West / Gravois Park)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/outages"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division fire hydrant repair, Louisiana Ave & Cherokee St (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
