@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "6:40 PM CST 11/22 four-lane run. New: MAW 146100 'St. Louis' service investigation, unlocated, impact none. 146098/146099 are California American Water (ignored); 146101-146105 empty. stlwater.com outages page re-stamped 6:30 PM 11/22, no work orders after Louisiana/Cherokee (11/21); all listed outages already tracked. City boil-advisory none; City water news newest 8/25. WashU emergency site and Facilities: no new water items. Lanes 2-4 nothing new; undated AOL/Yahoo Maryland Heights/Bridgeton boil-advisory syndications, undated Hardin IL IAW story, June 2026 Olivette advisory and Jan 2026 FOX 2 breaks rejected as stale/unverifiable. Not reached: MAW boil page (error), MO DNR list, MSD, Kirkwood, Studlife, BJC, Cortex, Forest Park Forever, MoDOT; social platforms poorly indexed.",
-    "open_count": 255,
-    "run_at": "2026-11-23T00:40:00Z",
+    "note": "7:40 PM CST 11/22 four-lane run: nothing new. American Water IDs 146101-146130 showed no alert content (146101/106/110/115 opened; rest blocked or timed out, inferred empty). stlwater.com outages page (6:30 PM 11/22): no work orders after Louisiana/Cherokee (11/21); N Kingshighway/Penrose (est. 11/27) and Penrose/Euclid (est. 11/26) unchanged; Howard/19th and Union/Brown still listed past their estimates; Riverview/Jordan still absent (monitoring). City water news newest 8/25; no City boil advisory. WashU emergency site, Facilities (Danforth and Medical), Studlife: no new water items. KFVS list: no new items 11/21-22 (New Madrid PWSD 2 already tracked). Stale items rejected: Jan 28 2026 FOX 2 regional breaks (incl. U City Linden/Pershing), May 2025 Kirkwood advisory, undated Berkeley/Yahoo syndications. Not reached: MAW boil page (error), MO DNR, MSD, Kirkwood, Reddit (blocked), X/Nextdoor/Facebook, BJC, Cortex, Forest Park Forever, MoDOT, municipal pages.",
+    "open_count": 254,
+    "run_at": "2026-11-23T01:40:00Z",
     "top_incident": "No new or changed water incident affecting WashU, and no City or County boil order. Carried Ring 1 item: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7 (internal chilled water, not domestic supply); impact possible (low)."
   },
   "incidents": [
