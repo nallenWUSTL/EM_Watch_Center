@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "6:40 AM CST 11/23 four-lane run: nothing new. MAW 146104 (County, 10 PM 11/22, ~6 AM ETR) still shows repairs in progress, ETR passed, no completion text; re-check next run. MAW detail pages 146126, 146127, 146130 empty (not yet issued); 146128-146129 and 146131-146160 not individually checked (curl to alertsdetail failed). stlwater.com outages still stamped 6:30 PM 11/22 (N Kingshighway/Penrose-Lillian ETR 11/27, Penrose/Euclid ETR 11/26; Howard St and Union Blvd past ETR, likely stale); no Ring 1 outage. stlwater.com ?p=9725 boil advisory page judged to be the old 8/17/2026 advisory, not active. City Water news newest 8/25. WashU emergency, Danforth and Medical Campus Facilities: no water items (MPRB first-floor restrooms blocked 11/23-11/25 for badge wiring, water unaffected; generator tests 11/23-11/25 are power). KFVS Heartland list still stamped 11/19; New Madrid PWSD 2, Dunklin PWSD 3, Millstone still listed, unchanged. Lanes 2 and 4: nothing datable to 11/22-23; Jan 28 2026 U City Linden/Pershing story not adopted. Unreachable or not checked: MAW boil advisories page (fetch error), MSD, MO DNR boil table, Kirkwood, municipal pages (search only), Post-Dispatch/STLPR/RFT (search only), Reddit (blocked), Nextdoor, X/Facebook (not indexed).",
-    "open_count": 257,
-    "run_at": "2026-11-23T12:40:00Z",
+    "note": "7:40 AM CST 11/23 four-lane run: one new Ring 2 item, MAW 146120 Bellefontaine Neighbors main break (7:30 AM, ~6 hr ETR, no street, no boil advisory; impact none). IAW 146115 Belleville boil order lift, provisionally tied to 145764 (moved to monitoring). MAW 146104 (County, 10 PM 11/22) still active, ETR passed, no completion text. Probe: 146105-146110, 146121-146125, 146128, 146129, 146131, 146135 empty; 146111-146118 out of region; 146119 Pekin IL (out of area, not tracked); 146132-146134 and 146136+ not checked; next run restart at 146121. stlwater.com outages still stamped 6:30 PM 11/22, no Ring 1 outage, no advisory; Howard St and Union Blvd past ETR, likely stale. WashU emergency, Danforth and Medical Campus Facilities: no water items. KFVS Heartland list still stamped 11/19, unchanged. Not adopted: Warsaw MO boil advisory (KY3 11/18, outside window, Ring 3), undated Festus and KSDK south County / I-44 items. Unreachable or not checked: MAW alerts index and boil page, MSD, MO DNR boil table, Kirkwood, KSDK article pages, Reddit/Nextdoor/X/Facebook.",
+    "open_count": 258,
+    "run_at": "2026-11-23T13:40:00Z",
     "top_incident": "No new or changed water incident affecting WashU, and no City or County boil order confirmed. Carried Ring 1 item: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7; impact possible (low)."
   },
   "incidents": [
@@ -311,18 +311,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 3:40 PM CT 11/19 (Lane 1 only, ID probe): IAW alert 145764, main break with emergency repairs from 2:45 PM 11/19, ~5 hr estimate, boil order once service is restored. Separate ID from tracked Belleville 145606/145161. ~18-20 mi E of Danforth; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "assessment": "Updated 7:40 AM CT 11/23 (Lane 1, ID probe): IAW alert 146115 posts a Belleville boil order lift (no street or date). Several Belleville events are tracked (145161 N 98th St, 145764, 145606 investigation, 144035 group), so the lift cannot be tied with certainty; most likely this newest boil-order event (145764). Moved to monitoring, not resolved. ~18-20 mi E; no WashU asset; impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-19T21:40:00Z",
       "id": "ilaw-belleville-unlocated-20261119",
-      "last_updated": "2026-11-19T21:40:00Z",
+      "last_updated": "2026-11-23T13:40:00Z",
       "location": "Belleville, IL (St. Clair County, Metro East; streets not published)",
       "ring": 3,
       "single_source": true,
       "sources": [
-        "https://alertsdetail.awapps.com/alert/145764"
+        "https://alertsdetail.awapps.com/alert/145764",
+        "https://alertsdetail.awapps.com/alert/146115"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "Illinois American Water main break with boil order on restoration, Belleville, IL (alert 145764)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
@@ -1397,6 +1398,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Bellefontaine Neighbors — emergency repairs (alert 145266)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 7:40 AM CT 11/23 (Lane 1 only, ID probe): MAW alert 146120, main-break emergency repairs from 7:30 AM 11/23, ~6 hr estimate (~1:30 PM); no street; no boil advisory. Separate ID from tracked investigation 145969. ~9-10 mi NE of North Campus; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-23T13:40:00Z",
+      "id": "maw-bellefontaineneighbors-unlocated-20261123",
+      "last_updated": "2026-11-23T13:40:00Z",
+      "location": "Bellefontaine Neighbors, MO (north St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146120"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Bellefontaine Neighbors — emergency repairs (alert 146120)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
