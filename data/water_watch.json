@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "1:40 PM CST 11/23 four-lane run: one new St. Louis-area item. MAW 146173 Ladue emergency repairs from 12:45 PM (~6 hr, no street, Ring 2, impact none). Out of region: 146175/146176 MAW Joplin planned work 11/24 (Ring 3, not tracked); other new IDs CA/IN/PA/NJ. Probe: 146172-146179 populated, 146180-146185 empty; next run restart at 146180. 146125 re-opened: still active, unchanged. stlwater.com outages: same 4 tracked entries (Kingshighway/Lillian ETR 11/27, Penrose/Euclid ETR 11/26, Howard/19th and Union/Brown ETRs passed); lanes disagree on page stamp (6:30 PM 11/22 vs 1:30 PM 11/23). MAW boil page none; MO DNR newest 10/28; City Water news newest 8/25. WashU emergency site no alerts; Facilities Tao Tennis chilled-water repair Nov 25-Dec 7 unchanged; Med Facilities no water outages. KFVS list modified 17:31 UTC 11/23, no new entries. Rejected: U City Linden/Pershing break (Jan 28, 2026), undated Maryland Heights/Bridgeton boil stories (Feb 2026 event). No dated social posts 11/22-23. Not checked/unreachable: MAW alerts index (script-rendered), MSD, Kirkwood, BJC, Cortex, Loop district, Forest Park Forever, MoDOT; FOX 2/KSDK article pages would not load.",
-    "open_count": 273,
-    "run_at": "2026-11-23T19:40:00Z",
-    "top_incident": "Ring 1: MAW 146125 University City main break (from 7:30 AM, ~6 hr ETR ~1:30 PM CT) still active at 1:35 PM, no completion text, no street, no boil advisory; impact possible (low) for North Campus, Loop properties and U City side of Danforth."
+    "note": "2:40 PM CST 11/23 four-lane run: nothing new in St. Louis City/County or Metro East. MAW probe 146180-146185 populated (146180 Jefferson City MO planned work moved to 11/24, Ring 3, not tracked; 146181-146185 IA/CA/PA/NJ), 146186-146191 empty; next run restart at 146186. 146173 Ladue still active (from 12:45 PM, ETR ~6:45 PM). New Ring 3: New Madrid County WD #2 boil advisory (issued 11/19) from KFVS list. Collinsville IL, Lewistown MO and Cape Girardeau no longer on KFVS list; lifts unconfirmed, left unchanged. stlwater.com outages page stamped 6:30 PM 11/22, same 4 tracked outages. MAW boil page none; MO DNR newest 10/28; City Water news newest 8/25. WashU emergency site no alerts; Facilities Tao Tennis chilled-water repair Nov 25-Dec 7 unchanged; Med Facilities no water outages. No dated social posts 11/22-23. Rejected stale: Jan 2026 U City Linden/Pershing, Sep 2026 Ladue Warson Rd, 2015 WashU emergency posts. Not checked/unreachable: MSD, Kirkwood, BJC, Cortex, Loop district, Forest Park Forever, MoDOT, FOX 2 (stale), Clayton news (error); stlwater.com/?p=9725 undated, not opened.",
+    "open_count": 274,
+    "run_at": "2026-11-23T20:40:00Z",
+    "top_incident": "Ring 1: MAW 146125 University City main break (from 7:30 AM, ~6 hr ETR ~1:30 PM CT) still posted at 2:35 PM, no completion text, no street, no boil advisory; impact possible (low) for North Campus, Loop properties and U City side of Danforth."
   },
   "incidents": [
     {
@@ -5326,11 +5326,11 @@
         "Delmar Loop properties",
         "Danforth Campus (University City portion)"
       ],
-      "assessment": "New 8:40 AM CT 11/23 (Lane 1; page re-opened by supervisor): MAW alert 146125, main-break emergency repairs from 7:30 AM 11/23, ~6 hr estimate (~1:30 PM); possible discolored water, low or no pressure; no street; no boil advisory (MO DNR none in St. Louis City/County). Posted in a batch of seven MAW alerts with identical start time and duration. Ring 1 by municipality: U City borders North Campus, Delmar Loop properties and the Danforth U City portion; street unknown, so pressure-zone overlap cannot be judged. No WashU Alert or Facilities water notice; no news or social corroboration (Lanes 2-4). Impact possible (low). Action: Facilities / Residential Life watch for pressure or discoloration reports at North Campus, Loop lofts and 560 Music Center; flush if discolored. Escalate if a street on Delmar, Forest Park Pkwy, Skinker, Big Bend or Pershing is published or a boil advisory posts. Resolve when dropped from MAW alerts. Owner: Facilities / Emergency Management.",
+      "assessment": "Updated 2:40 PM CT 11/23 (Lanes 1 and 4, detail page re-opened): MAW alert 146125 still posted ~1 hr past its ~1:30 PM estimate; no completion text, end time, last-updated stamp or street; no boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). No WashU Alert or Facilities water notice (Lane 3); no news or social corroboration (Lanes 2, 4). Likely complete but unconfirmed. Ring 1 by municipality (North Campus, Delmar Loop properties, U City side of Danforth). Impact possible (low). Action: Facilities / Residential Life watch for pressure or discoloration reports at North Campus, Loop lofts and 560 Music Center; flush if discolored. Escalate if a street on Delmar, Forest Park Pkwy, Skinker, Big Bend or Pershing is published or a boil advisory posts. Resolve when dropped from MAW alerts. Owner: Facilities / Emergency Management.",
       "confidence": "Medium",
       "first_seen": "2026-11-23T14:40:00Z",
       "id": "maw-universitycity-unlocated-20261123",
-      "last_updated": "2026-11-23T14:40:00Z",
+      "last_updated": "2026-11-23T20:40:00Z",
       "location": "University City, MO (street not published by utility)",
       "ring": 1,
       "single_source": true,
@@ -5813,6 +5813,24 @@
       "status": "open",
       "title": "New Hope Residential Care Facility boil order, no free chlorine at entry point (St. Francois County, MO)",
       "utility": "New Hope Residential Care Facility (private public water system)",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 2:40 PM CT 11/23 (Lane 2 only, KFVS Heartland list modified 17:31 UTC 11/23): boil advisory issued Thu 11/19 after a main break, until further notice; first seen by the watch today. ~150+ mi S of any WashU asset; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-23T20:40:00Z",
+      "id": "newmadridcwd2-newmadridcounty-westofhwy61-20261119",
+      "last_updated": "2026-11-23T20:40:00Z",
+      "location": "Customers west of Hwy 61, New Madrid County, MO (Bootheel; streets not named)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
+      ],
+      "status": "open",
+      "title": "New Madrid County Water District #2 boil advisory after main break, customers west of Hwy 61",
+      "utility": "New Madrid County Water District #2",
       "washu_impact": "none"
     },
     {
