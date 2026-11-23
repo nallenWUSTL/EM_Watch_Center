@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "3:40 PM CST 11/23 four-lane run: nothing new in St. Louis City/County or Metro East. MAW probe 146186-146189 out of region (NJ, PA, 'Huntington' state unknown), 146190-146195 empty; next run restart probing at 146190. 146173 Ladue still posted (from 12:45 PM, ETR ~6:45 PM), unchanged. New Ring 3: Anniston MO precautionary boil order (fiber-optic crews struck two mains) from KFVS list (modified 21:25 UTC). Devils Kitchen and New Madrid still listed; Dunklin PWSD 3 already tracked. stlwater.com outages page still stamped 6:30 PM 11/22 (stale; North City Kingshighway/Lillian and Penrose/Euclid shutoffs ~4 mi N of Medical Campus, ETR 11/26-27). WashU emergency site no alerts; Facilities only Tao Tennis chilled-water repair Nov 25-Dec 7; Med Facilities no water outages. No dated social posts 11/22-23. Unverified leads: KSDK Ferguson/Haplin Dr breaks article (undated, fetch failed) and FOX 2 'multiple water main breaks in Ladue' (undated, not opened). Rejected stale: Jan 2026 U City Linden/Pershing, Jan 2026 U City Delmar tap, May 2025 Kirkwood, July 2020 Lindell. Not reached: MAW alerts index (empty), MAW boil page, MO DNR, MSD, Kirkwood, BJC, Cortex, Loop, Forest Park Forever, MoDOT.",
-    "open_count": 275,
-    "run_at": "2026-11-23T21:40:00Z",
-    "top_incident": "Ring 1: MAW 146125 University City main break (from 7:30 AM, ~6 hr ETR ~1:30 PM CT) still posted at 3:33 PM, ~2 hr overdue, no completion text, no street, no boil advisory; impact possible (low) for North Campus, Loop properties and U City side of Danforth."
+    "note": "4:50 PM CST 11/23 four-lane run. New: MAW 146193 University City (Ring 1, possible) and 146194 Ballwin (Ring 2, from 4:45 PM, none). MAW probe 146190-146200: 146190 Buchanan Co planned 11/24, 146191-146192 out of region, 146195-146200 empty; next run restart probing at 146195. 146125 U City and 146173 Ladue still posted unchanged. KFVS list (21:25 UTC) now shows only Anniston, Devils Kitchen, New Madrid CWD 2, Dunklin PWSD 3; Millstone dropped (moved to monitoring, lift unconfirmed). stlwater.com outages still stamped 6:30 PM 11/22 (Kingshighway/Lillian ETR 11/27, Penrose/Euclid ETR 11/26; no item near Medical Campus); no City boil advisory (stlwater ?p=9725 is the Aug 2026 advisory, lifted 8/18). WashU emergency site no alerts; Facilities only Tao Tennis chilled-water repair Nov 25-Dec 7; Med Facilities no water items. Rejected stale: KSDK Ferguson/Haplin Dr (Jan 13 2025 per NewsBreak copy), Jan 2026 U City Linden/Pershing and Delmar tap. Unverified: Nextdoor 'Olive and Eastover (University City)' post (blocked, undated), FOX 2 '3 water main breaks across St. Louis County' (undated). Not reached: MAW boil page, MAW alerts index (script-loaded), MO DNR list, Metro alerts, BJC, Cortex, Loop, Forest Park Forever, MoDOT.",
+    "open_count": 277,
+    "run_at": "2026-11-23T22:50:00Z",
+    "top_incident": "Ring 1: new MAW 146193 University City emergency repairs (main break, ~6 hr, no street, no start time) posted alongside 146125 (U City, from 7:30 AM, ~3 hr past ETR, still posted); impact possible (low) for North Campus, Loop properties and U City side of Danforth; no boil advisory."
   },
   "incidents": [
     {
@@ -1434,6 +1434,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Ballwin (alert 145895)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 4:50 PM CT 11/23 (Lane 1 only, ID probe): MAW alert 146194, main-break emergency repairs from 4:45 PM 11/23, ~6 hr estimate (~10:45 PM); no street; no boil advisory found. ~12 mi W of Danforth; Tyson on well water; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-23T22:50:00Z",
+      "id": "maw-ballwin-unlocated-20261123",
+      "last_updated": "2026-11-23T22:50:00Z",
+      "location": "Ballwin, MO (west St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146194"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Ballwin — emergency repairs (alert 146194)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -5344,19 +5362,42 @@
         "Delmar Loop properties",
         "Danforth Campus (University City portion)"
       ],
-      "assessment": "Updated 3:40 PM CT 11/23 (Lane 1, detail page re-opened): MAW alert 146125 still posted at 3:33 PM, ~2 hr past its ~1:30 PM estimate (7:30 AM start + ~6 hr); still says emergency repairs, no completion text, last-updated stamp or street; no boil advisory found. No WashU Alert or Facilities water notice (Lane 3); no dated news or social item naming a street (Lanes 2, 4; Jan 2026 Linden/Pershing story rejected as stale). Ring 1 by municipality (North Campus, Loop properties, U City side of Danforth). Impact possible (low). Action: Facilities/Residential Life watch for pressure or discoloration complaints at North Campus and Loop buildings; flush if discolored. Escalate if a street on Delmar, Forest Park Pkwy, Big Bend or Skinker is published or a boil advisory is posted. Resolve when dropped from MAW alerts. Owner: Facilities / Emergency Management.",
+      "assessment": "Updated 4:50 PM CT 11/23 (Lanes 1, 2, 4 re-opened the page): MAW alert 146125 still posted ~3 hr past its ~1:30 PM estimate (7:30 AM start + ~6 hr); no completion text, last-updated stamp or street; no boil advisory. MAW has since posted a second U City emergency-repair alert, 146193 (tracked separately; may be the same break). No WashU Alert or Facilities water notice (Lane 3); no dated news or social item naming a street (Lanes 2, 4). Ring 1 by municipality (North Campus, Loop properties, U City side of Danforth). Impact possible (low). Action: Facilities/Residential Life watch for pressure or discoloration complaints at North Campus and Loop buildings; flush if discolored; EM may call MAW for the street. Escalate if a street on Delmar, Forest Park Pkwy, Big Bend or Skinker is published or a boil advisory is posted. Resolve when dropped from MAW alerts. Owner: Facilities / Emergency Management.",
       "confidence": "Medium",
       "first_seen": "2026-11-23T14:40:00Z",
       "id": "maw-universitycity-unlocated-20261123",
-      "last_updated": "2026-11-23T21:40:00Z",
+      "last_updated": "2026-11-23T22:50:00Z",
       "location": "University City, MO (street not published by utility)",
       "ring": 1,
       "single_source": true,
       "sources": [
-        "https://alertsdetail.awapps.com/alert/146125"
+        "https://alertsdetail.awapps.com/alert/146125",
+        "https://alertsdetail.awapps.com/alert/146193"
       ],
       "status": "open",
       "title": "Missouri American Water main break, University City — emergency repairs (alert 146125)",
+      "utility": "Missouri American Water",
+      "washu_impact": "possible"
+    },
+    {
+      "affected_assets": [
+        "North Campus",
+        "Delmar Loop properties",
+        "Danforth Campus (University City portion)"
+      ],
+      "assessment": "New 4:50 PM CT 11/23 (Lane 1; page re-opened by supervisor): MAW alert 146193, titled 'St. Louis County: Emergency Repairs', city University City; main-break repairs dated 11/23, ~6 hr estimate; start, end and last-updated fields blank; no street; possible discolored water, low or no pressure; no boil advisory. Second U City alert today alongside 146125 (7:30 AM, still posted ~3 hr past its ETR); may be a re-post of the same break or a separate one, source does not say. No WashU Alert or Facilities notice (Lane 3); no dated news or social item naming a street (Lanes 2, 4; an undated Nextdoor 'Olive and Eastover' post could not be opened and is not adopted). Ring 1 by municipality (North Campus, Delmar Loop properties, U City side of Danforth). Impact possible (low). Action: Facilities/Residential Life watch for pressure or discoloration complaints at North Campus, Loop buildings and U City-side Danforth tonight; flush if discolored; EM may call MAW (1-866-430-0820) for the street. Escalate if a street on Delmar, Forest Park Pkwy, Big Bend or Skinker or a boil advisory is posted. Resolve when dropped from MAW alerts. Owner: Facilities / Emergency Management.",
+      "confidence": "Medium",
+      "first_seen": "2026-11-23T22:50:00Z",
+      "id": "maw-universitycity-unlocated-20261123b",
+      "last_updated": "2026-11-23T22:50:00Z",
+      "location": "University City, MO (street not published by utility)",
+      "ring": 1,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146193"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, University City — emergency repairs (alert 146193)",
       "utility": "Missouri American Water",
       "washu_impact": "possible"
     },
@@ -5745,18 +5786,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Added 7:40 PM CT 11/21 (Lane 2 only, KFVS Heartland list stamped 11/19): boil order issued 11/4, until further notice; previously untracked. ~150 mi SE; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "assessment": "Updated 4:50 PM CT 11/23 (Lane 2): Millstone WD order no longer appears on the KFVS Heartland boil list (modified 21:25 UTC 11/23); lift not confirmed by the district, so moved to monitoring, not resolved. ~150 mi SE; separate system; no WashU asset. Impact none. Resolve once a lift is confirmed. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-22T01:40:00Z",
       "id": "millstonewd-popecounty-bertrd-20261104",
-      "last_updated": "2026-11-22T01:40:00Z",
+      "last_updated": "2026-11-23T22:50:00Z",
       "location": "Bert Rd, Waltersburg Rd at Hazel Rd, and Hazel Rd north, Pope County, IL (far southern Illinois)",
       "ring": 3,
       "single_source": true,
       "sources": [
         "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "Millstone Water District boil order, Bert Rd / Waltersburg Rd / Hazel Rd, Pope County, IL",
       "utility": "Millstone Water District (IL)",
       "washu_impact": "none"
