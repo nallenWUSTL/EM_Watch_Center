@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "7:40 AM CST 11/23 four-lane run: one new Ring 2 item, MAW 146120 Bellefontaine Neighbors main break (7:30 AM, ~6 hr ETR, no street, no boil advisory; impact none). IAW 146115 Belleville boil order lift, provisionally tied to 145764 (moved to monitoring). MAW 146104 (County, 10 PM 11/22) still active, ETR passed, no completion text. Probe: 146105-146110, 146121-146125, 146128, 146129, 146131, 146135 empty; 146111-146118 out of region; 146119 Pekin IL (out of area, not tracked); 146132-146134 and 146136+ not checked; next run restart at 146121. stlwater.com outages still stamped 6:30 PM 11/22, no Ring 1 outage, no advisory; Howard St and Union Blvd past ETR, likely stale. WashU emergency, Danforth and Medical Campus Facilities: no water items. KFVS Heartland list still stamped 11/19, unchanged. Not adopted: Warsaw MO boil advisory (KY3 11/18, outside window, Ring 3), undated Festus and KSDK south County / I-44 items. Unreachable or not checked: MAW alerts index and boil page, MSD, MO DNR boil table, Kirkwood, KSDK article pages, Reddit/Nextdoor/X/Facebook.",
-    "open_count": 258,
-    "run_at": "2026-11-23T13:40:00Z",
-    "top_incident": "No new or changed water incident affecting WashU, and no City or County boil order confirmed. Carried Ring 1 item: WashU Facilities chilled-water leak repair west of Tao Tennis (Danforth), Nov 25-Dec 7; impact possible (low)."
+    "note": "8:40 AM CST 11/23 four-lane run: six new MAW main breaks all posted 7:30 AM with ~6 hr ETR, no streets, no boil advisories: 146125 University City (Ring 1, possible), 146124 Webster Groves, 146122 County, 146121 Manchester, 146126 Jennings, 146128 Dellwood (Ring 2, none). 146104 and 146120 unchanged. Probe: 146121-146136, 146138, 146140 opened; 146123 Chesterton and 146127, 146129-146133 out of region; 146134+ empty; 146137, 146139, 146141+ not checked; next run restart at 146134. stlwater.com outages still stamped 6:30 PM 11/22 (Penrose/N Kingshighway already tracked). MO DNR: no St. Louis City/County boil records. KFVS Heartland list stamped 11/19; New Madrid Co. PWSD 2 advisory (11/19, Ring 3) noted, not tracked. WashU emergency site no alerts; Facilities: Tao Tennis chilled-water repair Nov 25-Dec 7 unchanged. Not adopted: undated KSDK Ferguson/Halpin Dr item; undated Maryland Heights boil advisory articles. Unreachable or not checked: MAW boil page, MSD, Kirkwood, municipal pages, Reddit/Nextdoor/X/Facebook.",
+    "open_count": 264,
+    "run_at": "2026-11-23T14:40:00Z",
+    "top_incident": "New Ring 1: MAW 146125 University City main break, emergency repairs from 7:30 AM, ~6 hr ETR (~1:30 PM), no street, no boil advisory; impact possible (low) for North Campus, Loop properties and U City side of Danforth."
   },
   "incidents": [
     {
@@ -1883,6 +1883,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 8:40 AM CT 11/23 (Lane 1 only): MAW alert 146128, main-break emergency repairs from 7:30 AM 11/23, ~6 hr estimate; no street; no boil advisory. ~7 mi N of North Campus; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-23T14:40:00Z",
+      "id": "maw-dellwood-unlocated-20261123",
+      "last_updated": "2026-11-23T14:40:00Z",
+      "location": "Dellwood, MO (north St. Louis County; street not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146128"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Dellwood — emergency repairs (alert 146128)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 10:40 AM CT 11/1 (Lane 1 only): MAW alert 143504, main break on Dougherty View Ct beginning 10/31 9:30 PM CT, ~4-6 hr estimate (likely complete by ~3:30 AM but not closed on page); possible discolored water, low or no pressure; no boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). ~8-9 mi W of Danforth and West Campus; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2-4). Monitor; resolve when dropped from MAW index. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-01T16:40:00Z",
@@ -2673,6 +2691,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 8:40 AM CT 11/23 (Lane 1 only): MAW alert 146126, main-break emergency repairs from 7:30 AM 11/23, ~6 hr estimate; no street; no boil advisory. ~4-5 mi N of North Campus; different pressure zone; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-23T14:40:00Z",
+      "id": "maw-jennings-unlocated-20261123",
+      "last_updated": "2026-11-23T14:40:00Z",
+      "location": "Jennings, MO (north St. Louis County; street not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146126"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Jennings — emergency repairs (alert 146126)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 2:40 PM CT 11/12 (Lane 1 only, ID probe): MAW alert 144903, planned work Fri 11/13 9:00 AM to ~2:00 PM; no boil advisory. Planned, not a failure. ~250 mi SW; separate system; no WashU asset. Impact none. Resolve after the window if dropped. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-12T20:40:00Z",
@@ -2959,6 +2995,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Manchester — emergency repairs (alert 144770)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 8:40 AM CT 11/23 (Lane 1 only): MAW alert 146121, main-break emergency repairs from 7:30 AM 11/23, ~6 hr estimate; no street; no boil advisory. ~8-10 mi W of West Campus; Tyson on well water; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-23T14:40:00Z",
+      "id": "maw-manchester-unlocated-20261123",
+      "last_updated": "2026-11-23T14:40:00Z",
+      "location": "Manchester, MO (west St. Louis County; street not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146121"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Manchester — emergency repairs (alert 146121)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -4863,6 +4917,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 8:40 AM CT 11/23 (Lane 1 only): MAW alert 146122, main-break emergency repairs from 7:30 AM 11/23, ~6 hr estimate; location county-level only; no boil advisory. No WashU asset identifiable. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-23T14:40:00Z",
+      "id": "maw-stlouiscounty-unlocated-20261123",
+      "last_updated": "2026-11-23T14:40:00Z",
+      "location": "St. Louis County, MO (municipality and street not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146122"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, St. Louis County — emergency repairs (alert 146122)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 9:50 PM CT 11/20 (Lane 1 only, ID probe): MAW alert 145929, investigation of a possible service issue; ~10 mi W of Danforth; no street; no boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). No WashU asset identified; no Ring 1 corridor named. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-21T03:50:00Z",
@@ -5087,6 +5159,28 @@
       "washu_impact": "possible"
     },
     {
+      "affected_assets": [
+        "North Campus",
+        "Delmar Loop properties",
+        "Danforth Campus (University City portion)"
+      ],
+      "assessment": "New 8:40 AM CT 11/23 (Lane 1; page re-opened by supervisor): MAW alert 146125, main-break emergency repairs from 7:30 AM 11/23, ~6 hr estimate (~1:30 PM); possible discolored water, low or no pressure; no street; no boil advisory (MO DNR none in St. Louis City/County). Posted in a batch of seven MAW alerts with identical start time and duration. Ring 1 by municipality: U City borders North Campus, Delmar Loop properties and the Danforth U City portion; street unknown, so pressure-zone overlap cannot be judged. No WashU Alert or Facilities water notice; no news or social corroboration (Lanes 2-4). Impact possible (low). Action: Facilities / Residential Life watch for pressure or discoloration reports at North Campus, Loop lofts and 560 Music Center; flush if discolored. Escalate if a street on Delmar, Forest Park Pkwy, Skinker, Big Bend or Pershing is published or a boil advisory posts. Resolve when dropped from MAW alerts. Owner: Facilities / Emergency Management.",
+      "confidence": "Medium",
+      "first_seen": "2026-11-23T14:40:00Z",
+      "id": "maw-universitycity-unlocated-20261123",
+      "last_updated": "2026-11-23T14:40:00Z",
+      "location": "University City, MO (street not published by utility)",
+      "ring": 1,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146125"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, University City — emergency repairs (alert 146125)",
+      "utility": "Missouri American Water",
+      "washu_impact": "possible"
+    },
+    {
       "affected_assets": [],
       "assessment": "Updated 3:40 PM CT 11/9 (Lane 1): alert 144250 scheduled window (9:00 AM to ~3:30 PM 11/9) has passed; town field still a placeholder, no street, no completion or status text. No boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). No WashU Alert or Facilities notice. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Low",
@@ -5231,6 +5325,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Webster Groves — emergency repairs (alerts 145690, 145688)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 8:40 AM CT 11/23 (Lane 1 only): MAW alert 146124, main-break emergency repairs from 7:30 AM 11/23, ~6 hr estimate; no street; no boil advisory. ~4-5 mi S of South Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-23T14:40:00Z",
+      "id": "maw-webstergroves-unlocated-20261123",
+      "last_updated": "2026-11-23T14:40:00Z",
+      "location": "Webster Groves, MO (street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146124"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Webster Groves — emergency repairs (alert 146124)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
