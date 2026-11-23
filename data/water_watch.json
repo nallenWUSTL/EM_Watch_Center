@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "10:45 AM CST 11/23 four-lane run: one new Ring 2 item, MAW 146141 St. Louis County emergency repairs from noon (~4 hr, no street, no boil advisory; impact none). 146125 re-opened by Lanes 1, 3, 4: unchanged, no street, Last Updated blank. Probe: 146140-146147 populated (146141 local; others PA/WV/IA/NJ/IN incl. Crawfordsville IN 24-hr boil advisory), 146148-146152 and 146155 empty, 146153-146154 and 146156+ not opened; next run restart at 146153. stlwater.com outages still stamped 6:30 PM 11/22, same four items. City Public Utilities news newest 8/25. KFVS list stamped 11/19 (New Madrid Co WD #2 advisory dated 11/19 seen, Ring 3, not added). WashU emergency site no alerts; Facilities Tao Tennis chilled-water repair Nov 25-Dec 7 unchanged; Med Facilities no potable-water outages (McDonnell Pediatric restroom access limits Nov 23-25, not water). No dated news/social items for 11/22-23; KSDK Olive Blvd Creve Coeur 20-inch break undated, not adopted. Not checked: MSD, Kirkwood, MO DNR, IAW list, BJC, Cortex, Loop district, Source/Student Life.",
-    "open_count": 267,
-    "run_at": "2026-11-23T16:45:00Z",
+    "note": "11:45 AM CST 11/23 four-lane run: three new items, none affecting WashU. MAW 146160 Rock Hill emergency repairs from 11:30 AM (~6 hr, no street, Ring 2, ~2-3 mi SE of South Campus); MAW 146153 Florissant from 11:00 AM (~6 hr, Ring 2); Devils Kitchen IL boil order Grassy Rd (Ring 3, KFVS 11/23). 146125 and 146141 re-opened: unchanged. Probe: 146153-146160 populated (146154/146156-146159 PA/IA/VA), 146161-146166 empty; next run restart at 146161. stlwater.com outages still stamped 6:30 PM 11/22 (N Kingshighway/Lillian, Penrose/Euclid, Howard/19th, Union/Brown; all tracked). MAW boil page none; MO DNR newest 10/28. WashU emergency site no alerts; Facilities Tao Tennis chilled-water repair Nov 25-Dec 7 unchanged; Med Facilities no water outages. KFVS: Lewistown MO no longer listed (lift unconfirmed); New Madrid Co WD #2 11/19 advisory seen, Ring 3, not added. No dated social posts 11/22-23; Richmond Heights PD Nextdoor 'water main break' post undated/blocked, not adopted. Not checked: MSD, Kirkwood, BJC, Cortex, Loop district, Post-Dispatch, RFT.",
+    "open_count": 270,
+    "run_at": "2026-11-23T17:45:00Z",
     "top_incident": "Ring 1: MAW 146125 University City main break (from 7:30 AM, ~6 hr ETR ~1:30 PM CT) still active, no street, no boil advisory; impact possible (low) for North Campus, Loop properties and U City side of Danforth."
   },
   "incidents": [
@@ -78,6 +78,24 @@
       "status": "open",
       "title": "Columbia Water & Light main break and precautionary boil advisories, I-70 Dr SW / N West Blvd and Clinton Dr off W Ash St",
       "utility": "Columbia Water & Light",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 11:45 AM CT 11/23 (Lane 2 only, KFVS Heartland list modified 17:31 UTC 11/23): boil order dated Mon 11/23, until further notice; cause and start time not given. ~100+ mi SE; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-23T17:45:00Z",
+      "id": "devilskitchen-williamsoncounty-grassyrd-20261123",
+      "last_updated": "2026-11-23T17:45:00Z",
+      "location": "Grassy Rd from South Wolf Creek Rd to the water office, Williamson/Jackson County, IL",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
+      ],
+      "status": "open",
+      "title": "Devils Kitchen Water Office boil order, Grassy Rd from S Wolf Creek Rd to the water office",
+      "utility": "Devils Kitchen Water Office (IL)",
       "washu_impact": "none"
     },
     {
@@ -2506,6 +2524,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 11:45 AM CT 11/23 (Lane 1 only, ID probe): MAW alert 146153, main-break emergency repairs from 11:00 AM 11/23, ~6 hr estimate (~5 PM); no street; no boil advisory. ~8-9 mi N of North Campus; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-23T17:45:00Z",
+      "id": "maw-florissant-unlocated-20261123",
+      "last_updated": "2026-11-23T17:45:00Z",
+      "location": "Florissant, MO (north St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146153"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Florissant — emergency repairs (alert 146153)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 4:40 AM CT 11/10 (Lane 1 only, ID probe): MAW alert 144399, emergency repairs with possible discolored water; body dates start 11/8 8:00 AM, ~1 hr estimate (date may be a placeholder; Last Updated blank; may be complete). No street; no boil advisory (MO DNR newest 11/5). ~5 mi W of South Campus and Danforth (estimate); different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Monitor; resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-10T10:40:00Z",
@@ -3661,6 +3697,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Rock Hill — emergency repairs (alert 145558)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 11:45 AM CT 11/23 (Lane 1 only, ID probe): MAW alert 146160, main-break emergency repairs from 11:30 AM 11/23, ~6 hr estimate (~5:30 PM); possible discolored water, low or no pressure; no street; no boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). Separate from tracked investigation 146102 (11/22), possibly its follow-on. ~2-3 mi SE of South Campus (city-level estimate); not on a Ring 1 corridor; no WashU asset. Impact none. No news or social corroboration (Lanes 2-4). Escalate if a street near Big Bend or Manchester toward Clayton Rd is published. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-23T17:45:00Z",
+      "id": "maw-rockhill-unlocated-20261123",
+      "last_updated": "2026-11-23T17:45:00Z",
+      "location": "Rock Hill, MO (mid St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146160"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Rock Hill — emergency repairs (alert 146160)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
