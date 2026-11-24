@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "11:40 AM CST 11/24 four-lane run. New (Ring 2, impact none): MAW 146310 Overland and 146308 Jennings main breaks (from 11 AM, ~6 hr); MAW 146313 Berkeley planned work Wed 11/25 8:30 AM-2:30 PM. Unchanged: Clayton 146283, U City 146125/146193, Ladue 146173, Rock Hill 146160 still posted, no completion text. AW ID probe: 146303-146313 checked (others out of region; Jefferson 146305 and Rosemont 146306 state not shown); 146314-146316 empty; next run re-probe 146314+. Undated FOX 2 story on a 20-inch MAW main break on N Hanley Rd between Maryland Ave and Forest Park Pkwy, Clayton (Monday night) surfaced; date unconfirmed and timing does not match 146283 (8 AM Tue), so not recorded; re-check if MAW or Clayton publishes a street. City outages page (7:30 PM 11/23) unchanged: 3 north-city outages only, no City boil advisory. KFVS list unchanged (21:25 UTC 11/23). No boil advisory in St. Louis City or County. WashU Alert none; Facilities Tao Tennis chilled-water closure starts 11/25; Med Campus notices non-water. Social lane: nothing; Nextdoor blocked. Not checked: MSD, Kirkwood, MO DNR, BJC, Cortex, Loop, Forest Park Forever, MoDOT, municipal pages.",
-    "open_count": 299,
-    "run_at": "2026-11-24T17:40:00Z",
+    "note": "12:45 PM CST 11/24 four-lane run. New: MAW 146316 Northwoods main break (Ring 2, from 12:15 PM, ~7 hr, impact none); IAW 146315 Mt. Prospect IL (Ring 3). Reopened (Ring 2, impact none): City Water Southland Ave Finkmann-Loughborough (out 11 AM 11/24, ETR 7 PM) and N Broadway Mallinckrodt-Destrehan (ETR 2:30 PM). Unchanged: Clayton 146283, U City 146125/146193, Ladue 146173, Rock Hill 146160 still Active, no street or completion text. FOX 2 N Hanley 20-inch break dated Dec 26, 2022 via FOX 2 wp-json (Lane 2); dropped. AW ID probe: 146314-146319 checked (146314 WV, 146317/146319 PA, 146318 state unknown); 146320-146324 empty; next run re-probe 146320+. No boil advisory in St. Louis City or County (MAW boil page none). KFVS list unchanged (21:25 UTC 11/23). WashU Alert none; Facilities: Tao Tennis chilled-water closure starts 11/25, generator testing (no water impact); Med Campus notices non-water. Social lane: nothing; X/Nextdoor not fetchable. Not checked: MO DNR (connection failed), MSD, Kirkwood, BJC, Cortex, Loop, Forest Park Forever.",
+    "open_count": 303,
+    "run_at": "2026-11-24T18:45:00Z",
     "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr (~2 PM); still active, no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
   },
   "incidents": [
@@ -832,6 +832,24 @@
       ],
       "status": "open",
       "title": "Illinois American Water main break with boil order on restoration, Mt. Prospect, IL (alert 146170)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:45 PM CT 11/24 (Lane 1 only, ID probe): IAW alert 146315, repairs from 11:45 AM 11/24, ~9 hr estimate, boil order once service is restored. Separate from tracked 146170 (11/23). ~280 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T18:45:00Z",
+      "id": "ilaw-mtprospect-unlocated-20261124",
+      "last_updated": "2026-11-24T18:45:00Z",
+      "location": "Mt. Prospect, IL (Cook County, Chicago area; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146315"
+      ],
+      "status": "open",
+      "title": "Illinois American Water emergency repairs with boil order on restoration, Mt. Prospect, IL (alert 146315)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
     },
@@ -3735,6 +3753,24 @@
       "status": "open",
       "title": "Missouri American Water main break and investigations, Northwoods (alerts 144402, 144404, 144410)",
       "utility": "Missouri American Water (probable; alert links missouriamwater.com, no state named)",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:45 PM CT 11/24 (Lane 1 only, ID probe): MAW alert 146316, main-break emergency repairs from 12:15 PM 11/24, ~7 hr estimate (~7:15 PM); no street; no boil advisory (MAW boil page none). ~4-5 mi N of North Campus (city-level estimate); different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2-4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T18:45:00Z",
+      "id": "maw-northwoods-unlocated-20261124",
+      "last_updated": "2026-11-24T18:45:00Z",
+      "location": "Northwoods, MO (north St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146316"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Northwoods — emergency repairs (alert 146316)",
+      "utility": "Missouri American Water",
       "washu_impact": "none"
     },
     {
@@ -6983,18 +7019,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 7:50 PM CT 11/23 (Lanes 1, 2, 3): no longer on the stlwater.com outage list (page stamped 7:30 PM 11/23); still appears in the repair work-order table (opened 9:26 AM 11/23). Service likely restored but not stated, so moved to monitoring, not resolved. North riverfront, Ring 2; no WashU asset; impact none. Owner: Emergency Management (track only).",
+      "assessment": "Reopened 12:45 PM CT 11/24 (Lanes 1 and 3, outages.php stamped 12:30 PM 11/24): listed as an active service outage on N Broadway between Mallinckrodt and Destrehan, out since 8:30 AM 11/23, ETR 2:30 PM 11/24. No boil advisory. North riverfront, Ring 2; no WashU asset; impact none. Resolve when dropped from the outage list. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-24T00:45:00Z",
       "id": "stlwater-stlouiscity-mallinckrodt-nbroadway-20261123",
-      "last_updated": "2026-11-24T01:50:00Z",
-      "location": "Mallinckrodt St & N Broadway, St. Louis City (north riverfront)",
+      "last_updated": "2026-11-24T18:45:00Z",
+      "location": "N Broadway between Mallinckrodt St and Destrehan St, St. Louis City (north riverfront)",
       "ring": 2,
-      "single_source": true,
+      "single_source": false,
       "sources": [
-        "https://www.stlwater.com/outages.php"
+        "https://www.stlwater.com/outages.php",
+        "https://www.stlwater.com/wateroos.php"
       ],
-      "status": "monitoring",
+      "status": "open",
       "title": "City Water main-repair work order, Mallinckrodt St & N Broadway",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -7606,18 +7643,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 7:50 PM CT 11/23 (Lanes 1, 2, 3): no longer on the stlwater.com outage list (page stamped 7:30 PM 11/23); still appears in the repair work-order table (opened 12:10 PM 11/23). Service likely restored but not stated, so moved to monitoring, not resolved. South City, Ring 2; no WashU asset; impact none. Owner: Emergency Management (track only).",
+      "assessment": "Reopened 12:45 PM CT 11/24 (Lanes 1 and 3, outages.php stamped 12:30 PM 11/24): listed again as a service outage on Southland between Finkmann and Loughborough, out since 11:00 AM 11/24, ETR 7:00 PM 11/24. No boil advisory. South City, Ring 2; no WashU asset; impact none. Resolve when dropped from the outage list. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-24T00:45:00Z",
       "id": "stlwater-stlouiscity-southland-finkmann-20261123",
-      "last_updated": "2026-11-24T01:50:00Z",
-      "location": "Southland Ave & Finkmann Ave, St. Louis City (south City)",
+      "last_updated": "2026-11-24T18:45:00Z",
+      "location": "Southland Ave between Finkmann Ave and Loughborough Ave, St. Louis City (south City)",
       "ring": 2,
-      "single_source": true,
+      "single_source": false,
       "sources": [
-        "https://www.stlwater.com/outages.php"
+        "https://www.stlwater.com/outages.php",
+        "https://www.stlwater.com/wateroos.php"
       ],
-      "status": "monitoring",
+      "status": "open",
       "title": "City Water main-repair work order, Southland Ave & Finkmann Ave",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
