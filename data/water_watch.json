@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "10:40 AM CST 11/24 four-lane run. New: MAW 146297 Ballwin (Ring 2, 9:45 AM, ~6 hr); Ring 3 IAW boil orders Pekin 146298, Streator 146300, Bolingbrook 146302; New Madrid County WD#2 boil advisory (since 11/19, newly recorded from KFVS list). Updated: Tao Tennis chilled-water fire lane/sidewalk closure runs 11/25-12/7 7 AM-3 PM (Facilities). Unchanged: Clayton 146283, U City 146125/146193, Ladue 146173, Rock Hill 146160 still posted, no completion text. AW ID probe: 146295-146302 had content (out-of-region except above); 146303-146307 and 146310 empty; 146308-146309 and 146311+ not checked; next run re-probe 146303+. City outages page (7:30 PM 11/23) unchanged; 3 tracked outages only; no City boil advisory. MO DNR newest 10/28. KFVS list unchanged (21:25 UTC 11/23). No boil advisory in St. Louis City or County. WashU Alert none; Med Campus notices non-water. Social lane: nothing; stale Jan 2026 U City Linden/Pershing story surfacing in search, disregarded. Not checked: MSD, Kirkwood, BJC, Cortex, Loop, Forest Park Forever, MoDOT, municipal pages.",
-    "open_count": 296,
-    "run_at": "2026-11-24T16:40:00Z",
-    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr (~2 PM); no street, no boil advisory, no completion yet; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
+    "note": "11:40 AM CST 11/24 four-lane run. New (Ring 2, impact none): MAW 146310 Overland and 146308 Jennings main breaks (from 11 AM, ~6 hr); MAW 146313 Berkeley planned work Wed 11/25 8:30 AM-2:30 PM. Unchanged: Clayton 146283, U City 146125/146193, Ladue 146173, Rock Hill 146160 still posted, no completion text. AW ID probe: 146303-146313 checked (others out of region; Jefferson 146305 and Rosemont 146306 state not shown); 146314-146316 empty; next run re-probe 146314+. Undated FOX 2 story on a 20-inch MAW main break on N Hanley Rd between Maryland Ave and Forest Park Pkwy, Clayton (Monday night) surfaced; date unconfirmed and timing does not match 146283 (8 AM Tue), so not recorded; re-check if MAW or Clayton publishes a street. City outages page (7:30 PM 11/23) unchanged: 3 north-city outages only, no City boil advisory. KFVS list unchanged (21:25 UTC 11/23). No boil advisory in St. Louis City or County. WashU Alert none; Facilities Tao Tennis chilled-water closure starts 11/25; Med Campus notices non-water. Social lane: nothing; Nextdoor blocked. Not checked: MSD, Kirkwood, MO DNR, BJC, Cortex, Loop, Forest Park Forever, MoDOT, municipal pages.",
+    "open_count": 299,
+    "run_at": "2026-11-24T17:40:00Z",
+    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr (~2 PM); still active, no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
   },
   "incidents": [
     {
@@ -1605,6 +1605,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 11:40 AM CT 11/24 (Lane 1 only, ID probe): MAW alert 146313, planned work Wed 11/25 8:30 AM-~2:30 PM, weather permitting; not yet started; no streets; no boil advisory. ~6 mi NW of Danforth; no WashU asset; no Ring 1 corridor. Impact none. Resolve after window passes and alert drops. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T17:40:00Z",
+      "id": "maw-berkeley-planned-20261125",
+      "last_updated": "2026-11-24T17:40:00Z",
+      "location": "Berkeley, MO (north St. Louis County near Lambert; streets not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146313"
+      ],
+      "status": "open",
+      "title": "Missouri American Water planned water system improvements, Berkeley, Wed Nov 25 (alert 146313)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Updated 12:40 AM CT 11/12 (Lane 1): MAW alert 144809 title now 'Black Jack: Main Break'; body still describes investigation of a possible service issue with low or no pressure; no street, times or boil advisory. ~11 mi N of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-12T05:45:00Z",
@@ -3063,6 +3081,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 11:40 AM CT 11/24 (Lane 1 only, ID probe): MAW alert 146308, main-break emergency repairs from 11:00 AM 11/24, ~6 hr estimate (~5 PM); no street; no boil advisory. ~6-7 mi N of North Campus; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T17:40:00Z",
+      "id": "maw-jennings-unlocated-20261124",
+      "last_updated": "2026-11-24T17:40:00Z",
+      "location": "Jennings, MO (north St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146308"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Jennings — emergency repairs (alert 146308)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 2:40 PM CT 11/12 (Lane 1 only, ID probe): MAW alert 144903, planned work Fri 11/13 9:00 AM to ~2:00 PM; no boil advisory. Planned, not a failure. ~250 mi SW; separate system; no WashU asset. Impact none. Resolve after the window if dropped. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-12T20:40:00Z",
@@ -3813,6 +3849,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Overland — emergency repairs (alerts 145608, 145609)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 11:40 AM CT 11/24 (Lane 1 only, ID probe): MAW alert 146310, main-break emergency repairs from 11:00 AM 11/24, ~6 hr estimate (~5 PM); discolored water, low or no pressure possible; no street; no boil advisory. ~4-6 mi NW of North Campus and Danforth; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T17:40:00Z",
+      "id": "maw-overland-unlocated-20261124",
+      "last_updated": "2026-11-24T17:40:00Z",
+      "location": "Overland, MO (mid St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146310"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Overland — emergency repairs (alert 146310)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
