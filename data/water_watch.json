@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "5:45 PM CST 11/23 four-lane run. New: MAW 146195/146196 Webster Groves investigation (Ring 2, none). MAW probe: 146197/146199 Sacramento CA, 146198 PA (out of area); 146200-146205 empty; 146206-146230 unreachable (fetch blocked), not confirmed empty — next run restart probing at 146200. 146193/146125 U City, 146173 Ladue, 146194 Ballwin (4:45 PM start, ~10:45 PM ETR) still posted. KFVS list (21:25 UTC) unchanged: Anniston, Devils Kitchen, New Madrid CWD 2, Dunklin PWSD 3. stlwater.com outages still stamped 6:30 PM 11/22 (Kingshighway/Lillian ETR 11/27, Penrose/Euclid ETR 11/26; Howard and Union items past ETR, page likely stale); City Water news newest 8/25; no City or County boil advisory found. WashU emergency site no alerts; Facilities only Tao Tennis chilled-water repair Nov 25-Dec 7; Med Facilities no water items; Metro: Blue Line Shrewsbury-Forest Park only Nov 2-Dec 23 (maintenance, not water). Lane 4 opened MAW 134406 (U City investigation, blank dates) — old ID, not adopted. Rejected stale: Jan 2026 U City Linden/Pershing, Jun 2026 Olivette/U City boil advisory, 2013 Ladue Spoede, 2022 Frontenac Nixle. Not reached: MAW boil page (error), MSD, Kirkwood, MO DNR, IAW index, BJC/Cortex/Loop/Forest Park sites, MoDOT, municipal pages for Clayton/Eureka/Richmond Hts/Brentwood/Maplewood/Ladue.",
-    "open_count": 278,
-    "run_at": "2026-11-23T23:45:00Z",
-    "top_incident": "Ring 1: MAW 146193 and 146125 University City main-break repairs still posted (146125 ~6 hr window from 7:30 AM long passed; no street, no completion text); impact possible (low) for North Campus, Loop properties and U City side of Danforth; no boil advisory."
+    "note": "6:45 PM CST 11/23 four-lane run. New: MAW 146201 Florissant main break (Ring 2, none); City work orders Southland/Finkmann and Mallinckrodt/N Broadway (Ring 2, none); Union Blvd relisted as Brown–W Florissant, out since 1:41 PM, ETR 12/1 (Ring 2, none). Howard St and old Union Brown–I-70 listings dropped, moved to monitoring. Still posted: MAW 146125/146193 U City, 146173 Ladue, 146194 Ballwin, 146195 Webster Groves investigation. MAW probe: 146199-146200 CA; 146202-146209, 146212, 146215 empty — next run resume at 146210. MAW boil page none; MO DNR nothing new since 10/28 in region; City Water news newest 8/25; no City or County boil advisory. stlwater.com outages stamped 6:30 PM 11/23 (Kingshighway/Lillian ETR 11/27, Penrose/Euclid ETR 11/26 unchanged). KFVS list (21:25 UTC) unchanged: Anniston, Devils Kitchen, New Madrid CWD 2, Dunklin PWSD 3. WashU emergency site no alerts; Facilities Tao Tennis chilled-water repair Nov 25-Dec 7 unchanged; Med Facilities no water items; Metro no water items. Rejected undated: MAW Maryland Heights/Bridgeton/Earth City boil advisory stories (AOL/Yahoo, no date), KSDK Maplewood Manchester/Laclede Station. Not reached: MSD, Kirkwood, IAW index, BJC/Cortex/Loop/Forest Park sites, MoDOT, most municipal pages; social posts poorly indexed.",
+    "open_count": 281,
+    "run_at": "2026-11-24T00:45:00Z",
+    "top_incident": "Ring 1: MAW 146193 and 146125 University City main-break repairs still posted (146125 ~5 hr past its ~1:30 PM estimate; no street, no completion text); impact possible (low) for North Campus, Loop properties and U City side of Danforth; no boil advisory."
   },
   "incidents": [
     {
@@ -2609,6 +2609,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Florissant — emergency repairs (alert 146153)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 6:45 PM CT 11/23 (Lane 1 only, ID probe): MAW alert 146201 'Florissant: Main Break'; no street, start time, ETR or boil advisory posted. Separate ID from tracked 146153. ~10 mi N of Danforth and North Campus; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T00:45:00Z",
+      "id": "maw-florissant-unlocated-20261123b",
+      "last_updated": "2026-11-24T00:45:00Z",
+      "location": "Florissant, MO (north St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146201"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Florissant (alert 146201)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -6456,18 +6474,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 11:40 PM CT 11/19 (Lane 1, stlwater wateroos.php updated 11:30 PM 11/19): Howard St (19th–20th) still listed out of service, now past its 9:37 PM 11/19 ETR with no revised estimate; no boil advisory. ~4 mi E of Medical Campus; not a Ring 1 corridor; no WashU asset. Impact none. Resolve when dropped from the outages list. Owner: Emergency Management (track only).",
+      "assessment": "Updated 6:45 PM CT 11/23 (Lanes 1 and 3, outages.php stamped 6:30 PM 11/23): Howard St (19th–20th) no longer listed; likely restored but not confirmed by the City, so moved to monitoring, not resolved. ~4 mi E of the Medical Campus; no WashU asset; impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-19T16:40:00Z",
       "id": "stlwater-stlouiscity-howard-19th-20261119",
-      "last_updated": "2026-11-20T05:40:00Z",
+      "last_updated": "2026-11-24T00:45:00Z",
       "location": "Howard St between N 19th St and N 20th St, St. Louis City (63106)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/wateroos.php"
+        "https://www.stlwater.com/wateroos.php",
+        "https://www.stlwater.com/outages.php"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division service outage, Howard St between 19th St and 20th St (near north downtown)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -6659,6 +6678,24 @@
       ],
       "status": "monitoring",
       "title": "City of St. Louis Water Division main repair work order, Lynch St & S Broadway (Soulard / Benton Park)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 6:45 PM CT 11/23 (Lanes 1 and 3, outages.php stamped 6:30 PM 11/23): main-repair work order opened 9:26 AM 11/23; not listed as a service outage; no ETR; no boil advisory. North riverfront, ~4 mi NE of the Medical Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from the City page. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T00:45:00Z",
+      "id": "stlwater-stlouiscity-mallinckrodt-nbroadway-20261123",
+      "last_updated": "2026-11-24T00:45:00Z",
+      "location": "Mallinckrodt St & N Broadway, St. Louis City (north riverfront)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City Water main-repair work order, Mallinckrodt St & N Broadway",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
@@ -7268,6 +7305,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 6:45 PM CT 11/23 (Lanes 1 and 3, outages.php stamped 6:30 PM 11/23): main-repair work order opened 12:10 PM 11/23; not listed as a service outage; no ETR; no boil advisory. South City, ~4-5 mi SE of the Medical Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from the City page. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T00:45:00Z",
+      "id": "stlwater-stlouiscity-southland-finkmann-20261123",
+      "last_updated": "2026-11-24T00:45:00Z",
+      "location": "Southland Ave & Finkmann Ave, St. Louis City (south City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City Water main-repair work order, Southland Ave & Finkmann Ave",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 4:35 AM CT 11/20 (Lane 1): no longer listed on the City Water outage/repair table stamped 4:30 AM 11/20, which now shows only 7 rows; treated as restored per utility page (restoration not explicitly stated). No City boil advisory posted. Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-15T17:40:00Z",
@@ -7462,11 +7517,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 12:45 PM CT 11/18 (Lane 1, outages.php updated 12:30 PM 11/18): Union Blvd between Brown Ave and I-70 still listed out of service, now past its 11:45 AM 11/18 ETR with no revised estimate; no boil advisory. Adjacent to tracked Union/Bircher outage. ~5 mi NE of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from outages.php. Owner: Emergency Management (track only).",
+      "assessment": "Updated 6:45 PM CT 11/23 (Lanes 1 and 3): the Brown–I-70 listing is gone; the City page now lists Union Blvd Brown–West Florissant out since 1:41 PM 11/23 (ETR 12/1), tracked as stlwater-stlouiscity-unionblvd-wflorissant-20261123. Original restoration not confirmed, so moved to monitoring. North City; no WashU asset; impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-17T18:40:00Z",
       "id": "stlwater-stlouiscity-unionblvd-brown-20261117",
-      "last_updated": "2026-11-18T18:45:00Z",
+      "last_updated": "2026-11-24T00:45:00Z",
       "location": "Union Blvd between Brown Ave and Hwy 70 (I-70), St. Louis City (north City)",
       "ring": 2,
       "single_source": true,
@@ -7474,8 +7529,26 @@
         "https://www.stlwater.com/outages.php",
         "https://www.stlwater.com/outages"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water service outage, Union Blvd between Brown Ave and I-70",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 6:45 PM CT 11/23 (Lanes 1 and 3, outages.php stamped 6:30 PM 11/23): out of service since 1:41 PM 11/23, ETR 9:41 PM Tue 12/1 (multi-day); replaces the earlier Union Blvd Brown–I-70 listing, possibly a new work order on the same job. No boil advisory. North City, ~4+ mi N of the Medical Campus; no WashU asset; no Ring 1 corridor. Impact none. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T00:45:00Z",
+      "id": "stlwater-stlouiscity-unionblvd-wflorissant-20261123",
+      "last_updated": "2026-11-24T00:45:00Z",
+      "location": "Union Blvd between Brown Ave and West Florissant Ave, St. Louis City (north City)",
+      "ring": 2,
+      "single_source": false,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City Water outage, Union Blvd between Brown Ave and West Florissant Ave",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
