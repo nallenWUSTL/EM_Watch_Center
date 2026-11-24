@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "1:45 PM CST 11/24 four-lane run. New: MAW 146322 Overland main break (Ring 2, from 12:45 PM, ~6 hr, impact none); Du Quoin IL boil order, 400 block E Park St (Ring 3, KFVS list modified 18:51 UTC 11/24). Unchanged: Clayton 146283, U City 146125/146193 still posted, no completion text; City Water Southland (ETR 7 PM), N Broadway (ETR 2:30 PM), Union Blvd-W Florissant (ETR 12/1), Penrose/N Kingshighway items still listed. Union Blvd Brown-I-70, Howard St, Partridge/McLaran, Louisiana/Cherokee dropped from outage table (restoration not confirmed; left as is). Columbia and Lewistown MO still off KFVS list. stlwater.com/?p=9725 undated page still shows an old Chain of Rocks boil advisory, likely stale from Aug 2026 (boil-advisory page lists none). Winter Storm Watch 11/24-11/26 on city site: freeze-related break risk rising. AW ID probe: 146320-146329 checked (only 146322 MO); 146330-146334, 146336 empty; next run re-probe 146330+. No boil advisory in St. Louis City or County. WashU Alert none; Facilities: Tao Tennis chilled-water closure starts 11/25; Med Campus notices non-water. Social lane: nothing; Reddit, X blocked. Not checked: MO DNR, MSD, Kirkwood, MAW boil page (error), BJC, Cortex, Loop, Forest Park Forever, Clayton city news (did not load).",
-    "open_count": 305,
-    "run_at": "2026-11-24T19:45:00Z",
-    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr (~2 PM); still active at 1:45 PM, no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
+    "note": "2:45 PM CST 11/24 four-lane run. New: City Water main-repair work order N Kingshighway & Cabanne (opened 2:13 PM, no ETR; ~1.3 mi N of Medical Campus on Kingshighway, impact possible-low traffic); MAW 146338/146332 Webster Groves main break (from 2:30 PM, ~6 hr); MAW 146337/146339 St. John investigation; MAW 146336 St. Charles break and 146334 St. Charles planned 11/25. Updated: Clayton 146283 past ETR still posted; N Broadway/Mallinckrodt past 2:30 PM ETR still out; Bolingbrook IL 146333 added. New Madrid County WD2 (KFVS) already tracked, unchanged. Unchanged: U City 146125/146193 still posted; Southland ETR 7 PM; Union/Brown ETR 12/1; N Kingshighway Penrose-Lillian ETR 11/27; Penrose Euclid-N Kingshighway ETR 11/26. City list also shows W Florissant & Union (Geraldine-Bircher), possibly relabel of tracked Union item, not added. No boil advisory in St. Louis City or County seen (MAW boil page and stlwater boil page failed to load). WashU Alert none; Facilities: Tao Tennis chilled-water closure 11/25-12/7, generator tests only. Winter Storm Watch 11/24-11/26: freeze-break risk. AW ID probe: 146340-146345 and 146350 empty; 146346-146349, 146351+ not opened; next run re-probe 146340+. Social: nothing; Reddit blocked. Not checked: MSD, Kirkwood, MO DNR (blocked), BJC, Cortex, Loop, Forest Park Forever, MoDOT, Clayton news (did not load).",
+    "open_count": 310,
+    "run_at": "2026-11-24T20:45:00Z",
+    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr; still posted at 2:45 PM past its ETR, no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
   },
   "incidents": [
     {
@@ -405,16 +405,17 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 10:40 AM CT 11/24 (Lane 1 only, ID probe): IAW alert 146302, boil order in Bolingbrook; details not reported. ~280 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "assessment": "Updated 2:45 PM CT 11/24 (Lane 1, ID probe): IAW alert 146333, a Bolingbrook boil-order alert from 2:30 PM 11/24, likely an update or duplicate of 146302. ~280 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-24T16:40:00Z",
       "id": "ilaw-bolingbrook-unlocated-20261124",
-      "last_updated": "2026-11-24T16:40:00Z",
+      "last_updated": "2026-11-24T20:45:00Z",
       "location": "Bolingbrook, IL (Will County, Chicago area; streets not published)",
       "ring": 3,
       "single_source": true,
       "sources": [
-        "https://alertsdetail.awapps.com/alert/146302"
+        "https://alertsdetail.awapps.com/alert/146302",
+        "https://alertsdetail.awapps.com/alert/146333"
       ],
       "status": "open",
       "title": "Illinois American Water boil order, Bolingbrook, IL (alert 146302)",
@@ -2035,11 +2036,11 @@
         "Danforth Campus (Clayton portion)",
         "South Campus"
       ],
-      "assessment": "New 9:45 AM CT 11/24 (Lane 1; page re-opened by supervisor): MAW alert 146283, main-break emergency repairs from 8:00 AM 11/24, ~6 hr estimate (~2 PM); discolored/cloudy water and low pressure possible; no street; no boil advisory. Clayton borders West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus; Ring 1 by municipality only. No WashU Alert, Facilities, news or social corroboration (Lanes 2-4). Impact possible (low). Action: Facilities check for pressure or discoloration complaints at West Campus, 6200 Forsyth and Clayton-side Danforth buildings; flush if discolored; confirm street with MAW or Clayton PD. Escalate if Forsyth, Big Bend, Wydown, Hanley, Brentwood Blvd or Clayton Rd is named or a boil advisory posts. Resolve when dropped from MAW alerts. Owner: Facilities / Emergency Management.",
+      "assessment": "Updated 2:45 PM CT 11/24 (Lane 1 re-opened the page): MAW 146283 still posted ~6.5 hr after its 8:00 AM start, past the ~2 PM estimate; no completion text, last-updated time, street or boil advisory. No WashU Alert, Facilities notice, Clayton city notice (news page did not load), news or social post (Lanes 2-4). Clayton borders West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus; Ring 1 by municipality only. Impact possible (low). Action: Facilities check for pressure or discoloration complaints at West Campus, 6200 Forsyth and Clayton-side Danforth; flush if discolored; EM may call MAW (866-430-0820) for the street. Escalate if Forsyth, Big Bend, Wydown, Hanley, Brentwood Blvd or Clayton Rd is named or a boil advisory posts. Resolve when dropped from MAW alerts. Owner: Facilities / Emergency Management.",
       "confidence": "Medium",
       "first_seen": "2026-11-24T15:45:00Z",
       "id": "maw-clayton-unlocated-20261124",
-      "last_updated": "2026-11-24T15:45:00Z",
+      "last_updated": "2026-11-24T20:45:00Z",
       "location": "Clayton, MO (street not published by utility)",
       "ring": 1,
       "single_source": true,
@@ -4310,6 +4311,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 2:45 PM CT 11/24 (Lane 1 only, ID probe): planned work 7:30 AM-~12 PM 11/25; no streets; no boil advisory. ~18 mi NW; no WashU asset. Impact none. Resolve after window passes and alert drops. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T20:45:00Z",
+      "id": "maw-stcharles-planned-20261125",
+      "last_updated": "2026-11-24T20:45:00Z",
+      "location": "St. Charles, MO (St. Charles County; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146334"
+      ],
+      "status": "open",
+      "title": "Missouri American Water planned improvements, St. Charles, Wed Nov 25 (alert 146334)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 10:40 AM CT 11/12 (Lane 1 only, ID probe): MAW alert 144867, main-break emergency repairs began 8:30 AM 11/12, ~4.5 hr estimate (~1:00 PM); no street; no boil advisory. Appears separate from tracked planned leak repair 144593 (same day). >15 mi from any WashU asset; separate service area. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-12T16:40:00Z",
@@ -4323,6 +4342,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Saint Charles — emergency repairs (alert 144867)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 2:45 PM CT 11/24 (Lane 1 only, ID probe): MAW 146336 main-break repairs from 2:00 PM 11/24, ~8 hr; no street; no boil advisory. ~18 mi NW; separate system; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T20:45:00Z",
+      "id": "maw-stcharles-unlocated-20261124",
+      "last_updated": "2026-11-24T20:45:00Z",
+      "location": "St. Charles, MO (St. Charles County; street not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146336"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, St. Charles — emergency repairs (alert 146336)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -4343,6 +4380,25 @@
       ],
       "status": "resolved",
       "title": "Missouri American Water main break, St. John — Betty Lee Ave, emergency repairs (alert 142472)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 2:45 PM CT 11/24 (Lane 1 only, ID probe): two identical MAW investigation alerts, possible low or no pressure; no street, times or boil advisory. ~4-5 mi NW of North Campus; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-24T20:45:00Z",
+      "id": "maw-stjohn-investigation-20261124",
+      "last_updated": "2026-11-24T20:45:00Z",
+      "location": "St. John, MO (north-mid St. Louis County; street not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146337",
+        "https://alertsdetail.awapps.com/alert/146339"
+      ],
+      "status": "open",
+      "title": "Missouri American Water service investigation, St. John — possible low/no pressure (alerts 146337, 146339)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -5942,6 +5998,25 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 2:45 PM CT 11/24 (Lane 1 only, ID probe): MAW 146338 main-break repairs from 2:30 PM 11/24, ~6 hr (~8:30 PM); 146332 investigation of possible low/no pressure, likely same event and possibly the outcome of tracked investigation 146195/146196. No street; no boil advisory. ~4 mi S of South Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T20:45:00Z",
+      "id": "maw-webstergroves-unlocated-20261124",
+      "last_updated": "2026-11-24T20:45:00Z",
+      "location": "Webster Groves, MO (mid St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146338",
+        "https://alertsdetail.awapps.com/alert/146332"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Webster Groves — emergency repairs (alerts 146338, 146332)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 6:40 PM CT 11/18 (Lane 1; page re-opened by supervisor): MAW alert 145611, investigation of a possible service issue, low or no pressure possible; no street, start or end time; no boil advisory. Wellston is ~1-1.5 mi N of the Delmar Loop and North Campus (city-level estimate), edge of Ring 1; North Campus and Loop properties are on separate service (City Water / U City MAW zones), so impact assessed none. Escalate if a street toward Delmar Blvd or the Loop is published or a boil advisory follows. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-19T00:40:00Z",
@@ -7055,11 +7130,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Reopened 12:45 PM CT 11/24 (Lanes 1 and 3, outages.php stamped 12:30 PM 11/24): listed as an active service outage on N Broadway between Mallinckrodt and Destrehan, out since 8:30 AM 11/23, ETR 2:30 PM 11/24. No boil advisory. North riverfront, Ring 2; no WashU asset; impact none. Resolve when dropped from the outage list. Owner: Emergency Management (track only).",
+      "assessment": "Updated 2:45 PM CT 11/24 (Lane 1): City Water outage list still shows N Broadway (Mallinckrodt-Destrehan) out of service after its 2:30 PM 11/24 estimated restoration; no new ETR posted. North riverfront, ~6+ mi from any WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from the City list. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-24T00:45:00Z",
       "id": "stlwater-stlouiscity-mallinckrodt-nbroadway-20261123",
-      "last_updated": "2026-11-24T18:45:00Z",
+      "last_updated": "2026-11-24T20:45:00Z",
       "location": "N Broadway between Mallinckrodt St and Destrehan St, St. Louis City (north riverfront)",
       "ring": 2,
       "single_source": false,
@@ -7281,6 +7356,26 @@
       "title": "City of St. Louis Water Division valve and hydrant repairs, N Grand Blvd (Windsor Pl, 903 and 920 N Grand)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
+    },
+    {
+      "affected_assets": [
+        "Medical Campus (northern access via Kingshighway)"
+      ],
+      "assessment": "New 2:45 PM CT 11/24 (Lane 1 only): City Water outage page lists a main-repair work order at N Kingshighway & Cabanne opened 2:13 PM 11/24; no outage area or restoration time posted; no boil advisory. Same City system as the Medical Campus but ~1.3 mi north; potable-water effect on WashU unlikely. On the Kingshighway corridor, a route into the Medical Campus from the north, so lane restrictions are possible. Impact possible (low, traffic). Action: Medical Campus Ops/Security note possible Kingshighway lane closures north of Delmar for shift change and deliveries; watch for discoloration complaints. Resolve when dropped from the City list. Owner: Medical Campus Ops / Emergency Management.",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T20:45:00Z",
+      "id": "stlwater-stlouiscity-nkingshighway-cabanne-20261124",
+      "last_updated": "2026-11-24T20:45:00Z",
+      "location": "N Kingshighway Blvd & Cabanne Ave, St. Louis City (~1.3 mi N of Medical Campus, north of Delmar)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City Water main-repair work order, N Kingshighway Blvd & Cabanne Ave",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "possible"
     },
     {
       "affected_assets": [],
