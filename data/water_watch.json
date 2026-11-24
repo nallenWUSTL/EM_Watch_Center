@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "8:45 AM CST 11/24 four-lane run. Nothing new, no status changes. Re-opened MAW 146125, 146193 (U City), 146173 (Ladue), 146160 (Rock Hill), 146124 (Webster Groves), 146195/146196 (Webster Groves investigation), 146210/146211 (Eureka): all still posted, none show completion; detail pages carry no last-updated time, so stale-active not confirmed. AW ID probe: 146288-146291, 146293, 146295-146298, 146300, 146302, 146305, 146310, 146320 empty (146292, 146294, 146299, 146301, 146303-146309, 146311-146319 not opened; next run: re-probe 146292+). City outages page (updated 8:30 AM 11/24) unchanged: Union Blvd Brown-W Florissant (ETR 12/1), N Kingshighway Penrose-Lillian (ETR 11/27), Penrose Euclid-Kingshighway (ETR 11/26); no work orders newer than 11/23. No boil advisory in St. Louis City or County (City Water news newest 8/25; MAW alerts/boil pages render empty via JS). KFVS Heartland list unchanged (modified 21:25 UTC 11/23). WashU Alert none (last modified 11/18); Facilities Tao Tennis chilled-water repair 11/25-12/7 only water notice; Med Campus notices non-water. Not adopted: KSDK S Hanley Rd (Bonhomme-Forsyth) Clayton 20-inch MAW break story is undated and was previously rejected as archive; Nextdoor 'Olive and Eastover' U City and KSDK Ferguson/Haplin Dr still unconfirmed; FOX2 U City Linden/Pershing is Jan 2026. Not checked: MSD, Kirkwood, MO DNR, MoDOT, BJC, Cortex, Loop, Clayton news (site error), X/Twitter (not indexed); social lane found no current posts.",
-    "open_count": 285,
-    "run_at": "2026-11-24T14:45:00Z",
-    "top_incident": "Ring 1: MAW 146125 and 146193 University City main-break repairs still posted at ~8:35 AM CT 11/24 (~25 hr after 7:30 AM 11/23 start vs ~6 hr estimate; no street, no completion text, no boil advisory); impact possible (low) for North Campus, Loop properties and U City side of Danforth."
+    "note": "9:45 AM CST 11/24 four-lane run. New (Lane 1, MAW): Clayton 146283 (Ring 1, verified by supervisor), St. Louis County 146282, Florissant 146279/146288 and investigation 146285, Clarkson Valley 146278, Eureka 146286/146294. Updated: IAW 146287 Urbana lift moved E University Ave to monitoring; IAW 146289 Pekin lift has no open tracked Pekin event (not recorded). U City 146125/146193, Ladue 146173, Rock Hill 146160 still posted with 11/23 wording, no completion. Webster Groves and Eureka 11/23 IDs not reopened. AW ID probe: newest 146294; 146295-146300, 146310, 146320, 146330 empty; next run re-probe 146295+. City outages page (updated 7:30 PM 11/23) unchanged; Southland/Finkmann and Mallinckrodt/N Broadway repairs already tracked. No boil advisory in St. Louis City or County. KFVS list unchanged (21:25 UTC 11/23); Millstone WD not listed (not marked lifted). WashU Alert none; Facilities only Tao Tennis chilled water; Med Campus notices non-water. Social lane: nothing (Reddit blocked). Not checked: MSD, Kirkwood, MO DNR, MoDOT, BJC, Cortex, Loop, Forest Park Forever.",
+    "open_count": 291,
+    "run_at": "2026-11-24T15:45:00Z",
+    "top_incident": "Ring 1: new MAW 146283 Clayton main break, emergency repairs from 8:00 AM 11/24, ~6 hr (~2 PM); no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
   },
   "incidents": [
     {
@@ -1035,18 +1035,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 9:45 AM CT 11/23 (Lane 1 only, ID probe): IAW alert 146138, main break with boil order, started 9:10 AM 11/23. ~170 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "assessment": "Updated 9:45 AM CT 11/24 (Lane 1): IAW alert 146287 posts an Urbana boil order lift (no street). Several Urbana events are tracked (S Race St, W Beardsley Ave, E University Ave), so the lift cannot be tied with certainty; most likely this newest event (146138). Moved to monitoring, not resolved. ~170 mi NE; no WashU asset; impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-23T15:45:00Z",
       "id": "ilaw-urbana-euniversityave-20261123",
-      "last_updated": "2026-11-23T15:45:00Z",
+      "last_updated": "2026-11-24T15:45:00Z",
       "location": "E University Ave, Urbana, IL (Champaign County; cross street not published)",
       "ring": 3,
       "single_source": true,
       "sources": [
-        "https://alertsdetail.awapps.com/alert/146138"
+        "https://alertsdetail.awapps.com/alert/146138",
+        "https://alertsdetail.awapps.com/alert/146287"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "Illinois American Water main break with boil order, E University Ave, Urbana, IL (alert 146138)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
@@ -1821,6 +1822,24 @@
       "washu_impact": "none"
     },
     {
+      "affected_assets": [],
+      "assessment": "New 9:45 AM CT 11/24 (Lane 1 only): MAW alert 146278, repairs from 8:00 AM 11/24, ~6 hr; no street; no boil advisory. Separate from tracked 146165. Well W of Danforth; Tyson on well water; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T15:45:00Z",
+      "id": "maw-clarksonvalley-unlocated-20261124",
+      "last_updated": "2026-11-24T15:45:00Z",
+      "location": "Clarkson Valley, MO (west St. Louis County; street not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146278"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Clarkson Valley — emergency repairs (alert 146278)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
       "affected_assets": [
         "West Campus",
         "6200 Forsyth construction site",
@@ -1880,6 +1899,29 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break and service investigation, Clayton — emergency repairs (alerts 144021, 144012)",
+      "utility": "Missouri American Water",
+      "washu_impact": "possible"
+    },
+    {
+      "affected_assets": [
+        "West Campus",
+        "6200 Forsyth construction site",
+        "Danforth Campus (Clayton portion)",
+        "South Campus"
+      ],
+      "assessment": "New 9:45 AM CT 11/24 (Lane 1; page re-opened by supervisor): MAW alert 146283, main-break emergency repairs from 8:00 AM 11/24, ~6 hr estimate (~2 PM); discolored/cloudy water and low pressure possible; no street; no boil advisory. Clayton borders West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus; Ring 1 by municipality only. No WashU Alert, Facilities, news or social corroboration (Lanes 2-4). Impact possible (low). Action: Facilities check for pressure or discoloration complaints at West Campus, 6200 Forsyth and Clayton-side Danforth buildings; flush if discolored; confirm street with MAW or Clayton PD. Escalate if Forsyth, Big Bend, Wydown, Hanley, Brentwood Blvd or Clayton Rd is named or a boil advisory posts. Resolve when dropped from MAW alerts. Owner: Facilities / Emergency Management.",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T15:45:00Z",
+      "id": "maw-clayton-unlocated-20261124",
+      "last_updated": "2026-11-24T15:45:00Z",
+      "location": "Clayton, MO (street not published by utility)",
+      "ring": 1,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146283"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Clayton — emergency repairs (alert 146283)",
       "utility": "Missouri American Water",
       "washu_impact": "possible"
     },
@@ -2123,6 +2165,25 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 9:45 AM CT 11/24 (Lane 1 only): MAW alerts 146286 (from 8:45 AM) and 146294 (from 9:30 AM), each ~6 hr; no street; no boil advisory. Separate from tracked 146210/146211. Nearest asset Tyson Research Center (on well water); possible access-road effect only if a street on the Tyson approach is named. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T15:45:00Z",
+      "id": "maw-eureka-unlocated-20261124",
+      "last_updated": "2026-11-24T15:45:00Z",
+      "location": "Eureka, MO (far west St. Louis County; street not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146286",
+        "https://alertsdetail.awapps.com/alert/146294"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main breaks, Eureka — emergency repairs (alerts 146286, 146294)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 9:40 AM CT 11/5 (Lane 1 only): MAW alert 144085, main-break repairs began 9:30 AM CT 11/5, ~6-8 hr estimate (~3:30-5:30 PM); no street; no boil advisory (MO DNR none in St. Louis City/County). ~14-16 mi SW of South Campus (estimate); different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Monitor; resolve when dropped from MAW index. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-05T15:40:00Z",
@@ -2228,6 +2289,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water leak investigation, Florissant — possible low/no pressure (alert 145489)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 9:45 AM CT 11/24 (Lane 1 only): MAW alert 146285, investigation; no time, street or boil advisory. ~10+ mi N of Danforth; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-24T15:45:00Z",
+      "id": "maw-florissant-investigation-20261124",
+      "last_updated": "2026-11-24T15:45:00Z",
+      "location": "Florissant, MO (north St. Louis County; street not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146285"
+      ],
+      "status": "open",
+      "title": "Missouri American Water service investigation, Florissant (alert 146285)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -2649,6 +2728,25 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Florissant (alert 146201)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 9:45 AM CT 11/24 (Lane 1 only): MAW alerts 146279 (from 8:00 AM) and 146288 (from 9:00 AM), each ~6 hr; no street; no boil advisory. Separate from tracked 146153/146201. ~10+ mi N of Danforth; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T15:45:00Z",
+      "id": "maw-florissant-unlocated-20261124",
+      "last_updated": "2026-11-24T15:45:00Z",
+      "location": "Florissant, MO (north St. Louis County; street not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146279",
+        "https://alertsdetail.awapps.com/alert/146288"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main breaks, Florissant — emergency repairs (alerts 146279, 146288)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -5168,6 +5266,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water emergency repairs (main break), St. Louis County (alert 146141)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 9:45 AM CT 11/24 (Lane 1 only): MAW alert 146282, main-break emergency repairs from 8:00 AM 11/24, ~6 hr estimate; no municipality, street or boil advisory. Location unknown, so no WashU asset tied; no Ring 1 corridor named. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T15:45:00Z",
+      "id": "maw-stlouiscounty-unlocated-20261124",
+      "last_updated": "2026-11-24T15:45:00Z",
+      "location": "St. Louis County, MO (municipality and street not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146282"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, St. Louis County — emergency repairs (alert 146282)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },

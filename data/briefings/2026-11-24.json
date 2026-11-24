@@ -1,31 +1,31 @@
 {
-  "bluf": "Posture Normal; no PIR threshold met. Prepare for the season's first snow Wed evening into Thanksgiving morning (minor per NWS, low-confidence heavy wet-snow band, refreeze nights) as the university moves to holiday staffing. Confirm patching of CISA-KEV MONAI Label and holiday cyber on-call coverage today. Friday Nov 27 is the stacked day.",
+  "bluf": "Posture Normal; no PIR threshold met. Close out campus before break: confirm patching of newly exploited flaws (MONAI Label, vCenter, Expressway) and holiday cyber on-call; schedule freeze walk-throughs of vacant buildings and West Campus archives; stage ice treatment for wet snow Wed night–Thu morning (40–50% minor travel impacts, heavy band favored in Illinois). Friday and Saturday are the stacked days.",
   "briefing_url": "https://claude.ai/artifact/W6CThtwscCVPYqwoJ57Cbr",
   "date": "2026-11-24",
   "dissents": [
     {
-      "note": "Converges with Lane 1; top Today item; Sev 2, upgrade to 3 on advisory.",
-      "title": "Snow and refreeze at Thanksgiving shift change (underrated)",
-      "verdict": "adopted"
-    },
-    {
-      "note": "Red Team Sev 4 vs Lane 4 Sev 3; held at 3, timing argument adopted (roster check moved to Today).",
-      "title": "Holiday-window cyber extortion (underrated)",
+      "note": "Action and Today timing adopted; Red Team Sev 4 vs supervisor Sev 3 (no WashU/BJC indicator).",
+      "title": "BYOD campaign against peer universities (underrated)",
       "verdict": "carried"
     },
     {
-      "note": "No current cluster; Lane 2 concurs; standing readiness only.",
-      "title": "Active campus swatting wave (overrated)",
+      "note": "Overrules Lane 1's routine rating; set Sev 2, Today; exposure is inferred.",
+      "title": "Freeze in vacated buildings, then thaw (underrated)",
       "verdict": "adopted"
     },
     {
-      "note": "No 72-h driver; Lane 3 pre-departure messaging kept at This week.",
-      "title": "Imminent Medical Campus flu surge (overrated)",
+      "note": "Sev 2 and ranked below cyber and freeze, but kept at Today for Medical Campus 24/7 operations.",
+      "title": "Thanksgiving snow (overrated)",
+      "verdict": "partly adopted"
+    },
+    {
+      "note": "Nothing actionable today; check by Dec 4; Dec 11 is inside finals.",
+      "title": "Federal funding lapse (overrated)",
       "verdict": "adopted"
     },
     {
-      "note": "~1–2% probability, consequence 5; indicator is a BJC diversion notice or Health-ISAC/CISA health-sector credential alert.",
-      "title": "Scenario: cyber-forced device shutdown and diversion during snow",
+      "note": "~1% Nov 25–29; consequence 5; indicator is a burst of password resets/lockouts or a leak-site listing.",
+      "title": "Scenario: ransomware reaches Medical Campus clinical devices over the holiday",
       "verdict": "carried"
     }
   ],
@@ -38,51 +38,51 @@
     {
       "date": "2026-11-24",
       "dow": "Tue",
-      "loads": "Last class day before break; departures begin; Garden Glow nightly.",
+      "loads": "Last class day; departures begin; I-64 EB lane closure Lindbergh–Clayton/Warson to 3:30 PM.",
       "stacked": false,
-      "wx": "Mostly cloudy, 43/28, dry"
+      "wx": "Mostly cloudy, dry, 44/29"
     },
     {
       "date": "2026-11-25",
       "dow": "Wed",
-      "loads": "Break starts; peak departure travel I-64 and Lambert at snow onset.",
+      "loads": "Break begins; departure travel meets snow onset; East Coast storm may delay flights; Pageant show 8 PM.",
       "stacked": false,
-      "wx": "43; rain 30% after 5 PM, snow overnight (70%, <1 in); low 30"
+      "wx": "Rain/snow from midday; snow at night 1–2 in; 42/29"
     },
     {
       "date": "2026-11-26",
       "dow": "Thu",
-      "loads": "Thanksgiving; Turkey Trot Forest Park 7–11 AM; minimum staffing; refreeze overnight (mild stack).",
+      "loads": "Thanksgiving; Turkey Trot Forest Park 7:45–10 AM; minimum staffing; CISA patch deadline (mild stack).",
       "stacked": false,
-      "wx": "Snow before 9 AM (<0.5 in), then rain; 41; NW gusts 25 mph"
+      "wx": "AM snow to PM rain; 42/29"
     },
     {
       "date": "2026-11-27",
       "dow": "Fri",
-      "loads": "Blues 1 PM; Zoo Wild Lights opening 5–8:30 PM; SLAM Festive Friday 2–8 PM; Black Friday; holiday staffing.",
+      "loads": "Blues 1 PM; Zoo Wild Lights opens 5–8:30 PM; SLAM Festive Friday; The Urge at the Pageant; Garden Glow; Black Friday.",
       "stacked": true,
-      "wx": "Mostly sunny, 47/34"
+      "wx": "Mostly sunny, 48/32"
     },
     {
       "date": "2026-11-28",
       "dow": "Sat",
-      "loads": "Blues 6 PM; Nutcracker opens; Small Business Saturday; CITY SC Game 2 away.",
-      "stacked": false,
-      "wx": "Mostly sunny, 55; rain 20% after midnight"
+      "loads": "Blues 6 PM; Fox and Pageant shows; Small Business Saturday; CITY SC Game 2 away 7:30 PM.",
+      "stacked": true,
+      "wx": "Mostly sunny, 55/35; 20% rain at night"
     },
     {
       "date": "2026-11-29",
       "dow": "Sun",
-      "loads": "Student return surge to South 40; Lambert peak; possible CITY SC Game 3 (unconfirmed).",
-      "stacked": true,
-      "wx": "Mostly sunny, 54; low 32"
+      "loads": "Student return travel to South 40; national air-travel peak.",
+      "stacked": false,
+      "wx": "Mostly sunny, 56/34"
     },
     {
       "date": "2026-11-30",
       "dow": "Mon",
-      "loads": "Classes resume; Steinberg Rink opening 6–10 PM; Blue Line truncation continues.",
+      "loads": "Classes resume; Steinberg Rink opens (evening); MetroBus service change; flu importation window opens (light stack).",
       "stacked": false,
-      "wx": "Mostly sunny, 53"
+      "wx": "Mostly sunny, 56"
     }
   ],
   "pirs": [
@@ -90,113 +90,136 @@
       "name": "Weather and natural hazards",
       "pir": 1,
       "status": "watch",
-      "summary": "First snow Wed night–Thu AM (<1 in, then <0.5 in, then rain); NWS flags low-confidence heavy wet-snow band; lows 27–30°F with refreeze. No NWS product yet. No M2.5+ quakes nearby."
+      "summary": "No NWS product in effect. Wet snow Wed night–Thu AM: 40–50% minor travel impacts; 3–5 in band favored over south-central Illinois; St. Louis point forecast 1–2 in. Lows in the 20s through Thu night. SPC, rivers, quakes, fire weather, AQI all clear."
     },
     {
       "name": "Life-safety threats",
       "pir": 2,
       "status": "quiet",
-      "summary": "Nothing at threshold in Ring 1. Context: Midtown double-fatal shooting Nov 22 (Ring 2); Harris-Stowe dorm threat and gun arrest ~Nov 19; empty halls over break favor property crime."
+      "summary": "Nothing at threshold in Ring 1. Context: two shootings Sun night ~2 mi east of Medical Campus (two dead); Harris-Stowe dorm threat and weapons arrest ~Nov 19; latest WUPD alert is Nov 12 armed robbery near McPherson."
     },
     {
       "name": "Public health and Medical Campus",
       "pir": 3,
       "status": "watch",
-      "summary": "No local advisory, college outbreak, or diversion found. National H1N1 flu early and rising; Region 7 below baseline; expect local rise early Dec after return. Missouri measles 24 cases, none in Ring 2."
+      "summary": "Nothing at threshold. National flu rising early (3.8% ILI, 11,734 admissions); Missouri's region lowest. Risk window is the Nov 28–30 return into finals. Missouri measles 25 cases incl. one St. Louis County; no active exposures."
     },
     {
       "name": "Cyber and infrastructure",
       "pir": 4,
       "status": "watch",
-      "summary": "CISA KEV MONAI Label (deadline Nov 26); BYOD extortion vs academic health systems. No emergency directive. MetroLink Blue Line truncated at Forest Park-DeBaliviere to Dec 23; elevator out Nov 19–29."
+      "summary": "Six newly exploited flaws listed by CISA Nov 20–23; BYOD campaign vs universities. No emergency directive. MetroLink reductions through the holiday. Zoom SSO certificate rotates Dec 1. No utility or water item found."
     },
     {
       "name": "Scheduled activity",
       "pir": 5,
       "status": "watch",
-      "summary": "Break Nov 25–29; Turkey Trot Thu AM Forest Park; Fri Nov 27 stacked (Blues 1 PM, Zoo Wild Lights opening, SLAM Festive Friday, Black Friday); Sun Nov 29 return surge. No WashU home games."
+      "summary": "Low campus load; no home athletics. Turkey Trot Thu 7:45–10 AM Forest Park. Fri and Sat stacked (Blues, Wild Lights opening, Loop shows, retail). CITY SC leads playoff 1–0; possible Game 3 Dec 2."
     },
     {
       "name": "Policy, legal, funding",
       "pir": 6,
       "status": "quiet",
-      "summary": "No change in 7 days. Federal CR expires Dec 11; review shutdown contingency by ~Dec 8. No State Dept L3/L4 changes. MO pre-filing opens ~Dec 1."
+      "summary": "No change in 7 days. CR and NFIP expire Fri Dec 11 (inside finals); internal check by Dec 4. No L3/L4 advisory changes. Old Dominion review: single alert authority lesson."
     }
   ],
   "posture": "Normal",
-  "published_at": "2026-11-24T11:59:00Z",
-  "run_note": "7 of 7 lanes reported; charter read OK (rev 10); run 05:53–06:00 CT; one Severity 4 dissent re-verified; several primary sources unreachable (SPC, NWS alerts API, AirNow, cisa.gov).",
+  "published_at": "2026-11-24T14:55:00Z",
+  "run_note": "Second edition (re-run on request, replaces 6:00 AM edition). 7 of 7 lanes reported; charter read OK (rev 10); run 08:48–08:55 CT; Severity 4 dissent and NWS discussion re-verified; cisa.gov, api.weather.gov, AirNow and several local sources unreachable.",
   "title": "WashU EM Daily Intelligence Briefing, November 24, 2026",
   "today_items": [
     {
-      "action": "Snow/ice crews on standby Wed 6 PM–Thu noon; pre-treat Medical Campus walks, stairs, garages; watch afternoon NWS AFD for advisory; holiday travel note.",
+      "action": "Inventory MONAI Label (≤0.8.5; fixed 0.8.6) in imaging/research computing; confirm vCenter and Expressway patch status before holiday staffing thins.",
       "confidence": "Medium",
-      "likelihood": "High (some snow); Low–Medium (impactful)",
-      "owner": "Facilities/Grounds, Medical Campus ops, EM",
-      "pir": 1,
+      "likelihood": "Medium",
+      "owner": "WashU IT Information Security, WashU Medicine research computing",
+      "pir": 4,
       "rank": 1,
-      "severity": 2,
-      "source": "https://forecast.weather.gov/MapClick.php?lat=38.6476&lon=-90.3050&unit=0&lg=english&FcstType=text",
-      "title": "First snow Wed night–Thu AM, then rain; refreeze nights",
+      "severity": 3,
+      "source": "https://securityonline.info/cisa-kev-monai-label-n-able-mailassure/",
+      "title": "CISA exploited-flaw additions: MONAI Label, N-able Mail Assure (Nov 23, due Nov 26); vCenter, Cisco Expressway, SAP NetWeaver, Apache Roller (Nov 20)",
       "ttd": "Today"
     },
     {
-      "action": "Inventory MONAI Label ≤0.8.5 in research imaging/AI computing; patch to 0.8.6 or isolate before break.",
+      "action": "Confirm holiday on-call, MFA/credential-anomaly monitoring, offline backups; refresh downtime and diversion triggers with BJC.",
       "confidence": "Medium",
-      "likelihood": "Medium",
-      "owner": "WashU IT Security, Medicine IT / research computing",
+      "likelihood": "Low",
+      "owner": "CISO / WashU IT, BJC Information Security, EM",
       "pir": 4,
       "rank": 2,
       "severity": 3,
-      "source": "https://securityonline.info/cisa-kev-monai-label-n-able-mailassure/",
-      "title": "CISA KEV: MONAI Label RCE (and N-able MailAssure), federal deadline Nov 26",
+      "source": "https://www.malwarebytes.com/blog/news/2026/11/vanderbilt-restores-systems-after-cyberattack-as-hackers-claim-data-theft",
+      "title": "BYOD extortion campaign vs research universities and academic health systems; reduced staffing Nov 25–29",
       "ttd": "Today"
     },
     {
-      "action": "Confirm SOC and incident-commander on-call Wed–Sun, downtime procedures, offline backups; refresh diversion triggers with BJC.",
+      "action": "Schedule break walk-throughs of mechanical rooms and West Campus archive levels; verify heat setpoints and leak detection; check temporary water lines at 6200 Forsyth.",
       "confidence": "Medium",
-      "likelihood": "Low–Medium",
-      "owner": "WashU IT/CISO, WashU Medicine IT, EM",
-      "pir": 4,
+      "likelihood": "Medium",
+      "owner": "Facilities, University Libraries",
+      "pir": 1,
       "rank": 3,
-      "severity": 3,
-      "source": "https://helpnetsecurity.com/2026/10/27/university-of-new-mexico-hospitals-cyberattack",
-      "title": "Holiday-window cyber extortion vs academic health systems (BYOD)",
+      "severity": 2,
+      "source": "https://forecast.weather.gov/product.php?site=LSX&issuedby=LSX&product=AFD&format=txt&glossary=0",
+      "title": "Hard freeze in buildings going vacant (lows in the 20s through Thu night), then thaw",
       "ttd": "Today"
     },
     {
-      "action": "Confirm break-week WUPD, housing, dining staffing for remaining residents; set Sunday return plan.",
-      "confidence": "High",
-      "likelihood": "Occurring",
-      "owner": "Residential Life, WUPD, Provost",
-      "pir": 5,
+      "action": "Re-check afternoon NWS discussion for an advisory; pre-stage Wed-night ice treatment for Medical Campus garages/walks, South 40, shuttle stops; advise Wednesday daytime travel.",
+      "confidence": "Medium",
+      "likelihood": "Medium",
+      "owner": "EM, Facilities/Grounds, Parking & Transportation",
+      "pir": 1,
       "rank": 4,
       "severity": 2,
+      "source": "https://forecast.weather.gov/product.php?site=LSX&issuedby=LSX&product=AFD&format=TXT&version=1&glossary=0&highlight=off",
+      "title": "Wet snow Wed night–Thu morning; 40–50% chance of minor travel impacts",
+      "ttd": "Today"
+    },
+    {
+      "action": "Tell departing students to add 30+ minutes to airport trips; flag Forest Park-DeBaliviere northbound elevator outage (Nov 19–29).",
+      "confidence": "Medium",
+      "likelihood": "Occurring",
+      "owner": "Parking & Transportation, Student Affairs",
+      "pir": 4,
+      "rank": 5,
+      "severity": 2,
+      "source": "https://www.metrostlouis.org/rider-alerts/",
+      "title": "MetroLink reductions: Blue Line ends at Forest Park-DeBaliviere; airport stations closed with shuttle; elevator out",
+      "ttd": "Today"
+    },
+    {
+      "action": "Confirm reduced-staffing and on-call rosters, count of students staying, and who may authorize a WashU Alert during break.",
+      "confidence": "Medium",
+      "likelihood": "Occurring",
+      "owner": "EM, Residential Life, WUPD",
+      "pir": 5,
+      "rank": 6,
+      "severity": 1,
       "source": "https://registrar.washu.edu/academic-calendars/",
-      "title": "Break begins Wed; return surge Sun Nov 29; classes resume Nov 30",
+      "title": "Break drawdown: last class day today; no classes Nov 25–29; halls open for registered students",
       "ttd": "Today"
     }
   ],
-  "top_item": "First snow Wed ~5 PM to Thu ~9 AM with refreeze: put snow/ice crews on standby and pre-treat Medical Campus walks and garages before the holiday shift change.",
+  "top_item": "Before staff leave: confirm patch status for CISA's newly listed exploited flaws (MONAI Label, vCenter, Expressway) and holiday cyber on-call coverage; BYOD extortion group is hitting research universities.",
   "unreachable": [
-    "SPC outlooks (stale)",
-    "api.weather.gov alerts (robots-blocked)",
-    "WPC",
-    "Mississippi gauge EADM7",
-    "AirNow AQI",
-    "cisa.gov alert page",
-    "REN-ISAC / Health-ISAC",
-    "Ameren/Spire live maps",
+    "api.weather.gov",
+    "AirNow",
+    "river gauge pages",
+    "WPC and SPC web pages (text products used)",
+    "cisa.gov and KEV feed",
+    "REN-ISAC / Health-ISAC (not checked)",
+    "Ameren and Microsoft 365 status",
+    "Everbridge status",
     "City Water Division news (stale)",
-    "Vendor status pages (not checked)",
-    "FEMA newsroom (stale)",
-    "ed.gov",
-    "KSDK articles",
-    "NBC News",
-    "City of St. Louis flu reports",
+    "City of St. Louis health pages (stale)",
     "MO DHSS flu dashboard",
     "St. Louis County DPH",
-    "CDC NWSS",
-    "Clayton / University City / County PD releases"
+    "CDC wastewater",
+    "SLMPD and municipal police releases",
+    "FOX2 and KSDK articles",
+    "ed.gov newsroom",
+    "Federal Register",
+    "SEMA"
   ]
 }
