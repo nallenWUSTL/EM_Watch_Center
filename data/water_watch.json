@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "3:45 PM CST 11/24 four-lane run. New: City Water outage Union Blvd Geraldine–Bircher (W Florissant & Union), north City, no ETR, impact none. Updated: Clayton 146283 still posted past ETR (unopened Clayton PD Nextdoor and FOX 2 items may hold the street); N Kingshighway & Cabanne still a work order only, no ETR. Unchanged: U City 146125/146193 still posted; Webster Groves 146338 ETR ~8:30 PM; St. John 146339; Southland ETR 7 PM; N Broadway Mallinckrodt past ETR; Penrose/N Kingshighway ETR 11/26-27; Union Brown–W Florissant ETR 12/1. KFVS list (12:51 PM) unchanged. No boil advisory in St. Louis City or County. WashU Alert: Winter Storm Watch only (Wed PM–Thu PM, 4-6 in snow; freeze-break risk). Facilities: Tao Tennis chilled-water closure 11/25-12/7; generator tests 11/25. AW ID probe: 146346-146360, 146362, 146365 empty; next run probe 146361-146380. Not checked: MSD, Kirkwood, MO DNR (table empty), BJC, Cortex, Loop, Forest Park, MoDOT; Nextdoor and Yahoo fetches failed; MAW 146332/146337/146297/146313 not reopened. Unverified KSDK Ferguson/Haplin Dr story, date unknown, not added.",
-    "open_count": 311,
-    "run_at": "2026-11-24T21:45:00Z",
-    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr; still posted at 3:45 PM, ~1.5 hr past ETR, no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
+    "note": "4:45 PM CST 11/24 four-lane run. New: New Madrid County WD #2 boil advisory west of Hwy 61 (issued 11/19, Ring 3, impact none). Updated: Clayton 146283 still Active past ETR, street still unknown (Clayton PD Nextdoor post blocked). Unchanged: U City 146125/146193 still posted (146125 ~33 hr past ETR); Webster Groves 146338 ETR ~8:30 PM. KFVS list (12:51 PM) unchanged. No boil advisory in St. Louis City or County (stlwater boil page none). WashU Alert: Winter Storm Watch only (Wed PM–Thu PM, 4-6 in; freeze-break risk). Facilities: Tao Tennis chilled-water closure 11/25-12/7; generator tests 11/25; Med Campus facilities page 1 no water items. AW ID probe: 146361, 146363, 146364, 146366-146372, 146375, 146378, 146381, 146385, 146390 empty; next run probe 146362-146395 unopened IDs. Not checked: MSD, Kirkwood, MO DNR, BJC, Cortex, Loop, Forest Park, MoDOT, several municipal pages; Post-Dispatch freeze-break article paywalled, FOX 2 county video failed (dates unknown).",
+    "open_count": 312,
+    "run_at": "2026-11-24T22:45:00Z",
+    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; still posted at 4:40 PM, ~2.7 hr past ETR, no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
   },
   "incidents": [
     {
@@ -2036,11 +2036,11 @@
         "Danforth Campus (Clayton portion)",
         "South Campus"
       ],
-      "assessment": "Updated 3:45 PM CT 11/24 (Lanes 1 and 4 re-opened the page): MAW 146283 still posted ~7.5 hr after its 8:00 AM start, ~1.5 hr past the ~2 PM estimate; no completion text, last-updated time, street or boil advisory. Lane 4 saw search hits for a Clayton PD Nextdoor 'Water Main Break UPDATE' post and a FOX 2/Yahoo 'Avoid the area' Clayton story, but neither could be opened, so date and street are unknown. No WashU Alert or Facilities notice. Impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus until a street is published. Action: Facilities to confirm with MAW the break location and whether any WashU service is in the isolation area. Owner: Facilities / Emergency Management.",
+      "assessment": "Updated 4:45 PM CT 11/24 (Lanes 1 and 4 reopened alert): MAW 146283 still Active at ~4:40 PM, ~2.7 hr past the ~2 PM ETR; Last Updated and Estimated End blank; no street; no boil advisory (City boil page none; MAW list none). Clayton PD Nextdoor 'Water Main Break UPDATE' post surfaced in search but blocked, date unknown. Impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus pending street. Action: Facilities confirm with MAW or Clayton Public Works the street and restoration. Owner: Facilities / Emergency Management.",
       "confidence": "Medium",
       "first_seen": "2026-11-24T15:45:00Z",
       "id": "maw-clayton-unlocated-20261124",
-      "last_updated": "2026-11-24T21:45:00Z",
+      "last_updated": "2026-11-24T22:45:00Z",
       "location": "Clayton, MO (street not published by utility)",
       "ring": 1,
       "single_source": true,
@@ -6392,6 +6392,24 @@
       "status": "open",
       "title": "New Madrid County Water District #2 boil advisory after main break, customers west of Hwy 61",
       "utility": "New Madrid County Water District #2 (MO)",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New to tracking 4:45 PM CT 11/24 (Lane 2 only, KFVS Heartland list modified 18:51 UTC 11/24): advisory issued Thu 11/19 after a main break; repair expected same day but advisory remains until further notice. ~150+ mi S; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-24T22:45:00Z",
+      "id": "newmadridpwsd2-newmadridcounty-westofhwy61-20261119",
+      "last_updated": "2026-11-24T22:45:00Z",
+      "location": "Customers west of Hwy 61, New Madrid County, MO (Bootheel; streets not named)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
+      ],
+      "status": "open",
+      "title": "New Madrid County Water District #2 boil water advisory after main break, customers west of Hwy 61",
+      "utility": "New Madrid County (MO) Water District #2",
       "washu_impact": "none"
     },
     {
