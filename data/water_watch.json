@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "9:40 PM CST 11/23 four-lane run. Nothing new in Ring 1 or 2. MAW 146125, 146193 (U City), 146173 (Ladue), 146194 (Ballwin), 146165 (Clarkson Valley), 146120 (Bellefontaine Neighbors) all still active, no streets, no boil. City Water outages page (9:30 PM) unchanged: Union Blvd Brown–W Florissant (ETR 12/1), N Kingshighway Penrose–Lillian (ETR 11/27), Penrose Euclid–N Kingshighway (ETR 11/26). New Ring 3: New Madrid County WD #2 boil advisory (KFVS). Collinsville IL and Lewistown MO dropped from KFVS list, moved to monitoring. DeKalb County MO boil advisory lift (Ring 3, untracked) noted only. Metro Pershing DeBaliviere–Belt #1 detour confirmed construction, not water. AW ID probe: 146208 Oakhurst (out of region); 146209-146218 and 146225-146228 empty; next run check 146219+ again and 146229+. Unconfirmed for follow-up: FOX 2 Bridgeton/Maryland Heights/Earth City MAW boil advisory (undated syndication) and KSDK Ferguson Haplin Dr break (undated). Not reached: MSD, Kirkwood, MO DNR (data.mo.gov blocked), BJC/Cortex/Loop/Forest Park, MoDOT, KSDK/FOX 2/stltoday pages, X/Reddit/Nextdoor.",
-    "open_count": 282,
-    "run_at": "2026-11-24T03:40:00Z",
-    "top_incident": "Ring 1: MAW 146125 and 146193 University City main-break repairs still posted (~14 hr after 7:30 AM start; no street, no completion text); impact possible (low) for North Campus, Loop properties and U City side of Danforth; no boil advisory."
+    "note": "10:45 PM CST 11/23 four-lane run. Nothing new in Ring 1 or 2; no boil advisory in St. Louis City or County. MAW 146125/146193 (U City) unchanged. City Water outages page (7:30 PM) shows Union & Brown (ETR 12/1), N Kingshighway Penrose–Lillian (ETR 11/27), Penrose Euclid–Kingshighway (ETR 11/26); Partridge & McLaran repair relisted (reopened to monitoring); Howard St and Angelica & N 11th not seen in summary (not closed, unconfirmed). Tao Tennis chilled-water repair confirmed for 11/25-12/7, 7 AM-3 PM (record already correct). KFVS list: Columbia MO, Cape Girardeau, Collinsville, Lewistown absent (no lift confirmation; statuses unchanged). Bridgeton/Maryland Heights MAW boil advisory and Ferguson Haplin Dr items remain undated, not adopted. AW ID probe: 146219-146224, 146229, 146232, 146236, 146240 empty; next run probe 146225-146260 gaps. Not reached: MSD, Kirkwood, MO DNR, MAW boil page, BJC/Cortex/Loop/Forest Park, MoDOT, KMOV/Post-Dispatch/STLPR, X/Reddit/Nextdoor/Facebook.",
+    "open_count": 283,
+    "run_at": "2026-11-24T04:45:00Z",
+    "top_incident": "Ring 1: MAW 146125 and 146193 University City main-break repairs still posted (~15 hr after 7:30 AM start; no street, no completion text, no boil advisory); impact possible (low) for North Campus, Loop properties and U City side of Danforth."
   },
   "incidents": [
     {
@@ -7061,18 +7061,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Resolved 4:35 AM CT 11/20 (Lane 1): no longer listed on the City Water outage/repair table stamped 4:30 AM 11/20, which now shows only 7 rows; treated as restored per utility page (restoration not explicitly stated). No City boil advisory posted. Ring 2; no WashU asset; impact none. Owner: Emergency Management (closed).",
+      "assessment": "Reopened 10:45 PM CT 11/23 (Lane 1): Partridge Ave & McLaran Ave main repair (work order dated 11/18 11:04 AM) is listed again on the City Water outages page (stamped 7:30 PM 11/23); the 11/20 closure was by absence only. No restoration time; no boil advisory. Far north City, Ring 2; no WashU asset; impact none. Resolve when dropped with confirmation. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-18T17:45:00Z",
       "id": "stlwater-stlouiscity-partridge-mclaran-20261118",
-      "last_updated": "2026-11-20T10:35:00Z",
+      "last_updated": "2026-11-24T04:45:00Z",
       "location": "Partridge Ave & McLaran Ave, St. Louis City (Walnut Park area, far north City)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/outages.php"
+        "https://www.stlwater.com/outages.php",
+        "https://www.stlwater.com/outages"
       ],
-      "status": "resolved",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division main repair, Partridge Ave & McLaran Ave (north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
