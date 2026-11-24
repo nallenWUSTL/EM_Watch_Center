@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "4:45 PM CST 11/24 four-lane run. New: New Madrid County WD #2 boil advisory west of Hwy 61 (issued 11/19, Ring 3, impact none). Updated: Clayton 146283 still Active past ETR, street still unknown (Clayton PD Nextdoor post blocked). Unchanged: U City 146125/146193 still posted (146125 ~33 hr past ETR); Webster Groves 146338 ETR ~8:30 PM. KFVS list (12:51 PM) unchanged. No boil advisory in St. Louis City or County (stlwater boil page none). WashU Alert: Winter Storm Watch only (Wed PM–Thu PM, 4-6 in; freeze-break risk). Facilities: Tao Tennis chilled-water closure 11/25-12/7; generator tests 11/25; Med Campus facilities page 1 no water items. AW ID probe: 146361, 146363, 146364, 146366-146372, 146375, 146378, 146381, 146385, 146390 empty; next run probe 146362-146395 unopened IDs. Not checked: MSD, Kirkwood, MO DNR, BJC, Cortex, Loop, Forest Park, MoDOT, several municipal pages; Post-Dispatch freeze-break article paywalled, FOX 2 county video failed (dates unknown).",
-    "open_count": 312,
-    "run_at": "2026-11-24T22:45:00Z",
-    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; still posted at 4:40 PM, ~2.7 hr past ETR, no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
+    "note": "5:40 PM CST 11/24 four-lane run. New: MAW Brentwood 146345 (Ring 2 edge, ETR ~10 PM, impact none), St. John 146346, Joplin 146341, IAW Pontiac planned boil order 11/25 (146347). Updated: Mt. Prospect lift 146343/146344 (146315 to monitoring); Clayton 146283 still Active, street unknown. Unchanged: U City 146125/146193, Webster Groves 146338/146332, Ladue 146173, Rock Hill 146160/146102 all still posted; City outage cards unchanged (Penrose/N Kingshighway cluster already tracked); KFVS list unchanged (12:51 PM). No boil advisory in St. Louis City or County. WashU Alert: Winter Storm Watch only (Wed PM-Thu PM, 4-6 in; freeze-break risk). Facilities: Tao Tennis chilled-water closure 11/25-12/7; generator tests 11/25; Wrighton Hall service interruption 11/25 8-10 AM. AW ID probe: new alerts at 146340-146352; next run probe 146353 upward. Not checked: MSD; MO DNR and Kirkwood pages failed; FOX 2, Post-Dispatch, RFT, several municipal pages not reached.",
+    "open_count": 316,
+    "run_at": "2026-11-24T23:40:00Z",
+    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; still posted at 5:40 PM, ~3.5 hr past ETR, no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
   },
   "incidents": [
     {
@@ -856,18 +856,20 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 12:45 PM CT 11/24 (Lane 1 only, ID probe): IAW alert 146315, repairs from 11:45 AM 11/24, ~9 hr estimate, boil order once service is restored. Separate from tracked 146170 (11/23). ~280 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "assessment": "Updated 5:40 PM CT 11/24 (Lane 1, ID probe): IAW alerts 146343/146344 post a Mt. Prospect boil order lift (no street). Two Mt. Prospect events are tracked (146170 on 11/23, 146315 on 11/24), so the lift cannot be tied with certainty; most likely this newest event. Moved to monitoring, not resolved. ~280 mi NE; no WashU asset; impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-24T18:45:00Z",
       "id": "ilaw-mtprospect-unlocated-20261124",
-      "last_updated": "2026-11-24T18:45:00Z",
+      "last_updated": "2026-11-24T23:40:00Z",
       "location": "Mt. Prospect, IL (Cook County, Chicago area; streets not published)",
       "ring": 3,
       "single_source": true,
       "sources": [
-        "https://alertsdetail.awapps.com/alert/146315"
+        "https://alertsdetail.awapps.com/alert/146315",
+        "https://alertsdetail.awapps.com/alert/146343",
+        "https://alertsdetail.awapps.com/alert/146344"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "Illinois American Water emergency repairs with boil order on restoration, Mt. Prospect, IL (alert 146315)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
@@ -1047,6 +1049,24 @@
       ],
       "status": "monitoring",
       "title": "Illinois American Water emergency repairs with boil order on restoration, Peoria, IL (alert 145577)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 5:40 PM CT 11/24 (Lane 1 only, ID probe): IAW alert 146347, planned work 11/25 with boil order. ~190 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T23:40:00Z",
+      "id": "ilaw-pontiac-planned-20261125",
+      "last_updated": "2026-11-24T23:40:00Z",
+      "location": "Pontiac, IL (Livingston County; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146347"
+      ],
+      "status": "open",
+      "title": "Illinois American Water planned work with boil order, Pontiac, IL, Wed Nov 25 (alert 146347)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
     },
@@ -1806,6 +1826,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 5:40 PM CT 11/24 (Lane 1 only, ID probe): MAW alert 146345, main-break emergency repairs dated 11/24, restoration ~10 PM (wording garbled); low pressure or discoloration possible; no street; no boil advisory. Brentwood borders Richmond Heights; ~1-3 mi S/SW of South Campus and West Campus (city-level estimate); no WashU asset identified; no Ring 1 corridor. Impact none. Escalate if a street near Clayton Rd, Big Bend or Brentwood Blvd north of I-64 is published. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T23:40:00Z",
+      "id": "maw-brentwood-unlocated-20261124",
+      "last_updated": "2026-11-24T23:40:00Z",
+      "location": "Brentwood, MO (mid St. Louis County; street not published, alert refers to MAW map)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146345"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Brentwood — emergency repairs (alert 146345)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Added 8:40 PM CT 11/1 (Lane 1; seen but untracked in prior runs): MAW alert 143502, leak investigation; customers may see low or no pressure; no street, start or end time; no boil advisory. Bridgeton is ~9-10 mi NW of Danforth and North Campus; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration. Monitor; resolve when dropped from MAW index. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-02T02:40:00Z",
@@ -2036,11 +2074,11 @@
         "Danforth Campus (Clayton portion)",
         "South Campus"
       ],
-      "assessment": "Updated 4:45 PM CT 11/24 (Lanes 1 and 4 reopened alert): MAW 146283 still Active at ~4:40 PM, ~2.7 hr past the ~2 PM ETR; Last Updated and Estimated End blank; no street; no boil advisory (City boil page none; MAW list none). Clayton PD Nextdoor 'Water Main Break UPDATE' post surfaced in search but blocked, date unknown. Impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus pending street. Action: Facilities confirm with MAW or Clayton Public Works the street and restoration. Owner: Facilities / Emergency Management.",
+      "assessment": "Updated 5:40 PM CT 11/24 (Lane 1 reopened alert): MAW 146283 still Active ~9.5 hr after its 8 AM start (~3.5 hr past ~2 PM ETR); no street, no completion text, no boil advisory. Lanes 2-4 found no news, city or WashU notice naming a street; Clayton PD Nextdoor post still unreadable (date unknown); an undated KSDK story on a S Hanley Rd (Bonhomme-Forsyth) 20-inch break appears old and is not evidence. Impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus pending street. Action: Facilities or EM call MAW (1-866-430-0820) or Clayton Public Works for the location and restoration; check Clayton-side buildings for pressure/discoloration Wednesday morning ahead of the winter storm. Owner: Facilities / Emergency Management.",
       "confidence": "Medium",
       "first_seen": "2026-11-24T15:45:00Z",
       "id": "maw-clayton-unlocated-20261124",
-      "last_updated": "2026-11-24T22:45:00Z",
+      "last_updated": "2026-11-24T23:40:00Z",
       "location": "Clayton, MO (street not published by utility)",
       "ring": 1,
       "single_source": true,
@@ -3263,6 +3301,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 5:40 PM CT 11/24 (Lane 1 only, ID probe): MAW alert 146341, main break from 3:00 PM 11/24, ~4 hr estimate; no boil advisory reported. ~250 mi SW; separate system; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T23:40:00Z",
+      "id": "maw-joplin-unlocated-20261124",
+      "last_updated": "2026-11-24T23:40:00Z",
+      "location": "Joplin, MO (Jasper County; street not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146341"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Joplin, MO (alert 146341)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 2:40 AM CT 11/15 (Lane 1 only, ID probe): MAW alert 145163, main break from 9:15 PM 11/14; no boil advisory noted. ~250 mi SW; separate system; no WashU asset. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-15T08:40:00Z",
@@ -4399,6 +4455,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water service investigation, St. John — possible low/no pressure (alerts 146337, 146339)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 5:40 PM CT 11/24 (Lane 1 only, ID probe): MAW alert 146346, main-break emergency repairs dated 11/24, ETR ~10:15 PM; no street; no boil advisory. Likely follow-on to tracked investigation 146337/146339. ~6-7 mi NW of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T23:40:00Z",
+      "id": "maw-stjohn-unlocated-20261124",
+      "last_updated": "2026-11-24T23:40:00Z",
+      "location": "St. John, MO (north St. Louis County; street not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146346"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, St. John — emergency repairs (alert 146346)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
