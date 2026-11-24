@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "2:45 PM CST 11/24 four-lane run. New: City Water main-repair work order N Kingshighway & Cabanne (opened 2:13 PM, no ETR; ~1.3 mi N of Medical Campus on Kingshighway, impact possible-low traffic); MAW 146338/146332 Webster Groves main break (from 2:30 PM, ~6 hr); MAW 146337/146339 St. John investigation; MAW 146336 St. Charles break and 146334 St. Charles planned 11/25. Updated: Clayton 146283 past ETR still posted; N Broadway/Mallinckrodt past 2:30 PM ETR still out; Bolingbrook IL 146333 added. New Madrid County WD2 (KFVS) already tracked, unchanged. Unchanged: U City 146125/146193 still posted; Southland ETR 7 PM; Union/Brown ETR 12/1; N Kingshighway Penrose-Lillian ETR 11/27; Penrose Euclid-N Kingshighway ETR 11/26. City list also shows W Florissant & Union (Geraldine-Bircher), possibly relabel of tracked Union item, not added. No boil advisory in St. Louis City or County seen (MAW boil page and stlwater boil page failed to load). WashU Alert none; Facilities: Tao Tennis chilled-water closure 11/25-12/7, generator tests only. Winter Storm Watch 11/24-11/26: freeze-break risk. AW ID probe: 146340-146345 and 146350 empty; 146346-146349, 146351+ not opened; next run re-probe 146340+. Social: nothing; Reddit blocked. Not checked: MSD, Kirkwood, MO DNR (blocked), BJC, Cortex, Loop, Forest Park Forever, MoDOT, Clayton news (did not load).",
-    "open_count": 310,
-    "run_at": "2026-11-24T20:45:00Z",
-    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr; still posted at 2:45 PM past its ETR, no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
+    "note": "3:45 PM CST 11/24 four-lane run. New: City Water outage Union Blvd Geraldine–Bircher (W Florissant & Union), north City, no ETR, impact none. Updated: Clayton 146283 still posted past ETR (unopened Clayton PD Nextdoor and FOX 2 items may hold the street); N Kingshighway & Cabanne still a work order only, no ETR. Unchanged: U City 146125/146193 still posted; Webster Groves 146338 ETR ~8:30 PM; St. John 146339; Southland ETR 7 PM; N Broadway Mallinckrodt past ETR; Penrose/N Kingshighway ETR 11/26-27; Union Brown–W Florissant ETR 12/1. KFVS list (12:51 PM) unchanged. No boil advisory in St. Louis City or County. WashU Alert: Winter Storm Watch only (Wed PM–Thu PM, 4-6 in snow; freeze-break risk). Facilities: Tao Tennis chilled-water closure 11/25-12/7; generator tests 11/25. AW ID probe: 146346-146360, 146362, 146365 empty; next run probe 146361-146380. Not checked: MSD, Kirkwood, MO DNR (table empty), BJC, Cortex, Loop, Forest Park, MoDOT; Nextdoor and Yahoo fetches failed; MAW 146332/146337/146297/146313 not reopened. Unverified KSDK Ferguson/Haplin Dr story, date unknown, not added.",
+    "open_count": 311,
+    "run_at": "2026-11-24T21:45:00Z",
+    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr; still posted at 3:45 PM, ~1.5 hr past ETR, no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
   },
   "incidents": [
     {
@@ -2036,11 +2036,11 @@
         "Danforth Campus (Clayton portion)",
         "South Campus"
       ],
-      "assessment": "Updated 2:45 PM CT 11/24 (Lane 1 re-opened the page): MAW 146283 still posted ~6.5 hr after its 8:00 AM start, past the ~2 PM estimate; no completion text, last-updated time, street or boil advisory. No WashU Alert, Facilities notice, Clayton city notice (news page did not load), news or social post (Lanes 2-4). Clayton borders West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus; Ring 1 by municipality only. Impact possible (low). Action: Facilities check for pressure or discoloration complaints at West Campus, 6200 Forsyth and Clayton-side Danforth; flush if discolored; EM may call MAW (866-430-0820) for the street. Escalate if Forsyth, Big Bend, Wydown, Hanley, Brentwood Blvd or Clayton Rd is named or a boil advisory posts. Resolve when dropped from MAW alerts. Owner: Facilities / Emergency Management.",
+      "assessment": "Updated 3:45 PM CT 11/24 (Lanes 1 and 4 re-opened the page): MAW 146283 still posted ~7.5 hr after its 8:00 AM start, ~1.5 hr past the ~2 PM estimate; no completion text, last-updated time, street or boil advisory. Lane 4 saw search hits for a Clayton PD Nextdoor 'Water Main Break UPDATE' post and a FOX 2/Yahoo 'Avoid the area' Clayton story, but neither could be opened, so date and street are unknown. No WashU Alert or Facilities notice. Impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus until a street is published. Action: Facilities to confirm with MAW the break location and whether any WashU service is in the isolation area. Owner: Facilities / Emergency Management.",
       "confidence": "Medium",
       "first_seen": "2026-11-24T15:45:00Z",
       "id": "maw-clayton-unlocated-20261124",
-      "last_updated": "2026-11-24T20:45:00Z",
+      "last_updated": "2026-11-24T21:45:00Z",
       "location": "Clayton, MO (street not published by utility)",
       "ring": 1,
       "single_source": true,
@@ -7361,11 +7361,11 @@
       "affected_assets": [
         "Medical Campus (northern access via Kingshighway)"
       ],
-      "assessment": "New 2:45 PM CT 11/24 (Lane 1 only): City Water outage page lists a main-repair work order at N Kingshighway & Cabanne opened 2:13 PM 11/24; no outage area or restoration time posted; no boil advisory. Same City system as the Medical Campus but ~1.3 mi north; potable-water effect on WashU unlikely. On the Kingshighway corridor, a route into the Medical Campus from the north, so lane restrictions are possible. Impact possible (low, traffic). Action: Medical Campus Ops/Security note possible Kingshighway lane closures north of Delmar for shift change and deliveries; watch for discoloration complaints. Resolve when dropped from the City list. Owner: Medical Campus Ops / Emergency Management.",
+      "assessment": "Updated 3:45 PM CT 11/24 (Lanes 1 and 3, outages.php stamped 3:30 PM): still listed only as a main-repair work order opened 2:13 PM; no outage card, area or ETR; no boil advisory. ~1.3-1.5 mi N of the Medical Campus on Kingshighway north of Delmar; same City system. Impact possible (low): traffic on the Kingshighway approach to the Medical Campus; pressure effect unlikely. Escalate if an outage card or closure appears south of Delmar. Owner: Emergency Management / Medical Campus Ops (monitor).",
       "confidence": "Medium",
       "first_seen": "2026-11-24T20:45:00Z",
       "id": "stlwater-stlouiscity-nkingshighway-cabanne-20261124",
-      "last_updated": "2026-11-24T20:45:00Z",
+      "last_updated": "2026-11-24T21:45:00Z",
       "location": "N Kingshighway Blvd & Cabanne Ave, St. Louis City (~1.3 mi N of Medical Campus, north of Delmar)",
       "ring": 2,
       "single_source": true,
@@ -8037,6 +8037,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division service outage, Union Dr & Summit Dr (Forest Park)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 3:45 PM CT 11/24 (Lane 1, outages.php stamped 3:30 PM, now 6 active outages): separate Active outage card from the tracked Union Brown–W Florissant item; no start time or ETR posted; no boil advisory. North City, ~5-6 mi NE of the Medical Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when the City drops it and confirms restoration. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T21:45:00Z",
+      "id": "stlwater-stlouiscity-wflorissant-union-geraldine-20261124",
+      "last_updated": "2026-11-24T21:45:00Z",
+      "location": "Union Blvd between Geraldine Ave and Bircher Blvd, near W Florissant Ave, St. Louis City (north City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City Water outage, Union Blvd between Geraldine Ave and Bircher Blvd (W Florissant & Union)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
