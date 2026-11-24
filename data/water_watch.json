@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "6:45 PM CST 11/23 four-lane run. New: MAW 146201 Florissant main break (Ring 2, none); City work orders Southland/Finkmann and Mallinckrodt/N Broadway (Ring 2, none); Union Blvd relisted as Brown–W Florissant, out since 1:41 PM, ETR 12/1 (Ring 2, none). Howard St and old Union Brown–I-70 listings dropped, moved to monitoring. Still posted: MAW 146125/146193 U City, 146173 Ladue, 146194 Ballwin, 146195 Webster Groves investigation. MAW probe: 146199-146200 CA; 146202-146209, 146212, 146215 empty — next run resume at 146210. MAW boil page none; MO DNR nothing new since 10/28 in region; City Water news newest 8/25; no City or County boil advisory. stlwater.com outages stamped 6:30 PM 11/23 (Kingshighway/Lillian ETR 11/27, Penrose/Euclid ETR 11/26 unchanged). KFVS list (21:25 UTC) unchanged: Anniston, Devils Kitchen, New Madrid CWD 2, Dunklin PWSD 3. WashU emergency site no alerts; Facilities Tao Tennis chilled-water repair Nov 25-Dec 7 unchanged; Med Facilities no water items; Metro no water items. Rejected undated: MAW Maryland Heights/Bridgeton/Earth City boil advisory stories (AOL/Yahoo, no date), KSDK Maplewood Manchester/Laclede Station. Not reached: MSD, Kirkwood, IAW index, BJC/Cortex/Loop/Forest Park sites, MoDOT, most municipal pages; social posts poorly indexed.",
+    "note": "7:50 PM CST 11/23 four-lane run. Nothing new. City Water outages page (7:30 PM) lists only Union Blvd Brown–W Florissant (ETR 12/1), N Kingshighway Penrose–Lillian (ETR 11/27), Penrose Euclid–N Kingshighway (ETR 11/26); Southland/Finkmann and Mallinckrodt/N Broadway dropped to work-order table, moved to monitoring. MAW 146125, 146193 (U City), 146173 (Ladue), 146194 (Ballwin), 146195/146196 (Webster Groves investigation) still active. MAW probe: 146208-146218, 146220, 146225, 146230 empty; next run check 146202-146207 and 146219+. MAW boil page none; MO DNR 7 active, none in region; City Water news newest 8/25 (stlwater.com/?p=9725 is the lifted Aug advisory, not active). KFVS list unchanged (21:25 UTC). WashU emergency site no alerts; Facilities newest 11/20 (Tao Tennis chilled-water repair Nov 25-Dec 7 unchanged); Med Facilities 11/23 posts not water-related; Metro no water items. Rejected undated: MAW Maryland Heights/Bridgeton/Earth City boil stories, Hazelwood Dunn Rd, Clayton/Berkeley/Overland Yahoo stories. Not reached: MSD, Kirkwood, Reddit (blocked), X, Nextdoor, Facebook, BJC/Cortex/Loop/Forest Park, MoDOT.",
     "open_count": 281,
-    "run_at": "2026-11-24T00:45:00Z",
-    "top_incident": "Ring 1: MAW 146193 and 146125 University City main-break repairs still posted (146125 ~5 hr past its ~1:30 PM estimate; no street, no completion text); impact possible (low) for North Campus, Loop properties and U City side of Danforth; no boil advisory."
+    "run_at": "2026-11-24T01:50:00Z",
+    "top_incident": "Ring 1: MAW 146125 and 146193 University City main-break repairs still posted (146125 ~6 hr past its ~1:30 PM estimate; no street, no completion text); impact possible (low) for North Campus, Loop properties and U City side of Danforth; no boil advisory."
   },
   "incidents": [
     {
@@ -5380,11 +5380,11 @@
         "Delmar Loop properties",
         "Danforth Campus (University City portion)"
       ],
-      "assessment": "Updated 4:50 PM CT 11/23 (Lanes 1, 2, 4 re-opened the page): MAW alert 146125 still posted ~3 hr past its ~1:30 PM estimate (7:30 AM start + ~6 hr); no completion text, last-updated stamp or street; no boil advisory. MAW has since posted a second U City emergency-repair alert, 146193 (tracked separately; may be the same break). No WashU Alert or Facilities water notice (Lane 3); no dated news or social item naming a street (Lanes 2, 4). Ring 1 by municipality (North Campus, Loop properties, U City side of Danforth). Impact possible (low). Action: Facilities/Residential Life watch for pressure or discoloration complaints at North Campus and Loop buildings; flush if discolored; EM may call MAW for the street. Escalate if a street on Delmar, Forest Park Pkwy, Big Bend or Skinker is published or a boil advisory is posted. Resolve when dropped from MAW alerts. Owner: Facilities / Emergency Management.",
+      "assessment": "Updated 7:50 PM CT 11/23 (Lane 1 re-opened the page): MAW alert 146125 still shown active ~6 hr past its ~1:30 PM estimate (7:30 AM start + ~6 hr); no completion text or street; no boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). Companion alert 146193 also still posted. No WashU Alert or Facilities water notice (Lane 3); no dated news or social item naming a street (Lanes 2, 4; U City CivicAlerts newest 11/20). Ring 1 by municipality (North Campus, Loop properties, U City side of Danforth). Impact possible (low); likely a stale posting but not confirmed. Action: Facilities/Residential Life watch for pressure or discoloration complaints at North Campus and Loop buildings; flush if discolored; EM may call MAW (1-866-430-0820) for the street and completion. Escalate if a street on Delmar, Forest Park Pkwy, Big Bend or Skinker or a boil advisory is posted. Resolve when dropped from MAW alerts. Owner: Facilities / Emergency Management.",
       "confidence": "Medium",
       "first_seen": "2026-11-23T14:40:00Z",
       "id": "maw-universitycity-unlocated-20261123",
-      "last_updated": "2026-11-23T22:50:00Z",
+      "last_updated": "2026-11-24T01:50:00Z",
       "location": "University City, MO (street not published by utility)",
       "ring": 1,
       "single_source": true,
@@ -5403,11 +5403,11 @@
         "Delmar Loop properties",
         "Danforth Campus (University City portion)"
       ],
-      "assessment": "New 4:50 PM CT 11/23 (Lane 1; page re-opened by supervisor): MAW alert 146193, titled 'St. Louis County: Emergency Repairs', city University City; main-break repairs dated 11/23, ~6 hr estimate; start, end and last-updated fields blank; no street; possible discolored water, low or no pressure; no boil advisory. Second U City alert today alongside 146125 (7:30 AM, still posted ~3 hr past its ETR); may be a re-post of the same break or a separate one, source does not say. No WashU Alert or Facilities notice (Lane 3); no dated news or social item naming a street (Lanes 2, 4; an undated Nextdoor 'Olive and Eastover' post could not be opened and is not adopted). Ring 1 by municipality (North Campus, Delmar Loop properties, U City side of Danforth). Impact possible (low). Action: Facilities/Residential Life watch for pressure or discoloration complaints at North Campus, Loop buildings and U City-side Danforth tonight; flush if discolored; EM may call MAW (1-866-430-0820) for the street. Escalate if a street on Delmar, Forest Park Pkwy, Big Bend or Skinker or a boil advisory is posted. Resolve when dropped from MAW alerts. Owner: Facilities / Emergency Management.",
+      "assessment": "Updated 7:50 PM CT 11/23 (Lane 1 re-opened the page): MAW alert 146193 still active, titled 'St. Louis County: Emergency Repairs', body names University City; repairs dated 11/23, ~6 hr estimate; start/end fields blank; no street, no completion text; no boil advisory. May duplicate 146125. No WashU, news or social corroboration (Lanes 2-4). Ring 1 by municipality (North Campus, Delmar Loop properties, U City side of Danforth). Impact possible (low). Action: Facilities/Residential Life watch for pressure or discoloration complaints tonight; flush if discolored; EM may call MAW for the street. Escalate if a street on Delmar, Forest Park Pkwy, Big Bend or Skinker or a boil advisory is posted. Resolve when dropped from MAW alerts. Owner: Facilities / Emergency Management.",
       "confidence": "Medium",
       "first_seen": "2026-11-23T22:50:00Z",
       "id": "maw-universitycity-unlocated-20261123b",
-      "last_updated": "2026-11-23T22:50:00Z",
+      "last_updated": "2026-11-24T01:50:00Z",
       "location": "University City, MO (street not published by utility)",
       "ring": 1,
       "single_source": true,
@@ -6683,18 +6683,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 6:45 PM CT 11/23 (Lanes 1 and 3, outages.php stamped 6:30 PM 11/23): main-repair work order opened 9:26 AM 11/23; not listed as a service outage; no ETR; no boil advisory. North riverfront, ~4 mi NE of the Medical Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from the City page. Owner: Emergency Management (track only).",
+      "assessment": "Updated 7:50 PM CT 11/23 (Lanes 1, 2, 3): no longer on the stlwater.com outage list (page stamped 7:30 PM 11/23); still appears in the repair work-order table (opened 9:26 AM 11/23). Service likely restored but not stated, so moved to monitoring, not resolved. North riverfront, Ring 2; no WashU asset; impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-24T00:45:00Z",
       "id": "stlwater-stlouiscity-mallinckrodt-nbroadway-20261123",
-      "last_updated": "2026-11-24T00:45:00Z",
+      "last_updated": "2026-11-24T01:50:00Z",
       "location": "Mallinckrodt St & N Broadway, St. Louis City (north riverfront)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/outages.php"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City Water main-repair work order, Mallinckrodt St & N Broadway",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -7305,18 +7305,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 6:45 PM CT 11/23 (Lanes 1 and 3, outages.php stamped 6:30 PM 11/23): main-repair work order opened 12:10 PM 11/23; not listed as a service outage; no ETR; no boil advisory. South City, ~4-5 mi SE of the Medical Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from the City page. Owner: Emergency Management (track only).",
+      "assessment": "Updated 7:50 PM CT 11/23 (Lanes 1, 2, 3): no longer on the stlwater.com outage list (page stamped 7:30 PM 11/23); still appears in the repair work-order table (opened 12:10 PM 11/23). Service likely restored but not stated, so moved to monitoring, not resolved. South City, Ring 2; no WashU asset; impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-24T00:45:00Z",
       "id": "stlwater-stlouiscity-southland-finkmann-20261123",
-      "last_updated": "2026-11-24T00:45:00Z",
+      "last_updated": "2026-11-24T01:50:00Z",
       "location": "Southland Ave & Finkmann Ave, St. Louis City (south City)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/outages.php"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City Water main-repair work order, Southland Ave & Finkmann Ave",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
