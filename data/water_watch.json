@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "11:45 PM CST 11/23 four-lane run. Nothing new in Rings 1-2; no boil advisory in St. Louis City or County. MAW 146125/146193 unchanged. AW IDs 146225-146280 sampled all empty (no new alerts issued). City outages page (7:30 PM) unchanged: Union & Brown ETR 12/1, N Kingshighway Penrose-Lillian ETR 11/27, Penrose Euclid-Kingshighway ETR 11/26; Southland/Finkmann, Mallinckrodt/N Broadway, Lynch/S Broadway, Riverview/N Broadway, Eichelberger/Alaska, Partridge/McLaran still listed (already tracked); Howard St and Angelica & N 11th still absent (completion unconfirmed, not closed). KFVS list: Anniston, Devils Kitchen, Dunklin PWSD 3, New Madrid Co. District 2 still active (tracked); Columbia MO, Cape Girardeau, Collinsville, Lewistown absent, lifts unconfirmed. WashU Facilities: Tao Tennis chilled-water repair starts Wed 11/25 7 AM (unchanged); Med Campus Facilities notices 11/23 are non-water. Bridgeton/Maryland Heights MAW boil advisory stories remain undated (likely March 2026), not adopted. Next run: probe AW IDs 146225+ again. Not reached: MSD, Kirkwood, MO DNR (table failed to load), MAW boil page (site error), BJC/Cortex/Loop/Forest Park, MoDOT, Student Life, X/Nextdoor/Facebook.",
-    "open_count": 283,
-    "run_at": "2026-11-24T05:45:00Z",
-    "top_incident": "Ring 1: MAW 146125 and 146193 University City main-break repairs still posted at 11:35 PM CT 11/23 (~16 hr after 7:30 AM start; no street, no completion text, no boil advisory); impact possible (low) for North Campus, Loop properties and U City side of Danforth."
+    "note": "12:45 AM CST 11/24 four-lane run. New: MAW 146211/146210 Eureka main break from 11:30 PM 11/23 (~8 hr; no street, no boil advisory; Tyson on well water; impact none). Out-of-region AW alerts 146195-146211 skipped (CA, PA, TN, NJ, Platte County MO). New AW ID max 146211 (146212-146216, 146218 empty). No boil advisory in St. Louis City or County. City outages page still stamped 7:30 PM 11/23, unchanged. KFVS list unchanged (modified 21:25 UTC 11/23). WashU Alert none; Facilities only generator testing 11/23-24 plus Tao Tennis chilled-water repair from 11/25 (unchanged); Med Campus notices non-water. Unverified leads not adopted: KSDK Ferguson/Haplin Dr main-break story and FOX 2 '3 water main breaks across St. Louis County' (dates unconfirmed). Next run: probe AW IDs 146212+ and re-check the KSDK Ferguson story date. Not reached: MSD, Kirkwood, MO DNR (server error), MAW alerts index (empty render), claytonmo.gov (site error), BJC/Cortex/Forest Park/MoDOT/Student Life.",
+    "open_count": 285,
+    "run_at": "2026-11-24T06:45:00Z",
+    "top_incident": "Ring 1: MAW 146125 and 146193 University City main-break repairs still posted at ~12:35 AM CT 11/24 (~17 hr after 7:30 AM 11/23 start; no street, no completion text, no boil advisory); impact possible (low) for North Campus, Loop properties and U City side of Danforth."
   },
   "incidents": [
     {
@@ -2098,6 +2098,25 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Ellisville — Woodhill Estates Dr (alert 144360)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:45 AM CT 11/24 (Lane 1 only, ID probe): MAW alert 146211, main-break emergency repairs from 11:30 PM 11/23, ~8 hr estimate (~7:30 AM 11/24); possible discolored water, low or no pressure; no street; no boil advisory. Leak investigation 146210 (Eureka) likely the same event. Nearest asset Tyson Research Center (~4-6 mi, estimate), which is on well water, so likely not on this system. No WashU asset affected; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only; Tyson staff may note if site access roads are affected).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T06:45:00Z",
+      "id": "maw-eureka-unlocated-20261123",
+      "last_updated": "2026-11-24T06:45:00Z",
+      "location": "Eureka, MO (far west St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146211",
+        "https://alertsdetail.awapps.com/alert/146210"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Eureka — emergency repairs (alerts 146211, 146210)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
