@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "12:45 PM CST 11/24 four-lane run. New: MAW 146316 Northwoods main break (Ring 2, from 12:15 PM, ~7 hr, impact none); IAW 146315 Mt. Prospect IL (Ring 3). Reopened (Ring 2, impact none): City Water Southland Ave Finkmann-Loughborough (out 11 AM 11/24, ETR 7 PM) and N Broadway Mallinckrodt-Destrehan (ETR 2:30 PM). Unchanged: Clayton 146283, U City 146125/146193, Ladue 146173, Rock Hill 146160 still Active, no street or completion text. FOX 2 N Hanley 20-inch break dated Dec 26, 2022 via FOX 2 wp-json (Lane 2); dropped. AW ID probe: 146314-146319 checked (146314 WV, 146317/146319 PA, 146318 state unknown); 146320-146324 empty; next run re-probe 146320+. No boil advisory in St. Louis City or County (MAW boil page none). KFVS list unchanged (21:25 UTC 11/23). WashU Alert none; Facilities: Tao Tennis chilled-water closure starts 11/25, generator testing (no water impact); Med Campus notices non-water. Social lane: nothing; X/Nextdoor not fetchable. Not checked: MO DNR (connection failed), MSD, Kirkwood, BJC, Cortex, Loop, Forest Park Forever.",
-    "open_count": 303,
-    "run_at": "2026-11-24T18:45:00Z",
-    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr (~2 PM); still active, no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
+    "note": "1:45 PM CST 11/24 four-lane run. New: MAW 146322 Overland main break (Ring 2, from 12:45 PM, ~6 hr, impact none); Du Quoin IL boil order, 400 block E Park St (Ring 3, KFVS list modified 18:51 UTC 11/24). Unchanged: Clayton 146283, U City 146125/146193 still posted, no completion text; City Water Southland (ETR 7 PM), N Broadway (ETR 2:30 PM), Union Blvd-W Florissant (ETR 12/1), Penrose/N Kingshighway items still listed. Union Blvd Brown-I-70, Howard St, Partridge/McLaran, Louisiana/Cherokee dropped from outage table (restoration not confirmed; left as is). Columbia and Lewistown MO still off KFVS list. stlwater.com/?p=9725 undated page still shows an old Chain of Rocks boil advisory, likely stale from Aug 2026 (boil-advisory page lists none). Winter Storm Watch 11/24-11/26 on city site: freeze-related break risk rising. AW ID probe: 146320-146329 checked (only 146322 MO); 146330-146334, 146336 empty; next run re-probe 146330+. No boil advisory in St. Louis City or County. WashU Alert none; Facilities: Tao Tennis chilled-water closure starts 11/25; Med Campus notices non-water. Social lane: nothing; Reddit, X blocked. Not checked: MO DNR, MSD, Kirkwood, MAW boil page (error), BJC, Cortex, Loop, Forest Park Forever, Clayton city news (did not load).",
+    "open_count": 305,
+    "run_at": "2026-11-24T19:45:00Z",
+    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr (~2 PM); still active at 1:45 PM, no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
   },
   "incidents": [
     {
@@ -134,6 +134,24 @@
       "status": "open",
       "title": "Dunklin County PWSD 3 precautionary boil order, County Road 418 N to 153 and Highway M",
       "utility": "Dunklin County Public Water Supply District 3",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 1:45 PM CT 11/24 (Lane 2 only, KFVS Heartland list modified 18:51 UTC 11/24): boil order issued Tue 11/24, until further notice; cause not given. ~75 mi SE; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-24T19:45:00Z",
+      "id": "duquoin-duquoin-eparkst-20261124",
+      "last_updated": "2026-11-24T19:45:00Z",
+      "location": "400 block of E Park St, Du Quoin, IL (Perry County)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
+      ],
+      "status": "open",
+      "title": "City of Du Quoin, IL boil order, 400 block of E Park St",
+      "utility": "City of Du Quoin, IL",
       "washu_impact": "none"
     },
     {
@@ -3903,6 +3921,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Overland — emergency repairs (alert 146310)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 1:45 PM CT 11/24 (Lane 1 only, ID probe): MAW alert 146322, main break from 12:45 PM 11/24, ~6 hr estimate (~6:45 PM); no street; no boil advisory. Separate alert from tracked Overland 146310 (11 AM). ~4-5 mi NW of North Campus and Danforth; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T19:45:00Z",
+      "id": "maw-overland-unlocated-20261124b",
+      "last_updated": "2026-11-24T19:45:00Z",
+      "location": "Overland, MO (mid St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146322"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Overland — emergency repairs (alert 146322)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
