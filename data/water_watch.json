@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "8:40 PM CST 11/23 four-lane run. Nothing new in MO/IL. City Water outages page (7:30 PM) lists only Union Blvd Brown–W Florissant (ETR 12/1), N Kingshighway Penrose–Lillian (ETR 11/27), Penrose Euclid–N Kingshighway (ETR 11/26); Howard/19th, Southland/Finkmann, Mallinckrodt/N Broadway not listed (already in monitoring). MAW 146125, 146193 (U City), 146173 (Ladue) still worded active, no streets, no boil. AW ID probe: 146202-146206 all out of region (TN, NJ, Platte County); 146207 and 146219-146224 empty; next run check 146208-146218 and 146225+. MAW boil page none; MO DNR none in region; City Water news newest 8/25. KFVS list unchanged (21:25 UTC). WashU emergency site no alerts; Facilities newest 11/20 (Tao Tennis chilled-water Nov 25-Dec 7); Med Facilities 11/23 posts not water-related; Metro no water items (Pershing DeBaliviere–Belt #1 detour, cause not stated). Rejected stale: Jan 2026 U City Linden/Pershing breaks, MAW 110988, U City AID=1252. Not reached: MSD, Kirkwood, BJC/Cortex/Loop/Forest Park, MoDOT, X/Nextdoor (blocked).",
-    "open_count": 281,
-    "run_at": "2026-11-24T02:40:00Z",
-    "top_incident": "Ring 1: MAW 146125 and 146193 University City main-break repairs still posted (146125 ~7 hr past its ~1:30 PM estimate; no street, no completion text); impact possible (low) for North Campus, Loop properties and U City side of Danforth; no boil advisory."
+    "note": "9:40 PM CST 11/23 four-lane run. Nothing new in Ring 1 or 2. MAW 146125, 146193 (U City), 146173 (Ladue), 146194 (Ballwin), 146165 (Clarkson Valley), 146120 (Bellefontaine Neighbors) all still active, no streets, no boil. City Water outages page (9:30 PM) unchanged: Union Blvd Brown–W Florissant (ETR 12/1), N Kingshighway Penrose–Lillian (ETR 11/27), Penrose Euclid–N Kingshighway (ETR 11/26). New Ring 3: New Madrid County WD #2 boil advisory (KFVS). Collinsville IL and Lewistown MO dropped from KFVS list, moved to monitoring. DeKalb County MO boil advisory lift (Ring 3, untracked) noted only. Metro Pershing DeBaliviere–Belt #1 detour confirmed construction, not water. AW ID probe: 146208 Oakhurst (out of region); 146209-146218 and 146225-146228 empty; next run check 146219+ again and 146229+. Unconfirmed for follow-up: FOX 2 Bridgeton/Maryland Heights/Earth City MAW boil advisory (undated syndication) and KSDK Ferguson Haplin Dr break (undated). Not reached: MSD, Kirkwood, MO DNR (data.mo.gov blocked), BJC/Cortex/Loop/Forest Park, MoDOT, KSDK/FOX 2/stltoday pages, X/Reddit/Nextdoor.",
+    "open_count": 282,
+    "run_at": "2026-11-24T03:40:00Z",
+    "top_incident": "Ring 1: MAW 146125 and 146193 University City main-break repairs still posted (~14 hr after 7:30 AM start; no street, no completion text); impact possible (low) for North Campus, Loop properties and U City side of Danforth; no boil advisory."
   },
   "incidents": [
     {
@@ -64,18 +64,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 1:40 AM CT 11/5 (Lane 2 only; Yahoo-syndicated local report posted ~4:44 PM CT 11/4): boil order after a main break covering many residents and businesses between I-255 and I-55, until further notice; no restoration estimate. Metro East, ~15-20 mi E of Danforth and the Medical Campus; separate utility system; no WashU asset. Impact none. Monitor; resolve when the lift is reported. Owner: Emergency Management (track only).",
+      "assessment": "Updated 9:40 PM CT 11/23 (Lane 2): Collinsville no longer appears on the KFVS Heartland boil list (modified 21:25 UTC 11/23); lift not confirmed by the city, so moved to monitoring, not resolved. Metro East, ~15-20 mi E; separate system; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-05T07:40:00Z",
       "id": "collinsville-collinsville-unlocated-20261104",
-      "last_updated": "2026-11-05T07:40:00Z",
+      "last_updated": "2026-11-24T03:40:00Z",
       "location": "Parts of Collinsville, IL between I-255 and I-55 (Madison County, Metro East; streets not named in article; city map on its Facebook page not opened)",
       "ring": 3,
       "single_source": true,
       "sources": [
-        "https://www.yahoo.com/news/articles/boil-order-issued-parts-collinsville-224457468.html"
+        "https://www.yahoo.com/news/articles/boil-order-issued-parts-collinsville-224457468.html",
+        "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of Collinsville boil order after water main break, area between I-255 and I-55",
       "utility": "City of Collinsville, IL",
       "washu_impact": "none"
@@ -1144,18 +1145,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 1:40 AM CT 11/20 (Lane 4 only, WGEM posted 5:57 PM CT 11/19): 48-hour boil advisory after a faulty valve broke and leaked; no end time given. ~130 mi N of St. Louis; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "assessment": "Updated 9:40 PM CT 11/23 (Lane 2): Lewistown no longer appears on the KFVS Heartland boil list (modified 21:25 UTC 11/23) and the 48-hour advisory window has passed; lift not confirmed by the city, so moved to monitoring, not resolved. ~130 mi N; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-20T07:40:00Z",
       "id": "lewistown-lewiscounty-hwy6-20261119",
-      "last_updated": "2026-11-20T07:40:00Z",
+      "last_updated": "2026-11-24T03:40:00Z",
       "location": "Homes north of Highway 6 and west of Route H, Lewistown, MO (Lewis County; no streets listed)",
       "ring": 3,
       "single_source": true,
       "sources": [
-        "https://www.wgem.com/2026/11/19/48-hour-boil-advisory-issued-part-lewistown-missouri/"
+        "https://www.wgem.com/2026/11/19/48-hour-boil-advisory-issued-part-lewistown-missouri/",
+        "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of Lewistown, MO 48-hour boil advisory after valve failure, north of Hwy 6 / west of Route H",
       "utility": "City of Lewistown, MO",
       "washu_impact": "none"
@@ -5380,11 +5382,11 @@
         "Delmar Loop properties",
         "Danforth Campus (University City portion)"
       ],
-      "assessment": "Updated 7:50 PM CT 11/23 (Lane 1 re-opened the page): MAW alert 146125 still shown active ~6 hr past its ~1:30 PM estimate (7:30 AM start + ~6 hr); no completion text or street; no boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). Companion alert 146193 also still posted. No WashU Alert or Facilities water notice (Lane 3); no dated news or social item naming a street (Lanes 2, 4; U City CivicAlerts newest 11/20). Ring 1 by municipality (North Campus, Loop properties, U City side of Danforth). Impact possible (low); likely a stale posting but not confirmed. Action: Facilities/Residential Life watch for pressure or discoloration complaints at North Campus and Loop buildings; flush if discolored; EM may call MAW (1-866-430-0820) for the street and completion. Escalate if a street on Delmar, Forest Park Pkwy, Big Bend or Skinker or a boil advisory is posted. Resolve when dropped from MAW alerts. Owner: Facilities / Emergency Management.",
+      "assessment": "Updated 9:40 PM CT 11/23 (Lane 1 re-opened the page): MAW alert 146125 still active ~14 hr after its 7:30 AM start (~8 hr past the ~6 hr estimate); no Last Updated, end time, street or completion text; no boil advisory. Companion 146193 also still active. No WashU Alert, Facilities or Med Facilities water notice (Lane 3); no news or social post names a street (Lanes 2, 4). Impact possible (low) for North Campus, Loop properties and U City side of Danforth. Action: Facilities check for pressure/discoloration complaints at North Campus, Loop and U City-side buildings Tuesday morning. Resolve when dropped from MAW alerts. Owner: Facilities / Emergency Management.",
       "confidence": "Medium",
       "first_seen": "2026-11-23T14:40:00Z",
       "id": "maw-universitycity-unlocated-20261123",
-      "last_updated": "2026-11-24T01:50:00Z",
+      "last_updated": "2026-11-24T03:40:00Z",
       "location": "University City, MO (street not published by utility)",
       "ring": 1,
       "single_source": true,
@@ -5403,11 +5405,11 @@
         "Delmar Loop properties",
         "Danforth Campus (University City portion)"
       ],
-      "assessment": "Updated 7:50 PM CT 11/23 (Lane 1 re-opened the page): MAW alert 146193 still active, titled 'St. Louis County: Emergency Repairs', body names University City; repairs dated 11/23, ~6 hr estimate; start/end fields blank; no street, no completion text; no boil advisory. May duplicate 146125. No WashU, news or social corroboration (Lanes 2-4). Ring 1 by municipality (North Campus, Delmar Loop properties, U City side of Danforth). Impact possible (low). Action: Facilities/Residential Life watch for pressure or discoloration complaints tonight; flush if discolored; EM may call MAW for the street. Escalate if a street on Delmar, Forest Park Pkwy, Big Bend or Skinker or a boil advisory is posted. Resolve when dropped from MAW alerts. Owner: Facilities / Emergency Management.",
+      "assessment": "Updated 9:40 PM CT 11/23 (Lane 1 re-opened the page): MAW alert 146193 still active, titled St. Louis County emergency repairs, body names University City; dated 11/23, start/end blank; no street, completion text or boil advisory. May duplicate 146125. No WashU, news or social corroboration (Lanes 2-4). Impact possible (low). Resolve when dropped from MAW alerts. Owner: Facilities / Emergency Management.",
       "confidence": "Medium",
       "first_seen": "2026-11-23T22:50:00Z",
       "id": "maw-universitycity-unlocated-20261123b",
-      "last_updated": "2026-11-24T01:50:00Z",
+      "last_updated": "2026-11-24T03:40:00Z",
       "location": "University City, MO (street not published by utility)",
       "ring": 1,
       "single_source": true,
@@ -5945,6 +5947,24 @@
       "status": "open",
       "title": "New Madrid County Water District #2 boil water advisory after main break, west of Hwy 61",
       "utility": "New Madrid County Water District #2",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 9:40 PM CT 11/23 (Lane 2 only, KFVS Heartland list modified 21:25 UTC 11/23): boil advisory issued Thu 11/19 after a main break; repair was expected 11/19 but no lift posted; until further notice. ~150+ mi S of any WashU asset; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-24T03:40:00Z",
+      "id": "newmadridpwsd2-newmadridcounty-westhwy61-20261119",
+      "last_updated": "2026-11-24T03:40:00Z",
+      "location": "Customers west of US Hwy 61, New Madrid County, MO (Bootheel; streets not named)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
+      ],
+      "status": "open",
+      "title": "New Madrid County Water District #2 boil advisory after main break, customers west of Hwy 61",
+      "utility": "New Madrid County Water District #2 (MO)",
       "washu_impact": "none"
     },
     {
