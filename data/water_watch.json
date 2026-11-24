@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "9:45 AM CST 11/24 four-lane run. New (Lane 1, MAW): Clayton 146283 (Ring 1, verified by supervisor), St. Louis County 146282, Florissant 146279/146288 and investigation 146285, Clarkson Valley 146278, Eureka 146286/146294. Updated: IAW 146287 Urbana lift moved E University Ave to monitoring; IAW 146289 Pekin lift has no open tracked Pekin event (not recorded). U City 146125/146193, Ladue 146173, Rock Hill 146160 still posted with 11/23 wording, no completion. Webster Groves and Eureka 11/23 IDs not reopened. AW ID probe: newest 146294; 146295-146300, 146310, 146320, 146330 empty; next run re-probe 146295+. City outages page (updated 7:30 PM 11/23) unchanged; Southland/Finkmann and Mallinckrodt/N Broadway repairs already tracked. No boil advisory in St. Louis City or County. KFVS list unchanged (21:25 UTC 11/23); Millstone WD not listed (not marked lifted). WashU Alert none; Facilities only Tao Tennis chilled water; Med Campus notices non-water. Social lane: nothing (Reddit blocked). Not checked: MSD, Kirkwood, MO DNR, MoDOT, BJC, Cortex, Loop, Forest Park Forever.",
-    "open_count": 291,
-    "run_at": "2026-11-24T15:45:00Z",
-    "top_incident": "Ring 1: new MAW 146283 Clayton main break, emergency repairs from 8:00 AM 11/24, ~6 hr (~2 PM); no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
+    "note": "10:40 AM CST 11/24 four-lane run. New: MAW 146297 Ballwin (Ring 2, 9:45 AM, ~6 hr); Ring 3 IAW boil orders Pekin 146298, Streator 146300, Bolingbrook 146302; New Madrid County WD#2 boil advisory (since 11/19, newly recorded from KFVS list). Updated: Tao Tennis chilled-water fire lane/sidewalk closure runs 11/25-12/7 7 AM-3 PM (Facilities). Unchanged: Clayton 146283, U City 146125/146193, Ladue 146173, Rock Hill 146160 still posted, no completion text. AW ID probe: 146295-146302 had content (out-of-region except above); 146303-146307 and 146310 empty; 146308-146309 and 146311+ not checked; next run re-probe 146303+. City outages page (7:30 PM 11/23) unchanged; 3 tracked outages only; no City boil advisory. MO DNR newest 10/28. KFVS list unchanged (21:25 UTC 11/23). No boil advisory in St. Louis City or County. WashU Alert none; Med Campus notices non-water. Social lane: nothing; stale Jan 2026 U City Linden/Pershing story surfacing in search, disregarded. Not checked: MSD, Kirkwood, BJC, Cortex, Loop, Forest Park Forever, MoDOT, municipal pages.",
+    "open_count": 296,
+    "run_at": "2026-11-24T16:40:00Z",
+    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr (~2 PM); no street, no boil advisory, no completion yet; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
   },
   "incidents": [
     {
@@ -382,6 +382,24 @@
       ],
       "status": "monitoring",
       "title": "Illinois American Water main break with boil order on restoration, Bolingbrook, IL (alert 145974)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 10:40 AM CT 11/24 (Lane 1 only, ID probe): IAW alert 146302, boil order in Bolingbrook; details not reported. ~280 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-24T16:40:00Z",
+      "id": "ilaw-bolingbrook-unlocated-20261124",
+      "last_updated": "2026-11-24T16:40:00Z",
+      "location": "Bolingbrook, IL (Will County, Chicago area; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146302"
+      ],
+      "status": "open",
+      "title": "Illinois American Water boil order, Bolingbrook, IL (alert 146302)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
     },
@@ -857,6 +875,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 10:40 AM CT 11/24 (Lane 1 only, ID probe): IAW alert 146298, boil order in Pekin; details not reported. ~150 mi NNE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-24T16:40:00Z",
+      "id": "ilaw-pekin-unlocated-20261124",
+      "last_updated": "2026-11-24T16:40:00Z",
+      "location": "Pekin, IL (Tazewell County; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146298"
+      ],
+      "status": "open",
+      "title": "Illinois American Water boil order, Pekin, IL (alert 146298)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Updated 9:45 PM CT 11/12 (Lane 1, ID probe): IAW alert 144924 posts another Peoria boil order lift (no street, date or times on page); cannot be tied to a specific tracked Peoria alert, so kept open. Earlier: 144621 lift (11/10, untied); 144609 main break with boil order on restoration; six 11/10 boil-order alerts incl. 144527 valve replacement. ~150 mi NNE; separate system; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-10T12:40:00Z",
@@ -1030,6 +1066,24 @@
       ],
       "status": "resolved",
       "title": "Illinois American Water main break with boil order, Streator, IL (alert 145422)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 10:40 AM CT 11/24 (Lane 1 only, ID probe): IAW alert 146300, boil order in Streator; details not reported. ~200 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-24T16:40:00Z",
+      "id": "ilaw-streator-unlocated-20261124",
+      "last_updated": "2026-11-24T16:40:00Z",
+      "location": "Streator, IL (LaSalle/Livingston County; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146300"
+      ],
+      "status": "open",
+      "title": "Illinois American Water boil order, Streator, IL (alert 146300)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
     },
@@ -1456,6 +1510,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Ballwin — emergency repairs (alert 146194)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 10:40 AM CT 11/24 (Lane 1 only, ID probe): MAW alert 146297, emergency repairs from 9:45 AM 11/24, ~6 hr estimate (~3:45 PM); no street; no boil advisory. ~12-14 mi W of Danforth; Tyson on well water; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-24T16:40:00Z",
+      "id": "maw-ballwin-unlocated-20261124",
+      "last_updated": "2026-11-24T16:40:00Z",
+      "location": "Ballwin, MO (west St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146297"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Ballwin — emergency repairs (alert 146297)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -6051,6 +6123,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New to tracker 10:40 AM CT 11/24 (Lane 2 only, KFVS Heartland list modified 21:25 UTC 11/23): boil advisory issued Thu 11/19 after a main break, until further notice; not previously recorded. ~150+ mi S; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-24T16:40:00Z",
+      "id": "newmadridcwd2-newmadridcounty-hwy61-20261119",
+      "last_updated": "2026-11-24T16:40:00Z",
+      "location": "Customers west of Highway 61, New Madrid County, MO (Bootheel; streets not named)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
+      ],
+      "status": "open",
+      "title": "New Madrid County Water District #2 boil water advisory after main break, customers west of Highway 61",
+      "utility": "New Madrid County Water District #2 (MO)",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 2:40 PM CT 11/23 (Lane 2 only, KFVS Heartland list modified 17:31 UTC 11/23): boil advisory issued Thu 11/19 after a main break, until further notice; first seen by the watch today. ~150+ mi S of any WashU asset; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-23T20:40:00Z",
@@ -7807,17 +7897,17 @@
       "affected_assets": [
         "Danforth Campus"
       ],
-      "assessment": "New 3:45 PM CT 11/20 (Lane 3 only, Facilities news listing posted 11/20): planned excavation to repair an underground chilled-water leak, Wed 11/25 to Mon 12/7, 7 AM-3 PM; part of the fire lane and sidewalk closed. Chilled-water (cooling) loop, not potable supply; no domestic water loss or boil order indicated. On-campus Ring 1. Impact possible (low): partial fire-lane closure may affect emergency vehicle access; cooling to served buildings could be affected if the loop is isolated. Action: confirm fire-lane detour and FD access with Facilities and WUPD before 11/25; ask whether any buildings lose chilled water during the repair. Detour text not retrieved. Owner: Facilities / Emergency Management.",
+      "assessment": "Updated 10:40 AM CT 11/24 (Lane 3, Facilities notice reopened): notice posted 11/20 is still live; closure work actually runs Wed 11/25 through Mon 12/7, 7 AM-3 PM daily (not active since 11/20). Underground chilled-water leak repair; part of the fire lane and sidewalk west of Tao Tennis Courts closed. Chilled water, not potable. Impact possible (low): fire-lane access west of the courts reduced during work hours. Action: Facilities confirm alternate fire-apparatus access with WUPD/Clayton/U City FD before 11/25; EM note for event planning. Owner: Facilities / Emergency Management.",
       "confidence": "Medium",
       "first_seen": "2026-11-20T21:45:00Z",
       "id": "washufacilities-danforth-taotennis-chilledwater-20261120",
-      "last_updated": "2026-11-20T21:45:00Z",
+      "last_updated": "2026-11-24T16:40:00Z",
       "location": "Fire lane and sidewalk just west of the Tao Tennis Courts, Danforth Campus (no street or cross street published)",
       "ring": 1,
       "single_source": true,
       "sources": [
-        "https://facilities.wustl.edu/news/",
-        "https://facilities.wustl.edu/11-25-12-7-tao-tennis-courts-fire-lane-and-sidewalk-closure-for-chilled-water-leak-repair/"
+        "https://facilities.wustl.edu/11-25-12-7-tao-tennis-courts-fire-lane-and-sidewalk-closure-for-chilled-water-leak-repair/",
+        "https://facilities.wustl.edu/news/"
       ],
       "status": "open",
       "title": "WashU Facilities chilled-water leak repair, fire lane and sidewalk closure west of Tao Tennis Courts (Danforth), Nov 25-Dec 7",
