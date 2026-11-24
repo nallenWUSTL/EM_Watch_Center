@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "4:33 AM CST 11/24 four-lane run. Nothing new or changed. AW IDs opened 146244-146250, 146252, 146255, 146258, 146262, 146266, 146270, 146275 all empty; 146251-146274 gaps not opened (next run: probe 146251+). 146125, 146193 (U City) and 146211 (Eureka, ~7:30 AM est.) still active, unchanged. City outages page stamped 4:30 AM 11/24: Union Blvd Brown-W Florissant (ETR 12/1), N Kingshighway Penrose-Lillian (ETR 11/27), Penrose Euclid-Kingshighway (ETR 11/26) unchanged; Partridge/McLaran, Mallinckrodt/N Broadway, Southland/Finkmann on repair list only; Howard 19th-20th absent. No boil advisory in St. Louis City or County (MO DNR newest entries SW/central MO; MAW boil page none; City news newest 8/25). KFVS list unchanged (21:25 UTC 11/23). WashU Alert none (last modified 11/18); Facilities Tao Tennis chilled-water repair 11/25-12/7 unchanged; Med Campus notices AHU/elevator/restroom wiring only (non-water). Undated leads: U City Linden/Pershing and Delmar tap confirmed Jan 2026 (excluded); Maplewood Manchester/Laclede Station and Webster Groves Elm/Lockwood still undated; Ferguson/Halpin and U City Olive/Eastover unconfirmed; Yahoo 'basements flooded ... University City' story failed to load, date unknown. Not checked: MSD, Kirkwood, BJC, Cortex, Loop, Forest Park, MoDOT; Reddit blocked; X/Facebook/Nextdoor not surfaced.",
+    "note": "5:33 AM CST 11/24 four-lane run. Nothing new. Columbia MO advisory off KFVS list, moved to monitoring. New Madrid PWSD 2 (west of Hwy 61) still on KFVS list, already tracked. Unchanged: 146125, 146193 (U City), 146211 (Eureka, ~7:30 AM est.), 144021 (Clayton), 143300 (Richmond Heights) still show active; MAW alerts index shows none without login. AW IDs opened empty: 146251, 146253, 146254, 146256, 146257, 146259-146261, 146263-146265, 146267, 146268, 146271, 146273, 146280, 146285 (next run: probe 146269, 146272, 146274-146279, 146281+). City outages page stamped 7:30 PM 11/23: Union Blvd (ETR 12/1), N Kingshighway Penrose-Lillian (ETR 11/27), Penrose Euclid-Kingshighway (ETR 11/26) unchanged; Southland/Finkmann and Mallinckrodt/N Broadway repairs. No boil advisory in St. Louis City or County (MAW boil page none; MO DNR records SW/central MO only; City news newest 8/25). WashU Alert none (last modified 11/18); Facilities: Tao Tennis chilled-water repair 11/25-12/7 unchanged, generator tests 11/24-25 (non-water); Med Campus notices non-water. Jan 2026 Yahoo/FOX 2 U City Linden/Pershing story confirmed stale. Not checked: MSD, Kirkwood, Illinois American Water directly, BJC, Cortex, Loop, Forest Park, MoDOT; KSDK pages failed to load; data.mo.gov blocked for Lane 2.",
     "open_count": 285,
-    "run_at": "2026-11-24T10:40:00Z",
-    "top_incident": "Ring 1: MAW 146125 and 146193 University City main-break repairs still posted at ~4:35 AM CT 11/24 (~21 hr after 7:30 AM 11/23 start; no street, no completion text, no boil advisory); impact possible (low) for North Campus, Loop properties and U City side of Danforth."
+    "run_at": "2026-11-24T11:45:00Z",
+    "top_incident": "Ring 1: MAW 146125 and 146193 University City main-break repairs still posted at ~5:35 AM CT 11/24 (~22 hr after 7:30 AM 11/23 start; no street, no completion text, no boil advisory); impact possible (low) for North Campus, Loop properties and U City side of Danforth."
   },
   "incidents": [
     {
@@ -83,18 +83,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 1:40 PM CT 11/3 (Lane 4 only, ABC17): main break alert issued 12:41 AM CT 11/3; 14 customers under a precautionary boil advisory, a second advisory near Clinton Dr / W Ash St; no restoration estimate. ~120 mi W of the nearest WashU asset (Tyson); separate system. Impact none. Monitor; resolve when the lift is reported. Owner: Emergency Management (track only).",
+      "assessment": "Updated 5:45 AM CT 11/24 (Lane 2): Columbia advisory not on the current KFVS Heartland boil list (modified 21:25 UTC 11/23); lift not confirmed by Columbia Water & Light, so moved to monitoring, not resolved. ~120 mi W; separate system; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-03T19:40:00Z",
       "id": "columbia-columbia-nwestblvd-20261103",
-      "last_updated": "2026-11-03T19:40:00Z",
+      "last_updated": "2026-11-24T11:45:00Z",
       "location": "I-70 Dr SW near N West Blvd (14 customers), plus a second advisory area near Clinton Dr off W Ash St, Columbia, MO (Boone County)",
       "ring": 3,
       "single_source": true,
       "sources": [
-        "https://abc17news.com/news/top-stories/2026/11/03/water-main-break-near-n-west-boulevard-in-columbia/"
+        "https://abc17news.com/news/top-stories/2026/11/03/water-main-break-near-n-west-boulevard-in-columbia/",
+        "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "Columbia Water & Light main break and precautionary boil advisories, I-70 Dr SW / N West Blvd and Clinton Dr off W Ash St",
       "utility": "Columbia Water & Light",
       "washu_impact": "none"
