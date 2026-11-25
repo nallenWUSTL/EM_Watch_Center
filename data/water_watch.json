@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "12:45 AM CST 11/25 four-lane run. No new incidents; no boil advisory in St. Louis City or County (stlwater boil page none). MAW 146283 Clayton, 146125/146193 U City, 146345 Brentwood (past ~10 PM ETR), 146313 Berkeley planned (today 8:30 AM-2:30 PM) and St. John 146346/146354 still posted, no streets. City outages page 12:30 AM: same 6 outages; N Kingshighway & Cabanne still a work order only; Southland/Finkmann and Mallinckrodt/N Broadway past ETR. Tao Tennis chilled-water fire-lane closure starts today 7 AM. KFVS list unchanged (18:51 UTC 11/24). FOX 2 S Big Bend/Weber item still not found; treated unverified. City banner shows Winter Storm Warning noon 11/25-6 PM 11/26; freeze-driven breaks possible. AW ID probe: highest populated 146358; next run probe from 146359. Not checked: MSD, Kirkwood, MO DNR list, KSDK, Patch, Post-Dispatch, Eureka/Richmond Heights/Maplewood/Ladue pages; no social posts indexed.",
+    "note": "1:40 AM CST 11/25 four-lane run. No new or changed incidents; no boil advisory in St. Louis City or County (stlwater boil page none). City outages page 1:30 AM unchanged: 6 outages, N Kingshighway & Cabanne still a work order only, Southland/Finkmann and Mallinckrodt/N Broadway past ETR. No Ring 1 corridor item. Tao Tennis chilled-water fire-lane closure starts today 7 AM. KFVS list unchanged (18:51 UTC 11/24). LIMIT: American Water alert pages returned script-only shells this run, so MAW Ring 1 alerts (146283, 146125, 146193, 146345, 146173) and the ID probe from 146359 were NOT verified; next run probe from 146359. FOX 2 S Big Bend/Weber item still not found; treated unverified. Undated KSDK story on S Hanley Rd (Bonhomme-Forsyth) Clayton break found, not tied to 146283. WashU EM site still shows Winter Storm Watch; city banner shows Warning noon 11/25-6 PM 11/26; freeze-driven breaks likely. Not checked: MSD, Kirkwood, MO DNR list, municipal pages, BJC/Cortex/MoDOT; social feeds not indexed.",
     "open_count": 314,
-    "run_at": "2026-11-25T06:45:00Z",
-    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; still posted at ~12:35 AM 11/25 (~10.5 hr overdue), no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
+    "run_at": "2026-11-25T07:40:00Z",
+    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; last confirmed posted ~12:35 AM 11/25, no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus. Status not re-verified this run."
   },
   "incidents": [
     {
