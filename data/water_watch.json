@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "3:35-3:45 PM CST 11/25 four-lane run under the Winter Storm Warning. New, Ring 2, impact none: MAW 146505 Wildwood main break (from 2:45 PM, ~6 hr). No boil advisory in St. Louis City or County (City Water news newest 8/25; stlwater 'Boil Advisory Currently In Effect' page is the Aug 17 Hi-Pointe/Midtown advisory, lifted Aug 18). Unchanged: Clayton 146283, University City 146125/146193, Richmond Heights 143300 (stale). stlwater.com outages page (updated 3:30 PM) lists N Kingshighway Penrose-Lillian, Union Brown-W Florissant, Southland Finkman-Loughborough, N Broadway Mallinckrodt-Destrehan, all already tracked. WashU: Tao Tennis chilled-water closure under way; emergency.washu.edu still shows only the 11/24 Watch post; Med Facilities newest 11/23, no water items. Stale search hits to ignore: Jan 28 2026 regional breaks (Linden/Pershing U City), Mar 15-16 South City boil advisory, Jun 6-8 Olivette/Overland/U City/Clayton MAW advisory. MAW ID probe: 146506-146508 out of area (NJ, Chicago); 146509, 146510, 146512, 146515 empty; 146511, 146513, 146514 not opened; next run resume at 146509. Not reached: MO DNR boil page, MSD, Kirkwood, ILAW alerts, KFVS (site error for Lane 2), FOX 2 (site error), Post-Dispatch, STLPR, BJC, Cortex, Loop, MoDOT, X, Nextdoor. Freeze after the storm Wed-Thu raises break risk overnight into Thanksgiving.",
-    "open_count": 324,
-    "run_at": "2026-11-25T21:45:00Z",
-    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; re-opened ~3:40 PM 11/25 (Lane 1), still posted unchanged, no street, no boil advisory; likely stale. Possible (low) impact for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
+    "note": "4:35-4:45 PM CST 11/25 four-lane run under the Winter Storm Warning. New, Ring 3 only, impact none: Millstone Water District boil order, Pope County IL (issued 11/25; KFVS list modified 14:43 UTC 11/25). New Madrid County WD #2 still listed, already tracked. No changes to Ring 1/2 items: MAW 146283 Clayton, 146125/146193 University City, 143300 Richmond Heights (stale), 146345 Brentwood all still posted unchanged. stlwater.com/outages last updated 12:30 AM 11/25 (~16 hr stale) with the same six tracked outages; N Kingshighway & Cabanne still newest repair. No boil advisory in St. Louis City or County (city advisories page none; City Water news newest 8/25). WashU: emergency.washu.edu newest is the 11/24 10 PM Winter Storm Warning post (no water content); Facilities only water item is Tao Tennis chilled-water closure. MAW ID probe: 146511 California (out of area); 146513, 146514, 146516-146520, 146525, 146530 empty; next run resume at 146521. Not reached: MO DNR boil page (server error), ILAW alerts (fetch failed), Med Facilities page, City street closures, Reddit, X, BJC, Cortex, Loop, MoDOT. Hard freeze after the storm Wed-Thu raises break risk overnight into Thanksgiving.",
+    "open_count": 325,
+    "run_at": "2026-11-25T22:45:00Z",
+    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; re-opened ~4:35 PM 11/25 (Lane 1), still posted unchanged, no street, no boil advisory; likely stale. Possible (low) impact for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
   },
   "incidents": [
     {
@@ -6524,6 +6524,24 @@
       ],
       "status": "monitoring",
       "title": "Millstone Water District boil order, Bert Rd / Waltersburg Rd / Hazel Rd, Pope County, IL",
+      "utility": "Millstone Water District (IL)",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 4:45 PM CT 11/25 (Lane 2 only, KFVS Heartland list modified 14:43 UTC 11/25): boil order issued Wed 11/25; no restoration estimate; cause not given. ~150+ mi SE; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-25T22:45:00Z",
+      "id": "millstonewd-popecounty-dixonsprings-20261125",
+      "last_updated": "2026-11-25T22:45:00Z",
+      "location": "Dixon Springs pump station to Homberg Rd, Pope County, IL (no streets beyond these named)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
+      ],
+      "status": "open",
+      "title": "Millstone Water District boil order, Dixon Springs pump station to Homberg Rd, Pope County, IL",
       "utility": "Millstone Water District (IL)",
       "washu_impact": "none"
     },
