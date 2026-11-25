@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "2:35-2:50 PM CST 11/25 four-lane run under the Winter Storm Warning. New, Ring 2, impact none: MAW 146502 Clarkson Valley main break (from 2:30 PM, ~6 hr) and MAW 146501 Ellisville investigation. No boil advisory in St. Louis City or County (stlwater.com none; KFVS list shows none for the metro). Unchanged, all past ETR: Clayton 146283, University City 146125/146193, Richmond Heights 143300 (posted since 10/29, likely stale). stlwater.com outage list still stamped 12:30 AM 11/25. WashU: Tao Tennis chilled-water closure under way 11/25-12/7, 7 AM-3 PM; emergency.washu.edu still shows only the 11/24 Watch post; WashU Medicine Facilities shows no utility notices. KFVS: Millstone Route 146 and New Madrid #2 entries already tracked; Collinsville and Columbia remain off the list (already monitoring). Undated lead not tracked: an AOL/FOX 2 story on a MAW 48-hour precautionary boil advisory for parts of Bridgeton, Maryland Heights and Earth City, issued on an unspecified Sunday; no primary source and no current MAW boil notice found, so treat as unverified and likely old. MAW ID probe: 146505-146508, 146510, 146515, 146520, 146530, 146540 empty; newest populated 146504 (Joplin), so the next run should resume at 146505. Not reached: MO DNR boil page, MSD, Kirkwood, KMOV, Post-Dispatch, STLPR, BJC, Cortex, Loop, Forest Park Forever, X, Reddit, Nextdoor. FOX 2 'S Big Bend near Weber' still not found; unverified.",
-    "open_count": 323,
-    "run_at": "2026-11-25T20:45:00Z",
-    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; re-opened ~2:40 PM 11/25 (Lane 1), still posted unchanged, no street, no boil advisory; likely stale. Possible (low) impact for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
+    "note": "3:35-3:45 PM CST 11/25 four-lane run under the Winter Storm Warning. New, Ring 2, impact none: MAW 146505 Wildwood main break (from 2:45 PM, ~6 hr). No boil advisory in St. Louis City or County (City Water news newest 8/25; stlwater 'Boil Advisory Currently In Effect' page is the Aug 17 Hi-Pointe/Midtown advisory, lifted Aug 18). Unchanged: Clayton 146283, University City 146125/146193, Richmond Heights 143300 (stale). stlwater.com outages page (updated 3:30 PM) lists N Kingshighway Penrose-Lillian, Union Brown-W Florissant, Southland Finkman-Loughborough, N Broadway Mallinckrodt-Destrehan, all already tracked. WashU: Tao Tennis chilled-water closure under way; emergency.washu.edu still shows only the 11/24 Watch post; Med Facilities newest 11/23, no water items. Stale search hits to ignore: Jan 28 2026 regional breaks (Linden/Pershing U City), Mar 15-16 South City boil advisory, Jun 6-8 Olivette/Overland/U City/Clayton MAW advisory. MAW ID probe: 146506-146508 out of area (NJ, Chicago); 146509, 146510, 146512, 146515 empty; 146511, 146513, 146514 not opened; next run resume at 146509. Not reached: MO DNR boil page, MSD, Kirkwood, ILAW alerts, KFVS (site error for Lane 2), FOX 2 (site error), Post-Dispatch, STLPR, BJC, Cortex, Loop, MoDOT, X, Nextdoor. Freeze after the storm Wed-Thu raises break risk overnight into Thanksgiving.",
+    "open_count": 324,
+    "run_at": "2026-11-25T21:45:00Z",
+    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; re-opened ~3:40 PM 11/25 (Lane 1), still posted unchanged, no street, no boil advisory; likely stale. Possible (low) impact for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
   },
   "incidents": [
     {
@@ -6362,6 +6362,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Wildwood — emergency repairs (alert 143345)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 3:40 PM CT 11/25 (Lane 1 only, ID probe): MAW alert 146505, main-break emergency repairs from 2:45 PM 11/25, ~6 hr estimate (~8:45 PM); no street; no boil advisory. ~20 mi W of Danforth; nearest asset Tyson Research Center (on well water, separate supply); no Ring 1 corridor. Impact none. Winter Storm Warning in effect; freeze-related breaks likely to increase overnight. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-25T21:40:00Z",
+      "id": "maw-wildwood-unlocated-20261125",
+      "last_updated": "2026-11-25T21:40:00Z",
+      "location": "Wildwood, MO (far west St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146505"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Wildwood — emergency repairs (alert 146505)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
