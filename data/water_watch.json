@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "11:45 AM CST 11/25 four-lane run. No new incidents; no boil advisory in St. Louis City or County (stlwater boil page none; City Water news newest 8/25). Only change: City Water Howard St 19th-20th dropped off the outage list (restoration unconfirmed; outages page timestamp 12:30 AM 11/25, possibly stale). MAW 146283 Clayton, 146125/146193 University City and 146345 Brentwood still posted and unchanged (all past ETR). MAW probe 146381, 146383-146387, 146390, 146395 and 146400 all empty; next run resume at 146381. KFVS Heartland list (14:43 UTC) unchanged. WashU: Tao Tennis chilled-water closure Nov 25-Dec 7 unchanged; emergency.washu.edu still shows only the 11/24 Winter Storm Watch post, behind the NWS Warning. WashU Medicine Facilities: no water outages. City CEMA: Winter Storm Warning noon 11/25 to 6 PM 11/26; City offices close at 2 PM. Stale items filtered: FOX 2 Jan 28 2026 regional breaks roundup, Mar 2026 South City boil advisory, 2017 S Taylor outage, undated KSDK Olive Blvd. 'S Big Bend near Weber' still unverified. Not reached: amwater ilaw alerts (IAW items not re-checked), MSD, MO DNR, claytonmo.gov, stltoday (tollbit), Reddit, X, Facebook, Nextdoor, BJC, Cortex, Loop, Forest Park Forever, MoDOT. Expect freeze-driven breaks after noon.",
-    "open_count": 314,
-    "run_at": "2026-11-25T17:45:00Z",
-    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; re-checked ~11:40 AM 11/25 (Lane 1), still posted and unchanged, no street, no boil advisory; likely stale. Possible (low) impact for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
+    "note": "12:50 PM CST 11/25 four-lane run, first since the Winter Storm Warning began at noon. No new Ring 1 incident and no boil advisory in St. Louis City or County (stlwater boil page none; City Water news newest 8/25). New Ring 2 MAW items this morning, none near WashU: Overland 146461/146452, Hazelwood 146462, Florissant 146464, Fenton 146459, Chesterfield 146482, and three unnamed St. Louis County alerts 146460/146465/146469 (municipality not given, ring unconfirmed). KFVS list: New Madrid CWD #2 and Millstone WD already tracked; Anniston, Dunklin PWSD 3, Du Quoin E Park St still listed; Collinsville, Lewistown, Columbia, Cape Girardeau still absent (kept monitoring). Resolved: IAW Granite City lift 146447/146449. Unchanged: MAW 146283 Clayton, 146125/146193 University City, 146345 Brentwood (all past ETR); City Water N Kingshighway & Cabanne listed only as a repair work order; Howard St still off lists; City Water outages page stamped 12:30 AM 11/25 (stale). WashU: Tao Tennis chilled-water closure unchanged; emergency.washu.edu still shows only the 11/24 Watch post; WashU Medicine Facilities no water outages. MAW probe: alerts exist to ~146493; 146494-146500 empty; next run resume at 146494 (146470-146493 Missouri entries not all reviewed). Not reached: MAW alerts index (rendered empty), MSD, MO DNR, county health, Reddit, X, MAW Facebook, Nextdoor, Post-Dispatch, Cortex, Loop, MoDOT. Freeze-driven breaks expected this afternoon and overnight.",
+    "open_count": 321,
+    "run_at": "2026-11-25T18:50:00Z",
+    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; re-checked ~12:40 PM 11/25 (Lane 1), still posted and unchanged, no street, no boil advisory; likely stale. Possible (low) impact for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
   },
   "incidents": [
     {
@@ -669,18 +669,20 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 12:45 AM CT 11/22 (Lane 1 only): IAW alert 146014, emergency repairs from 7:30 PM 11/21, ~2 hr estimate; boil order on restoration, lift not posted. Metro East; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 12:50 PM CT 11/25 (Lane 1, ID probe): IAW alerts 146447 and 146449 post the Granite City boil order lift; 146014 is the only open tracked Granite City event, so treated as its lift. Metro East; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-22T06:45:00Z",
       "id": "ilaw-granitecity-unlocated-20261121",
-      "last_updated": "2026-11-22T06:45:00Z",
+      "last_updated": "2026-11-25T18:50:00Z",
       "location": "Granite City, IL (Madison County, Metro East; streets not published)",
       "ring": 3,
       "single_source": true,
       "sources": [
-        "https://alertsdetail.awapps.com/alert/146014"
+        "https://alertsdetail.awapps.com/alert/146014",
+        "https://alertsdetail.awapps.com/alert/146447",
+        "https://alertsdetail.awapps.com/alert/146449"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "Illinois American Water emergency repairs with boil order, Granite City, IL (alert 146014)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
@@ -1970,6 +1972,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 12:50 PM CT 11/25 (Lane 1 only, ID probe): MAW 146482, main break from 11:45 AM 11/25, ~6 hr estimate; no street; no boil advisory. ~15 mi W of Danforth; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-25T18:50:00Z",
+      "id": "maw-chesterfield-unlocated-20261125",
+      "last_updated": "2026-11-25T18:50:00Z",
+      "location": "Chesterfield, MO (west St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146482"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Chesterfield — emergency repairs (alert 146482)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 12:40 PM CT 11/23 (Lane 1 only, ID probe): MAW alert 146165, main-break emergency repairs from 11:30 AM 11/23, ~6 hr estimate (~5:30 PM); no street; no boil advisory (MO DNR none in St. Louis City/County). ~10 mi from Tyson (well water), well W of Danforth; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-23T18:40:00Z",
@@ -2400,6 +2420,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Fenton — emergency repairs (alerts 144797, 144798)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:50 PM CT 11/25 (Lane 1 only, ID probe): MAW 146459, repairs from 9:00 AM 11/25, ~6 hr estimate; no street; no boil advisory. ~13 mi SW of Danforth, ~10 mi E of Tyson (well water); no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-25T18:50:00Z",
+      "id": "maw-fenton-unlocated-20261125",
+      "last_updated": "2026-11-25T18:50:00Z",
+      "location": "Fenton, MO (south St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146459"
+      ],
+      "status": "open",
+      "title": "Missouri American Water emergency repairs, Fenton (alert 146459)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -2918,6 +2956,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 12:50 PM CT 11/25 (Lane 1 only, ID probe): MAW 146464, repairs from 9:15 AM 11/25, ~6 hr estimate; no street; no boil advisory. ~12 mi N of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-25T18:50:00Z",
+      "id": "maw-florissant-unlocated-20261125",
+      "last_updated": "2026-11-25T18:50:00Z",
+      "location": "Florissant, MO (north St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146464"
+      ],
+      "status": "open",
+      "title": "Missouri American Water emergency repairs, Florissant (alert 146464)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 4:40 AM CT 11/10 (Lane 1 only, ID probe): MAW alert 144399, emergency repairs with possible discolored water; body dates start 11/8 8:00 AM, ~1 hr estimate (date may be a placeholder; Last Updated blank; may be complete). No street; no boil advisory (MO DNR newest 11/5). ~5 mi W of South Campus and Danforth (estimate); different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Monitor; resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-10T10:40:00Z",
@@ -2969,6 +3025,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Hazelwood — emergency repairs (alert 143875)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:50 PM CT 11/25 (Lane 1 only, ID probe): MAW 146462, main break from 9:15 AM 11/25, ~6 hr estimate; no street; no boil advisory. ~10 mi N of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-25T18:50:00Z",
+      "id": "maw-hazelwood-unlocated-20261125",
+      "last_updated": "2026-11-25T18:50:00Z",
+      "location": "Hazelwood, MO (north St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146462"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Hazelwood — emergency repairs (alert 146462)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -3997,6 +4071,25 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Overland — emergency repairs (alert 146322)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:50 PM CT 11/25 (Lane 1 only, ID probe): MAW 146461, main break from 9:15 AM 11/25, ~6 hr estimate (~3:15 PM); related investigation 146452; no street; no boil advisory. ~4-5 mi NW of Danforth; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-25T18:50:00Z",
+      "id": "maw-overland-unlocated-20261125",
+      "last_updated": "2026-11-25T18:50:00Z",
+      "location": "Overland, MO (mid St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146461",
+        "https://alertsdetail.awapps.com/alert/146452"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Overland — emergency repairs (alert 146461; investigation 146452)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -5614,6 +5707,60 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, St. Louis County — emergency repairs (alert 146282)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:50 PM CT 11/25 (Lane 1 only, ID probe): MAW 146460, repairs from 9:00 AM 11/25, ~6 hr estimate; municipality and street not given; no boil advisory. Location unknown, so Ring 1 proximity cannot be ruled out; no WashU Alert or Facilities notice. Impact none on current evidence. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-25T18:50:00Z",
+      "id": "maw-stlouiscounty-unlocated-20261125",
+      "last_updated": "2026-11-25T18:50:00Z",
+      "location": "St. Louis County, MO (municipality and street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146460"
+      ],
+      "status": "open",
+      "title": "Missouri American Water emergency repairs, St. Louis County (alert 146460)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:50 PM CT 11/25 (Lane 1 only, ID probe): MAW 146465, main break from 9:15 AM 11/25, ~6 hr estimate; municipality and street not given; no boil advisory. Location unknown; no WashU Alert or Facilities notice. Impact none on current evidence. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-25T18:50:00Z",
+      "id": "maw-stlouiscounty-unlocated-20261125b",
+      "last_updated": "2026-11-25T18:50:00Z",
+      "location": "St. Louis County, MO (municipality and street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146465"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, St. Louis County (alert 146465)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:50 PM CT 11/25 (Lane 1 only, ID probe): MAW 146469, repairs from 10:00 AM 11/25, ~6 hr estimate; municipality and street not given; no boil advisory. Location unknown; no WashU Alert or Facilities notice. Impact none on current evidence. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-25T18:50:00Z",
+      "id": "maw-stlouiscounty-unlocated-20261125c",
+      "last_updated": "2026-11-25T18:50:00Z",
+      "location": "St. Louis County, MO (municipality and street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146469"
+      ],
+      "status": "open",
+      "title": "Missouri American Water emergency repairs, St. Louis County (alert 146469)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
