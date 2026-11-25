@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "11:45 PM CST 11/24 four-lane run. Nothing new confirmed; no boil advisory in St. Louis City or County (MO DNR none; newest statewide 11/05). City outages page 11:30 PM: same 6 outages (all north/south city); N Kingshighway & Cabanne reconfirmed as Main – Repair work order from 2:13 PM 11/24. MAW 146283 Clayton, 146125/146193 U City, 146345 Brentwood, 146313 Berkeley planned (11/25) still posted, no streets. AW ID probe 146374-146383: only 146375 (Blakely, likely PA, irrelevant); next run probe from 146384. Unverified: FOX 2 S Big Bend Blvd near Weber Ave item still not found. 'Multiple breaks in STL County' story resolved as stale (Jan 28, 2026). KFVS list unchanged (18:51 UTC). WashU Alert: Winter Storm Watch Wed PM-Thu PM (4-6 in snow); freeze-driven main breaks possible. Tao Tennis chilled-water repair starts 11/25 as scheduled. Not checked: MSD, Kirkwood, wateroos.php, MAW boil page, BJC, Cortex, Loop, Forest Park Forever, Clayton/Brentwood/Maplewood municipal pages; MAW 145298, 144021, 144012, 143300, 144457, 144507 not re-opened.",
+    "note": "12:45 AM CST 11/25 four-lane run. No new incidents; no boil advisory in St. Louis City or County (stlwater boil page none). MAW 146283 Clayton, 146125/146193 U City, 146345 Brentwood (past ~10 PM ETR), 146313 Berkeley planned (today 8:30 AM-2:30 PM) and St. John 146346/146354 still posted, no streets. City outages page 12:30 AM: same 6 outages; N Kingshighway & Cabanne still a work order only; Southland/Finkmann and Mallinckrodt/N Broadway past ETR. Tao Tennis chilled-water fire-lane closure starts today 7 AM. KFVS list unchanged (18:51 UTC 11/24). FOX 2 S Big Bend/Weber item still not found; treated unverified. City banner shows Winter Storm Warning noon 11/25-6 PM 11/26; freeze-driven breaks possible. AW ID probe: highest populated 146358; next run probe from 146359. Not checked: MSD, Kirkwood, MO DNR list, KSDK, Patch, Post-Dispatch, Eureka/Richmond Heights/Maplewood/Ladue pages; no social posts indexed.",
     "open_count": 314,
-    "run_at": "2026-11-25T05:45:00Z",
-    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; still posted at ~11:35 PM (~9.5 hr overdue), no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
+    "run_at": "2026-11-25T06:45:00Z",
+    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; still posted at ~12:35 AM 11/25 (~10.5 hr overdue), no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
   },
   "incidents": [
     {
@@ -1826,11 +1826,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 10:45 PM CT 11/24 (Lane 1): MAW 146345 still posted after its ~10 PM ETR; only standard post-repair advisory text, no confirmed completion, no street, no boil advisory. ~1-3 mi S/SW of South and West Campus (city-level estimate); no WashU asset identified; no Ring 1 corridor. Impact none. Separate unverified FOX 2 item (undated, 'early Tuesday') reports a MAW break on S Big Bend Blvd near Weber Ave, Maplewood/Shrewsbury area; not tied to this alert. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "assessment": "Updated 12:45 AM CT 11/25 (Lanes 1 and 4): MAW 146345 still posted, now past its ~10 PM 11/24 ETR; no update, street or boil advisory. ~1-3 mi S/SW of South and West Campus (city-level estimate); no WashU asset identified; no Ring 1 corridor. Impact none. The FOX 2 'S Big Bend Blvd near Weber Ave' item could not be found by Lanes 2 or 4 (FOX 2 sitemap 11/23-25 checked; possibly confused with a Jan 28, 2026 story); treated as unverified and not tied to this alert. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-24T23:40:00Z",
       "id": "maw-brentwood-unlocated-20261124",
-      "last_updated": "2026-11-25T04:45:00Z",
+      "last_updated": "2026-11-25T06:45:00Z",
       "location": "Brentwood, MO (mid St. Louis County; street not published, alert refers to MAW map)",
       "ring": 2,
       "single_source": true,
@@ -2074,11 +2074,11 @@
         "Danforth Campus (Clayton portion)",
         "South Campus"
       ],
-      "assessment": "Updated 10:45 PM CT 11/24 (Lanes 1 and 4 reopened alert): MAW 146283 still posted ~14.5 hr after its 8 AM start (~8.5 hr past ~2 PM ETR); Est. End and Last Updated blank; no street, completion text or boil advisory. No news, city, WashU or social post names a street (Lanes 2-4); undated Yahoo 'water main break in Clayton' item would not load and is treated as unverified. Impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus pending street. Winter Storm Watch/Warning Wed-Thu raises freeze-break risk. Action: Facilities or EM call MAW (1-866-430-0820) or Clayton Public Works for location and status; check Clayton-side buildings for pressure/discoloration Wednesday morning. Owner: Facilities / Emergency Management.",
+      "assessment": "Updated 12:45 AM CT 11/25 (Lanes 1 and 4 reopened alert): MAW 146283 still posted ~16.5 hr after its 8 AM 11/24 start (~10.5 hr past ~2 PM ETR); Last Updated blank; no street, completion text or boil advisory. No news, city, WashU or social post names a street (Lanes 2-4). Impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus pending street. Winter Storm Warning noon 11/25-6 PM 11/26 per city banner raises freeze-break risk. Action: Facilities confirm no pressure/discoloration complaints at Clayton-side buildings; EM call MAW for the street if still posted after daybreak. Owner: Facilities / Emergency Management.",
       "confidence": "Medium",
       "first_seen": "2026-11-24T15:45:00Z",
       "id": "maw-clayton-unlocated-20261124",
-      "last_updated": "2026-11-25T04:45:00Z",
+      "last_updated": "2026-11-25T06:45:00Z",
       "location": "Clayton, MO (street not published by utility)",
       "ring": 1,
       "single_source": true,
@@ -7454,11 +7454,11 @@
       "affected_assets": [
         "Medical Campus (northern access via Kingshighway)"
       ],
-      "assessment": "Updated 11:45 PM CT 11/24 (Lane 1, outages.php stamped 11:30 PM): work order reconfirmed as Main – Repair, started 2:13 PM 11/24; still no outage entry, restoration time or boil advisory. ~1-1.5 mi N of the Medical Campus, north of Delmar. Impact possible (low): traffic and lane restrictions on the Kingshighway approach to the Medical Campus; no potable-water effect on WashU expected. Freeze risk from the Wed-Thu winter storm may extend work. Resolve when dropped from the City work-order list. Owner: Emergency Management / Medical Campus Ops (monitor).",
+      "assessment": "Updated 12:45 AM CT 11/25 (Lanes 1 and 3, stlwater.com outages page updated 12:30 AM): still listed only as a main-repair work order from 2:13 PM 11/24; not in the current service-outage table. ~1.5 mi N of the Medical Campus on the Kingshighway corridor. Impact possible (low): lane impacts on the Kingshighway route to the Medical Campus; no service outage posted. Resolve when dropped from work orders. Owner: Medical Campus Ops / Emergency Management.",
       "confidence": "Medium",
       "first_seen": "2026-11-24T20:45:00Z",
       "id": "stlwater-stlouiscity-nkingshighway-cabanne-20261124",
-      "last_updated": "2026-11-25T05:45:00Z",
+      "last_updated": "2026-11-25T06:45:00Z",
       "location": "N Kingshighway Blvd & Cabanne Ave, St. Louis City (~1.3 mi N of Medical Campus, north of Delmar)",
       "ring": 2,
       "single_source": true,
@@ -8231,11 +8231,11 @@
       "affected_assets": [
         "Danforth Campus"
       ],
-      "assessment": "Updated 10:40 AM CT 11/24 (Lane 3, Facilities notice reopened): notice posted 11/20 is still live; closure work actually runs Wed 11/25 through Mon 12/7, 7 AM-3 PM daily (not active since 11/20). Underground chilled-water leak repair; part of the fire lane and sidewalk west of Tao Tennis Courts closed. Chilled water, not potable. Impact possible (low): fire-lane access west of the courts reduced during work hours. Action: Facilities confirm alternate fire-apparatus access with WUPD/Clayton/U City FD before 11/25; EM note for event planning. Owner: Facilities / Emergency Management.",
+      "assessment": "Updated 12:45 AM CT 11/25 (Lane 3): Facilities notice dated 11/20 still posted unchanged; work begins today, Wed 11/25, through Mon 12/7, 7 AM-3 PM daily. Underground chilled-water leak repair; part of fire lane and sidewalk west of Tao Tennis Courts closed. Chilled water, not potable. Impact possible (low): reduced fire-apparatus access west of courts during work hours; snow from the Winter Storm Warning (Wed PM-Thu PM) may complicate the closure. Action: Facilities confirm alternate fire access with WUPD and responding fire departments and that the site is secured for snow. Owner: Facilities / WUPD.",
       "confidence": "Medium",
       "first_seen": "2026-11-20T21:45:00Z",
       "id": "washufacilities-danforth-taotennis-chilledwater-20261120",
-      "last_updated": "2026-11-24T16:40:00Z",
+      "last_updated": "2026-11-25T06:45:00Z",
       "location": "Fire lane and sidewalk just west of the Tao Tennis Courts, Danforth Campus (no street or cross street published)",
       "ring": 1,
       "single_source": true,
