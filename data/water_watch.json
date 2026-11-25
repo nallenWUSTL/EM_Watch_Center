@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "1:35-2:00 PM CST 11/25 four-lane run, Winter Storm Warning in effect since noon. No new or changed incidents; no boil advisory in St. Louis City or County. stlwater.com shows no boil advisory. Its outage list, stamped 12:30 AM 11/25 and possibly stale, still shows only tracked North and South City jobs. N Kingshighway & Cabanne no longer listed, completion unconfirmed. MAW ID probe 146470-146507: the only Missouri entry was Chesterfield 146482, already tracked (main break from 11:45 AM 11/25, ~6 hr). 146494-146499 now hold CA and IA entries; 146500-146507 empty, so the next run should resume at 146500. Re-opened and unchanged, all past ETR: Clayton 146283, University City 146125/146193, Brentwood 146345, Richmond Heights 143300 (posted since 10/29, likely never closed). WashU: Tao Tennis chilled-water closure unchanged; emergency.washu.edu shows only the 11/24 Watch post; WashU Medicine Facilities shows no utility notices. KFVS list unchanged since the 12:50 PM run. Not reached: MO DNR boil page (server error), MAW alerts index (renders empty), Reddit (blocked), X, Nextdoor, Post-Dispatch (paywall), BJC, Cortex, Loop, Forest Park Forever. FOX 2 'S Big Bend near Weber' still not found; treat as unverified. Freeze-driven breaks are expected this afternoon and overnight.",
-    "open_count": 321,
-    "run_at": "2026-11-25T20:00:00Z",
-    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; re-opened ~1:45 PM 11/25 (Lane 1), still posted unchanged, no street, no boil advisory; likely stale. Possible (low) impact for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
+    "note": "2:35-2:50 PM CST 11/25 four-lane run under the Winter Storm Warning. New, Ring 2, impact none: MAW 146502 Clarkson Valley main break (from 2:30 PM, ~6 hr) and MAW 146501 Ellisville investigation. No boil advisory in St. Louis City or County (stlwater.com none; KFVS list shows none for the metro). Unchanged, all past ETR: Clayton 146283, University City 146125/146193, Richmond Heights 143300 (posted since 10/29, likely stale). stlwater.com outage list still stamped 12:30 AM 11/25. WashU: Tao Tennis chilled-water closure under way 11/25-12/7, 7 AM-3 PM; emergency.washu.edu still shows only the 11/24 Watch post; WashU Medicine Facilities shows no utility notices. KFVS: Millstone Route 146 and New Madrid #2 entries already tracked; Collinsville and Columbia remain off the list (already monitoring). Undated lead not tracked: an AOL/FOX 2 story on a MAW 48-hour precautionary boil advisory for parts of Bridgeton, Maryland Heights and Earth City, issued on an unspecified Sunday; no primary source and no current MAW boil notice found, so treat as unverified and likely old. MAW ID probe: 146505-146508, 146510, 146515, 146520, 146530, 146540 empty; newest populated 146504 (Joplin), so the next run should resume at 146505. Not reached: MO DNR boil page, MSD, Kirkwood, KMOV, Post-Dispatch, STLPR, BJC, Cortex, Loop, Forest Park Forever, X, Reddit, Nextdoor. FOX 2 'S Big Bend near Weber' still not found; unverified.",
+    "open_count": 323,
+    "run_at": "2026-11-25T20:45:00Z",
+    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; re-opened ~2:40 PM 11/25 (Lane 1), still posted unchanged, no street, no boil advisory; likely stale. Possible (low) impact for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
   },
   "incidents": [
     {
@@ -2025,6 +2025,24 @@
       "washu_impact": "none"
     },
     {
+      "affected_assets": [],
+      "assessment": "New 2:45 PM CT 11/25 (Lane 1 only, ID probe): MAW alert 146502, main-break emergency repairs from 2:30 PM 11/25, ~6 hr estimate (~8:30 PM); no street; no boil advisory. Separate from tracked Clarkson Valley 146278 by start date. ~15 mi W of West Campus; ~10 mi from Tyson (well water); no WashU asset; no Ring 1 corridor. Impact none. Freeze-driven breaks expected under the Winter Storm Warning. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-25T20:45:00Z",
+      "id": "maw-clarksonvalley-unlocated-20261125",
+      "last_updated": "2026-11-25T20:45:00Z",
+      "location": "Clarkson Valley, MO (west St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146502"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Clarkson Valley — emergency repairs (alert 146502)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
       "affected_assets": [
         "West Campus",
         "6200 Forsyth construction site",
@@ -2309,6 +2327,24 @@
       ],
       "status": "resolved",
       "title": "Missouri American Water main break, Des Peres — second break, emergency repairs (alert 142355)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 2:45 PM CT 11/25 (Lane 1 only, ID probe): MAW alert 146501, investigation of a possible service issue; no start time, street or estimate; no boil advisory. ~8 mi from Tyson (well water), ~15 mi W of West Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-25T20:45:00Z",
+      "id": "maw-ellisville-investigation-20261125",
+      "last_updated": "2026-11-25T20:45:00Z",
+      "location": "Ellisville, MO (west St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146501"
+      ],
+      "status": "open",
+      "title": "Missouri American Water service investigation, Ellisville — possible low/no pressure (alert 146501)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
