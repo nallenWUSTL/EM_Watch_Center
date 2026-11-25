@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "9:45 PM CST 11/24 four-lane run. Nothing new in Ring 1 or St. Louis City/County; no boil advisory in City or County (City Water news newest 8/25; March South City advisory lifted 3/16). Still posted unchanged: MAW Clayton 146283, U City 146125/146193 (overdue), Brentwood 146345 (ETR ~10 PM). City outages page stamped 9:30 PM 11/24: 6 active outages; Southland and N Broadway Mallinckrodt past ETR; Penrose (ETR 11/26), N Kingshighway Penrose-Lillian (11/27), Union Brown-W Florissant (12/1), Union Geraldine-Bircher (no times); N Kingshighway & Cabanne work order still no ETR. AW ID probe 146365-146370 empty; next run probe from 146366. KFVS list unchanged (18:51 UTC). KSDK S Hanley 20-inch story: undated, Monday 3 PM start does not match 146283; treated as likely older. WashU Alert: Winter Storm Watch Wed PM-Thu PM only. Not checked: MSD, MO DNR, Kirkwood, municipal pages, BJC, Cortex, Loop, MoDOT; WashU Facilities construction page failed to load; MAW alerts index loaded empty.",
+    "note": "10:45 PM CST 11/24 four-lane run. Nothing new confirmed; no boil advisory in St. Louis City or County (City Water news newest 8/25; stlwater.com ?p=9725 is the lifted 8/17 Chain of Rocks advisory). AW ID probe 146362-146373 empty; next run probe from 146374. MAW Clayton 146283, U City 146125/146193, Brentwood 146345 still posted, all past ETR. City outages page 10:30 PM: same 6 outages; N Kingshighway & Cabanne work order not seen (possibly closed, unconfirmed). Unverified: FOX 2 undated story of MAW break on S Big Bend Blvd near Weber Ave (Maplewood/Shrewsbury), 'early Tuesday'; Post-Dispatch and FOX 2 'multiple breaks in STL County' stories unreadable (paywall/fetch fail) — recheck. Tao Tennis chilled-water repair starts 11/25. WashU Alert: Winter Storm Watch Wed PM-Thu PM; city banner shows Warning 11/25 noon-11/26 6 PM. KFVS list unchanged (18:51 UTC). Failed: MAW boil page, MO DNR, MSD, Kirkwood, claytonmo.gov, KSDK; not reached: BJC, Cortex, Loop, MoDOT.",
     "open_count": 314,
-    "run_at": "2026-11-25T03:45:00Z",
-    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; still posted unchanged at ~9:35 PM (~13.5 hr after start), no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
+    "run_at": "2026-11-25T04:45:00Z",
+    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; still posted at ~10:35 PM (~8.5 hr overdue), no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
   },
   "incidents": [
     {
@@ -1826,11 +1826,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 5:40 PM CT 11/24 (Lane 1 only, ID probe): MAW alert 146345, main-break emergency repairs dated 11/24, restoration ~10 PM (wording garbled); low pressure or discoloration possible; no street; no boil advisory. Brentwood borders Richmond Heights; ~1-3 mi S/SW of South Campus and West Campus (city-level estimate); no WashU asset identified; no Ring 1 corridor. Impact none. Escalate if a street near Clayton Rd, Big Bend or Brentwood Blvd north of I-64 is published. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "assessment": "Updated 10:45 PM CT 11/24 (Lane 1): MAW 146345 still posted after its ~10 PM ETR; only standard post-repair advisory text, no confirmed completion, no street, no boil advisory. ~1-3 mi S/SW of South and West Campus (city-level estimate); no WashU asset identified; no Ring 1 corridor. Impact none. Separate unverified FOX 2 item (undated, 'early Tuesday') reports a MAW break on S Big Bend Blvd near Weber Ave, Maplewood/Shrewsbury area; not tied to this alert. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-24T23:40:00Z",
       "id": "maw-brentwood-unlocated-20261124",
-      "last_updated": "2026-11-24T23:40:00Z",
+      "last_updated": "2026-11-25T04:45:00Z",
       "location": "Brentwood, MO (mid St. Louis County; street not published, alert refers to MAW map)",
       "ring": 2,
       "single_source": true,
@@ -2074,11 +2074,11 @@
         "Danforth Campus (Clayton portion)",
         "South Campus"
       ],
-      "assessment": "Updated 6:40 PM CT 11/24 (Lane 1 reopened alert): MAW 146283 still posted ~10.5 hr after its 8 AM start (~4.5 hr past ~2 PM ETR); no street, completion text or boil advisory. Lanes 2-4 found no news, city, WashU or social post naming a street; undated KSDK S Hanley Rd story and Jan 2026 stories ruled out as stale. Impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus pending street. Winter Storm Watch Wed PM-Thu PM raises freeze-break risk. Action: Facilities or EM call MAW (1-866-430-0820) or Clayton Public Works for location and restoration; check Clayton-side buildings for pressure/discoloration Wednesday morning. Owner: Facilities / Emergency Management.",
+      "assessment": "Updated 10:45 PM CT 11/24 (Lanes 1 and 4 reopened alert): MAW 146283 still posted ~14.5 hr after its 8 AM start (~8.5 hr past ~2 PM ETR); Est. End and Last Updated blank; no street, completion text or boil advisory. No news, city, WashU or social post names a street (Lanes 2-4); undated Yahoo 'water main break in Clayton' item would not load and is treated as unverified. Impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus pending street. Winter Storm Watch/Warning Wed-Thu raises freeze-break risk. Action: Facilities or EM call MAW (1-866-430-0820) or Clayton Public Works for location and status; check Clayton-side buildings for pressure/discoloration Wednesday morning. Owner: Facilities / Emergency Management.",
       "confidence": "Medium",
       "first_seen": "2026-11-24T15:45:00Z",
       "id": "maw-clayton-unlocated-20261124",
-      "last_updated": "2026-11-25T00:40:00Z",
+      "last_updated": "2026-11-25T04:45:00Z",
       "location": "Clayton, MO (street not published by utility)",
       "ring": 1,
       "single_source": true,
@@ -7454,11 +7454,11 @@
       "affected_assets": [
         "Medical Campus (northern access via Kingshighway)"
       ],
-      "assessment": "Updated 3:45 PM CT 11/24 (Lanes 1 and 3, outages.php stamped 3:30 PM): still listed only as a main-repair work order opened 2:13 PM; no outage card, area or ETR; no boil advisory. ~1.3-1.5 mi N of the Medical Campus on Kingshighway north of Delmar; same City system. Impact possible (low): traffic on the Kingshighway approach to the Medical Campus; pressure effect unlikely. Escalate if an outage card or closure appears south of Delmar. Owner: Emergency Management / Medical Campus Ops (monitor).",
+      "assessment": "Updated 10:45 PM CT 11/24 (Lane 1, outages.php stamped 10:30 PM): the N Kingshighway & Cabanne work order did not appear in the fetched page; may be closed or missed by the fetch, so kept open, not resolved. ~1.3-1.5 mi N of the Medical Campus north of Delmar; no outage card or boil advisory. Impact possible (low): traffic on the Kingshighway approach to the Medical Campus. Resolve if absent again next run. Owner: Emergency Management / Medical Campus Ops (monitor).",
       "confidence": "Medium",
       "first_seen": "2026-11-24T20:45:00Z",
       "id": "stlwater-stlouiscity-nkingshighway-cabanne-20261124",
-      "last_updated": "2026-11-24T21:45:00Z",
+      "last_updated": "2026-11-25T04:45:00Z",
       "location": "N Kingshighway Blvd & Cabanne Ave, St. Louis City (~1.3 mi N of Medical Campus, north of Delmar)",
       "ring": 2,
       "single_source": true,
