@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "8:45 AM CST 11/25 four-lane run. No new incidents; no records changed. No boil advisory in St. Louis City or County (City Water news newest 8/25; stlwater.com homepage none; ?p=9725 again judged the stale Aug 17 advisory). Re-verified still posted, unchanged: MAW 146283 Clayton, 146125/146193 University City, 146345 Brentwood (past ETR), 146313 Berkeley planned (window 8:30 AM-2:30 PM today), 146358 Neptune investigation. MAW probe 146359-146385: only 146375 'Blakely: Repairs Scheduled' (no state, customers not affected; judged outside region); highest live ID 146375. City outages page (updated 8:30 AM): same 6 outages and 12 work orders; Penrose Euclid-Kingshighway ETR 11/26 8:32 PM, N Kingshighway Penrose-Lillian ETR 11/27 7:14 PM, Union/Brown ETR 12/1, Union Geraldine-Bircher no dates, Southland/Finkmann and N Broadway/Mallinckrodt past ETR, Kingshighway & Cabanne work order unchanged; nothing in CWE, Skinker-DeBaliviere, Delmar or Forest Park. KFVS list still modified 10:49 UTC; Millstone WD entry matches tracked record. WashU Facilities: Tao Tennis chilled-water repair begins today (11/25-12/7) unchanged. WashU Emergency site still shows only the Winter Storm Watch post (Warning noon 11/25-6 PM 11/26); expect freeze-driven breaks this afternoon and overnight. S Big Bend near Weber item still unfound (Lanes 2, 4); unsubstantiated. Not reached: Reddit (blocked), MAW alerts index (does not render), fox2now/ksdk/stltoday article pages, MSD, MO DNR list, STLPR, Patch, Clayton/Richmond Heights/Brentwood/Maplewood/Ladue pages, BJC, Cortex, Loop, MoDOT. Next run: probe MAW from 146376 at least 25 IDs past last hit.",
-    "open_count": 315,
-    "run_at": "2026-11-25T14:45:00Z",
-    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; re-opened ~8:40 AM 11/25 (Lane 1), still posted, unchanged, no street, no boil advisory; likely stale. Impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
+    "note": "9:50 AM CST 11/25 four-lane run. No new incidents. One change: Devils Kitchen IL (Grassy Rd) boil order lifted 11/25 per KFVS list (modified 14:43 UTC), resolved. No boil advisory in St. Louis City or County (stlwater homepage none; City Water news newest 8/25; ?p=9725 is the stale Aug advisory, lifted 8/18). MAW probe 146376-146400 plus 146410/146425: no new alerts; highest live ID still 146375. Re-verified still posted, unchanged: MAW 146283 Clayton, 146125/146193 University City, 146345 Brentwood (past ETR), 146313 Berkeley planned (8:30 AM-2:30 PM today), 146358 Neptune. City outages page (stamped 9:30 AM): same 6 outages, Kingshighway & Cabanne newest work order; nothing in CWE, Skinker-DeBaliviere, Delmar or Forest Park. KFVS: Cape Girardeau, Collinsville, Columbia still off list (already monitoring). WashU Facilities newest 11/20; Tao Tennis chilled-water work starts today; WashU Emergency still shows Winter Storm Watch post only. S Big Bend near Weber rumor: Lanes 2 and 4 recommend dropping (no dated source). Not reached: Reddit, X (blocked), MAW index, fox2now pages (client error), MO DNR boil page (server error), MSD, KMOV, STLPR, Post-Dispatch, municipal pages for Clayton/Richmond Heights/Brentwood/Maplewood/Ladue, BJC, Cortex, Loop, MoDOT. Winter Storm Warning from noon; expect freeze-driven breaks. Next run: probe MAW from 146376.",
+    "open_count": 314,
+    "run_at": "2026-11-25T15:50:00Z",
+    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; re-opened ~9:40 AM 11/25 (Lane 1), still posted, unchanged, no street, no boil advisory; likely stale. Impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
   },
   "incidents": [
     {
@@ -102,18 +102,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 11:45 AM CT 11/23 (Lane 2 only, KFVS Heartland list modified 17:31 UTC 11/23): boil order dated Mon 11/23, until further notice; cause and start time not given. ~100+ mi SE; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 9:50 AM CT 11/25 (Lane 2): KFVS Heartland boil list (modified 14:43 UTC 11/25) shows the Devils Kitchen Grassy Rd boil order lifted Wed 11/25. ~100+ mi SE; separate system; no WashU asset. Impact none. Owner: Emergency Management (closed).",
       "confidence": "Low",
       "first_seen": "2026-11-23T17:45:00Z",
       "id": "devilskitchen-williamsoncounty-grassyrd-20261123",
-      "last_updated": "2026-11-23T17:45:00Z",
+      "last_updated": "2026-11-25T15:50:00Z",
       "location": "Grassy Rd from South Wolf Creek Rd to the water office, Williamson/Jackson County, IL",
       "ring": 3,
       "single_source": true,
       "sources": [
         "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "Devils Kitchen Water Office boil order, Grassy Rd from S Wolf Creek Rd to the water office",
       "utility": "Devils Kitchen Water Office (IL)",
       "washu_impact": "none"
