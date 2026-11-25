@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "1:40 AM CST 11/25 four-lane run. No new or changed incidents; no boil advisory in St. Louis City or County (stlwater boil page none). City outages page 1:30 AM unchanged: 6 outages, N Kingshighway & Cabanne still a work order only, Southland/Finkmann and Mallinckrodt/N Broadway past ETR. No Ring 1 corridor item. Tao Tennis chilled-water fire-lane closure starts today 7 AM. KFVS list unchanged (18:51 UTC 11/24). LIMIT: American Water alert pages returned script-only shells this run, so MAW Ring 1 alerts (146283, 146125, 146193, 146345, 146173) and the ID probe from 146359 were NOT verified; next run probe from 146359. FOX 2 S Big Bend/Weber item still not found; treated unverified. Undated KSDK story on S Hanley Rd (Bonhomme-Forsyth) Clayton break found, not tied to 146283. WashU EM site still shows Winter Storm Watch; city banner shows Warning noon 11/25-6 PM 11/26; freeze-driven breaks likely. Not checked: MSD, Kirkwood, MO DNR list, municipal pages, BJC/Cortex/MoDOT; social feeds not indexed.",
+    "note": "2:45 AM CST 11/25 four-lane run. No new or changed incidents; no boil advisory in St. Louis City or County. MAW alert pages loaded this run: 146283 Clayton, 146125/146193 University City, 146345 Brentwood all still posted past ETR, no streets. IDs 146359-146363, 146365 returned empty (probably not yet issued); next run probe from 146364 upward. St. John 146346 and New Madrid CWD 2 already tracked. City outages page shows 6 outages unchanged (timestamp read as 12:30 AM by Lane 3, 2:30 AM by Lane 1; feed may be stale; Southland/Finkman and N Broadway/Mallinckrodt past ETR); nearest are N Kingshighway Penrose-Lillian and Penrose Euclid-Kingshighway, ~3 mi N of Medical Campus. Kingshighway & Cabanne still a work order only. KFVS list unchanged (18:51 UTC 11/24). KSDK S Hanley Rd Clayton story found but undated, MAW said no service impact. Tao Tennis chilled-water fire-lane closure starts today 7 AM. WashU EM site still shows Winter Storm Watch; Warning noon 11/25-6 PM 11/26. Not checked: MSD, Kirkwood, MO DNR list, IAW, KMOV/Post-Dispatch/STLPR, BJC/Cortex/MoDOT; Reddit, X and Nextdoor blocked.",
     "open_count": 314,
-    "run_at": "2026-11-25T07:40:00Z",
-    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; last confirmed posted ~12:35 AM 11/25, no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus. Status not re-verified this run."
+    "run_at": "2026-11-25T08:45:00Z",
+    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; re-verified still posted 2:35 AM 11/25, no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
   },
   "incidents": [
     {
@@ -2074,16 +2074,17 @@
         "Danforth Campus (Clayton portion)",
         "South Campus"
       ],
-      "assessment": "Updated 12:45 AM CT 11/25 (Lanes 1 and 4 reopened alert): MAW 146283 still posted ~16.5 hr after its 8 AM 11/24 start (~10.5 hr past ~2 PM ETR); Last Updated blank; no street, completion text or boil advisory. No news, city, WashU or social post names a street (Lanes 2-4). Impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus pending street. Winter Storm Warning noon 11/25-6 PM 11/26 per city banner raises freeze-break risk. Action: Facilities confirm no pressure/discoloration complaints at Clayton-side buildings; EM call MAW for the street if still posted after daybreak. Owner: Facilities / Emergency Management.",
+      "assessment": "Updated 2:45 AM CT 11/25 (Lanes 1 and 4 re-opened alert): MAW 146283 re-verified still posted ~18.5 hr after its 8 AM 11/24 start (~12.5 hr past ~2 PM ETR); Last Updated blank; no street, completion text or boil advisory. Lane 2 located the KSDK S Hanley Rd (Bonhomme-Forsyth) break story: SB Hanley closed Maryland-Bonhomme from ~3 PM on a Monday, MAW said service not affected; story undated, so not tied to 146283. Impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus pending street. Winter Storm Warning from noon 11/25. Resolve when dropped from MAW alerts. Owner: Facilities / Emergency Management (monitor).",
       "confidence": "Medium",
       "first_seen": "2026-11-24T15:45:00Z",
       "id": "maw-clayton-unlocated-20261124",
-      "last_updated": "2026-11-25T06:45:00Z",
+      "last_updated": "2026-11-25T08:45:00Z",
       "location": "Clayton, MO (street not published by utility)",
       "ring": 1,
       "single_source": true,
       "sources": [
-        "https://alertsdetail.awapps.com/alert/146283"
+        "https://alertsdetail.awapps.com/alert/146283",
+        "https://ksdk.com/article/news/local/water-main-breaks-temporarily-closes-roads-clayton/63-298497b8-e232-45d7-9a87-32c2dce82044"
       ],
       "status": "open",
       "title": "Missouri American Water main break, Clayton — emergency repairs (alert 146283)",
