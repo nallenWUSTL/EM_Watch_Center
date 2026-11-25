@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "6:40 PM CST 11/24 four-lane run. New: none in MO/IL (AW ID probe: 146353 is WV American Water, South Charleston; 146354-146358 empty; next run probe from 146354). Updated: Clayton 146283 still Active, street unknown. Unchanged and still posted: U City 146125/146193, Brentwood 146345 (ETR ~10 PM), Webster Groves 146338/146332, Ladue 146173, Rock Hill 146160/146102, Berkeley planned 146313 (11/25). City outages page (6:30 PM) unchanged: Penrose/N Kingshighway cluster, Union Blvd items, N Broadway/Mallinckrodt past ETR, Southland ETR 7 PM, N Kingshighway & Cabanne work order; nothing in CWE/Cortex/Medical Campus. KFVS list unchanged (18:51 UTC). No boil advisory in St. Louis City or County. WashU Alert: Winter Storm Watch only (Wed PM-Thu PM, 4-6 in; freeze-break risk). Facilities: Tao Tennis chilled-water closure starts 11/25. Data note: New Madrid CWD #2 advisory has 5 duplicate records in water_incidents. Not checked: MSD, MO DNR, Kirkwood; municipal pages for Clayton, U City, Brentwood, Maplewood, Ladue, Richmond Heights, Eureka; BJC, Cortex, Loop, MoDOT.",
+    "note": "7:45 PM CST 11/24 four-lane run. New: none affecting WashU. AW ID probe: 146354 = MAW St. John (merged into tracked 146346 record); 146355 = Indiana American Water (Lowell IN, lifted); 146356-146362, 146365, 146370 empty; 146363-146364, 146366-146369 not probed; next run probe from 146356. Unchanged and still posted: Clayton 146283, U City 146125/146193, Brentwood 146345 (ETR ~10 PM). City outages page stamped 7:30 PM 11/23 (stale): Penrose and N Kingshighway Penrose-Lillian outages, Union Brown-W Florissant; Cabanne work order and Union Geraldine-Bircher no longer listed (not confirmed resolved, left unchanged). Nothing in CWE/Cortex/Medical Campus. KFVS list unchanged (18:51 UTC). No boil advisory in St. Louis City or County (stlwater.com p=9725 'in effect' page is the 8/17 advisory, lifted 8/18). Unconfirmed lead: undated KSDK story of MAW break on S Hanley Rd between Bonhomme and Forsyth, Clayton; not tied to 146283. WashU Alert: Winter Storm Watch only (Wed PM-Thu PM). Tao Tennis chilled-water closure 11/25-12/7. Not checked: MSD, MO DNR (table did not load), Kirkwood, MAW boil page, municipal pages, BJC, Cortex, Loop, MoDOT; social media thin.",
     "open_count": 316,
-    "run_at": "2026-11-25T00:40:00Z",
-    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; still posted at 6:40 PM, ~4.5 hr past ETR, no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
+    "run_at": "2026-11-25T01:45:00Z",
+    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; still posted at 7:40 PM, ~5.5 hr past ETR, no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
   },
   "incidents": [
     {
@@ -4460,16 +4460,17 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 5:40 PM CT 11/24 (Lane 1 only, ID probe): MAW alert 146346, main-break emergency repairs dated 11/24, ETR ~10:15 PM; no street; no boil advisory. Likely follow-on to tracked investigation 146337/146339. ~6-7 mi NW of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "assessment": "Updated 7:45 PM CT 11/24 (Lane 1, ID probe): new MAW alert 146354, St. John main break dated 11/24, ETR ~10:15 PM, no street, no boil advisory; same ETR as 146346, so treated as an update or duplicate of this event. ~6-7 mi NW of North Campus; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-24T23:40:00Z",
       "id": "maw-stjohn-unlocated-20261124",
-      "last_updated": "2026-11-24T23:40:00Z",
+      "last_updated": "2026-11-25T01:45:00Z",
       "location": "St. John, MO (north St. Louis County; street not published)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://alertsdetail.awapps.com/alert/146346"
+        "https://alertsdetail.awapps.com/alert/146346",
+        "https://alertsdetail.awapps.com/alert/146354"
       ],
       "status": "open",
       "title": "Missouri American Water main break, St. John — emergency repairs (alert 146346)",
