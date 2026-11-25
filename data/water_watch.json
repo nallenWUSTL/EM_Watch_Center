@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "10:45 AM CST 11/25 four-lane run. No new or changed incidents. No boil advisory in St. Louis City or County (stlwater homepage and City Water news newest 8/25; banners only winter storm and shelter beds). MAW probe 146376-146380 and 146382 empty; 146375 is Blakely (not St. Louis area); 146381 and 146383+ not probed (proxy refused scripted probes). Re-verified still posted, unchanged: MAW 146283 Clayton, 146125/146193 University City, 146345 Brentwood (all past ETR). City outages page unchanged (6 outages, 12 work orders; newest N Kingshighway & Cabanne 11/24 2:13 PM); page timestamp 12:30 AM 11/25, possibly stale; Southland & Finkmann and N Broadway & Mallinckrodt past ETR but still listed. KFVS Heartland list (14:43 UTC): Millstone WD Route 146 and New Madrid CWD 2 already tracked; Anniston, Dunklin PWSD 3, Du Quoin E Park St unchanged; Cape Girardeau, Collinsville, Columbia, Lewistown still off list (monitoring). WashU Facilities: Tao Tennis chilled-water work Nov 25-Dec 7 unchanged; only generator tests today. emergency.washu.edu still shows Winter Storm Watch post only. WashU Medicine Facilities: no water outages. U City and Clayton sites: no alerts. Lane 4: stlwater.com/?p=9725 is an undated stale Aug advisory, do not treat as active. Not reached: amwater.com/moaw/alerts (no entries rendered), MO DNR boil page (server error), MSD, Kirkwood current, KSDK/KMOV/FOX 2/Post-Dispatch/STLPR direct pages, Eureka/Richmond Heights/Brentwood/Maplewood/Ladue pages, BJC, Cortex, Loop, Forest Park Forever, MoDOT, X/Reddit/Facebook/Nextdoor. Winter Storm Warning from noon; expect freeze-driven breaks. Next run: probe MAW from 146381.",
+    "note": "11:45 AM CST 11/25 four-lane run. No new incidents; no boil advisory in St. Louis City or County (stlwater boil page none; City Water news newest 8/25). Only change: City Water Howard St 19th-20th dropped off the outage list (restoration unconfirmed; outages page timestamp 12:30 AM 11/25, possibly stale). MAW 146283 Clayton, 146125/146193 University City and 146345 Brentwood still posted and unchanged (all past ETR). MAW probe 146381, 146383-146387, 146390, 146395 and 146400 all empty; next run resume at 146381. KFVS Heartland list (14:43 UTC) unchanged. WashU: Tao Tennis chilled-water closure Nov 25-Dec 7 unchanged; emergency.washu.edu still shows only the 11/24 Winter Storm Watch post, behind the NWS Warning. WashU Medicine Facilities: no water outages. City CEMA: Winter Storm Warning noon 11/25 to 6 PM 11/26; City offices close at 2 PM. Stale items filtered: FOX 2 Jan 28 2026 regional breaks roundup, Mar 2026 South City boil advisory, 2017 S Taylor outage, undated KSDK Olive Blvd. 'S Big Bend near Weber' still unverified. Not reached: amwater ilaw alerts (IAW items not re-checked), MSD, MO DNR, claytonmo.gov, stltoday (tollbit), Reddit, X, Facebook, Nextdoor, BJC, Cortex, Loop, Forest Park Forever, MoDOT. Expect freeze-driven breaks after noon.",
     "open_count": 314,
-    "run_at": "2026-11-25T16:45:00Z",
-    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; re-opened ~10:40 AM 11/25 (Lane 1), still posted, unchanged, no street, no boil advisory; likely stale. Impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
+    "run_at": "2026-11-25T17:45:00Z",
+    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; re-checked ~11:40 AM 11/25 (Lane 1), still posted and unchanged, no street, no boil advisory; likely stale. Possible (low) impact for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
   },
   "incidents": [
     {
@@ -7033,17 +7033,16 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 6:45 PM CT 11/23 (Lanes 1 and 3, outages.php stamped 6:30 PM 11/23): Howard St (19th–20th) no longer listed; likely restored but not confirmed by the City, so moved to monitoring, not resolved. ~4 mi E of the Medical Campus; no WashU asset; impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 11:45 AM CT 11/25 (Lane 1): no longer listed under current outages on stlwater.com/outages (page shows last update 12:30 AM 11/25, possibly stale). Restoration not confirmed by the utility, so it stays in monitoring and is not resolved. Near north downtown, ~5+ mi E of Medical Campus; no WashU asset; impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-19T16:40:00Z",
       "id": "stlwater-stlouiscity-howard-19th-20261119",
-      "last_updated": "2026-11-24T00:45:00Z",
+      "last_updated": "2026-11-25T17:45:00Z",
       "location": "Howard St between N 19th St and N 20th St, St. Louis City (63106)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/wateroos.php",
-        "https://www.stlwater.com/outages.php"
+        "https://www.stlwater.com/outages/"
       ],
       "status": "monitoring",
       "title": "City of St. Louis Water Division service outage, Howard St between 19th St and 20th St (near north downtown)",
