@@ -1,0 +1,224 @@
+{
+  "bluf": "NWS Winter Storm Warning for St. Louis City and County, noon Wed to 6 PM Thu: 3-8 in. heavy wet snow, heaviest Wed night into early Thu, changing to rain Thu midday with gusts to 30 mph. Classes are on break, so the risk is a thinly staffed campus with break-housing residents, the Thu 6-7 AM Medical Campus shift change, the Thu 8 AM Forest Park Turkey Trot, limb-down outages, and Fri-Sat melt into West Campus below-grade archives. Saturday is the week's peak: first home NCAA football playoff game at noon. No life-safety, health or infrastructure trigger touches a WashU asset.",
+  "briefing_url": "https://claude.ai/artifact/71EX5kiriBf5xg42gQY1Hn",
+  "date": "2026-11-25",
+  "dissents": [
+    {
+      "note": "Moved to Now; overrules weather lane's narrower framing.",
+      "title": "Underrated: Thursday shift change and stranded students",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Added at Today; single-source inference, Medium confidence.",
+      "title": "Underrated: melt into West Campus archives",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Brief from NWS 3-8 in. only.",
+      "title": "Overrated: 'foot or more' snow totals",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Red Team says Sev 2/Monitor; cyber lane Sev 4/This week. Kept Sev 4, Low likelihood, This week.",
+      "title": "Overrated: sector ransomware",
+      "verdict": "carried"
+    },
+    {
+      "note": "Sev 4, Low. Hedge: warming/backup-power building, generators, CO and space-heater guidance.",
+      "title": "Scenario: power loss in occupied break housing",
+      "verdict": "carried"
+    }
+  ],
+  "lanes_quiet": [
+    2,
+    3,
+    6
+  ],
+  "lookahead": [
+    {
+      "date": "2026-11-25",
+      "dow": "Wed",
+      "loads": "Break begins; outbound travel; storm warning from noon",
+      "stacked": true,
+      "wx": "Mix then snow; ~1 in. by evening, 3-5 in. overnight; high near 40"
+    },
+    {
+      "date": "2026-11-26",
+      "dow": "Thu",
+      "loads": "Thanksgiving; Med Campus shift change in heaviest snow; Turkey Trot 8 AM; holiday staffing",
+      "stacked": true,
+      "wx": "Snow then rain by midday; upper 30s; gusts 30 mph"
+    },
+    {
+      "date": "2026-11-27",
+      "dow": "Fri",
+      "loads": "Black ice AM; Blues 1 PM; Wild Lights opens; Black Friday traffic",
+      "stacked": false,
+      "wx": "Partly cloudy, mid-40s; early ice"
+    },
+    {
+      "date": "2026-11-28",
+      "dow": "Sat",
+      "loads": "NCAA playoff noon Francis Olympic Field; Blues 6 PM; melt water watch",
+      "stacked": true,
+      "wx": "Mostly sunny, mid-50s; rapid melt"
+    },
+    {
+      "date": "2026-11-29",
+      "dow": "Sun",
+      "loads": "Students return; travel peak Lambert and I-64",
+      "stacked": false,
+      "wx": "Partly sunny, low 50s, 40% rain"
+    },
+    {
+      "date": "2026-11-30",
+      "dow": "Mon",
+      "loads": "Classes resume",
+      "stacked": false,
+      "wx": "Partly cloudy, low 50s"
+    },
+    {
+      "date": "2026-12-01",
+      "dow": "Tue",
+      "loads": "Normal operations",
+      "stacked": false,
+      "wx": "Partly sunny, mid-50s, 20% rain early"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "active",
+      "summary": "Winter Storm Warning noon Wed-6 PM Thu, 3-8 in.; ~20% worst case 8-12 in. with tree damage and outages. No quake, river, AQI or fire-weather trigger."
+    },
+    {
+      "name": "Life-safety threat",
+      "pir": 2,
+      "status": "quiet",
+      "summary": "No dated Ring 1 violent incident, no threat naming WashU, no large demonstration. Watch Marketplace-robbery pattern (Nov 12, CWE) and Ring 2 juvenile shootings Nov 22."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "watch",
+      "summary": "No local advisory, outbreak or diversion. Early national H1N1 flu season; MO/IL not yet high; return-travel risk Nov 29-Dec 7. Measles elimination lost; no St. Louis exposures."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "watch",
+      "summary": "No outage at a WashU asset, no CISA directive. BYOD ransomware hitting peer universities/AMCs (Vanderbilt, MSU, UNM); holiday credential risk. Possible Ameren limb-down outages tonight."
+    },
+    {
+      "name": "Scheduled activity",
+      "pir": 5,
+      "status": "watch",
+      "summary": "Break Nov 25-29. Turkey Trot Thu 8 AM. NCAA D3 playoff WashU vs. Wartburg Sat noon, Francis Olympic Field, first home playoff. Blues Fri/Sat; Wild Lights opens Nov 27. Hirsch Center slipped to winter 2027."
+    },
+    {
+      "name": "Policy, legal and funding",
+      "pir": 6,
+      "status": "quiet",
+      "summary": "No change in 24 h. CR and NFIP expire Dec 11; another stopgap expected. MO OHS FY2027 C-UAS NOFO posted; GAO-27-109434 on FEMA grant scoring."
+    }
+  ],
+  "posture": "Elevated",
+  "published_at": "2026-11-25T11:58:00Z",
+  "run_note": "Charter read (rev 10). All seven lanes complete. Severity 4 items re-verified (NWS MOZ064, STLPR, Malwarebytes). Published ~06:00 CT.",
+  "title": "WashU EM Daily Intelligence Briefing, November 25, 2026",
+  "today_items": [
+    {
+      "action": "Decide early release/remote work by late morning; confirm overnight snow removal (Medical Campus routes first); secure 6200 Forsyth crane; storm message to students on campus and traveling.",
+      "confidence": "High",
+      "likelihood": "High",
+      "owner": "EM, Facilities, Communications",
+      "pir": 1,
+      "rank": 1,
+      "severity": 3,
+      "source": "https://forecast.weather.gov/MapClick.php?zoneid=MOZ064",
+      "title": "Winter Storm Warning, 3-8 in. wet snow",
+      "ttd": "Now"
+    },
+    {
+      "action": "Pre-plan holdover staff for Thu 6-7 AM shift change; pull break-housing roster; set up rooms and meals for students whose travel falls through.",
+      "confidence": "Medium",
+      "likelihood": "Medium",
+      "owner": "Medical Campus Security, Student Affairs",
+      "pir": 1,
+      "rank": 2,
+      "severity": 3,
+      "source": "https://reslife.washu.edu/living-at-washu/for-students/academic-break-housing/",
+      "title": "Thursday shift change and stranded students",
+      "ttd": "Now"
+    },
+    {
+      "action": "Clear drains, area wells and sumps before noon; walk-throughs Thu PM and Fri.",
+      "confidence": "Medium",
+      "likelihood": "Medium",
+      "owner": "Facilities",
+      "pir": 1,
+      "rank": 3,
+      "severity": 3,
+      "source": "https://forecast.weather.gov/MapClick.php?zoneid=MOZ064",
+      "title": "Melt and water intrusion, West Campus below-grade archives",
+      "ttd": "Today"
+    },
+    {
+      "action": "Get course map and go/no-go from organizer and Forest Park.",
+      "confidence": "Medium",
+      "likelihood": "High",
+      "owner": "EM, WUPD",
+      "pir": 5,
+      "rank": 4,
+      "severity": 2,
+      "source": "https://runsignup.com/Race/Info/MO/StLouis/StLouisTurkeyTrot",
+      "title": "Forest Park Turkey Trot inside the warning",
+      "ttd": "Today"
+    },
+    {
+      "action": "Plan Friday pre-treatment for walkways, garages and Medical Campus entrances.",
+      "confidence": "Medium",
+      "likelihood": "Medium",
+      "owner": "Facilities",
+      "pir": 1,
+      "rank": 5,
+      "severity": 2,
+      "source": "https://forecast.weather.gov/MapClick.php?zoneid=MOZ064",
+      "title": "Refreeze and black ice, Friday commute",
+      "ttd": "Today"
+    },
+    {
+      "action": "Tell departing students about the North Hanley airport shuttle and the elevator outage (ADA).",
+      "confidence": "Medium",
+      "likelihood": "Occurring",
+      "owner": "Student Affairs, Communications",
+      "pir": 4,
+      "rank": 6,
+      "severity": 2,
+      "source": "https://www.metrostlouis.org/rider-alerts/",
+      "title": "MetroLink: Lambert stations closed; Forest Park-DeBaliviere elevator out",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "Winter Storm Warning noon Wed to 6 PM Thanksgiving (3-8 in. wet snow): decide early release, overnight snow-removal staffing with Medical Campus routes first, and secure 6200 Forsyth crane by late morning.",
+  "unreachable": [
+    "NWS alerts API (robots-blocked)",
+    "SPC Day 1-3 (stale)",
+    "Newer LSX forecast discussions",
+    "AirNow / MO DNR AQI",
+    "USGS Mississippi gage (stale)",
+    "Clayton PD weekly report",
+    "University City PD and County PD releases",
+    "KSDK crime pages (undated/failed)",
+    "Missouri flu dashboard",
+    "CDC FluView weeks 45-46",
+    "Regional wastewater",
+    "BJC diversion status",
+    "Ameren outage map",
+    "MoDOT 2026 closures",
+    "missouriruns.com",
+    "State Dept Afghanistan advisory page",
+    "Vendor status pages (Workday, Canvas, Zoom, Everbridge)"
+  ]
+}
