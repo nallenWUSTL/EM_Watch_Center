@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "5:40 PM CST 11/24 four-lane run. New: MAW Brentwood 146345 (Ring 2 edge, ETR ~10 PM, impact none), St. John 146346, Joplin 146341, IAW Pontiac planned boil order 11/25 (146347). Updated: Mt. Prospect lift 146343/146344 (146315 to monitoring); Clayton 146283 still Active, street unknown. Unchanged: U City 146125/146193, Webster Groves 146338/146332, Ladue 146173, Rock Hill 146160/146102 all still posted; City outage cards unchanged (Penrose/N Kingshighway cluster already tracked); KFVS list unchanged (12:51 PM). No boil advisory in St. Louis City or County. WashU Alert: Winter Storm Watch only (Wed PM-Thu PM, 4-6 in; freeze-break risk). Facilities: Tao Tennis chilled-water closure 11/25-12/7; generator tests 11/25; Wrighton Hall service interruption 11/25 8-10 AM. AW ID probe: new alerts at 146340-146352; next run probe 146353 upward. Not checked: MSD; MO DNR and Kirkwood pages failed; FOX 2, Post-Dispatch, RFT, several municipal pages not reached.",
+    "note": "6:40 PM CST 11/24 four-lane run. New: none in MO/IL (AW ID probe: 146353 is WV American Water, South Charleston; 146354-146358 empty; next run probe from 146354). Updated: Clayton 146283 still Active, street unknown. Unchanged and still posted: U City 146125/146193, Brentwood 146345 (ETR ~10 PM), Webster Groves 146338/146332, Ladue 146173, Rock Hill 146160/146102, Berkeley planned 146313 (11/25). City outages page (6:30 PM) unchanged: Penrose/N Kingshighway cluster, Union Blvd items, N Broadway/Mallinckrodt past ETR, Southland ETR 7 PM, N Kingshighway & Cabanne work order; nothing in CWE/Cortex/Medical Campus. KFVS list unchanged (18:51 UTC). No boil advisory in St. Louis City or County. WashU Alert: Winter Storm Watch only (Wed PM-Thu PM, 4-6 in; freeze-break risk). Facilities: Tao Tennis chilled-water closure starts 11/25. Data note: New Madrid CWD #2 advisory has 5 duplicate records in water_incidents. Not checked: MSD, MO DNR, Kirkwood; municipal pages for Clayton, U City, Brentwood, Maplewood, Ladue, Richmond Heights, Eureka; BJC, Cortex, Loop, MoDOT.",
     "open_count": 316,
-    "run_at": "2026-11-24T23:40:00Z",
-    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; still posted at 5:40 PM, ~3.5 hr past ETR, no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
+    "run_at": "2026-11-25T00:40:00Z",
+    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; still posted at 6:40 PM, ~4.5 hr past ETR, no street, no boil advisory; impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
   },
   "incidents": [
     {
@@ -2074,11 +2074,11 @@
         "Danforth Campus (Clayton portion)",
         "South Campus"
       ],
-      "assessment": "Updated 5:40 PM CT 11/24 (Lane 1 reopened alert): MAW 146283 still Active ~9.5 hr after its 8 AM start (~3.5 hr past ~2 PM ETR); no street, no completion text, no boil advisory. Lanes 2-4 found no news, city or WashU notice naming a street; Clayton PD Nextdoor post still unreadable (date unknown); an undated KSDK story on a S Hanley Rd (Bonhomme-Forsyth) 20-inch break appears old and is not evidence. Impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus pending street. Action: Facilities or EM call MAW (1-866-430-0820) or Clayton Public Works for the location and restoration; check Clayton-side buildings for pressure/discoloration Wednesday morning ahead of the winter storm. Owner: Facilities / Emergency Management.",
+      "assessment": "Updated 6:40 PM CT 11/24 (Lane 1 reopened alert): MAW 146283 still posted ~10.5 hr after its 8 AM start (~4.5 hr past ~2 PM ETR); no street, completion text or boil advisory. Lanes 2-4 found no news, city, WashU or social post naming a street; undated KSDK S Hanley Rd story and Jan 2026 stories ruled out as stale. Impact possible (low) for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus pending street. Winter Storm Watch Wed PM-Thu PM raises freeze-break risk. Action: Facilities or EM call MAW (1-866-430-0820) or Clayton Public Works for location and restoration; check Clayton-side buildings for pressure/discoloration Wednesday morning. Owner: Facilities / Emergency Management.",
       "confidence": "Medium",
       "first_seen": "2026-11-24T15:45:00Z",
       "id": "maw-clayton-unlocated-20261124",
-      "last_updated": "2026-11-24T23:40:00Z",
+      "last_updated": "2026-11-25T00:40:00Z",
       "location": "Clayton, MO (street not published by utility)",
       "ring": 1,
       "single_source": true,
