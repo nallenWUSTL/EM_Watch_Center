@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "6:35-6:50 PM CST 11/25 four-lane run under the Winter Storm Warning. Nothing new in Rings 1-2. MAW 146502 Clarkson Valley, 146505 Wildwood and 146501 Ellisville seen again, already tracked. MAW 146283 Clayton and 146125/146193 University City detail pages still active, no street, ETRs long past. stlwater.com/outages still last updated 12:30 AM 11/25 (~18 hr stale), same six outages. No boil advisory in St. Louis City or County (MAW boil page and MO DNR page did not load). emergency.washu.edu newest still 11/24 10 PM storm warning; Med Campus outages page has no water items. Heartland list unchanged since 14:43 UTC 11/25 (Millstone Rt 146 and New Madrid already tracked). New Ring 3 only: MAW 146504 Joplin. Ruled out as old: KSDK S Hanley Clayton story, FOX 2/Yahoo 'breaks Wednesday morning' (Jan 28 2026), Clayton road-closure page (Sept 2025 Art Fair). Still unverified: KSDK 13th & Branch (undated), Clayton PD Nextdoor 'Water Main Break UPDATE' and Richmond Heights PD Nextdoor post (blocked), FOX 2 north City break videos 11709265/11709575 (would not load). MAW ID probe: highest populated 146512 (other state); 146513-146520, 146525, 146530, 146534, 146536, 146538-146539, 146541-146544, 146546, 146548 empty; resume at 146549. Hard freeze overnight into Thanksgiving raises break risk.",
-    "open_count": 326,
-    "run_at": "2026-11-26T00:50:00Z",
-    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; detail page re-opened ~6:40 PM 11/25 (Lanes 1, 3), still active and unchanged, no street, no boil advisory; likely stale. Possible (low) impact for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
+    "note": "7:35-7:45 PM CST 11/25 four-lane run under the Winter Storm Warning. Nothing new in Ring 1. New Ring 2: MAW 146513 Fenton investigation (impact none). City Water outages.php stamped 7:30 PM 11/25 (5 outages, 11 work orders); /outages view still stamped 12:30 AM 11/25. Penrose Euclid-Kingshighway and Partridge & McLaran no longer listed (monitoring); N Kingshighway Penrose-Lillian (ETR 11/27) and N Kingshighway & Cabanne work order still listed. Untracked hydrant work orders (Brooklyn & N 9th, 41 Dock, St. Louis Ave & Norwood) not filed. MAW 146283 Clayton, 146125/146193 University City still posted unchanged. No boil advisory in St. Louis City or County (City pages; stlwater ?p=9725 is the old Aug 2026 advisory). MAW boil page errored; MO DNR, Kirkwood, MSD not checked. WashU Alert newest still 11/24 storm warning; Danforth and Med Campus facilities have no new water items. KFVS list unchanged since 14:43 UTC 11/25. Ruled out as old: Jan 28 2026 FOX 2/Yahoo regional breaks, undated KSDK Bonhomme and 13th & Branch stories. Nextdoor Clayton PD / Richmond Heights PD leads still unverified. Out of area: MAW 146514 Gary IN boil advisory. MAW ID probe: highest populated 146514; resume at 146515.",
+    "open_count": 327,
+    "run_at": "2026-11-26T01:45:00Z",
+    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; re-opened ~7:35 PM 11/25 (Lane 1), still posted unchanged, no street, no boil advisory; likely stale. Possible (low) impact for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
   },
   "incidents": [
     {
@@ -2401,6 +2401,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main breaks, Eureka — emergency repairs (alerts 146286, 146294)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 7:40 PM CT 11/25 (Lane 1 only, ID probe): MAW alert 146513, investigation of a possible service issue; no start time, ETR or street; no boil advisory. ~15-18 mi SW of Danforth; well beyond Tyson (own well supply); no WashU asset; no Ring 1 corridor. Impact none. Hard freeze under the Winter Storm Warning raises break risk. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-26T01:40:00Z",
+      "id": "maw-fenton-investigation-20261125",
+      "last_updated": "2026-11-26T01:40:00Z",
+      "location": "Fenton, MO (SW St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146513"
+      ],
+      "status": "open",
+      "title": "Missouri American Water service investigation, Fenton — possible service issue (alert 146513)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -7857,11 +7875,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Reopened 10:45 PM CT 11/23 (Lane 1): Partridge Ave & McLaran Ave main repair (work order dated 11/18 11:04 AM) is listed again on the City Water outages page (stamped 7:30 PM 11/23); the 11/20 closure was by absence only. No restoration time; no boil advisory. Far north City, Ring 2; no WashU asset; impact none. Resolve when dropped with confirmation. Owner: Emergency Management (track only).",
+      "assessment": "Updated 7:40 PM CT 11/25 (Lane 1, outages.php stamped 7:30 PM 11/25): no longer listed again after reappearing 11/23. Likely repaired, not confirmed; stays in monitoring. Far north City, Ring 2; no WashU asset; impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-18T17:45:00Z",
       "id": "stlwater-stlouiscity-partridge-mclaran-20261118",
-      "last_updated": "2026-11-24T04:45:00Z",
+      "last_updated": "2026-11-26T01:40:00Z",
       "location": "Partridge Ave & McLaran Ave, St. Louis City (Walnut Park area, far north City)",
       "ring": 2,
       "single_source": true,
@@ -7894,18 +7912,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 3:45 PM CT 11/20 (Lane 1; verified by supervisor on page stamped 3:30 PM 11/20): still listed; out of service 12:32 PM 11/18, estimated restoration now 8:32 PM Thu 11/26 (multi-day). North City; no WashU asset; no boil order. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 7:40 PM CT 11/25 (Lane 1, stlwater.com/outages.php stamped 7:30 PM 11/25): no longer listed (prior ETR 8:32 PM 11/26). Likely restored but the City has not confirmed it, so moved to monitoring, not resolved. North City; no WashU asset; no boil order. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-18T19:45:00Z",
       "id": "stlwater-stlouiscity-penrose-euclid-20261118",
-      "last_updated": "2026-11-20T21:45:00Z",
+      "last_updated": "2026-11-26T01:40:00Z",
       "location": "Penrose St between Euclid Ave and N Kingshighway Blvd, St. Louis City (north City)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/outages"
+        "https://www.stlwater.com/outages",
+        "https://www.stlwater.com/outages.php"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division service outage, Penrose St between Euclid Ave and N Kingshighway (north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
