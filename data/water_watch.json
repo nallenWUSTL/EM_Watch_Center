@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "9:35-9:40 AM CST 11/26 four-lane run, Thanksgiving, Winter Storm Warning to 6 PM. New: MAW 146585 Wildwood/Ellisville boil advisory (merged into the Wildwood advisory record); MAW 146588 Pine Lawn main break (9 AM, ~6 hr). Ring 1: nothing new; WashU Alert newest is the 11/24 storm warning; IT Status Facilities component Operational; Medical Campus outage notices nothing water-related; Tao Tennis chilled-water closure unchanged (11/25-12/7). City outages.php stamped 9:30 AM: no new entries, no City boil advisory; Penrose/Euclid, Howard/19th, Partridge/McLaran absent (already monitoring, not resolved); Kingshighway Penrose-Lillian ETR 11/27 7:14 PM unchanged; Union Brown-W Florissant ETR 12/1. ID probe: 146586 Monterey CA, 146587 Taylor (state unknown), 146589 New Albany IN lift; 146590-93 empty; resume at 146590. KFVS list unchanged since 11/25 (New Madrid CWD 2, Millstone already tracked). Stale rejected: stlwater ?p=9725 (Aug 17 2026 advisory, lifted 8/18), Jan 2025 Wildwood, Quincy 2025, Hillsboro Mar 2025. Gaps: MSD, MO DNR, Kirkwood, MAW boil page and alert list (load errors), BJC/Cortex/Loop/MoDOT not opened; social posts from today not indexed.",
-    "open_count": 332,
-    "run_at": "2026-11-26T15:40:00Z",
-    "top_incident": "Ring 2: MAW precautionary boil advisories in Wildwood (146581, Rte 100/109, 7:30 AM) and now Wildwood/Ellisville (146585, 8:45 AM), both power-outage related, ~48+ hr. No WashU asset on MAW there; Tyson on well water ~7-10 mi away."
+    "note": "10:33-10:40 AM CST 11/26 four-lane run, Thanksgiving, Winter Storm Warning to 6 PM. New (all Ring 2, impact none): MAW 146593 Pasadena Hills main break (10 AM, ~6 hr); 146591 Glendale investigation; 146594 Eureka investigation (near Tyson, well water). Unchanged: Wildwood/Ellisville boil advisories 146581/146585; Pine Lawn 146588; City Kingshighway Penrose-Lillian ETR 11/27 7:14 PM, Union Brown-W Florissant ETR 12/1, Union Geraldine-Bircher (already tracked), N Kingshighway & Cabanne. Ring 1: nothing new; WashU Alert newest 11/24 storm warning; Med Campus facilities outages nothing water-related. ID probe: 146590 Chattanooga TN, 146592 New Albany IN boil advisory; 146595-99 empty; resume at 146595. KFVS list unchanged since 11/25 8:43 AM. Stale rejected again: stlwater ?p=9725 (Aug 2026 advisory, lifted 8/18). Gaps: MSD, MO DNR, Kirkwood, MAW alert list page (no content), BJC/Cortex/Loop/MoDOT not opened; KSDK/FOX 2 storm stories failed to load.",
+    "open_count": 335,
+    "run_at": "2026-11-26T16:40:00Z",
+    "top_incident": "Ring 2: MAW precautionary boil advisories in Wildwood (146581, Rte 100/109) and Wildwood/Ellisville (146585), power-outage related, ~48+ hr (lift unlikely before ~11/28). No WashU asset on MAW there; Tyson on well water."
   },
   "incidents": [
     {
@@ -2386,6 +2386,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 10:40 AM CT 11/26 (Lanes 1 and 4, ID probe): alert 146594, investigation of a possible service issue, low or no pressure possible; no streets, times or boil order. Possibly storm/power-outage related (Wildwood advisories nearby). Nearest WashU asset Tyson Research Center (~2-5 mi; on its own well, not MAW); no Ring 1 corridor. Impact none. Action: Tyson staff aware via existing Wildwood note; no separate action. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-26T16:40:00Z",
+      "id": "maw-eureka-investigation-20261126",
+      "last_updated": "2026-11-26T16:40:00Z",
+      "location": "Eureka (state not printed; most likely Eureka, MO, far SW St. Louis County; streets not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146594"
+      ],
+      "status": "open",
+      "title": "American Water service investigation, Eureka — possible low/no pressure (alert 146594)",
+      "utility": "Missouri American Water (state not printed; likely)",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 12:45 AM CT 11/24 (Lane 1 only, ID probe): MAW alert 146211, main-break emergency repairs from 11:30 PM 11/23, ~8 hr estimate (~7:30 AM 11/24); possible discolored water, low or no pressure; no street; no boil advisory. Leak investigation 146210 (Eureka) likely the same event. Nearest asset Tyson Research Center (~4-6 mi, estimate), which is on well water, so likely not on this system. No WashU asset affected; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only; Tyson staff may note if site access roads are affected).",
       "confidence": "Medium",
       "first_seen": "2026-11-24T06:45:00Z",
@@ -3060,6 +3078,24 @@
       "status": "open",
       "title": "Missouri American Water emergency repairs with discoloration, Frontenac (alert 144399)",
       "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 10:40 AM CT 11/26 (Lanes 1 and 4, ID probe): alert 146591, investigation of a possible service issue, low or no pressure possible; no streets, times or boil order. If Glendale, MO: ~5-6 mi SW of South Campus and Danforth; no WashU asset; no Ring 1 corridor. Impact none. Confirm state; resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-26T16:40:00Z",
+      "id": "maw-glendale-investigation-20261126",
+      "last_updated": "2026-11-26T16:40:00Z",
+      "location": "Glendale (state not printed; most likely Glendale, MO, mid St. Louis County; streets not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146591"
+      ],
+      "status": "open",
+      "title": "American Water service investigation, Glendale — possible low/no pressure (alert 146591)",
+      "utility": "Missouri American Water (state not printed; likely)",
       "washu_impact": "none"
     },
     {
@@ -4217,6 +4253,24 @@
       "status": "open",
       "title": "Missouri American Water main break, Parkville — emergency repairs (alert 144780)",
       "utility": "Missouri American Water (probable; Missouri marker not checked)",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 10:40 AM CT 11/26 (Lanes 1 and 4 opened the alert): MAW 146593, main-break emergency repairs from 10:00 AM 11/26, ~6 hr estimate (~4 PM); low pressure, no water or discoloration possible; no streets; no boil advisory. ~3-5 mi N/NW of North Campus and Danforth (estimate); MAW County system, not the City-served campus portions; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-26T16:40:00Z",
+      "id": "maw-pasadenahills-unlocated-20261126",
+      "last_updated": "2026-11-26T16:40:00Z",
+      "location": "Pasadena Hills, MO (north St. Louis County near Normandy; streets not published)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146593"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Pasadena Hills — emergency repairs (alert 146593)",
+      "utility": "Missouri American Water",
       "washu_impact": "none"
     },
     {
