@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "2:35-2:45 PM CST 11/26 four-lane run (Thanksgiving, Winter Storm Warning to 6 PM). No new incidents in St. Louis City/County or Metro East. Update: N Kingshighway Penrose-Lillian dropped from live outages.php (2:30 PM) per Lanes 1 and 3, resolved; /outages/ page stale at 1:30 AM. City table 4 active rows (Union Geraldine-Bircher, Southland Finkman-Loughborough and N Broadway Mallinckrodt-Destrehan past ETR, Union Brown-W Florissant ETR 12/1); N Kingshighway & Cabanne work order still listed. MAW 146581/146585 boil advisories confirmed still active. ID probe: highest populated 146601 (Lexington, no customer impact, out of area); 146602-146620 empty, spot 146640/146660 empty; resume at 146602. WashU Alert newest 11/24; Tao Tennis chilled-water closure unchanged; WashU Medicine no water notices. Storm coverage is power outages only (Ameren ~114-125k). Unverified: FOX 2 headline of I-44 closure near Valley Park for main break, undated, page would not open, not recorded. New Madrid CWD2 already tracked. Gaps: MO DNR, MSD, Kirkwood not opened; MAW alerts index did not render; social search thin.",
+    "note": "3:35-3:45 PM CT 11/26 four-lane run (Thanksgiving; Winter Storm Warning to 6 PM; Ameren ~123-125k out). No new incidents in St. Louis City/County or Ring 1. New Ring 3: MAW Foristell investigation 146602. Resolved: City Penrose St Euclid-N Kingshighway (off live outages two runs). City outages.php (3:30 PM) unchanged at 4 active rows; N Kingshighway & Cabanne work order still listed. WashU Alert, Facilities and Med Facilities: no water notices; Tao Tennis chilled-water closure unchanged. No news or social report links storm power loss to water pressure beyond Wildwood/Ellisville. ID probe: highest populated 146603 (Sacramento CA); 146604-146610, 146612, 146615, 146620, 146630, 146645, 146680 empty; resume at 146604. Ruled out as stale: stlwater.com ?p=9725 boil page (Aug 17 advisory, lifted 8/18), Lindell main break (2020), Linden/Pershing U City (Jan 2026), Bridgeton/Maryland Heights boil story (undated, older). Unverified: FOX 2 I-44 Valley Park main-break closure, undated, page blocked; not recorded. Gaps: MAW alerts index and boil page, MO DNR, MSD, Forest Park Forever not reachable; KSDK, BJC, Cortex, MoDOT not opened directly.",
     "open_count": 335,
-    "run_at": "2026-11-26T20:45:00Z",
-    "top_incident": "Ring 2: MAW precautionary boil advisories in Wildwood (146581) and Wildwood/Ellisville (146585), power-outage related, still active (issued 7:30 and 8:45 AM 11/26, ~48 hr). No WashU asset on MAW there; Tyson on well water."
+    "run_at": "2026-11-26T21:45:00Z",
+    "top_incident": "Ring 2: MAW precautionary boil advisories in Wildwood (146581) and Wildwood/Ellisville (146585), power-outage related, still active (issued 7:30 and 8:45 AM 11/26, more than 48 hr expected). No WashU asset on MAW there; Tyson on well water."
   },
   "incidents": [
     {
@@ -3059,6 +3059,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water emergency repairs, Florissant (alert 146464)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 3:45 PM CT 11/26 (Lane 1 only, ID probe): MAW alert 146602, investigation of a possible service issue, low or no pressure possible; no street, times or boil advisory. ~35+ mi from Tyson (own well supply), farther from the campuses; separate system; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-26T21:45:00Z",
+      "id": "maw-foristell-investigation-20261126",
+      "last_updated": "2026-11-26T21:45:00Z",
+      "location": "Foristell, MO (western St. Charles / Warren County line; street not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146602"
+      ],
+      "status": "open",
+      "title": "American Water service investigation, Foristell — possible low/no pressure (alert 146602)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -8082,11 +8100,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 11:45 AM CT 11/26 (Lane 1): no longer in the stlwater.com service-outage table (updated 11:30 AM 11/26); restoration not confirmed, so moved to monitoring, not resolved. North City; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 3:45 PM CT 11/26 (Lanes 1 and 3): Penrose St (Euclid to N Kingshighway) row dropped from the City Water live outages table (stlwater.com/outages.php, updated 3:30 PM 11/26) and stayed off across two consecutive runs. North City, well north of the Medical Campus; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-18T19:45:00Z",
       "id": "stlwater-stlouiscity-penrose-euclid-20261118",
-      "last_updated": "2026-11-26T17:45:00Z",
+      "last_updated": "2026-11-26T21:45:00Z",
       "location": "Penrose St between Euclid Ave and N Kingshighway Blvd, St. Louis City (north City)",
       "ring": 2,
       "single_source": true,
@@ -8094,7 +8112,7 @@
         "https://www.stlwater.com/outages",
         "https://www.stlwater.com/outages.php"
       ],
-      "status": "monitoring",
+      "status": "resolved",
       "title": "City of St. Louis Water Division service outage, Penrose St between Euclid Ave and N Kingshighway (north City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
