@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "4:35-4:45 PM CT 11/26 four-lane run (Thanksgiving; Winter Storm Warning to 6 PM; Ameren 100k+ out, multi-day restoration). New: MAW 146604, a St. Louis County investigation with no town or street. No new Ring 1 or St. Louis City incidents. City outages.php (4:30 PM) unchanged at 4 active rows; Southland and N Broadway/Mallinckrodt are past their ETRs but still listed; N Kingshighway & Cabanne work order still listed. WashU Alert shows only the winter storm; Facilities and Med Facilities have no new water notices; Tao Tennis chilled-water closure runs Nov 25-Dec 7. KFVS Heartland list (11/25 8:43 AM) has no St. Louis entries. ID probe: highest populated 146606 (146605 Pekin IL investigation, 146606 New Albany IN boil advisory; both non-local, not recorded). 146607-146612 and 146615 empty; 146613-146614 unchecked; resume at 146607. Ruled out as stale: stlwater ?p=9725 boil page (undated, matches the Aug 17 advisory), Jan 2025 Wildwood boil story, Jan 2026 Linden/Pershing story. Gaps: MAW alerts index (JS-rendered), MSD, Kirkwood, MO DNR, BJC, Cortex, Forest Park Forever, MoDOT and municipal pages not reached.",
-    "open_count": 336,
-    "run_at": "2026-11-26T22:45:00Z",
-    "top_incident": "Ring 2: MAW precautionary boil advisories in Wildwood (146581) and Wildwood/Ellisville (146585) remain active after storm power outages. Both were issued the morning of 11/26 and are expected to last about 48 hr; no lift posted. No WashU asset is on MAW there; Tyson is on well water."
+    "note": "5:35-5:45 PM CT 11/26 four-lane run (Thanksgiving; Winter Storm Warning to 6 PM; Ameren 100k+ out). New: MAW 146607, Ballwin investigation (no street, no boil advisory). No new Ring 1 or St. Louis City incidents; no tracked status changes. WashU Alert still shows only the winter storm; Danforth and Med Campus Facilities have no water notices. KFVS Heartland list unchanged since 11/25 8:43 AM (Millstone Dixon Springs and New Madrid entries already tracked). Lane 1 read the stale /outages page (1:30 AM) listing Kingshighway & Lillian; that row was already resolved from the live outages.php at 2:30 PM, so not re-opened. ID probe: highest populated 146607; 146608-146613, 146616, 146620 empty; 146614-146615, 146617-146619, 146621+ unchecked; resume at 146608. Stale items ruled out again: stlwater ?p=9725 boil page (matches Aug 17 advisory, lifted 8/18), Maryland Heights/Bridgeton undated MAW advisory, Jan 2026 Yahoo main-break roundup, 2025 Kirkwood advisory. Gaps: MAW alerts index (JS-rendered), MSD, Kirkwood, MO DNR, BJC, Cortex, Forest Park Forever, MoDOT, municipal pages. Watch item: Chain of Rocks/Howard Bend power loss could trigger a City boil advisory near Ring 1; none posted.",
+    "open_count": 337,
+    "run_at": "2026-11-26T23:45:00Z",
+    "top_incident": "Ring 2: MAW precautionary boil advisories in Wildwood (146581) and Wildwood/Ellisville (146585) remain active after storm power outages; issued the morning of 11/26, ~48 hr expected; no lift posted. No WashU asset on MAW there; Tyson is on well water."
   },
   "incidents": [
     {
@@ -1312,6 +1312,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water service investigation, Ballwin — possible low/no pressure (alert 145491)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 5:40 PM CT 11/26 (Lane 1 only, ID probe): MAW alert 146607, investigation of a possible service issue, low or no pressure possible; start, end and Last Updated blank; no street; no boil advisory on the page. Possibly storm or power related (not confirmed). ~12 mi W of West Campus, ~15 mi from Danforth; Tyson ~10-12 mi on its own well; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-26T23:40:00Z",
+      "id": "maw-ballwin-investigation-20261126",
+      "last_updated": "2026-11-26T23:40:00Z",
+      "location": "Ballwin, MO (west St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146607"
+      ],
+      "status": "open",
+      "title": "Missouri American Water service investigation, Ballwin — possible low/no pressure (alert 146607)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
