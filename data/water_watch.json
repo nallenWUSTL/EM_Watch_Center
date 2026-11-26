@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "5:32-5:45 PM CST 11/25 four-lane run under the Winter Storm Warning. Nothing new confirmed; no incidents changed. MAW 146283 Clayton, 146125/146193 University City, 146345 Brentwood still posted unchanged (no street, no completion). stlwater.com/outages still last updated 12:30 AM 11/25 (~17 hr stale), same six outages; no new work orders since N Kingshighway & Cabanne (11/24). No boil advisory in St. Louis City or County. WashU: emergency.washu.edu newest still 11/24 10 PM storm warning; Tao Tennis chilled-water closure unchanged (11/25-12/7); Med Campus facilities outages page no water items. Heartland list (modified 14:43 UTC 11/25) unchanged. Unconfirmed leads not recorded: undated KSDK story on a Tuesday-night break at 13th & Branch (Hyde Park, Ring 2); undated KSDK 'breaks across St. Louis area Wednesday morning' and 'south County break' items (pages would not load); Clayton city 'Road Closures: Water Main Break' page and Richmond Heights PD Nextdoor post (both blocked). MAW ID probe: 146521-146524, 146526-146529, 146531-146533, 146535, 146537, 146540, 146545, 146550, 146560, 146570, 146590 empty; next run resume at 146534. Hard freeze overnight into Thanksgiving raises break risk.",
-    "open_count": 325,
-    "run_at": "2026-11-25T23:45:00Z",
-    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; re-opened ~5:35 PM 11/25 (Lanes 1, 3), still posted unchanged, no street, no boil advisory; likely stale. Possible (low) impact for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
+    "note": "6:35-6:50 PM CST 11/25 four-lane run under the Winter Storm Warning. Nothing new in Rings 1-2. MAW 146502 Clarkson Valley, 146505 Wildwood and 146501 Ellisville seen again, already tracked. MAW 146283 Clayton and 146125/146193 University City detail pages still active, no street, ETRs long past. stlwater.com/outages still last updated 12:30 AM 11/25 (~18 hr stale), same six outages. No boil advisory in St. Louis City or County (MAW boil page and MO DNR page did not load). emergency.washu.edu newest still 11/24 10 PM storm warning; Med Campus outages page has no water items. Heartland list unchanged since 14:43 UTC 11/25 (Millstone Rt 146 and New Madrid already tracked). New Ring 3 only: MAW 146504 Joplin. Ruled out as old: KSDK S Hanley Clayton story, FOX 2/Yahoo 'breaks Wednesday morning' (Jan 28 2026), Clayton road-closure page (Sept 2025 Art Fair). Still unverified: KSDK 13th & Branch (undated), Clayton PD Nextdoor 'Water Main Break UPDATE' and Richmond Heights PD Nextdoor post (blocked), FOX 2 north City break videos 11709265/11709575 (would not load). MAW ID probe: highest populated 146512 (other state); 146513-146520, 146525, 146530, 146534, 146536, 146538-146539, 146541-146544, 146546, 146548 empty; resume at 146549. Hard freeze overnight into Thanksgiving raises break risk.",
+    "open_count": 326,
+    "run_at": "2026-11-26T00:50:00Z",
+    "top_incident": "Ring 1: MAW 146283 Clayton main break, repairs from 8:00 AM 11/24, ~6 hr ETR; detail page re-opened ~6:40 PM 11/25 (Lanes 1, 3), still active and unchanged, no street, no boil advisory; likely stale. Possible (low) impact for West Campus, 6200 Forsyth, Clayton-side Danforth and South Campus."
   },
   "incidents": [
     {
@@ -3425,6 +3425,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Joplin, MO (alert 146341)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 6:50 PM CT 11/25 (Lane 1 only, ID probe): MAW alert 146504, main break in Joplin; start date printed as 11/30 (likely an error). ~250 mi SW; separate system; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-26T00:50:00Z",
+      "id": "maw-joplin-unlocated-20261125",
+      "last_updated": "2026-11-26T00:50:00Z",
+      "location": "Joplin, MO (Jasper County; street not published; start date on alert reads 11/30, likely a typo)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146504"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Joplin (alert 146504)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
