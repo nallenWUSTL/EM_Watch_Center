@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "1:35-1:45 PM CST 11/26 four-lane run, Thanksgiving, Winter Storm Warning to 6 PM. No new or changed incidents in St. Louis City/County or Metro East. City outage table (outages.php, updated 1:30 PM): same 4 active rows (Union Geraldine-Bircher; Southland Finkman-Loughborough and N Broadway Mallinckrodt-Destrehan both past ETR, not updated; Union Brown-W Florissant ETR 12/1); N Kingshighway & Cabanne work order still listed. Lane 3 read a /outages/ page stamped 1:30 AM still showing N Kingshighway Penrose-Lillian with ETR 11/27 7:14 PM; conflicts with Lane 1, so Penrose rows left at monitoring, not resolved. MAW 146581/146585 boil advisories reopened, still active. ID probe: highest populated 146600 (Mount Pulaski IL lift); 146601-146640 sampled empty; resume at 146601. WashU Alert newest 11/24 storm warning; Tao Tennis chilled-water closure Nov 25-Dec 7 unchanged; WashU Medicine facilities no water notices. KFVS Heartland list unchanged since 11/25 8:43 AM. City news newest 8/25/2026. Rejected stale: Jan 2026 FOX 2 roundup (U City Linden/Pershing), Jan 2025 Wildwood advisory. Gaps: MO DNR, MSD, Kirkwood, BJC/Cortex/Loop/MoDOT not opened; social search thin.",
-    "open_count": 336,
-    "run_at": "2026-11-26T19:45:00Z",
+    "note": "2:35-2:45 PM CST 11/26 four-lane run (Thanksgiving, Winter Storm Warning to 6 PM). No new incidents in St. Louis City/County or Metro East. Update: N Kingshighway Penrose-Lillian dropped from live outages.php (2:30 PM) per Lanes 1 and 3, resolved; /outages/ page stale at 1:30 AM. City table 4 active rows (Union Geraldine-Bircher, Southland Finkman-Loughborough and N Broadway Mallinckrodt-Destrehan past ETR, Union Brown-W Florissant ETR 12/1); N Kingshighway & Cabanne work order still listed. MAW 146581/146585 boil advisories confirmed still active. ID probe: highest populated 146601 (Lexington, no customer impact, out of area); 146602-146620 empty, spot 146640/146660 empty; resume at 146602. WashU Alert newest 11/24; Tao Tennis chilled-water closure unchanged; WashU Medicine no water notices. Storm coverage is power outages only (Ameren ~114-125k). Unverified: FOX 2 headline of I-44 closure near Valley Park for main break, undated, page would not open, not recorded. New Madrid CWD2 already tracked. Gaps: MO DNR, MSD, Kirkwood not opened; MAW alerts index did not render; social search thin.",
+    "open_count": 335,
+    "run_at": "2026-11-26T20:45:00Z",
     "top_incident": "Ring 2: MAW precautionary boil advisories in Wildwood (146581) and Wildwood/Ellisville (146585), power-outage related, still active (issued 7:30 and 8:45 AM 11/26, ~48 hr). No WashU asset on MAW there; Tyson on well water."
   },
   "incidents": [
@@ -7914,18 +7914,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 11:45 AM CT 11/26 (Lanes 1 and 3): no longer in the stlwater.com service-outage table (page updated 11:30 AM 11/26); restoration not confirmed by the Water Division, so moved to monitoring, not resolved. North City Kingshighway corridor, north of Delmar; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 2:45 PM CT 11/26 (Lanes 1 and 3 independently): row no longer listed on the live City Water outage table (outages.php, stamped 2:30 PM 11/26); the conflicting /outages/ page is stale (stamped 1:30 AM). No explicit restoration notice, treated as cleared per utility table, same practice as MAW index drops. ~1.5 mi N of Medical Campus (Ring 2); no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-11-19T18:45:00Z",
       "id": "stlwater-stlouiscity-nkingshighway-penrose-20261119",
-      "last_updated": "2026-11-26T17:45:00Z",
+      "last_updated": "2026-11-26T20:45:00Z",
       "location": "N Kingshighway Blvd between Penrose St and Lillian Ave, St. Louis City (north City)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/outages/?r=1119"
+        "https://www.stlwater.com/outages.php",
+        "https://www.stlwater.com/outages/"
       ],
-      "status": "monitoring",
+      "status": "resolved",
       "title": "City Water service outage, N Kingshighway Blvd between Penrose St and Lillian Ave",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
