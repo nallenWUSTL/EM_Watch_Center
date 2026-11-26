@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "7:33-7:45 AM CST 11/26 four-lane run, Thanksgiving, Winter Storm Warning still in effect. New: MAW 146581 Wildwood boil advisory (power outage), Wildwood investigations 146573/74/76/77, Ellisville investigation 146579, County investigations 146578/146580 (no town). Ring 1: nothing new; MAW 146283 Clayton, 146125/146193 University City, 146345 Brentwood, 146338 Webster Groves still posted past ETR with no restored wording (likely stale). City outages.php stamped 7:30 AM 11/26: same five outages, no new work orders since 11/24; Kingshighway/Cabanne still a work order only. Tao Tennis chilled-water closure unchanged (11/25-12/7). WashU Alert: storm items only; Medical Campus Facilities: nothing water-related (newest 11/23). KFVS list unchanged since 14:43 UTC 11/25. City Water news newest 8/25/2026. Stale rejected: Jan 28 2026 FOX2/Yahoo freeze breaks, undated MAW Bridgeton/Maryland Heights/Earth City boil advisory (lifted), Jan 2025 Wildwood advisory, Mar 2026 City boil advisory, undated KSDK videos. ID probe: 146541-146590 sampled, empty shells at many IDs; 146600-146700 no content; resume at 146582. Gaps: MSD, Kirkwood, MO DNR, MAW boil page, MoDOT, BJC/Cortex sites, U City CivicAlerts (server error) not opened; social posts not indexed. Snowmelt/freeze-thaw breaks possible later today.",
+    "note": "8:35-8:50 AM CST 11/26 four-lane run, Thanksgiving, Winter Storm Warning to 6 PM. Updated: Wildwood boil advisory now located (Rte 100/109, KMOV 8:12 AM; Lanes 2 and 4) and corroborated; new Wildwood investigation 146582 added to the investigations record. Ring 1: nothing new; WashU Alert storm items only; Danforth and Medical Campus Facilities nothing water-related; Tao Tennis chilled-water closure unchanged. City outages.php stamped 8:30 AM 11/26: Howard/19th and Eichelberger/Alaska absent (already monitoring); Kingshighway/Lillian ETR 11/27 7:14 PM; Kingshighway/Cabanne still a work order only; Southland/Finkmann and Mallinckrodt past ETR. Context: Ameren 100,000+ MO customers out at 5:32 AM, so more pump-station power-loss advisories are possible. ID probe: 146582-146584 content (146583 New Albany IN, 146584 Fleetwood, not local), 146585/86/88/90 empty; resume at 146585. KFVS list unchanged since 14:43 UTC 11/25. Stale rejected: Jan 28 2026 freeze breaks, Jan 2025 Wildwood advisory (alert 71105), 2023 Delmar/Leland break. Gaps: MSD, MO DNR, MAW boil page (load error), IAW, BJC/Cortex/Loop, MoDOT, some municipal pages not opened; KSDK south County investigation page would not load.",
     "open_count": 331,
-    "run_at": "2026-11-26T13:45:00Z",
-    "top_incident": "Ring 2: MAW 146581 precautionary boil water advisory, Wildwood, issued 7:30 AM 11/26 after a power outage, ~48 hr; streets not published. No WashU asset on MAW in Wildwood; Tyson on well water ~5-8 mi away."
+    "run_at": "2026-11-26T14:50:00Z",
+    "top_incident": "Ring 2: MAW 146581 precautionary boil water advisory, Wildwood, near MO Rte 100 / Rte 109 (KMOV confirms), issued 7:30 AM 11/26 after a power outage, 48+ hr. No WashU asset on MAW there; Tyson on well water ~7-9 mi away."
   },
   "incidents": [
     {
@@ -6403,16 +6403,17 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 7:45 AM CT 11/26 (Lane 1; page re-opened by supervisor): MAW alert 146581, precautionary boil water advisory issued 7:30 AM 11/26 after a power outage (likely storm-related), ~48 hr expected; boil water for drinking and cooking; no streets published. Likely linked to Wildwood investigations 146573/146574/146576/146577. Nearest WashU asset Tyson Research Center (~5-8 mi, own well supply, not on MAW); ~20+ mi from Danforth; no Ring 1 corridor. Impact none known. Action: EM confirm no WashU leased/clinical sites or staff housing in Wildwood; Tyson staff should check whether well pumps/treatment lost power in the same outage. Resolve when MAW posts lift. Owner: Emergency Management (track).",
-      "confidence": "Medium",
+      "assessment": "Updated 8:50 AM CT 11/26 (Lanes 2 and 4 independently; Lane 1 re-checked the alert): KMOV/FirstAlert4 (8:12 AM) places the advisory at some homes near MO Route 100 (Manchester Rd) and MO Route 109, Wildwood; caused by an area power outage, expected to last more than 48 hr (~11/28 AM); boil drinking/cooking water 3 min; no street list or customer count. MAW 146581 unchanged. Region-wide Ameren outages (100,000+ customers at 5:32 AM) make more pump-station power-loss advisories possible. Nearest WashU asset Tyson Research Center (~7-9 mi, own well supply, not on MAW); ~20 mi W of Danforth; no Ring 1 corridor. Impact none known. Action: EM confirm no WashU leased, clinical or staff-housing sites in the Rte 100/109 area; Tyson staff check whether well pumps and treatment lost power in the same outage. Resolve when MAW posts lift. Owner: Emergency Management (track).",
+      "confidence": "High",
       "first_seen": "2026-11-26T13:45:00Z",
       "id": "maw-wildwood-boiladvisory-20261126",
-      "last_updated": "2026-11-26T13:45:00Z",
-      "location": "Wildwood, MO (far west St. Louis County; affected area not published by utility)",
+      "last_updated": "2026-11-26T14:50:00Z",
+      "location": "Some homes near MO Route 100 (Manchester Rd) and MO Route 109, Wildwood, MO (far west St. Louis County; street list not published)",
       "ring": 2,
-      "single_source": true,
+      "single_source": false,
       "sources": [
-        "https://alertsdetail.awapps.com/alert/146581"
+        "https://alertsdetail.awapps.com/alert/146581",
+        "https://www.firstalert4.com/2026/11/26/power-outage-prompts-boil-water-advisory-some-wildwood-residents/"
       ],
       "status": "open",
       "title": "Missouri American Water precautionary boil water advisory, Wildwood, after power outage (alert 146581)",
@@ -6421,11 +6422,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 7:45 AM CT 11/26 (Lane 1 only, ID probe): four MAW investigation alerts for Wildwood, possible low or no pressure; no times or streets. Likely tied to the power outage behind boil advisory 146581. Tyson ~5-8 mi on well water; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "assessment": "Updated 8:50 AM CT 11/26 (Lane 1, ID probe): fifth Wildwood investigation alert 146582 (possible low or no pressure; start, update and end fields blank); likely tied to the power outage behind boil advisory 146581. Tyson ~7-9 mi on well water; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-26T13:45:00Z",
       "id": "maw-wildwood-investigation-20261126",
-      "last_updated": "2026-11-26T13:45:00Z",
+      "last_updated": "2026-11-26T14:50:00Z",
       "location": "Wildwood, MO (far west St. Louis County; streets not published)",
       "ring": 2,
       "single_source": true,
@@ -6433,10 +6434,11 @@
         "https://alertsdetail.awapps.com/alert/146573",
         "https://alertsdetail.awapps.com/alert/146574",
         "https://alertsdetail.awapps.com/alert/146576",
-        "https://alertsdetail.awapps.com/alert/146577"
+        "https://alertsdetail.awapps.com/alert/146577",
+        "https://alertsdetail.awapps.com/alert/146582"
       ],
       "status": "open",
-      "title": "Missouri American Water service investigations, Wildwood — possible low/no pressure (alerts 146573, 146574, 146576, 146577)",
+      "title": "Missouri American Water service investigations, Wildwood — possible low/no pressure (alerts 146573, 146574, 146576, 146577, 146582)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
