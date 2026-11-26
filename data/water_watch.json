@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "10:33-10:40 AM CST 11/26 four-lane run, Thanksgiving, Winter Storm Warning to 6 PM. New (all Ring 2, impact none): MAW 146593 Pasadena Hills main break (10 AM, ~6 hr); 146591 Glendale investigation; 146594 Eureka investigation (near Tyson, well water). Unchanged: Wildwood/Ellisville boil advisories 146581/146585; Pine Lawn 146588; City Kingshighway Penrose-Lillian ETR 11/27 7:14 PM, Union Brown-W Florissant ETR 12/1, Union Geraldine-Bircher (already tracked), N Kingshighway & Cabanne. Ring 1: nothing new; WashU Alert newest 11/24 storm warning; Med Campus facilities outages nothing water-related. ID probe: 146590 Chattanooga TN, 146592 New Albany IN boil advisory; 146595-99 empty; resume at 146595. KFVS list unchanged since 11/25 8:43 AM. Stale rejected again: stlwater ?p=9725 (Aug 2026 advisory, lifted 8/18). Gaps: MSD, MO DNR, Kirkwood, MAW alert list page (no content), BJC/Cortex/Loop/MoDOT not opened; KSDK/FOX 2 storm stories failed to load.",
-    "open_count": 335,
-    "run_at": "2026-11-26T16:40:00Z",
-    "top_incident": "Ring 2: MAW precautionary boil advisories in Wildwood (146581, Rte 100/109) and Wildwood/Ellisville (146585), power-outage related, ~48+ hr (lift unlikely before ~11/28). No WashU asset on MAW there; Tyson on well water."
+    "note": "11:35-11:45 AM CST 11/26 four-lane run, Thanksgiving, Winter Storm Warning to 6 PM, 125k+ Ameren outages. New: MAW 146595 Glendale main break (10:30 AM, ~6 hr; Ring 2, impact none; follow-on to 146591). City outage table (11:30 AM): N Kingshighway Penrose-Lillian, Penrose Euclid-Kingshighway, Partridge/McLaran, Howard 19th-20th removed (moved to monitoring); N Kingshighway & Cabanne work order still listed; no rows in CWE/Skinker-DeBaliviere/Forest Park. Unchanged: Wildwood/Ellisville boil advisories; Clayton 146283, U City 146125/146193 still posted, no streets. Heartland list unchanged since 11/25 8:43 AM (New Madrid CWD #2 and Millstone WD Route 146 already tracked). Ring 1: nothing new; WashU Alert newest 11/24 storm warning; Tao Tennis chilled-water closure unchanged. ID probe: 146596 Scranton PA, 146597 Pontiac IL lift, 146598 New Albany IN; 146599-146605 empty; resume at 146599. Stale rejected: FOX 2 Jan 28 2026 breaks story, Jan 2025 Wildwood advisory, undated KSDK Eureka advisory. Gaps: MSD, MO DNR, Kirkwood not opened; MAW alert list page returns no content; KSDK/FOX 2 index pages weak.",
+    "open_count": 336,
+    "run_at": "2026-11-26T17:45:00Z",
+    "top_incident": "Ring 2: MAW precautionary boil advisories in Wildwood (146581, near Rte 100/109) and Wildwood/Ellisville (146585), power-outage related, still in effect, ~48+ hr. No WashU asset on MAW there; Tyson on well water."
   },
   "incidents": [
     {
@@ -3096,6 +3096,24 @@
       "status": "open",
       "title": "American Water service investigation, Glendale — possible low/no pressure (alert 146591)",
       "utility": "Missouri American Water (state not printed; likely)",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 11:45 AM CT 11/26 (Lane 1, ID probe): MAW alert 146595, main break from 10:30 AM 11/26, ~6 hr estimate (~4:30 PM); no street; no boil advisory. Likely the outcome of tracked investigation 146591. ~3-4 mi SW of South Campus, ~5 mi from Danforth (city-level estimate); no WashU asset identified; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-26T17:45:00Z",
+      "id": "maw-glendale-unlocated-20261126",
+      "last_updated": "2026-11-26T17:45:00Z",
+      "location": "Glendale, MO (mid St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146595"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Glendale — emergency repairs (alert 146595)",
+      "utility": "Missouri American Water",
       "washu_impact": "none"
     },
     {
@@ -7439,11 +7457,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 11:45 AM CT 11/25 (Lane 1): no longer listed under current outages on stlwater.com/outages (page shows last update 12:30 AM 11/25, possibly stale). Restoration not confirmed by the utility, so it stays in monitoring and is not resolved. Near north downtown, ~5+ mi E of Medical Campus; no WashU asset; impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 11:45 AM CT 11/26 (Lane 1): no longer in the stlwater.com service-outage table (updated 11:30 AM 11/26); restoration not confirmed, so moved to monitoring, not resolved. Near north downtown; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-19T16:40:00Z",
       "id": "stlwater-stlouiscity-howard-19th-20261119",
-      "last_updated": "2026-11-25T17:45:00Z",
+      "last_updated": "2026-11-26T17:45:00Z",
       "location": "Howard St between N 19th St and N 20th St, St. Louis City (63106)",
       "ring": 2,
       "single_source": true,
@@ -7896,18 +7914,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 3:45 PM CT 11/20 (Lane 1; verified by supervisor on page stamped 3:30 PM 11/20): still listed; out of service 11:14 AM 11/19, estimated restoration now 7:14 PM Thu 11/27 (multi-day). North City, north of Delmar; not the Central West End Kingshighway corridor serving the Medical Campus. No boil order. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 11:45 AM CT 11/26 (Lanes 1 and 3): no longer in the stlwater.com service-outage table (page updated 11:30 AM 11/26); restoration not confirmed by the Water Division, so moved to monitoring, not resolved. North City Kingshighway corridor, north of Delmar; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-19T18:45:00Z",
       "id": "stlwater-stlouiscity-nkingshighway-penrose-20261119",
-      "last_updated": "2026-11-20T21:45:00Z",
+      "last_updated": "2026-11-26T17:45:00Z",
       "location": "N Kingshighway Blvd between Penrose St and Lillian Ave, St. Louis City (north City)",
       "ring": 2,
       "single_source": true,
       "sources": [
         "https://www.stlwater.com/outages/?r=1119"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City Water service outage, N Kingshighway Blvd between Penrose St and Lillian Ave",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
@@ -8026,11 +8044,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 7:40 PM CT 11/25 (Lane 1, outages.php stamped 7:30 PM 11/25): no longer listed again after reappearing 11/23. Likely repaired, not confirmed; stays in monitoring. Far north City, Ring 2; no WashU asset; impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 11:45 AM CT 11/26 (Lane 1): no longer in the stlwater.com outage table (updated 11:30 AM 11/26); completion not confirmed, so moved to monitoring, not resolved. North City; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-18T17:45:00Z",
       "id": "stlwater-stlouiscity-partridge-mclaran-20261118",
-      "last_updated": "2026-11-26T01:40:00Z",
+      "last_updated": "2026-11-26T17:45:00Z",
       "location": "Partridge Ave & McLaran Ave, St. Louis City (Walnut Park area, far north City)",
       "ring": 2,
       "single_source": true,
@@ -8063,11 +8081,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 7:40 PM CT 11/25 (Lane 1, stlwater.com/outages.php stamped 7:30 PM 11/25): no longer listed (prior ETR 8:32 PM 11/26). Likely restored but the City has not confirmed it, so moved to monitoring, not resolved. North City; no WashU asset; no boil order. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 11:45 AM CT 11/26 (Lane 1): no longer in the stlwater.com service-outage table (updated 11:30 AM 11/26); restoration not confirmed, so moved to monitoring, not resolved. North City; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-18T19:45:00Z",
       "id": "stlwater-stlouiscity-penrose-euclid-20261118",
-      "last_updated": "2026-11-26T01:40:00Z",
+      "last_updated": "2026-11-26T17:45:00Z",
       "location": "Penrose St between Euclid Ave and N Kingshighway Blvd, St. Louis City (north City)",
       "ring": 2,
       "single_source": true,
