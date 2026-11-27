@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "4:35-4:45 AM CT 11/27 four-lane run. Nothing new in Rings 1-3; no incident records changed. Lane 1: MAW IDs 146613-146616, 146618, 146620 empty (146617, 146619, 146621+ not reached; restart probe at 146617); 146283 Clayton, 146345 Brentwood, 146612 St. Charles Co, 146581/146585 boil advisories all still posted unchanged. stlwater.com outages (4:30 AM 11/27): same four outages and six work orders incl. N Kingshighway & Cabanne; Southland and N Broadway past ETR but still listed; no City boil advisory. Lane 3: emergency.washu.edu only winter storm posts; Medical Campus facilities no water items; Tao Tennis chilled-water closure unchanged. Lane 2: KFVS Heartland list unchanged since 11/25 8:43 AM. Undated AOL story on a MAW Bridgeton/Maryland Heights/Earth City boil advisory judged stale (search indicates lifted; no MAW alert ID) and not logged. Gaps: KSDK and FOX 2 fetch errors; MSD, Kirkwood, MO DNR not reached; Reddit blocked; holiday overnight search index lag. Risk: 100k+ Ameren outages after Thanksgiving snow; more pump-related advisories and freeze-thaw breaks possible.",
-    "open_count": 338,
-    "run_at": "2026-11-27T10:45:00Z",
-    "top_incident": "Ring 2: MAW precautionary boil advisories in Wildwood (146581, near MO-100/MO-109) and Wildwood/Ellisville (146585) still in effect ~4:35 AM 11/27; earliest lift ~11/28 7:30-8:45 AM. No WashU asset on MAW there; Tyson is on well water."
+    "note": "5:40-5:50 AM CT 11/27 four-lane run. New: MAW 146640 St. Charles main-break investigation (Ring 3, impact none; may duplicate 146612). No other new items and no status changes. Lane 1: MAW IDs 146617-146652 probed; only 146639 (Ashley, likely PA), 146640, 146641 (CA) had content; next probe starts at 146653. 146283 Clayton, 146193 U City, 146345 Brentwood, 146612 St. Charles Co, 146581/146585 boil advisories still posted unchanged. stlwater.com (5:30 AM): same four outages and N Kingshighway & Cabanne work order; no City boil advisory. stlwater.com/?p=9725 is the stale Aug 17 2026 advisory (lifted 8/18), not current. Lane 3: emergency.washu.edu storm posts only; Facilities Tao Tennis chilled-water closure unchanged; Med Campus facilities no water items. Lanes 2 and 4: nothing new; KFVS Heartland list unchanged since 11/25 8:43 AM. Gaps: MO DNR boil page server error; MSD not checked; Reddit blocked; MAW alerts index renders no list; thin overnight holiday news indexing.",
+    "open_count": 339,
+    "run_at": "2026-11-27T11:50:00Z",
+    "top_incident": "Ring 2: MAW precautionary boil advisories in Wildwood (146581, near MO-100/MO-109) and Wildwood/Ellisville (146585) still in effect ~5:45 AM 11/27; earliest lift ~11/28 7:30-8:45 AM. No WashU asset on MAW there; Tyson is on well water."
   },
   "incidents": [
     {
@@ -4618,6 +4618,24 @@
       ],
       "status": "resolved",
       "title": "Missouri American Water main break, St. Ann — second break, emergency repairs (alert 142388)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 5:45 AM CT 11/27 (Lane 1 only, ID probe): MAW alert 146640 reports a main break in the area, with crews still finding the exact spot; no streets, start time, ETR or boil advisory. Possibly the same event as tracked 146612 (St. Charles County), not confirmed. 15+ mi from Danforth and North Campus; separate St. Charles system; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-27T11:45:00Z",
+      "id": "maw-stcharles-investigation-20261127",
+      "last_updated": "2026-11-27T11:45:00Z",
+      "location": "St. Charles, MO (St. Charles County, north of the Missouri River; break location still being found, no street published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146640"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main-break investigation, St. Charles (alert 146640)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
