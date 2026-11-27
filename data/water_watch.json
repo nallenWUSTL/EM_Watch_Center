@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "9:35-9:45 PM CT 11/26 four-lane run. New: MAW 146612 St. Charles County main break (Ring 3, no street). ID probe 146608-146622, 146624: 146608-09 WV, 146610-11 IN lifts, 146612 St. Charles Co; 146613-22, 146624 empty; 146623, 146625+ not opened. City Water outages.php (9:30 PM): same 4 outage rows; Howard St 19th-20th and Partridge/McLaran no longer listed (kept monitoring, no confirmed restoration); N Kingshighway/Cabanne still a work order, no outage. Wildwood/Ellisville advisories reconfirmed on alert pages and FA4/FOX 2; no lift. Ameren ~120k out after storm; more power-loss advisories possible in west/SW County. WashU Alert: only expired winter storm warning; Med Campus facilities feed nothing water-related; Tao Tennis chilled-water closure continues. KFVS list unchanged since 11/25 8:43 AM. Gaps: MAW index empty render, Reddit blocked, BJC/Cortex/Loop/MoDOT/Forest Park and municipal pages not reached.",
+    "note": "10:35-10:45 PM CT 11/26 four-lane run. Nothing new. MAW 146581/146585 re-opened: still active, no lift or expansion. ID probe 146622-146627, 146630, 146635 empty (not yet issued); 146628-29, 146631-34, 146636+ not opened. City Water outages.php (10:30 PM): 4 outage rows (W Florissant & Union, Southland & Finkmann, N Broadway & Mallinckrodt, Union & Brown), all already tracked, none near Ring 1; N Kingshighway/Cabanne still a work order only, no outage. Stale stlwater.com ?p=9725 boil page (Hi-Pointe/Franz Park) is the lifted 8/17 advisory, not current. WashU EM: only expired winter storm warning; Danforth and Med Campus Facilities: no domestic water notices; Tao Tennis chilled-water closure continues. KFVS list unchanged since 11/25 8:43 AM. Gaps: MAW index empty render, Reddit blocked, BJC/Cortex/Loop/MoDOT/Forest Park, MSD/Kirkwood/DNR sites not opened directly.",
     "open_count": 338,
-    "run_at": "2026-11-27T03:45:00Z",
+    "run_at": "2026-11-27T04:45:00Z",
     "top_incident": "Ring 2: MAW precautionary boil advisories in Wildwood (146581, near MO-100/MO-109) and Wildwood/Ellisville (146585) still in effect after storm power outages; ~48 hr, earliest lift ~11/28 AM. No WashU asset on MAW there; Tyson is on well water."
   },
   "incidents": [
