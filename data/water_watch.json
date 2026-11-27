@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "7:40 AM CT 11/27 four-lane run: one new item, City Water main-repair work order at Keokuk St & S Spring Ave (opened 6:26 AM, Ring 2, no outage, impact none). Lane 1: 146581/146585 re-opened, still active, no lift; 146283 (Clayton), 146125/146193 (U City) still posted, stale. stlwater.com/outages (updated 7:30 AM): same four outages, N Kingshighway & Cabanne work order still listed; no City boil advisory. MAW ID probe: 146657, 146659, 146661-146665, 146670, 146675, 146680 empty; 146666-146669, 146671-146674, 146676-146679 unchecked. Lane 2: KFVS list unchanged since 11/25 8:43 AM; no Thanksgiving-weekend breaks in local media; Wildwood, Ellisville, U City homepages no water notices. Lane 3: emergency.washu.edu no alerts; Tao Tennis chilled-water notice unchanged. Lane 4: no social reports. Gaps: MSD, Kirkwood, MO DNR not checked; Med Campus outages page errored; FOX 2 failed to load; Reddit blocked.",
-    "open_count": 340,
-    "run_at": "2026-11-27T13:40:00Z",
-    "top_incident": "Ring 2: MAW precautionary boil advisories in Wildwood (146581) and Wildwood/Ellisville (146585), issued 11/26 after power outages, still in effect ~7:40 AM 11/27; earliest lift ~11/28 7:30-8:45 AM. No WashU asset on MAW there; Tyson is on well water."
+    "note": "8:40 AM CT 11/27 four-lane run: one new item, City Water hydrant-repair work order at Potomac St & Michigan Ave (opened 7:54 AM, Ring 2, no outage, impact none). Lane 1: 146581/146585 still active, no lift; 146283 (Clayton), 146125/146193 (U City) still posted, stale; MAW IDs 146666-146684 plus 146690, 146700 empty; MAW landing page shows no alerts. stlwater.com/outages (8:30 AM): N Kingshighway & Cabanne and Keokuk & S Spring work orders still listed; four outages unchanged (Southland/Finkman, N Broadway/Mallinckrodt ETRs stale); no City boil advisory. MSD, Kirkwood nothing; MO DNR page errored. Lane 2: KFVS list unchanged since 11/25 8:43 AM; no new local media reports; KSDK and FOX 2 failed to load. Lane 3: emergency.washu.edu no alerts; Tao Tennis chilled-water notice unchanged; Wallace Dr work window ended 11/13 (not resolved, no completion notice). Lane 4: St. Charles County 146612 already tracked; no social reports; Reddit blocked.",
+    "open_count": 341,
+    "run_at": "2026-11-27T14:40:00Z",
+    "top_incident": "Ring 2: MAW precautionary boil advisories in Wildwood (146581) and Wildwood/Ellisville (146585), issued 11/26 after power outages, still in effect ~8:40 AM 11/27; earliest lift ~11/28 7:30-8:45 AM. No WashU asset on MAW there; Tyson is on well water."
   },
   "incidents": [
     {
@@ -8242,6 +8242,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division service outage, Plover Ave between Lillian Ave and Thrush Ave (north City)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 8:40 AM CT 11/27 (Lanes 1 and 3, stlwater.com outages page updated 8:30 AM): fire hydrant repair work order opened 7:54 AM 11/27; no service-outage row, no restoration estimate, no boil advisory. ~4-5 mi SE of the Medical Campus (estimate); not on a Ring 1 corridor or Medical Campus route; no WashU asset. Impact none. Resolve when dropped from work orders. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-27T14:40:00Z",
+      "id": "stlwater-stlouiscity-potomac-michigan-hydrant-20261127",
+      "last_updated": "2026-11-27T14:40:00Z",
+      "location": "Potomac St & Michigan Ave, St. Louis City (south City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City Water fire hydrant repair work order, Potomac St & Michigan Ave (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
