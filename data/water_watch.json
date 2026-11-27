@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "10:50 AM CT 11/27 four-lane run: 3 new MAW Ring 2 items (146645 St. Louis County main break, 146648 Webster Groves Tuxedo/Clark investigation, 146665 Eureka main break), all impact none; Wildwood boil advisory lifted (146666), Ellisville 146585 still active. Lane 1 probed 146641-146670 sparsely (146667+ blank); MSD, Kirkwood, MO DNR not reached; MAW landing page empty. stlwater.com/outages still 1:30 AM stamp, same 4 north/south City outages, N Kingshighway & Cabanne work order unchanged; no City boil advisory. Lane 2: KFVS list unchanged since 11/25 8:43 AM; no new local media reports. Lane 3: emergency.washu.edu no alerts; Tao Tennis chilled-water closure through 12/7; no Wallace Dr completion notice; Med Campus facilities updates show no water outage. Lane 4: no social reports; search index thin. Clayton 146283 still posted, stale.",
-    "open_count": 344,
-    "run_at": "2026-11-27T16:50:00Z",
-    "top_incident": "Ring 2: MAW precautionary boil advisory for Wildwood/Ellisville (146585) still in effect; earliest lift ~8:45 AM 11/28. Wildwood advisory 146581 lifted 10:15 AM 11/27 (alert 146666). No WashU asset on MAW there; Tyson is on well water."
+    "note": "11:45 AM CT 11/27 four-lane run: new MAW 146669 (St. Louis County main break from 10:30 AM, ~4:30 PM ETR, no street) and new City outage Keokuk St Bamberger-Giles (11:14 AM-11:14 PM), both impact none. Ellisville boil advisory 146585 lifted 10:15 AM (146667/146668); Wildwood record resolved. stlwater.com outages stamped 11:30 AM: Howard St and Partridge/McLaran no longer listed (kept monitoring); N Kingshighway & Cabanne work order unchanged, no outage. Lane 2: KFVS list unchanged since 11/25; no new local media. Lane 3: emergency.washu.edu no alerts; Facilities and Med Facilities show no water items beyond Tao Tennis chilled-water work. Lane 4: no social reports; Reddit blocked. Not reached: MSD, Kirkwood, MO DNR, MAW IDs above 146676, BJC/Cortex/MoDOT pages.",
+    "open_count": 345,
+    "run_at": "2026-11-27T17:45:00Z",
+    "top_incident": "Ring 1: MAW main breaks in Clayton (146283) and University City (146125/146193) still posted with no street, impact possible (low); no boil order in St. Louis City or County after the Wildwood/Ellisville advisory was lifted 10:15 AM 11/27."
   },
   "incidents": [
     {
@@ -6091,6 +6091,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 11:45 AM CT 11/27 (Lane 1 only, ID probe): MAW alert 146669, main-break emergency repairs from 10:30 AM 11/27, ~6 hr estimate (~4:30 PM); possible low or no pressure or discolored water; no street; no boil advisory. Location unknown, so proximity to WashU cannot be judged; no WashU Alert or Facilities water notice (Lane 3); no news or social corroboration (Lanes 2, 4). Impact none pending location; escalate if a street in Clayton, University City or Richmond Heights is published. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-27T17:45:00Z",
+      "id": "maw-stlouiscounty-unlocated-20261127b",
+      "last_updated": "2026-11-27T17:45:00Z",
+      "location": "St. Louis County, MO (municipality and street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146669"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, St. Louis County — emergency repairs (alert 146669)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 9:50 PM CT 11/20 (Lane 1 only, ID probe): MAW alert 145929, investigation of a possible service issue; ~10 mi W of Danforth; no street; no boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). No WashU asset identified; no Ring 1 corridor named. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-21T03:50:00Z",
@@ -6637,11 +6655,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 10:50 AM CT 11/27 (Lane 1; page re-opened by supervisor): MAW alert 146666 lifts the Wildwood precautionary boil advisory as of 10:15 AM 11/27 (samples met standards); treated as the lift of 146581, though the 146581 page itself still shows Placed. Wildwood/Ellisville advisory 146585 has no lift notice; ~48 hr from 8:45 AM 11/26 points to ~8:45 AM 11/28. Lanes 2 and 4 (First Alert 4) consistent, no later news. Far west St. Louis County; Tyson on its own well; no WashU asset on MAW there. Impact none. Keep open until the Ellisville lift is posted. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 11:45 AM CT 11/27 (Lane 1): MAW lift notices 146667 and 146668 state the remaining precautionary boil advisory (Ellisville, 146585) was lifted 10:15 AM 11/27 after samples met standards; Wildwood portion (146581) lifted earlier via 146666. Ring 2, far west St. Louis County; no WashU asset on MAW there; Tyson on well water. Impact none. Owner: Emergency Management (closed).",
       "confidence": "High",
       "first_seen": "2026-11-26T13:45:00Z",
       "id": "maw-wildwood-boiladvisory-20261126",
-      "last_updated": "2026-11-27T16:50:00Z",
+      "last_updated": "2026-11-27T17:45:00Z",
       "location": "Some homes near MO Route 100 (Manchester Rd) and MO Route 109, Wildwood, MO, plus an Ellisville service area (MAW 146585; no streets published); far west St. Louis County",
       "ring": 2,
       "single_source": false,
@@ -6649,9 +6667,11 @@
         "https://alertsdetail.awapps.com/alert/146581",
         "https://alertsdetail.awapps.com/alert/146585",
         "https://alertsdetail.awapps.com/alert/146666",
+        "https://alertsdetail.awapps.com/alert/146667",
+        "https://alertsdetail.awapps.com/alert/146668",
         "https://www.firstalert4.com/2026/11/26/power-outage-prompts-boil-water-advisory-some-wildwood-residents/"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "Missouri American Water precautionary boil water advisories, Wildwood and Ellisville, after power outage (alerts 146581, 146585)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
@@ -7602,11 +7622,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 9:45 PM CT 11/26 (Lane 1): Howard St 19th-20th no longer appears in either table on the City Water outages page (updated 9:30 PM 11/26); the page does not state restoration, so kept in monitoring, not resolved. Near north downtown; no WashU asset; impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 11:45 AM CT 11/27 (Lane 1): no longer listed on the stlwater.com outage table (page stamped 11:30 AM 11/27), suggesting restoration; not confirmed by a notice, so kept in monitoring. Near north downtown; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-19T16:40:00Z",
       "id": "stlwater-stlouiscity-howard-19th-20261119",
-      "last_updated": "2026-11-27T03:45:00Z",
+      "last_updated": "2026-11-27T17:45:00Z",
       "location": "Howard St between N 19th St and N 20th St, St. Louis City (63106)",
       "ring": 2,
       "single_source": true,
@@ -7713,6 +7733,24 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division service outage, January Ave & Nottingham Ave (Lindenwood Park / St. Louis Hills)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 11:45 AM CT 11/27 (Lane 1, stlwater.com outages page stamped 11:30 AM): water shut off 11:14 AM 11/27, estimated restoration 11:14 PM 11/27. Likely the repair shutdown for the tracked Keokuk & S Spring main repair (not confirmed). ~4 mi SE of the Medical Campus; separate from Ring 1 corridors; no WashU asset. Impact none. Resolve when dropped from the outage table. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-27T17:45:00Z",
+      "id": "stlwater-stlouiscity-keokuk-giles-20261127",
+      "last_updated": "2026-11-27T17:45:00Z",
+      "location": "Keokuk St between Bamberger Ave and Giles Ave, St. Louis City (south City, near tracked Keokuk & S Spring main repair)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php"
+      ],
+      "status": "open",
+      "title": "City Water service outage, Keokuk St between Bamberger Ave and Giles Ave (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
@@ -8228,11 +8266,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 9:45 PM CT 11/26 (Lane 1): Partridge/McLaran no longer appears in either table on the City Water outages page (updated 9:30 PM 11/26); the page does not state completion, so kept in monitoring, not resolved. Far north City; no WashU asset; impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 11:45 AM CT 11/27 (Lane 1): no longer listed on the stlwater.com outage table (page stamped 11:30 AM 11/27), suggesting restoration; not confirmed by a notice, so kept in monitoring. Far north City; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-18T17:45:00Z",
       "id": "stlwater-stlouiscity-partridge-mclaran-20261118",
-      "last_updated": "2026-11-27T03:45:00Z",
+      "last_updated": "2026-11-27T17:45:00Z",
       "location": "Partridge Ave & McLaran Ave, St. Louis City (Walnut Park area, far north City)",
       "ring": 2,
       "single_source": true,
