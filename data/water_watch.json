@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "11:35-11:45 PM CT 11/26 four-lane run. Nothing new; no incident records changed. MAW 146581/146585 and Clayton 146283 re-opened: unchanged, no lift or street. ID probe 146628-29, 146631-34, 146636, 146640, 146645, 146650 empty; 146637-39, 146641-44, 146646-49 not opened; restart probe at 146622. City Water outages.php (11:30 PM): same 4 tracked outages; Southland/Finkmann and N Broadway/Mallinckrodt ETRs passed but still listed (likely stale); N Kingshighway/Cabanne still a work order only. WashU EM and Facilities: no water notices; Tao Tennis chilled-water closure continues. KFVS list unchanged since 11/25 8:43 AM. Gaps: MAW index empty render, KSDK/FOX 2 Wildwood stories failed to load, MSD/Kirkwood/DNR, BJC/Cortex/Loop/MoDOT/Forest Park not opened; social search thin on holiday night.",
-    "open_count": 338,
-    "run_at": "2026-11-27T05:45:00Z",
-    "top_incident": "Ring 2: MAW precautionary boil advisories in Wildwood (146581, near MO-100/MO-109) and Wildwood/Ellisville (146585) still in effect after storm power outages; ~48 hr, earliest lift ~11/28 AM. No WashU asset on MAW there; Tyson is on well water."
+    "note": "12:35-12:45 AM CT 11/27 four-lane run. New: City Water outage N Kingshighway at Lillian (Lane 3, from stlwater.com/outages/ stamped 1:30 AM 11/26; not on outages.php, may be stale). Updated: MAW St. Charles County 146612 ETR ~8 AM 11/27. Wildwood 146581/146585 re-opened, still active. Highest populated American Water alert ID 146612; 146613-146680 sampled empty; restart probe at 146613. outages.php (12:30 AM 11/27): Union Blvd Brown-W Florissant (ETR 12/1), W Florissant & Union, Kingshighway/Cabanne, Southland/Finkmann, Mallinckrodt/N Broadway (ETRs passed). WashU Alert, Danforth and Medical Campus Facilities: no water notices; Tao Tennis closure through 12/7. KFVS list unchanged since 11/25 8:43 AM. Gaps: MSD, Kirkwood, MO DNR, Cortex/Loop/MoDOT/BJC pages not opened; MAW index renders empty; holiday-night news and social thin.",
+    "open_count": 339,
+    "run_at": "2026-11-27T06:45:00Z",
+    "top_incident": "Ring 2: MAW precautionary boil advisories in Wildwood (146581, near MO-100/MO-109) and Wildwood/Ellisville (146585) still in effect after storm power outages; ~48 hr, earliest lift ~11/28 7:30-8:45 AM. No WashU asset on MAW there; Tyson is on well water."
   },
   "incidents": [
     {
@@ -4731,11 +4731,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 9:45 PM CT 11/26 (Lane 1 only, ID probe): MAW alert 146612, emergency main-break repairs begun 11/26; no street, start time or ETR; no boil advisory on page. North of the Missouri River, ~15+ mi from Danforth/North Campus (estimate); separate St. Charles system; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "assessment": "Updated 12:45 AM CT 11/27 (Lane 1): MAW alert 146612 now gives repair completion expected ~8:00 AM 11/27; possible discolored water, low pressure or no water; still no street; no boil advisory. North of the Missouri River, ~15+ mi from Danforth/North Campus; separate St. Charles system; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-27T03:45:00Z",
       "id": "maw-stcharlescounty-unlocated-20261126",
-      "last_updated": "2026-11-27T03:45:00Z",
+      "last_updated": "2026-11-27T06:45:00Z",
       "location": "St. Charles County, MO (municipality and street not published by utility)",
       "ring": 3,
       "single_source": true,
@@ -7984,6 +7984,24 @@
       "title": "City Water main-repair work order, N Kingshighway Blvd & Cabanne Ave",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "possible"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:45 AM CT 11/27 (Lane 3 only): stlwater.com/outages/ (page stamped 1:30 AM 11/26) lists water out of service since 11:14 AM 11/19, ETR 7:14 PM Fri 11/27. Not shown on outages.php (stamped 12:30 AM 11/27) per Lane 1, so may be stale or already restored. North City, ~4-5 mi N of the Medical Campus (estimate); separate from the N Kingshighway & Cabanne work order; no WashU asset; not a Ring 1 corridor segment. No boil advisory. Impact none. Resolve when dropped from both outage pages. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-27T06:45:00Z",
+      "id": "stlwater-stlouiscity-nkingshighway-lillian-20261119",
+      "last_updated": "2026-11-27T06:45:00Z",
+      "location": "N Kingshighway Blvd at Lillian Ave, between Penrose and Lillian, north St. Louis City",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages/"
+      ],
+      "status": "open",
+      "title": "City Water outage, N Kingshighway Blvd between Penrose St and Lillian Ave",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
     },
     {
       "affected_assets": [],
