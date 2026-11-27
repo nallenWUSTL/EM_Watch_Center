@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "11:45 AM CT 11/27 four-lane run: new MAW 146669 (St. Louis County main break from 10:30 AM, ~4:30 PM ETR, no street) and new City outage Keokuk St Bamberger-Giles (11:14 AM-11:14 PM), both impact none. Ellisville boil advisory 146585 lifted 10:15 AM (146667/146668); Wildwood record resolved. stlwater.com outages stamped 11:30 AM: Howard St and Partridge/McLaran no longer listed (kept monitoring); N Kingshighway & Cabanne work order unchanged, no outage. Lane 2: KFVS list unchanged since 11/25; no new local media. Lane 3: emergency.washu.edu no alerts; Facilities and Med Facilities show no water items beyond Tao Tennis chilled-water work. Lane 4: no social reports; Reddit blocked. Not reached: MSD, Kirkwood, MO DNR, MAW IDs above 146676, BJC/Cortex/MoDOT pages.",
+    "note": "12:45 PM CT 11/27 four-lane run: no new or changed incidents. Lane 1: MAW IDs 146670-146680 all out of state, 146681+ blank (start next probe ~146681); 146645 and 146669 still active (no street); stlwater.com outages (12:30 PM) unchanged vs tracked; Keokuk St Bamberger-Giles still to 11:14 PM; MSD no incidents. Undated stlwater.com/?p=9725 boil page matches the August 2026 advisory, judged stale, not new. Lane 2: KFVS list unchanged since 11/25; no new local media; KSDK/FOX 2/Post-Dispatch unreachable. Lane 3: emergency.washu.edu no alerts; Med Campus facilities no water outages; Tao Tennis chilled-water work unchanged. Lane 4: no social reports; Reddit and X blocked. Not reached: MO DNR, Kirkwood, MoDOT/Forest Park feeds.",
     "open_count": 345,
-    "run_at": "2026-11-27T17:45:00Z",
-    "top_incident": "Ring 1: MAW main breaks in Clayton (146283) and University City (146125/146193) still posted with no street, impact possible (low); no boil order in St. Louis City or County after the Wildwood/Ellisville advisory was lifted 10:15 AM 11/27."
+    "run_at": "2026-11-27T18:45:00Z",
+    "top_incident": "Ring 1: MAW main breaks in Clayton (146283) and University City (146125/146193) still posted with no street, impact possible (low); no boil order in St. Louis City or County."
   },
   "incidents": [
     {
