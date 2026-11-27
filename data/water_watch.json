@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "4:45 PM CT 11/27 four-lane run: one new Ring 2 item, MAW 146691 Webster Groves investigation (impact none). Lane 1: IDs 146694-146705 blank (next probe start 146694; newest used 146693; 146690/146692/146693 out of region); all nine Ring 1 MAW alerts still posted, unchanged, no streets; 146669 unchanged; stlwater.com (4:30 PM) outages and work orders match tracked rows (Keokuk & S Spring, Potomac & Michigan already tracked). MAW index script-loaded and empty; MSD, Kirkwood, MO DNR not checked (data.mo.gov blocked). Lane 2: KFVS list unchanged since 11/25; undated KSDK Brentwood Blvd (Darst-Antler, Galleria) break story excluded as unverified/likely stale; Quincy 'Nov 26' boil order is 2025. Lane 3: WashU Alert none; Facilities no new water notices (Tao Tennis chilled-water work unchanged); BJC/Cortex/Loop/MoDOT nothing found. Lane 4: Wildwood boil advisory reported (already tracked, lifted 11/27); no social reports dated 11/26-27 in Ring 1.",
-    "open_count": 347,
-    "run_at": "2026-11-27T22:45:00Z",
-    "top_incident": "Ring 1: MAW main breaks in Clayton (146283) and University City (146125/146193) still posted with no street, impact possible (low); no boil order in St. Louis City or County (Wildwood/Ellisville advisory lifted 11/27 AM)."
+    "note": "5:40 PM CT 11/27 four-lane run: one new Ring 2 item, MAW 146695 Westwood emergency repairs from 5 PM (impact none). Lane 1: probed 146694-146703 (146694 WV out of region; 146696-146703 blank; next probe start 146696); all Ring 1 MAW alerts still posted unchanged with no streets (likely stale postings); 146669 still posted past ETR. stlwater.com outages page still dated 1:30 AM 11/27; Keokuk/Potomac/Lillian not listed but not marked resolved on a stale page; Kingshighway & Cabanne already tracked. MO DNR list did not load (data.mo.gov shows nothing for St. Louis 11/25-27). Lane 2: KFVS list unchanged since 11/25; New Madrid CWD2 already tracked; undated Maryland Heights/Bridgeton boil advisory story excluded as stale. Lane 3: WashU Alert none; Tao Tennis chilled-water closure now dated 11/25-12/7; nothing from BJC/Cortex/Loop. Lane 4: no social reports dated 11/26-27 in Ring 1.",
+    "open_count": 348,
+    "run_at": "2026-11-27T23:40:00Z",
+    "top_incident": "Ring 1: MAW main breaks in Clayton (146283) and University City (146125/146193) still posted with no street, impact possible (low); no boil order in St. Louis City or County."
   },
   "incidents": [
     {
@@ -6687,6 +6687,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water planned cut-and-cap work, Wellston, Nov 12 evening (alert 144633)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 5:40 PM CT 11/27 (Lane 1 only, ID probe): MAW alert 146695, emergency repairs from 5:00 PM 11/27, ~6 hr estimate (~11 PM); no street; no boil advisory. ~8 mi W of Danforth and West Campus (estimate); different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-27T23:40:00Z",
+      "id": "maw-westwood-unlocated-20261127",
+      "last_updated": "2026-11-27T23:40:00Z",
+      "location": "Westwood, MO (St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146695"
+      ],
+      "status": "open",
+      "title": "Missouri American Water emergency repairs, Westwood (alert 146695)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
