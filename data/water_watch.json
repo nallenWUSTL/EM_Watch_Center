@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "10:35-10:45 PM CT 11/26 four-lane run. Nothing new. MAW 146581/146585 re-opened: still active, no lift or expansion. ID probe 146622-146627, 146630, 146635 empty (not yet issued); 146628-29, 146631-34, 146636+ not opened. City Water outages.php (10:30 PM): 4 outage rows (W Florissant & Union, Southland & Finkmann, N Broadway & Mallinckrodt, Union & Brown), all already tracked, none near Ring 1; N Kingshighway/Cabanne still a work order only, no outage. Stale stlwater.com ?p=9725 boil page (Hi-Pointe/Franz Park) is the lifted 8/17 advisory, not current. WashU EM: only expired winter storm warning; Danforth and Med Campus Facilities: no domestic water notices; Tao Tennis chilled-water closure continues. KFVS list unchanged since 11/25 8:43 AM. Gaps: MAW index empty render, Reddit blocked, BJC/Cortex/Loop/MoDOT/Forest Park, MSD/Kirkwood/DNR sites not opened directly.",
+    "note": "11:35-11:45 PM CT 11/26 four-lane run. Nothing new; no incident records changed. MAW 146581/146585 and Clayton 146283 re-opened: unchanged, no lift or street. ID probe 146628-29, 146631-34, 146636, 146640, 146645, 146650 empty; 146637-39, 146641-44, 146646-49 not opened; restart probe at 146622. City Water outages.php (11:30 PM): same 4 tracked outages; Southland/Finkmann and N Broadway/Mallinckrodt ETRs passed but still listed (likely stale); N Kingshighway/Cabanne still a work order only. WashU EM and Facilities: no water notices; Tao Tennis chilled-water closure continues. KFVS list unchanged since 11/25 8:43 AM. Gaps: MAW index empty render, KSDK/FOX 2 Wildwood stories failed to load, MSD/Kirkwood/DNR, BJC/Cortex/Loop/MoDOT/Forest Park not opened; social search thin on holiday night.",
     "open_count": 338,
-    "run_at": "2026-11-27T04:45:00Z",
+    "run_at": "2026-11-27T05:45:00Z",
     "top_incident": "Ring 2: MAW precautionary boil advisories in Wildwood (146581, near MO-100/MO-109) and Wildwood/Ellisville (146585) still in effect after storm power outages; ~48 hr, earliest lift ~11/28 AM. No WashU asset on MAW there; Tyson is on well water."
   },
   "incidents": [
