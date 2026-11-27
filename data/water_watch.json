@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "5:40-5:50 AM CT 11/27 four-lane run. New: MAW 146640 St. Charles main-break investigation (Ring 3, impact none; may duplicate 146612). No other new items and no status changes. Lane 1: MAW IDs 146617-146652 probed; only 146639 (Ashley, likely PA), 146640, 146641 (CA) had content; next probe starts at 146653. 146283 Clayton, 146193 U City, 146345 Brentwood, 146612 St. Charles Co, 146581/146585 boil advisories still posted unchanged. stlwater.com (5:30 AM): same four outages and N Kingshighway & Cabanne work order; no City boil advisory. stlwater.com/?p=9725 is the stale Aug 17 2026 advisory (lifted 8/18), not current. Lane 3: emergency.washu.edu storm posts only; Facilities Tao Tennis chilled-water closure unchanged; Med Campus facilities no water items. Lanes 2 and 4: nothing new; KFVS Heartland list unchanged since 11/25 8:43 AM. Gaps: MO DNR boil page server error; MSD not checked; Reddit blocked; MAW alerts index renders no list; thin overnight holiday news indexing.",
+    "note": "6:35 AM CT 11/27 four-lane run: nothing new and no status changes. Lane 1: 146581/146585 re-opened, still active, no lift. stlwater.com/outages (updated 1:30 AM 11/27): same four outages (W Florissant & Union, Southland & Finkman, N Broadway & Mallinckrodt, Union & Brown ETR 12/1) and N Kingshighway & Cabanne work order; no City boil advisory. MAW ID probe 146653-146656, 146658, 146660 empty; 146657, 146659, 146661+ unchecked; next probe starts at 146653. Lane 2: KFVS Heartland list unchanged since 11/25 8:43 AM; stale items ruled out (Quincy 2025, Maryland Heights/Bridgeton advisory undated and lifted, Jan 28 2026 cold-snap breaks). Lane 3: emergency.washu.edu no water items; Facilities Tao Tennis chilled-water closure unchanged; Med Campus outages feed no water items since 11/14. Lane 4: no social reports. Gaps: MSD and MO DNR not checked; MAW alerts index renders no list; Nextdoor blocked; thin holiday news.",
     "open_count": 339,
-    "run_at": "2026-11-27T11:50:00Z",
-    "top_incident": "Ring 2: MAW precautionary boil advisories in Wildwood (146581, near MO-100/MO-109) and Wildwood/Ellisville (146585) still in effect ~5:45 AM 11/27; earliest lift ~11/28 7:30-8:45 AM. No WashU asset on MAW there; Tyson is on well water."
+    "run_at": "2026-11-27T12:35:00Z",
+    "top_incident": "Ring 2: MAW precautionary boil advisories in Wildwood (146581) and Wildwood/Ellisville (146585), issued 11/26 after power outages, still in effect ~6:35 AM 11/27; earliest lift ~11/28 7:30-8:45 AM. No WashU asset on MAW there; Tyson is on well water."
   },
   "incidents": [
     {
