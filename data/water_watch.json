@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "8:35-8:45 PM CT 11/26 four-lane run (Thanksgiving night). No new incidents. Wildwood advisory confirmed by KMOV/First Alert 4 (MO-100/MO-109) and alert pages; no lift. City Water outages.php (8:30 PM): same 4 active rows (Union/Brown-W Florissant ETR 12/1 9:41 PM; Union/Geraldine-Bircher; Southland/Finkman and N Broadway/Mallinckrodt with passed 11/24 ETRs); N Kingshighway/Cabanne still a work order only, no outage row. Clayton 146283 and U City 146125/146193 unchanged, likely stale. ID probe: 146629-146636, 146638, 146640, 146642, 146645, 146650, 146655, 146660 empty; gaps 146637, 146639, 146641, 146643-44, 146646-49, 146651-54, 146656-59 not opened; last non-empty still 146607. KFVS Heartland list unchanged since 11/25 8:43 AM. WashU Alert: only expired winter storm warning; Med Campus facilities outages feed nothing water-related; Tao Tennis chilled-water closure continues. Gaps: MAW alerts index (no entries rendered), MAW boil page and MO DNR (failed to load), MSD, BJC/Cortex/Loop/MoDOT/Forest Park, X/Facebook/Nextdoor thin.",
-    "open_count": 337,
-    "run_at": "2026-11-27T02:45:00Z",
-    "top_incident": "Ring 2: MAW precautionary boil advisories in Wildwood (146581, near MO-100/MO-109) and Wildwood/Ellisville (146585) still in effect after storm power outages; issued 7:30 and 8:45 AM 11/26, ~48 hr (earliest lift ~11/28 AM). No WashU asset on MAW there; Tyson is on well water."
+    "note": "9:35-9:45 PM CT 11/26 four-lane run. New: MAW 146612 St. Charles County main break (Ring 3, no street). ID probe 146608-146622, 146624: 146608-09 WV, 146610-11 IN lifts, 146612 St. Charles Co; 146613-22, 146624 empty; 146623, 146625+ not opened. City Water outages.php (9:30 PM): same 4 outage rows; Howard St 19th-20th and Partridge/McLaran no longer listed (kept monitoring, no confirmed restoration); N Kingshighway/Cabanne still a work order, no outage. Wildwood/Ellisville advisories reconfirmed on alert pages and FA4/FOX 2; no lift. Ameren ~120k out after storm; more power-loss advisories possible in west/SW County. WashU Alert: only expired winter storm warning; Med Campus facilities feed nothing water-related; Tao Tennis chilled-water closure continues. KFVS list unchanged since 11/25 8:43 AM. Gaps: MAW index empty render, Reddit blocked, BJC/Cortex/Loop/MoDOT/Forest Park and municipal pages not reached.",
+    "open_count": 338,
+    "run_at": "2026-11-27T03:45:00Z",
+    "top_incident": "Ring 2: MAW precautionary boil advisories in Wildwood (146581, near MO-100/MO-109) and Wildwood/Ellisville (146585) still in effect after storm power outages; ~48 hr, earliest lift ~11/28 AM. No WashU asset on MAW there; Tyson is on well water."
   },
   "incidents": [
     {
@@ -4731,6 +4731,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 9:45 PM CT 11/26 (Lane 1 only, ID probe): MAW alert 146612, emergency main-break repairs begun 11/26; no street, start time or ETR; no boil advisory on page. North of the Missouri River, ~15+ mi from Danforth/North Campus (estimate); separate St. Charles system; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-27T03:45:00Z",
+      "id": "maw-stcharlescounty-unlocated-20261126",
+      "last_updated": "2026-11-27T03:45:00Z",
+      "location": "St. Charles County, MO (municipality and street not published by utility)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146612"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, St. Charles County — emergency repairs (alert 146612)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "Resolved 9:40 AM CT 10/26: alert 142472/142473 no longer appears on the MAW active alerts index (Lanes 1 and 3, all 12 previously tracked MAW IDs gone; Lanes 2 and 4 consistent). Treated as repair complete / alert expired per utility index. No street change, no boil advisory (MAW boil page none; MO DNR none in St. Louis City/County). No WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Medium",
       "first_seen": "2026-10-23T03:35:00Z",
@@ -7512,16 +7530,16 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 11:45 AM CT 11/26 (Lane 1): no longer in the stlwater.com service-outage table (updated 11:30 AM 11/26); restoration not confirmed, so moved to monitoring, not resolved. Near north downtown; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 9:45 PM CT 11/26 (Lane 1): Howard St 19th-20th no longer appears in either table on the City Water outages page (updated 9:30 PM 11/26); the page does not state restoration, so kept in monitoring, not resolved. Near north downtown; no WashU asset; impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-19T16:40:00Z",
       "id": "stlwater-stlouiscity-howard-19th-20261119",
-      "last_updated": "2026-11-26T17:45:00Z",
+      "last_updated": "2026-11-27T03:45:00Z",
       "location": "Howard St between N 19th St and N 20th St, St. Louis City (63106)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/outages/"
+        "https://www.stlwater.com/outages.php"
       ],
       "status": "monitoring",
       "title": "City of St. Louis Water Division service outage, Howard St between 19th St and 20th St (near north downtown)",
@@ -8100,17 +8118,16 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 11:45 AM CT 11/26 (Lane 1): no longer in the stlwater.com outage table (updated 11:30 AM 11/26); completion not confirmed, so moved to monitoring, not resolved. North City; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 9:45 PM CT 11/26 (Lane 1): Partridge/McLaran no longer appears in either table on the City Water outages page (updated 9:30 PM 11/26); the page does not state completion, so kept in monitoring, not resolved. Far north City; no WashU asset; impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-18T17:45:00Z",
       "id": "stlwater-stlouiscity-partridge-mclaran-20261118",
-      "last_updated": "2026-11-26T17:45:00Z",
+      "last_updated": "2026-11-27T03:45:00Z",
       "location": "Partridge Ave & McLaran Ave, St. Louis City (Walnut Park area, far north City)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/outages.php",
-        "https://www.stlwater.com/outages"
+        "https://www.stlwater.com/outages.php"
       ],
       "status": "monitoring",
       "title": "City of St. Louis Water Division main repair, Partridge Ave & McLaran Ave (north City)",
