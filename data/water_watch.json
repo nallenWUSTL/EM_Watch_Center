@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "6:35 AM CT 11/27 four-lane run: nothing new and no status changes. Lane 1: 146581/146585 re-opened, still active, no lift. stlwater.com/outages (updated 1:30 AM 11/27): same four outages (W Florissant & Union, Southland & Finkman, N Broadway & Mallinckrodt, Union & Brown ETR 12/1) and N Kingshighway & Cabanne work order; no City boil advisory. MAW ID probe 146653-146656, 146658, 146660 empty; 146657, 146659, 146661+ unchecked; next probe starts at 146653. Lane 2: KFVS Heartland list unchanged since 11/25 8:43 AM; stale items ruled out (Quincy 2025, Maryland Heights/Bridgeton advisory undated and lifted, Jan 28 2026 cold-snap breaks). Lane 3: emergency.washu.edu no water items; Facilities Tao Tennis chilled-water closure unchanged; Med Campus outages feed no water items since 11/14. Lane 4: no social reports. Gaps: MSD and MO DNR not checked; MAW alerts index renders no list; Nextdoor blocked; thin holiday news.",
-    "open_count": 339,
-    "run_at": "2026-11-27T12:35:00Z",
-    "top_incident": "Ring 2: MAW precautionary boil advisories in Wildwood (146581) and Wildwood/Ellisville (146585), issued 11/26 after power outages, still in effect ~6:35 AM 11/27; earliest lift ~11/28 7:30-8:45 AM. No WashU asset on MAW there; Tyson is on well water."
+    "note": "7:40 AM CT 11/27 four-lane run: one new item, City Water main-repair work order at Keokuk St & S Spring Ave (opened 6:26 AM, Ring 2, no outage, impact none). Lane 1: 146581/146585 re-opened, still active, no lift; 146283 (Clayton), 146125/146193 (U City) still posted, stale. stlwater.com/outages (updated 7:30 AM): same four outages, N Kingshighway & Cabanne work order still listed; no City boil advisory. MAW ID probe: 146657, 146659, 146661-146665, 146670, 146675, 146680 empty; 146666-146669, 146671-146674, 146676-146679 unchecked. Lane 2: KFVS list unchanged since 11/25 8:43 AM; no Thanksgiving-weekend breaks in local media; Wildwood, Ellisville, U City homepages no water notices. Lane 3: emergency.washu.edu no alerts; Tao Tennis chilled-water notice unchanged. Lane 4: no social reports. Gaps: MSD, Kirkwood, MO DNR not checked; Med Campus outages page errored; FOX 2 failed to load; Reddit blocked.",
+    "open_count": 340,
+    "run_at": "2026-11-27T13:40:00Z",
+    "top_incident": "Ring 2: MAW precautionary boil advisories in Wildwood (146581) and Wildwood/Ellisville (146585), issued 11/26 after power outages, still in effect ~7:40 AM 11/27; earliest lift ~11/28 7:30-8:45 AM. No WashU asset on MAW there; Tyson is on well water."
   },
   "incidents": [
     {
@@ -7659,6 +7659,25 @@
       ],
       "status": "resolved",
       "title": "City of St. Louis Water Division service outage, January Ave & Nottingham Ave (Lindenwood Park / St. Louis Hills)",
+      "utility": "City of St. Louis Water Division",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 7:40 AM CT 11/27 (Lanes 1 and 3, stlwater.com outages page updated 7:30 AM): main-repair work order opened 6:26 AM 11/27; no matching service-outage row, no restoration estimate, no boil advisory. ~4-5 mi SE of the Medical Campus (estimate); not on a Ring 1 corridor or Medical Campus route; no WashU asset. Impact none. Resolve when dropped from work orders. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-27T13:40:00Z",
+      "id": "stlwater-stlouiscity-keokuk-sspring-20261127",
+      "last_updated": "2026-11-27T13:40:00Z",
+      "location": "Keokuk St & S Spring Ave, St. Louis City (Gravois Park / Dutchtown area, south City)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://www.stlwater.com/outages.php",
+        "https://www.stlwater.com/wateroos.php"
+      ],
+      "status": "open",
+      "title": "City Water main-repair work order, Keokuk St & S Spring Ave (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
     },
