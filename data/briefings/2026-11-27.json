@@ -1,0 +1,188 @@
+{
+  "bluf": "Storm is over; after-effects are the risk. 112k+ Ameren customers lost power Thursday with multi-day restoration warned, and lightly staffed WashU sites are likely uninspected. Students return Sat-Sun into a cold Sunday rain on snowmelt; classes resume Mon 30 Nov. Safety and health quiet; cyber is a holiday-weekend posture item.",
+  "briefing_url": "https://claude.ai/artifact/GwoAmdbTSAnCfuhF58SbzU",
+  "date": "2026-11-27",
+  "dissents": [
+    {
+      "note": "Became today's items 1 and 2; corroborated by Weather and Safety cross-cues.",
+      "title": "Storm after-effects underrated",
+      "verdict": "Adopted"
+    },
+    {
+      "note": "Kept Sev 4 for consequence, likelihood Low, posture check only.",
+      "title": "Vanderbilt BYOD attack overrated as trigger",
+      "verdict": "Partly adopted"
+    },
+    {
+      "note": "NWS calls Sunday rain light; Weather lane gives 30% for >0.5 in. Re-decide Saturday.",
+      "title": "Weekend winter weather overrated",
+      "verdict": "Carried"
+    },
+    {
+      "note": "Sev 4, Low likelihood; arborist sweep folded into item 2.",
+      "title": "Scenario: weakened limbs fall during Sunday move-back",
+      "verdict": "Carried"
+    }
+  ],
+  "lanes_quiet": [
+    2,
+    3
+  ],
+  "lookahead": [
+    {
+      "date": "2026-11-27",
+      "dow": "Fri",
+      "loads": "Storm recovery/outages; Blues 1 PM; Wild Lights opens; Black Friday",
+      "stacked": true,
+      "wx": "Dry, low-mid 40s; refreeze overnight"
+    },
+    {
+      "date": "2026-11-28",
+      "dow": "Sat",
+      "loads": "Students begin return; Blues 6 PM; Garden Glow; CITY SC Game 2 (likely away)",
+      "stacked": true,
+      "wx": "Dry, upper 40s-low 50s; rain overnight"
+    },
+    {
+      "date": "2026-11-29",
+      "dow": "Sun",
+      "loads": "Residence-hall return; holiday return travel",
+      "stacked": false,
+      "wx": "Widespread cold rain, 40s"
+    },
+    {
+      "date": "2026-11-30",
+      "dow": "Mon",
+      "loads": "Classes resume (inferred); MetroLink CWE single-tracking begins",
+      "stacked": false,
+      "wx": "Cooler, mostly dry"
+    },
+    {
+      "date": "2026-12-01",
+      "dow": "Tue",
+      "loads": "Missouri bill prefiling opens; Barnes Lodge fencing",
+      "stacked": false,
+      "wx": "Mostly dry; slight light-rain chance"
+    },
+    {
+      "date": "2026-12-02",
+      "dow": "Wed",
+      "loads": "Blues 7 PM; WashU women's basketball 7 PM; possible CITY SC Game 3 home",
+      "stacked": true,
+      "wx": "Warming, above 50"
+    },
+    {
+      "date": "2026-12-03",
+      "dow": "Thu",
+      "loads": "Dirt Nationals at The Dome 2 PM; possible Chaifetz concert",
+      "stacked": false,
+      "wx": "No clear signal"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "active",
+      "summary": "No NWS products in effect. Refreeze tonight; widespread cold rain Sun 29 Nov during return travel (>0.5 in up to 30%, small snow changeover chance). Rivers low, no quakes, no fire weather."
+    },
+    {
+      "name": "Life safety",
+      "pir": 2,
+      "status": "quiet",
+      "summary": "No Ring 1 violent incident, threat naming WashU, or large demonstration. Last WUPD alert 12 Nov. Undated Fox 2 CWE shooting report unconfirmed, likely older."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "watch",
+      "summary": "Early H1N1-dominant flu season; post-holiday rise expected as students return. Measles in Missouri away from St. Louis. No advisories, college outbreaks or diversion found."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "active",
+      "summary": "Storm outages ongoing; BYOD ransomware posture; CISA KEV adds incl. Danfoss building/refrigeration controllers (check inventory); MetroLink CWE single-tracking 30 Nov-5 Dec evenings."
+    },
+    {
+      "name": "Scheduled activity",
+      "pir": 5,
+      "status": "watch",
+      "summary": "No Ring 1 event over 5,000. Student return Sat-Sun, classes resume Mon 30 Nov. Stacked: Fri 27, Sat 28, Wed 2. Barnes Lodge fencing early Dec; 6200 Forsyth now opens early 2027."
+    },
+    {
+      "name": "Policy, legal, funding",
+      "pir": 6,
+      "status": "watch",
+      "summary": "Federal funding lapses after 11 Dec with no deal; DHS bill among hardest. FEMA restructuring pending. Missouri prefiling opens 1 Dec. No Clery/Title IX or confirmed travel-advisory changes."
+    }
+  ],
+  "posture": "Elevated",
+  "published_at": "2026-11-27T11:58:00Z",
+  "run_note": "All 7 lanes reported; charter read OK; run 05:52-06:00 CT. Lanes 2 and 3 quiet at threshold. Several live feeds (NWS alerts API, SPC/WPC, AirNow, CISA KEV, Ameren map) unreachable.",
+  "title": "WashU EM Daily Intelligence Briefing, November 27, 2026",
+  "today_items": [
+    {
+      "action": "Confirm power/heat at all assets incl. Tyson and Loop housing; Ameren Ring 1 status; off-campus student messaging and warming space.",
+      "confidence": "Medium",
+      "likelihood": "Occurring",
+      "owner": "EM, Facilities, Student Affairs, Communications",
+      "pir": 4,
+      "rank": 1,
+      "severity": 3,
+      "source": "https://www.stlpr.org/news-briefs/2026-11-26/thousands-st-louis-region-thanksgiving-day-without-power-ameren-snow",
+      "title": "Multi-day Ameren outages after the storm",
+      "ttd": "Today"
+    },
+    {
+      "action": "Walk down roofs/drains, West Campus basement archives, snow-loaded trees on walkways and residence-hall approaches, Tyson roads, 6200 Forsyth crane before Sunday rain.",
+      "confidence": "Medium",
+      "likelihood": "Medium",
+      "owner": "Facilities, EHS, EM",
+      "pir": 1,
+      "rank": 2,
+      "severity": 3,
+      "source": "https://www.stlpr.org/news-briefs/2026-11-26/thanksgiving-snowstorm-collapses-wentzville-ice-arena-mayor-calls-total-loss",
+      "title": "Uninspected storm damage at lightly staffed sites",
+      "ttd": "Today"
+    },
+    {
+      "action": "Confirm IT security on-call through Monday, tested offline backups, Medical Campus downtime procedures with BJC. Posture check only.",
+      "confidence": "High",
+      "likelihood": "Low",
+      "owner": "EM with WashU IT; Medical Campus Security",
+      "pir": 4,
+      "rank": 3,
+      "severity": 4,
+      "source": "https://www.malwarebytes.com/blog/news/2026/11/vanderbilt-restores-systems-after-cyberattack-as-hackers-claim-data-theft",
+      "title": "Ransomware posture over the holiday weekend (BYOD campaign vs peers)",
+      "ttd": "Today"
+    },
+    {
+      "action": "Treat steps, walks and garage ramps Friday evening; notify people on campus over break.",
+      "confidence": "Low",
+      "likelihood": "Medium",
+      "owner": "Facilities, EHS",
+      "pir": 1,
+      "rank": 4,
+      "severity": 2,
+      "source": "https://forecast.weather.gov/product.php?site=LSX&issuedby=LSX&product=AFD&format=txt&version=1&glossary=0",
+      "title": "Refreeze and black ice Fri night-Sat morning",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "Multi-day Ameren outages after Thanksgiving snow: confirm power and heat at every WashU asset, ask Ameren for Ring 1 status, prepare off-campus student messaging and a warming space.",
+  "unreachable": [
+    "NWS alerts API",
+    "SPC/WPC outlooks (stale)",
+    "AirNow AQI",
+    "CISA KEV pages",
+    "Ameren/Spire outage maps",
+    "STLtoday (paywall)",
+    "KSDK homepage",
+    "CDC respiratory/wastewater dashboards",
+    "St. Louis County DPH",
+    "Clayton/U City/County PD releases",
+    "Vendor status pages"
+  ]
+}
