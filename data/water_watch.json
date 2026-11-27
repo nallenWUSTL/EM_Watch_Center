@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "12:35-12:45 AM CT 11/27 four-lane run. New: City Water outage N Kingshighway at Lillian (Lane 3, from stlwater.com/outages/ stamped 1:30 AM 11/26; not on outages.php, may be stale). Updated: MAW St. Charles County 146612 ETR ~8 AM 11/27. Wildwood 146581/146585 re-opened, still active. Highest populated American Water alert ID 146612; 146613-146680 sampled empty; restart probe at 146613. outages.php (12:30 AM 11/27): Union Blvd Brown-W Florissant (ETR 12/1), W Florissant & Union, Kingshighway/Cabanne, Southland/Finkmann, Mallinckrodt/N Broadway (ETRs passed). WashU Alert, Danforth and Medical Campus Facilities: no water notices; Tao Tennis closure through 12/7. KFVS list unchanged since 11/25 8:43 AM. Gaps: MSD, Kirkwood, MO DNR, Cortex/Loop/MoDOT/BJC pages not opened; MAW index renders empty; holiday-night news and social thin.",
-    "open_count": 339,
-    "run_at": "2026-11-27T06:45:00Z",
-    "top_incident": "Ring 2: MAW precautionary boil advisories in Wildwood (146581, near MO-100/MO-109) and Wildwood/Ellisville (146585) still in effect after storm power outages; ~48 hr, earliest lift ~11/28 7:30-8:45 AM. No WashU asset on MAW there; Tyson is on well water."
+    "note": "1:40-1:50 AM CT 11/27 four-lane run. Nothing new in Ring 1 or Ring 2. Resolved: City Water N Kingshighway Penrose-Lillian outage (off both outage pages stamped 1:30 AM 11/27). Re-verified unchanged: MAW 146581/146585 boil advisories active; 146612 St. Charles Co ETR ~8 AM 11/27; 146283 Clayton, 146595 Glendale, 146607 Ballwin still posted (stale, no street). City Water still listed: Union Brown-W Florissant (ETR 12/1), W Florissant & Union (Geraldine-Bircher), Mallinckrodt/N Broadway, Southland/Finkmann (ETRs passed), N Kingshighway & Cabanne work order. American Water IDs 146613-146616, 146618, 146620, 146625 empty; restart probe at 146613. WashU Alert: no water notices (winter storm warning expired 6 PM 11/26); Tao Tennis chilled-water closure through 12/7. KFVS list unchanged since 11/25 8:43 AM. Gaps: MAW index and boil page fetch failed; MSD, Kirkwood, MO DNR not opened; X/Reddit not indexable; holiday-night news thin.",
+    "open_count": 338,
+    "run_at": "2026-11-27T07:50:00Z",
+    "top_incident": "Ring 2: MAW precautionary boil advisories in Wildwood (146581, near MO-100/MO-109) and Wildwood/Ellisville (146585) re-verified still in effect after storm power outages; earliest lift ~11/28 7:30-8:45 AM. No WashU asset on MAW there; Tyson is on well water."
   },
   "incidents": [
     {
@@ -7987,18 +7987,19 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 12:45 AM CT 11/27 (Lane 3 only): stlwater.com/outages/ (page stamped 1:30 AM 11/26) lists water out of service since 11:14 AM 11/19, ETR 7:14 PM Fri 11/27. Not shown on outages.php (stamped 12:30 AM 11/27) per Lane 1, so may be stale or already restored. North City, ~4-5 mi N of the Medical Campus (estimate); separate from the N Kingshighway & Cabanne work order; no WashU asset; not a Ring 1 corridor segment. No boil advisory. Impact none. Resolve when dropped from both outage pages. Owner: Emergency Management (track only).",
+      "assessment": "Resolved 1:50 AM CT 11/27 (Lanes 1 and 3 independently): row no longer listed on either City Water outage page (stlwater.com/outages/ and outages.php, both stamped 1:30 AM 11/27), meeting this record's resolve criterion. No explicit restoration notice; treated as cleared per utility table. North City, ~4-5 mi N of the Medical Campus; no WashU asset; impact none. Owner: Emergency Management (closed).",
       "confidence": "Low",
       "first_seen": "2026-11-27T06:45:00Z",
       "id": "stlwater-stlouiscity-nkingshighway-lillian-20261119",
-      "last_updated": "2026-11-27T06:45:00Z",
+      "last_updated": "2026-11-27T07:50:00Z",
       "location": "N Kingshighway Blvd at Lillian Ave, between Penrose and Lillian, north St. Louis City",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/outages/"
+        "https://www.stlwater.com/outages/",
+        "https://www.stlwater.com/outages.php"
       ],
-      "status": "open",
+      "status": "resolved",
       "title": "City Water outage, N Kingshighway Blvd between Penrose St and Lillian Ave",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
