@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "2:45 PM CT 11/27 four-lane run: no new or changed incidents affecting WashU. New: IAW Peoria main break with boil order on restoration (146687/146689), Ring 3, impact none. Updated: City Water Keokuk Bamberger-Giles outage dropped from stlwater.com outages page (2:30 PM) -> monitoring. Lane 1: MAW IDs 146683-146690 populated but out of state (NJ, IN) except Peoria; 146691-146693, 146695 blank; 146694, 146696+ unchecked (start next probe ~146691). MAW boil page and MO DNR unreachable; Kirkwood and MSD not checked. Lane 2: KFVS list unchanged since 11/25; no storm-related water advisories found. Lane 3: emergency.washu.edu no alerts; Facilities shows only Tao Tennis chilled-water work (11/25-12/7, unchanged) and Wallace Dr no longer posted. Lane 4: no social reports; platforms not fetched directly. Not reached: BJC, Cortex, Loop, Forest Park, MoDOT, local TV sites.",
+    "note": "3:45 PM CT 11/27 four-lane run: no new or changed incidents. Lane 1: ID probe 146694 and 146696-146701 blank (next probe start ~146702); all seven Ring 1 MAW alerts re-opened, unchanged and stale (ETRs long passed, no streets); 146669, 146645 (St. Louis County) and 146665 (Eureka) unchanged; stlwater.com outages and work orders (3:30 PM) match tracked rows, Keokuk/Bamberger-Giles still off. MAW alerts index rendered empty (script-loaded); MSD, Kirkwood, MO DNR not checked. Lane 2: KFVS list unchanged since 11/25 (Millstone, New Madrid CWD 2 already tracked); no St. Louis-area news items dated 11/26-27; Jan 2026 freeze-break and undated Maryland Heights boil stories excluded as stale. Lane 3: WashU Alert no alerts; Facilities no new water notices (Tao Tennis chilled-water work unchanged); Kingshighway & Cabanne WO already tracked; BJC, Cortex, Loop, Forest Park, MoDOT not reached. Lane 4: no social reports dated 11/26-27; U City offices closed until 11/30.",
     "open_count": 346,
-    "run_at": "2026-11-27T20:45:00Z",
+    "run_at": "2026-11-27T21:45:00Z",
     "top_incident": "Ring 1: MAW main breaks in Clayton (146283) and University City (146125/146193) still posted with no street, impact possible (low); no boil order in St. Louis City or County."
   },
   "incidents": [
