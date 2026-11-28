@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "8:40 AM CT 11/28 four-lane run: no new St. Louis City/County incidents. Lane 1: MAW 146716/146718/146720 (Webster Groves, Florissant, Pine Lawn) still posted unchanged; Ring 1 MAW alerts unchanged; new IDs 146721-146724 are IN/PA except 146723 Belleville investigation (added, Ring 3); 146725+ empty. stlwater outages page (5:30 AM) no new entries; Keokuk/Giles, Howard, Partridge, Riverview, Eichelberger, Lynch, Angelica not shown (left in monitoring, lift unconfirmed). Lane 2: KMOV corroborates Manchester Sulphur Springs Rd/Tulsa Ave break (146700); KFVS list unchanged since 11/25. Lane 3: WashU emergency page no alerts; Tao Tennis chilled-water closure unchanged; Med Campus Facilities no water items. Lane 4: no dated social posts. MSD and MO DNR not opened directly.",
-    "open_count": 354,
-    "run_at": "2026-11-28T14:40:00Z",
+    "note": "9:45 AM CT 11/28 four-lane run: no new St. Louis City/Ring 1 incidents. Lane 1: new MAW 146729 Florissant main break (9 AM start, ~3 PM ETR; added, Ring 2); new IAW 146725 Mt. Prospect (added, Ring 3); IAW 146727 Alton boil lift posted but no open tracked Alton boil-order event to tie it to (only investigation 145481), so nothing changed; 146726 Seymour and 146728 Portage IN out of area; 146730-146734 empty. 146716/146718/146720 and Ring 1 146283/146125/146193 still posted unchanged. stlwater outages page (9:30 AM) unchanged; Kingshighway & Cabanne, Union, Southland, N Broadway rows already tracked. MO DNR: no boil orders in St. Louis City/County. Lane 2: Wildwood boil advisory lift confirmed by KMOV (already resolved); Manchester break unchanged; KFVS list unchanged since 11/25; FOX 2 page unusable. Lane 3: WashU emergency page no alerts; Tao Tennis chilled-water closure unchanged; Med Campus Facilities no water items. Lane 4: no dated social posts. MSD, Kirkwood not opened.",
+    "open_count": 356,
+    "run_at": "2026-11-28T15:45:00Z",
     "top_incident": "Ring 1: MAW main breaks in Clayton (146283, 144021) and University City (146125/146193) still posted with no street, ETR or update (likely stale postings), impact possible (low); no boil order in St. Louis City or County."
   },
   "incidents": [
@@ -891,6 +891,24 @@
       ],
       "status": "monitoring",
       "title": "Illinois American Water emergency repairs with boil order on restoration, Mt. Prospect, IL (alert 146315)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 9:45 AM CT 11/28 (Lane 1 only, ID probe): IAW alert 146725, main break from 9:00 AM 11/28, ~7 hr estimate, boil order once service is restored. ~280 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-28T15:45:00Z",
+      "id": "ilaw-mtprospect-unlocated-20261128",
+      "last_updated": "2026-11-28T15:45:00Z",
+      "location": "Mt. Prospect, IL (Cook County, Chicago area; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146725"
+      ],
+      "status": "open",
+      "title": "Illinois American Water main break with boil order on restoration, Mt. Prospect, IL (alert 146725)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
     },
@@ -3151,6 +3169,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Florissant — emergency repairs (alerts 146718, 146717)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 9:45 AM CT 11/28 (Lane 1 only, ID probe): MAW alert 146729, main-break emergency repairs from 9:00 AM 11/28, ~6 hr estimate (~3 PM); no street; no boil advisory. Separate from tracked 146718 (7 AM start). ~9-10 mi N of Danforth and North Campus; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-28T15:45:00Z",
+      "id": "maw-florissant-unlocated-20261128b",
+      "last_updated": "2026-11-28T15:45:00Z",
+      "location": "Florissant, MO (north St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146729"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Florissant — emergency repairs (alert 146729)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
