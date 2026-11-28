@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "6:50 AM CT 11/28 four-lane run: no new or changed incidents. Lane 1: stlwater outages page (updated 5:30 AM) unchanged, 4 outages and 6 work orders, all already tracked (N Kingshighway & Cabanne, Keokuk & S Spring, Potomac & Michigan hydrant); City Water news newest 8/25; MAW alert pages (146715-146725) render client-side and returned no content, script probe blocked (403), amwater.com/moaw/alerts showed none — MAW status changes unverifiable this run; MO DNR no St. Louis-area orders (latest statewide 10/28); MSD billing maintenance only; Kirkwood no notices. Lane 2: KFVS Heartland list unchanged since 11/25 8:43 AM (Millstone WD already tracked; Devils Kitchen already resolved); no dated local news 11/27-28; U City only holiday closure. Lane 3: WashU emergency page no alerts; Tao Tennis chilled-water closure unchanged (11/25-12/7); Med Campus Facilities newest 11/23 (generator transfer 11/30 5-6 AM, non-water); no BJC/Cortex/Loop/Forest Park notices. Lane 4: no dated social posts 11/27-28; stlwater ?p=9725 stale Aug advisory.",
-    "open_count": 350,
-    "run_at": "2026-11-28T12:50:00Z",
-    "top_incident": "Ring 1: MAW main breaks in Clayton (146283) and University City (146125/146193) still carried with no street, ETR or update (likely stale postings), impact possible (low); no boil order in St. Louis City or County."
+    "note": "7:45 AM CT 11/28 four-lane run: 3 new Ring 2 MAW main breaks, all started 7:00 AM 11/28 with ~6 hr ETR, no streets, no boil advisory, impact none: Webster Groves (146716/146715), Pine Lawn (146720/146719), Florissant (146718/146717). Lane 1: Ring 1 MAW alerts 144021, 146283, 146125, 146193, 143300 re-opened, still posted unchanged; stlwater outages page (7:30 AM) unchanged, 4 outages and 6 work orders all tracked; City Water news newest 8/25; MAW IDs 146721-146727/146730/146740 empty; MSD, Kirkwood, MO DNR not opened directly (search found nothing). Lane 2: KFVS Heartland list unchanged since 11/25 8:43 AM (New Madrid CWD 2 already tracked); no dated local news 11/27-28; stlwater ?p=9725 stale Aug advisory. Lane 3: WashU emergency page no alerts; Tao Tennis chilled-water closure unchanged; Med Campus Facilities no water items; BJC/Cortex/Loop/Forest Park/MoDOT pages not opened directly. Lane 4: no dated social posts 11/27-28.",
+    "open_count": 353,
+    "run_at": "2026-11-28T13:45:00Z",
+    "top_incident": "Ring 1: MAW main breaks in Clayton (146283) and University City (146125/146193) still posted with no street, ETR or update (likely stale postings), impact possible (low); no boil order in St. Louis City or County."
   },
   "incidents": [
     {
@@ -3119,6 +3119,25 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 7:45 AM CT 11/28 (Lane 1 only, ID probe): MAW alert 146718, main-break emergency repairs from 7:00 AM 11/28, ~6 hr estimate (~1 PM); companion investigation 146717 warns of low or no pressure; no street; no boil advisory. ~10 mi N of Danforth and North Campus; different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-28T13:45:00Z",
+      "id": "maw-florissant-unlocated-20261128",
+      "last_updated": "2026-11-28T13:45:00Z",
+      "location": "Florissant, MO (north St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146718",
+        "https://alertsdetail.awapps.com/alert/146717"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Florissant — emergency repairs (alerts 146718, 146717)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 3:45 PM CT 11/26 (Lane 1 only, ID probe): MAW alert 146602, investigation of a possible service issue, low or no pressure possible; no street, times or boil advisory. ~35+ mi from Tyson (own well supply), farther from the campuses; separate system; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-26T21:45:00Z",
@@ -4434,6 +4453,25 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Pine Lawn — emergency repairs (alert 146588)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 7:45 AM CT 11/28 (Lane 1 only, ID probe): MAW alert 146720, main-break emergency repairs from 7:00 AM 11/28, ~6 hr estimate (~1 PM); companion investigation 146719; no street; no boil advisory. ~3-4 mi N/NW of North Campus (estimate); different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. Escalate if a street near Natural Bridge or the Delmar corridor is published. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-28T13:45:00Z",
+      "id": "maw-pinelawn-unlocated-20261128",
+      "last_updated": "2026-11-28T13:45:00Z",
+      "location": "Pine Lawn, MO (north St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146720",
+        "https://alertsdetail.awapps.com/alert/146719"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Pine Lawn — emergency repairs (alerts 146720, 146719)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -6652,6 +6690,25 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Webster Groves — emergency repairs (alerts 146338, 146332)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 7:45 AM CT 11/28 (Lane 1 only, ID probe): MAW alert 146716, main-break emergency repairs from 7:00 AM 11/28, ~6 hr estimate (~1 PM); companion investigation 146715 warns of low or no pressure; no street; no boil advisory. Separate IDs from tracked Webster Groves investigations 146648/146691 (11/27). ~4-5 mi SE of South and West Campus (estimate); different pressure zone; no WashU asset; no Ring 1 corridor. Impact none. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-28T13:45:00Z",
+      "id": "maw-webstergroves-unlocated-20261128",
+      "last_updated": "2026-11-28T13:45:00Z",
+      "location": "Webster Groves, MO (mid St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146716",
+        "https://alertsdetail.awapps.com/alert/146715"
+      ],
+      "status": "open",
+      "title": "Missouri American Water main break, Webster Groves — emergency repairs (alerts 146716, 146715)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
