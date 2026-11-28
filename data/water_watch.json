@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "11:45 AM CT 11/28 four-lane run: nothing new in Ring 1 or 2. Lane 1: new MAW St. Charles precautionary boil advisory 146740 (11:15 AM, ~48 hr; Ring 3, St. Charles County) plus investigations 146737/146738 added to the tracked St. Charles County record; 146739 Union Township likely out of state; 146741-146753, 146755, 146760, 146765, 146770 empty. 146283, 146125, 146193, 144021 re-opened, unchanged. stlwater outages page (5:30 AM) still lists W Florissant/Union, Union/Brown (ETR 12/1 9:41 PM), Southland/Finkman, N Broadway/Mallinckrodt; Lanes 1 and 3 still see the Kingshighway/Cabanne, Keokuk/S Spring and Potomac/Michigan work orders, Lane 4 does not, so left unchanged. MAW alerts index blank, MO DNR boil page error, MSD blocked, Kirkwood stale. Lane 2: Wildwood MO 100/109 boil advisory lifted ~10 AM 11/27 (KMOV), Wildwood record moved to monitoring; Manchester Sulphur Springs/Tulsa break already tracked; KFVS list unchanged since 11/25. Lane 3: WashU emergency page no alerts; Tao Tennis chilled-water closure 11/25-12/7 unchanged. Lane 4: no dated social posts.",
-    "open_count": 358,
-    "run_at": "2026-11-28T17:45:00Z",
+    "note": "12:40 PM CT 11/28 four-lane run: nothing new in Ring 1. Lane 1 (ID probe; MAW index blank): new MAW investigations Ladue 146744 (low/no pressure, no street, Ring 2, ~1.5-3 mi W of Danforth) and Olivette 146745 (private-property repair, Ring 2); Ring 3 Belleville 146742 investigation and Lincoln IL 146731 boil order added. 146746-146775 empty. St. Charles precautionary boil advisory 146740 unchanged (~48 hr, to ~11:15 AM 11/30; no news coverage). Clayton/U City/Richmond Heights alerts unchanged. Lane 3: stlwater outages page (5:30 AM) unchanged incl. N Kingshighway/Cabanne; WashU emergency page no alerts; Med Campus facilities notices none water-related. Lane 2: KFVS list unchanged since 11/25; no new St. Louis news items. Lane 4: no dated social posts. MSD, Kirkwood, MO DNR not checked this run.",
+    "open_count": 362,
+    "run_at": "2026-11-28T18:40:00Z",
     "top_incident": "Ring 1: MAW main breaks in Clayton (146283, 144021) and University City (146125/146193) still posted unchanged with no street or update (likely stale postings), impact possible (low); no boil order in St. Louis City or County."
   },
   "incidents": [
@@ -360,6 +360,24 @@
       ],
       "status": "open",
       "title": "American Water service investigation, Belleville (alert 146723)",
+      "utility": "Illinois American Water (probable)",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:40 PM CT 11/28 (Lane 1 only, ID probe): alert 146742, investigation, low or no pressure possible; no streets, times or boil order. Separate ID from tracked 146723. ~15-20 mi E; separate system; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-28T18:40:00Z",
+      "id": "ilaw-belleville-investigation-20261128b",
+      "last_updated": "2026-11-28T18:40:00Z",
+      "location": "Belleville (state not printed; most likely Belleville, IL, St. Clair County, Metro East; street not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146742"
+      ],
+      "status": "open",
+      "title": "American Water service investigation, Belleville — possible low/no pressure (alert 146742)",
       "utility": "Illinois American Water (probable)",
       "washu_impact": "none"
     },
@@ -817,6 +835,24 @@
       ],
       "status": "open",
       "title": "Illinois American Water main break with boil order, Lincoln, IL (alert 146134)",
+      "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:40 PM CT 11/28 (Lane 1 only, ID probe): IAW alert 146731, boil order after a main break from ~9 AM 11/28. ~150 mi NE; separate system; no WashU asset. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-28T18:40:00Z",
+      "id": "ilaw-lincoln-unlocated-20261128",
+      "last_updated": "2026-11-28T18:40:00Z",
+      "location": "Lincoln, IL (Logan County; streets not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146731"
+      ],
+      "status": "open",
+      "title": "Illinois American Water main break with boil order, Lincoln, IL (alert 146731)",
       "utility": "Illinois American Water",
       "washu_impact": "none"
     },
@@ -3721,6 +3757,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 12:40 PM CT 11/28 (Lane 1 only, ID probe): MAW alert 146744, investigation of a possible service issue, low or no pressure possible; no street, start or end time; no boil advisory. Ladue borders Clayton; ~1.5-3 mi W of Danforth/West Campus, exact location unknown; different municipality from WashU assets; no Ring 1 corridor named. Impact none. No news or social corroboration (Lanes 2, 4). Escalate if a street near Clayton Rd, Big Bend or Forsyth is published. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-28T18:40:00Z",
+      "id": "maw-ladue-investigation-20261128",
+      "last_updated": "2026-11-28T18:40:00Z",
+      "location": "Ladue, MO (mid St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146744"
+      ],
+      "status": "open",
+      "title": "Missouri American Water service investigation, Ladue — possible low/no pressure (alert 146744)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 4:40 PM CT 11/17 (Lane 1 only, ID probe): MAW alert 145479, main-break emergency repairs 11/17, restoration ~9:45 PM (wording ambiguous); no street, no start time; no boil advisory (MO DNR none in St. Louis City/County). Ladue borders Clayton; ~1-3 mi W of West Campus, Danforth and South Campus depending on location; pressure zone unknown; no WashU asset; not on a Ring 1 corridor as far as known. Impact none. Escalate if a street east of Lindbergh near Clayton Rd, Litzsinger, Warson or Brentwood Blvd is published, or a boil advisory is posted. No news or social corroboration (Lanes 2, 4). Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-17T22:40:00Z",
@@ -4229,6 +4283,24 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, Northwoods — emergency repairs (alert 146316)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 12:40 PM CT 11/28 (Lane 1 only, ID probe): MAW alert 146745, private-property repair causing no water or low pressure for some customers; no street or times; no boil advisory. ~3-4 mi W of Danforth; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-28T18:40:00Z",
+      "id": "maw-olivette-investigation-20261128",
+      "last_updated": "2026-11-28T18:40:00Z",
+      "location": "Olivette, MO (mid St. Louis County; street not published by utility)",
+      "ring": 2,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146745"
+      ],
+      "status": "open",
+      "title": "Missouri American Water investigation, Olivette — private-property repair causing no water/low pressure (alert 146745)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
