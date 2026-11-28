@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "9:45 AM CT 11/28 four-lane run: no new St. Louis City/Ring 1 incidents. Lane 1: new MAW 146729 Florissant main break (9 AM start, ~3 PM ETR; added, Ring 2); new IAW 146725 Mt. Prospect (added, Ring 3); IAW 146727 Alton boil lift posted but no open tracked Alton boil-order event to tie it to (only investigation 145481), so nothing changed; 146726 Seymour and 146728 Portage IN out of area; 146730-146734 empty. 146716/146718/146720 and Ring 1 146283/146125/146193 still posted unchanged. stlwater outages page (9:30 AM) unchanged; Kingshighway & Cabanne, Union, Southland, N Broadway rows already tracked. MO DNR: no boil orders in St. Louis City/County. Lane 2: Wildwood boil advisory lift confirmed by KMOV (already resolved); Manchester break unchanged; KFVS list unchanged since 11/25; FOX 2 page unusable. Lane 3: WashU emergency page no alerts; Tao Tennis chilled-water closure unchanged; Med Campus Facilities no water items. Lane 4: no dated social posts. MSD, Kirkwood not opened.",
-    "open_count": 356,
-    "run_at": "2026-11-28T15:45:00Z",
-    "top_incident": "Ring 1: MAW main breaks in Clayton (146283, 144021) and University City (146125/146193) still posted with no street, ETR or update (likely stale postings), impact possible (low); no boil order in St. Louis City or County."
+    "note": "10:45 AM CT 11/28 four-lane run: nothing new in Ring 1 or 2. Lane 1: new MAW 146735/146736 St. Charles County investigation (added, Ring 3); 146737-146741 and 146743 empty; 146283, 146125, 146193 re-opened, unchanged. stlwater outages page (5:30 AM) lists 4 active outages (W Florissant/Union, Union/Brown ETR 12/1 9:41 PM, Southland/Finkman, N Broadway/Mallinckrodt), all tracked; Lanes 1 and 4 disagree on whether the Keokuk/S Spring and Potomac/Michigan work orders are still listed, so left unchanged. City Water current advisories empty. MAW alerts index, MAW boil page and MO DNR boil page failed to load; MSD and Kirkwood not checked. Lane 2: no dated metro stories; KFVS Heartland list unchanged since 11/25 (New Madrid CWD 2, Millstone already tracked). Lane 3: WashU emergency page no alerts; Tao Tennis chilled-water closure unchanged; Med Campus Facilities no water items. Lane 4: no dated social posts.",
+    "open_count": 357,
+    "run_at": "2026-11-28T16:45:00Z",
+    "top_incident": "Ring 1: MAW main breaks in Clayton (146283, 144021) and University City (146125/146193) still posted unchanged with no street, ETR or update (likely stale postings), impact possible (low); no boil order in St. Louis City or County."
   },
   "incidents": [
     {
@@ -4892,6 +4892,25 @@
       ],
       "status": "open",
       "title": "Missouri American Water main break, St. Charles — emergency repairs (alert 146336)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 10:45 AM CT 11/28 (Lane 1 only, ID probe): MAW alerts 146735 and 146736 (likely duplicates), investigation of a possible service issue, low or no pressure possible; start, end and Last Updated blank; no boil advisory. Across the Missouri River, separate system; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-28T16:45:00Z",
+      "id": "maw-stcharlescounty-investigation-20261128",
+      "last_updated": "2026-11-28T16:45:00Z",
+      "location": "St. Charles County, MO (no municipality or street published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146735",
+        "https://alertsdetail.awapps.com/alert/146736"
+      ],
+      "status": "open",
+      "title": "Missouri American Water service investigation, St. Charles County — possible low/no pressure (alerts 146735, 146736)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
