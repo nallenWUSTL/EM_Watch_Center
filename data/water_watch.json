@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "12:40 PM CT 11/28 four-lane run: nothing new in Ring 1. Lane 1 (ID probe; MAW index blank): new MAW investigations Ladue 146744 (low/no pressure, no street, Ring 2, ~1.5-3 mi W of Danforth) and Olivette 146745 (private-property repair, Ring 2); Ring 3 Belleville 146742 investigation and Lincoln IL 146731 boil order added. 146746-146775 empty. St. Charles precautionary boil advisory 146740 unchanged (~48 hr, to ~11:15 AM 11/30; no news coverage). Clayton/U City/Richmond Heights alerts unchanged. Lane 3: stlwater outages page (5:30 AM) unchanged incl. N Kingshighway/Cabanne; WashU emergency page no alerts; Med Campus facilities notices none water-related. Lane 2: KFVS list unchanged since 11/25; no new St. Louis news items. Lane 4: no dated social posts. MSD, Kirkwood, MO DNR not checked this run.",
+    "note": "1:45 PM CT 11/28 four-lane run: nothing new in Ring 1 or 2. Lane 1: MAW IDs 146746-146753 probed; only 146746 Merrillville IN and 146747 Peters Twp PA (out of region, not tracked); 146748+ empty. St. Charles boil advisory 146740 still active (~to 11:15 AM 11/30). 146283/146125/146193 still posted unchanged. stlwater outages page (1:30 PM): Keokuk/Giles and Louisiana/Cherokee hydrant dropped (moved to monitoring); N Kingshighway/Cabanne work order unchanged. Kirkwood, MSD nothing current. Lane 2: KFVS list unchanged since 11/25; no dated local news. Lane 3: WashU emergency page no alerts; Facilities Tao Tennis chilled-water closure unchanged (to 12/7). Lane 4: no dated social posts; undated Clayton PD Nextdoor 'Water Main Break UPDATE' and undated FOX 2 Overland boil story could not be opened or dated (not recorded). Unreachable: MAW alerts index render, MO DNR boil table, Nextdoor.",
     "open_count": 362,
-    "run_at": "2026-11-28T18:40:00Z",
+    "run_at": "2026-11-28T19:45:00Z",
     "top_incident": "Ring 1: MAW main breaks in Clayton (146283, 144021) and University City (146125/146193) still posted unchanged with no street or update (likely stale postings), impact possible (low); no boil order in St. Louis City or County."
   },
   "incidents": [
@@ -8053,11 +8053,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 2:45 PM CT 11/27 (Lane 1): outage no longer listed on the stlwater.com outages page (stamped 2:30 PM 11/27), well before its 11:14 PM ETR, suggesting service restored; not confirmed, so moved to monitoring, not resolved. Keokuk & S Spring main-repair work order still listed. ~4 mi SE of the Medical Campus; no WashU asset. Impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 1:45 PM CT 11/28 (Lane 1): Keokuk/Giles outage no longer listed on the stlwater.com outages page (updated 1:30 PM 11/28); probably restored, no completion notice, so kept in monitoring. Related Keokuk/S Spring main-repair work order still listed. South City, Ring 2; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-27T17:45:00Z",
       "id": "stlwater-stlouiscity-keokuk-giles-20261127",
-      "last_updated": "2026-11-27T20:45:00Z",
+      "last_updated": "2026-11-28T19:45:00Z",
       "location": "Keokuk St between Bamberger Ave and Giles Ave, St. Louis City (south City, near tracked Keokuk & S Spring main repair)",
       "ring": 2,
       "single_source": true,
@@ -8146,19 +8146,18 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 10:40 PM CT 11/27 (Lane 1): hydrant repair work order is listed again on stlwater.com wateroos (stamped 10:30 PM 11/27), still showing initiated 1:10 PM 11/21; returned to open. Likely the same unfinished work order, not a new event. ~3-4 mi SE of the Medical Campus; no WashU asset; impact none. Owner: Emergency Management (track only).",
+      "assessment": "Updated 1:45 PM CT 11/28 (Lane 1): no longer listed on the stlwater.com outages/work-order page (updated 1:30 PM 11/28); probably complete, but no completion notice, so moved to monitoring, not resolved. South City, Ring 2, ~4+ mi from Medical Campus; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-22T00:40:00Z",
       "id": "stlwater-stlouiscity-louisiana-cherokee-hydrant-20261121",
-      "last_updated": "2026-11-28T04:40:00Z",
+      "last_updated": "2026-11-28T19:45:00Z",
       "location": "Louisiana Ave & Cherokee St, St. Louis City (Benton Park West / Gravois Park)",
       "ring": 2,
       "single_source": true,
       "sources": [
-        "https://www.stlwater.com/outages",
-        "https://www.stlwater.com/wateroos.php"
+        "https://www.stlwater.com/outages.php"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "City of St. Louis Water Division fire hydrant repair, Louisiana Ave & Cherokee St (south City)",
       "utility": "City of St. Louis Water Division",
       "washu_impact": "none"
