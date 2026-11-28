@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "5:40 PM CT 11/27 four-lane run: one new Ring 2 item, MAW 146695 Westwood emergency repairs from 5 PM (impact none). Lane 1: probed 146694-146703 (146694 WV out of region; 146696-146703 blank; next probe start 146696); all Ring 1 MAW alerts still posted unchanged with no streets (likely stale postings); 146669 still posted past ETR. stlwater.com outages page still dated 1:30 AM 11/27; Keokuk/Potomac/Lillian not listed but not marked resolved on a stale page; Kingshighway & Cabanne already tracked. MO DNR list did not load (data.mo.gov shows nothing for St. Louis 11/25-27). Lane 2: KFVS list unchanged since 11/25; New Madrid CWD2 already tracked; undated Maryland Heights/Bridgeton boil advisory story excluded as stale. Lane 3: WashU Alert none; Tao Tennis chilled-water closure now dated 11/25-12/7; nothing from BJC/Cortex/Loop. Lane 4: no social reports dated 11/26-27 in Ring 1.",
+    "note": "6:45 PM CT 11/27 four-lane run: nothing new, no incident records changed. Lane 1: probed 146696-146704 (146696 Blakely PA; 146697-146704 blank; next probe start 146697); all Ring 1 and watch-list MAW alerts still posted unchanged, no boil advisory; 144012 not checked. stlwater.com outages page updated 6:30 PM 11/27 lists only W Florissant/Union, Union/Brown, Southland/Finkman, N Broadway/Mallinckrodt (all already tracked, Ring 2); Keokuk Bamberger-Giles dropped off the outages table (already monitoring, lift unconfirmed); Keokuk & S Spring, Potomac & Michigan and N Kingshighway & Cabanne still on the work-order list. MAW boil page, MSD and MO DNR not reached. Lane 2: KFVS list unchanged since 11/25 8:43 AM; KMOV Wildwood Route 100/109 boil advisory is the already-resolved 146581 event. Lane 3: WashU emergency page no alerts; Tao Tennis chilled-water closure unchanged (11/25-12/7); Medical Campus Facilities nothing water-related. Lane 4: no social reports dated 11/26-27.",
     "open_count": 348,
-    "run_at": "2026-11-27T23:40:00Z",
+    "run_at": "2026-11-28T00:45:00Z",
     "top_incident": "Ring 1: MAW main breaks in Clayton (146283) and University City (146125/146193) still posted with no street, impact possible (low); no boil order in St. Louis City or County."
   },
   "incidents": [
