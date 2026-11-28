@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "10:45 AM CT 11/28 four-lane run: nothing new in Ring 1 or 2. Lane 1: new MAW 146735/146736 St. Charles County investigation (added, Ring 3); 146737-146741 and 146743 empty; 146283, 146125, 146193 re-opened, unchanged. stlwater outages page (5:30 AM) lists 4 active outages (W Florissant/Union, Union/Brown ETR 12/1 9:41 PM, Southland/Finkman, N Broadway/Mallinckrodt), all tracked; Lanes 1 and 4 disagree on whether the Keokuk/S Spring and Potomac/Michigan work orders are still listed, so left unchanged. City Water current advisories empty. MAW alerts index, MAW boil page and MO DNR boil page failed to load; MSD and Kirkwood not checked. Lane 2: no dated metro stories; KFVS Heartland list unchanged since 11/25 (New Madrid CWD 2, Millstone already tracked). Lane 3: WashU emergency page no alerts; Tao Tennis chilled-water closure unchanged; Med Campus Facilities no water items. Lane 4: no dated social posts.",
-    "open_count": 357,
-    "run_at": "2026-11-28T16:45:00Z",
-    "top_incident": "Ring 1: MAW main breaks in Clayton (146283, 144021) and University City (146125/146193) still posted unchanged with no street, ETR or update (likely stale postings), impact possible (low); no boil order in St. Louis City or County."
+    "note": "11:45 AM CT 11/28 four-lane run: nothing new in Ring 1 or 2. Lane 1: new MAW St. Charles precautionary boil advisory 146740 (11:15 AM, ~48 hr; Ring 3, St. Charles County) plus investigations 146737/146738 added to the tracked St. Charles County record; 146739 Union Township likely out of state; 146741-146753, 146755, 146760, 146765, 146770 empty. 146283, 146125, 146193, 144021 re-opened, unchanged. stlwater outages page (5:30 AM) still lists W Florissant/Union, Union/Brown (ETR 12/1 9:41 PM), Southland/Finkman, N Broadway/Mallinckrodt; Lanes 1 and 3 still see the Kingshighway/Cabanne, Keokuk/S Spring and Potomac/Michigan work orders, Lane 4 does not, so left unchanged. MAW alerts index blank, MO DNR boil page error, MSD blocked, Kirkwood stale. Lane 2: Wildwood MO 100/109 boil advisory lifted ~10 AM 11/27 (KMOV), Wildwood record moved to monitoring; Manchester Sulphur Springs/Tulsa break already tracked; KFVS list unchanged since 11/25. Lane 3: WashU emergency page no alerts; Tao Tennis chilled-water closure 11/25-12/7 unchanged. Lane 4: no dated social posts.",
+    "open_count": 358,
+    "run_at": "2026-11-28T17:45:00Z",
+    "top_incident": "Ring 1: MAW main breaks in Clayton (146283, 144021) and University City (146125/146193) still posted unchanged with no street or update (likely stale postings), impact possible (low); no boil order in St. Louis City or County."
   },
   "incidents": [
     {
@@ -4771,6 +4771,24 @@
     },
     {
       "affected_assets": [],
+      "assessment": "New 11:45 AM CT 11/28 (Lane 1 only, ID probe): MAW alert 146740, precautionary boil water advisory for a main break, issued 11:15 AM CT 11/28, expected ~48 hr (~11:15 AM 11/30, no official end). Probably the outcome of the tracked St. Charles County investigations (146735-146738). Not in St. Louis City or County; separate St. Charles system; ~20+ mi from Danforth; no WashU asset; no Ring 1 corridor. Impact none. Resolve when lift posted. Owner: Emergency Management (track only).",
+      "confidence": "Medium",
+      "first_seen": "2026-11-28T17:45:00Z",
+      "id": "maw-stcharles-boiladvisory-20261128",
+      "last_updated": "2026-11-28T17:45:00Z",
+      "location": "St. Charles, MO (St. Charles County, north of the Missouri River; no streets or boundaries published, utility points to its alerts map)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146740"
+      ],
+      "status": "open",
+      "title": "Missouri American Water precautionary boil water advisory after main break, St. Charles (alert 146740)",
+      "utility": "Missouri American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
       "assessment": "New 5:45 AM CT 11/27 (Lane 1 only, ID probe): MAW alert 146640 reports a main break in the area, with crews still finding the exact spot; no streets, start time, ETR or boil advisory. Possibly the same event as tracked 146612 (St. Charles County), not confirmed. 15+ mi from Danforth and North Campus; separate St. Charles system; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-27T11:45:00Z",
@@ -4897,20 +4915,22 @@
     },
     {
       "affected_assets": [],
-      "assessment": "New 10:45 AM CT 11/28 (Lane 1 only, ID probe): MAW alerts 146735 and 146736 (likely duplicates), investigation of a possible service issue, low or no pressure possible; start, end and Last Updated blank; no boil advisory. Across the Missouri River, separate system; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "assessment": "Updated 11:45 AM CT 11/28 (Lane 1, ID probe): two more St. Charles County investigation alerts, 146737 and 146738, no time or location; MAW then posted St. Charles boil advisory 146740 (11:15 AM), likely the same event, tracked separately. Separate system; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-28T16:45:00Z",
       "id": "maw-stcharlescounty-investigation-20261128",
-      "last_updated": "2026-11-28T16:45:00Z",
+      "last_updated": "2026-11-28T17:45:00Z",
       "location": "St. Charles County, MO (no municipality or street published)",
       "ring": 3,
       "single_source": true,
       "sources": [
         "https://alertsdetail.awapps.com/alert/146735",
-        "https://alertsdetail.awapps.com/alert/146736"
+        "https://alertsdetail.awapps.com/alert/146736",
+        "https://alertsdetail.awapps.com/alert/146737",
+        "https://alertsdetail.awapps.com/alert/146738"
       ],
       "status": "open",
-      "title": "Missouri American Water service investigation, St. Charles County — possible low/no pressure (alerts 146735, 146736)",
+      "title": "Missouri American Water service investigation, St. Charles County — possible low/no pressure (alerts 146735-146738)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
     },
@@ -6882,11 +6902,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 8:50 AM CT 11/26 (Lane 1, ID probe): fifth Wildwood investigation alert 146582 (possible low or no pressure; start, update and end fields blank); likely tied to the power outage behind boil advisory 146581. Tyson ~7-9 mi on well water; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "assessment": "Updated 11:45 AM CT 11/28 (Lane 2): KMOV/First Alert 4 reports the power-outage precautionary boil advisory for homes near MO 100 and MO 109, Wildwood (issued 7:30 AM 11/26, MAW 146581), was lifted ~10 AM Fri 11/27. Investigation alerts not confirmed dropped, so moved to monitoring, not resolved. Tyson on well water, not affected; no WashU asset. Impact none. Owner: Emergency Management (track only).",
       "confidence": "Low",
       "first_seen": "2026-11-26T13:45:00Z",
       "id": "maw-wildwood-investigation-20261126",
-      "last_updated": "2026-11-26T14:50:00Z",
+      "last_updated": "2026-11-28T17:45:00Z",
       "location": "Wildwood, MO (far west St. Louis County; streets not published)",
       "ring": 2,
       "single_source": true,
@@ -6895,9 +6915,10 @@
         "https://alertsdetail.awapps.com/alert/146574",
         "https://alertsdetail.awapps.com/alert/146576",
         "https://alertsdetail.awapps.com/alert/146577",
-        "https://alertsdetail.awapps.com/alert/146582"
+        "https://alertsdetail.awapps.com/alert/146582",
+        "https://www.firstalert4.com/2026/11/26/power-outage-prompts-boil-water-advisory-some-wildwood-residents/"
       ],
-      "status": "open",
+      "status": "monitoring",
       "title": "Missouri American Water service investigations, Wildwood — possible low/no pressure (alerts 146573, 146574, 146576, 146577, 146582)",
       "utility": "Missouri American Water",
       "washu_impact": "none"
