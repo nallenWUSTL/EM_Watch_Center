@@ -1,0 +1,233 @@
+{
+  "bluf": "Thanksgiving snowstorm aftermath drives today: Ameren had ~58k customers out at 5 PM Fri with multi-day restoration, though no WashU asset is named. Sunday brings rain to mid-afternoon, then NW gusts 35-40 mph 1 PM-midnight onto a storm-weakened canopy and the 6200 Forsyth crane during peak student return. No NWS products, Ring 1 violence, threats, health advisories or CISA directives.",
+  "briefing_url": "https://claude.ai/artifact/SnN12t1A55uNeZWupmcEtQ",
+  "date": "2026-11-28",
+  "dissents": [
+    {
+      "note": "Overrules Weather lane, which omitted the storm aftermath; now item 1.",
+      "title": "Storm-weakened trees underrated",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Briefing uses Health lane Sev 2; Red Team Sev 3 kept visible.",
+      "title": "Flu severity 3 vs 2",
+      "verdict": "dissent"
+    },
+    {
+      "note": "Outside 24 h threshold; Monitor.",
+      "title": "Peer ransomware overrated",
+      "verdict": "adopted"
+    },
+    {
+      "note": "Violence outside Ring 1 agreed Monitor; outage kept at Today due to crew backlog.",
+      "title": "Regional outages overrated",
+      "verdict": "partly rejected"
+    },
+    {
+      "note": "Red Team inference vs Weather lane ~10% isolated refreeze; dawn grounds check.",
+      "title": "Monday black ice",
+      "verdict": "dissent"
+    },
+    {
+      "note": "Sev 4, Low; covered by item 2 preparations.",
+      "title": "Scenario: limb downs feeder to halls/Medical Campus Sunday",
+      "verdict": "dissent"
+    }
+  ],
+  "lanes_quiet": [
+    2,
+    3
+  ],
+  "lookahead": [
+    {
+      "date": "2026-11-28",
+      "dow": "Sat",
+      "loads": "Blues 6 PM; CITY SC at LAFC 7:30 PM; Wild Lights; early returns",
+      "stacked": false,
+      "wx": "Partly sunny, mid 50s; rain after midnight"
+    },
+    {
+      "date": "2026-11-29",
+      "dow": "Sun",
+      "loads": "Peak student return + wind on weakened canopy + crane + Ameren backlog",
+      "stacked": true,
+      "wx": "Rain to mid-afternoon; NW gusts 35-40 mph; low upper 20s"
+    },
+    {
+      "date": "2026-11-30",
+      "dow": "Mon",
+      "loads": "Classes resume; Steinberg Rink Opening Night 6-10 PM; Congress returns",
+      "stacked": true,
+      "wx": "Sunny, upper 40s; slight dawn refreeze risk"
+    },
+    {
+      "date": "2026-12-01",
+      "dow": "Tue",
+      "loads": "Normal academic day; MO prefiling opens (approx.)",
+      "stacked": false,
+      "wx": "Partly cloudy, low 50s"
+    },
+    {
+      "date": "2026-12-02",
+      "dow": "Wed",
+      "loads": "Blues 7 PM + SLU 7 PM + possible CITY SC Game 3 7 PM; evening I-64 load",
+      "stacked": true,
+      "wx": "Mostly sunny, low 60s"
+    },
+    {
+      "date": "2026-12-03",
+      "dow": "Thu",
+      "loads": "Gateway Dirt Nationals begin; pre-finals load",
+      "stacked": false,
+      "wx": "Mid 60s; rain likely late, possible thunder"
+    },
+    {
+      "date": "2026-12-04",
+      "dow": "Fri",
+      "loads": "Blues 7 PM + Dirt Nationals + Forest Park evening events",
+      "stacked": true,
+      "wx": "20% rain, low 60s, cooling"
+    }
+  ],
+  "pirs": [
+    {
+      "name": "Weather and natural hazards",
+      "pir": 1,
+      "status": "watch",
+      "summary": "No NWS products. Sunday rain then 35-40 mph gusts; SPC no severe. Monday sunny. Thu Dec 3 rain/thunder chance. River, quakes, fire weather quiet; AQI unconfirmed."
+    },
+    {
+      "name": "Life safety",
+      "pir": 2,
+      "status": "quiet",
+      "summary": "Nothing met threshold Nov 25-28. This week: confirm swatting-hoax protocol before Monday return."
+    },
+    {
+      "name": "Public health and Medical Campus",
+      "pir": 3,
+      "status": "watch",
+      "summary": "No advisories, outbreaks or diversion. Early H1N1 flu season meets returning students; CDC data gap until Nov 30. Measles 25 MO cases, no active exposures."
+    },
+    {
+      "name": "Cyber and infrastructure",
+      "pir": 4,
+      "status": "active",
+      "summary": "Ameren regional outage backlog (no WashU asset named). MetroLink Blue Line cut, airport stations closed through Dec 28. CISA KEV adds. No 24 h university/hospital ransomware."
+    },
+    {
+      "name": "Scheduled activity",
+      "pir": 5,
+      "status": "watch",
+      "summary": "Classes resume Nov 30; Steinberg Rink opening Mon evening; Wed Dec 2 downtown stack (Blues, SLU, possible CITY SC). Finals Dec 10-16."
+    },
+    {
+      "name": "Policy, legal, funding",
+      "pir": 6,
+      "status": "watch",
+      "summary": "Federal CR and NFIP expire Dec 11; another CR expected, length disputed; lapse possible. MO prefiling ~Dec 1."
+    }
+  ],
+  "posture": "Elevated",
+  "published_at": "2026-11-28T11:59:00Z",
+  "run_note": "Charter read OK. 7/7 lanes reported. Run 05:52-06:00 CT. Ameren item re-verified (counts as of 5 PM Fri). Posture Elevated (low end): storm aftermath plus Sunday wind during student return; returns to Normal Monday if canopy checks are clean.",
+  "title": "WashU EM Daily Intelligence Briefing, November 28, 2026",
+  "today_items": [
+    {
+      "action": "Walk Danforth, South 40, Forest Park edges for hanging limbs and blocked drains; close hazards before 1 PM Sun.",
+      "confidence": "Medium",
+      "likelihood": "Medium",
+      "owner": "Facilities, EM",
+      "pir": "1/4",
+      "rank": 1,
+      "severity": 3,
+      "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202611281114-KLSX-FXUS63-AFDLSX",
+      "title": "Storm-weakened trees + Sunday gusts during student return",
+      "ttd": "Today"
+    },
+    {
+      "action": "Check WashU service addresses on Ameren map (Tyson, West Campus first); confirm generator fuel; direct Ameren contact; pre-identify warming space.",
+      "confidence": "Medium-High",
+      "likelihood": "Occurring",
+      "owner": "Facilities, EM, Student Affairs",
+      "pir": "4",
+      "rank": 2,
+      "severity": 3,
+      "source": "https://www.yahoo.com/news/weather-news/articles/ameren-makes-progress-restoring-power-231708250.html",
+      "title": "Ameren regional restoration backlog (~58k out 5 PM Fri)",
+      "ttd": "Today"
+    },
+    {
+      "action": "Confirm contractor crane wind limit and site securing before Sunday.",
+      "confidence": "Medium-High",
+      "likelihood": "High",
+      "owner": "Facilities, EHS",
+      "pir": "1",
+      "rank": 3,
+      "severity": 2,
+      "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202611281114-KLSX-FXUS63-AFDLSX",
+      "title": "6200 Forsyth crane in 35-40 mph gusts Sun 1 PM-midnight",
+      "ttd": "Today"
+    },
+    {
+      "action": "One return-travel note: rain/delays, North Hanley airport shuttle, Blue Line transfer.",
+      "confidence": "High",
+      "likelihood": "High",
+      "owner": "Communications, Student Affairs",
+      "pir": "4/5",
+      "rank": 4,
+      "severity": 2,
+      "source": "https://metrostlouis.org/rider-alerts",
+      "title": "Wet Sunday return travel; MetroLink airport stations closed, Blue Line cut",
+      "ttd": "Today"
+    },
+    {
+      "action": "Ask IT/ISO whether WashU/BJC runs MiCollab or Danfoss controllers and patch status.",
+      "confidence": "Medium",
+      "likelihood": "Medium",
+      "owner": "EM to IT/ISO",
+      "pir": "4",
+      "rank": 5,
+      "severity": 2,
+      "source": "https://content.govdelivery.com/accounts/USDHSCISA/bulletins/4332383",
+      "title": "CISA KEV adds Nov 25 (Mitel MiCollab, Danfoss AK-SM 800A, Juniper SSR, Xen Orchestra)",
+      "ttd": "Today"
+    },
+    {
+      "action": "Dining vendor checks inventory against recall lots.",
+      "confidence": "Medium",
+      "likelihood": "Low",
+      "owner": "Student Affairs (Dining), EHS",
+      "pir": "3",
+      "rank": 6,
+      "severity": 2,
+      "source": "https://health.mo.gov/citizens/food-drug-recalls?page=0",
+      "title": "Listeria recalls, RTE biscuit sandwiches",
+      "ttd": "Today"
+    },
+    {
+      "action": "Check result after ~9:30 PM; if Game 3, flag Wed evening I-64 stack.",
+      "confidence": "High",
+      "likelihood": "Medium",
+      "owner": "EM",
+      "pir": "5",
+      "rank": 7,
+      "severity": 2,
+      "source": "https://mlssoccer.com/news/mls-announces-schedule-for-audi-2026-mls-cup-playoffs-round-one-best-of-3-series",
+      "title": "CITY SC Game 2 tonight decides Wed Dec 2 Game 3 at Energizer Park",
+      "ttd": "Today"
+    }
+  ],
+  "top_item": "Storm-weakened trees plus Sunday 35-40 mph gusts during student return: walk Danforth, South 40 and Forest Park edges for hanging limbs and blocked drains before 1 PM Sunday.",
+  "unreachable": [
+    "cisa.gov alert pages",
+    "FOX2/KSDK local pages",
+    "AirNow AQI widget",
+    "St. Louis County DPH",
+    "REN-ISAC/Health-ISAC",
+    "police department releases (index only)",
+    "WPC",
+    "SEMA/Federal Register",
+    "MoDOT current work zones",
+    "vendor status pages"
+  ]
+}
