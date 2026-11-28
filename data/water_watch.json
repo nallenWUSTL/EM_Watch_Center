@@ -1,10 +1,10 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "7:45 AM CT 11/28 four-lane run: 3 new Ring 2 MAW main breaks, all started 7:00 AM 11/28 with ~6 hr ETR, no streets, no boil advisory, impact none: Webster Groves (146716/146715), Pine Lawn (146720/146719), Florissant (146718/146717). Lane 1: Ring 1 MAW alerts 144021, 146283, 146125, 146193, 143300 re-opened, still posted unchanged; stlwater outages page (7:30 AM) unchanged, 4 outages and 6 work orders all tracked; City Water news newest 8/25; MAW IDs 146721-146727/146730/146740 empty; MSD, Kirkwood, MO DNR not opened directly (search found nothing). Lane 2: KFVS Heartland list unchanged since 11/25 8:43 AM (New Madrid CWD 2 already tracked); no dated local news 11/27-28; stlwater ?p=9725 stale Aug advisory. Lane 3: WashU emergency page no alerts; Tao Tennis chilled-water closure unchanged; Med Campus Facilities no water items; BJC/Cortex/Loop/Forest Park/MoDOT pages not opened directly. Lane 4: no dated social posts 11/27-28.",
-    "open_count": 353,
-    "run_at": "2026-11-28T13:45:00Z",
-    "top_incident": "Ring 1: MAW main breaks in Clayton (146283) and University City (146125/146193) still posted with no street, ETR or update (likely stale postings), impact possible (low); no boil order in St. Louis City or County."
+    "note": "8:40 AM CT 11/28 four-lane run: no new St. Louis City/County incidents. Lane 1: MAW 146716/146718/146720 (Webster Groves, Florissant, Pine Lawn) still posted unchanged; Ring 1 MAW alerts unchanged; new IDs 146721-146724 are IN/PA except 146723 Belleville investigation (added, Ring 3); 146725+ empty. stlwater outages page (5:30 AM) no new entries; Keokuk/Giles, Howard, Partridge, Riverview, Eichelberger, Lynch, Angelica not shown (left in monitoring, lift unconfirmed). Lane 2: KMOV corroborates Manchester Sulphur Springs Rd/Tulsa Ave break (146700); KFVS list unchanged since 11/25. Lane 3: WashU emergency page no alerts; Tao Tennis chilled-water closure unchanged; Med Campus Facilities no water items. Lane 4: no dated social posts. MSD and MO DNR not opened directly.",
+    "open_count": 354,
+    "run_at": "2026-11-28T14:40:00Z",
+    "top_incident": "Ring 1: MAW main breaks in Clayton (146283, 144021) and University City (146125/146193) still posted with no street, ETR or update (likely stale postings), impact possible (low); no boil order in St. Louis City or County."
   },
   "incidents": [
     {
@@ -343,6 +343,24 @@
       "status": "open",
       "title": "American Water leak investigation, Belleville — possible low/no pressure (alert 145606)",
       "utility": "Illinois American Water",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New 8:40 AM CT 11/28 (Lane 1 only, ID probe): alert 146723, service investigation; no streets, times or boil order. ~15-20 mi E; separate system; no WashU asset. Impact none. Resolve when dropped. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-28T14:40:00Z",
+      "id": "ilaw-belleville-investigation-20261128",
+      "last_updated": "2026-11-28T14:40:00Z",
+      "location": "Belleville (state not printed; most likely Belleville, IL, St. Clair County, Metro East; street not published)",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://alertsdetail.awapps.com/alert/146723"
+      ],
+      "status": "open",
+      "title": "American Water service investigation, Belleville (alert 146723)",
+      "utility": "Illinois American Water (probable)",
       "washu_impact": "none"
     },
     {
@@ -3775,11 +3793,11 @@
     },
     {
       "affected_assets": [],
-      "assessment": "Updated 4:45 AM CT 11/28 (Lanes 1 and 4): KMOV/First Alert 4 (posted 9:46 PM CT 11/27) reports Manchester police said water was running onto the road from a main break near Sulphur Springs Rd and Tulsa Ave, reported ~9 PM 11/27; no ETR or boil advisory. MAW 146700 still posted as crews locating the break; utility not named by KMOV, MAW inferred. ~13 mi W of West Campus and Danforth; Tyson ~9-10 mi on its own well; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
+      "assessment": "Updated 8:40 AM CT 11/28 (Lane 2): KMOV/First Alert 4 corroborates a main break near Sulphur Springs Rd and Tulsa Ave, Manchester, reported ~9 PM 11/27; crews on scene, water on roadway; no closures, outage area, boil advisory or ETR given. ~11-12 mi W of West Campus; Tyson on well water; no WashU asset; no Ring 1 corridor. Impact none. Resolve when dropped from MAW alerts. Owner: Emergency Management (track only).",
       "confidence": "Medium",
       "first_seen": "2026-11-28T03:40:00Z",
       "id": "maw-manchester-investigation-20261127",
-      "last_updated": "2026-11-28T10:45:00Z",
+      "last_updated": "2026-11-28T14:40:00Z",
       "location": "Near Sulphur Springs Rd & Tulsa Ave, Manchester, MO (west St. Louis County)",
       "ring": 2,
       "single_source": false,
