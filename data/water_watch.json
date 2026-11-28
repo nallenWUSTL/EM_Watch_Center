@@ -1,9 +1,9 @@
 {
   "latest": {
     "alert_level": "watch",
-    "note": "12:45 AM CT 11/28 four-lane run: no new or changed incidents. Lane 1: AW ID frontier 146701-146703 (CA, NJ, unstated South Park; none MO/IL); 146704, 146731-146733, 146735, 146740, 146750, 146760 empty (next probe start 146734); 146125, 146193, 146283, 146700 still posted unchanged. stlwater outages.php 12:30 AM 11/28: same 4 outages and 6 work orders (Southland/Finkmann and N Broadway/Mallinckrodt ETRs from 11/24 passed but still listed; Union/Brown ETR 12/1); City boil advisory none (undated stlwater ?p=9725 page judged a leftover). Undated MAW Bridgeton/Maryland Heights/Earth City boil advisory story (aol/yahoo) not tied to Nov 2026, not logged. MO DNR, MSD, Kirkwood not reached. Lane 2: no Nov 27-28 local news items; KFVS list unchanged since 11/25 8:43 AM (lists New Madrid County WD #2 west of Hwy 61 since 11/19, Ring 3, impact none); FOX 2 '3 water main breaks across St. Louis County' article failed to load, date unknown, retry next run. Lane 3: WashU emergency page no alerts; Med Facilities outages latest 11/23, none water; Tao Tennis chilled-water closure unchanged; Wallace Dr completion unconfirmed; Clayton news still erroring; BJC, Cortex, Loop, MoDOT not reached directly. Lane 4: no social reports; stale stlwater.com/outages/ page (stamped 1:30 AM 11/27) disregarded in favor of outages.php.",
-    "open_count": 349,
-    "run_at": "2026-11-28T06:45:00Z",
+    "note": "1:45 AM CT 11/28 four-lane run: one Ring 3 item newly tracked (Millstone WD Pope County IL Dixon Springs/Rte 146 boil order dated 11/25, from KFVS list); no other new or changed incidents. Lane 1: MAW Westwood 146695, Manchester 146700, Webster Groves 146691 re-seen, already tracked; 146283, 146125, 146193, 146345, 146607 still posted unchanged; true AW ID frontier ~146703 (146704-146745 and spot checks to 146800 empty; next probe start 146704). stlwater outages.php 1:30 AM 11/28: 4 outages, 6 work orders, N Kingshighway & Cabanne still open; City boil advisory none; wateroos.php judged stale. MSD, Kirkwood, MO DNR not reached. Lane 2: no Nov 27-28 local news; KFVS list unchanged since 11/25 8:43 AM; FOX 2 '3 water main breaks' article still fails to load, a Jan 28 2026 FOX 2/Yahoo roundup may be it; KSDK 'emergency boil advisory lifted' (Clayton/U City area) undated, failed to load, retry. Lane 3: WashU emergency page no alerts; Facilities news nothing after 11/20, Tao Tennis chilled-water closure unchanged; BJC, Loop, Forest Park no notices; Clayton news erroring, Cortex unreadable. Lane 4: no social reports (low coverage).",
+    "open_count": 350,
+    "run_at": "2026-11-28T07:45:00Z",
     "top_incident": "Ring 1: MAW main breaks in Clayton (146283) and University City (146125/146193) still posted with no street, ETR or update (likely stale postings), impact possible (low); no boil order in St. Louis City or County."
   },
   "incidents": [
@@ -6913,6 +6913,24 @@
       ],
       "status": "resolved",
       "title": "Millstone Water District boil order, 135 Eddyville Black Top and Clark Rd (Pope County, IL)",
+      "utility": "Millstone Water District",
+      "washu_impact": "none"
+    },
+    {
+      "affected_assets": [],
+      "assessment": "New to tracking 1:45 AM CT 11/28 (Lane 2 only, KFVS Heartland list last updated 8:43 AM CT 11/25): boil order issued Wed 11/25; status not stated. ~140 mi SE; separate system; no WashU asset. Impact none. Resolve when lift reported. Owner: Emergency Management (track only).",
+      "confidence": "Low",
+      "first_seen": "2026-11-28T07:45:00Z",
+      "id": "millstone-popecounty-dixonsprings-20261125",
+      "last_updated": "2026-11-28T07:45:00Z",
+      "location": "Dixon Springs pump station area along IL Route 146 to Homberg Rd, Pope County, IL",
+      "ring": 3,
+      "single_source": true,
+      "sources": [
+        "https://kfvs12.com/2021/10/14/current-boil-water-ordersadvisories-heartland"
+      ],
+      "status": "open",
+      "title": "Millstone Water District boil order, Dixon Springs pump station area along Route 146 to Homberg Rd (Pope County, IL)",
       "utility": "Millstone Water District",
       "washu_impact": "none"
     },
